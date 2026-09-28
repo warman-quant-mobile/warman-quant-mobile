@@ -52,12 +52,11 @@ def process(folder,statepath,now):
     s['equity']+=pnl;s['positions'].remove(p)
     trade=dict(**p,status='CLOSED',exit_time=ts,exit=price,reason='STOP' if stophit else 'TARGET',pnl=round(pnl,2),multiple=round(pnl/p['risk'],3))
     s['trades'].append(trade);new.append(trade.copy())
-   if i+1>=len(a) or any(p['symbol']==sym for p in s['pending']+s['positions']):continue
+   if any(p['symbol']==sym for p in s['pending']+s['positions']):continue
    prior=a[i-N:i];hi=max(x['h'] for x in prior);lo=min(x['l'] for x in prior)
    side='LONG' if b['c']>hi else 'SHORT' if b['c']<lo else None
    if side:
-    due=a[i+1]['t']
-    if due-b['t']!=timedelta(hours=1):continue
+    due=b['t']+timedelta(hours=1)
     sig=dict(id=sym+':'+ts+':'+side,symbol=sym,side=side,signal_time=ts,due=due.isoformat(),stop=lo if side=='LONG' else hi,status='TRIGGERED')
     s['pending'].append(sig);new.append(sig.copy())
   s['seen'][sym]=a[-1]['t'].isoformat()
