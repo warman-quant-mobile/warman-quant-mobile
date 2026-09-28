@@ -1,41 +1,49 @@
-
-name: Warman Quant Collector
-
+name: Warman Quant Collector and Paperdesk
 on:
   workflow_dispatch:
   schedule:
     - cron: '12 * * * 1-5'
-
 permissions:
   contents: read
-
+concurrency:
+  group: paperdesk-state
+  cancel-in-progress: false
 jobs:
   collect:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
-
+    timeout-minutes: 20
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
-
-      - name: Install Python
-        uses: actions/setup-python@v5
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
         with:
           python-version: '3.11'
-
+      - name: Restore previous paper journal
+        uses: actions/cache/restore@v4
+        with:
+          path: state/
+          key: paperdesk-${{ github.run_id }}-${{ github.run_attempt }}
+          restore-keys: |
+            paperdesk-
       - name: Install dependencies
         run: pip install -r requirements.txt
-
       - name: Collect market data
         run: python collector.py
-
       - name: Validate market data
         run: python validate.py output
-
-      - name: Upload results
+      - name: Run research-only paperdesk
+        run: python paperdesk.py --folder output --state state/paperdesk.json
+      - name: Persist journal
+        if: success()
+        uses: actions/cache/save@v4
+        with:
+          path: state/
+          key: paperdesk-${{ github.run_id }}-${{ github.run_attempt }}
+      - name: Upload audit and journal
         if: always()
         uses: actions/upload-artifact@v4
         with:
           name: Warman-Quant-Data
-          path: output/
-          retention-days: 7
+          path: |
+            output/
+            state/
+          retention-days: 90
