@@ -31,8 +31,12 @@ def get_series(ticker, interval, period):
     if missing: raise ValueError(f'missing columns: {missing}')
     df = raw[REQUIRED].copy().sort_index()
     df = df[~df.index.duplicated(keep='last')]
-    if df.index.tz is None: raise ValueError('timestamps lack timezone')
-    df.index = df.index.tz_convert(timezone.utc)
+    if interval == '1d':
+        # Daily bars represent exchange session dates, not UTC instants.
+        df.index = pd.to_datetime(df.index.date).tz_localize(timezone.utc)
+    else:
+        if df.index.tz is None: raise ValueError('intraday timestamps lack timezone')
+        df.index = df.index.tz_convert(timezone.utc)
     numeric = df[REQUIRED].apply(pd.to_numeric, errors='coerce')
     df = numeric.dropna(subset=['Open','High','Low','Close'])
     if df.empty: raise ValueError('no valid OHLC rows')
@@ -40,6 +44,7 @@ def get_series(ticker, interval, period):
     if invalid.any(): raise ValueError(f'{int(invalid.sum())} invalid OHLC rows')
     df['Volume'] = df.Volume.fillna(0)
     df['timestamp_utc'] = df.index.strftime('%Y-%m-%dT%H:%M:%SZ')
+    if interval == '1d': df['session_date'] = df.index.strftime('%Y-%m-%d')
     return df
 
 def main():
@@ -60,11 +65,14 @@ def main():
             try:
                 df=get_series(ticker,interval,period)
                 filename=f'{name.replace("/","_")}_{interval}.csv'
-                df[['timestamp_utc']+REQUIRED].to_csv(out/filename,index=False)
+                cols=(['session_date','timestamp_utc'] if interval=='1d' else ['timestamp_utc'])+REQUIRED
+                df[cols].to_csv(out/filename,index=False)
                 last=df.index[-1].to_pydatetime()
                 result[interval]={'file':filename,'rows':len(df),'last_bar_timestamp_utc':last.isoformat(),
                                   'age_hours_at_export':round((now-last).total_seconds()/3600,2),
                                   'volume_nonzero_rows':int((df.Volume>0).sum()),
+                                  'timestamp_semantics':('session_date' if interval=='1d' else 'bar_start_utc'),
+                                  'last_bar_provisional':bool(interval=='1h' and last >= now.replace(minute=0,second=0,microsecond=0)),
                                   'note':'Index volume may be zero/unavailable; never infer exchange traded volume.'}
                 print(f'OK {name:14} {interval:3} {len(df):5} rows | last {last.isoformat()}')
             except Exception as exc:
