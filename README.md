@@ -28,3 +28,6 @@ Manual workflow only. This avoids GitHub scheduled job latency being mistaken fo
 - Current UTC-date daily bars are marked provisional (conservative; actual session-calendar validation remains outstanding).
 - `quality.json` contains `eligible_symbols` and `excluded_symbols`. A passing structural test does NOT establish fresh executable prices or live-trading readiness.
 - Upgrade all root Python files and the workflow. Start a NEW Actions run, not a re-run of an old commit.
+
+## v0.6 research-only addition
+`economics_gate.py` sizes a **hypothetical** product trade using verified ask/bid, estimated executable stop/target bids, fees, financing/FX drag and a capital cap. See `GO_NO_GO.md`. This release does not enable live orders or assert a profitable strategy.
