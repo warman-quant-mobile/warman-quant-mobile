@@ -21,3 +21,10 @@ This fixed-rule research demonstration has 70/30 chronological split, next-bar-o
 
 ## Important
 Manual workflow only. This avoids GitHub scheduled job latency being mistaken for exact-time real-time availability. Snapshot must be checked for freshness before a scan.
+
+## v0.4 update
+- Isolates invalid source OHLC rows into `*_rejected.csv` for audit rather than changing prices.
+- Each symbol is independently eligible/excluded. Workflow passes with at least 18 fully validated 1H+Daily symbols; excluded symbols are never trade candidates.
+- Current UTC-date daily bars are marked provisional (conservative; actual session-calendar validation remains outstanding).
+- `quality.json` contains `eligible_symbols` and `excluded_symbols`. A passing structural test does NOT establish fresh executable prices or live-trading readiness.
+- Upgrade all root Python files and the workflow. Start a NEW Actions run, not a re-run of an old commit.
