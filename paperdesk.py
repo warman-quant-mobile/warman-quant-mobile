@@ -32,14 +32,14 @@ def process(folder,statepath,now):
     if ts<p['due']:continue
     s['pending'].remove(p)
     if ts!=p['due'] or len(s['positions'])>=MAX_POS:
-     new.append(dict(**p,status='MISSED_OR_CAPACITY'));continue
+     new.append(dict(p, status='MISSED_OR_CAPACITY'));continue
     entry=b['o'];risk=abs(entry-p['stop'])
     if risk<=0 or (p['side']=='LONG' and entry<=p['stop']) or (p['side']=='SHORT' and entry>=p['stop']):
-     new.append(dict(**p,status='INVALID_GAP'));continue
+     new.append(dict(p, status='INVALID_GAP'));continue
     qty=min(s['equity']*RISK/risk,s['equity']/entry)
     if qty<=0:continue
     target=entry+(3*risk if p['side']=='LONG' else -3*risk)
-    pos=dict(**p,status='ACTIVE',entry_time=ts,entry=entry,qty=qty,target=target,risk=qty*risk)
+    pos=dict(p,status='ACTIVE',entry_time=ts,entry=entry,qty=qty,target=target,risk=qty*risk)
     s['positions'].append(pos);new.append(pos.copy())
    for p in list(s['positions']):
     if p['symbol']!=sym or ts<p['entry_time']:continue
@@ -50,7 +50,7 @@ def process(folder,statepath,now):
     price=(min(b['o'],p['stop']) if long else max(b['o'],p['stop'])) if stophit else p['target']
     pnl=(price-p['entry'])*p['qty']*(1 if long else -1)-COST*(price+p['entry'])*p['qty']/2
     s['equity']+=pnl;s['positions'].remove(p)
-    trade=dict(**p,status='CLOSED',exit_time=ts,exit=price,reason='STOP' if stophit else 'TARGET',pnl=round(pnl,2),multiple=round(pnl/p['risk'],3))
+    trade=dict(p,status='CLOSED',exit_time=ts,exit=price,reason='STOP' if stophit else 'TARGET',pnl=round(pnl,2),multiple=round(pnl/p['risk'],3))
     s['trades'].append(trade);new.append(trade.copy())
    if any(p['symbol']==sym for p in s['pending']+s['positions']):continue
    prior=a[i-N:i];hi=max(x['h'] for x in prior);lo=min(x['l'] for x in prior)
