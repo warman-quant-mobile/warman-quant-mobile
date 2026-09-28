@@ -3,6 +3,8 @@ name: Warman Quant Collector
 
 on:
   workflow_dispatch:
+  schedule:
+    - cron: '12 * * * 1-5'
 
 permissions:
   contents: read
