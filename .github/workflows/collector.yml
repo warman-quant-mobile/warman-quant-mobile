@@ -28,7 +28,7 @@ jobs:
         run: python collector.py
 
       - name: Validate market data
-        run: python validate.py
+        run: python validate.py output
 
       - name: Upload results
         if: always()
