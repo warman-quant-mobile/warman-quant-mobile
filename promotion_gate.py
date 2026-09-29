@@ -12,7 +12,7 @@ def assess(item):
  if not item.get('benchmark_passed'):missing.append('benchmark_passed')
  return dict(status='RESEARCH_ONLY_BLOCKED' if missing else 'REVIEW_ELIGIBLE_NOT_TRADE_AUTHORIZED',missing=sorted(set(missing)),orders_enabled=False,trade_instruction_enabled=False)
 def run(folder):
- p=Path(folder);items=json.loads((p/'nordnet_candidates.json').read_text())
+ p=Path(folder);items=json.loads(Path(__file__).with_name('nordnet_candidates.json').read_text())
  report={k:assess(v) for k,v in items.items()}
  (p/'promotion_gate.json').write_text(json.dumps(report,indent=2))
  print('NORDNET PROMOTION GATE:',', '.join(k+'='+v['status'] for k,v in report.items()))
