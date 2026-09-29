@@ -61,10 +61,16 @@ def run(folder,initial=100000,risk=.01,gross_cap=1.,max_positions=2,cost=.002,lo
    stop=entry-2*vol
    if stop<=0:continue
    # cash-backed spot only; gross exposure <= equity, no margin, no shorting.
-   qty=min(max(0,equity*risk/(entry-stop)),max(0,cash)/(entry*(1+cost/2)),max(0,equity*gross_cap-sum(p['reserved'] for p in positions))/entry)
+   qty=min(max(0,equity*risk/(entry-stop)),max(0,cash)/entry,max(0,equity*gross_cap-sum(p['reserved'] for p in positions))/entry)
    if qty<=0:rejections.append(dict(day=day,symbol=s,reason='NO_CAPITAL'));continue
-   reserved=qty*entry*(1+cost/2);cash-=reserved
-   positions[s]=dict(day=day,entry=entry,qty=qty,reserved=reserved,stop=stop,mark=entry,exit_due=False)
+   reserved=qty*entry;cash-=reserved
+   b=lookup[s][day]
+   if b[3]<=stop:
+    exitprice=stop # Entry at open; same-bar stop-first, no gap before entry.
+    pnl=(exitprice-entry)*qty-cost*.5*(exitprice+entry)*qty
+    cash+=reserved+pnl
+    trades.append(dict(symbol=s,entry_day=day,exit_day=day,entry=entry,exit=exitprice,qty=qty,pnl=round(pnl,2),reason='ENTRY_BAR_STOP'))
+   else:positions[s]=dict(day=day,entry=entry,qty=qty,reserved=reserved,stop=stop,mark=entry,exit_due=False)
   for s,p in positions.items():
    if day in lookup[s]:p['mark']=lookup[s][day][4]
   equity=cash+sum(p['reserved']+p['qty']*(p['mark']-p['entry']) for p in positions.values())
