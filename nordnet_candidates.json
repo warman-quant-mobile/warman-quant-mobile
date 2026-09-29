@@ -6,7 +6,7 @@
     "currency": "SEK",
     "first_trade_date": "2023-09-12",
     "annual_fee": 0.0149,
-    "kf_eligibility_evidence": "unverified",
+    "kf_eligibility_evidence": "Order entry screen observed in Warman Finans AB corporate KF on 2026-09-29; no order submitted; final order acceptance unverified",
     "price_source": "Yahoo crypto spot",
     "spread_source": null,
     "fee_schedule": null,
@@ -14,7 +14,11 @@
     "independent_forward_start": null,
     "ledger_replay_evidence": null,
     "cost_stress_evidence": null,
-    "benchmark_evidence": null
+    "benchmark_evidence": null,
+    "kf_order_form_observed": true,
+    "kf_order_accepted": false,
+    "observed_quote_sek": 136.67,
+    "quote_observation_date": "2026-09-29"
   },
   "ETHEREUM": {
     "isin": "SE0020541639",
