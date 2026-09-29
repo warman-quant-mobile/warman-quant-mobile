@@ -33,7 +33,7 @@ def run(folder,initial=100000,risk=.01,gross_cap=1.,max_positions=2,cost=.002,lo
    _,o,h,l,c=b
    stop=p['stop']
    if l<=stop:
-    exitprice=min(o,stop);pnl=(exitprice-p['entry'])*p['qty']-cost*.5*(exitprice+p['entry'])*p['qty']
+    exitprice=min(o,stop);pnl=(exitprice-p['entry'])*p['qty']-cost*.5*exitprice*p['qty']
     cash+=p['reserved']+pnl
     trades.append(dict(symbol=s,entry_day=p['day'],exit_day=day,entry=p['entry'],exit=exitprice,qty=p['qty'],pnl=round(pnl,2),reason='STOP'))
     del positions[s];continue
@@ -45,7 +45,7 @@ def run(folder,initial=100000,risk=.01,gross_cap=1.,max_positions=2,cost=.002,lo
     del positions[s];continue
    i=indices[s][day];a=bars[s]
    if i>=10 and c<min(x[3] for x in a[i-10:i]):p['exit_due']=True
-  equity=cash+sum(p['reserved']+p['qty']*(p['mark']-p['entry']) for p in positions.values()) # Prior completed marks only; never size at today's close.
+  equity=cash+sum(p['qty']*p['mark'] for p in positions.values()) # Prior completed marks only; never size at today's close.
   # Signal from previous completed bar only. Fill at current open. Rank deterministically.
   candidates=[]
   for s,a in bars.items():
@@ -61,9 +61,9 @@ def run(folder,initial=100000,risk=.01,gross_cap=1.,max_positions=2,cost=.002,lo
    stop=entry-2*vol
    if stop<=0:continue
    # cash-backed spot only; gross exposure <= equity, no margin, no shorting.
-   qty=min(max(0,equity*risk/(entry-stop)),max(0,cash)/entry,max(0,equity*gross_cap-sum(p['reserved'] for p in positions.values()))/entry)
+   qty=min(max(0,equity*risk/(entry-stop)),max(0,cash)/(entry*(1+cost/2)),max(0,equity*gross_cap-sum(p['reserved'] for p in positions.values()))/entry)
    if qty<=0:rejections.append(dict(day=day,symbol=s,reason='NO_CAPITAL'));continue
-   reserved=qty*entry;cash-=reserved
+   reserved=qty*entry;cash-=reserved+cost*.5*reserved
    b=lookup[s][day]
    if b[3]<=stop:
     exitprice=stop # Entry at open; same-bar stop-first, no gap before entry.
@@ -73,10 +73,10 @@ def run(folder,initial=100000,risk=.01,gross_cap=1.,max_positions=2,cost=.002,lo
    else:positions[s]=dict(day=day,entry=entry,qty=qty,reserved=reserved,stop=stop,mark=entry,exit_due=False)
   for s,p in positions.items():
    if day in lookup[s]:p['mark']=lookup[s][day][4]
-  equity=cash+sum(p['reserved']+p['qty']*(p['mark']-p['entry']) for p in positions.values())
+  equity=cash+sum(p['qty']*p['mark'] for p in positions.values())
   peak=max(peak,equity)
   history.append(dict(date=day,equity=round(equity,2),cash=round(cash,2),open_positions=len(positions),drawdown=round(1-equity/peak,5)))
- report=dict(research_only=True,universe=list(bars),initial=initial,final_marked_equity=history[-1]['equity'] if history else initial,
+ report=dict(validated_edge=False,nordnet_executable=False,promotion_status='BLOCKED',research_only=True,universe=list(bars),initial=initial,final_marked_equity=history[-1]['equity'] if history else initial,
              closed_trades=len(trades),max_drawdown=max((x['drawdown'] for x in history),default=0),
              assumptions='Daily long-only crypto spot proxy, next open, no leverage, cash backed, 20bps round-trip, gap stops, close signal next open; no shorting, funding or margin',
              limitations='Exploratory; same daily Yahoo history already inspected; no independent holdout, venue quotes, volume impact, delistings, custody or taxes')
@@ -85,7 +85,7 @@ def run(folder,initial=100000,risk=.01,gross_cap=1.,max_positions=2,cost=.002,lo
   with (folder/name).open('w',newline='') as f:
    if rows:
     w=csv.DictWriter(f,fieldnames=rows[0]);w.writeheader();w.writerows(rows)
- print('PORTFOLIO V6:',report['final_marked_equity'],'trades',len(trades))
+ print('PORTFOLIO V6 DIAGNOSTIC ONLY; not Nordnet-executable; historical marked equity:',report['final_marked_equity'],'trades',len(trades))
  return report
 if __name__=='__main__':
  import argparse
