@@ -1,0 +1,11 @@
+{
+  "policy": "Research-only Nordnet execution feasibility gate. Listings are indicative, NOT confirmation of availability in Warman Finans AB KF. Human must confirm order ticket and current KID, spreads, hours and fees.",
+  "instruments": {
+    "BITCOIN": {"candidate": "Virtune Bitcoin / BITCOIN XBT / Valour Bitcoin Zero SEK", "status": "LISTED_UNVERIFIED_KF", "trading_session": "exchange_hours_only", "overnight_gap": true},
+    "ETHEREUM": {"candidate": "Virtune Staked Ethereum ETP / ETHEREUM XBT / Valour Ethereum Zero SEK", "status": "LISTED_UNVERIFIED_KF", "trading_session": "exchange_hours_only", "overnight_gap": true},
+    "SOLANA": {"candidate": "Virtune Staked Solana ETP / Valour Solana SEK", "status": "LISTED_UNVERIFIED_KF", "trading_session": "exchange_hours_only", "overnight_gap": true}
+  },
+  "gate": "NO_EXECUTABLE_INSTRUMENT_NO_PROMOTION",
+  "required_before_paper_promotion": ["verified instrument identifier and currency", "account eligibility confirmed", "actual exchange sessions and holidays", "historical traded ETP OHLC and spreads", "issuer and tracking risk", "fees and FX", "liquidity and order-size stress", "instrument-level next executable open"],
+  "excluded": ["24/7 spot fill assumptions", "perpetual funding strategies without Nordnet-accessible matching exposure", "synthetic shorting without confirmed bear instrument"]
+}
