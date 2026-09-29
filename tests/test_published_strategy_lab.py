@@ -17,6 +17,7 @@ class PublishedStrategyLabTests(unittest.TestCase):
         self.assertEqual(signals(a,300,1.5),signals(b,300,1.5))
     def test_stop_gap_fills_at_worse_open(self):
         a=self.bars();a.loc[300,["Open","High","Low","Close"]]=[90,91,89,90]
+        a.loc[301,["Open","High","Low","Close"]]=[80,81,79,80]
         result=simulate(a,300,"LONG",1.5)
         self.assertEqual(result["outcome"],"STOP")
         self.assertLess(result["realized_r"],-1)
