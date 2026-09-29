@@ -16,6 +16,14 @@ def verify(state,ledger):
   previous=item['hash']
  if digest(s)!=l[-1]['snapshot']:raise RuntimeError('JOURNAL_STATE_MISMATCH')
  return s
+def migrate_legacy(state,ledger):
+ state=Path(state);ledger=Path(ledger)
+ if not state.exists() or ledger.exists():raise RuntimeError('LEGACY_MIGRATION_REQUIRES_EXISTING_STATE_ONLY')
+ s=json.loads(state.read_text());original=state.read_bytes();state.unlink()
+ try:commit(state,ledger,s,bootstrap=True)
+ except Exception:
+  state.write_bytes(original);raise
+
 def record(state,ledger):
  state=Path(state);ledger=Path(ledger)
  s=json.loads(state.read_text());l=json.loads(ledger.read_text()) if ledger.exists() else []
