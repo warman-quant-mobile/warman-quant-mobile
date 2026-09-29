@@ -4,7 +4,7 @@ Prices are proxies, not executable contracts. Long-only by default, no borrowing
 """
 import csv,json,math
 from collections import defaultdict
-from datetime import datetime
+from datetime import datetime,timezone
 from pathlib import Path
 def load(path):
  out=[]
@@ -21,7 +21,7 @@ def run(folder,initial=100000,risk=.01,gross_cap=1.,max_positions=2,cost=.002,lo
  folder=Path(folder);m=json.loads((folder/'manifest.json').read_text())
  crypto=('BITCOIN','ETHEREUM','SOLANA')
  bars={s:load(folder/meta['1d']['file']) for s,meta in m['symbols'].items() if s in crypto and '1d' in meta}
- dates=sorted({x[0] for series in bars.values() for x in series})
+ dates=sorted({x[0] for series in bars.values() for x in series if x[0]<datetime.now(timezone.utc).date().isoformat()})
  lookup={s:{x[0]:x for x in a} for s,a in bars.items()}
  indices={s:{x[0]:i for i,x in enumerate(a)} for s,a in bars.items()}
  cash=initial;positions={};history=[];trades=[];rejections=[];peak=initial
