@@ -53,7 +53,7 @@ def scan(folder, now=None):
                     indicative_entry="NEXT_AVAILABLE_QUOTE_REQUIRED",
                     indicative_stop=round(stop,6),historical_reference_level=round(target,6),
                     indicative_net_r=round(rr,2),risk_per_unit_proxy=round(risk,6),
-                    status="PAPER_PROPOSAL_REQUIRES_REQUOTE",
+                    status="BLOCKED_UNTIL_EXECUTABLE_QUOTE_VERIFIED",execution_ready=False,\n                    instrument_isin=None,verified_bid=None,verified_ask=None,verified_spread=None,\n                    verified_financing=None,verified_knockout_distance=None,
                     required_checks=["actual tradable instrument and quote","recalculate R from executable entry and spread",
                     "gap and stop feasibility","liquidity, financing, FX, knockout distance and position sizing",
                     "independent strategy validation; no live execution"]))
