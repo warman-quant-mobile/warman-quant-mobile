@@ -73,7 +73,7 @@ def study(folder, now=None):
                     history=df.iloc[:i]
                     c=history.Close.astype(float); h=history.High.astype(float); l=history.Low.astype(float)
                     ma50=float(c.tail(50).mean());ma200=float(c.tail(200).mean())
-                    trigger=(float(c.iloc[-1])>float(h.tail(20).iloc[:-1].max()) and c.iloc[-1]>ma50>ma200) if side=="LONG" else (float(c.iloc[-1])<float(l.tail(20).iloc[:-1].min()) and c.iloc[-1]<ma50<ma200)
+                    trigger=(float(c.iloc[-1])>float(h.tail(21).iloc[:-1].max()) and c.iloc[-1]>ma50>ma200) if side=="LONG" else (float(c.iloc[-1])<float(l.tail(21).iloc[:-1].min()) and c.iloc[-1]<ma50<ma200)
                     # Signal is generated at the prior close, next open is hypothetical entry.
                     if trigger:
                         result=evaluate(df,side,i)
