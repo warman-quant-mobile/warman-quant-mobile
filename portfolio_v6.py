@@ -61,7 +61,7 @@ def run(folder,initial=100000,risk=.01,gross_cap=1.,max_positions=2,cost=.002,lo
    stop=entry-2*vol
    if stop<=0:continue
    # cash-backed spot only; gross exposure <= equity, no margin, no shorting.
-   qty=min(max(0,equity*risk/(entry-stop)),max(0,cash)/entry,max(0,equity*gross_cap-sum(p['reserved'] for p in positions))/entry)
+   qty=min(max(0,equity*risk/(entry-stop)),max(0,cash)/entry,max(0,equity*gross_cap-sum(p['reserved'] for p in positions.values()))/entry)
    if qty<=0:rejections.append(dict(day=day,symbol=s,reason='NO_CAPITAL'));continue
    reserved=qty*entry;cash-=reserved
    b=lookup[s][day]
