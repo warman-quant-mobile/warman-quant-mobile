@@ -21,4 +21,5 @@ class CryptoPortfolioTests(unittest.TestCase):
    self.assertEqual(len(rows),80)
    self.assertTrue(all(float(x['cash'])>=-0.01 for x in rows))
    self.assertTrue(all(int(x['open_positions'])<=2 for x in rows))
+   self.assertTrue(any(int(x['open_positions'])>0 for x in rows), 'Test must reach the position sizing code')
 if __name__=='__main__':unittest.main()
