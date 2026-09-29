@@ -22,7 +22,7 @@ jobs:
           python-version: '3.11'
       - run: pip install -r requirements.txt
       - name: Offline scanner tests
-        run: python -m unittest tests/test_opportunistic_scan.py -v
+        run: python -m unittest discover -s tests -p 'test_opportunistic_*.py' -v
       - name: Fetch new public research data
         run: python collector.py
       - name: Validate data; fail closed
