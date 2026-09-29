@@ -29,6 +29,8 @@ def run(path, start='2026-01-02', end='2026-09-28', capital=25000):
     period = [bar for bar in bars if start <= bar['date'] <= end]
     if not period:
         raise ValueError('No evaluation bars')
+    if bars.index(period[0]) < max(HORIZONS) + 1:
+        raise ValueError('Insufficient prior warmup for entire frozen horizon grid')
 
     def sim(n, roundtrip_bps):
         side = roundtrip_bps / 20000
