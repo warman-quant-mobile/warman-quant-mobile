@@ -1,0 +1,47 @@
+name: Warman Opportunistic 10R Watch
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '23 16 * * 1-5'
+      timezone: Europe/Stockholm
+permissions:
+  contents: write
+concurrency:
+  group: opportunistic-signal
+  cancel-in-progress: false
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: pip install -r requirements.txt
+      - name: Fetch new public research data
+        run: python collector.py
+      - name: Validate data; fail closed
+        run: python validate.py output
+      - name: Scan for rare 10R research candidates
+        run: python opportunistic_scan.py --folder output --result signals/latest.json
+      - name: Publish latest scan status for notification watcher
+        run: |
+          git config user.name "warman-quant-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add signals/latest.json
+          if ! git diff --cached --quiet; then
+            git commit -m "Update opportunistic research scan"
+            git push
+          fi
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: opportunistic-scan
+          path: |
+            signals/latest.json
+            output/manifest.json
+            output/quality.json
+          retention-days: 30
