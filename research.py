@@ -2,6 +2,7 @@
 import argparse,csv,json,math,statistics
 from datetime import datetime,timezone,timedelta
 from pathlib import Path
+from asymmetry import NAMES as ASYMMETRY,simulate as asym_simulate
 from indicators import HOURLY,DAILY,simulate as indicator_simulate
 FAMILIES=('breakout','momentum','reversion')
 WINDOWS=(12,20,36)
@@ -68,6 +69,26 @@ def run(folder,now):
     tr=stats(train);te=stats(test)
     rows.append(dict(symbol=sym,family=f,lookback=n,interval='1h',train=tr,holdout=te,
                      sufficient_sample=tr['n']>=30 and te['n']>=12))
+ # Uncapped asymmetric setups: independent hypothesis family, not promoted signals.
+ for sym in sorted(q['eligible_symbols']):
+  meta=m['symbols'].get(sym,{})
+  if '1h' not in meta:continue
+  a=read(folder/meta['1h']['file'],now)
+  if len(a)<260:continue
+  split=a[int(.7*len(a))][0]
+  for name in ASYMMETRY:
+   trades=asym_simulate(a,name)
+   train=[t for t in trades if t[1]<split];test=[t for t in trades if t[0]>=split]
+   tr=stats(train);te=stats(test)
+   stress=[t for t in asym_simulate(a,name,cost=.006,slip=.001) if t[0]>=split]
+   te['stress_3x_cost_plus_10bps_each_side_mean_r']=round(statistics.mean(x[2] for x in stress),4) if stress else None
+   for label,ts in (('train',train),('holdout',test)):
+    rvals=[x[2] for x in ts]
+    metrics=tr if label=='train' else te
+    metrics['payoff_ratio']=round(statistics.mean(x for x in rvals if x>0)/abs(statistics.mean(x for x in rvals if x<0)),3) if any(x>0 for x in rvals) and any(x<0 for x in rvals) else None
+    metrics['max_win_r']=round(max(rvals),3) if rvals else None
+   rows.append(dict(symbol=sym,family=name,lookback=None,interval='1h',train=tr,holdout=te,
+                    sufficient_sample=tr['n']>=30 and te['n']>=12,exploratory_asymmetry=True))
  # Indicator candidates: preserve original control models, add independent experiments.
  for sym in sorted(q['eligible_symbols']):
   meta=m['symbols'].get(sym,{})
@@ -87,7 +108,7 @@ def run(folder,now):
                      sufficient_sample=tr['n']>=30 and te['n']>=12))
  report=dict(asof=now.isoformat(),research_only=True,holdout='chronological 70/30; boundary trades excluded',
              cost_round_trip_bps=20,assumptions='next-bar open; 12-bar max hold; stop-first; no leverage; no funding/borrow; independent hypothetical trades, NOT portfolio',
-             limitations='Yahoo historical data, unverified executable prices; no selection using holdout; results do not establish edge',
+             limitations='Yahoo historical data, unverified executable prices; correlated hypotheses and multiple testing; no selection using holdout; results do not establish edge',
              candidates=len(rows),sufficient_sample=sum(r['sufficient_sample'] for r in rows),results=rows)
  (folder/'research_report.json').write_text(json.dumps(report,indent=2))
  with (folder/'research_summary.csv').open('w',newline='') as f:

@@ -34,7 +34,7 @@ def atr(a,n=20):
  return statistics.mean(vals)
 def decide(a,i,name):
  p=a[:i+1];cl=[x[4] for x in p];price=cl[-1]
- if name.startswith('rsi'):
+ if name in ('rsi2','rsi3','rsi4'):
   n=int(name[3]);v=rsi(cl,n);trend=sma(cl,200)
   if v is None or trend is None:return 0
   if price>trend and v<5:return 1
@@ -66,7 +66,7 @@ HOURLY=('rsi2','rsi3','rsi4','macd','stoch_5','stoch_14','rsi2_macd','donchian_m
 DAILY=('turtle_20','turtle_55')
 def simulate(a,name,cost=.002):
  """Independent candidate trades; ATR-based stop, Turtle trailing-channel exit."""
- trades=[];i=201 if name.startswith('rsi') else 55 if name.startswith('turtle') else 36
+ trades=[];i=201 if name in ('rsi2','rsi3','rsi4','rsi2_macd') else 55 if name.startswith('turtle') else 36
  while i<len(a)-2:
   side=decide(a,i,name)
   if not side:i+=1;continue
