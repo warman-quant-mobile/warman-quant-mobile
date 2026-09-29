@@ -26,25 +26,19 @@ def run(folder,initial=100000,risk=.01,gross_cap=1.,max_positions=2,cost=.002,lo
  indices={s:{x[0]:i for i,x in enumerate(a)} for s,a in bars.items()}
  cash=initial;positions={};history=[];trades=[];rejections=[];peak=initial
  for day in dates:
-  # All exits are evaluated before new entries. Missing bars do not imply a zero price.
+  # Opening phase ONLY: scheduled exits and stop gaps settle before new entries.
+  # Intraday stop proceeds cannot fund an earlier opening purchase.
   for s,p in list(positions.items()):
    b=lookup[s].get(day)
    if not b:continue
    _,o,h,l,c=b
-   stop=p['stop']
-   if l<=stop:
-    exitprice=min(o,stop);pnl=(exitprice-p['entry'])*p['qty']-cost*.5*exitprice*p['qty']
+   if p.get('exit_due') or o<=p['stop']:
+    reason='CHANNEL_OPEN' if p.get('exit_due') else 'STOP_GAP_OPEN'
+    exitprice=o
+    pnl=(exitprice-p['entry'])*p['qty']-cost*.5*exitprice*p['qty']
     cash+=p['reserved']+pnl
-    trades.append(dict(symbol=s,entry_day=p['day'],exit_day=day,entry=p['entry'],exit=exitprice,qty=p['qty'],pnl=round(pnl,2),reason='STOP'))
-    del positions[s];continue
-   # Prior completed bars only: channel exit at close is filled at NEXT available open.
-   if p.get('exit_due'):
-    exitprice=o;pnl=(exitprice-p['entry'])*p['qty']-cost*.5*(exitprice+p['entry'])*p['qty']
-    cash+=p['reserved']+pnl
-    trades.append(dict(symbol=s,entry_day=p['day'],exit_day=day,entry=p['entry'],exit=exitprice,qty=p['qty'],pnl=round(pnl,2),reason='CHANNEL'))
-    del positions[s];continue
-   i=indices[s][day];a=bars[s]
-   if i>=10 and c<min(x[3] for x in a[i-10:i]):p['exit_due']=True
+    trades.append(dict(symbol=s,entry_day=p['day'],exit_day=day,entry=p['entry'],exit=exitprice,qty=p['qty'],pnl=round(pnl-cost*.5*p['entry']*p['qty'],2),reason=reason))
+    del positions[s]
   equity=cash+sum(p['qty']*p['mark'] for p in positions.values()) # Prior completed marks only; never size at today's close.
   # Signal from previous completed bar only. Fill at current open. Rank deterministically.
   candidates=[]
@@ -64,13 +58,23 @@ def run(folder,initial=100000,risk=.01,gross_cap=1.,max_positions=2,cost=.002,lo
    qty=min(max(0,equity*risk/(entry-stop)),max(0,cash)/(entry*(1+cost/2)),max(0,equity*gross_cap-sum(p['reserved'] for p in positions.values()))/entry)
    if qty<=0:rejections.append(dict(day=day,symbol=s,reason='NO_CAPITAL'));continue
    reserved=qty*entry;cash-=reserved+cost*.5*reserved
-   b=lookup[s][day]
-   if b[3]<=stop:
-    exitprice=stop # Entry at open; same-bar stop-first, no gap before entry.
-    pnl=(exitprice-entry)*qty-cost*.5*(exitprice+entry)*qty
-    cash+=reserved+pnl
-    trades.append(dict(symbol=s,entry_day=day,exit_day=day,entry=entry,exit=exitprice,qty=qty,pnl=round(pnl,2),reason='ENTRY_BAR_STOP'))
-   else:positions[s]=dict(day=day,entry=entry,qty=qty,reserved=reserved,stop=stop,mark=entry,exit_due=False)
+   positions[s]=dict(day=day,entry=entry,qty=qty,reserved=reserved,stop=stop,mark=entry,exit_due=False)
+  # Intraday phase after ALL opening orders. Proceeds become cash only now.
+  for s,p in list(positions.items()):
+   b=lookup[s].get(day)
+   if not b:continue
+   _,o,h,l,c=b
+   if l<=p['stop']:
+    exitprice=p['stop']
+    pnl=(exitprice-p['entry'])*p['qty']-cost*.5*exitprice*p['qty']
+    cash+=p['reserved']+pnl
+    trades.append(dict(symbol=s,entry_day=p['day'],exit_day=day,entry=p['entry'],exit=exitprice,qty=p['qty'],pnl=round(pnl-cost*.5*p['entry']*p['qty'],2),reason='INTRADAY_STOP_ASSUMED'))
+    del positions[s]
+    continue
+   # Close-derived channel exit can execute only at the next available opening.
+   i=indices[s][day];series=bars[s]
+   if i>=10 and c<min(x[3] for x in series[i-10:i]):
+    p['exit_due']=True
   for s,p in positions.items():
    if day in lookup[s]:p['mark']=lookup[s][day][4]
   equity=cash+sum(p['qty']*p['mark'] for p in positions.values())
