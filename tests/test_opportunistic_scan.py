@@ -17,6 +17,9 @@ class ScanTests(unittest.TestCase):
             p=Path(d);now=datetime.now(timezone.utc)
             (p/"manifest.json").write_text(json.dumps({"generated_at_utc":now.isoformat()}))
             (p/"quality.json").write_text(json.dumps({"eligible_symbols":[]}))
-            self.assertEqual(scan(p,now)["status"],"NO_QUALIFIED_CANDIDATES")
+            result=scan(p,now)
+            self.assertEqual(result["status"],"NO_QUALIFIED_CANDIDATES")
+            self.assertEqual(result["screening_funnel"]["eligible"],0)
+            self.assertEqual(result["diagnostic_watchlist"],[])
 
 if __name__=="__main__": unittest.main()
