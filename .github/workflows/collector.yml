@@ -36,6 +36,8 @@ jobs:
         run: python paperdesk.py --folder output --state state/paperdesk.json
       - name: Run exploratory research lab
         run: python research.py --folder output
+      - name: Run cash-backed crypto portfolio research
+        run: python portfolio_v6.py --folder output
       - name: Persist journal
         if: success()
         uses: actions/cache/save@v4
