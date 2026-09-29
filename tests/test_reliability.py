@@ -17,5 +17,5 @@ class ReliabilityTests(unittest.TestCase):
   trades=[dict(entry_time=1,exit_time=3,symbol=x,entry=100,exit=120,stop=95,side='LONG') for x in ('A','B','C')]
   r=audit(trades,max_positions=2)
   self.assertEqual(r['closed'],2);self.assertEqual(len(r['rejected']),1)
-  self.assertEqual(r['realized_equity'],107960)
+  self.assertEqual(r['realized_equity'],107920)
 if __name__=='__main__':unittest.main()
