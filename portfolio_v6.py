@@ -45,7 +45,7 @@ def run(folder,initial=100000,risk=.01,gross_cap=1.,max_positions=2,cost=.002,lo
     del positions[s];continue
    i=indices[s][day];a=bars[s]
    if i>=10 and c<min(x[3] for x in a[i-10:i]):p['exit_due']=True
-  equity=cash+sum(p['qty']*lookup[s].get(day,(None,None,None,None,p['mark']))[4]-p['qty']*p['entry']+p['reserved'] for s,p in positions.items())
+  equity=cash+sum(p['reserved']+p['qty']*(p['mark']-p['entry']) for p in positions.values()) # Prior completed marks only; never size at today's close.
   # Signal from previous completed bar only. Fill at current open. Rank deterministically.
   candidates=[]
   for s,a in bars.items():
