@@ -1,9 +1,19 @@
 {
   "schema_version": 1,
-  "generated_at_utc": "2026-09-29T19:24:53.999909+00:00",
+  "generated_at_utc": "2026-09-29T19:36:03.275795+00:00",
   "status": "RESEARCH_ONLY",
   "crash_threshold_pct": -20,
   "results": {
+    "GOLD_FUT": {
+      "stage": "CRASH_ONLY_NO_ENTRY",
+      "drawdown_pct": -21.62,
+      "reclaim": false,
+      "proxy_close": 4168.399902,
+      "invalidation_reference": 4090.382642,
+      "former_peak_reference": 5318.399902,
+      "recovery_reference_r_after_proxy_cost": 13.22,
+      "note": "Historical peak is NOT a forecast; require independent thesis, confirmation and actual product checks."
+    },
     "SILVER_FUT": {
       "stage": "CRASH_ONLY_NO_ENTRY",
       "drawdown_pct": -46.8,
