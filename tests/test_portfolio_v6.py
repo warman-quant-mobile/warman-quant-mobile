@@ -12,7 +12,7 @@ class CryptoPortfolioTests(unittest.TestCase):
     with (p/name).open('w',newline='') as f:
      w=csv.DictWriter(f,fieldnames=['session_date','Open','High','Low','Close']);w.writeheader()
      for i in range(80):
-      x=100+i*.2
+      x=100+i*2
       w.writerow(dict(session_date=(start+timedelta(days=i)).isoformat(),Open=x,High=x+1,Low=x-1,Close=x+.5))
    (p/'manifest.json').write_text(json.dumps({'symbols':symbols}))
    r=run(p)
