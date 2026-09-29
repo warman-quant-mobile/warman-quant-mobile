@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "generated_at_utc": "2026-09-29T16:36:43.822405+00:00",
+  "status": "RESEARCH_ONLY",
+  "crash_threshold_pct": -20,
+  "results": {
+    "GOLD_FUT": {
+      "stage": "CRASH_ONLY_NO_ENTRY",
+      "drawdown_pct": -21.62,
+      "reclaim": false,
+      "proxy_close": 4168.399902,
+      "invalidation_reference": 4090.382642,
+      "former_peak_reference": 5318.399902,
+      "recovery_reference_r_after_proxy_cost": 13.22,
+      "note": "Historical peak is NOT a forecast; require independent thesis, confirmation and actual product checks."
+    },
+    "SILVER_FUT": {
+      "stage": "CRASH_ONLY_NO_ENTRY",
+      "drawdown_pct": -46.8,
+      "reclaim": false,
+      "proxy_close": 61.220001,
+      "invalidation_reference": 60.414351,
+      "former_peak_reference": 115.080002,
+      "recovery_reference_r_after_proxy_cost": 57.9,
+      "note": "Historical peak is NOT a forecast; require independent thesis, confirmation and actual product checks."
+    },
+    "TESLA": {
+      "stage": "CRASH_ONLY_NO_ENTRY",
+      "drawdown_pct": -27.03,
+      "reclaim": false,
+      "proxy_close": 357.450012,
+      "invalidation_reference": 350.005737,
+      "former_peak_reference": 489.880005,
+      "recovery_reference_r_after_proxy_cost": 16.14,
+      "note": "Historical peak is NOT a forecast; require independent thesis, confirmation and actual product checks."
+    }
+  },
+  "rejected": {},
+  "warning": "No executable signals. Reclaim is only a research condition. Crash regime, peak recovery and 10R must be independently validated."
+}
