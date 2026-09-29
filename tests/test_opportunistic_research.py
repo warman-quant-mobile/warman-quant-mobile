@@ -12,7 +12,8 @@ class EventStudyTests(unittest.TestCase):
         self.assertEqual(result["outcome"],"STOP")
         self.assertLess(result["realized_r"],0)
     def test_gap_beyond_stop_fills_worse(self):
-        df=self.bars([dict(Open=90.,High=91.,Low=89.,Close=90.)])
+        df=self.bars([dict(Open=100.,High=101.,Low=99.,Close=100.),
+                      dict(Open=90.,High=91.,Low=89.,Close=90.)])
         result=evaluate(df,"LONG",40)
         self.assertEqual(result["outcome"],"STOP")
         self.assertLess(result["realized_r"],-1)
