@@ -3,7 +3,6 @@
 import argparse, json, math
 from datetime import datetime, timezone, timedelta
 from pathlib import Path
-import pandas as pd
 
 def scan(folder, now=None):
     folder=Path(folder); now=now or datetime.now(timezone.utc)
@@ -16,6 +15,7 @@ def scan(folder, now=None):
     for symbol in quality["eligible_symbols"]:
         try:
             meta=manifest["symbols"][symbol]["1d"]
+            import pandas as pd
             df=pd.read_csv(folder/meta["file"],parse_dates=["session_date"])
             # Current UTC date may contain an incomplete session: never use it.
             df=df[df.session_date.dt.date<now.date()].sort_values("session_date")
