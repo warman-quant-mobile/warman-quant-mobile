@@ -10,7 +10,8 @@ ISIN='SE0020845709'
 def run(folder,initial=25000,risk=.005,max_exposure=.5,fee_bps=20,lookback=20,exit_lookback=10,atr_mult=2):
  p=Path(folder);m=json.loads((p/'virbtc_manifest.json').read_text())
  if m.get('isin')!=ISIN or m.get('currency')!='SEK' or m.get('status')!='IMPORTED_NOT_INDEPENDENTLY_VERIFIED':raise ValueError('Actual product import manifest required')
- rows=list(csv.DictReader((p/'virbtc_daily.csv').open()))
+ with (p/'virbtc_daily.csv').open(newline='') as source:
+  rows=list(csv.DictReader(source))
  if len(rows)<lookback+22:raise ValueError('Insufficient genuine product bars')
  bars=[dict(date=x['date'],**{k:float(x[k]) for k in ('open','high','low','close','volume')}) for x in rows]
  cash=initial;position=None;due=False;entry_cost=0;entry_price=0;entry_date=None;history=[];trades=[];peak=initial
