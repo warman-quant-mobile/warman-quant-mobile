@@ -2,8 +2,11 @@ name: Warman Opportunistic 10R Watch
 on:
   workflow_dispatch:
   schedule:
-    # GitHub Actions cron uses UTC; 16:23 UTC = 17:23 CET / 18:23 CEST.
-    - cron: '23 16 * * 1-5'
+    # UTC, offset from the top of the hour to reduce GitHub schedule congestion.
+    # After US session: next UTC date permits the preceding completed US daily bar.
+    - cron: '37 0 * * 2-6'
+    # Europe morning and US-session monitoring; completed daily bars only.
+    - cron: '37 7,16 * * 1-5'
 permissions:
   contents: write
 concurrency:
