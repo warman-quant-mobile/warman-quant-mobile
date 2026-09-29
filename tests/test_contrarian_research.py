@@ -16,6 +16,7 @@ class ContrarianTests(unittest.TestCase):
         self.assertEqual(result["stage"],"CRASH_ONLY_NO_ENTRY")
     def test_crash_reclaim_is_watch_only(self):
         df=self.history()
+        df.loc[239:258,["Open","High","Low","Close"]]=[75.,76.,72.,75.]
         df.loc[len(df)]=dict(Open=73.,High=77.,Low=70.,Close=76.)
         result=detect(df)
         self.assertEqual(result["stage"],"REVERSAL_WATCH")
