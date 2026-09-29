@@ -80,12 +80,13 @@ def run(folder,now):
    trades=asym_simulate(a,name)
    train=[t for t in trades if t[1]<split];test=[t for t in trades if t[0]>=split]
    tr=stats(train);te=stats(test)
+   stress=[t for t in asym_simulate(a,name,cost=.006,slip=.001) if t[0]>=split]
+   te['stress_3x_cost_plus_10bps_each_side_mean_r']=round(statistics.mean(x[2] for x in stress),4) if stress else None
    for label,ts in (('train',train),('holdout',test)):
     rvals=[x[2] for x in ts]
     metrics=tr if label=='train' else te
     metrics['payoff_ratio']=round(statistics.mean(x for x in rvals if x>0)/abs(statistics.mean(x for x in rvals if x<0)),3) if any(x>0 for x in rvals) and any(x<0 for x in rvals) else None
     metrics['max_win_r']=round(max(rvals),3) if rvals else None
-    metrics['cost_3x_mean_r']=round(statistics.mean(x[2]-.004*a[0][1]/(2*max(.00001,statistics.mean(y[2]-y[3] for y in a[:20]))) for x in ts),3) if ts else None
    rows.append(dict(symbol=sym,family=name,lookback=None,interval='1h',train=tr,holdout=te,
                     sufficient_sample=tr['n']>=30 and te['n']>=12,exploratory_asymmetry=True))
  # Indicator candidates: preserve original control models, add independent experiments.
