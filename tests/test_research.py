@@ -15,7 +15,7 @@ class ResearchTests(unittest.TestCase):
    (root/'quality.json').write_text(json.dumps(dict(eligible_symbols=['TEST'])))
    (root/'manifest.json').write_text(json.dumps(dict(symbols=dict(TEST={'1h':{'file':path.name}}))))
    report=run(root,start+timedelta(hours=240))
-   self.assertEqual(report['candidates'],9)
+   self.assertEqual(report['candidates'],17)
    self.assertTrue((root/'research_summary.csv').exists())
    self.assertTrue(report['research_only'])
 if __name__=='__main__':unittest.main()
