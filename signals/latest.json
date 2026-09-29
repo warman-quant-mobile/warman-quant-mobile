@@ -1,9 +1,25 @@
 {
   "schema_version": 1,
-  "generated_at_utc": "2026-09-29T13:51:50.509455+00:00",
-  "source_manifest_utc": "2026-09-29T13:51:23.320214+00:00",
+  "generated_at_utc": "2026-09-29T14:37:27.183341+00:00",
+  "source_manifest_utc": "2026-09-29T14:36:57.004428+00:00",
   "status": "NO_QUALIFIED_CANDIDATES",
   "candidates": [],
   "rejected": {},
+  "screening_funnel": {
+    "eligible": 23,
+    "directional_breakouts": 1,
+    "positive_reference_reward": 1,
+    "reference_10r": 0
+  },
+  "diagnostic_watchlist": [
+    {
+      "symbol": "SILVER_FUT",
+      "direction": "SHORT",
+      "session_date": "2026-09-28",
+      "reference_reward_risk": 5.41,
+      "reason": "BELOW_10R_REFERENCE",
+      "note": "Research diagnostics only; historical reference is not a validated target."
+    }
+  ],
   "warning": "Historical reference targets are NOT forecasts. A 10R geometric ratio is not proven expected value. No automatic trading."
 }
