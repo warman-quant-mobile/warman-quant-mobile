@@ -27,6 +27,16 @@ class RegimeResearchTests(unittest.TestCase):
         for x in r['strategies'].values():
             self.assertLessEqual(x['60bps_roundtrip']['final_equity'],x['20bps_roundtrip']['final_equity']+0.01)
 
+    def test_future_bars_cannot_change_completed_evaluation(self):
+        p=self.fixture()
+        baseline=run(p,end='2026-06-30')
+        with p.open('a',newline='') as f:
+            w=csv.writer(f)
+            w.writerow(['2030-01-01',1000000,1000001,999999,1000000,1000])
+        changed=run(p,end='2026-06-30')
+        self.assertEqual(baseline['strategies'],changed['strategies'])
+        self.assertEqual(baseline['buy_hold_net_mark_to_close'],changed['buy_hold_net_mark_to_close'])
+
     def test_reject_missing_warmup(self):
         with self.assertRaises(ValueError):run(self.fixture(),start='2024-01-02',end='2024-01-31')
 
