@@ -33,22 +33,32 @@ jobs:
       - name: Scan for rare 10R research candidates
         run: python opportunistic_scan.py --folder output --result signals/latest.json
       - name: Exploratory 10R historical event study
+        if: github.event_name == 'workflow_dispatch' || github.event.schedule == '37 0 * * 2-6'
         run: python opportunistic_research.py --folder output --result signals/research_lab.json
       - name: Crash and reversal research diagnostics
+        if: github.event_name == 'workflow_dispatch' || github.event.schedule == '37 0 * * 2-6'
         run: python contrarian_research.py --folder output --result signals/contrarian_lab.json
       - name: Detect extreme gaps and shock days (research only)
         run: python extreme_event_research.py --folder output --result signals/extreme_events.json
       - name: Evaluate extreme-event historical 10R outcomes
+        if: github.event_name == 'workflow_dispatch' || github.event.schedule == '37 0 * * 2-6'
         run: python extreme_event_study.py --folder output --result signals/extreme_event_study.json
       - name: Published strategy research
+        if: github.event_name == 'workflow_dispatch' || github.event.schedule == '37 0 * * 2-6'
         run: python published_strategy_lab.py --folder output --result signals/published_strategy_lab.json
+      - name: Completed-hour intraday gap and reversal watch
+        run: python intraday_watch.py --folder output --result signals/intraday_watch.json
+      - name: Preserve previous proposal snapshot
+        run: cp signals/live_10r.json signals/live_10r_previous.json 2>/dev/null || true
       - name: Active strategy 10R paper proposal scan
         run: python live_10r_scan.py --folder output --result signals/live_10r.json
+      - name: Emit new or changed 10R candidate payload only
+        run: python new_signal_alert.py --current signals/live_10r.json --previous signals/live_10r_previous.json --result signals/new_10r.json
       - name: Publish latest scan status for notification watcher
         run: |
           git config user.name "warman-quant-bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add signals/live_10r.json signals/latest.json signals/research_lab.json signals/contrarian_lab.json signals/extreme_events.json signals/extreme_event_study.json signals/published_strategy_lab.json
+          git add signals/intraday_watch.json signals/new_10r.json signals/live_10r.json signals/latest.json signals/research_lab.json signals/contrarian_lab.json signals/extreme_events.json signals/extreme_event_study.json signals/published_strategy_lab.json
           if ! git diff --cached --quiet; then
             git commit -m "Update opportunistic research scan"
             git push
@@ -58,6 +68,8 @@ jobs:
         with:
           name: opportunistic-scan
           path: |
+            signals/intraday_watch.json
+            signals/new_10r.json
             signals/live_10r.json
             signals/latest.json
             signals/research_lab.json
