@@ -2,6 +2,7 @@
 import argparse,csv,json,math,statistics
 from datetime import datetime,timezone,timedelta
 from pathlib import Path
+from indicators import HOURLY,DAILY,simulate as indicator_simulate
 FAMILIES=('breakout','momentum','reversion')
 WINDOWS=(12,20,36)
 COST=.002
@@ -65,7 +66,24 @@ def run(folder,now):
     train=[t for t in trades if t[1]<split]
     test=[t for t in trades if t[0]>=split]
     tr=stats(train);te=stats(test)
-    rows.append(dict(symbol=sym,family=f,lookback=n,train=tr,holdout=te,
+    rows.append(dict(symbol=sym,family=f,lookback=n,interval='1h',train=tr,holdout=te,
+                     sufficient_sample=tr['n']>=30 and te['n']>=12))
+ # Indicator candidates: preserve original control models, add independent experiments.
+ for sym in sorted(q['eligible_symbols']):
+  meta=m['symbols'].get(sym,{})
+  for interval,names in (('1h',HOURLY),('1d',DAILY)):
+   if interval not in meta:continue
+   a=read(folder/meta[interval]['file'],now if interval=='1h' else now+timedelta(hours=23))
+   # Daily source dates are session labels. Exclude current UTC date as provisional.
+   if interval=='1d':a=[x for x in a if x[0].date()<now.date()]
+   if len(a)<220:continue
+   split=a[int(.7*len(a))][0]
+   for name in names:
+    trades=indicator_simulate(a,name)
+    train=[t for t in trades if t[1]<split]
+    test=[t for t in trades if t[0]>=split]
+    tr=stats(train);te=stats(test)
+    rows.append(dict(symbol=sym,family=name,lookback=None,interval=interval,train=tr,holdout=te,
                      sufficient_sample=tr['n']>=30 and te['n']>=12))
  report=dict(asof=now.isoformat(),research_only=True,holdout='chronological 70/30; boundary trades excluded',
              cost_round_trip_bps=20,assumptions='next-bar open; 12-bar max hold; stop-first; no leverage; no funding/borrow; independent hypothetical trades, NOT portfolio',
