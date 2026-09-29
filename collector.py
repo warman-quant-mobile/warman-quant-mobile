@@ -68,7 +68,7 @@ def main():
     for name in args.symbols:
         ticker=SYMBOLS.get(name,name)
         result={}
-        for interval,period in [('1h','60d'),('1d','2y')]:
+        for interval,period in [('1h','60d'),('1d','10y')]:
             try:
                 df=get_series(ticker,interval,period,out,name)
                 filename=f'{name.replace("/","_")}_{interval}.csv'
