@@ -11,7 +11,7 @@ def scan(folder, now=None):
     created=datetime.fromisoformat(manifest["generated_at_utc"].replace("Z","+00:00"))
     if now-created>timedelta(hours=8) or created>now+timedelta(minutes=5):
         raise ValueError("STALE_EXPORT: manifest must be generated within eight hours")
-    results=[]; rejected={}
+    results=[]; rejected={}; watchlist=[]; funnel={'eligible':len(quality['eligible_symbols']),'directional_breakouts':0,'positive_reference_reward':0,'reference_10r':0}
     for symbol in quality["eligible_symbols"]:
         try:
             meta=manifest["symbols"][symbol]["1d"]
@@ -33,12 +33,18 @@ def scan(folder, now=None):
             direction=("LONG" if price>prev20h and price>ma50>ma200 else
                        "SHORT" if price<prev20l and price<ma50<ma200 else None)
             if direction is None: continue
+            funnel['directional_breakouts']+=1
             stop=(price-2*atr if direction=="LONG" else price+2*atr)
             # Conservative historical reference target; breakout beyond 20d often has no validated 10R target.
             target=(prior_high if direction=="LONG" else prior_low)
             reward=(target-price if direction=="LONG" else price-target)
             risk=abs(price-stop)
             rr=reward/risk
+            if rr>0: funnel['positive_reference_reward']+=1
+            if rr>=10: funnel['reference_10r']+=1
+            watchlist.append(dict(symbol=symbol,direction=direction,session_date=str(date),
+                reference_reward_risk=round(rr,2),reason=('REFERENCE_10R' if rr>=10 else 'BELOW_10R_REFERENCE'),
+                note='Research diagnostics only; historical reference is not a validated target.'))
             if rr<10: continue
             results.append(dict(symbol=symbol,direction=direction,session_date=str(date),
                 proxy_close=round(price,6),atr20=round(float(atr),6),trigger=round(price,6),
@@ -49,7 +55,8 @@ def scan(folder, now=None):
         except Exception as exc: rejected[symbol]=str(exc)
     return dict(schema_version=1,generated_at_utc=now.isoformat(),source_manifest_utc=manifest["generated_at_utc"],
         status="CANDIDATES_REQUIRE_MANUAL_VERIFICATION" if results else "NO_QUALIFIED_CANDIDATES",
-        candidates=results,rejected=rejected,
+        candidates=results,rejected=rejected,screening_funnel=funnel,
+        diagnostic_watchlist=sorted(watchlist,key=lambda item:item['reference_reward_risk'],reverse=True)[:10],
         warning="Historical reference targets are NOT forecasts. A 10R geometric ratio is not proven expected value. No automatic trading.")
 
 if __name__=="__main__":
