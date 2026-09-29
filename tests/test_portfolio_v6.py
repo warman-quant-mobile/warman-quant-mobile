@@ -22,4 +22,8 @@ class CryptoPortfolioTests(unittest.TestCase):
    self.assertTrue(all(float(x['cash'])>=-0.01 for x in rows))
    self.assertTrue(all(int(x['open_positions'])<=2 for x in rows))
    self.assertTrue(any(int(x['open_positions'])>0 for x in rows), 'Test must reach the position sizing code')
+   self.assertTrue(all(abs(float(x['equity'])-float(x['cash']))<1e-6 for x in rows if int(x['open_positions'])==0))
+   self.assertTrue(all(float(x['equity'])>0 for x in rows))
+   self.assertFalse(r['validated_edge'])
+   self.assertFalse(r['nordnet_executable'])
 if __name__=='__main__':unittest.main()
