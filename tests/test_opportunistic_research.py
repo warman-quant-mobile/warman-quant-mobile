@@ -7,7 +7,7 @@ class EventStudyTests(unittest.TestCase):
         prior=[dict(Open=100.,High=101.,Low=99.,Close=100.) for _ in range(40)]
         return pd.DataFrame(prior+future+[dict(Open=100.,High=101.,Low=99.,Close=100.)]*61)
     def test_same_bar_target_and_stop_is_stop(self):
-        df=self.bars([dict(Open=100.,High=160.,Low=97.,Close=110.)])
+        df=self.bars([dict(Open=100.,High=160.,Low=95.,Close=110.)])
         result=evaluate(df,"LONG",40)
         self.assertEqual(result["outcome"],"STOP")
         self.assertLess(result["realized_r"],0)
