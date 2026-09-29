@@ -18,3 +18,6 @@ Core investment-company holdings and speculative research capital must have sepa
 - Multiple-testing correction, anchored walk-forward and truly untouched forward observations.
 - 1x/2x/3x cost and venue outage stress; independent implementation review.
 - Never authorize live execution or large risk from an exploratory backtest.
+
+## HARD NORDNET GATE (user mandate)
+No candidate may be called executable or promoted without a specific Nordnet-listed instrument, confirmed eligibility in the company-owned KF, and a realistic instrument-level backtest. BTC/ETH/SOL spot are research signals only. ETPs trade during exchange sessions, not crypto's 24/7 schedule; weekend gaps, currency, issuer, tracking, spread and fees are material. See `nordnet_universe.json`. Funding/open-interest/liquidation signals may be researched as predictors, but no perpetual or short implementation without a matching verified Nordnet instrument. If no match, discard from tradable research queue.
