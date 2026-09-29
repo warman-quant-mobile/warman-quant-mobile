@@ -32,18 +32,12 @@ jobs:
         run: python collector.py
       - name: Validate market data
         run: python validate.py output
-      - name: Run research-only paperdesk
-        run: python paperdesk.py --folder output --state state/paperdesk.json
+      - name: Audit journal continuity (fail closed; no silent paper bootstrap)
+        run: python audit_journal.py --state state/paperdesk.json --ledger state/ledger.json --report output/journal_audit.json
       - name: Run exploratory research lab
         run: python research.py --folder output
-      - name: Run cash-backed crypto portfolio research
+      - name: Run cash-backed crypto portfolio research (diagnostic only)
         run: python portfolio_v6.py --folder output
-      - name: Persist journal
-        if: success()
-        uses: actions/cache/save@v4
-        with:
-          path: state/
-          key: paperdesk-${{ github.run_id }}-${{ github.run_attempt }}
       - name: Upload audit and journal
         if: always()
         uses: actions/upload-artifact@v4
