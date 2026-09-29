@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - feature/investing-virbtc-normalizer-v17
+      - feature/extreme-event-outcome-study-20260929
 permissions:
   contents: read
 jobs:
