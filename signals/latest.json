@@ -1,0 +1,9 @@
+{
+  "schema_version": 1,
+  "generated_at_utc": "2026-09-29T13:51:50.509455+00:00",
+  "source_manifest_utc": "2026-09-29T13:51:23.320214+00:00",
+  "status": "NO_QUALIFIED_CANDIDATES",
+  "candidates": [],
+  "rejected": {},
+  "warning": "Historical reference targets are NOT forecasts. A 10R geometric ratio is not proven expected value. No automatic trading."
+}
