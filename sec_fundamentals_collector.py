@@ -1,15 +1,15 @@
 #!/usr/bin/env python3
 """SEC EDGAR point-in-time fundamentals collector for Stock Picker. Research only."""
-import argparse,json,time,urllib.request
+import argparse,json,time,urllib.request,os
 from pathlib import Path
-UA="WarmanQuant research contact research@example.invalid"
+UA=os.environ.get("SEC_USER_AGENT","WarmanQuant/1.0 warman-quant-mobile GitHub research")
 BASE="https://data.sec.gov"
 TAGS={
  "revenue":["RevenueFromContractWithCustomerExcludingAssessedTax","Revenues","SalesRevenueNet"],
  "net_income":["NetIncomeLoss"],
  "assets":["Assets"],"equity":["StockholdersEquity","StockholdersEquityIncludingPortionAttributableToNoncontrollingInterest"],
  "cash":["CashAndCashEquivalentsAtCarryingValue"],"cfo":["NetCashProvidedByUsedInOperatingActivities"],
- "capex":["PaymentsToAcquirePropertyPlantAndEquipment"],"shares":["CommonStocksIncludingAdditionalPaidInCapitalMember","CommonStockSharesOutstanding"]
+ "capex":["PaymentsToAcquirePropertyPlantAndEquipment"],"shares":["CommonStockSharesOutstanding"]
 }
 def get(url):
  q=urllib.request.Request(url,headers={"User-Agent":UA,"Accept-Encoding":"identity"})
