@@ -2,15 +2,15 @@
   "status": "RESEARCH_ONLY",
   "results": {
     "OMXS30": {
-      "hourly_bars": 534,
+      "hourly_bars": 536,
       "sample_gate_passed": false,
       "setups": {
         "FAILED_HIGH_20H": {
-          "events": 39,
+          "events": 40,
           "targets_10r": 0,
           "stops": 29,
           "reached_10r_mfe": 0,
-          "mean_realized_r": -0.239,
+          "mean_realized_r": -0.209,
           "max_mfe_r": 5.661
         },
         "FAILED_LOW_20H": {
@@ -40,7 +40,7 @@
       }
     },
     "DAX": {
-      "hourly_bars": 534,
+      "hourly_bars": 536,
       "sample_gate_passed": false,
       "setups": {
         "FAILED_HIGH_20H": {
@@ -154,7 +154,7 @@
       }
     },
     "GOLD_FUT": {
-      "hourly_bars": 1130,
+      "hourly_bars": 1132,
       "sample_gate_passed": true,
       "setups": {
         "FAILED_HIGH_20H": {
@@ -192,7 +192,7 @@
       }
     },
     "SILVER_FUT": {
-      "hourly_bars": 1132,
+      "hourly_bars": 1134,
       "sample_gate_passed": true,
       "setups": {
         "FAILED_HIGH_20H": {
@@ -204,11 +204,11 @@
           "max_mfe_r": 5.681
         },
         "FAILED_LOW_20H": {
-          "events": 63,
+          "events": 64,
           "targets_10r": 0,
           "stops": 43,
           "reached_10r_mfe": 0,
-          "mean_realized_r": -0.149,
+          "mean_realized_r": -0.152,
           "max_mfe_r": 6.305
         },
         "SHOCK_CONT": {
@@ -230,7 +230,7 @@
       }
     },
     "WTI_FUT": {
-      "hourly_bars": 1128,
+      "hourly_bars": 1130,
       "sample_gate_passed": true,
       "setups": {
         "FAILED_HIGH_20H": {
@@ -268,7 +268,7 @@
       }
     },
     "BRENT_FUT": {
-      "hourly_bars": 1097,
+      "hourly_bars": 1099,
       "sample_gate_passed": true,
       "setups": {
         "FAILED_HIGH_20H": {
@@ -306,7 +306,7 @@
       }
     },
     "US30Y_BOND_FUT": {
-      "hourly_bars": 1133,
+      "hourly_bars": 1135,
       "sample_gate_passed": true,
       "setups": {
         "FAILED_HIGH_20H": {
@@ -344,7 +344,7 @@
       }
     },
     "US10Y_NOTE_FUT": {
-      "hourly_bars": 1129,
+      "hourly_bars": 1131,
       "sample_gate_passed": true,
       "setups": {
         "FAILED_HIGH_20H": {
@@ -458,7 +458,7 @@
       }
     },
     "VIX": {
-      "hourly_bars": 824,
+      "hourly_bars": 826,
       "sample_gate_passed": false,
       "setups": {
         "FAILED_HIGH_20H": {
@@ -572,7 +572,7 @@
       }
     },
     "EURUSD": {
-      "hourly_bars": 1415,
+      "hourly_bars": 1417,
       "sample_gate_passed": true,
       "setups": {
         "FAILED_HIGH_20H": {
@@ -584,11 +584,11 @@
           "max_mfe_r": 2.462
         },
         "FAILED_LOW_20H": {
-          "events": 49,
+          "events": 50,
           "targets_10r": 0,
-          "stops": 34,
+          "stops": 35,
           "reached_10r_mfe": 0,
-          "mean_realized_r": -0.525,
+          "mean_realized_r": -0.534,
           "max_mfe_r": 3.324
         },
         "SHOCK_CONT": {
@@ -610,15 +610,15 @@
       }
     },
     "USDSEK": {
-      "hourly_bars": 1407,
+      "hourly_bars": 1409,
       "sample_gate_passed": true,
       "setups": {
         "FAILED_HIGH_20H": {
-          "events": 106,
+          "events": 107,
           "targets_10r": 0,
-          "stops": 65,
+          "stops": 66,
           "reached_10r_mfe": 0,
-          "mean_realized_r": -0.317,
+          "mean_realized_r": -0.324,
           "max_mfe_r": 4.797
         },
         "FAILED_LOW_20H": {
@@ -648,7 +648,7 @@
       }
     },
     "INVESTOR_B": {
-      "hourly_bars": 534,
+      "hourly_bars": 536,
       "sample_gate_passed": false,
       "setups": {
         "FAILED_HIGH_20H": {
@@ -686,7 +686,7 @@
       }
     },
     "VOLVO_B": {
-      "hourly_bars": 534,
+      "hourly_bars": 536,
       "sample_gate_passed": false,
       "setups": {
         "FAILED_HIGH_20H": {
@@ -724,7 +724,7 @@
       }
     },
     "ATLAS_A": {
-      "hourly_bars": 534,
+      "hourly_bars": 536,
       "sample_gate_passed": false,
       "setups": {
         "FAILED_HIGH_20H": {
@@ -762,15 +762,15 @@
       }
     },
     "ABB": {
-      "hourly_bars": 534,
+      "hourly_bars": 536,
       "sample_gate_passed": false,
       "setups": {
         "FAILED_HIGH_20H": {
-          "events": 28,
+          "events": 29,
           "targets_10r": 0,
           "stops": 13,
           "reached_10r_mfe": 0,
-          "mean_realized_r": 0.9,
+          "mean_realized_r": 0.959,
           "max_mfe_r": 6.611
         },
         "FAILED_LOW_20H": {
@@ -1028,7 +1028,7 @@
       }
     },
     "BITCOIN": {
-      "hourly_bars": 1426,
+      "hourly_bars": 1428,
       "sample_gate_passed": true,
       "setups": {
         "FAILED_HIGH_20H": {
@@ -1066,7 +1066,7 @@
       }
     },
     "ETHEREUM": {
-      "hourly_bars": 1426,
+      "hourly_bars": 1428,
       "sample_gate_passed": true,
       "setups": {
         "FAILED_HIGH_20H": {
@@ -1104,7 +1104,7 @@
       }
     },
     "SOLANA": {
-      "hourly_bars": 1426,
+      "hourly_bars": 1428,
       "sample_gate_passed": true,
       "setups": {
         "FAILED_HIGH_20H": {

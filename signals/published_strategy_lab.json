@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "status": "RESEARCH_ONLY",
-  "generated_at_utc": "2026-09-30T09:59:13.601660+00:00",
+  "generated_at_utc": "2026-09-30T11:24:32.181735+00:00",
   "rules": [
     "turtle_55",
     "volatility_contraction",
