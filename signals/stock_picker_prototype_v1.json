@@ -1,0 +1,14 @@
+{
+  "status": "exploratory_current_snapshot_not_OOS",
+  "weights": {
+    "quality": 0.3,
+    "value": 0.25,
+    "growth": 0.25,
+    "momentum": 0.2
+  },
+  "raw_counts": {
+    "us": 7686,
+    "se": 1173
+  },
+  "top": []
+}
