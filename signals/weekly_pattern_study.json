@@ -1,0 +1,1478 @@
+{
+  "status": "RESEARCH_ONLY",
+  "hypothesis_version": "weekly-triangle-mtf-v2-corrected-2026-09-30",
+  "rules": {
+    "windows_weeks": [
+      20,
+      40,
+      60
+    ],
+    "pivot": 2,
+    "min_touches": 3,
+    "min_r2": 0.65,
+    "max_compression": 0.7,
+    "weekly_entry": "next week open after close-confirmed breakout",
+    "daily_variant": "within 10 sessions after completed weekly breakout: boundary retest + reclaim + one-day momentum; enter next daily open",
+    "same_bar_ambiguity": "STOP_FIRST",
+    "friction_bps": 20,
+    "weekly_horizon": 26,
+    "daily_horizon": 130,
+    "formation_height": "fitted width at earliest selected confirmed pivot; no backward extrapolation"
+  },
+  "splits": {
+    "train": {
+      "start": 0,
+      "end": 27
+    },
+    "validation": {
+      "start": 27,
+      "end": 36
+    },
+    "final_test": {
+      "start": 36,
+      "end": 46
+    }
+  },
+  "summary": {
+    "weekly": {
+      "train": {
+        "n": 27,
+        "mean_r": -0.201,
+        "median_r": -1.0,
+        "stops": 23,
+        "measured_target_hits": 3,
+        "hit_3r_before_stop": 4,
+        "hit_5r_before_stop": 3,
+        "hit_10r_before_stop": 1,
+        "hit_15r_before_stop": 1,
+        "hit_20r_before_stop": 1
+      },
+      "validation": {
+        "n": 9,
+        "mean_r": -0.211,
+        "median_r": -1.0,
+        "stops": 8,
+        "measured_target_hits": 0,
+        "hit_3r_before_stop": 2,
+        "hit_5r_before_stop": 1,
+        "hit_10r_before_stop": 0,
+        "hit_15r_before_stop": 0,
+        "hit_20r_before_stop": 0
+      },
+      "final_test": {
+        "n": 10,
+        "mean_r": 0.277,
+        "median_r": -1.0,
+        "stops": 7,
+        "measured_target_hits": 1,
+        "hit_3r_before_stop": 3,
+        "hit_5r_before_stop": 2,
+        "hit_10r_before_stop": 0,
+        "hit_15r_before_stop": 0,
+        "hit_20r_before_stop": 0
+      }
+    },
+    "weekly_context_daily_retest": {
+      "train": {
+        "n": 5,
+        "mean_r": 3.926,
+        "median_r": -1.0,
+        "stops": 3,
+        "measured_target_hits": 2,
+        "hit_3r_before_stop": 3,
+        "hit_5r_before_stop": 2,
+        "hit_10r_before_stop": 1,
+        "hit_15r_before_stop": 1,
+        "hit_20r_before_stop": 1
+      },
+      "validation": {
+        "n": 3,
+        "mean_r": -1.0,
+        "median_r": -1.0,
+        "stops": 3,
+        "measured_target_hits": 0,
+        "hit_3r_before_stop": 1,
+        "hit_5r_before_stop": 1,
+        "hit_10r_before_stop": 0,
+        "hit_15r_before_stop": 0,
+        "hit_20r_before_stop": 0
+      },
+      "final_test": {
+        "n": 6,
+        "mean_r": -0.035,
+        "median_r": -1.0,
+        "stops": 4,
+        "measured_target_hits": 0,
+        "hit_3r_before_stop": 3,
+        "hit_5r_before_stop": 1,
+        "hit_10r_before_stop": 0,
+        "hit_15r_before_stop": 0,
+        "hit_20r_before_stop": 0
+      }
+    }
+  },
+  "observations": [
+    {
+      "symbol": "DAX",
+      "breakout_week": "2018-02-02",
+      "side": "SHORT",
+      "window": 40,
+      "compression": 0.321,
+      "r2_high": 0.73,
+      "r2_low": 0.892,
+      "weekly": {
+        "risk": 611.963255,
+        "realized_r": 0.076,
+        "mfe_r": 1.529,
+        "mae_r": 0.886,
+        "fixed_r_before_stop": {
+          "3": false,
+          "5": false,
+          "10": false,
+          "15": false,
+          "20": false
+        },
+        "exit_reason": "TIMEOUT",
+        "measured_target_r": 2.577
+      },
+      "weekly_context_daily_retest": null
+    },
+    {
+      "symbol": "TESLA",
+      "breakout_week": "2018-02-09",
+      "side": "SHORT",
+      "window": 40,
+      "compression": 0.102,
+      "r2_high": 0.889,
+      "r2_low": 1.0,
+      "weekly": {
+        "risk": 0.613455,
+        "realized_r": -1.0,
+        "mfe_r": 1.005,
+        "mae_r": 3.002,
+        "fixed_r_before_stop": {
+          "3": false,
+          "5": false,
+          "10": false,
+          "15": false,
+          "20": false
+        },
+        "exit_reason": "STOP",
+        "measured_target_r": 10.828
+      },
+      "weekly_context_daily_retest": null
+    },
+    {
+      "symbol": "BITCOIN",
+      "breakout_week": "2018-03-23",
+      "side": "LONG",
+      "window": 40,
+      "compression": 0.074,
+      "r2_high": 0.998,
+      "r2_low": 0.814,
+      "weekly": {
+        "risk": 1521.763861,
+        "realized_r": -1.0,
+        "mfe_r": 0.05,
+        "mae_r": 1.469,
+        "fixed_r_before_stop": {
+          "3": false,
+          "5": false,
+          "10": false,
+          "15": false,
+          "20": false
+        },
+        "exit_reason": "STOP",
+        "measured_target_r": 19.422
+      },
+      "weekly_context_daily_retest": null
+    },
+    {
+      "symbol": "INVESTOR_B",
+      "breakout_week": "2018-04-20",
+      "side": "LONG",
+      "window": 40,
+      "compression": 0.164,
+      "r2_high": 0.95,
+      "r2_low": 0.724,
+      "weekly": {
+        "risk": 3.241503,
+        "realized_r": -1.0,
+        "mfe_r": 0.766,
+        "mae_r": 1.656,
+        "fixed_r_before_stop": {
+          "3": false,
+          "5": false,
+          "10": false,
+          "15": false,
+          "20": false
+        },
+        "exit_reason": "STOP",
+        "measured_target_r": 7.246
+      },
+      "weekly_context_daily_retest": null
+    },
+    {
+      "symbol": "BITCOIN",
+      "breakout_week": "2018-06-08",
+      "side": "LONG",
+      "window": 40,
+      "compression": 0.078,
+      "r2_high": 0.818,
+      "r2_low": 0.993,
+      "weekly": {
+        "risk": 250.78506,
+        "realized_r": -1.0,
+        "mfe_r": 0.143,
+        "mae_r": 5.432,
+        "fixed_r_before_stop": {
+          "3": false,
+          "5": false,
+          "10": false,
+          "15": false,
+          "20": false
+        },
+        "exit_reason": "STOP",
+        "measured_target_r": 57.05
+      },
+      "weekly_context_daily_retest": null
+    },
+    {
+      "symbol": "ATLAS_A",
+      "breakout_week": "2018-10-12",
+      "side": "SHORT",
+      "window": 20,
+      "compression": 0.16,
+      "r2_high": 0.653,
+      "r2_low": 0.925,
+      "weekly": {
+        "risk": 5.98905,
+        "realized_r": -1.0,
+        "mfe_r": 1.079,
+        "mae_r": 1.008,
+        "fixed_r_before_stop": {
+          "3": false,
+          "5": false,
+          "10": false,
+          "15": false,
+          "20": false
+        },
+        "exit_reason": "STOP",
+        "measured_target_r": 1.777
+      },
+      "weekly_context_daily_retest": null
+    },
+    {
+      "symbol": "BITCOIN",
+      "breakout_week": "2018-10-12",
+      "side": "SHORT",
+      "window": 40,
+      "compression": 0.132,
+      "r2_high": 0.997,
+      "r2_low": 0.922,
+      "weekly": {
+        "risk": 390.507036,
+        "realized_r": -1.0,
+        "mfe_r": 0.018,
+        "mae_r": 1.791,
+        "fixed_r_before_stop": {
+          "3": false,
+          "5": false,
+          "10": false,
+          "15": false,
+          "20": false
+        },
+        "exit_reason": "STOP",
+        "measured_target_r": 11.272
+      },
+      "weekly_context_daily_retest": null
+    },
+    {
+      "symbol": "SP500",
+      "breakout_week": "2018-12-21",
+      "side": "SHORT",
+      "window": 40,
+      "compression": 0.461,
+      "r2_high": 0.786,
+      "r2_low": 0.893,
+      "weekly": {
+        "risk": 205.370944,
+        "realized_r": -1.0,
+        "mfe_r": 0.239,
+        "mae_r": 1.362,
+        "fixed_r_before_stop": {
+          "3": false,
+          "5": false,
+          "10": false,
+          "15": false,
+          "20": false
+        },
+        "exit_reason": "STOP",
+        "measured_target_r": 1.925
+      },
+      "weekly_context_daily_retest": null
+    },
+    {
+      "symbol": "WTI_FUT",
+      "breakout_week": "2019-09-20",
+      "side": "LONG",
+      "window": 40,
+      "compression": 0.463,
+      "r2_high": 0.978,
+      "r2_low": 0.847,
+      "weekly": {
+        "risk": 1.698502,
+        "realized_r": -1.0,
+        "mfe_r": 0.013,
+        "mae_r": 2.719,
+        "fixed_r_before_stop": {
+          "3": false,
+          "5": false,
+          "10": false,
+          "15": false,
+          "20": false
+        },
+        "exit_reason": "STOP",
+        "measured_target_r": 9.183
+      },
+      "weekly_context_daily_retest": null
+    },
+    {
+      "symbol": "TESLA",
+      "breakout_week": "2019-10-04",
+      "side": "SHORT",
+      "window": 40,
+      "compression": 0.079,
+      "r2_high": 1.0,
+      "r2_low": 0.673,
+      "weekly": {
+        "risk": 1.107308,
+        "realized_r": -1.0,
+        "mfe_r": 0.048,
+        "mae_r": 1.309,
+        "fixed_r_before_stop": {
+          "3": false,
+          "5": false,
+          "10": false,
+          "15": false,
+          "20": false
+        },
+        "exit_reason": "STOP",
+        "measured_target_r": 8.688
+      },
+      "weekly_context_daily_retest": null
+    },
+    {
+      "symbol": "SP500",
+      "breakout_week": "2019-11-01",
+      "side": "LONG",
+      "window": 40,
+      "compression": 0.628,
+      "r2_high": 0.785,
+      "r2_low": 0.948,
+      "weekly": {
+        "risk": 61.927939,
+        "realized_r": 4.157,
+        "mfe_r": 4.244,
+        "mae_r": 0.31,
+        "fixed_r_before_stop": {
+          "3": true,
+          "5": false,
+          "10": false,
+          "15": false,
+          "20": false
+        },
+        "exit_reason": "MEASURED_TARGET",
+        "measured_target_r": 4.157
+      },
+      "weekly_context_daily_retest": null
+    },
+    {
+      "symbol": "ETHEREUM",
+      "breakout_week": "2019-11-22",
+      "side": "SHORT",
+      "window": 20,
+      "compression": 0.534,
+      "r2_high": 0.98,
+      "r2_low": 0.724,
+      "weekly": {
+        "risk": 13.876077,
+        "realized_r": -1.0,
+        "mfe_r": 2.171,
+        "mae_r": 1.669,
+        "fixed_r_before_stop": {
+          "3": false,
+          "5": false,
+          "10": false,
+          "15": false,
+          "20": false
+        },
+        "exit_reason": "STOP",
+        "measured_target_r": 5.162
+      },
+      "weekly_context_daily_retest": {
+        "risk": 11.872979,
+        "realized_r": -1.0,
+        "mfe_r": 0.725,
+        "mae_r": 1.051,
+        "fixed_r_before_stop": {
+          "3": false,
+          "5": false,
+          "10": false,
+          "15": false,
+          "20": false
+        },
+        "exit_reason": "STOP",
+        "measured_target_r": 6.035
+      }
+    },
+    {
+      "symbol": "GOLD_FUT",
+      "breakout_week": "2019-12-13",
+      "side": "LONG",
+      "window": 40,
+      "compression": 0.067,
+      "r2_high": 0.989,
+      "r2_low": 0.687,
+      "weekly": {
+        "risk": 17.347209,
+        "realized_r": 9.67,
+        "mfe_r": 9.699,
+        "mae_r": 0.239,
+        "fixed_r_before_stop": {
+          "3": true,
+          "5": true,
+          "10": false,
+          "15": false,
+          "20": false
+        },
+        "exit_reason": "MEASURED_TARGET",
+        "measured_target_r": 9.67
+      },
+      "weekly_context_daily_retest": {
+        "risk": 9.743274,
+        "realized_r": 17.217,
+        "mfe_r": 21.24,
+        "mae_r": 0.508,
+        "fixed_r_before_stop": {
+          "3": true,
+          "5": true,
+          "10": true,
+          "15": true,
+          "20": true
+        },
+        "exit_reason": "MEASURED_TARGET",
+        "measured_target_r": 17.217
+      }
+    },
+    {
+      "symbol": "META",
+      "breakout_week": "2020-08-21",
+      "side": "LONG",
+      "window": 40,
+      "compression": 0.142,
+      "r2_high": 0.768,
+      "r2_low": 0.997,
+      "weekly": {
+        "risk": 12.352138,
+        "realized_r": -1.0,
+        "mfe_r": 2.676,
+        "mae_r": 1.746,
+        "fixed_r_before_stop": {
+          "3": false,
+          "5": false,
+          "10": false,
+          "15": false,
+          "20": false
+        },
+        "exit_reason": "STOP",
+        "measured_target_r": 11.836
+      },
+      "weekly_context_daily_retest": null
+    },
+    {
+      "symbol": "SILVER_FUT",
+      "breakout_week": "2020-11-06",
+      "side": "LONG",
+      "window": 40,
+      "compression": 0.052,
+      "r2_high": 0.912,
+      "r2_low": 0.994,
+      "weekly": {
+        "risk": 0.052369,
+        "realized_r": -2.069,
+        "mfe_r": 20.119,
+        "mae_r": 26.874,
+        "fixed_r_before_stop": {
+          "3": true,
+          "5": true,
+          "10": true,
+          "15": true,
+          "20": true
+        },
+        "exit_reason": "STOP",
+        "measured_target_r": 391.54
+      },
+      "weekly_context_daily_retest": null
+    },
+    {
+      "symbol": "META",
+      "breakout_week": "2020-12-25",
+      "side": "SHORT",
+      "window": 40,
+      "compression": 0.263,
+      "r2_high": 0.972,
+      "r2_low": 0.998,
+      "weekly": {
+        "risk": 6.467503,
+        "realized_r": -1.0,
+        "mfe_r": 0.393,
+        "mae_r": 1.903,
+        "fixed_r_before_stop": {
+          "3": false,
+          "5": false,
+          "10": false,
+          "15": false,
+          "20": false
+        },
+        "exit_reason": "STOP",
+        "measured_target_r": 12.72
+      },
+      "weekly_context_daily_retest": {
+        "risk": 7.246571,
+        "realized_r": -1.0,
+        "mfe_r": 3.194,
+        "mae_r": 1.479,
+        "fixed_r_before_stop": {
+          "3": true,
+          "5": false,
+          "10": false,
+          "15": false,
+          "20": false
+        },
+        "exit_reason": "STOP",
+        "measured_target_r": 11.353
+      }
+    },
+    {
+      "symbol": "AMAZON",
+      "breakout_week": "2021-07-09",
+      "side": "LONG",
+      "window": 40,
+      "compression": 0.613,
+      "r2_high": 0.983,
+      "r2_low": 0.981,
+      "weekly": {
+        "risk": 7.822578,
+        "realized_r": -1.0,
+        "mfe_r": 0.138,
+        "mae_r": 1.157,
+        "fixed_r_before_stop": {
+          "3": false,
+          "5": false,
+          "10": false,
+          "15": false,
+          "20": false
+        },
+        "exit_reason": "STOP",
+        "measured_target_r": 4.216
+      },
+      "weekly_context_daily_retest": null
+    },
+    {
+      "symbol": "DAX",
+      "breakout_week": "2021-08-13",
+      "side": "LONG",
+      "window": 40,
+      "compression": 0.401,
+      "r2_high": 0.907,
+      "r2_low": 0.89,
+      "weekly": {
+        "risk": 132.278291,
+        "realized_r": -1.0,
+        "mfe_r": 0.472,
+        "mae_r": 2.158,
+        "fixed_r_before_stop": {
+          "3": false,
+          "5": false,
+          "10": false,
+          "15": false,
+          "20": false
+        },
+        "exit_reason": "STOP",
+        "measured_target_r": 11.12
+      },
+      "weekly_context_daily_retest": null
+    },
+    {
+      "symbol": "GOLD_FUT",
+      "breakout_week": "2021-08-27",
+      "side": "LONG",
+      "window": 40,
+      "compression": 0.053,
+      "r2_high": 0.887,
+      "r2_low": 0.98,
+      "weekly": {
+        "risk": 47.243176,
+        "realized_r": -1.0,
+        "mfe_r": 0.247,
+        "mae_r": 1.688,
+        "fixed_r_before_stop": {
+          "3": false,
+          "5": false,
+          "10": false,
+          "15": false,
+          "20": false
+        },
+        "exit_reason": "STOP",
+        "measured_target_r": 7.636
+      },
+      "weekly_context_daily_retest": null
+    },
+    {
+      "symbol": "NVIDIA",
+      "breakout_week": "2022-03-18",
+      "side": "LONG",
+      "window": 40,
+      "compression": 0.105,
+      "r2_high": 0.999,
+      "r2_low": 0.994,
+      "weekly": {
+        "risk": 4.7126,
+        "realized_r": -1.0,
+        "mfe_r": 0.506,
+        "mae_r": 1.145,
+        "fixed_r_before_stop": {
+          "3": false,
+          "5": false,
+          "10": false,
+          "15": false,
+          "20": false
+        },
+        "exit_reason": "STOP",
+        "measured_target_r": 5.449
+      },
+      "weekly_context_daily_retest": null
+    },
+    {
+      "symbol": "APPLE",
+      "breakout_week": "2022-03-25",
+      "side": "LONG",
+      "window": 40,
+      "compression": 0.322,
+      "r2_high": 0.771,
+      "r2_low": 0.886,
+      "weekly": {
+        "risk": 4.754965,
+        "realized_r": -1.0,
+        "mfe_r": 1.492,
+        "mae_r": 1.572,
+        "fixed_r_before_stop": {
+          "3": false,
+          "5": false,
+          "10": false,
+          "15": false,
+          "20": false
+        },
+        "exit_reason": "STOP",
+        "measured_target_r": 10.825
+      },
+      "weekly_context_daily_retest": {
+        "risk": 6.47883,
+        "realized_r": -1.0,
+        "mfe_r": 0.396,
+        "mae_r": 1.067,
+        "fixed_r_before_stop": {
+          "3": false,
+          "5": false,
+          "10": false,
+          "15": false,
+          "20": false
+        },
+        "exit_reason": "STOP",
+        "measured_target_r": 7.943
+      }
+    },
+    {
+      "symbol": "INVESTOR_B",
+      "breakout_week": "2022-07-22",
+      "side": "LONG",
+      "window": 40,
+      "compression": 0.306,
+      "r2_high": 0.964,
+      "r2_low": 0.993,
+      "weekly": {
+        "risk": 10.545953,
+        "realized_r": -1.036,
+        "mfe_r": 0.625,
+        "mae_r": 1.652,
+        "fixed_r_before_stop": {
+          "3": false,
+          "5": false,
+          "10": false,
+          "15": false,
+          "20": false
+        },
+        "exit_reason": "STOP",
+        "measured_target_r": 5.213
+      },
+      "weekly_context_daily_retest": null
+    },
+    {
+      "symbol": "OMXS30",
+      "breakout_week": "2022-07-22",
+      "side": "LONG",
+      "window": 40,
+      "compression": 0.213,
+      "r2_high": 0.948,
+      "r2_low": 0.847,
+      "weekly": {
+        "risk": 70.571405,
+        "realized_r": -1.0,
+        "mfe_r": 1.282,
+        "mae_r": 1.405,
+        "fixed_r_before_stop": {
+          "3": false,
+          "5": false,
+          "10": false,
+          "15": false,
+          "20": false
+        },
+        "exit_reason": "STOP",
+        "measured_target_r": 7.098
+      },
+      "weekly_context_daily_retest": null
+    },
+    {
+      "symbol": "BRENT_FUT",
+      "breakout_week": "2022-09-23",
+      "side": "SHORT",
+      "window": 40,
+      "compression": 0.226,
+      "r2_high": 0.949,
+      "r2_low": 0.944,
+      "weekly": {
+        "risk": 6.963441,
+        "realized_r": -1.0,
+        "mfe_r": 0.419,
+        "mae_r": 1.73,
+        "fixed_r_before_stop": {
+          "3": false,
+          "5": false,
+          "10": false,
+          "15": false,
+          "20": false
+        },
+        "exit_reason": "STOP",
+        "measured_target_r": 6.07
+      },
+      "weekly_context_daily_retest": null
+    },
+    {
+      "symbol": "META",
+      "breakout_week": "2022-09-23",
+      "side": "SHORT",
+      "window": 40,
+      "compression": 0.54,
+      "r2_high": 0.914,
+      "r2_low": 0.828,
+      "weekly": {
+        "risk": 9.760251,
+        "realized_r": 4.764,
+        "mfe_r": 5.302,
+        "mae_r": 0.261,
+        "fixed_r_before_stop": {
+          "3": true,
+          "5": true,
+          "10": false,
+          "15": false,
+          "20": false
+        },
+        "exit_reason": "MEASURED_TARGET",
+        "measured_target_r": 4.764
+      },
+      "weekly_context_daily_retest": {
+        "risk": 8.589174,
+        "realized_r": 5.414,
+        "mfe_r": 5.491,
+        "mae_r": 0.553,
+        "fixed_r_before_stop": {
+          "3": true,
+          "5": true,
+          "10": false,
+          "15": false,
+          "20": false
+        },
+        "exit_reason": "MEASURED_TARGET",
+        "measured_target_r": 5.414
+      }
+    },
+    {
+      "symbol": "SOLANA",
+      "breakout_week": "2022-10-14",
+      "side": "SHORT",
+      "window": 20,
+      "compression": 0.227,
+      "r2_high": 0.653,
+      "r2_low": 0.965,
+      "weekly": {
+        "risk": 3.393335,
+        "realized_r": -1.0,
+        "mfe_r": 0.872,
+        "mae_r": 1.285,
+        "fixed_r_before_stop": {
+          "3": false,
+          "5": false,
+          "10": false,
+          "15": false,
+          "20": false
+        },
+        "exit_reason": "STOP",
+        "measured_target_r": 8.178
+      },
+      "weekly_context_daily_retest": null
+    },
+    {
+      "symbol": "APPLE",
+      "breakout_week": "2022-12-16",
+      "side": "SHORT",
+      "window": 40,
+      "compression": 0.151,
+      "r2_high": 0.928,
+      "r2_low": 0.981,
+      "weekly": {
+        "risk": 7.718788,
+        "realized_r": -1.0,
+        "mfe_r": 1.382,
+        "mae_r": 1.605,
+        "fixed_r_before_stop": {
+          "3": false,
+          "5": false,
+          "10": false,
+          "15": false,
+          "20": false
+        },
+        "exit_reason": "STOP",
+        "measured_target_r": 7.94
+      },
+      "weekly_context_daily_retest": null
+    },
+    {
+      "symbol": "BRENT_FUT",
+      "breakout_week": "2023-03-17",
+      "side": "SHORT",
+      "window": 40,
+      "compression": 0.153,
+      "r2_high": 0.895,
+      "r2_low": 0.956,
+      "weekly": {
+        "risk": 10.725782,
+        "realized_r": -1.0,
+        "mfe_r": 0.244,
+        "mae_r": 1.258,
+        "fixed_r_before_stop": {
+          "3": false,
+          "5": false,
+          "10": false,
+          "15": false,
+          "20": false
+        },
+        "exit_reason": "STOP",
+        "measured_target_r": 2.635
+      },
+      "weekly_context_daily_retest": null
+    },
+    {
+      "symbol": "TESLA",
+      "breakout_week": "2023-06-02",
+      "side": "LONG",
+      "window": 40,
+      "compression": 0.116,
+      "r2_high": 0.997,
+      "r2_low": 0.722,
+      "weekly": {
+        "risk": 23.115608,
+        "realized_r": -1.0,
+        "mfe_r": 3.506,
+        "mae_r": 1.045,
+        "fixed_r_before_stop": {
+          "3": true,
+          "5": false,
+          "10": false,
+          "15": false,
+          "20": false
+        },
+        "exit_reason": "STOP",
+        "measured_target_r": 6.886
+      },
+      "weekly_context_daily_retest": null
+    },
+    {
+      "symbol": "OMXS30",
+      "breakout_week": "2023-06-16",
+      "side": "LONG",
+      "window": 40,
+      "compression": 0.499,
+      "r2_high": 0.995,
+      "r2_low": 0.731,
+      "weekly": {
+        "risk": 22.8716,
+        "realized_r": -1.0,
+        "mfe_r": 0.0,
+        "mae_r": 3.984,
+        "fixed_r_before_stop": {
+          "3": false,
+          "5": false,
+          "10": false,
+          "15": false,
+          "20": false
+        },
+        "exit_reason": "STOP",
+        "measured_target_r": 10.051
+      },
+      "weekly_context_daily_retest": {
+        "risk": 26.845631,
+        "realized_r": -1.0,
+        "mfe_r": 0.0,
+        "mae_r": 1.012,
+        "fixed_r_before_stop": {
+          "3": false,
+          "5": false,
+          "10": false,
+          "15": false,
+          "20": false
+        },
+        "exit_reason": "STOP",
+        "measured_target_r": 8.563
+      }
+    },
+    {
+      "symbol": "SILVER_FUT",
+      "breakout_week": "2023-07-14",
+      "side": "LONG",
+      "window": 60,
+      "compression": 0.048,
+      "r2_high": 0.763,
+      "r2_low": 0.904,
+      "weekly": {
+        "risk": 2.003484,
+        "realized_r": -1.0,
+        "mfe_r": 0.155,
+        "mae_r": 1.158,
+        "fixed_r_before_stop": {
+          "3": false,
+          "5": false,
+          "10": false,
+          "15": false,
+          "20": false
+        },
+        "exit_reason": "STOP",
+        "measured_target_r": 7.003
+      },
+      "weekly_context_daily_retest": null
+    },
+    {
+      "symbol": "NASDAQ100",
+      "breakout_week": "2023-11-10",
+      "side": "LONG",
+      "window": 40,
+      "compression": 0.014,
+      "r2_high": 0.999,
+      "r2_low": 0.896,
+      "weekly": {
+        "risk": 435.238225,
+        "realized_r": 6.114,
+        "mfe_r": 6.811,
+        "mae_r": 0.219,
+        "fixed_r_before_stop": {
+          "3": true,
+          "5": true,
+          "10": false,
+          "15": false,
+          "20": false
+        },
+        "exit_reason": "TIMEOUT",
+        "measured_target_r": 8.431
+      },
+      "weekly_context_daily_retest": null
+    },
+    {
+      "symbol": "BITCOIN",
+      "breakout_week": "2024-06-28",
+      "side": "SHORT",
+      "window": 60,
+      "compression": 0.179,
+      "r2_high": 0.961,
+      "r2_low": 0.972,
+      "weekly": {
+        "risk": 4292.467875,
+        "realized_r": -1.0,
+        "mfe_r": 1.51,
+        "mae_r": 1.687,
+        "fixed_r_before_stop": {
+          "3": false,
+          "5": false,
+          "10": false,
+          "15": false,
+          "20": false
+        },
+        "exit_reason": "STOP",
+        "measured_target_r": 12.686
+      },
+      "weekly_context_daily_retest": {
+        "risk": 1350.348468,
+        "realized_r": -1.0,
+        "mfe_r": 6.067,
+        "mae_r": 2.192,
+        "fixed_r_before_stop": {
+          "3": true,
+          "5": true,
+          "10": false,
+          "15": false,
+          "20": false
+        },
+        "exit_reason": "STOP",
+        "measured_target_r": 40.323
+      }
+    },
+    {
+      "symbol": "VOLVO_B",
+      "breakout_week": "2024-08-09",
+      "side": "SHORT",
+      "window": 40,
+      "compression": 0.517,
+      "r2_high": 0.791,
+      "r2_low": 0.793,
+      "weekly": {
+        "risk": 2.114806,
+        "realized_r": -1.0,
+        "mfe_r": 0.844,
+        "mae_r": 4.357,
+        "fixed_r_before_stop": {
+          "3": false,
+          "5": false,
+          "10": false,
+          "15": false,
+          "20": false
+        },
+        "exit_reason": "STOP",
+        "measured_target_r": 21.406
+      },
+      "weekly_context_daily_retest": null
+    },
+    {
+      "symbol": "NVIDIA",
+      "breakout_week": "2024-10-11",
+      "side": "LONG",
+      "window": 40,
+      "compression": 0.318,
+      "r2_high": 0.957,
+      "r2_low": 0.951,
+      "weekly": {
+        "risk": 11.792944,
+        "realized_r": -1.013,
+        "mfe_r": 1.39,
+        "mae_r": 1.738,
+        "fixed_r_before_stop": {
+          "3": false,
+          "5": false,
+          "10": false,
+          "15": false,
+          "20": false
+        },
+        "exit_reason": "STOP",
+        "measured_target_r": 6.179
+      },
+      "weekly_context_daily_retest": null
+    },
+    {
+      "symbol": "APPLE",
+      "breakout_week": "2024-10-18",
+      "side": "LONG",
+      "window": 40,
+      "compression": 0.154,
+      "r2_high": 0.87,
+      "r2_low": 0.991,
+      "weekly": {
+        "risk": 6.318891,
+        "realized_r": -1.0,
+        "mfe_r": 0.306,
+        "mae_r": 1.133,
+        "fixed_r_before_stop": {
+          "3": false,
+          "5": false,
+          "10": false,
+          "15": false,
+          "20": false
+        },
+        "exit_reason": "STOP",
+        "measured_target_r": 12.588
+      },
+      "weekly_context_daily_retest": {
+        "risk": 5.499804,
+        "realized_r": -1.0,
+        "mfe_r": 0.172,
+        "mae_r": 1.53,
+        "fixed_r_before_stop": {
+          "3": false,
+          "5": false,
+          "10": false,
+          "15": false,
+          "20": false
+        },
+        "exit_reason": "STOP",
+        "measured_target_r": 14.464
+      }
+    },
+    {
+      "symbol": "ATLAS_A",
+      "breakout_week": "2024-12-06",
+      "side": "LONG",
+      "window": 20,
+      "compression": 0.017,
+      "r2_high": 0.976,
+      "r2_low": 0.858,
+      "weekly": {
+        "risk": 12.6203,
+        "realized_r": -1.0,
+        "mfe_r": 0.0,
+        "mae_r": 1.416,
+        "fixed_r_before_stop": {
+          "3": false,
+          "5": false,
+          "10": false,
+          "15": false,
+          "20": false
+        },
+        "exit_reason": "STOP",
+        "measured_target_r": 4.043
+      },
+      "weekly_context_daily_retest": null
+    },
+    {
+      "symbol": "BRENT_FUT",
+      "breakout_week": "2024-12-06",
+      "side": "SHORT",
+      "window": 40,
+      "compression": 0.309,
+      "r2_high": 0.72,
+      "r2_low": 0.962,
+      "weekly": {
+        "risk": 3.362081,
+        "realized_r": -1.0,
+        "mfe_r": 0.0,
+        "mae_r": 1.098,
+        "fixed_r_before_stop": {
+          "3": false,
+          "5": false,
+          "10": false,
+          "15": false,
+          "20": false
+        },
+        "exit_reason": "STOP",
+        "measured_target_r": 6.159
+      },
+      "weekly_context_daily_retest": null
+    },
+    {
+      "symbol": "WTI_FUT",
+      "breakout_week": "2024-12-06",
+      "side": "SHORT",
+      "window": 20,
+      "compression": 0.304,
+      "r2_high": 0.78,
+      "r2_low": 0.887,
+      "weekly": {
+        "risk": 3.424487,
+        "realized_r": -1.0,
+        "mfe_r": 0.0,
+        "mae_r": 1.286,
+        "fixed_r_before_stop": {
+          "3": false,
+          "5": false,
+          "10": false,
+          "15": false,
+          "20": false
+        },
+        "exit_reason": "STOP",
+        "measured_target_r": 4.693
+      },
+      "weekly_context_daily_retest": null
+    },
+    {
+      "symbol": "OMXS30",
+      "breakout_week": "2025-03-21",
+      "side": "SHORT",
+      "window": 40,
+      "compression": 0.217,
+      "r2_high": 0.663,
+      "r2_low": 0.758,
+      "weekly": {
+        "risk": 65.04062,
+        "realized_r": 3.637,
+        "mfe_r": 5.961,
+        "mae_r": 0.105,
+        "fixed_r_before_stop": {
+          "3": true,
+          "5": true,
+          "10": false,
+          "15": false,
+          "20": false
+        },
+        "exit_reason": "MEASURED_TARGET",
+        "measured_target_r": 3.637
+      },
+      "weekly_context_daily_retest": null
+    },
+    {
+      "symbol": "WTI_FUT",
+      "breakout_week": "2025-10-10",
+      "side": "SHORT",
+      "window": 20,
+      "compression": 0.017,
+      "r2_high": 0.975,
+      "r2_low": 0.987,
+      "weekly": {
+        "risk": 2.973855,
+        "realized_r": -1.0,
+        "mfe_r": 0.851,
+        "mae_r": 1.247,
+        "fixed_r_before_stop": {
+          "3": false,
+          "5": false,
+          "10": false,
+          "15": false,
+          "20": false
+        },
+        "exit_reason": "STOP",
+        "measured_target_r": 4.629
+      },
+      "weekly_context_daily_retest": {
+        "risk": 2.336806,
+        "realized_r": -1.0,
+        "mfe_r": 0.913,
+        "mae_r": 1.591,
+        "fixed_r_before_stop": {
+          "3": false,
+          "5": false,
+          "10": false,
+          "15": false,
+          "20": false
+        },
+        "exit_reason": "STOP",
+        "measured_target_r": 5.891
+      }
+    },
+    {
+      "symbol": "ETHEREUM",
+      "breakout_week": "2025-10-31",
+      "side": "SHORT",
+      "window": 20,
+      "compression": 0.299,
+      "r2_high": 0.781,
+      "r2_low": 0.709,
+      "weekly": {
+        "risk": 370.394275,
+        "realized_r": 4.17,
+        "mfe_r": 5.645,
+        "mae_r": 0.204,
+        "fixed_r_before_stop": {
+          "3": true,
+          "5": true,
+          "10": false,
+          "15": false,
+          "20": false
+        },
+        "exit_reason": "TIMEOUT",
+        "measured_target_r": 7.611
+      },
+      "weekly_context_daily_retest": {
+        "risk": 394.546883,
+        "realized_r": 3.808,
+        "mfe_r": 4.679,
+        "mae_r": 0.155,
+        "fixed_r_before_stop": {
+          "3": true,
+          "5": false,
+          "10": false,
+          "15": false,
+          "20": false
+        },
+        "exit_reason": "TIMEOUT",
+        "measured_target_r": 7.146
+      }
+    },
+    {
+      "symbol": "BRENT_FUT",
+      "breakout_week": "2026-05-29",
+      "side": "SHORT",
+      "window": 40,
+      "compression": 0.688,
+      "r2_high": 0.805,
+      "r2_low": 0.98,
+      "weekly": {
+        "risk": 8.524816,
+        "realized_r": -1.0,
+        "mfe_r": 2.591,
+        "mae_r": 1.148,
+        "fixed_r_before_stop": {
+          "3": false,
+          "5": false,
+          "10": false,
+          "15": false,
+          "20": false
+        },
+        "exit_reason": "STOP",
+        "measured_target_r": 5.79
+      },
+      "weekly_context_daily_retest": {
+        "risk": 3.674803,
+        "realized_r": -1.0,
+        "mfe_r": 6.732,
+        "mae_r": 1.94,
+        "fixed_r_before_stop": {
+          "3": true,
+          "5": true,
+          "10": false,
+          "15": false,
+          "20": false
+        },
+        "exit_reason": "STOP",
+        "measured_target_r": 13.431
+      }
+    },
+    {
+      "symbol": "WTI_FUT",
+      "breakout_week": "2026-05-29",
+      "side": "SHORT",
+      "window": 40,
+      "compression": 0.251,
+      "r2_high": 0.849,
+      "r2_low": 0.981,
+      "weekly": {
+        "risk": 6.376997,
+        "realized_r": -1.0,
+        "mfe_r": 0.0,
+        "mae_r": 1.361,
+        "fixed_r_before_stop": {
+          "3": false,
+          "5": false,
+          "10": false,
+          "15": false,
+          "20": false
+        },
+        "exit_reason": "STOP",
+        "measured_target_r": 12.725
+      },
+      "weekly_context_daily_retest": {
+        "risk": 3.022414,
+        "realized_r": -1.002,
+        "mfe_r": 1.152,
+        "mae_r": 1.462,
+        "fixed_r_before_stop": {
+          "3": false,
+          "5": false,
+          "10": false,
+          "15": false,
+          "20": false
+        },
+        "exit_reason": "STOP",
+        "measured_target_r": 26.848
+      }
+    },
+    {
+      "symbol": "VOLVO_B",
+      "breakout_week": "2026-06-19",
+      "side": "LONG",
+      "window": 40,
+      "compression": 0.114,
+      "r2_high": 0.825,
+      "r2_low": 0.929,
+      "weekly": {
+        "risk": 6.243006,
+        "realized_r": -1.0,
+        "mfe_r": 1.579,
+        "mae_r": 1.272,
+        "fixed_r_before_stop": {
+          "3": false,
+          "5": false,
+          "10": false,
+          "15": false,
+          "20": false
+        },
+        "exit_reason": "STOP",
+        "measured_target_r": 22.218
+      },
+      "weekly_context_daily_retest": {
+        "risk": 12.001363,
+        "realized_r": -0.013,
+        "mfe_r": 3.82,
+        "mae_r": 0.655,
+        "fixed_r_before_stop": {
+          "3": true,
+          "5": false,
+          "10": false,
+          "15": false,
+          "20": false
+        },
+        "exit_reason": "TIMEOUT",
+        "measured_target_r": 11.556
+      }
+    },
+    {
+      "symbol": "INVESTOR_B",
+      "breakout_week": "2026-06-26",
+      "side": "LONG",
+      "window": 40,
+      "compression": 0.505,
+      "r2_high": 0.905,
+      "r2_low": 0.881,
+      "weekly": {
+        "risk": 8.2887,
+        "realized_r": 1.968,
+        "mfe_r": 3.82,
+        "mae_r": 0.934,
+        "fixed_r_before_stop": {
+          "3": true,
+          "5": false,
+          "10": false,
+          "15": false,
+          "20": false
+        },
+        "exit_reason": "TIMEOUT",
+        "measured_target_r": 7.769
+      },
+      "weekly_context_daily_retest": {
+        "risk": 10.875417,
+        "realized_r": -1.0,
+        "mfe_r": 0.722,
+        "mae_r": 1.14,
+        "fixed_r_before_stop": {
+          "3": false,
+          "5": false,
+          "10": false,
+          "15": false,
+          "20": false
+        },
+        "exit_reason": "STOP",
+        "measured_target_r": 5.92
+      }
+    }
+  ],
+  "note": "Corrected frozen baseline. v1 is invalid and must not be used as evidence: it failed to exit at stops and could credit targets on ambiguous stop bars.",
+  "research_contract": {
+    "schema_version": 1,
+    "engine": "weekly_pattern_mtf_v2",
+    "dataset": {
+      "manifest_sha256": "0d45f68ff6c74dd916fde15775bafe0c52639c6bf303d9117dc3a7d2ce175850",
+      "manifest_bytes": 27644
+    },
+    "model_version": "rules-v2-corrected-2026-09-30",
+    "reproducibility": {
+      "pythonhashseed": "0",
+      "random_seed": 1729
+    },
+    "execution": "BLOCKED_RESEARCH_ONLY",
+    "human_approval_required": true
+  }
+}
