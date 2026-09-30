@@ -31,7 +31,7 @@ jobs:
       - name: Offline scanner tests
         run: python -m unittest discover -s tests -v
       - name: Syntax-check scanner modules
-        run: python -m py_compile collector.py opportunistic_scan.py opportunistic_research.py contrarian_research.py extreme_event_research.py extreme_event_study.py published_strategy_lab.py cross_asset_vol_research.py vix_extreme_research.py macro_combo_study.py asymmetric_strategy_study.py nordnet_kf_gate.py intraday_10r_study.py intraday_watch.py live_10r_scan.py new_signal_alert.py
+        run: python -m py_compile collector.py opportunistic_scan.py opportunistic_research.py contrarian_research.py extreme_event_research.py extreme_event_study.py published_strategy_lab.py cross_asset_vol_research.py vix_extreme_research.py macro_combo_study.py asymmetric_strategy_study.py nordnet_kf_gate.py intraday_10r_study.py intraday_watch.py extreme_regime_indicator.py live_10r_scan.py new_signal_alert.py
       - name: Fetch new public research data
         run: python collector.py
       - name: Validate data; fail closed
@@ -39,34 +39,36 @@ jobs:
       - name: Scan for rare 10R research candidates
         run: python opportunistic_scan.py --folder output --result signals/latest.json
       - name: Exploratory 10R historical event study
-        if: github.event_name == 'workflow_dispatch' || github.event.schedule == '37 0 * * 2-6'
+        if: github.event_name == 'workflow_dispatch' || github.event_name == 'push' || github.event.schedule == '37 0 * * 2-6'
         run: python opportunistic_research.py --folder output --result signals/research_lab.json
       - name: Crash and reversal research diagnostics
-        if: github.event_name == 'workflow_dispatch' || github.event.schedule == '37 0 * * 2-6'
+        if: github.event_name == 'workflow_dispatch' || github.event_name == 'push' || github.event.schedule == '37 0 * * 2-6'
         run: python contrarian_research.py --folder output --result signals/contrarian_lab.json
       - name: Detect extreme gaps and shock days (research only)
         run: python extreme_event_research.py --folder output --result signals/extreme_events.json
       - name: Evaluate extreme-event historical 10R outcomes
-        if: github.event_name == 'workflow_dispatch' || github.event.schedule == '37 0 * * 2-6'
+        if: github.event_name == 'workflow_dispatch' || github.event_name == 'push' || github.event.schedule == '37 0 * * 2-6'
         run: python extreme_event_study.py --folder output --result signals/extreme_event_study.json
       - name: Published strategy research
-        if: github.event_name == 'workflow_dispatch' || github.event.schedule == '37 0 * * 2-6'
+        if: github.event_name == 'workflow_dispatch' || github.event_name == 'push' || github.event.schedule == '37 0 * * 2-6'
         run: python published_strategy_lab.py --folder output --result signals/published_strategy_lab.json
       - name: Cross-asset implied volatility research
         run: python cross_asset_vol_research.py --folder output --result signals/cross_asset_vol.json
       - name: VIX and SP500 extreme regime research
         run: python vix_extreme_research.py --folder output --result signals/vix_extremes.json
       - name: Cross-asset macro combination 10R study
-        if: github.event_name == 'workflow_dispatch' || github.event.schedule == '37 0 * * 2-6'
+        if: github.event_name == 'workflow_dispatch' || github.event_name == 'push' || github.event.schedule == '37 0 * * 2-6'
         run: python macro_combo_study.py --folder output --result signals/macro_combo_study.json
       - name: Fixed-family asymmetric 10R research
-        if: github.event_name == 'workflow_dispatch' || github.event.schedule == '37 0 * * 2-6'
+        if: github.event_name == 'workflow_dispatch' || github.event_name == 'push' || github.event.schedule == '37 0 * * 2-6'
         run: python asymmetric_strategy_study.py --folder output --result signals/asymmetric_strategy_study.json
       - name: Hourly research sample gate
-        if: github.event_name == 'workflow_dispatch' || github.event.schedule == '37 0 * * 2-6'
+        if: github.event_name == 'workflow_dispatch' || github.event_name == 'push' || github.event.schedule == '37 0 * * 2-6'
         run: python intraday_10r_study.py --folder output --result signals/intraday_10r_study.json
       - name: Completed-hour intraday gap and reversal watch
         run: python intraday_watch.py --folder output --result signals/intraday_watch.json
+      - name: Fat-tail extreme regime watch
+        run: python extreme_regime_indicator.py --folder output --result signals/extreme_regime.json
       - name: Preserve previous proposal snapshot
         run: cp signals/live_10r.json signals/live_10r_previous.json 2>/dev/null || true
       - name: Active strategy 10R paper proposal scan
@@ -77,7 +79,7 @@ jobs:
         run: |
           git config user.name "warman-quant-bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add signals/asymmetric_strategy_study.json signals/macro_combo_study.json signals/cross_asset_vol.json signals/vix_extremes.json signals/intraday_10r_study.json signals/intraday_watch.json signals/new_10r.json signals/live_10r.json signals/latest.json signals/research_lab.json signals/contrarian_lab.json signals/extreme_events.json signals/extreme_event_study.json signals/published_strategy_lab.json
+          git add signals/asymmetric_strategy_study.json signals/macro_combo_study.json signals/cross_asset_vol.json signals/vix_extremes.json signals/intraday_10r_study.json signals/intraday_watch.json signals/extreme_regime.json signals/new_10r.json signals/live_10r.json signals/latest.json signals/research_lab.json signals/contrarian_lab.json signals/extreme_events.json signals/extreme_event_study.json signals/published_strategy_lab.json
           if ! git diff --cached --quiet; then
             git commit -m "Update opportunistic research scan"
             # A scan can overlap a code push to main. Rebase generated outputs onto
@@ -95,6 +97,7 @@ jobs:
             signals/vix_extremes.json
             signals/intraday_10r_study.json
             signals/intraday_watch.json
+            signals/extreme_regime.json
             signals/new_10r.json
             signals/live_10r.json
             signals/latest.json
