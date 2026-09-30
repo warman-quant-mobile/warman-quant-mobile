@@ -1,7 +1,48 @@
 {
   "status": "RESEARCH_WATCH_ONLY",
-  "generated_at_utc": "2026-09-30T07:24:07.347202+00:00",
-  "observations": [],
+  "generated_at_utc": "2026-09-30T08:24:41.941057+00:00",
+  "observations": [
+    {
+      "symbol": "GOLD_FUT",
+      "bar_start_utc": "2026-09-30T07:00:00+00:00",
+      "events": [
+        "FAILED_HIGH_20H"
+      ],
+      "gap_pct": 0.0,
+      "hourly_move_pct": 0.07,
+      "status": "INTRADAY_WATCH_NOT_ORDER"
+    },
+    {
+      "symbol": "BRENT_FUT",
+      "bar_start_utc": "2026-09-30T07:00:00+00:00",
+      "events": [
+        "FAILED_LOW_20H"
+      ],
+      "gap_pct": 0.01,
+      "hourly_move_pct": -0.39,
+      "status": "INTRADAY_WATCH_NOT_ORDER"
+    },
+    {
+      "symbol": "US10Y_NOTE_FUT",
+      "bar_start_utc": "2026-09-30T07:00:00+00:00",
+      "events": [
+        "FAILED_HIGH_20H"
+      ],
+      "gap_pct": 0.01,
+      "hourly_move_pct": 0.12,
+      "status": "INTRADAY_WATCH_NOT_ORDER"
+    },
+    {
+      "symbol": "INVESTOR_B",
+      "bar_start_utc": "2026-09-30T07:00:00+00:00",
+      "events": [
+        "HOURLY_SHOCK_2_5ATR"
+      ],
+      "gap_pct": 0.47,
+      "hourly_move_pct": 1.01,
+      "status": "INTRADAY_WATCH_NOT_ORDER"
+    }
+  ],
   "excluded": {},
   "note": "Hourly data may be delayed; market sessions vary. Events require a separate validated 10R target and executable instrument quote before proposal."
 }

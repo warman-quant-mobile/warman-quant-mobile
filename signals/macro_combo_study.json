@@ -1,0 +1,136 @@
+{
+  "status": "RESEARCH_ONLY",
+  "minimum_promotion_r": 10,
+  "results": {
+    "VIX_SPX_CAPITULATION": {
+      "SPX_LONG": {
+        "events": 5,
+        "sample_qualified": false,
+        "strong_sample": false,
+        "targets_10r": 0,
+        "reached_5r_mfe": 1,
+        "reached_10r_mfe": 0,
+        "mean_realized_r": 2.34,
+        "median_realized_r": 3.346,
+        "p75_mfe_r": 4.038,
+        "p90_mfe_r": 4.682,
+        "max_mfe_r": 5.112,
+        "first_event": "2018-02-08",
+        "last_event": "2025-04-04"
+      },
+      "SPX_SHORT": {
+        "events": 5,
+        "sample_qualified": false,
+        "strong_sample": false,
+        "targets_10r": 0,
+        "reached_5r_mfe": 0,
+        "reached_10r_mfe": 0,
+        "mean_realized_r": -1.0,
+        "median_realized_r": -1.0,
+        "p75_mfe_r": 0.569,
+        "p90_mfe_r": 0.712,
+        "max_mfe_r": 0.808,
+        "first_event": "2018-02-08",
+        "last_event": "2025-04-04"
+      }
+    },
+    "OVX_WTI_EXTREME": {
+      "CONTINUATION": {
+        "events": 5,
+        "sample_qualified": false,
+        "strong_sample": false,
+        "targets_10r": 0,
+        "reached_5r_mfe": 0,
+        "reached_10r_mfe": 0,
+        "mean_realized_r": -0.705,
+        "median_realized_r": -1.0,
+        "p75_mfe_r": 2.865,
+        "p90_mfe_r": 2.926,
+        "max_mfe_r": 2.967,
+        "first_event": "2018-11-13",
+        "last_event": "2026-03-06"
+      },
+      "FADE": {
+        "events": 6,
+        "sample_qualified": false,
+        "strong_sample": false,
+        "targets_10r": 0,
+        "reached_5r_mfe": 0,
+        "reached_10r_mfe": 0,
+        "mean_realized_r": -0.738,
+        "median_realized_r": -1.0,
+        "p75_mfe_r": 1.95,
+        "p90_mfe_r": 2.391,
+        "max_mfe_r": 2.54,
+        "first_event": "2018-11-13",
+        "last_event": "2026-03-06"
+      }
+    },
+    "US30Y_YIELD_EXTREME": {
+      "CONTINUATION": {
+        "events": 15,
+        "sample_qualified": false,
+        "strong_sample": false,
+        "targets_10r": 1,
+        "reached_5r_mfe": 1,
+        "reached_10r_mfe": 1,
+        "mean_realized_r": 0.298,
+        "median_realized_r": -1.0,
+        "p75_mfe_r": 2.864,
+        "p90_mfe_r": 3.68,
+        "max_mfe_r": 12.211,
+        "first_event": "2019-10-02",
+        "last_event": "2026-03-27"
+      },
+      "FADE": {
+        "events": 15,
+        "sample_qualified": false,
+        "strong_sample": false,
+        "targets_10r": 0,
+        "reached_5r_mfe": 0,
+        "reached_10r_mfe": 0,
+        "mean_realized_r": -0.876,
+        "median_realized_r": -1.0,
+        "p75_mfe_r": 1.232,
+        "p90_mfe_r": 1.405,
+        "max_mfe_r": 3.199,
+        "first_event": "2019-10-02",
+        "last_event": "2026-03-27"
+      }
+    },
+    "30Y10Y_CURVE_EXTREME": {
+      "CONTINUATION": {
+        "events": 15,
+        "sample_qualified": false,
+        "strong_sample": false,
+        "targets_10r": 0,
+        "reached_5r_mfe": 0,
+        "reached_10r_mfe": 0,
+        "mean_realized_r": -0.846,
+        "median_realized_r": -1.0,
+        "p75_mfe_r": 0.924,
+        "p90_mfe_r": 1.502,
+        "max_mfe_r": 3.476,
+        "first_event": "2017-11-21",
+        "last_event": "2026-06-05"
+      },
+      "FADE": {
+        "events": 15,
+        "sample_qualified": false,
+        "strong_sample": false,
+        "targets_10r": 0,
+        "reached_5r_mfe": 0,
+        "reached_10r_mfe": 0,
+        "mean_realized_r": -0.144,
+        "median_realized_r": -1.0,
+        "p75_mfe_r": 3.027,
+        "p90_mfe_r": 4.065,
+        "max_mfe_r": 4.771,
+        "first_event": "2017-11-21",
+        "last_event": "2026-06-05"
+      }
+    }
+  },
+  "methodology": "Completed daily signal; next-session open; ATR20 x2 stop; 20bps friction; 10R target; 60-session horizon; non-overlapping 60-session events; stop first on same-bar ambiguity.",
+  "promotion_rule": "No setup is eligible for promotion from this study unless sample_qualified=true and separate chronological out-of-sample validation confirms the edge. A 10R hit alone is insufficient."
+}
