@@ -14,10 +14,9 @@ def load(folder,m,name):
 def stats(obs):
     n=len(obs); split=max(1,int(n*.6)) if n else 0
     def part(xs):
-        if not xs:return {"n":0,"mean_r":None,"median_r":None,"hit_10r":0,"p90_mfe":None}
+        if not xs:return {"n":0,"mean_r":None,"median_r":None,"hit_5r":0,"hit_10r":0,"hit_15r":0,"hit_20r":0,"p50_mfe":None,"p75_mfe":None,"p90_mfe":None,"max_mfe":None}
         r=[x["realized_r"] for x in xs]; mf=[x["mfe_r"] for x in xs]
-        return {"n":len(xs),"mean_r":round(sum(r)/len(r),3),"median_r":round(float(pd.Series(r).median()),3),
-          "hit_10r":sum(x["mfe_r"]>=10 for x in xs),"p90_mfe":round(float(pd.Series(mf).quantile(.9)),3)}
+        return {"n":len(xs),"mean_r":round(sum(r)/len(r),3),"median_r":round(float(pd.Series(r).median()),3),\n          "hit_5r":sum(x["mfe_r"]>=5 for x in xs),"hit_10r":sum(x["mfe_r"]>=10 for x in xs),\n          "hit_15r":sum(x["mfe_r"]>=15 for x in xs),"hit_20r":sum(x["mfe_r"]>=20 for x in xs),\n          "p50_mfe":round(float(pd.Series(mf).quantile(.5)),3),"p75_mfe":round(float(pd.Series(mf).quantile(.75)),3),\n          "p90_mfe":round(float(pd.Series(mf).quantile(.9)),3),"max_mfe":round(float(max(mf)),3)}
     tr,oo=part(obs[:split]),part(obs[split:])
     return {"events":n,"sample_qualified":n>=30,"train":tr,"oos":oo,
       "oos_positive":oo["n"]>=10 and oo["mean_r"] is not None and oo["mean_r"]>0 and oo["median_r"]>=0,"all":part(obs)}
