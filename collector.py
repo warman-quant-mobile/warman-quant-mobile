@@ -93,7 +93,8 @@ def main():
             time.sleep(args.sleep)
         if result: manifest['symbols'][name]={'ticker':ticker,**result}
     (out/'manifest.json').write_text(json.dumps(manifest,indent=2,ensure_ascii=False),encoding='utf-8')
-    print()\n    print(f'Files in: {out.resolve()}')
+    print()
+    print(f'Files in: {out.resolve()}')
     print(f'Successful instruments: {len(manifest["symbols"])}; failed downloads: {len(manifest["errors"])}')
     if not manifest['symbols']: sys.exit(2)
 
