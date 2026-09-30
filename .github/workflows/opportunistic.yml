@@ -46,7 +46,10 @@ jobs:
       - name: Published strategy research
         if: github.event_name == 'workflow_dispatch' || github.event.schedule == '37 0 * * 2-6'
         run: python published_strategy_lab.py --folder output --result signals/published_strategy_lab.json
-      - name: Hourly research sample gate\n        if: github.event_name == 'workflow_dispatch' || github.event.schedule == '37 0 * * 2-6'\n        run: python intraday_10r_study.py --folder output --result signals/intraday_10r_study.json\n      - name: Completed-hour intraday gap and reversal watch
+      - name: Hourly research sample gate
+        if: github.event_name == 'workflow_dispatch' || github.event.schedule == '37 0 * * 2-6'
+        run: python intraday_10r_study.py --folder output --result signals/intraday_10r_study.json
+      - name: Completed-hour intraday gap and reversal watch
         run: python intraday_watch.py --folder output --result signals/intraday_watch.json
       - name: Preserve previous proposal snapshot
         run: cp signals/live_10r.json signals/live_10r_previous.json 2>/dev/null || true
@@ -68,7 +71,8 @@ jobs:
         with:
           name: opportunistic-scan
           path: |
-            signals/intraday_10r_study.json\n            signals/intraday_watch.json
+            signals/intraday_10r_study.json
+            signals/intraday_watch.json
             signals/new_10r.json
             signals/live_10r.json
             signals/latest.json
