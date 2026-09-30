@@ -46,7 +46,7 @@ jobs:
       - name: Published strategy research
         if: github.event_name == 'workflow_dispatch' || github.event.schedule == '37 0 * * 2-6'
         run: python published_strategy_lab.py --folder output --result signals/published_strategy_lab.json
-      - name: Hourly research sample gate
+      - name: VIX and SP500 extreme regime research\n        run: python vix_extreme_research.py --folder output --result signals/vix_extremes.json\n      - name: Hourly research sample gate
         if: github.event_name == 'workflow_dispatch' || github.event.schedule == '37 0 * * 2-6'
         run: python intraday_10r_study.py --folder output --result signals/intraday_10r_study.json
       - name: Completed-hour intraday gap and reversal watch
@@ -61,7 +61,7 @@ jobs:
         run: |
           git config user.name "warman-quant-bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add signals/intraday_10r_study.json signals/intraday_watch.json signals/new_10r.json signals/live_10r.json signals/latest.json signals/research_lab.json signals/contrarian_lab.json signals/extreme_events.json signals/extreme_event_study.json signals/published_strategy_lab.json
+          git add signals/vix_extremes.json signals/intraday_10r_study.json signals/intraday_watch.json signals/new_10r.json signals/live_10r.json signals/latest.json signals/research_lab.json signals/contrarian_lab.json signals/extreme_events.json signals/extreme_event_study.json signals/published_strategy_lab.json
           if ! git diff --cached --quiet; then
             git commit -m "Update opportunistic research scan"
             git push
@@ -71,7 +71,7 @@ jobs:
         with:
           name: opportunistic-scan
           path: |
-            signals/intraday_10r_study.json
+            signals/vix_extremes.json\n            signals/intraday_10r_study.json
             signals/intraday_watch.json
             signals/new_10r.json
             signals/live_10r.json
