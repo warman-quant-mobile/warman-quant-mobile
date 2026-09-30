@@ -195,8 +195,8 @@
     "schema_version": 1,
     "engine": "entry_ablation_lab",
     "dataset": {
-      "manifest_sha256": "0e612b5639859a65305614cb8841852f84f940ec4771f20d9b7694d6b26ffb14",
-      "manifest_bytes": 27568
+      "manifest_sha256": "53f30be4e1b830cbc62aa8bcdd0c83ca0236c832de0663b416d5fb4fca594ff2",
+      "manifest_bytes": 27566
     },
     "model_version": "entry-ablation-v1-frozen-2026-09-30",
     "reproducibility": {
