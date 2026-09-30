@@ -4,6 +4,7 @@ import argparse,json,math
 from pathlib import Path
 import pandas as pd
 from nordnet_kf_gate import promotion_gate
+from research_safety import stamp
 
 UNIVERSE=("OMXS30","DAX","SP500","NASDAQ100","GOLD_FUT","SILVER_FUT","WTI_FUT","BRENT_FUT",
           "INVESTOR_B","VOLVO_B","ATLAS_A","ABB","NVIDIA","MICROSOFT","APPLE","TESLA","AMAZON","META",
