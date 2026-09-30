@@ -44,8 +44,17 @@ def study(folder):
         ph=hi.shift(1).rolling(20).max();pl=lo.shift(1).rolling(20).min()
         fail_hi=(hi>ph)&(cl<ph);fail_lo=(lo<pl)&(cl>pl)
         fail_side=lambda i:"SHORT" if fail_hi.iloc[i] else "LONG"
+        atrpct=atr.rolling(252).rank(pct=True);rng=hi-lo
+        expansion=(atrpct.shift(1)<=.25)&(rng>=2*atr)&((cl>=lo+.75*rng)|(cl<=lo+.25*rng))
+        exp_side=lambda i:"LONG" if cl.iloc[i]>=lo.iloc[i]+.75*rng.iloc[i] else "SHORT"
         results[s]={"SHOCK_TREND_CONTINUATION":events(d,shock&trend,trend_side),
-                    "FAILED_20D_EXTREME":events(d,fail_hi|fail_lo,fail_side)}
+                    "FAILED_20D_EXTREME":events(d,fail_hi|fail_lo,fail_side),
+                    "CONTRACTION_EXPANSION":events(d,expansion,exp_side)}
     return {"status":"RESEARCH_ONLY","families":results,"minimum_r":10,
       "design":"Fixed hypotheses; no grid search. 60-session non-overlap, next-session open, 2ATR stop, 20bps friction, 10R target, chronological 60/40 split.",
       "promotion_rule":"Require >=30 non-overlapping events, >=10 OOS events, positive OOS mean and non-negative OOS median, then Nordnet-KF product/quote verification and recomputed net R >=10."}
+
+if __name__=="__main__":
+    p=argparse.ArgumentParser();p.add_argument("--folder",default="output");p.add_argument("--result",default="signals/asymmetric_strategy_study.json")
+    a=p.parse_args();r=study(a.folder);o=Path(a.result);o.parent.mkdir(parents=True,exist_ok=True)
+    o.write_text(json.dumps(r,indent=2)+"\n");print(r["status"],len(r["families"]))
