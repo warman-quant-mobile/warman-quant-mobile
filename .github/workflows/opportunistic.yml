@@ -64,7 +64,10 @@ jobs:
           git add signals/cross_asset_vol.json signals/vix_extremes.json signals/intraday_10r_study.json signals/intraday_watch.json signals/new_10r.json signals/live_10r.json signals/latest.json signals/research_lab.json signals/contrarian_lab.json signals/extreme_events.json signals/extreme_event_study.json signals/published_strategy_lab.json
           if ! git diff --cached --quiet; then
             git commit -m "Update opportunistic research scan"
-            git push
+            # A scan can overlap a code push to main. Rebase generated outputs onto
+            # the latest main instead of failing with a non-fast-forward push.
+            git pull --rebase --autostash origin main
+            git push origin HEAD:main
           fi
       - uses: actions/upload-artifact@v4
         if: always()
