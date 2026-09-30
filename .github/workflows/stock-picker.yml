@@ -1,0 +1,39 @@
+name: Warman Stock Picker Lab
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.stock-picker-trigger'
+      - 'stock_picker_price_v1.py'
+      - 'research_safety.py'
+      - '.github/workflows/stock-picker.yml'
+permissions:
+  contents: write
+jobs:
+  stock-picker:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: pip install -r requirements.txt
+      - name: Fetch research data
+        run: python collector.py
+      - name: Validate data fail closed
+        run: python validate.py output
+      - name: Frozen Stock Picker price baseline
+        run: python stock_picker_price_v1.py --folder output --result signals/stock_picker_price_v1.json
+      - name: Publish research output
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add signals/stock_picker_price_v1.json output/manifest.json output/*.csv || true
+          git diff --cached --quiet || git commit -m "Update Stock Picker research output"
+          git push
+      - uses: actions/upload-artifact@v4
+        with:
+          name: stock-picker-research
+          path: signals/stock_picker_price_v1.json
