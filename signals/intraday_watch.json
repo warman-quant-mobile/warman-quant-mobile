@@ -1,25 +1,95 @@
 {
   "status": "RESEARCH_WATCH_ONLY",
-  "generated_at_utc": "2026-09-30T12:55:23.509033+00:00",
+  "generated_at_utc": "2026-09-30T13:29:37.491352+00:00",
   "observations": [
     {
-      "symbol": "BRENT_FUT",
-      "bar_start_utc": "2026-09-30T11:00:00+00:00",
+      "symbol": "DAX",
+      "bar_start_utc": "2026-09-30T12:00:00+00:00",
       "events": [
-        "FAILED_HIGH_20H"
+        "FAILED_LOW_20H"
       ],
-      "gap_pct": 0.02,
-      "hourly_move_pct": 0.05,
+      "gap_pct": 0.0,
+      "hourly_move_pct": 0.11,
       "status": "INTRADAY_WATCH_NOT_ORDER"
     },
     {
-      "symbol": "BITCOIN",
-      "bar_start_utc": "2026-09-30T11:00:00+00:00",
+      "symbol": "BRENT_FUT",
+      "bar_start_utc": "2026-09-30T12:00:00+00:00",
       "events": [
         "FAILED_HIGH_20H"
       ],
       "gap_pct": -0.01,
-      "hourly_move_pct": -0.0,
+      "hourly_move_pct": 0.08,
+      "status": "INTRADAY_WATCH_NOT_ORDER"
+    },
+    {
+      "symbol": "US10Y_NOTE_FUT",
+      "bar_start_utc": "2026-09-30T12:00:00+00:00",
+      "events": [
+        "FAILED_HIGH_20H"
+      ],
+      "gap_pct": 0.0,
+      "hourly_move_pct": -0.03,
+      "status": "INTRADAY_WATCH_NOT_ORDER"
+    },
+    {
+      "symbol": "VIX",
+      "bar_start_utc": "2026-09-30T12:00:00+00:00",
+      "events": [
+        "FAILED_LOW_20H"
+      ],
+      "gap_pct": 0.0,
+      "hourly_move_pct": -1.43,
+      "status": "INTRADAY_WATCH_NOT_ORDER"
+    },
+    {
+      "symbol": "USDSEK",
+      "bar_start_utc": "2026-09-30T12:00:00+00:00",
+      "events": [
+        "FAILED_LOW_20H"
+      ],
+      "gap_pct": -0.01,
+      "hourly_move_pct": -0.09,
+      "status": "INTRADAY_WATCH_NOT_ORDER"
+    },
+    {
+      "symbol": "ABB",
+      "bar_start_utc": "2026-09-30T12:00:00+00:00",
+      "events": [
+        "FAILED_LOW_20H"
+      ],
+      "gap_pct": -0.02,
+      "hourly_move_pct": 0.4,
+      "status": "INTRADAY_WATCH_NOT_ORDER"
+    },
+    {
+      "symbol": "BITCOIN",
+      "bar_start_utc": "2026-09-30T12:00:00+00:00",
+      "events": [
+        "HOURLY_SHOCK_2_5ATR"
+      ],
+      "gap_pct": 0.01,
+      "hourly_move_pct": 1.64,
+      "status": "INTRADAY_WATCH_NOT_ORDER"
+    },
+    {
+      "symbol": "ETHEREUM",
+      "bar_start_utc": "2026-09-30T12:00:00+00:00",
+      "events": [
+        "HOURLY_SHOCK_2_5ATR"
+      ],
+      "gap_pct": -0.03,
+      "hourly_move_pct": 1.26,
+      "status": "INTRADAY_WATCH_NOT_ORDER"
+    },
+    {
+      "symbol": "SOLANA",
+      "bar_start_utc": "2026-09-30T12:00:00+00:00",
+      "events": [
+        "HOURLY_SHOCK_2_5ATR"
+      ],
+      "gap_pct": 0.02,
+      "hourly_move_pct": 2.02,
       "status": "INTRADAY_WATCH_NOT_ORDER"
     }
   ],
