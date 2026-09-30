@@ -31,7 +31,7 @@ jobs:
       - name: Offline scanner tests
         run: python -m unittest discover -s tests -v
       - name: Syntax-check scanner modules
-        run: python -m py_compile collector.py opportunistic_scan.py opportunistic_research.py contrarian_research.py extreme_event_research.py extreme_event_study.py published_strategy_lab.py cross_asset_vol_research.py vix_extreme_research.py macro_combo_study.py asymmetric_strategy_study.py nordnet_kf_gate.py intraday_10r_study.py intraday_watch.py extreme_regime_indicator.py pattern_geometry_study.py live_10r_scan.py new_signal_alert.py
+        run: python -m py_compile collector.py opportunistic_scan.py opportunistic_research.py contrarian_research.py extreme_event_research.py extreme_event_study.py published_strategy_lab.py cross_asset_vol_research.py vix_extreme_research.py macro_combo_study.py asymmetric_strategy_study.py nordnet_kf_gate.py intraday_10r_study.py intraday_watch.py extreme_regime_indicator.py pattern_geometry_study.py weekly_pattern_study.py pattern_ranker.py research_safety.py live_10r_scan.py new_signal_alert.py
       - name: Fetch new public research data
         run: python collector.py
       - name: Validate data; fail closed
@@ -72,6 +72,12 @@ jobs:
       - name: Objective triangle and wedge geometry research
         if: github.event_name == 'workflow_dispatch' || github.event_name == 'push' || github.event.schedule == '37 0 * * 2-6'
         run: python pattern_geometry_study.py --folder output --result signals/pattern_geometry_study.json
+      - name: Weekly triangle and multi-timeframe research
+        if: github.event_name == 'workflow_dispatch' || github.event_name == 'push' || github.event.schedule == '37 0 * * 2-6'
+        run: python weekly_pattern_study.py --folder output --result signals/weekly_pattern_study.json
+      - name: Interpretable pattern tail ranker
+        if: github.event_name == 'workflow_dispatch' || github.event_name == 'push' || github.event.schedule == '37 0 * * 2-6'
+        run: python pattern_ranker.py --input signals/pattern_geometry_study.json --folder output --result signals/pattern_ranker.json
       - name: Preserve previous proposal snapshot
         run: cp signals/live_10r.json signals/live_10r_previous.json 2>/dev/null || true
       - name: Active strategy 10R paper proposal scan
@@ -82,7 +88,7 @@ jobs:
         run: |
           git config user.name "warman-quant-bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add signals/asymmetric_strategy_study.json signals/macro_combo_study.json signals/cross_asset_vol.json signals/vix_extremes.json signals/intraday_10r_study.json signals/intraday_watch.json signals/extreme_regime.json signals/pattern_geometry_study.json signals/new_10r.json signals/live_10r.json signals/latest.json signals/research_lab.json signals/contrarian_lab.json signals/extreme_events.json signals/extreme_event_study.json signals/published_strategy_lab.json
+          git add signals/weekly_pattern_study.json signals/pattern_ranker.json signals/asymmetric_strategy_study.json signals/macro_combo_study.json signals/cross_asset_vol.json signals/vix_extremes.json signals/intraday_10r_study.json signals/intraday_watch.json signals/extreme_regime.json signals/pattern_geometry_study.json signals/new_10r.json signals/live_10r.json signals/latest.json signals/research_lab.json signals/contrarian_lab.json signals/extreme_events.json signals/extreme_event_study.json signals/published_strategy_lab.json
           if ! git diff --cached --quiet; then
             git commit -m "Update opportunistic research scan"
             # A scan can overlap a code push to main. Rebase generated outputs onto
@@ -95,6 +101,8 @@ jobs:
         with:
           name: opportunistic-scan
           path: |
+            signals/weekly_pattern_study.json
+            signals/pattern_ranker.json
             signals/asymmetric_strategy_study.json
             signals/cross_asset_vol.json
             signals/vix_extremes.json
