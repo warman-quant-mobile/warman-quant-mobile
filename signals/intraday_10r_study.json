@@ -40,7 +40,7 @@
       }
     },
     "DAX": {
-      "hourly_bars": 533,
+      "hourly_bars": 534,
       "sample_gate_passed": false,
       "setups": {
         "FAILED_HIGH_20H": {
@@ -154,7 +154,7 @@
       }
     },
     "GOLD_FUT": {
-      "hourly_bars": 1129,
+      "hourly_bars": 1130,
       "sample_gate_passed": true,
       "setups": {
         "FAILED_HIGH_20H": {
@@ -192,7 +192,7 @@
       }
     },
     "SILVER_FUT": {
-      "hourly_bars": 1131,
+      "hourly_bars": 1132,
       "sample_gate_passed": true,
       "setups": {
         "FAILED_HIGH_20H": {
@@ -230,7 +230,7 @@
       }
     },
     "WTI_FUT": {
-      "hourly_bars": 1127,
+      "hourly_bars": 1128,
       "sample_gate_passed": true,
       "setups": {
         "FAILED_HIGH_20H": {
@@ -268,7 +268,7 @@
       }
     },
     "BRENT_FUT": {
-      "hourly_bars": 1096,
+      "hourly_bars": 1097,
       "sample_gate_passed": true,
       "setups": {
         "FAILED_HIGH_20H": {
@@ -306,7 +306,7 @@
       }
     },
     "US30Y_BOND_FUT": {
-      "hourly_bars": 1132,
+      "hourly_bars": 1133,
       "sample_gate_passed": true,
       "setups": {
         "FAILED_HIGH_20H": {
@@ -344,7 +344,7 @@
       }
     },
     "US10Y_NOTE_FUT": {
-      "hourly_bars": 1128,
+      "hourly_bars": 1129,
       "sample_gate_passed": true,
       "setups": {
         "FAILED_HIGH_20H": {
@@ -458,7 +458,7 @@
       }
     },
     "VIX": {
-      "hourly_bars": 823,
+      "hourly_bars": 824,
       "sample_gate_passed": false,
       "setups": {
         "FAILED_HIGH_20H": {
