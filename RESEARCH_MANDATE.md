@@ -36,6 +36,9 @@ C. Combined fundamental + price-risk exit.
 D. No tactical exit control.
 No exit may be tuned on final test. Report opportunity cost from false exits and re-entry churn.
 
+## P&L objective
+Primary optimization target is long-run net portfolio wealth: CAGR, cumulative net P&L and active return after realistic trading/FX costs. Drawdown, volatility, turnover and concentration are hard diagnostics/constraints, not substitutes for return. A challenger must demonstrate that excess P&L is broad enough to survive leave-one-winner-out, sector, size-bucket and subperiod tests. No final-test tuning.
+
 ## Validation
 Chronological train/validation/final untouched test or walk-forward; point-in-time fundamentals with publication lags; no revised-data leakage; purge boundary overlap where relevant. Report CAGR, total return, max drawdown, volatility, turnover, exposure, concentration, hit rate, median holding period, tax/cost drag and equal-weight passive/index/core controls. Include parameter perturbation, subperiod/regime, leave-one-sector/name-out and multiple-testing awareness.
 
