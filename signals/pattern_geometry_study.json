@@ -670,7 +670,7 @@
       "summary": {
         "all": {
           "n": 14,
-          "mean_r": -0.206,
+          "mean_r": -0.208,
           "median_r": -1.0,
           "mean_geometric_r": 9.149,
           "target_hits": 1,
@@ -690,8 +690,8 @@
         },
         "oos": {
           "n": 6,
-          "mean_r": 0.883,
-          "median_r": -0.723,
+          "mean_r": 0.879,
+          "median_r": -0.734,
           "mean_geometric_r": 5.635,
           "target_hits": 1,
           "mfe_5r": 2,
@@ -735,8 +735,8 @@
         "DESCENDING": {
           "all": {
             "n": 2,
-            "mean_r": -0.723,
-            "median_r": -0.723,
+            "mean_r": -0.734,
+            "median_r": -0.734,
             "mean_geometric_r": 5.027,
             "target_hits": 0,
             "mfe_5r": 0,
@@ -755,8 +755,8 @@
           },
           "oos": {
             "n": 1,
-            "mean_r": -0.446,
-            "median_r": -0.446,
+            "mean_r": -0.467,
+            "median_r": -0.467,
             "mean_geometric_r": 3.891,
             "target_hits": 0,
             "mfe_5r": 0,
@@ -3673,7 +3673,7 @@
       "type": "DESCENDING",
       "side": "SHORT",
       "geometric_r": 3.891,
-      "realized_r": -0.446,
+      "realized_r": -0.467,
       "mfe_r": 0.0,
       "outcome": "TIMEOUT",
       "compression": 0.127,
