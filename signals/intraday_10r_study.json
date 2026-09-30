@@ -2,7 +2,7 @@
   "status": "RESEARCH_ONLY",
   "results": {
     "OMXS30": {
-      "hourly_bars": 533,
+      "hourly_bars": 534,
       "sample_gate_passed": false,
       "setups": {
         "FAILED_HIGH_20H": {
@@ -572,7 +572,7 @@
       }
     },
     "EURUSD": {
-      "hourly_bars": 1414,
+      "hourly_bars": 1415,
       "sample_gate_passed": true,
       "setups": {
         "FAILED_HIGH_20H": {
@@ -610,7 +610,7 @@
       }
     },
     "USDSEK": {
-      "hourly_bars": 1406,
+      "hourly_bars": 1407,
       "sample_gate_passed": true,
       "setups": {
         "FAILED_HIGH_20H": {
@@ -648,7 +648,7 @@
       }
     },
     "INVESTOR_B": {
-      "hourly_bars": 533,
+      "hourly_bars": 534,
       "sample_gate_passed": false,
       "setups": {
         "FAILED_HIGH_20H": {
@@ -686,7 +686,7 @@
       }
     },
     "VOLVO_B": {
-      "hourly_bars": 533,
+      "hourly_bars": 534,
       "sample_gate_passed": false,
       "setups": {
         "FAILED_HIGH_20H": {
@@ -724,15 +724,15 @@
       }
     },
     "ATLAS_A": {
-      "hourly_bars": 533,
+      "hourly_bars": 534,
       "sample_gate_passed": false,
       "setups": {
         "FAILED_HIGH_20H": {
-          "events": 30,
+          "events": 31,
           "targets_10r": 0,
           "stops": 21,
           "reached_10r_mfe": 0,
-          "mean_realized_r": 0.081,
+          "mean_realized_r": 0.086,
           "max_mfe_r": 7.193
         },
         "FAILED_LOW_20H": {
@@ -762,7 +762,7 @@
       }
     },
     "ABB": {
-      "hourly_bars": 533,
+      "hourly_bars": 534,
       "sample_gate_passed": false,
       "setups": {
         "FAILED_HIGH_20H": {
@@ -1028,7 +1028,7 @@
       }
     },
     "BITCOIN": {
-      "hourly_bars": 1425,
+      "hourly_bars": 1426,
       "sample_gate_passed": true,
       "setups": {
         "FAILED_HIGH_20H": {
@@ -1066,7 +1066,7 @@
       }
     },
     "ETHEREUM": {
-      "hourly_bars": 1425,
+      "hourly_bars": 1426,
       "sample_gate_passed": true,
       "setups": {
         "FAILED_HIGH_20H": {
@@ -1104,7 +1104,7 @@
       }
     },
     "SOLANA": {
-      "hourly_bars": 1425,
+      "hourly_bars": 1426,
       "sample_gate_passed": true,
       "setups": {
         "FAILED_HIGH_20H": {
