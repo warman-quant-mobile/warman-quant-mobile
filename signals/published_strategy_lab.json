@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "status": "RESEARCH_ONLY",
-  "generated_at_utc": "2026-09-30T00:55:57.477476+00:00",
+  "generated_at_utc": "2026-09-30T07:20:14.414085+00:00",
   "rules": [
     "turtle_55",
     "volatility_contraction",
@@ -54,7 +54,7 @@
       },
       "time_series_momentum": {
         "events": 35,
-        "mean_realized_r": -0.214,
+        "mean_realized_r": -0.235,
         "reached_5r_mfe": 1,
         "reached_10r_mfe": 0,
         "reached_15r_mfe": 0,
@@ -95,8 +95,8 @@
         "insufficient_sample": true
       },
       "failed_breakout": {
-        "events": 32,
-        "mean_realized_r": 0.151,
+        "events": 33,
+        "mean_realized_r": 0.127,
         "reached_5r_mfe": 2,
         "reached_10r_mfe": 0,
         "reached_15r_mfe": 0,
@@ -116,7 +116,7 @@
       },
       "time_series_momentum": {
         "events": 35,
-        "mean_realized_r": -0.256,
+        "mean_realized_r": -0.261,
         "reached_5r_mfe": 1,
         "reached_10r_mfe": 0,
         "reached_15r_mfe": 0,
@@ -344,7 +344,7 @@
       },
       "failed_breakout": {
         "events": 29,
-        "mean_realized_r": -0.584,
+        "mean_realized_r": -0.598,
         "reached_5r_mfe": 1,
         "reached_10r_mfe": 0,
         "reached_15r_mfe": 0,
@@ -363,13 +363,13 @@
         "insufficient_sample": true
       },
       "time_series_momentum": {
-        "events": 37,
-        "mean_realized_r": 0.581,
-        "reached_5r_mfe": 6,
-        "reached_10r_mfe": 3,
-        "reached_15r_mfe": 2,
-        "realized_10r": 2,
-        "max_mfe_r": 22.287,
+        "events": 36,
+        "mean_realized_r": 0.019,
+        "reached_5r_mfe": 3,
+        "reached_10r_mfe": 1,
+        "reached_15r_mfe": 1,
+        "realized_10r": 1,
+        "max_mfe_r": 18.034,
         "insufficient_sample": true
       },
       "rsi2_reversal": {
@@ -426,7 +426,7 @@
       },
       "time_series_momentum": {
         "events": 34,
-        "mean_realized_r": -0.001,
+        "mean_realized_r": -0.076,
         "reached_5r_mfe": 2,
         "reached_10r_mfe": 0,
         "reached_15r_mfe": 0,
@@ -436,7 +436,7 @@
       },
       "rsi2_reversal": {
         "events": 22,
-        "mean_realized_r": 0.675,
+        "mean_realized_r": 0.59,
         "reached_5r_mfe": 3,
         "reached_10r_mfe": 1,
         "reached_15r_mfe": 0,
@@ -488,7 +488,7 @@
       },
       "time_series_momentum": {
         "events": 34,
-        "mean_realized_r": -0.231,
+        "mean_realized_r": -0.187,
         "reached_5r_mfe": 2,
         "reached_10r_mfe": 1,
         "reached_15r_mfe": 0,
@@ -498,12 +498,446 @@
       },
       "rsi2_reversal": {
         "events": 22,
-        "mean_realized_r": 0.428,
+        "mean_realized_r": 0.329,
         "reached_5r_mfe": 3,
         "reached_10r_mfe": 2,
         "reached_15r_mfe": 0,
         "realized_10r": 0,
         "max_mfe_r": 11.913,
+        "insufficient_sample": true
+      }
+    },
+    "US30Y_BOND_FUT": {
+      "turtle_55": {
+        "events": 28,
+        "mean_realized_r": -0.135,
+        "reached_5r_mfe": 2,
+        "reached_10r_mfe": 1,
+        "reached_15r_mfe": 0,
+        "realized_10r": 0,
+        "max_mfe_r": 12.869,
+        "insufficient_sample": true
+      },
+      "volatility_contraction": {
+        "events": 4,
+        "mean_realized_r": -0.704,
+        "reached_5r_mfe": 0,
+        "reached_10r_mfe": 0,
+        "reached_15r_mfe": 0,
+        "realized_10r": 0,
+        "max_mfe_r": 1.713,
+        "insufficient_sample": true
+      },
+      "failed_breakout": {
+        "events": 32,
+        "mean_realized_r": -0.111,
+        "reached_5r_mfe": 0,
+        "reached_10r_mfe": 0,
+        "reached_15r_mfe": 0,
+        "realized_10r": 0,
+        "max_mfe_r": 4.621,
+        "insufficient_sample": true
+      },
+      "momentum_ignition": {
+        "events": 7,
+        "mean_realized_r": 0.048,
+        "reached_5r_mfe": 1,
+        "reached_10r_mfe": 0,
+        "reached_15r_mfe": 0,
+        "realized_10r": 0,
+        "max_mfe_r": 6.219,
+        "insufficient_sample": true
+      },
+      "time_series_momentum": {
+        "events": 35,
+        "mean_realized_r": 0.274,
+        "reached_5r_mfe": 5,
+        "reached_10r_mfe": 1,
+        "reached_15r_mfe": 1,
+        "realized_10r": 0,
+        "max_mfe_r": 15.576,
+        "insufficient_sample": true
+      },
+      "rsi2_reversal": {
+        "events": 17,
+        "mean_realized_r": -0.052,
+        "reached_5r_mfe": 1,
+        "reached_10r_mfe": 1,
+        "reached_15r_mfe": 1,
+        "realized_10r": 0,
+        "max_mfe_r": 15.17,
+        "insufficient_sample": true
+      }
+    },
+    "US10Y_NOTE_FUT": {
+      "turtle_55": {
+        "events": 28,
+        "mean_realized_r": 0.253,
+        "reached_5r_mfe": 1,
+        "reached_10r_mfe": 0,
+        "reached_15r_mfe": 0,
+        "realized_10r": 0,
+        "max_mfe_r": 8.129,
+        "insufficient_sample": true
+      },
+      "volatility_contraction": {
+        "events": 5,
+        "mean_realized_r": 0.305,
+        "reached_5r_mfe": 0,
+        "reached_10r_mfe": 0,
+        "reached_15r_mfe": 0,
+        "realized_10r": 0,
+        "max_mfe_r": 4.654,
+        "insufficient_sample": true
+      },
+      "failed_breakout": {
+        "events": 32,
+        "mean_realized_r": 0.15,
+        "reached_5r_mfe": 2,
+        "reached_10r_mfe": 0,
+        "reached_15r_mfe": 0,
+        "realized_10r": 0,
+        "max_mfe_r": 9.327,
+        "insufficient_sample": true
+      },
+      "momentum_ignition": {
+        "events": 9,
+        "mean_realized_r": 0.172,
+        "reached_5r_mfe": 0,
+        "reached_10r_mfe": 0,
+        "reached_15r_mfe": 0,
+        "realized_10r": 0,
+        "max_mfe_r": 4.847,
+        "insufficient_sample": true
+      },
+      "time_series_momentum": {
+        "events": 35,
+        "mean_realized_r": 0.399,
+        "reached_5r_mfe": 1,
+        "reached_10r_mfe": 0,
+        "reached_15r_mfe": 0,
+        "realized_10r": 0,
+        "max_mfe_r": 9.106,
+        "insufficient_sample": true
+      },
+      "rsi2_reversal": {
+        "events": 16,
+        "mean_realized_r": 0.407,
+        "reached_5r_mfe": 0,
+        "reached_10r_mfe": 0,
+        "reached_15r_mfe": 0,
+        "realized_10r": 0,
+        "max_mfe_r": 4.861,
+        "insufficient_sample": true
+      }
+    },
+    "US30Y_YIELD": {
+      "turtle_55": {
+        "events": 28,
+        "mean_realized_r": 0.022,
+        "reached_5r_mfe": 3,
+        "reached_10r_mfe": 0,
+        "reached_15r_mfe": 0,
+        "realized_10r": 0,
+        "max_mfe_r": 9.996,
+        "insufficient_sample": true
+      },
+      "volatility_contraction": {
+        "events": 5,
+        "mean_realized_r": -0.832,
+        "reached_5r_mfe": 0,
+        "reached_10r_mfe": 0,
+        "reached_15r_mfe": 0,
+        "realized_10r": 0,
+        "max_mfe_r": 1.251,
+        "insufficient_sample": true
+      },
+      "failed_breakout": {
+        "events": 32,
+        "mean_realized_r": -0.086,
+        "reached_5r_mfe": 2,
+        "reached_10r_mfe": 1,
+        "reached_15r_mfe": 0,
+        "realized_10r": 0,
+        "max_mfe_r": 12.231,
+        "insufficient_sample": true
+      },
+      "momentum_ignition": {
+        "events": 11,
+        "mean_realized_r": -0.417,
+        "reached_5r_mfe": 0,
+        "reached_10r_mfe": 0,
+        "reached_15r_mfe": 0,
+        "realized_10r": 0,
+        "max_mfe_r": 3.23,
+        "insufficient_sample": true
+      },
+      "time_series_momentum": {
+        "events": 34,
+        "mean_realized_r": 0.455,
+        "reached_5r_mfe": 5,
+        "reached_10r_mfe": 1,
+        "reached_15r_mfe": 0,
+        "realized_10r": 0,
+        "max_mfe_r": 13.438,
+        "insufficient_sample": true
+      },
+      "rsi2_reversal": {
+        "events": 25,
+        "mean_realized_r": 0.732,
+        "reached_5r_mfe": 3,
+        "reached_10r_mfe": 0,
+        "reached_15r_mfe": 0,
+        "realized_10r": 0,
+        "max_mfe_r": 8.265,
+        "insufficient_sample": true
+      }
+    },
+    "US10Y_YIELD": {
+      "turtle_55": {
+        "events": 27,
+        "mean_realized_r": 0.123,
+        "reached_5r_mfe": 2,
+        "reached_10r_mfe": 0,
+        "reached_15r_mfe": 0,
+        "realized_10r": 0,
+        "max_mfe_r": 8.794,
+        "insufficient_sample": true
+      },
+      "volatility_contraction": {
+        "events": 6,
+        "mean_realized_r": 0.324,
+        "reached_5r_mfe": 0,
+        "reached_10r_mfe": 0,
+        "reached_15r_mfe": 0,
+        "realized_10r": 0,
+        "max_mfe_r": 4.37,
+        "insufficient_sample": true
+      },
+      "failed_breakout": {
+        "events": 32,
+        "mean_realized_r": -0.282,
+        "reached_5r_mfe": 1,
+        "reached_10r_mfe": 0,
+        "reached_15r_mfe": 0,
+        "realized_10r": 0,
+        "max_mfe_r": 5.82,
+        "insufficient_sample": true
+      },
+      "momentum_ignition": {
+        "events": 14,
+        "mean_realized_r": -0.036,
+        "reached_5r_mfe": 1,
+        "reached_10r_mfe": 0,
+        "reached_15r_mfe": 0,
+        "realized_10r": 0,
+        "max_mfe_r": 5.471,
+        "insufficient_sample": true
+      },
+      "time_series_momentum": {
+        "events": 33,
+        "mean_realized_r": 0.855,
+        "reached_5r_mfe": 7,
+        "reached_10r_mfe": 1,
+        "reached_15r_mfe": 0,
+        "realized_10r": 1,
+        "max_mfe_r": 13.497,
+        "insufficient_sample": true
+      },
+      "rsi2_reversal": {
+        "events": 24,
+        "mean_realized_r": 0.293,
+        "reached_5r_mfe": 1,
+        "reached_10r_mfe": 0,
+        "reached_15r_mfe": 0,
+        "realized_10r": 0,
+        "max_mfe_r": 7.672,
+        "insufficient_sample": true
+      }
+    },
+    "VIX": {
+      "turtle_55": {
+        "events": 16,
+        "mean_realized_r": -0.908,
+        "reached_5r_mfe": 2,
+        "reached_10r_mfe": 1,
+        "reached_15r_mfe": 1,
+        "realized_10r": 0,
+        "max_mfe_r": 16.734,
+        "insufficient_sample": true
+      },
+      "volatility_contraction": {
+        "events": 1,
+        "mean_realized_r": -1.0,
+        "reached_5r_mfe": 0,
+        "reached_10r_mfe": 0,
+        "reached_15r_mfe": 0,
+        "realized_10r": 0,
+        "max_mfe_r": 0.339,
+        "insufficient_sample": true
+      },
+      "failed_breakout": {
+        "events": 27,
+        "mean_realized_r": -0.082,
+        "reached_5r_mfe": 3,
+        "reached_10r_mfe": 0,
+        "reached_15r_mfe": 0,
+        "realized_10r": 0,
+        "max_mfe_r": 7.573,
+        "insufficient_sample": true
+      },
+      "momentum_ignition": {
+        "events": 21,
+        "mean_realized_r": -0.922,
+        "reached_5r_mfe": 3,
+        "reached_10r_mfe": 2,
+        "reached_15r_mfe": 2,
+        "realized_10r": 0,
+        "max_mfe_r": 17.254,
+        "insufficient_sample": true
+      },
+      "time_series_momentum": {
+        "events": 24,
+        "mean_realized_r": -0.681,
+        "reached_5r_mfe": 1,
+        "reached_10r_mfe": 1,
+        "reached_15r_mfe": 1,
+        "realized_10r": 0,
+        "max_mfe_r": 21.594,
+        "insufficient_sample": true
+      },
+      "rsi2_reversal": {
+        "events": 22,
+        "mean_realized_r": -0.496,
+        "reached_5r_mfe": 1,
+        "reached_10r_mfe": 1,
+        "reached_15r_mfe": 1,
+        "realized_10r": 0,
+        "max_mfe_r": 19.86,
+        "insufficient_sample": true
+      }
+    },
+    "OVX": {
+      "turtle_55": {
+        "events": 10,
+        "mean_realized_r": 0.544,
+        "reached_5r_mfe": 2,
+        "reached_10r_mfe": 1,
+        "reached_15r_mfe": 1,
+        "realized_10r": 0,
+        "max_mfe_r": 36.454,
+        "insufficient_sample": true
+      },
+      "volatility_contraction": {
+        "events": 0,
+        "mean_realized_r": null,
+        "reached_5r_mfe": 0,
+        "reached_10r_mfe": 0,
+        "reached_15r_mfe": 0,
+        "realized_10r": 0,
+        "max_mfe_r": null,
+        "insufficient_sample": true
+      },
+      "failed_breakout": {
+        "events": 29,
+        "mean_realized_r": 0.002,
+        "reached_5r_mfe": 6,
+        "reached_10r_mfe": 3,
+        "reached_15r_mfe": 1,
+        "realized_10r": 0,
+        "max_mfe_r": 19.186,
+        "insufficient_sample": true
+      },
+      "momentum_ignition": {
+        "events": 11,
+        "mean_realized_r": -0.887,
+        "reached_5r_mfe": 1,
+        "reached_10r_mfe": 0,
+        "reached_15r_mfe": 0,
+        "realized_10r": 0,
+        "max_mfe_r": 6.388,
+        "insufficient_sample": true
+      },
+      "time_series_momentum": {
+        "events": 23,
+        "mean_realized_r": -0.194,
+        "reached_5r_mfe": 4,
+        "reached_10r_mfe": 2,
+        "reached_15r_mfe": 1,
+        "realized_10r": 0,
+        "max_mfe_r": 36.454,
+        "insufficient_sample": true
+      },
+      "rsi2_reversal": {
+        "events": 24,
+        "mean_realized_r": 0.196,
+        "reached_5r_mfe": 4,
+        "reached_10r_mfe": 2,
+        "reached_15r_mfe": 2,
+        "realized_10r": 0,
+        "max_mfe_r": 36.227,
+        "insufficient_sample": true
+      }
+    },
+    "GVZ": {
+      "turtle_55": {
+        "events": 12,
+        "mean_realized_r": -0.935,
+        "reached_5r_mfe": 1,
+        "reached_10r_mfe": 0,
+        "reached_15r_mfe": 0,
+        "realized_10r": 0,
+        "max_mfe_r": 5.129,
+        "insufficient_sample": true
+      },
+      "volatility_contraction": {
+        "events": 0,
+        "mean_realized_r": null,
+        "reached_5r_mfe": 0,
+        "reached_10r_mfe": 0,
+        "reached_15r_mfe": 0,
+        "realized_10r": 0,
+        "max_mfe_r": null,
+        "insufficient_sample": true
+      },
+      "failed_breakout": {
+        "events": 28,
+        "mean_realized_r": -0.138,
+        "reached_5r_mfe": 2,
+        "reached_10r_mfe": 2,
+        "reached_15r_mfe": 0,
+        "realized_10r": 0,
+        "max_mfe_r": 12.305,
+        "insufficient_sample": true
+      },
+      "momentum_ignition": {
+        "events": 13,
+        "mean_realized_r": -0.372,
+        "reached_5r_mfe": 2,
+        "reached_10r_mfe": 0,
+        "reached_15r_mfe": 0,
+        "realized_10r": 0,
+        "max_mfe_r": 9.278,
+        "insufficient_sample": true
+      },
+      "time_series_momentum": {
+        "events": 31,
+        "mean_realized_r": -0.902,
+        "reached_5r_mfe": 0,
+        "reached_10r_mfe": 0,
+        "reached_15r_mfe": 0,
+        "realized_10r": 0,
+        "max_mfe_r": 2.326,
+        "insufficient_sample": true
+      },
+      "rsi2_reversal": {
+        "events": 23,
+        "mean_realized_r": -0.151,
+        "reached_5r_mfe": 6,
+        "reached_10r_mfe": 2,
+        "reached_15r_mfe": 1,
+        "realized_10r": 0,
+        "max_mfe_r": 16.919,
         "insufficient_sample": true
       }
     },
@@ -674,7 +1108,7 @@
       },
       "time_series_momentum": {
         "events": 36,
-        "mean_realized_r": 0.137,
+        "mean_realized_r": 0.132,
         "reached_5r_mfe": 1,
         "reached_10r_mfe": 0,
         "reached_15r_mfe": 0,
@@ -736,7 +1170,7 @@
       },
       "time_series_momentum": {
         "events": 35,
-        "mean_realized_r": -0.59,
+        "mean_realized_r": -0.601,
         "reached_5r_mfe": 0,
         "reached_10r_mfe": 0,
         "reached_15r_mfe": 0,
@@ -798,7 +1232,7 @@
       },
       "time_series_momentum": {
         "events": 36,
-        "mean_realized_r": -0.012,
+        "mean_realized_r": -0.1,
         "reached_5r_mfe": 1,
         "reached_10r_mfe": 0,
         "reached_15r_mfe": 0,

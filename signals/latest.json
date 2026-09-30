@@ -1,16 +1,41 @@
 {
   "schema_version": 2,
-  "generated_at_utc": "2026-09-30T00:52:03.966636+00:00",
-  "source_manifest_utc": "2026-09-30T00:51:32.147991+00:00",
+  "generated_at_utc": "2026-09-30T07:14:44.245213+00:00",
+  "source_manifest_utc": "2026-09-30T07:14:12.354451+00:00",
   "status": "NO_QUALIFIED_CANDIDATES",
   "candidates": [],
   "rejected": {},
   "screening_funnel": {
-    "eligible": 23,
-    "directional_breakouts": 0,
-    "positive_reference_reward": 0,
+    "eligible": 30,
+    "directional_breakouts": 3,
+    "positive_reference_reward": 1,
     "reference_10r": 0
   },
-  "diagnostic_watchlist": [],
+  "diagnostic_watchlist": [
+    {
+      "symbol": "SILVER_FUT",
+      "direction": "SHORT",
+      "session_date": "2026-09-29",
+      "reference_reward_risk_after_proxy_cost": 4.78,
+      "reason": "BELOW_10R_REFERENCE",
+      "note": "Research diagnostics only; historical reference is not a validated target."
+    },
+    {
+      "symbol": "US30Y_YIELD",
+      "direction": "LONG",
+      "session_date": "2026-09-29",
+      "reference_reward_risk_after_proxy_cost": -1.96,
+      "reason": "BELOW_10R_REFERENCE",
+      "note": "Research diagnostics only; historical reference is not a validated target."
+    },
+    {
+      "symbol": "US30Y_BOND_FUT",
+      "direction": "SHORT",
+      "session_date": "2026-09-29",
+      "reference_reward_risk_after_proxy_cost": -2.4,
+      "reason": "BELOW_10R_REFERENCE",
+      "note": "Research diagnostics only; historical reference is not a validated target."
+    }
+  ],
   "warning": "Historical reference targets are NOT forecasts. 20bp proxy costs are NOT actual mini future costs. A 10R geometric ratio is not proven expected value. No automatic trading."
 }

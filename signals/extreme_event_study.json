@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at_utc": "2026-09-30T00:52:28.586264+00:00",
+  "generated_at_utc": "2026-09-30T07:15:23.391854+00:00",
   "status": "EXPLORATORY_NOT_VALIDATED",
   "methodology": "Prior completed bar; next open; 2ATR stop; 10R target; 20bps proxy friction; 60 sessions; conservative gaps; nonoverlapping events per strategy.",
   "results": {
@@ -337,6 +337,300 @@
         "stops": 9,
         "timeouts": 1,
         "mean_realized_r": 0.159,
+        "insufficient_sample": true
+      }
+    },
+    "US30Y_BOND_FUT": {
+      "GAP_CONTINUATION": {
+        "events": 1,
+        "targets_10r": 0,
+        "stops": 1,
+        "timeouts": 0,
+        "mean_realized_r": -1.281,
+        "insufficient_sample": true
+      },
+      "GAP_FADE": {
+        "events": 1,
+        "targets_10r": 0,
+        "stops": 1,
+        "timeouts": 0,
+        "mean_realized_r": -1.17,
+        "insufficient_sample": true
+      },
+      "SHOCK_CONTINUATION": {
+        "events": 0,
+        "targets_10r": 0,
+        "stops": 0,
+        "timeouts": 0,
+        "mean_realized_r": null,
+        "insufficient_sample": true
+      },
+      "SHOCK_FADE": {
+        "events": 0,
+        "targets_10r": 0,
+        "stops": 0,
+        "timeouts": 0,
+        "mean_realized_r": null,
+        "insufficient_sample": true
+      },
+      "RANGE_CONTINUATION": {
+        "events": 9,
+        "targets_10r": 0,
+        "stops": 7,
+        "timeouts": 2,
+        "mean_realized_r": -0.541,
+        "insufficient_sample": true
+      }
+    },
+    "US10Y_NOTE_FUT": {
+      "GAP_CONTINUATION": {
+        "events": 0,
+        "targets_10r": 0,
+        "stops": 0,
+        "timeouts": 0,
+        "mean_realized_r": null,
+        "insufficient_sample": true
+      },
+      "GAP_FADE": {
+        "events": 0,
+        "targets_10r": 0,
+        "stops": 0,
+        "timeouts": 0,
+        "mean_realized_r": null,
+        "insufficient_sample": true
+      },
+      "SHOCK_CONTINUATION": {
+        "events": 0,
+        "targets_10r": 0,
+        "stops": 0,
+        "timeouts": 0,
+        "mean_realized_r": null,
+        "insufficient_sample": true
+      },
+      "SHOCK_FADE": {
+        "events": 0,
+        "targets_10r": 0,
+        "stops": 0,
+        "timeouts": 0,
+        "mean_realized_r": null,
+        "insufficient_sample": true
+      },
+      "RANGE_CONTINUATION": {
+        "events": 10,
+        "targets_10r": 0,
+        "stops": 7,
+        "timeouts": 3,
+        "mean_realized_r": -0.315,
+        "insufficient_sample": true
+      }
+    },
+    "US30Y_YIELD": {
+      "GAP_CONTINUATION": {
+        "events": 14,
+        "targets_10r": 0,
+        "stops": 11,
+        "timeouts": 3,
+        "mean_realized_r": -0.514,
+        "insufficient_sample": true
+      },
+      "GAP_FADE": {
+        "events": 14,
+        "targets_10r": 0,
+        "stops": 10,
+        "timeouts": 4,
+        "mean_realized_r": -0.008,
+        "insufficient_sample": true
+      },
+      "SHOCK_CONTINUATION": {
+        "events": 11,
+        "targets_10r": 0,
+        "stops": 7,
+        "timeouts": 4,
+        "mean_realized_r": 0.482,
+        "insufficient_sample": true
+      },
+      "SHOCK_FADE": {
+        "events": 12,
+        "targets_10r": 0,
+        "stops": 8,
+        "timeouts": 4,
+        "mean_realized_r": -0.183,
+        "insufficient_sample": true
+      },
+      "RANGE_CONTINUATION": {
+        "events": 4,
+        "targets_10r": 0,
+        "stops": 4,
+        "timeouts": 0,
+        "mean_realized_r": -1.0,
+        "insufficient_sample": true
+      }
+    },
+    "US10Y_YIELD": {
+      "GAP_CONTINUATION": {
+        "events": 16,
+        "targets_10r": 0,
+        "stops": 13,
+        "timeouts": 3,
+        "mean_realized_r": -0.344,
+        "insufficient_sample": true
+      },
+      "GAP_FADE": {
+        "events": 16,
+        "targets_10r": 1,
+        "stops": 10,
+        "timeouts": 5,
+        "mean_realized_r": 0.489,
+        "insufficient_sample": true
+      },
+      "SHOCK_CONTINUATION": {
+        "events": 15,
+        "targets_10r": 0,
+        "stops": 9,
+        "timeouts": 6,
+        "mean_realized_r": 0.437,
+        "insufficient_sample": true
+      },
+      "SHOCK_FADE": {
+        "events": 15,
+        "targets_10r": 1,
+        "stops": 9,
+        "timeouts": 5,
+        "mean_realized_r": 0.435,
+        "insufficient_sample": true
+      },
+      "RANGE_CONTINUATION": {
+        "events": 6,
+        "targets_10r": 0,
+        "stops": 4,
+        "timeouts": 2,
+        "mean_realized_r": -0.312,
+        "insufficient_sample": true
+      }
+    },
+    "VIX": {
+      "GAP_CONTINUATION": {
+        "events": 35,
+        "targets_10r": 2,
+        "stops": 19,
+        "timeouts": 14,
+        "mean_realized_r": 0.225,
+        "insufficient_sample": false
+      },
+      "GAP_FADE": {
+        "events": 30,
+        "targets_10r": 2,
+        "stops": 16,
+        "timeouts": 12,
+        "mean_realized_r": 0.138,
+        "insufficient_sample": false
+      },
+      "SHOCK_CONTINUATION": {
+        "events": 35,
+        "targets_10r": 3,
+        "stops": 20,
+        "timeouts": 12,
+        "mean_realized_r": 0.549,
+        "insufficient_sample": false
+      },
+      "SHOCK_FADE": {
+        "events": 35,
+        "targets_10r": 3,
+        "stops": 15,
+        "timeouts": 17,
+        "mean_realized_r": 0.978,
+        "insufficient_sample": false
+      },
+      "RANGE_CONTINUATION": {
+        "events": 20,
+        "targets_10r": 1,
+        "stops": 18,
+        "timeouts": 1,
+        "mean_realized_r": -0.441,
+        "insufficient_sample": true
+      }
+    },
+    "OVX": {
+      "GAP_CONTINUATION": {
+        "events": 34,
+        "targets_10r": 2,
+        "stops": 22,
+        "timeouts": 10,
+        "mean_realized_r": 0.066,
+        "insufficient_sample": false
+      },
+      "GAP_FADE": {
+        "events": 31,
+        "targets_10r": 3,
+        "stops": 16,
+        "timeouts": 12,
+        "mean_realized_r": 0.506,
+        "insufficient_sample": false
+      },
+      "SHOCK_CONTINUATION": {
+        "events": 33,
+        "targets_10r": 5,
+        "stops": 16,
+        "timeouts": 12,
+        "mean_realized_r": 1.297,
+        "insufficient_sample": false
+      },
+      "SHOCK_FADE": {
+        "events": 32,
+        "targets_10r": 4,
+        "stops": 19,
+        "timeouts": 9,
+        "mean_realized_r": 1.079,
+        "insufficient_sample": false
+      },
+      "RANGE_CONTINUATION": {
+        "events": 11,
+        "targets_10r": 1,
+        "stops": 8,
+        "timeouts": 2,
+        "mean_realized_r": 0.117,
+        "insufficient_sample": true
+      }
+    },
+    "GVZ": {
+      "GAP_CONTINUATION": {
+        "events": 32,
+        "targets_10r": 1,
+        "stops": 26,
+        "timeouts": 5,
+        "mean_realized_r": -0.363,
+        "insufficient_sample": false
+      },
+      "GAP_FADE": {
+        "events": 30,
+        "targets_10r": 0,
+        "stops": 23,
+        "timeouts": 7,
+        "mean_realized_r": -0.511,
+        "insufficient_sample": false
+      },
+      "SHOCK_CONTINUATION": {
+        "events": 32,
+        "targets_10r": 2,
+        "stops": 23,
+        "timeouts": 7,
+        "mean_realized_r": 0.037,
+        "insufficient_sample": false
+      },
+      "SHOCK_FADE": {
+        "events": 31,
+        "targets_10r": 3,
+        "stops": 22,
+        "timeouts": 6,
+        "mean_realized_r": 0.291,
+        "insufficient_sample": false
+      },
+      "RANGE_CONTINUATION": {
+        "events": 20,
+        "targets_10r": 1,
+        "stops": 17,
+        "timeouts": 2,
+        "mean_realized_r": -0.348,
         "insufficient_sample": true
       }
     },
@@ -744,11 +1038,11 @@
         "insufficient_sample": false
       },
       "SHOCK_FADE": {
-        "events": 31,
+        "events": 32,
         "targets_10r": 0,
-        "stops": 20,
+        "stops": 21,
         "timeouts": 11,
-        "mean_realized_r": 0.35,
+        "mean_realized_r": 0.295,
         "insufficient_sample": false
       },
       "RANGE_CONTINUATION": {

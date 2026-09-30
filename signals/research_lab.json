@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at_utc": "2026-09-30T00:52:04.715402+00:00",
+  "generated_at_utc": "2026-09-30T07:14:45.119362+00:00",
   "status": "RESEARCH_ONLY",
   "methodology": "251-session warmup; prior-close 20-day breakout plus MA50/MA200; next open; ATR20 x2; 10R gross-risk target; 20bps roundtrip friction; 60 sessions; stop first if same bar; worse gap fill; disjoint 60-session windows per side.",
   "results": {
@@ -161,6 +161,146 @@
         "timeouts": 3,
         "mean_realized_r": -0.315,
         "maximum_favorable_excursion_r": 4.418,
+        "note": "Exploratory overlapping-market selection bias; not independently validated."
+      }
+    },
+    "US30Y_BOND_FUT": {
+      "LONG": {
+        "events": 10,
+        "targets": 1,
+        "stops": 9,
+        "timeouts": 0,
+        "mean_realized_r": 0.089,
+        "maximum_favorable_excursion_r": 11.169,
+        "note": "Exploratory overlapping-market selection bias; not independently validated."
+      },
+      "SHORT": {
+        "events": 16,
+        "targets": 0,
+        "stops": 12,
+        "timeouts": 4,
+        "mean_realized_r": -0.076,
+        "maximum_favorable_excursion_r": 5.149,
+        "note": "Exploratory overlapping-market selection bias; not independently validated."
+      }
+    },
+    "US10Y_NOTE_FUT": {
+      "LONG": {
+        "events": 10,
+        "targets": 0,
+        "stops": 5,
+        "timeouts": 5,
+        "mean_realized_r": 0.615,
+        "maximum_favorable_excursion_r": 8.129,
+        "note": "Exploratory overlapping-market selection bias; not independently validated."
+      },
+      "SHORT": {
+        "events": 15,
+        "targets": 0,
+        "stops": 7,
+        "timeouts": 8,
+        "mean_realized_r": 1.084,
+        "maximum_favorable_excursion_r": 6.627,
+        "note": "Exploratory overlapping-market selection bias; not independently validated."
+      }
+    },
+    "US30Y_YIELD": {
+      "LONG": {
+        "events": 18,
+        "targets": 0,
+        "stops": 13,
+        "timeouts": 5,
+        "mean_realized_r": -0.319,
+        "maximum_favorable_excursion_r": 5.561,
+        "note": "Exploratory overlapping-market selection bias; not independently validated."
+      },
+      "SHORT": {
+        "events": 12,
+        "targets": 0,
+        "stops": 10,
+        "timeouts": 2,
+        "mean_realized_r": -0.329,
+        "maximum_favorable_excursion_r": 5.418,
+        "note": "Exploratory overlapping-market selection bias; not independently validated."
+      }
+    },
+    "US10Y_YIELD": {
+      "LONG": {
+        "events": 17,
+        "targets": 0,
+        "stops": 12,
+        "timeouts": 5,
+        "mean_realized_r": 0.446,
+        "maximum_favorable_excursion_r": 8.562,
+        "note": "Exploratory overlapping-market selection bias; not independently validated."
+      },
+      "SHORT": {
+        "events": 8,
+        "targets": 0,
+        "stops": 6,
+        "timeouts": 2,
+        "mean_realized_r": 0.05,
+        "maximum_favorable_excursion_r": 6.069,
+        "note": "Exploratory overlapping-market selection bias; not independently validated."
+      }
+    },
+    "VIX": {
+      "LONG": {
+        "events": 12,
+        "targets": 1,
+        "stops": 11,
+        "timeouts": 0,
+        "mean_realized_r": -0.173,
+        "maximum_favorable_excursion_r": 12.05,
+        "note": "Exploratory overlapping-market selection bias; not independently validated."
+      },
+      "SHORT": {
+        "events": 0,
+        "targets": 0,
+        "stops": 0,
+        "timeouts": 0,
+        "mean_realized_r": null,
+        "maximum_favorable_excursion_r": null,
+        "note": "Exploratory overlapping-market selection bias; not independently validated."
+      }
+    },
+    "OVX": {
+      "LONG": {
+        "events": 7,
+        "targets": 2,
+        "stops": 4,
+        "timeouts": 1,
+        "mean_realized_r": 2.518,
+        "maximum_favorable_excursion_r": 11.732,
+        "note": "Exploratory overlapping-market selection bias; not independently validated."
+      },
+      "SHORT": {
+        "events": 0,
+        "targets": 0,
+        "stops": 0,
+        "timeouts": 0,
+        "mean_realized_r": null,
+        "maximum_favorable_excursion_r": null,
+        "note": "Exploratory overlapping-market selection bias; not independently validated."
+      }
+    },
+    "GVZ": {
+      "LONG": {
+        "events": 13,
+        "targets": 0,
+        "stops": 12,
+        "timeouts": 1,
+        "mean_realized_r": -0.949,
+        "maximum_favorable_excursion_r": 5.129,
+        "note": "Exploratory overlapping-market selection bias; not independently validated."
+      },
+      "SHORT": {
+        "events": 5,
+        "targets": 0,
+        "stops": 4,
+        "timeouts": 1,
+        "mean_realized_r": -0.36,
+        "maximum_favorable_excursion_r": 4.094,
         "note": "Exploratory overlapping-market selection bias; not independently validated."
       }
     },

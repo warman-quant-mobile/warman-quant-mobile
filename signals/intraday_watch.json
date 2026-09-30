@@ -1,18 +1,7 @@
 {
   "status": "RESEARCH_WATCH_ONLY",
-  "generated_at_utc": "2026-09-30T00:58:30.166646+00:00",
-  "observations": [
-    {
-      "symbol": "GOLD_FUT",
-      "bar_start_utc": "2026-09-29T23:00:00+00:00",
-      "events": [
-        "FAILED_HIGH_20H"
-      ],
-      "gap_pct": 0.0,
-      "hourly_move_pct": 0.13,
-      "status": "INTRADAY_WATCH_NOT_ORDER"
-    }
-  ],
+  "generated_at_utc": "2026-09-30T07:24:07.347202+00:00",
+  "observations": [],
   "excluded": {},
   "note": "Hourly data may be delayed; market sessions vary. Events require a separate validated 10R target and executable instrument quote before proposal."
 }

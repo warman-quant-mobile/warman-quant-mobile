@@ -1,0 +1,1710 @@
+{
+  "status": "RESEARCH_ONLY",
+  "results": {
+    "OVX": {
+      "status": "RESEARCH_ONLY",
+      "underlying": "WTI_FUT",
+      "observations": [
+        {
+          "date": "2026-02-26",
+          "vol": 59.8,
+          "asset": 65.21,
+          "tags": [
+            "VOL_TOP_5PCT"
+          ]
+        },
+        {
+          "date": "2026-02-27",
+          "vol": 64.68,
+          "asset": 67.02,
+          "tags": [
+            "VOL_TOP_5PCT"
+          ]
+        },
+        {
+          "date": "2026-03-02",
+          "vol": 68.9,
+          "asset": 71.23,
+          "tags": [
+            "VOL_TOP_5PCT"
+          ]
+        },
+        {
+          "date": "2026-03-03",
+          "vol": 73.99,
+          "asset": 74.56,
+          "tags": [
+            "VOL_TOP_5PCT",
+            "ASSET_5D_MOVE_8PCT",
+            "ASSET_20D_MOVE_15PCT"
+          ]
+        },
+        {
+          "date": "2026-03-04",
+          "vol": 75.2,
+          "asset": 74.66,
+          "tags": [
+            "VOL_TOP_5PCT",
+            "ASSET_5D_MOVE_8PCT",
+            "ASSET_20D_MOVE_15PCT"
+          ]
+        },
+        {
+          "date": "2026-03-05",
+          "vol": 83.83,
+          "asset": 81.01,
+          "tags": [
+            "VOL_TOP_5PCT",
+            "ASSET_5D_MOVE_8PCT",
+            "ASSET_20D_MOVE_15PCT"
+          ]
+        },
+        {
+          "date": "2026-03-06",
+          "vol": 103.6,
+          "asset": 90.9,
+          "tags": [
+            "VOL_TOP_5PCT",
+            "VOL_1_5X_MA20",
+            "ASSET_5D_MOVE_8PCT",
+            "ASSET_20D_MOVE_15PCT"
+          ]
+        },
+        {
+          "date": "2026-03-09",
+          "vol": 100.53,
+          "asset": 94.77,
+          "tags": [
+            "VOL_TOP_5PCT",
+            "VOL_1_5X_MA20",
+            "ASSET_5D_MOVE_8PCT",
+            "ASSET_20D_MOVE_15PCT"
+          ]
+        },
+        {
+          "date": "2026-03-10",
+          "vol": 108.19,
+          "asset": 83.45,
+          "tags": [
+            "VOL_TOP_5PCT",
+            "VOL_1_5X_MA20",
+            "ASSET_5D_MOVE_8PCT",
+            "ASSET_20D_MOVE_15PCT"
+          ]
+        },
+        {
+          "date": "2026-03-11",
+          "vol": 120.91,
+          "asset": 87.25,
+          "tags": [
+            "VOL_TOP_5PCT",
+            "VOL_1_5X_MA20",
+            "ASSET_5D_MOVE_8PCT",
+            "ASSET_20D_MOVE_15PCT"
+          ]
+        },
+        {
+          "date": "2026-03-12",
+          "vol": 120.22,
+          "asset": 95.73,
+          "tags": [
+            "VOL_TOP_5PCT",
+            "VOL_1_5X_MA20",
+            "ASSET_5D_MOVE_8PCT",
+            "ASSET_20D_MOVE_15PCT"
+          ]
+        },
+        {
+          "date": "2026-03-13",
+          "vol": 119.02,
+          "asset": 98.71,
+          "tags": [
+            "VOL_TOP_5PCT",
+            "VOL_1_5X_MA20",
+            "ASSET_5D_MOVE_8PCT",
+            "ASSET_20D_MOVE_15PCT"
+          ]
+        },
+        {
+          "date": "2026-03-16",
+          "vol": 101.97,
+          "asset": 93.5,
+          "tags": [
+            "VOL_TOP_5PCT",
+            "ASSET_20D_MOVE_15PCT"
+          ]
+        },
+        {
+          "date": "2026-03-17",
+          "vol": 95.92,
+          "asset": 96.21,
+          "tags": [
+            "VOL_TOP_5PCT",
+            "ASSET_5D_MOVE_8PCT",
+            "ASSET_20D_MOVE_15PCT"
+          ]
+        },
+        {
+          "date": "2026-03-18",
+          "vol": 97.28,
+          "asset": 96.32,
+          "tags": [
+            "VOL_TOP_5PCT",
+            "ASSET_5D_MOVE_8PCT",
+            "ASSET_20D_MOVE_15PCT"
+          ]
+        },
+        {
+          "date": "2026-03-19",
+          "vol": 92.68,
+          "asset": 96.14,
+          "tags": [
+            "VOL_TOP_5PCT",
+            "ASSET_20D_MOVE_15PCT"
+          ]
+        },
+        {
+          "date": "2026-03-20",
+          "vol": 91.85,
+          "asset": 98.32,
+          "tags": [
+            "VOL_TOP_5PCT",
+            "ASSET_20D_MOVE_15PCT"
+          ]
+        },
+        {
+          "date": "2026-03-23",
+          "vol": 89.78,
+          "asset": 88.13,
+          "tags": [
+            "VOL_TOP_5PCT",
+            "ASSET_20D_MOVE_15PCT"
+          ]
+        },
+        {
+          "date": "2026-03-24",
+          "vol": 89.34,
+          "asset": 92.35,
+          "tags": [
+            "VOL_TOP_5PCT",
+            "ASSET_20D_MOVE_15PCT"
+          ]
+        },
+        {
+          "date": "2026-03-25",
+          "vol": 90.16,
+          "asset": 90.32,
+          "tags": [
+            "VOL_TOP_5PCT",
+            "ASSET_20D_MOVE_15PCT"
+          ]
+        },
+        {
+          "date": "2026-03-26",
+          "vol": 92.37,
+          "asset": 94.48,
+          "tags": [
+            "VOL_TOP_5PCT",
+            "ASSET_20D_MOVE_15PCT"
+          ]
+        },
+        {
+          "date": "2026-03-27",
+          "vol": 96.64,
+          "asset": 99.64,
+          "tags": [
+            "VOL_TOP_5PCT",
+            "ASSET_20D_MOVE_15PCT"
+          ]
+        },
+        {
+          "date": "2026-03-30",
+          "vol": 95.84,
+          "asset": 102.88,
+          "tags": [
+            "VOL_TOP_5PCT",
+            "ASSET_5D_MOVE_8PCT",
+            "ASSET_20D_MOVE_15PCT"
+          ]
+        },
+        {
+          "date": "2026-03-31",
+          "vol": 89.39,
+          "asset": 101.38,
+          "tags": [
+            "ASSET_5D_MOVE_8PCT",
+            "ASSET_20D_MOVE_15PCT"
+          ]
+        },
+        {
+          "date": "2026-04-01",
+          "vol": 91.8,
+          "asset": 100.12,
+          "tags": [
+            "ASSET_5D_MOVE_8PCT",
+            "ASSET_20D_MOVE_15PCT"
+          ]
+        },
+        {
+          "date": "2026-04-02",
+          "vol": 93.14,
+          "asset": 111.54,
+          "tags": [
+            "VOL_TOP_5PCT",
+            "ASSET_5D_MOVE_8PCT",
+            "ASSET_20D_MOVE_15PCT"
+          ]
+        },
+        {
+          "date": "2026-04-06",
+          "vol": 96.14,
+          "asset": 112.41,
+          "tags": [
+            "VOL_TOP_5PCT",
+            "ASSET_5D_MOVE_8PCT",
+            "ASSET_20D_MOVE_15PCT"
+          ]
+        },
+        {
+          "date": "2026-04-07",
+          "vol": 98.79,
+          "asset": 112.95,
+          "tags": [
+            "VOL_TOP_5PCT",
+            "ASSET_5D_MOVE_8PCT",
+            "ASSET_20D_MOVE_15PCT"
+          ]
+        },
+        {
+          "date": "2026-04-10",
+          "vol": 78.01,
+          "asset": 96.57,
+          "tags": [
+            "ASSET_5D_MOVE_8PCT"
+          ]
+        },
+        {
+          "date": "2026-04-13",
+          "vol": 80.55,
+          "asset": 99.08,
+          "tags": [
+            "ASSET_5D_MOVE_8PCT"
+          ]
+        },
+        {
+          "date": "2026-04-14",
+          "vol": 75.35,
+          "asset": 91.28,
+          "tags": [
+            "ASSET_5D_MOVE_8PCT"
+          ]
+        },
+        {
+          "date": "2026-04-17",
+          "vol": 69.01,
+          "asset": 83.85,
+          "tags": [
+            "ASSET_5D_MOVE_8PCT"
+          ]
+        },
+        {
+          "date": "2026-04-20",
+          "vol": 73.79,
+          "asset": 89.61,
+          "tags": [
+            "ASSET_5D_MOVE_8PCT"
+          ]
+        },
+        {
+          "date": "2026-04-24",
+          "vol": 75.83,
+          "asset": 94.4,
+          "tags": [
+            "ASSET_5D_MOVE_8PCT"
+          ]
+        },
+        {
+          "date": "2026-04-28",
+          "vol": 70.5,
+          "asset": 99.93,
+          "tags": [
+            "ASSET_5D_MOVE_8PCT"
+          ]
+        },
+        {
+          "date": "2026-04-29",
+          "vol": 75.96,
+          "asset": 106.88,
+          "tags": [
+            "ASSET_5D_MOVE_8PCT"
+          ]
+        },
+        {
+          "date": "2026-04-30",
+          "vol": 75.08,
+          "asset": 105.07,
+          "tags": [
+            "ASSET_5D_MOVE_8PCT"
+          ]
+        },
+        {
+          "date": "2026-05-04",
+          "vol": 78.63,
+          "asset": 106.42,
+          "tags": [
+            "ASSET_5D_MOVE_8PCT"
+          ]
+        },
+        {
+          "date": "2026-05-06",
+          "vol": 72.34,
+          "asset": 95.08,
+          "tags": [
+            "ASSET_5D_MOVE_8PCT"
+          ]
+        },
+        {
+          "date": "2026-05-07",
+          "vol": 72.25,
+          "asset": 94.81,
+          "tags": [
+            "ASSET_5D_MOVE_8PCT"
+          ]
+        },
+        {
+          "date": "2026-05-15",
+          "vol": 72.35,
+          "asset": 105.42,
+          "tags": [
+            "ASSET_5D_MOVE_8PCT",
+            "ASSET_20D_MOVE_15PCT"
+          ]
+        },
+        {
+          "date": "2026-05-18",
+          "vol": 72.07,
+          "asset": 108.66,
+          "tags": [
+            "ASSET_5D_MOVE_8PCT",
+            "ASSET_20D_MOVE_15PCT"
+          ]
+        },
+        {
+          "date": "2026-05-19",
+          "vol": 72.89,
+          "asset": 107.77,
+          "tags": [
+            "ASSET_20D_MOVE_15PCT"
+          ]
+        },
+        {
+          "date": "2026-05-22",
+          "vol": 75.97,
+          "asset": 96.6,
+          "tags": [
+            "ASSET_5D_MOVE_8PCT"
+          ]
+        },
+        {
+          "date": "2026-05-26",
+          "vol": 65.06,
+          "asset": 93.89,
+          "tags": [
+            "ASSET_5D_MOVE_8PCT"
+          ]
+        },
+        {
+          "date": "2026-05-27",
+          "vol": 59.97,
+          "asset": 88.68,
+          "tags": [
+            "ASSET_5D_MOVE_8PCT"
+          ]
+        },
+        {
+          "date": "2026-05-28",
+          "vol": 58.3,
+          "asset": 88.9,
+          "tags": [
+            "ASSET_5D_MOVE_8PCT",
+            "ASSET_20D_MOVE_15PCT"
+          ]
+        },
+        {
+          "date": "2026-05-29",
+          "vol": 57.84,
+          "asset": 87.36,
+          "tags": [
+            "ASSET_5D_MOVE_8PCT",
+            "ASSET_20D_MOVE_15PCT"
+          ]
+        },
+        {
+          "date": "2026-06-03",
+          "vol": 60.52,
+          "asset": 96.02,
+          "tags": [
+            "ASSET_5D_MOVE_8PCT"
+          ]
+        },
+        {
+          "date": "2026-06-12",
+          "vol": 54.1,
+          "asset": 84.88,
+          "tags": [
+            "ASSET_20D_MOVE_15PCT"
+          ]
+        },
+        {
+          "date": "2026-06-15",
+          "vol": 47.75,
+          "asset": 80.75,
+          "tags": [
+            "ASSET_5D_MOVE_8PCT",
+            "ASSET_20D_MOVE_15PCT"
+          ]
+        },
+        {
+          "date": "2026-06-16",
+          "vol": 53.1,
+          "asset": 76.05,
+          "tags": [
+            "ASSET_5D_MOVE_8PCT",
+            "ASSET_20D_MOVE_15PCT"
+          ]
+        },
+        {
+          "date": "2026-06-17",
+          "vol": 53.65,
+          "asset": 76.79,
+          "tags": [
+            "ASSET_5D_MOVE_8PCT",
+            "ASSET_20D_MOVE_15PCT"
+          ]
+        },
+        {
+          "date": "2026-06-18",
+          "vol": 51.54,
+          "asset": 76.6,
+          "tags": [
+            "ASSET_5D_MOVE_8PCT",
+            "ASSET_20D_MOVE_15PCT"
+          ]
+        },
+        {
+          "date": "2026-06-22",
+          "vol": 50.7,
+          "asset": 74.82,
+          "tags": [
+            "ASSET_5D_MOVE_8PCT",
+            "ASSET_20D_MOVE_15PCT"
+          ]
+        },
+        {
+          "date": "2026-06-23",
+          "vol": 46.6,
+          "asset": 73.21,
+          "tags": [
+            "ASSET_5D_MOVE_8PCT",
+            "ASSET_20D_MOVE_15PCT"
+          ]
+        },
+        {
+          "date": "2026-06-24",
+          "vol": 47.61,
+          "asset": 70.34,
+          "tags": [
+            "ASSET_20D_MOVE_15PCT"
+          ]
+        },
+        {
+          "date": "2026-06-25",
+          "vol": 46.96,
+          "asset": 71.92,
+          "tags": [
+            "ASSET_20D_MOVE_15PCT"
+          ]
+        },
+        {
+          "date": "2026-06-26",
+          "vol": 46.46,
+          "asset": 69.23,
+          "tags": [
+            "ASSET_5D_MOVE_8PCT",
+            "ASSET_20D_MOVE_15PCT"
+          ]
+        },
+        {
+          "date": "2026-06-29",
+          "vol": 45.07,
+          "asset": 70.75,
+          "tags": [
+            "ASSET_20D_MOVE_15PCT"
+          ]
+        },
+        {
+          "date": "2026-06-30",
+          "vol": 43.17,
+          "asset": 69.5,
+          "tags": [
+            "ASSET_20D_MOVE_15PCT"
+          ]
+        },
+        {
+          "date": "2026-07-01",
+          "vol": 40.76,
+          "asset": 68.58,
+          "tags": [
+            "ASSET_20D_MOVE_15PCT"
+          ]
+        },
+        {
+          "date": "2026-07-02",
+          "vol": 41.62,
+          "asset": 68.69,
+          "tags": [
+            "ASSET_20D_MOVE_15PCT"
+          ]
+        },
+        {
+          "date": "2026-07-06",
+          "vol": 40.33,
+          "asset": 68.55,
+          "tags": [
+            "ASSET_20D_MOVE_15PCT"
+          ]
+        },
+        {
+          "date": "2026-07-07",
+          "vol": 47.59,
+          "asset": 70.44,
+          "tags": [
+            "ASSET_20D_MOVE_15PCT"
+          ]
+        },
+        {
+          "date": "2026-07-08",
+          "vol": 50.45,
+          "asset": 73.52,
+          "tags": [
+            "ASSET_20D_MOVE_15PCT"
+          ]
+        },
+        {
+          "date": "2026-07-09",
+          "vol": 45.99,
+          "asset": 72.08,
+          "tags": [
+            "ASSET_20D_MOVE_15PCT"
+          ]
+        },
+        {
+          "date": "2026-07-10",
+          "vol": 44.67,
+          "asset": 71.41,
+          "tags": [
+            "ASSET_20D_MOVE_15PCT"
+          ]
+        },
+        {
+          "date": "2026-07-13",
+          "vol": 60.25,
+          "asset": 78.14,
+          "tags": [
+            "ASSET_5D_MOVE_8PCT"
+          ]
+        },
+        {
+          "date": "2026-07-14",
+          "vol": 59.89,
+          "asset": 79.34,
+          "tags": [
+            "ASSET_5D_MOVE_8PCT"
+          ]
+        },
+        {
+          "date": "2026-07-15",
+          "vol": 58.96,
+          "asset": 79.6,
+          "tags": [
+            "ASSET_5D_MOVE_8PCT"
+          ]
+        },
+        {
+          "date": "2026-07-16",
+          "vol": 55.91,
+          "asset": 78.95,
+          "tags": [
+            "ASSET_5D_MOVE_8PCT"
+          ]
+        },
+        {
+          "date": "2026-07-17",
+          "vol": 60.02,
+          "asset": 82.49,
+          "tags": [
+            "ASSET_5D_MOVE_8PCT"
+          ]
+        },
+        {
+          "date": "2026-07-22",
+          "vol": 65.31,
+          "asset": 86.83,
+          "tags": [
+            "ASSET_5D_MOVE_8PCT",
+            "ASSET_20D_MOVE_15PCT"
+          ]
+        },
+        {
+          "date": "2026-07-23",
+          "vol": 68.97,
+          "asset": 92.19,
+          "tags": [
+            "ASSET_5D_MOVE_8PCT",
+            "ASSET_20D_MOVE_15PCT"
+          ]
+        },
+        {
+          "date": "2026-07-24",
+          "vol": 68.0,
+          "asset": 89.31,
+          "tags": [
+            "ASSET_5D_MOVE_8PCT",
+            "ASSET_20D_MOVE_15PCT"
+          ]
+        },
+        {
+          "date": "2026-07-27",
+          "vol": 60.62,
+          "asset": 82.61,
+          "tags": [
+            "ASSET_20D_MOVE_15PCT"
+          ]
+        },
+        {
+          "date": "2026-07-29",
+          "vol": 67.59,
+          "asset": 84.46,
+          "tags": [
+            "ASSET_20D_MOVE_15PCT"
+          ]
+        },
+        {
+          "date": "2026-07-30",
+          "vol": 63.44,
+          "asset": 83.59,
+          "tags": [
+            "ASSET_5D_MOVE_8PCT",
+            "ASSET_20D_MOVE_15PCT"
+          ]
+        },
+        {
+          "date": "2026-07-31",
+          "vol": 63.04,
+          "asset": 84.67,
+          "tags": [
+            "ASSET_20D_MOVE_15PCT"
+          ]
+        },
+        {
+          "date": "2026-08-03",
+          "vol": 57.2,
+          "asset": 80.34,
+          "tags": [
+            "ASSET_20D_MOVE_15PCT"
+          ]
+        },
+        {
+          "date": "2026-08-05",
+          "vol": 51.48,
+          "asset": 75.22,
+          "tags": [
+            "ASSET_5D_MOVE_8PCT"
+          ]
+        },
+        {
+          "date": "2026-08-11",
+          "vol": 54.99,
+          "asset": 83.2,
+          "tags": [
+            "ASSET_5D_MOVE_8PCT"
+          ]
+        },
+        {
+          "date": "2026-08-12",
+          "vol": 52.34,
+          "asset": 83.27,
+          "tags": [
+            "ASSET_5D_MOVE_8PCT"
+          ]
+        },
+        {
+          "date": "2026-08-20",
+          "vol": 49.63,
+          "asset": 87.83,
+          "tags": [
+            "ASSET_5D_MOVE_8PCT"
+          ]
+        },
+        {
+          "date": "2026-09-01",
+          "vol": 49.13,
+          "asset": 90.22,
+          "tags": [
+            "ASSET_5D_MOVE_8PCT",
+            "ASSET_20D_MOVE_15PCT"
+          ]
+        },
+        {
+          "date": "2026-09-02",
+          "vol": 47.77,
+          "asset": 91.01,
+          "tags": [
+            "ASSET_5D_MOVE_8PCT",
+            "ASSET_20D_MOVE_15PCT"
+          ]
+        },
+        {
+          "date": "2026-09-03",
+          "vol": 46.41,
+          "asset": 91.3,
+          "tags": [
+            "ASSET_5D_MOVE_8PCT",
+            "ASSET_20D_MOVE_15PCT"
+          ]
+        },
+        {
+          "date": "2026-09-04",
+          "vol": 44.96,
+          "asset": 91.48,
+          "tags": [
+            "ASSET_5D_MOVE_8PCT",
+            "ASSET_20D_MOVE_15PCT"
+          ]
+        },
+        {
+          "date": "2026-09-08",
+          "vol": 48.59,
+          "asset": 93.03,
+          "tags": [
+            "ASSET_5D_MOVE_8PCT"
+          ]
+        },
+        {
+          "date": "2026-09-09",
+          "vol": 49.85,
+          "asset": 96.05,
+          "tags": [
+            "ASSET_20D_MOVE_15PCT"
+          ]
+        },
+        {
+          "date": "2026-09-10",
+          "vol": 60.76,
+          "asset": 102.48,
+          "tags": [
+            "ASSET_5D_MOVE_8PCT",
+            "ASSET_20D_MOVE_15PCT"
+          ]
+        },
+        {
+          "date": "2026-09-11",
+          "vol": 58.92,
+          "asset": 100.05,
+          "tags": [
+            "ASSET_5D_MOVE_8PCT",
+            "ASSET_20D_MOVE_15PCT"
+          ]
+        },
+        {
+          "date": "2026-09-14",
+          "vol": 59.46,
+          "asset": 101.39,
+          "tags": [
+            "ASSET_5D_MOVE_8PCT",
+            "ASSET_20D_MOVE_15PCT"
+          ]
+        },
+        {
+          "date": "2026-09-15",
+          "vol": 61.73,
+          "asset": 105.83,
+          "tags": [
+            "ASSET_5D_MOVE_8PCT",
+            "ASSET_20D_MOVE_15PCT"
+          ]
+        },
+        {
+          "date": "2026-09-16",
+          "vol": 57.49,
+          "asset": 102.43,
+          "tags": [
+            "ASSET_20D_MOVE_15PCT"
+          ]
+        },
+        {
+          "date": "2026-09-17",
+          "vol": 52.11,
+          "asset": 101.91,
+          "tags": [
+            "ASSET_20D_MOVE_15PCT"
+          ]
+        },
+        {
+          "date": "2026-09-22",
+          "vol": 51.89,
+          "asset": 94.59,
+          "tags": [
+            "ASSET_5D_MOVE_8PCT"
+          ]
+        },
+        {
+          "date": "2026-09-23",
+          "vol": 53.24,
+          "asset": 92.16,
+          "tags": [
+            "ASSET_5D_MOVE_8PCT"
+          ]
+        },
+        {
+          "date": "2026-09-24",
+          "vol": 54.45,
+          "asset": 94.61,
+          "tags": [
+            "ASSET_20D_MOVE_15PCT"
+          ]
+        }
+      ]
+    },
+    "GVZ": {
+      "status": "RESEARCH_ONLY",
+      "underlying": "GOLD_FUT",
+      "observations": [
+        {
+          "date": "2022-03-10",
+          "vol": 26.08,
+          "asset": 2000.4,
+          "tags": [
+            "VOL_TOP_5PCT"
+          ]
+        },
+        {
+          "date": "2022-03-11",
+          "vol": 24.73,
+          "asset": 1985.0,
+          "tags": [
+            "VOL_TOP_5PCT"
+          ]
+        },
+        {
+          "date": "2022-03-14",
+          "vol": 24.08,
+          "asset": 1960.8,
+          "tags": [
+            "VOL_TOP_5PCT"
+          ]
+        },
+        {
+          "date": "2022-03-15",
+          "vol": 23.8,
+          "asset": 1929.7,
+          "tags": [
+            "VOL_TOP_5PCT"
+          ]
+        },
+        {
+          "date": "2022-03-16",
+          "vol": 22.51,
+          "asset": 1909.2,
+          "tags": [
+            "VOL_TOP_5PCT"
+          ]
+        },
+        {
+          "date": "2022-03-17",
+          "vol": 22.23,
+          "asset": 1943.2,
+          "tags": [
+            "VOL_TOP_5PCT"
+          ]
+        },
+        {
+          "date": "2022-03-18",
+          "vol": 22.0,
+          "asset": 1929.3,
+          "tags": [
+            "VOL_TOP_5PCT"
+          ]
+        },
+        {
+          "date": "2022-03-23",
+          "vol": 23.41,
+          "asset": 1937.3,
+          "tags": [
+            "VOL_TOP_5PCT"
+          ]
+        },
+        {
+          "date": "2022-03-24",
+          "vol": 24.07,
+          "asset": 1962.2,
+          "tags": [
+            "VOL_TOP_5PCT"
+          ]
+        },
+        {
+          "date": "2022-03-25",
+          "vol": 24.68,
+          "asset": 1954.2,
+          "tags": [
+            "VOL_TOP_5PCT"
+          ]
+        },
+        {
+          "date": "2022-03-28",
+          "vol": 23.2,
+          "asset": 1939.8,
+          "tags": [
+            "VOL_TOP_5PCT"
+          ]
+        },
+        {
+          "date": "2023-03-17",
+          "vol": 22.83,
+          "asset": 1973.5,
+          "tags": [
+            "VOL_TOP_5PCT"
+          ]
+        },
+        {
+          "date": "2023-03-20",
+          "vol": 21.4,
+          "asset": 1982.8,
+          "tags": [
+            "VOL_TOP_5PCT"
+          ]
+        },
+        {
+          "date": "2023-10-19",
+          "vol": 19.4,
+          "asset": 1980.5,
+          "tags": [
+            "VOL_TOP_5PCT"
+          ]
+        },
+        {
+          "date": "2024-04-10",
+          "vol": 18.67,
+          "asset": 2348.4,
+          "tags": [
+            "VOL_TOP_5PCT"
+          ]
+        },
+        {
+          "date": "2024-04-11",
+          "vol": 18.97,
+          "asset": 2372.7,
+          "tags": [
+            "VOL_TOP_5PCT"
+          ]
+        },
+        {
+          "date": "2024-04-12",
+          "vol": 20.21,
+          "asset": 2374.1,
+          "tags": [
+            "VOL_TOP_5PCT"
+          ]
+        },
+        {
+          "date": "2024-04-15",
+          "vol": 22.25,
+          "asset": 2383.0,
+          "tags": [
+            "VOL_TOP_5PCT"
+          ]
+        },
+        {
+          "date": "2024-04-16",
+          "vol": 20.56,
+          "asset": 2407.8,
+          "tags": [
+            "VOL_TOP_5PCT"
+          ]
+        },
+        {
+          "date": "2024-04-17",
+          "vol": 19.01,
+          "asset": 2388.4,
+          "tags": [
+            "VOL_TOP_5PCT"
+          ]
+        },
+        {
+          "date": "2024-08-02",
+          "vol": 18.7,
+          "asset": 2469.8,
+          "tags": [
+            "VOL_TOP_5PCT"
+          ]
+        },
+        {
+          "date": "2024-08-05",
+          "vol": 21.95,
+          "asset": 2444.4,
+          "tags": [
+            "VOL_TOP_5PCT"
+          ]
+        },
+        {
+          "date": "2024-08-06",
+          "vol": 19.1,
+          "asset": 2431.6,
+          "tags": [
+            "VOL_TOP_5PCT"
+          ]
+        },
+        {
+          "date": "2024-08-12",
+          "vol": 20.61,
+          "asset": 2504.0,
+          "tags": [
+            "VOL_TOP_5PCT"
+          ]
+        },
+        {
+          "date": "2024-08-13",
+          "vol": 19.18,
+          "asset": 2507.8,
+          "tags": [
+            "VOL_TOP_5PCT"
+          ]
+        },
+        {
+          "date": "2024-08-16",
+          "vol": 20.09,
+          "asset": 2537.8,
+          "tags": [
+            "VOL_TOP_5PCT"
+          ]
+        },
+        {
+          "date": "2024-08-19",
+          "vol": 18.77,
+          "asset": 2541.3,
+          "tags": [
+            "VOL_TOP_5PCT"
+          ]
+        },
+        {
+          "date": "2024-09-24",
+          "vol": 19.26,
+          "asset": 2677.0,
+          "tags": [
+            "VOL_TOP_5PCT"
+          ]
+        },
+        {
+          "date": "2024-09-25",
+          "vol": 19.13,
+          "asset": 2684.7,
+          "tags": [
+            "VOL_TOP_5PCT"
+          ]
+        },
+        {
+          "date": "2024-10-23",
+          "vol": 18.98,
+          "asset": 2729.4,
+          "tags": [
+            "VOL_TOP_5PCT"
+          ]
+        },
+        {
+          "date": "2024-10-31",
+          "vol": 19.46,
+          "asset": 2749.3,
+          "tags": [
+            "VOL_TOP_5PCT"
+          ]
+        },
+        {
+          "date": "2024-11-01",
+          "vol": 19.29,
+          "asset": 2749.2,
+          "tags": [
+            "VOL_TOP_5PCT"
+          ]
+        },
+        {
+          "date": "2024-11-04",
+          "vol": 19.91,
+          "asset": 2746.2,
+          "tags": [
+            "VOL_TOP_5PCT"
+          ]
+        },
+        {
+          "date": "2024-11-05",
+          "vol": 19.59,
+          "asset": 2749.7,
+          "tags": [
+            "VOL_TOP_5PCT"
+          ]
+        },
+        {
+          "date": "2025-04-04",
+          "vol": 22.03,
+          "asset": 3035.4,
+          "tags": [
+            "VOL_TOP_5PCT"
+          ]
+        },
+        {
+          "date": "2025-04-07",
+          "vol": 19.68,
+          "asset": 2973.6,
+          "tags": [
+            "VOL_TOP_5PCT"
+          ]
+        },
+        {
+          "date": "2025-04-08",
+          "vol": 23.73,
+          "asset": 2990.2,
+          "tags": [
+            "VOL_TOP_5PCT"
+          ]
+        },
+        {
+          "date": "2025-04-09",
+          "vol": 24.53,
+          "asset": 3079.4,
+          "tags": [
+            "VOL_TOP_5PCT"
+          ]
+        },
+        {
+          "date": "2025-04-10",
+          "vol": 26.59,
+          "asset": 3177.5,
+          "tags": [
+            "VOL_TOP_5PCT"
+          ]
+        },
+        {
+          "date": "2025-04-11",
+          "vol": 28.44,
+          "asset": 3244.6,
+          "tags": [
+            "VOL_TOP_5PCT"
+          ]
+        },
+        {
+          "date": "2025-04-14",
+          "vol": 23.8,
+          "asset": 3226.3,
+          "tags": [
+            "VOL_TOP_5PCT",
+            "ASSET_5D_MOVE_8PCT"
+          ]
+        },
+        {
+          "date": "2025-04-15",
+          "vol": 21.54,
+          "asset": 3240.4,
+          "tags": [
+            "VOL_TOP_5PCT",
+            "ASSET_5D_MOVE_8PCT"
+          ]
+        },
+        {
+          "date": "2025-04-16",
+          "vol": 26.73,
+          "asset": 3346.4,
+          "tags": [
+            "VOL_TOP_5PCT",
+            "ASSET_5D_MOVE_8PCT"
+          ]
+        },
+        {
+          "date": "2025-04-17",
+          "vol": 24.14,
+          "asset": 3328.4,
+          "tags": [
+            "VOL_TOP_5PCT"
+          ]
+        },
+        {
+          "date": "2025-04-21",
+          "vol": 28.14,
+          "asset": 3425.3,
+          "tags": [
+            "VOL_TOP_5PCT"
+          ]
+        },
+        {
+          "date": "2025-04-22",
+          "vol": 28.44,
+          "asset": 3419.4,
+          "tags": [
+            "VOL_TOP_5PCT"
+          ]
+        },
+        {
+          "date": "2025-04-23",
+          "vol": 25.23,
+          "asset": 3294.1,
+          "tags": [
+            "VOL_TOP_5PCT"
+          ]
+        },
+        {
+          "date": "2025-04-24",
+          "vol": 24.93,
+          "asset": 3348.6,
+          "tags": [
+            "VOL_TOP_5PCT"
+          ]
+        },
+        {
+          "date": "2025-04-25",
+          "vol": 23.36,
+          "asset": 3298.4,
+          "tags": [
+            "VOL_TOP_5PCT"
+          ]
+        },
+        {
+          "date": "2025-04-28",
+          "vol": 23.25,
+          "asset": 3347.7,
+          "tags": [
+            "VOL_TOP_5PCT"
+          ]
+        },
+        {
+          "date": "2025-05-06",
+          "vol": 24.72,
+          "asset": 3422.8,
+          "tags": [
+            "VOL_TOP_5PCT",
+            "ASSET_20D_MOVE_15PCT"
+          ]
+        },
+        {
+          "date": "2025-10-10",
+          "vol": 23.78,
+          "asset": 4000.4,
+          "tags": [
+            "VOL_TOP_5PCT"
+          ]
+        },
+        {
+          "date": "2025-10-13",
+          "vol": 24.53,
+          "asset": 4133.0,
+          "tags": [
+            "VOL_TOP_5PCT"
+          ]
+        },
+        {
+          "date": "2025-10-14",
+          "vol": 26.11,
+          "asset": 4163.4,
+          "tags": [
+            "VOL_TOP_5PCT"
+          ]
+        },
+        {
+          "date": "2025-10-15",
+          "vol": 27.12,
+          "asset": 4201.6,
+          "tags": [
+            "VOL_TOP_5PCT"
+          ]
+        },
+        {
+          "date": "2025-10-16",
+          "vol": 32.78,
+          "asset": 4304.6,
+          "tags": [
+            "VOL_TOP_5PCT",
+            "VOL_1_5X_MA20",
+            "ASSET_5D_MOVE_8PCT",
+            "ASSET_20D_MOVE_15PCT"
+          ]
+        },
+        {
+          "date": "2025-10-17",
+          "vol": 31.2,
+          "asset": 4213.3,
+          "tags": [
+            "VOL_TOP_5PCT"
+          ]
+        },
+        {
+          "date": "2025-10-20",
+          "vol": 31.43,
+          "asset": 4359.4,
+          "tags": [
+            "VOL_TOP_5PCT",
+            "ASSET_20D_MOVE_15PCT"
+          ]
+        },
+        {
+          "date": "2025-10-21",
+          "vol": 29.82,
+          "asset": 4109.1,
+          "tags": [
+            "VOL_TOP_5PCT"
+          ]
+        },
+        {
+          "date": "2025-10-22",
+          "vol": 27.19,
+          "asset": 4065.4,
+          "tags": [
+            "VOL_TOP_5PCT"
+          ]
+        },
+        {
+          "date": "2025-10-23",
+          "vol": 26.68,
+          "asset": 4145.6,
+          "tags": [
+            "VOL_TOP_5PCT"
+          ]
+        },
+        {
+          "date": "2026-01-21",
+          "vol": 26.27,
+          "asset": 4837.5,
+          "tags": [
+            "VOL_TOP_5PCT"
+          ]
+        },
+        {
+          "date": "2026-01-22",
+          "vol": 28.11,
+          "asset": 4913.4,
+          "tags": [
+            "VOL_TOP_5PCT"
+          ]
+        },
+        {
+          "date": "2026-01-23",
+          "vol": 30.01,
+          "asset": 4979.7,
+          "tags": [
+            "VOL_TOP_5PCT"
+          ]
+        },
+        {
+          "date": "2026-01-26",
+          "vol": 32.7,
+          "asset": 5082.5,
+          "tags": [
+            "VOL_TOP_5PCT",
+            "ASSET_5D_MOVE_8PCT"
+          ]
+        },
+        {
+          "date": "2026-01-27",
+          "vol": 33.13,
+          "asset": 5082.6,
+          "tags": [
+            "VOL_TOP_5PCT"
+          ]
+        },
+        {
+          "date": "2026-01-28",
+          "vol": 39.67,
+          "asset": 5303.6,
+          "tags": [
+            "VOL_TOP_5PCT",
+            "VOL_1_5X_MA20",
+            "ASSET_5D_MOVE_8PCT",
+            "ASSET_20D_MOVE_15PCT"
+          ]
+        },
+        {
+          "date": "2026-01-29",
+          "vol": 46.02,
+          "asset": 5318.4,
+          "tags": [
+            "VOL_TOP_5PCT",
+            "VOL_1_5X_MA20",
+            "ASSET_5D_MOVE_8PCT",
+            "ASSET_20D_MOVE_15PCT"
+          ]
+        },
+        {
+          "date": "2026-01-30",
+          "vol": 44.08,
+          "asset": 4745.1,
+          "tags": [
+            "VOL_TOP_5PCT",
+            "VOL_1_5X_MA20"
+          ]
+        },
+        {
+          "date": "2026-02-02",
+          "vol": 37.38,
+          "asset": 4652.6,
+          "tags": [
+            "VOL_TOP_5PCT",
+            "ASSET_5D_MOVE_8PCT"
+          ]
+        },
+        {
+          "date": "2026-02-03",
+          "vol": 41.04,
+          "asset": 4935.0,
+          "tags": [
+            "VOL_TOP_5PCT"
+          ]
+        },
+        {
+          "date": "2026-02-04",
+          "vol": 36.93,
+          "asset": 4950.8,
+          "tags": [
+            "VOL_TOP_5PCT"
+          ]
+        },
+        {
+          "date": "2026-02-05",
+          "vol": 35.53,
+          "asset": 4889.5,
+          "tags": [
+            "VOL_TOP_5PCT",
+            "ASSET_5D_MOVE_8PCT"
+          ]
+        },
+        {
+          "date": "2026-02-06",
+          "vol": 33.96,
+          "asset": 4979.8,
+          "tags": [
+            "VOL_TOP_5PCT"
+          ]
+        },
+        {
+          "date": "2026-02-09",
+          "vol": 32.84,
+          "asset": 5079.4,
+          "tags": [
+            "VOL_TOP_5PCT",
+            "ASSET_5D_MOVE_8PCT"
+          ]
+        },
+        {
+          "date": "2026-02-17",
+          "vol": 33.24,
+          "asset": 4905.9,
+          "tags": [
+            "VOL_TOP_5PCT"
+          ]
+        },
+        {
+          "date": "2026-02-18",
+          "vol": 33.75,
+          "asset": 5009.5,
+          "tags": [
+            "VOL_TOP_5PCT"
+          ]
+        },
+        {
+          "date": "2026-02-19",
+          "vol": 33.56,
+          "asset": 4997.4,
+          "tags": [
+            "VOL_TOP_5PCT"
+          ]
+        },
+        {
+          "date": "2026-02-20",
+          "vol": 36.44,
+          "asset": 5080.9,
+          "tags": [
+            "VOL_TOP_5PCT"
+          ]
+        },
+        {
+          "date": "2026-02-23",
+          "vol": 38.46,
+          "asset": 5225.6,
+          "tags": [
+            "VOL_TOP_5PCT"
+          ]
+        },
+        {
+          "date": "2026-02-24",
+          "vol": 37.55,
+          "asset": 5176.3,
+          "tags": [
+            "VOL_TOP_5PCT"
+          ]
+        },
+        {
+          "date": "2026-02-25",
+          "vol": 34.96,
+          "asset": 5226.2,
+          "tags": [
+            "VOL_TOP_5PCT"
+          ]
+        },
+        {
+          "date": "2026-03-02",
+          "vol": 34.83,
+          "asset": 5311.6,
+          "tags": [
+            "VOL_TOP_5PCT"
+          ]
+        },
+        {
+          "date": "2026-03-03",
+          "vol": 38.77,
+          "asset": 5123.7,
+          "tags": [
+            "VOL_TOP_5PCT"
+          ]
+        },
+        {
+          "date": "2026-03-04",
+          "vol": 36.48,
+          "asset": 5134.7,
+          "tags": [
+            "VOL_TOP_5PCT"
+          ]
+        },
+        {
+          "date": "2026-03-05",
+          "vol": 35.31,
+          "asset": 5078.7,
+          "tags": [
+            "VOL_TOP_5PCT"
+          ]
+        },
+        {
+          "date": "2026-03-19",
+          "vol": 31.05,
+          "asset": 4605.7,
+          "tags": [
+            "ASSET_5D_MOVE_8PCT"
+          ]
+        },
+        {
+          "date": "2026-03-20",
+          "vol": 35.25,
+          "asset": 4574.9,
+          "tags": [
+            "ASSET_5D_MOVE_8PCT"
+          ]
+        },
+        {
+          "date": "2026-03-23",
+          "vol": 43.36,
+          "asset": 4407.3,
+          "tags": [
+            "VOL_TOP_5PCT",
+            "ASSET_5D_MOVE_8PCT",
+            "ASSET_20D_MOVE_15PCT"
+          ]
+        },
+        {
+          "date": "2026-03-24",
+          "vol": 41.9,
+          "asset": 4402.0,
+          "tags": [
+            "VOL_TOP_5PCT",
+            "ASSET_5D_MOVE_8PCT"
+          ]
+        },
+        {
+          "date": "2026-03-25",
+          "vol": 38.65,
+          "asset": 4552.3,
+          "tags": [
+            "VOL_TOP_5PCT"
+          ]
+        },
+        {
+          "date": "2026-03-26",
+          "vol": 45.07,
+          "asset": 4376.3,
+          "tags": [
+            "VOL_TOP_5PCT",
+            "ASSET_20D_MOVE_15PCT"
+          ]
+        },
+        {
+          "date": "2026-03-27",
+          "vol": 45.51,
+          "asset": 4492.5,
+          "tags": [
+            "VOL_TOP_5PCT"
+          ]
+        },
+        {
+          "date": "2026-03-30",
+          "vol": 42.71,
+          "asset": 4526.0,
+          "tags": [
+            "VOL_TOP_5PCT"
+          ]
+        },
+        {
+          "date": "2026-03-31",
+          "vol": 38.89,
+          "asset": 4647.6,
+          "tags": [
+            "VOL_TOP_5PCT"
+          ]
+        },
+        {
+          "date": "2026-06-11",
+          "vol": 28.33,
+          "asset": 4114.0,
+          "tags": [
+            "ASSET_5D_MOVE_8PCT"
+          ]
+        },
+        {
+          "date": "2026-08-10",
+          "vol": 27.9,
+          "asset": 4419.7,
+          "tags": [
+            "ASSET_5D_MOVE_8PCT"
+          ]
+        },
+        {
+          "date": "2026-08-24",
+          "vol": 28.28,
+          "asset": 4697.8,
+          "tags": [
+            "ASSET_20D_MOVE_15PCT"
+          ]
+        },
+        {
+          "date": "2026-08-25",
+          "vol": 27.69,
+          "asset": 4694.5,
+          "tags": [
+            "ASSET_20D_MOVE_15PCT"
+          ]
+        },
+        {
+          "date": "2026-08-26",
+          "vol": 26.96,
+          "asset": 4653.3,
+          "tags": [
+            "ASSET_20D_MOVE_15PCT"
+          ]
+        }
+      ]
+    }
+  },
+  "note": "Implied-volatility indices are regime sensors, not directional signals. Separate out-of-sample 10R outcome qualification required."
+}
