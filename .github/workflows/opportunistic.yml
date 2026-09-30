@@ -78,7 +78,10 @@ jobs:
       - name: Interpretable pattern tail ranker
         if: github.event_name == 'workflow_dispatch' || github.event_name == 'push' || github.event.schedule == '37 0 * * 2-6'
         run: python pattern_ranker.py --input signals/pattern_geometry_study.json --folder output --result signals/pattern_ranker.json
-      - name: Random-entry exit-engine control\n        if: github.event_name == 'workflow_dispatch' || github.event_name == 'push' || github.event.schedule == '37 0 * * 2-6'\n        run: python random_entry_exit_lab.py --folder output --result signals/random_entry_exit_lab.json\n      - name: Pooled OOS tradeable strategy validation
+      - name: Random-entry exit-engine control
+        if: github.event_name == 'workflow_dispatch' || github.event_name == 'push' || github.event.schedule == '37 0 * * 2-6'
+        run: python random_entry_exit_lab.py --folder output --result signals/random_entry_exit_lab.json
+      - name: Pooled OOS tradeable strategy validation
         if: github.event_name == 'workflow_dispatch' || github.event_name == 'push' || github.event.schedule == '37 0 * * 2-6'
         run: python tradeable_strategy_lab.py --folder output --result signals/tradeable_strategy_lab.json
       - name: Preserve previous proposal snapshot
@@ -104,7 +107,8 @@ jobs:
         with:
           name: opportunistic-scan
           path: |
-            signals/random_entry_exit_lab.json\n            signals/weekly_pattern_study.json
+            signals/random_entry_exit_lab.json
+            signals/weekly_pattern_study.json
             signals/pattern_ranker.json
             signals/asymmetric_strategy_study.json
             signals/cross_asset_vol.json
