@@ -30,3 +30,22 @@ def events(df,cond,sidefn,gap=60):
             if r:out.append(r);i+=gap;continue
         i+=1
     return stats(out)
+
+def study(folder):
+    folder=Path(folder);m=json.loads((folder/"manifest.json").read_text());results={}
+    universe=("SP500","GOLD_FUT","SILVER_FUT","WTI_FUT","BRENT_FUT")
+    for s in [x for x in universe if x in m["symbols"] and promotion_gate(x)["eligible"]]:
+        d=load(folder,m,s);cl=d.Close.astype(float);hi=d.High.astype(float);lo=d.Low.astype(float)
+        tr=pd.concat([hi-lo,(hi-cl.shift()).abs(),(lo-cl.shift()).abs()],axis=1).max(axis=1);atr=tr.rolling(20).mean()
+        r20=cl.pct_change(20);r60=cl.pct_change(60)
+        shock=(cl-cl.shift(5)).abs()>=3*atr
+        trend=((r60>0)&(r20>0))|((r60<0)&(r20<0))
+        trend_side=lambda i:"LONG" if r60.iloc[i]>0 else "SHORT"
+        ph=hi.shift(1).rolling(20).max();pl=lo.shift(1).rolling(20).min()
+        fail_hi=(hi>ph)&(cl<ph);fail_lo=(lo<pl)&(cl>pl)
+        fail_side=lambda i:"SHORT" if fail_hi.iloc[i] else "LONG"
+        results[s]={"SHOCK_TREND_CONTINUATION":events(d,shock&trend,trend_side),
+                    "FAILED_20D_EXTREME":events(d,fail_hi|fail_lo,fail_side)}
+    return {"status":"RESEARCH_ONLY","families":results,"minimum_r":10,
+      "design":"Fixed hypotheses; no grid search. 60-session non-overlap, next-session open, 2ATR stop, 20bps friction, 10R target, chronological 60/40 split.",
+      "promotion_rule":"Require >=30 non-overlapping events, >=10 OOS events, positive OOS mean and non-negative OOS median, then Nordnet-KF product/quote verification and recomputed net R >=10."}
