@@ -1,17 +1,17 @@
 {
   "schema_version": 1,
   "status": "NO_10R_PROPOSALS",
-  "generated_at_utc": "2026-09-30T08:24:42.315565+00:00",
+  "generated_at_utc": "2026-09-30T08:43:01.645618+00:00",
   "minimum_net_r": 10,
   "proposals": [],
   "raw_signal_counts": {
-    "turtle_55": 2,
+    "turtle_55": 1,
     "volatility_contraction": 0,
-    "failed_breakout": 4,
+    "failed_breakout": 0,
     "momentum_ignition": 0,
-    "time_series_momentum": 20,
-    "rsi2_reversal": 6
+    "time_series_momentum": 11,
+    "rsi2_reversal": 5
   },
   "excluded": {},
-  "note": "Completed daily bars only. 20bps underlying friction proxy; NOT verified mini-future costs. Historical reference level is not a price forecast. Indicative R MUST be recomputed from executable quote before any paper order. No broker orders."
+  "note": "Completed daily bars only. Research sensors and unmapped underlyings cannot become proposals. A proposal remains blocked until a specific Nordnet-KF instrument, executable quote and product economics are verified and net R is recomputed >=10. No broker orders."
 }

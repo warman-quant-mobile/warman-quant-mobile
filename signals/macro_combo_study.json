@@ -7,6 +7,21 @@
         "events": 5,
         "sample_qualified": false,
         "strong_sample": false,
+        "chronological_split_60_40": {
+          "train": {
+            "events": 3,
+            "mean_realized_r": 1.095,
+            "median_realized_r": 0.768,
+            "reached_10r_mfe": 0
+          },
+          "oos": {
+            "events": 2,
+            "mean_realized_r": 4.209,
+            "median_realized_r": 4.209,
+            "reached_10r_mfe": 0
+          }
+        },
+        "oos_positive": true,
         "targets_10r": 0,
         "reached_5r_mfe": 1,
         "reached_10r_mfe": 0,
@@ -22,6 +37,21 @@
         "events": 5,
         "sample_qualified": false,
         "strong_sample": false,
+        "chronological_split_60_40": {
+          "train": {
+            "events": 3,
+            "mean_realized_r": -1.0,
+            "median_realized_r": -1.0,
+            "reached_10r_mfe": 0
+          },
+          "oos": {
+            "events": 2,
+            "mean_realized_r": -1.0,
+            "median_realized_r": -1.0,
+            "reached_10r_mfe": 0
+          }
+        },
+        "oos_positive": false,
         "targets_10r": 0,
         "reached_5r_mfe": 0,
         "reached_10r_mfe": 0,
@@ -39,6 +69,21 @@
         "events": 5,
         "sample_qualified": false,
         "strong_sample": false,
+        "chronological_split_60_40": {
+          "train": {
+            "events": 3,
+            "mean_realized_r": -0.509,
+            "median_realized_r": -1.0,
+            "reached_10r_mfe": 0
+          },
+          "oos": {
+            "events": 2,
+            "mean_realized_r": -1.0,
+            "median_realized_r": -1.0,
+            "reached_10r_mfe": 0
+          }
+        },
+        "oos_positive": false,
         "targets_10r": 0,
         "reached_5r_mfe": 0,
         "reached_10r_mfe": 0,
@@ -54,6 +99,21 @@
         "events": 6,
         "sample_qualified": false,
         "strong_sample": false,
+        "chronological_split_60_40": {
+          "train": {
+            "events": 3,
+            "mean_realized_r": -1.0,
+            "median_realized_r": -1.0,
+            "reached_10r_mfe": 0
+          },
+          "oos": {
+            "events": 3,
+            "mean_realized_r": -0.475,
+            "median_realized_r": -1.0,
+            "reached_10r_mfe": 0
+          }
+        },
+        "oos_positive": false,
         "targets_10r": 0,
         "reached_5r_mfe": 0,
         "reached_10r_mfe": 0,
@@ -68,34 +128,64 @@
     },
     "US30Y_YIELD_EXTREME": {
       "CONTINUATION": {
-        "events": 15,
+        "events": 13,
         "sample_qualified": false,
         "strong_sample": false,
+        "chronological_split_60_40": {
+          "train": {
+            "events": 7,
+            "mean_realized_r": 1.019,
+            "median_realized_r": -1.0,
+            "reached_10r_mfe": 1
+          },
+          "oos": {
+            "events": 6,
+            "mean_realized_r": -0.511,
+            "median_realized_r": -1.0,
+            "reached_10r_mfe": 0
+          }
+        },
+        "oos_positive": false,
         "targets_10r": 1,
         "reached_5r_mfe": 1,
         "reached_10r_mfe": 1,
-        "mean_realized_r": 0.298,
+        "mean_realized_r": 0.312,
         "median_realized_r": -1.0,
-        "p75_mfe_r": 2.864,
-        "p90_mfe_r": 3.68,
-        "max_mfe_r": 12.211,
-        "first_event": "2019-10-02",
-        "last_event": "2026-03-27"
+        "p75_mfe_r": 2.824,
+        "p90_mfe_r": 3.856,
+        "max_mfe_r": 11.117,
+        "first_event": "2020-01-24",
+        "last_event": "2026-03-20"
       },
       "FADE": {
-        "events": 15,
+        "events": 14,
         "sample_qualified": false,
         "strong_sample": false,
+        "chronological_split_60_40": {
+          "train": {
+            "events": 8,
+            "mean_realized_r": -0.09,
+            "median_realized_r": -1.0,
+            "reached_10r_mfe": 0
+          },
+          "oos": {
+            "events": 6,
+            "mean_realized_r": -1.002,
+            "median_realized_r": -1.0,
+            "reached_10r_mfe": 0
+          }
+        },
+        "oos_positive": false,
         "targets_10r": 0,
-        "reached_5r_mfe": 0,
+        "reached_5r_mfe": 1,
         "reached_10r_mfe": 0,
-        "mean_realized_r": -0.876,
+        "mean_realized_r": -0.481,
         "median_realized_r": -1.0,
-        "p75_mfe_r": 1.232,
-        "p90_mfe_r": 1.405,
-        "max_mfe_r": 3.199,
-        "first_event": "2019-10-02",
-        "last_event": "2026-03-27"
+        "p75_mfe_r": 1.382,
+        "p90_mfe_r": 2.782,
+        "max_mfe_r": 5.067,
+        "first_event": "2020-01-24",
+        "last_event": "2026-03-20"
       }
     },
     "30Y10Y_CURVE_EXTREME": {
@@ -103,6 +193,21 @@
         "events": 15,
         "sample_qualified": false,
         "strong_sample": false,
+        "chronological_split_60_40": {
+          "train": {
+            "events": 9,
+            "mean_realized_r": -1.019,
+            "median_realized_r": -1.0,
+            "reached_10r_mfe": 0
+          },
+          "oos": {
+            "events": 6,
+            "mean_realized_r": -0.586,
+            "median_realized_r": -1.0,
+            "reached_10r_mfe": 0
+          }
+        },
+        "oos_positive": false,
         "targets_10r": 0,
         "reached_5r_mfe": 0,
         "reached_10r_mfe": 0,
@@ -118,6 +223,21 @@
         "events": 15,
         "sample_qualified": false,
         "strong_sample": false,
+        "chronological_split_60_40": {
+          "train": {
+            "events": 9,
+            "mean_realized_r": 0.013,
+            "median_realized_r": -1.0,
+            "reached_10r_mfe": 0
+          },
+          "oos": {
+            "events": 6,
+            "mean_realized_r": -0.381,
+            "median_realized_r": -1.0,
+            "reached_10r_mfe": 0
+          }
+        },
+        "oos_positive": false,
         "targets_10r": 0,
         "reached_5r_mfe": 0,
         "reached_10r_mfe": 0,
@@ -131,6 +251,6 @@
       }
     }
   },
-  "methodology": "Completed daily signal; next-session open; ATR20 x2 stop; 20bps friction; 10R target; 60-session horizon; non-overlapping 60-session events; stop first on same-bar ambiguity.",
-  "promotion_rule": "No setup is eligible for promotion from this study unless sample_qualified=true and separate chronological out-of-sample validation confirms the edge. A 10R hit alone is insufficient."
+  "methodology": "Completed daily signal; next-session open; ATR20 x2 stop; 20bps friction; 10R target; 60-session horizon; non-overlapping 60-session events; stop first on same-bar ambiguity. Each setup also reports a chronological 60/40 train/OOS split. Rate displacement uses basis points, not relative yield returns.",
+  "promotion_rule": "No setup is eligible for promotion unless sample_qualified=true, OOS is positive, and the trade maps to a Nordnet-KF-verifiable instrument. Yield/VIX/OVX/GVZ series are sensors only. A 10R hit alone is insufficient."
 }
