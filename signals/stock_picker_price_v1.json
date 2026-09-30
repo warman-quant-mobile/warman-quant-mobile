@@ -1607,8 +1607,8 @@
     "schema_version": 1,
     "engine": "stock_picker_price_v1",
     "dataset": {
-      "manifest_sha256": "b7fd9f2f35969ee1df0381d3e8ac56c4848220a53397830e1973d1048430c595",
-      "manifest_bytes": 27554
+      "manifest_sha256": "790f36f228161accede20fb942d8bc1b06ea00a8bd783824e62902463ef3cb43",
+      "manifest_bytes": 27556
     },
     "model_version": "stock-picker-price-v1-frozen-2026-09-30",
     "reproducibility": {
