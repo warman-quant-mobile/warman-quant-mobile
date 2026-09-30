@@ -6,6 +6,7 @@ on:
     paths:
       - '.stock-picker-trigger'
       - 'stock_picker_price_v1.py'
+      - 'sec_fundamentals_collector.py'
       - 'research_safety.py'
       - '.github/workflows/stock-picker.yml'
 permissions:
@@ -24,16 +25,20 @@ jobs:
         run: python collector.py
       - name: Validate data fail closed
         run: python validate.py output
+      - name: Fetch point-in-time SEC fundamentals
+        run: python sec_fundamentals_collector.py --ciks 320193,789019,1045810,1018724,1326801,1318605 --out output/sec_point_in_time.json
       - name: Frozen Stock Picker price baseline
         run: python stock_picker_price_v1.py --folder output --result signals/stock_picker_price_v1.json
       - name: Publish research output
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add signals/stock_picker_price_v1.json output/manifest.json output/*.csv || true
+          git add signals/stock_picker_price_v1.json output/manifest.json output/sec_point_in_time.json output/*.csv || true
           git diff --cached --quiet || git commit -m "Update Stock Picker research output"
           git push
       - uses: actions/upload-artifact@v4
         with:
           name: stock-picker-research
-          path: signals/stock_picker_price_v1.json
+          path: |
+            signals/stock_picker_price_v1.json
+            output/sec_point_in_time.json
