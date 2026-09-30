@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at_utc": "2026-09-29T19:36:03.818638+00:00",
+  "generated_at_utc": "2026-09-30T00:52:28.081452+00:00",
   "status": "RESEARCH_ONLY",
   "parameters": {
     "gap_abs_pct": 3,
@@ -8,15 +8,33 @@
     "daily_range_atr": 2.5
   },
   "observations": {
-    "SILVER_FUT": {
-      "session_date": "2026-09-28",
+    "WTI_FUT": {
+      "session_date": "2026-09-29",
       "events": [
         {
           "type": "GAP",
           "direction": "DOWN",
-          "magnitude_pct": -4.45,
+          "magnitude_pct": -3.89,
+          "subtype": "GAP_FADE_WATCH",
+          "note": "Requires independently verified catalyst and actual bid/ask; never infer earnings from price."
+        }
+      ]
+    },
+    "BRENT_FUT": {
+      "session_date": "2026-09-29",
+      "events": [
+        {
+          "type": "GAP",
+          "direction": "DOWN",
+          "magnitude_pct": -8.86,
           "subtype": "GAP_CONTINUATION_WATCH",
           "note": "Requires independently verified catalyst and actual bid/ask; never infer earnings from price."
+        },
+        {
+          "type": "EXTREME_DAILY_RETURN",
+          "direction": "DOWN",
+          "magnitude_pct": -8.89,
+          "note": "Magnitude alone is not an entry signal."
         }
       ]
     }

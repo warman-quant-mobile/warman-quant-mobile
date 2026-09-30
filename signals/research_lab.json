@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at_utc": "2026-09-29T19:35:35.440023+00:00",
+  "generated_at_utc": "2026-09-30T00:52:04.715402+00:00",
   "status": "RESEARCH_ONLY",
   "methodology": "251-session warmup; prior-close 20-day breakout plus MA50/MA200; next open; ATR20 x2; 10R gross-risk target; 20bps roundtrip friction; 60 sessions; stop first if same bar; worse gap fill; disjoint 60-session windows per side.",
   "results": {
@@ -406,11 +406,11 @@
     },
     "BITCOIN": {
       "LONG": {
-        "events": 23,
+        "events": 22,
         "targets": 4,
-        "stops": 16,
+        "stops": 15,
         "timeouts": 3,
-        "mean_realized_r": 1.515,
+        "mean_realized_r": 1.629,
         "maximum_favorable_excursion_r": 11.738,
         "note": "Exploratory overlapping-market selection bias; not independently validated."
       },

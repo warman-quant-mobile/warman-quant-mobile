@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "status": "NO_10R_PROPOSALS",
-  "generated_at_utc": "2026-09-29T19:42:53.776200+00:00",
+  "generated_at_utc": "2026-09-30T00:58:30.672128+00:00",
   "minimum_net_r": 10,
   "proposals": [],
   "raw_signal_counts": {
@@ -10,7 +10,7 @@
     "failed_breakout": 2,
     "momentum_ignition": 0,
     "time_series_momentum": 16,
-    "rsi2_reversal": 5
+    "rsi2_reversal": 7
   },
   "excluded": {},
   "note": "Completed daily bars only. 20bps underlying friction proxy; NOT verified mini-future costs. Historical reference level is not a price forecast. Indicative R MUST be recomputed from executable quote before any paper order. No broker orders."

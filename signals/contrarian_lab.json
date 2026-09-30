@@ -1,27 +1,37 @@
 {
   "schema_version": 1,
-  "generated_at_utc": "2026-09-29T19:36:03.275795+00:00",
+  "generated_at_utc": "2026-09-30T00:52:27.586493+00:00",
   "status": "RESEARCH_ONLY",
   "crash_threshold_pct": -20,
   "results": {
     "GOLD_FUT": {
       "stage": "CRASH_ONLY_NO_ENTRY",
-      "drawdown_pct": -21.62,
+      "drawdown_pct": -20.78,
       "reclaim": false,
-      "proxy_close": 4168.399902,
-      "invalidation_reference": 4090.382642,
+      "proxy_close": 4213.0,
+      "invalidation_reference": 4157.307727,
       "former_peak_reference": 5318.399902,
-      "recovery_reference_r_after_proxy_cost": 13.22,
+      "recovery_reference_r_after_proxy_cost": 17.11,
       "note": "Historical peak is NOT a forecast; require independent thesis, confirmation and actual product checks."
     },
     "SILVER_FUT": {
       "stage": "CRASH_ONLY_NO_ENTRY",
-      "drawdown_pct": -46.8,
+      "drawdown_pct": -46.33,
       "reclaim": false,
-      "proxy_close": 61.220001,
-      "invalidation_reference": 60.414351,
+      "proxy_close": 61.759998,
+      "invalidation_reference": 60.910476,
       "former_peak_reference": 115.080002,
-      "recovery_reference_r_after_proxy_cost": 57.9,
+      "recovery_reference_r_after_proxy_cost": 54.67,
+      "note": "Historical peak is NOT a forecast; require independent thesis, confirmation and actual product checks."
+    },
+    "WTI_FUT": {
+      "stage": "CRASH_ONLY_NO_ENTRY",
+      "drawdown_pct": -21.05,
+      "reclaim": false,
+      "proxy_close": 89.169998,
+      "invalidation_reference": 86.160502,
+      "former_peak_reference": 112.949997,
+      "recovery_reference_r_after_proxy_cost": 7.4,
       "note": "Historical peak is NOT a forecast; require independent thesis, confirmation and actual product checks."
     },
     "TESLA": {

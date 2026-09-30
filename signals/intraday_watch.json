@@ -1,25 +1,15 @@
 {
   "status": "RESEARCH_WATCH_ONLY",
-  "generated_at_utc": "2026-09-29T19:42:53.188112+00:00",
+  "generated_at_utc": "2026-09-30T00:58:30.166646+00:00",
   "observations": [
     {
       "symbol": "GOLD_FUT",
-      "bar_start_utc": "2026-09-29T18:00:00+00:00",
+      "bar_start_utc": "2026-09-29T23:00:00+00:00",
       "events": [
         "FAILED_HIGH_20H"
       ],
       "gap_pct": 0.0,
-      "hourly_move_pct": 0.65,
-      "status": "INTRADAY_WATCH_NOT_ORDER"
-    },
-    {
-      "symbol": "EURUSD",
-      "bar_start_utc": "2026-09-29T18:00:00+00:00",
-      "events": [
-        "HOURLY_SHOCK_2_5ATR"
-      ],
-      "gap_pct": 0.07,
-      "hourly_move_pct": 0.23,
+      "hourly_move_pct": 0.13,
       "status": "INTRADAY_WATCH_NOT_ORDER"
     }
   ],
