@@ -27,7 +27,7 @@ jobs:
       - name: Offline scanner tests
         run: python -m unittest discover -s tests -v
       - name: Syntax-check scanner modules
-        run: python -m py_compile collector.py opportunistic_scan.py opportunistic_research.py contrarian_research.py extreme_event_research.py extreme_event_study.py published_strategy_lab.py cross_asset_vol_research.py vix_extreme_research.py macro_combo_study.py intraday_10r_study.py intraday_watch.py live_10r_scan.py new_signal_alert.py
+        run: python -m py_compile collector.py opportunistic_scan.py opportunistic_research.py contrarian_research.py extreme_event_research.py extreme_event_study.py published_strategy_lab.py cross_asset_vol_research.py vix_extreme_research.py macro_combo_study.py nordnet_kf_gate.py intraday_10r_study.py intraday_watch.py live_10r_scan.py new_signal_alert.py
       - name: Fetch new public research data
         run: python collector.py
       - name: Validate data; fail closed
