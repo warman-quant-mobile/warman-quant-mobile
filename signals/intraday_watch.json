@@ -1,6 +1,6 @@
 {
   "status": "RESEARCH_WATCH_ONLY",
-  "generated_at_utc": "2026-09-30T09:18:07.245812+00:00",
+  "generated_at_utc": "2026-09-30T09:32:00.982689+00:00",
   "observations": [
     {
       "symbol": "GOLD_FUT",
@@ -9,7 +9,7 @@
         "FAILED_HIGH_20H"
       ],
       "gap_pct": 0.0,
-      "hourly_move_pct": -0.02,
+      "hourly_move_pct": -0.05,
       "status": "INTRADAY_WATCH_NOT_ORDER"
     }
   ],
