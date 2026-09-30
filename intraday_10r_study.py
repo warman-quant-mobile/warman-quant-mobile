@@ -2,7 +2,8 @@
 """Research summary for hourly watch events; never an order."""
 import argparse,json
 from pathlib import Path
-import pandas as pd\nimport math
+import pandas as pd
+import math
 
 def evaluate(df,i,side,atr,horizon=48):
     if i+1>=len(df): return None
@@ -52,10 +53,12 @@ def study(folder):
                 "max_mfe_r":max((x["mfe_r"] for x in xs),default=None)}
         results[symbol]={"hourly_bars":len(df),"sample_gate_passed":len(df)>=1000,"setups":summaries}
     return {"status":"RESEARCH_ONLY","results":results,
-            "promotion_rule":"No hourly setup can be promoted unless sample_gate_passed is true; study metrics remain research-only.",\n            "methodology":"Signal on completed hour; hypothetical next-hour open; 2ATR stop; 10R target; 20bps friction; 48-bar horizon; stop wins same-bar ambiguity.",
+            "promotion_rule":"No hourly setup can be promoted unless sample_gate_passed is true; study metrics remain research-only.",
+            "methodology":"Signal on completed hour; hypothetical next-hour open; 2ATR stop; 10R target; 20bps friction; 48-bar horizon; stop wins same-bar ambiguity.",
             "warning":"Short hourly history is observation-only, not evidence of a 10R edge."}
 
 if __name__=="__main__":
     p=argparse.ArgumentParser();p.add_argument("--folder",default="output");p.add_argument("--result",default="signals/intraday_10r_study.json")
     a=p.parse_args();r=study(a.folder);out=Path(a.result);out.parent.mkdir(parents=True,exist_ok=True)
-    out.write_text(json.dumps(r,indent=2)+"\n");print("INTRADAY_SAMPLE_GATE",sum(x["sample_gate_passed"] for x in r["results"].values()))
+    out.write_text(json.dumps(r,indent=2)+"
+");print("INTRADAY_SAMPLE_GATE",sum(x["sample_gate_passed"] for x in r["results"].values()))
