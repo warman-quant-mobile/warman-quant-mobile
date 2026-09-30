@@ -1,0 +1,209 @@
+{
+  "status": "RESEARCH_ONLY",
+  "hypothesis_version": "entry-ablation-v1-frozen-2026-09-30",
+  "final_test_start": "2024-07-29",
+  "preregistered": {
+    "modes": [
+      "random_side",
+      "long_only",
+      "trend200"
+    ],
+    "seeds": [
+      101,
+      307,
+      911,
+      1729,
+      4099,
+      7919,
+      12011,
+      18013,
+      25013,
+      32003
+    ],
+    "bps": [
+      20,
+      50
+    ],
+    "exit": "20-session trailing",
+    "stop_atr": 1.5,
+    "horizon": 120,
+    "spacing": 20
+  },
+  "results": {
+    "20": {
+      "random_side": {
+        "n": 3202,
+        "pooled_mean_r": 0.168,
+        "seed_means": [
+          0.103,
+          0.157,
+          0.156,
+          0.335,
+          0.138,
+          0.015,
+          0.198,
+          0.072,
+          0.145,
+          0.37
+        ],
+        "positive_seeds": 10
+      },
+      "long_only": {
+        "n": 3202,
+        "pooled_mean_r": 0.78,
+        "seed_means": [
+          0.463,
+          0.732,
+          0.79,
+          0.905,
+          0.717,
+          0.567,
+          0.854,
+          0.783,
+          1.034,
+          0.963
+        ],
+        "positive_seeds": 10
+      },
+      "trend200": {
+        "n": 3202,
+        "pooled_mean_r": 0.44,
+        "seed_means": [
+          0.182,
+          0.446,
+          0.537,
+          0.511,
+          0.369,
+          0.3,
+          0.342,
+          0.516,
+          0.633,
+          0.564
+        ],
+        "positive_seeds": 10
+      }
+    },
+    "50": {
+      "random_side": {
+        "n": 3202,
+        "pooled_mean_r": 0.075,
+        "seed_means": [
+          0.016,
+          0.066,
+          0.057,
+          0.219,
+          0.049,
+          -0.064,
+          0.106,
+          -0.01,
+          0.051,
+          0.259
+        ],
+        "positive_seeds": 8
+      },
+      "long_only": {
+        "n": 3202,
+        "pooled_mean_r": 0.63,
+        "seed_means": [
+          0.341,
+          0.584,
+          0.64,
+          0.737,
+          0.573,
+          0.438,
+          0.703,
+          0.634,
+          0.856,
+          0.802
+        ],
+        "positive_seeds": 10
+      },
+      "trend200": {
+        "n": 3202,
+        "pooled_mean_r": 0.309,
+        "seed_means": [
+          0.076,
+          0.316,
+          0.4,
+          0.367,
+          0.246,
+          0.186,
+          0.219,
+          0.378,
+          0.481,
+          0.424
+        ],
+        "positive_seeds": 10
+      }
+    }
+  },
+  "symbol_attribution_20bps": {
+    "random_side": {
+      "SP500": 0.029,
+      "GOLD_FUT": 0.953,
+      "SILVER_FUT": 2.478,
+      "WTI_FUT": 0.038,
+      "BRENT_FUT": 0.197,
+      "INVESTOR_B": -0.404,
+      "VOLVO_B": 0.087,
+      "ATLAS_A": -0.388,
+      "ABB": -0.146,
+      "NVIDIA": -0.222,
+      "MICROSOFT": 0.0,
+      "APPLE": -0.302,
+      "TESLA": 0.535,
+      "AMAZON": 0.097,
+      "META": -0.435
+    },
+    "long_only": {
+      "SP500": 0.507,
+      "GOLD_FUT": 3.027,
+      "SILVER_FUT": 5.855,
+      "WTI_FUT": 0.564,
+      "BRENT_FUT": 0.59,
+      "INVESTOR_B": -0.0,
+      "VOLVO_B": 0.501,
+      "ATLAS_A": -0.416,
+      "ABB": 0.392,
+      "NVIDIA": 0.209,
+      "MICROSOFT": -0.305,
+      "APPLE": -0.076,
+      "TESLA": 0.605,
+      "AMAZON": 0.324,
+      "META": -0.087
+    },
+    "trend200": {
+      "SP500": 0.233,
+      "GOLD_FUT": 3.027,
+      "SILVER_FUT": 5.697,
+      "WTI_FUT": -0.256,
+      "BRENT_FUT": -0.031,
+      "INVESTOR_B": -0.139,
+      "VOLVO_B": -0.151,
+      "ATLAS_A": -0.553,
+      "ABB": 0.081,
+      "NVIDIA": -0.189,
+      "MICROSOFT": -0.327,
+      "APPLE": -0.177,
+      "TESLA": -0.171,
+      "AMAZON": -0.186,
+      "META": -0.282
+    }
+  },
+  "note": "Entry-information ablation. Same convex exit for all modes. Frozen before results; no execution.",
+  "research_contract": {
+    "schema_version": 1,
+    "engine": "entry_ablation_lab",
+    "dataset": {
+      "manifest_sha256": "0e612b5639859a65305614cb8841852f84f940ec4771f20d9b7694d6b26ffb14",
+      "manifest_bytes": 27568
+    },
+    "model_version": "entry-ablation-v1-frozen-2026-09-30",
+    "reproducibility": {
+      "pythonhashseed": "0",
+      "random_seed": 1729
+    },
+    "execution": "BLOCKED_RESEARCH_ONLY",
+    "human_approval_required": true
+  }
+}

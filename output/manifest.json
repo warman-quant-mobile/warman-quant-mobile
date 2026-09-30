@@ -1,0 +1,758 @@
+{
+  "generated_at_utc": "2026-09-30T15:06:47.174593+00:00",
+  "source": "Yahoo Finance via yfinance (unofficial)",
+  "warning": "Research-only data. Verify licensing, market hours, timestamps and executable quotes before trading.",
+  "symbols": {
+    "OMXS30": {
+      "ticker": "^OMX",
+      "1h": {
+        "file": "OMXS30_1h.csv",
+        "rows": 540,
+        "last_bar_timestamp_utc": "2026-09-30T15:00:00+00:00",
+        "age_hours_at_export": 0.11,
+        "volume_nonzero_rows": 0,
+        "timestamp_semantics": "bar_start_utc",
+        "last_bar_provisional": true,
+        "rejected_rows_file": null,
+        "note": "Index volume may be zero/unavailable; never infer exchange traded volume."
+      },
+      "1d": {
+        "file": "OMXS30_1d.csv",
+        "rows": 2509,
+        "last_bar_timestamp_utc": "2026-09-30T00:00:00+00:00",
+        "age_hours_at_export": 15.11,
+        "volume_nonzero_rows": 790,
+        "timestamp_semantics": "session_date",
+        "last_bar_provisional": true,
+        "rejected_rows_file": null,
+        "note": "Index volume may be zero/unavailable; never infer exchange traded volume."
+      }
+    },
+    "DAX": {
+      "ticker": "^GDAXI",
+      "1h": {
+        "file": "DAX_1h.csv",
+        "rows": 539,
+        "last_bar_timestamp_utc": "2026-09-30T14:00:00+00:00",
+        "age_hours_at_export": 1.11,
+        "volume_nonzero_rows": 0,
+        "timestamp_semantics": "bar_start_utc",
+        "last_bar_provisional": false,
+        "rejected_rows_file": null,
+        "note": "Index volume may be zero/unavailable; never infer exchange traded volume."
+      },
+      "1d": {
+        "file": "DAX_1d.csv",
+        "rows": 2537,
+        "last_bar_timestamp_utc": "2026-09-30T00:00:00+00:00",
+        "age_hours_at_export": 15.11,
+        "volume_nonzero_rows": 2523,
+        "timestamp_semantics": "session_date",
+        "last_bar_provisional": true,
+        "rejected_rows_file": null,
+        "note": "Index volume may be zero/unavailable; never infer exchange traded volume."
+      }
+    },
+    "SP500": {
+      "ticker": "^GSPC",
+      "1h": {
+        "file": "SP500_1h.csv",
+        "rows": 415,
+        "last_bar_timestamp_utc": "2026-09-30T14:30:00+00:00",
+        "age_hours_at_export": 0.61,
+        "volume_nonzero_rows": 360,
+        "timestamp_semantics": "bar_start_utc",
+        "last_bar_provisional": false,
+        "rejected_rows_file": null,
+        "note": "Index volume may be zero/unavailable; never infer exchange traded volume."
+      },
+      "1d": {
+        "file": "SP500_1d.csv",
+        "rows": 2513,
+        "last_bar_timestamp_utc": "2026-09-30T00:00:00+00:00",
+        "age_hours_at_export": 15.11,
+        "volume_nonzero_rows": 2512,
+        "timestamp_semantics": "session_date",
+        "last_bar_provisional": true,
+        "rejected_rows_file": null,
+        "note": "Index volume may be zero/unavailable; never infer exchange traded volume."
+      }
+    },
+    "NASDAQ100": {
+      "ticker": "^NDX",
+      "1h": {
+        "file": "NASDAQ100_1h.csv",
+        "rows": 415,
+        "last_bar_timestamp_utc": "2026-09-30T14:30:00+00:00",
+        "age_hours_at_export": 0.61,
+        "volume_nonzero_rows": 358,
+        "timestamp_semantics": "bar_start_utc",
+        "last_bar_provisional": false,
+        "rejected_rows_file": null,
+        "note": "Index volume may be zero/unavailable; never infer exchange traded volume."
+      },
+      "1d": {
+        "file": "NASDAQ100_1d.csv",
+        "rows": 2513,
+        "last_bar_timestamp_utc": "2026-09-30T00:00:00+00:00",
+        "age_hours_at_export": 15.11,
+        "volume_nonzero_rows": 2513,
+        "timestamp_semantics": "session_date",
+        "last_bar_provisional": true,
+        "rejected_rows_file": null,
+        "note": "Index volume may be zero/unavailable; never infer exchange traded volume."
+      }
+    },
+    "GOLD_FUT": {
+      "ticker": "GC=F",
+      "1h": {
+        "file": "GOLD_FUT_1h.csv",
+        "rows": 1135,
+        "last_bar_timestamp_utc": "2026-09-30T14:00:00+00:00",
+        "age_hours_at_export": 1.11,
+        "volume_nonzero_rows": 1095,
+        "timestamp_semantics": "bar_start_utc",
+        "last_bar_provisional": false,
+        "rejected_rows_file": null,
+        "note": "Index volume may be zero/unavailable; never infer exchange traded volume."
+      },
+      "1d": {
+        "file": "GOLD_FUT_1d.csv",
+        "rows": 2513,
+        "last_bar_timestamp_utc": "2026-09-30T00:00:00+00:00",
+        "age_hours_at_export": 15.11,
+        "volume_nonzero_rows": 2477,
+        "timestamp_semantics": "session_date",
+        "last_bar_provisional": true,
+        "rejected_rows_file": null,
+        "note": "Index volume may be zero/unavailable; never infer exchange traded volume."
+      }
+    },
+    "SILVER_FUT": {
+      "ticker": "SI=F",
+      "1h": {
+        "file": "SILVER_FUT_1h.csv",
+        "rows": 1137,
+        "last_bar_timestamp_utc": "2026-09-30T14:00:00+00:00",
+        "age_hours_at_export": 1.11,
+        "volume_nonzero_rows": 1097,
+        "timestamp_semantics": "bar_start_utc",
+        "last_bar_provisional": false,
+        "rejected_rows_file": null,
+        "note": "Index volume may be zero/unavailable; never infer exchange traded volume."
+      },
+      "1d": {
+        "file": "SILVER_FUT_1d.csv",
+        "rows": 2512,
+        "last_bar_timestamp_utc": "2026-09-30T00:00:00+00:00",
+        "age_hours_at_export": 15.11,
+        "volume_nonzero_rows": 2366,
+        "timestamp_semantics": "session_date",
+        "last_bar_provisional": true,
+        "rejected_rows_file": null,
+        "note": "Index volume may be zero/unavailable; never infer exchange traded volume."
+      }
+    },
+    "WTI_FUT": {
+      "ticker": "CL=F",
+      "1h": {
+        "file": "WTI_FUT_1h.csv",
+        "rows": 1133,
+        "last_bar_timestamp_utc": "2026-09-30T14:00:00+00:00",
+        "age_hours_at_export": 1.11,
+        "volume_nonzero_rows": 1093,
+        "timestamp_semantics": "bar_start_utc",
+        "last_bar_provisional": false,
+        "rejected_rows_file": null,
+        "note": "Index volume may be zero/unavailable; never infer exchange traded volume."
+      },
+      "1d": {
+        "file": "WTI_FUT_1d.csv",
+        "rows": 2511,
+        "last_bar_timestamp_utc": "2026-09-30T00:00:00+00:00",
+        "age_hours_at_export": 15.11,
+        "volume_nonzero_rows": 2504,
+        "timestamp_semantics": "session_date",
+        "last_bar_provisional": true,
+        "rejected_rows_file": "WTI_FUT_1d_rejected.csv",
+        "note": "Index volume may be zero/unavailable; never infer exchange traded volume."
+      }
+    },
+    "BRENT_FUT": {
+      "ticker": "BZ=F",
+      "1h": {
+        "file": "BRENT_FUT_1h.csv",
+        "rows": 1102,
+        "last_bar_timestamp_utc": "2026-09-30T14:00:00+00:00",
+        "age_hours_at_export": 1.11,
+        "volume_nonzero_rows": 1061,
+        "timestamp_semantics": "bar_start_utc",
+        "last_bar_provisional": false,
+        "rejected_rows_file": null,
+        "note": "Index volume may be zero/unavailable; never infer exchange traded volume."
+      },
+      "1d": {
+        "file": "BRENT_FUT_1d.csv",
+        "rows": 2514,
+        "last_bar_timestamp_utc": "2026-09-30T00:00:00+00:00",
+        "age_hours_at_export": 15.11,
+        "volume_nonzero_rows": 2506,
+        "timestamp_semantics": "session_date",
+        "last_bar_provisional": true,
+        "rejected_rows_file": null,
+        "note": "Index volume may be zero/unavailable; never infer exchange traded volume."
+      }
+    },
+    "US30Y_BOND_FUT": {
+      "ticker": "ZB=F",
+      "1h": {
+        "file": "US30Y_BOND_FUT_1h.csv",
+        "rows": 1138,
+        "last_bar_timestamp_utc": "2026-09-30T14:00:00+00:00",
+        "age_hours_at_export": 1.11,
+        "volume_nonzero_rows": 1098,
+        "timestamp_semantics": "bar_start_utc",
+        "last_bar_provisional": false,
+        "rejected_rows_file": null,
+        "note": "Index volume may be zero/unavailable; never infer exchange traded volume."
+      },
+      "1d": {
+        "file": "US30Y_BOND_FUT_1d.csv",
+        "rows": 2512,
+        "last_bar_timestamp_utc": "2026-09-30T00:00:00+00:00",
+        "age_hours_at_export": 15.11,
+        "volume_nonzero_rows": 2503,
+        "timestamp_semantics": "session_date",
+        "last_bar_provisional": true,
+        "rejected_rows_file": "US30Y_BOND_FUT_1d_rejected.csv",
+        "note": "Index volume may be zero/unavailable; never infer exchange traded volume."
+      }
+    },
+    "US10Y_NOTE_FUT": {
+      "ticker": "ZN=F",
+      "1h": {
+        "file": "US10Y_NOTE_FUT_1h.csv",
+        "rows": 1134,
+        "last_bar_timestamp_utc": "2026-09-30T14:00:00+00:00",
+        "age_hours_at_export": 1.11,
+        "volume_nonzero_rows": 1093,
+        "timestamp_semantics": "bar_start_utc",
+        "last_bar_provisional": false,
+        "rejected_rows_file": null,
+        "note": "Index volume may be zero/unavailable; never infer exchange traded volume."
+      },
+      "1d": {
+        "file": "US10Y_NOTE_FUT_1d.csv",
+        "rows": 2510,
+        "last_bar_timestamp_utc": "2026-09-30T00:00:00+00:00",
+        "age_hours_at_export": 15.11,
+        "volume_nonzero_rows": 2502,
+        "timestamp_semantics": "session_date",
+        "last_bar_provisional": true,
+        "rejected_rows_file": "US10Y_NOTE_FUT_1d_rejected.csv",
+        "note": "Index volume may be zero/unavailable; never infer exchange traded volume."
+      }
+    },
+    "US30Y_YIELD": {
+      "ticker": "^TYX",
+      "1h": {
+        "file": "US30Y_YIELD_1h.csv",
+        "rows": 416,
+        "last_bar_timestamp_utc": "2026-09-30T14:20:00+00:00",
+        "age_hours_at_export": 0.78,
+        "volume_nonzero_rows": 0,
+        "timestamp_semantics": "bar_start_utc",
+        "last_bar_provisional": false,
+        "rejected_rows_file": null,
+        "note": "Index volume may be zero/unavailable; never infer exchange traded volume."
+      },
+      "1d": {
+        "file": "US30Y_YIELD_1d.csv",
+        "rows": 2512,
+        "last_bar_timestamp_utc": "2026-09-30T00:00:00+00:00",
+        "age_hours_at_export": 15.11,
+        "volume_nonzero_rows": 0,
+        "timestamp_semantics": "session_date",
+        "last_bar_provisional": true,
+        "rejected_rows_file": null,
+        "note": "Index volume may be zero/unavailable; never infer exchange traded volume."
+      }
+    },
+    "US10Y_YIELD": {
+      "ticker": "^TNX",
+      "1h": {
+        "file": "US10Y_YIELD_1h.csv",
+        "rows": 416,
+        "last_bar_timestamp_utc": "2026-09-30T14:20:00+00:00",
+        "age_hours_at_export": 0.78,
+        "volume_nonzero_rows": 0,
+        "timestamp_semantics": "bar_start_utc",
+        "last_bar_provisional": false,
+        "rejected_rows_file": null,
+        "note": "Index volume may be zero/unavailable; never infer exchange traded volume."
+      },
+      "1d": {
+        "file": "US10Y_YIELD_1d.csv",
+        "rows": 2512,
+        "last_bar_timestamp_utc": "2026-09-30T00:00:00+00:00",
+        "age_hours_at_export": 15.11,
+        "volume_nonzero_rows": 0,
+        "timestamp_semantics": "session_date",
+        "last_bar_provisional": true,
+        "rejected_rows_file": null,
+        "note": "Index volume may be zero/unavailable; never infer exchange traded volume."
+      }
+    },
+    "VIX": {
+      "ticker": "^VIX",
+      "1h": {
+        "file": "VIX_1h.csv",
+        "rows": 829,
+        "last_bar_timestamp_utc": "2026-09-30T14:00:00+00:00",
+        "age_hours_at_export": 1.11,
+        "volume_nonzero_rows": 0,
+        "timestamp_semantics": "bar_start_utc",
+        "last_bar_provisional": false,
+        "rejected_rows_file": null,
+        "note": "Index volume may be zero/unavailable; never infer exchange traded volume."
+      },
+      "1d": {
+        "file": "VIX_1d.csv",
+        "rows": 2515,
+        "last_bar_timestamp_utc": "2026-09-30T00:00:00+00:00",
+        "age_hours_at_export": 15.11,
+        "volume_nonzero_rows": 0,
+        "timestamp_semantics": "session_date",
+        "last_bar_provisional": true,
+        "rejected_rows_file": null,
+        "note": "Index volume may be zero/unavailable; never infer exchange traded volume."
+      }
+    },
+    "OVX": {
+      "ticker": "^OVX",
+      "1h": {
+        "file": "OVX_1h.csv",
+        "rows": 415,
+        "last_bar_timestamp_utc": "2026-09-30T14:30:00+00:00",
+        "age_hours_at_export": 0.61,
+        "volume_nonzero_rows": 0,
+        "timestamp_semantics": "bar_start_utc",
+        "last_bar_provisional": false,
+        "rejected_rows_file": null,
+        "note": "Index volume may be zero/unavailable; never infer exchange traded volume."
+      },
+      "1d": {
+        "file": "OVX_1d.csv",
+        "rows": 2513,
+        "last_bar_timestamp_utc": "2026-09-30T00:00:00+00:00",
+        "age_hours_at_export": 15.11,
+        "volume_nonzero_rows": 0,
+        "timestamp_semantics": "session_date",
+        "last_bar_provisional": true,
+        "rejected_rows_file": null,
+        "note": "Index volume may be zero/unavailable; never infer exchange traded volume."
+      }
+    },
+    "GVZ": {
+      "ticker": "^GVZ",
+      "1h": {
+        "file": "GVZ_1h.csv",
+        "rows": 415,
+        "last_bar_timestamp_utc": "2026-09-30T14:30:00+00:00",
+        "age_hours_at_export": 0.61,
+        "volume_nonzero_rows": 0,
+        "timestamp_semantics": "bar_start_utc",
+        "last_bar_provisional": false,
+        "rejected_rows_file": null,
+        "note": "Index volume may be zero/unavailable; never infer exchange traded volume."
+      },
+      "1d": {
+        "file": "GVZ_1d.csv",
+        "rows": 2513,
+        "last_bar_timestamp_utc": "2026-09-30T00:00:00+00:00",
+        "age_hours_at_export": 15.11,
+        "volume_nonzero_rows": 0,
+        "timestamp_semantics": "session_date",
+        "last_bar_provisional": true,
+        "rejected_rows_file": null,
+        "note": "Index volume may be zero/unavailable; never infer exchange traded volume."
+      }
+    },
+    "EURUSD": {
+      "ticker": "EURUSD=X",
+      "1h": {
+        "file": "EURUSD_1h.csv",
+        "rows": 1421,
+        "last_bar_timestamp_utc": "2026-09-30T15:00:00+00:00",
+        "age_hours_at_export": 0.11,
+        "volume_nonzero_rows": 0,
+        "timestamp_semantics": "bar_start_utc",
+        "last_bar_provisional": true,
+        "rejected_rows_file": null,
+        "note": "Index volume may be zero/unavailable; never infer exchange traded volume."
+      },
+      "1d": {
+        "file": "EURUSD_1d.csv",
+        "rows": 2534,
+        "last_bar_timestamp_utc": "2026-09-30T00:00:00+00:00",
+        "age_hours_at_export": 15.11,
+        "volume_nonzero_rows": 0,
+        "timestamp_semantics": "session_date",
+        "last_bar_provisional": true,
+        "rejected_rows_file": "EURUSD_1d_rejected.csv",
+        "note": "Index volume may be zero/unavailable; never infer exchange traded volume."
+      }
+    },
+    "USDSEK": {
+      "ticker": "SEK=X",
+      "1h": {
+        "file": "USDSEK_1h.csv",
+        "rows": 1413,
+        "last_bar_timestamp_utc": "2026-09-30T15:00:00+00:00",
+        "age_hours_at_export": 0.11,
+        "volume_nonzero_rows": 0,
+        "timestamp_semantics": "bar_start_utc",
+        "last_bar_provisional": true,
+        "rejected_rows_file": null,
+        "note": "Index volume may be zero/unavailable; never infer exchange traded volume."
+      },
+      "1d": {
+        "file": "USDSEK_1d.csv",
+        "rows": 2545,
+        "last_bar_timestamp_utc": "2026-09-30T00:00:00+00:00",
+        "age_hours_at_export": 15.11,
+        "volume_nonzero_rows": 0,
+        "timestamp_semantics": "session_date",
+        "last_bar_provisional": true,
+        "rejected_rows_file": "USDSEK_1d_rejected.csv",
+        "note": "Index volume may be zero/unavailable; never infer exchange traded volume."
+      }
+    },
+    "INVESTOR_B": {
+      "ticker": "INVE-B.ST",
+      "1h": {
+        "file": "INVESTOR_B_1h.csv",
+        "rows": 540,
+        "last_bar_timestamp_utc": "2026-09-30T15:00:00+00:00",
+        "age_hours_at_export": 0.11,
+        "volume_nonzero_rows": 481,
+        "timestamp_semantics": "bar_start_utc",
+        "last_bar_provisional": true,
+        "rejected_rows_file": null,
+        "note": "Index volume may be zero/unavailable; never infer exchange traded volume."
+      },
+      "1d": {
+        "file": "INVESTOR_B_1d.csv",
+        "rows": 2514,
+        "last_bar_timestamp_utc": "2026-09-30T00:00:00+00:00",
+        "age_hours_at_export": 15.11,
+        "volume_nonzero_rows": 2510,
+        "timestamp_semantics": "session_date",
+        "last_bar_provisional": true,
+        "rejected_rows_file": null,
+        "note": "Index volume may be zero/unavailable; never infer exchange traded volume."
+      }
+    },
+    "VOLVO_B": {
+      "ticker": "VOLV-B.ST",
+      "1h": {
+        "file": "VOLVO_B_1h.csv",
+        "rows": 540,
+        "last_bar_timestamp_utc": "2026-09-30T15:00:00+00:00",
+        "age_hours_at_export": 0.11,
+        "volume_nonzero_rows": 481,
+        "timestamp_semantics": "bar_start_utc",
+        "last_bar_provisional": true,
+        "rejected_rows_file": null,
+        "note": "Index volume may be zero/unavailable; never infer exchange traded volume."
+      },
+      "1d": {
+        "file": "VOLVO_B_1d.csv",
+        "rows": 2514,
+        "last_bar_timestamp_utc": "2026-09-30T00:00:00+00:00",
+        "age_hours_at_export": 15.11,
+        "volume_nonzero_rows": 2510,
+        "timestamp_semantics": "session_date",
+        "last_bar_provisional": true,
+        "rejected_rows_file": null,
+        "note": "Index volume may be zero/unavailable; never infer exchange traded volume."
+      }
+    },
+    "ATLAS_A": {
+      "ticker": "ATCO-A.ST",
+      "1h": {
+        "file": "ATLAS_A_1h.csv",
+        "rows": 540,
+        "last_bar_timestamp_utc": "2026-09-30T15:00:00+00:00",
+        "age_hours_at_export": 0.11,
+        "volume_nonzero_rows": 481,
+        "timestamp_semantics": "bar_start_utc",
+        "last_bar_provisional": true,
+        "rejected_rows_file": null,
+        "note": "Index volume may be zero/unavailable; never infer exchange traded volume."
+      },
+      "1d": {
+        "file": "ATLAS_A_1d.csv",
+        "rows": 2514,
+        "last_bar_timestamp_utc": "2026-09-30T00:00:00+00:00",
+        "age_hours_at_export": 15.11,
+        "volume_nonzero_rows": 2510,
+        "timestamp_semantics": "session_date",
+        "last_bar_provisional": true,
+        "rejected_rows_file": null,
+        "note": "Index volume may be zero/unavailable; never infer exchange traded volume."
+      }
+    },
+    "ABB": {
+      "ticker": "ABB.ST",
+      "1h": {
+        "file": "ABB_1h.csv",
+        "rows": 540,
+        "last_bar_timestamp_utc": "2026-09-30T15:00:00+00:00",
+        "age_hours_at_export": 0.11,
+        "volume_nonzero_rows": 482,
+        "timestamp_semantics": "bar_start_utc",
+        "last_bar_provisional": true,
+        "rejected_rows_file": null,
+        "note": "Index volume may be zero/unavailable; never infer exchange traded volume."
+      },
+      "1d": {
+        "file": "ABB_1d.csv",
+        "rows": 2514,
+        "last_bar_timestamp_utc": "2026-09-30T00:00:00+00:00",
+        "age_hours_at_export": 15.11,
+        "volume_nonzero_rows": 2510,
+        "timestamp_semantics": "session_date",
+        "last_bar_provisional": true,
+        "rejected_rows_file": null,
+        "note": "Index volume may be zero/unavailable; never infer exchange traded volume."
+      }
+    },
+    "NVIDIA": {
+      "ticker": "NVDA",
+      "1h": {
+        "file": "NVIDIA_1h.csv",
+        "rows": 415,
+        "last_bar_timestamp_utc": "2026-09-30T14:30:00+00:00",
+        "age_hours_at_export": 0.61,
+        "volume_nonzero_rows": 415,
+        "timestamp_semantics": "bar_start_utc",
+        "last_bar_provisional": false,
+        "rejected_rows_file": null,
+        "note": "Index volume may be zero/unavailable; never infer exchange traded volume."
+      },
+      "1d": {
+        "file": "NVIDIA_1d.csv",
+        "rows": 2513,
+        "last_bar_timestamp_utc": "2026-09-30T00:00:00+00:00",
+        "age_hours_at_export": 15.11,
+        "volume_nonzero_rows": 2513,
+        "timestamp_semantics": "session_date",
+        "last_bar_provisional": true,
+        "rejected_rows_file": null,
+        "note": "Index volume may be zero/unavailable; never infer exchange traded volume."
+      }
+    },
+    "MICROSOFT": {
+      "ticker": "MSFT",
+      "1h": {
+        "file": "MICROSOFT_1h.csv",
+        "rows": 415,
+        "last_bar_timestamp_utc": "2026-09-30T14:30:00+00:00",
+        "age_hours_at_export": 0.61,
+        "volume_nonzero_rows": 415,
+        "timestamp_semantics": "bar_start_utc",
+        "last_bar_provisional": false,
+        "rejected_rows_file": null,
+        "note": "Index volume may be zero/unavailable; never infer exchange traded volume."
+      },
+      "1d": {
+        "file": "MICROSOFT_1d.csv",
+        "rows": 2513,
+        "last_bar_timestamp_utc": "2026-09-30T00:00:00+00:00",
+        "age_hours_at_export": 15.11,
+        "volume_nonzero_rows": 2513,
+        "timestamp_semantics": "session_date",
+        "last_bar_provisional": true,
+        "rejected_rows_file": null,
+        "note": "Index volume may be zero/unavailable; never infer exchange traded volume."
+      }
+    },
+    "APPLE": {
+      "ticker": "AAPL",
+      "1h": {
+        "file": "APPLE_1h.csv",
+        "rows": 415,
+        "last_bar_timestamp_utc": "2026-09-30T14:30:00+00:00",
+        "age_hours_at_export": 0.61,
+        "volume_nonzero_rows": 415,
+        "timestamp_semantics": "bar_start_utc",
+        "last_bar_provisional": false,
+        "rejected_rows_file": null,
+        "note": "Index volume may be zero/unavailable; never infer exchange traded volume."
+      },
+      "1d": {
+        "file": "APPLE_1d.csv",
+        "rows": 2513,
+        "last_bar_timestamp_utc": "2026-09-30T00:00:00+00:00",
+        "age_hours_at_export": 15.11,
+        "volume_nonzero_rows": 2513,
+        "timestamp_semantics": "session_date",
+        "last_bar_provisional": true,
+        "rejected_rows_file": null,
+        "note": "Index volume may be zero/unavailable; never infer exchange traded volume."
+      }
+    },
+    "TESLA": {
+      "ticker": "TSLA",
+      "1h": {
+        "file": "TESLA_1h.csv",
+        "rows": 415,
+        "last_bar_timestamp_utc": "2026-09-30T14:30:00+00:00",
+        "age_hours_at_export": 0.61,
+        "volume_nonzero_rows": 415,
+        "timestamp_semantics": "bar_start_utc",
+        "last_bar_provisional": false,
+        "rejected_rows_file": null,
+        "note": "Index volume may be zero/unavailable; never infer exchange traded volume."
+      },
+      "1d": {
+        "file": "TESLA_1d.csv",
+        "rows": 2513,
+        "last_bar_timestamp_utc": "2026-09-30T00:00:00+00:00",
+        "age_hours_at_export": 15.11,
+        "volume_nonzero_rows": 2513,
+        "timestamp_semantics": "session_date",
+        "last_bar_provisional": true,
+        "rejected_rows_file": null,
+        "note": "Index volume may be zero/unavailable; never infer exchange traded volume."
+      }
+    },
+    "AMAZON": {
+      "ticker": "AMZN",
+      "1h": {
+        "file": "AMAZON_1h.csv",
+        "rows": 415,
+        "last_bar_timestamp_utc": "2026-09-30T14:30:00+00:00",
+        "age_hours_at_export": 0.61,
+        "volume_nonzero_rows": 415,
+        "timestamp_semantics": "bar_start_utc",
+        "last_bar_provisional": false,
+        "rejected_rows_file": null,
+        "note": "Index volume may be zero/unavailable; never infer exchange traded volume."
+      },
+      "1d": {
+        "file": "AMAZON_1d.csv",
+        "rows": 2513,
+        "last_bar_timestamp_utc": "2026-09-30T00:00:00+00:00",
+        "age_hours_at_export": 15.11,
+        "volume_nonzero_rows": 2513,
+        "timestamp_semantics": "session_date",
+        "last_bar_provisional": true,
+        "rejected_rows_file": null,
+        "note": "Index volume may be zero/unavailable; never infer exchange traded volume."
+      }
+    },
+    "META": {
+      "ticker": "META",
+      "1h": {
+        "file": "META_1h.csv",
+        "rows": 415,
+        "last_bar_timestamp_utc": "2026-09-30T14:30:00+00:00",
+        "age_hours_at_export": 0.61,
+        "volume_nonzero_rows": 415,
+        "timestamp_semantics": "bar_start_utc",
+        "last_bar_provisional": false,
+        "rejected_rows_file": null,
+        "note": "Index volume may be zero/unavailable; never infer exchange traded volume."
+      },
+      "1d": {
+        "file": "META_1d.csv",
+        "rows": 2513,
+        "last_bar_timestamp_utc": "2026-09-30T00:00:00+00:00",
+        "age_hours_at_export": 15.11,
+        "volume_nonzero_rows": 2513,
+        "timestamp_semantics": "session_date",
+        "last_bar_provisional": true,
+        "rejected_rows_file": null,
+        "note": "Index volume may be zero/unavailable; never infer exchange traded volume."
+      }
+    },
+    "BITCOIN": {
+      "ticker": "BTC-USD",
+      "1h": {
+        "file": "BITCOIN_1h.csv",
+        "rows": 1432,
+        "last_bar_timestamp_utc": "2026-09-30T15:00:00+00:00",
+        "age_hours_at_export": 0.11,
+        "volume_nonzero_rows": 719,
+        "timestamp_semantics": "bar_start_utc",
+        "last_bar_provisional": true,
+        "rejected_rows_file": null,
+        "note": "Index volume may be zero/unavailable; never infer exchange traded volume."
+      },
+      "1d": {
+        "file": "BITCOIN_1d.csv",
+        "rows": 3653,
+        "last_bar_timestamp_utc": "2026-09-30T00:00:00+00:00",
+        "age_hours_at_export": 15.11,
+        "volume_nonzero_rows": 3653,
+        "timestamp_semantics": "session_date",
+        "last_bar_provisional": true,
+        "rejected_rows_file": null,
+        "note": "Index volume may be zero/unavailable; never infer exchange traded volume."
+      }
+    },
+    "ETHEREUM": {
+      "ticker": "ETH-USD",
+      "1h": {
+        "file": "ETHEREUM_1h.csv",
+        "rows": 1432,
+        "last_bar_timestamp_utc": "2026-09-30T15:00:00+00:00",
+        "age_hours_at_export": 0.11,
+        "volume_nonzero_rows": 736,
+        "timestamp_semantics": "bar_start_utc",
+        "last_bar_provisional": true,
+        "rejected_rows_file": null,
+        "note": "Index volume may be zero/unavailable; never infer exchange traded volume."
+      },
+      "1d": {
+        "file": "ETHEREUM_1d.csv",
+        "rows": 3248,
+        "last_bar_timestamp_utc": "2026-09-30T00:00:00+00:00",
+        "age_hours_at_export": 15.11,
+        "volume_nonzero_rows": 3248,
+        "timestamp_semantics": "session_date",
+        "last_bar_provisional": true,
+        "rejected_rows_file": null,
+        "note": "Index volume may be zero/unavailable; never infer exchange traded volume."
+      }
+    },
+    "SOLANA": {
+      "ticker": "SOL-USD",
+      "1h": {
+        "file": "SOLANA_1h.csv",
+        "rows": 1432,
+        "last_bar_timestamp_utc": "2026-09-30T15:00:00+00:00",
+        "age_hours_at_export": 0.11,
+        "volume_nonzero_rows": 722,
+        "timestamp_semantics": "bar_start_utc",
+        "last_bar_provisional": true,
+        "rejected_rows_file": null,
+        "note": "Index volume may be zero/unavailable; never infer exchange traded volume."
+      },
+      "1d": {
+        "file": "SOLANA_1d.csv",
+        "rows": 2365,
+        "last_bar_timestamp_utc": "2026-09-30T00:00:00+00:00",
+        "age_hours_at_export": 15.11,
+        "volume_nonzero_rows": 2365,
+        "timestamp_semantics": "session_date",
+        "last_bar_provisional": true,
+        "rejected_rows_file": null,
+        "note": "Index volume may be zero/unavailable; never infer exchange traded volume."
+      }
+    }
+  },
+  "errors": {}
+}
