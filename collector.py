@@ -12,7 +12,9 @@ import yfinance as yf
 
 SYMBOLS = {
     'OMXS30':'^OMX', 'DAX':'^GDAXI', 'SP500':'^GSPC', 'NASDAQ100':'^NDX',
-    'GOLD_FUT':'GC=F', 'SILVER_FUT':'SI=F', 'WTI_FUT':'CL=F', 'BRENT_FUT':'BZ=F',\n    'US30Y_BOND_FUT':'ZB=F', 'US10Y_NOTE_FUT':'ZN=F', 'US30Y_YIELD':'^TYX', 'US10Y_YIELD':'^TNX',\n    'VIX':'^VIX', 'OVX':'^OVX', 'GVZ':'^GVZ',
+    'GOLD_FUT':'GC=F', 'SILVER_FUT':'SI=F', 'WTI_FUT':'CL=F', 'BRENT_FUT':'BZ=F',
+    'US30Y_BOND_FUT':'ZB=F', 'US10Y_NOTE_FUT':'ZN=F', 'US30Y_YIELD':'^TYX', 'US10Y_YIELD':'^TNX',
+    'VIX':'^VIX', 'OVX':'^OVX', 'GVZ':'^GVZ',
     'EURUSD':'EURUSD=X', 'USDSEK':'SEK=X', 'INVESTOR_B':'INVE-B.ST',
     'VOLVO_B':'VOLV-B.ST', 'ATLAS_A':'ATCO-A.ST', 'ABB':'ABB.ST',
     'NVIDIA':'NVDA', 'MICROSOFT':'MSFT', 'APPLE':'AAPL', 'TESLA':'TSLA',
@@ -91,7 +93,8 @@ def main():
             time.sleep(args.sleep)
         if result: manifest['symbols'][name]={'ticker':ticker,**result}
     (out/'manifest.json').write_text(json.dumps(manifest,indent=2,ensure_ascii=False),encoding='utf-8')
-    print(f'\nFiles in: {out.resolve()}')
+    print(f'
+Files in: {out.resolve()}')
     print(f'Successful instruments: {len(manifest["symbols"])}; failed downloads: {len(manifest["errors"])}')
     if not manifest['symbols']: sys.exit(2)
 
