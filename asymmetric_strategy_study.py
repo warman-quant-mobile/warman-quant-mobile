@@ -4,6 +4,30 @@ import argparse,json
 from pathlib import Path
 import pandas as pd
 from opportunistic_research import evaluate
+
+TARGETS=(5,10,15,20)
+
+def evaluate_target(df,side,i,target_r,horizon=60,atr_mult=2.0,friction_bps=20):
+    """Same frozen entry/stop model as evaluate(), with a fixed R target."""
+    import math
+    prev=df.iloc[:i]; close=prev.Close.astype(float); high=prev.High.astype(float); low=prev.Low.astype(float)
+    tr=pd.concat([high-low,(high-close.shift()).abs(),(low-close.shift()).abs()],axis=1).max(axis=1)
+    atr=float(tr.tail(20).mean())
+    if not math.isfinite(atr) or atr<=0 or i+horizon>=len(df): return None
+    price=float(df.iloc[i].Open); risk=atr_mult*atr+price*friction_bps/10000
+    if not math.isfinite(price) or price<=0 or (side=="SHORT" and price-target_r*risk<=0): return None
+    stop=price-atr_mult*atr if side=="LONG" else price+atr_mult*atr
+    target=price+target_r*risk if side=="LONG" else price-target_r*risk; sign=1 if side=="LONG" else -1
+    pnl=None; outcome="TIMEOUT"
+    for j in range(i,min(i+horizon,len(df))):
+        b=df.iloc[j]; o,h,l=map(float,(b.Open,b.High,b.Low))
+        stopped=(l<=stop if sign==1 else h>=stop); won=(h>=target if sign==1 else l<=target)
+        if stopped:
+            fill=min(o,stop) if sign==1 else max(o,stop); pnl=(fill-price)*sign-price*friction_bps/10000; outcome="STOP"; break
+        if won:
+            pnl=(target-price)*sign-price*friction_bps/10000; outcome="TARGET"; break
+    if pnl is None: pnl=(float(df.iloc[min(i+horizon-1,len(df)-1)].Close)-price)*sign-price*friction_bps/10000
+    return {"outcome":outcome,"realized_r":round(pnl/risk,3)}
 from nordnet_kf_gate import promotion_gate
 
 def load(folder,m,name):
@@ -20,7 +44,8 @@ def stats(obs):
           "hit_5r":sum(x["mfe_r"]>=5 for x in xs),"hit_10r":sum(x["mfe_r"]>=10 for x in xs),
           "hit_15r":sum(x["mfe_r"]>=15 for x in xs),"hit_20r":sum(x["mfe_r"]>=20 for x in xs),
           "p50_mfe":round(float(pd.Series(mf).quantile(.5)),3),"p75_mfe":round(float(pd.Series(mf).quantile(.75)),3),
-          "p90_mfe":round(float(pd.Series(mf).quantile(.9)),3),"max_mfe":round(float(max(mf)),3)}
+          "p90_mfe":round(float(pd.Series(mf).quantile(.9)),3),"max_mfe":round(float(max(mf)),3),
+          "fixed_target_ev":{str(t):{"mean_r":round(float(pd.Series([x["target_exits"][str(t)]["realized_r"] for x in xs if x["target_exits"][str(t)] is not None]).mean()),3) if any(x["target_exits"][str(t)] is not None for x in xs) else None,"wins":sum(x["target_exits"][str(t)] is not None and x["target_exits"][str(t)]["outcome"]=="TARGET" for x in xs)} for t in TARGETS}}
     tr,oo=part(obs[:split]),part(obs[split:])
     return {"events":n,"sample_qualified":n>=30,"train":tr,"oos":oo,
       "oos_positive":oo["n"]>=10 and oo["mean_r"] is not None and oo["mean_r"]>0 and oo["median_r"]>=0,"all":part(obs)}
@@ -30,7 +55,9 @@ def events(df,cond,sidefn,gap=60):
     while i<len(df)-60:
         if bool(cond.iloc[i-1]):
             r=evaluate(df,sidefn(i-1),i)
-            if r:out.append(r);i+=gap;continue
+            if r:
+                r["target_exits"]={str(t):evaluate_target(df,sidefn(i-1),i,t) for t in TARGETS}
+                out.append(r);i+=gap;continue
         i+=1
     return stats(out)
 
