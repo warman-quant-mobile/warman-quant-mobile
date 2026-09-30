@@ -1,22 +1,34 @@
-# Warman Quant research mandate v2
+# Warman Quant Research Mandate v3
 
-Research-only; no live broker orders. The existing 20-bar paper strategy is a control, not an established edge.
+Effective: 2026-09-30. Research only; no live broker orders.
 
-## Hypotheses
+## Objective and champion
+Find robust, implementable sources of positive expected return that add value after realistic costs versus simple passive exposure. Passive long-term exposure is the champion/default. If evidence is insufficient, the correct conclusion is NO TRADE / PASSIVE CHAMPION. Research strategies are challengers, not assumed improvements.
 
-Evaluate momentum (12/20/36-bar), breakout (12/20/36-bar), short-horizon mean reversion (12/20/36-bar), volatility compression/expansion, relative value only when economically justified, and market-regime filters. Freeze rules before inspecting out-of-sample outcomes. Never choose a winner using holdout data.
+## Autonomous hypothesis program
+Kvanta should generate, freeze, test and attempt to falsify hypotheses without requiring user-supplied ideas. Priority families:
+1. Time-series momentum/trend.
+2. Cross-sectional momentum/relative strength.
+3. Mean reversion after objectively extreme moves.
+4. Post-event drift, gaps, breakouts and failed breakouts.
+5. Crash/recovery and regime-conditioned asymmetry.
+6. Implementable volatility/risk-premium proxies.
+7. Simple entry information plus convex exits and risk sizing.
+8. Pattern recognition and ML only for incremental OOS value over simpler baselines.
 
-## Required gates
+10R/15R/20R are outcome diagnostics, not optimization objectives.
 
-- Timestamp integrity: completed bars, next-bar fills, no lookahead; fail closed on stale or absent state.
-- Costs: spread, commissions, financing, short borrow, slippage and instrument-specific contract economics; stress at 2x and 3x baseline costs.
-- Chronological train/validation/test, purging boundary-overlapping trades, walk-forward, bootstrap uncertainty and multiple-testing adjustment.
-- Report sample size, expectancy in R, payoff ratio, drawdown, exposure, turnover, net compounded return and sensitivity to parameter perturbations.
-- Compare a passive investment-company benchmark, cash flows and portfolio-level correlation. Research profiles at 2/3/5% risk are stress scenarios only; no automatic authority to trade live.
-- No promotion from paper to live without explicit human approval, independently checked results, executable quotes and operational recovery drills.
+## Required research gates
+- Completed bars, next-tradable fills, no lookahead/label leakage; fail closed on stale or absent state.
+- Chronological train/validation/final untouched test or walk-forward; purge boundary-overlapping trades.
+- Realistic spread, commissions, financing, FX, slippage and instrument economics; stress costs.
+- Parameter perturbation, bootstrap/seed robustness where relevant, overlap/dependence checks and multiple-testing awareness.
+- Cross-market, side and regime attribution; explicitly flag results driven by a few instruments or extreme observations.
+- Report sample size, expectancy in R, median, tail behavior, drawdown/exposure/turnover where applicable.
+- Compare against passive champion and simple baselines. Never use final untouched test to tune the tested version.
 
-## Operational priorities
+## Promotion and execution
+A challenger remains RESEARCH_ONLY until the gates above are passed. No autonomous broker execution. Any future executable proposal must pass the deterministic fail-closed Nordnet-KF execution/risk gate and explicit human approval.
 
-Durable append-only journal with recovery checks; chronological cross-symbol processing; stale-market handling; instrument-specific calendars; portfolio cash/margin accounting; automated daily exception-only reporting. Preserve old research and never silently reset journal.
-
-A 50-100% annualized trading return is an aspirational research question, not a forecast, baseline, promise or acceptance threshold. Family wealth and speculative research capital must remain separate.
+## Capital
+Research does not imply capital allocation. Opportunistic capital must be earned by validated evidence. Until then, passive investment remains champion and speculative research capital stays separate.
