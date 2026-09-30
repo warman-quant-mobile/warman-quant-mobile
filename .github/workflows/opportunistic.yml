@@ -31,7 +31,7 @@ jobs:
       - name: Offline scanner tests
         run: python -m unittest discover -s tests -v
       - name: Syntax-check scanner modules
-        run: python -m py_compile collector.py opportunistic_scan.py opportunistic_research.py contrarian_research.py extreme_event_research.py extreme_event_study.py published_strategy_lab.py cross_asset_vol_research.py vix_extreme_research.py macro_combo_study.py asymmetric_strategy_study.py nordnet_kf_gate.py intraday_10r_study.py intraday_watch.py extreme_regime_indicator.py pattern_geometry_study.py weekly_pattern_study.py pattern_ranker.py random_entry_exit_lab.py research_safety.py tradeable_strategy_lab.py live_10r_scan.py new_signal_alert.py
+        run: python -m py_compile collector.py opportunistic_scan.py opportunistic_research.py contrarian_research.py extreme_event_research.py extreme_event_study.py published_strategy_lab.py cross_asset_vol_research.py vix_extreme_research.py macro_combo_study.py asymmetric_strategy_study.py nordnet_kf_gate.py intraday_10r_study.py intraday_watch.py extreme_regime_indicator.py pattern_geometry_study.py weekly_pattern_study.py pattern_ranker.py random_entry_exit_lab.py random_entry_exit_robustness.py research_safety.py tradeable_strategy_lab.py live_10r_scan.py new_signal_alert.py
       - name: Fetch new public research data
         run: python collector.py
       - name: Validate data; fail closed
@@ -81,6 +81,9 @@ jobs:
       - name: Random-entry exit-engine control
         if: github.event_name == 'workflow_dispatch' || github.event_name == 'push' || github.event.schedule == '37 0 * * 2-6'
         run: python random_entry_exit_lab.py --folder output --result signals/random_entry_exit_lab.json
+      - name: Random-entry exit robustness attack
+        if: github.event_name == 'workflow_dispatch' || github.event_name == 'push' || github.event.schedule == '37 0 * * 2-6'
+        run: python random_entry_exit_robustness.py --folder output --result signals/random_entry_exit_robustness.json
       - name: Pooled OOS tradeable strategy validation
         if: github.event_name == 'workflow_dispatch' || github.event_name == 'push' || github.event.schedule == '37 0 * * 2-6'
         run: python tradeable_strategy_lab.py --folder output --result signals/tradeable_strategy_lab.json
@@ -94,7 +97,7 @@ jobs:
         run: |
           git config user.name "warman-quant-bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add signals/random_entry_exit_lab.json signals/weekly_pattern_study.json signals/pattern_ranker.json signals/asymmetric_strategy_study.json signals/macro_combo_study.json signals/cross_asset_vol.json signals/vix_extremes.json signals/intraday_10r_study.json signals/intraday_watch.json signals/extreme_regime.json signals/pattern_geometry_study.json signals/new_10r.json signals/live_10r.json signals/latest.json signals/research_lab.json signals/contrarian_lab.json signals/extreme_events.json signals/extreme_event_study.json signals/published_strategy_lab.json
+          git add signals/random_entry_exit_robustness.json signals/random_entry_exit_lab.json signals/weekly_pattern_study.json signals/pattern_ranker.json signals/asymmetric_strategy_study.json signals/macro_combo_study.json signals/cross_asset_vol.json signals/vix_extremes.json signals/intraday_10r_study.json signals/intraday_watch.json signals/extreme_regime.json signals/pattern_geometry_study.json signals/new_10r.json signals/live_10r.json signals/latest.json signals/research_lab.json signals/contrarian_lab.json signals/extreme_events.json signals/extreme_event_study.json signals/published_strategy_lab.json
           if ! git diff --cached --quiet; then
             git commit -m "Update opportunistic research scan"
             # A scan can overlap a code push to main. Rebase generated outputs onto
@@ -107,6 +110,7 @@ jobs:
         with:
           name: opportunistic-scan
           path: |
+            signals/random_entry_exit_robustness.json
             signals/random_entry_exit_lab.json
             signals/weekly_pattern_study.json
             signals/pattern_ranker.json
