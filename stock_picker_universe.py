@@ -3,7 +3,7 @@
 Research universe builder; current-list membership is NOT historical membership."""
 import argparse,json,os,urllib.request
 from pathlib import Path
-URL="https://www.sec.gov/files/company_tickers_exchange.json"
+URLS=["https://www.sec.gov/files/company_tickers_exchange.json","https://www.sec.gov/files/company_tickers.json"]
 UA=os.environ.get("SEC_USER_AGENT","WarmanQuant/1.0 warman-quant-mobile GitHub research")
 def main():
  p=argparse.ArgumentParser(); p.add_argument("--out",default="output/us_universe_current.json"); a=p.parse_args()
