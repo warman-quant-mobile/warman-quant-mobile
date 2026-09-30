@@ -1,6 +1,6 @@
 {
   "status": "RESEARCH_WATCH_ONLY",
-  "generated_at_utc": "2026-09-30T14:37:20.577963+00:00",
+  "generated_at_utc": "2026-09-30T14:56:07.915070+00:00",
   "observations": [
     {
       "symbol": "OMXS30",
@@ -88,8 +88,8 @@
       "events": [
         "FAILED_HIGH_20H"
       ],
-      "gap_pct": 0.03,
-      "hourly_move_pct": -0.76,
+      "gap_pct": 0.05,
+      "hourly_move_pct": -0.8,
       "status": "INTRADAY_WATCH_NOT_ORDER"
     },
     {
@@ -98,8 +98,8 @@
       "events": [
         "FAILED_HIGH_20H"
       ],
-      "gap_pct": 0.1,
-      "hourly_move_pct": -0.73,
+      "gap_pct": 0.04,
+      "hourly_move_pct": -0.71,
       "status": "INTRADAY_WATCH_NOT_ORDER"
     }
   ],

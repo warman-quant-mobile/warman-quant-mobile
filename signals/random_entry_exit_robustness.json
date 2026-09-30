@@ -1,0 +1,215 @@
+{
+  "status": "RESEARCH_ONLY",
+  "hypothesis_version": "random-exit-robustness-v1-frozen-2026-09-30",
+  "preregistered": {
+    "seeds": [
+      101,
+      307,
+      911,
+      1729,
+      4099,
+      7919,
+      12011,
+      18013,
+      25013,
+      32003
+    ],
+    "exits": [
+      "trail20",
+      "be2_trail20"
+    ],
+    "friction_bps": [
+      20,
+      50,
+      100
+    ],
+    "spacing": 20,
+    "stop_atr": 1.5,
+    "horizon": 120
+  },
+  "final_test_start": "2024-07-29",
+  "robustness": {
+    "20": {
+      "trail20": {
+        "n": 3202,
+        "pooled_mean_r": 0.108,
+        "seed_mean_r": [
+          -0.054,
+          0.283,
+          0.076,
+          0.348,
+          0.164,
+          -0.045,
+          -0.016,
+          0.021,
+          -0.032,
+          0.339
+        ],
+        "positive_seeds": 6,
+        "min_seed": -0.054,
+        "max_seed": 0.348
+      },
+      "be2_trail20": {
+        "n": 3202,
+        "pooled_mean_r": 0.094,
+        "seed_mean_r": [
+          -0.088,
+          0.289,
+          0.024,
+          0.302,
+          0.169,
+          -0.054,
+          -0.025,
+          0.002,
+          -0.033,
+          0.354
+        ],
+        "positive_seeds": 6,
+        "min_seed": -0.088,
+        "max_seed": 0.354
+      }
+    },
+    "50": {
+      "trail20": {
+        "n": 3202,
+        "pooled_mean_r": 0.019,
+        "seed_mean_r": [
+          -0.127,
+          0.168,
+          -0.009,
+          0.225,
+          0.071,
+          -0.118,
+          -0.088,
+          -0.06,
+          -0.105,
+          0.229
+        ],
+        "positive_seeds": 4,
+        "min_seed": -0.127,
+        "max_seed": 0.229
+      },
+      "be2_trail20": {
+        "n": 3202,
+        "pooled_mean_r": 0.003,
+        "seed_mean_r": [
+          -0.149,
+          0.168,
+          -0.036,
+          0.176,
+          0.065,
+          -0.135,
+          -0.092,
+          -0.082,
+          -0.116,
+          0.233
+        ],
+        "positive_seeds": 4,
+        "min_seed": -0.149,
+        "max_seed": 0.233
+      }
+    },
+    "100": {
+      "trail20": {
+        "n": 3202,
+        "pooled_mean_r": -0.1,
+        "seed_mean_r": [
+          -0.225,
+          0.019,
+          -0.121,
+          0.067,
+          -0.052,
+          -0.215,
+          -0.184,
+          -0.167,
+          -0.203,
+          0.085
+        ],
+        "positive_seeds": 3,
+        "min_seed": -0.225,
+        "max_seed": 0.085
+      },
+      "be2_trail20": {
+        "n": 3202,
+        "pooled_mean_r": -0.109,
+        "seed_mean_r": [
+          -0.238,
+          0.017,
+          -0.148,
+          0.059,
+          -0.043,
+          -0.231,
+          -0.185,
+          -0.192,
+          -0.213,
+          0.087
+        ],
+        "positive_seeds": 3,
+        "min_seed": -0.238,
+        "max_seed": 0.087
+      }
+    }
+  },
+  "side_attribution_20bps": {
+    "trail20": {
+      "LONG": 0.668,
+      "SHORT": -0.471
+    },
+    "be2_trail20": {
+      "LONG": 0.633,
+      "SHORT": -0.464
+    }
+  },
+  "symbol_attribution_20bps": {
+    "trail20": {
+      "SP500": -0.014,
+      "GOLD_FUT": 0.745,
+      "SILVER_FUT": 2.156,
+      "WTI_FUT": 0.113,
+      "BRENT_FUT": 0.026,
+      "INVESTOR_B": -0.317,
+      "VOLVO_B": -0.161,
+      "ATLAS_A": -0.41,
+      "ABB": -0.252,
+      "NVIDIA": -0.179,
+      "MICROSOFT": 0.197,
+      "APPLE": -0.221,
+      "TESLA": 0.149,
+      "AMAZON": 0.034,
+      "META": -0.25
+    },
+    "be2_trail20": {
+      "SP500": 0.014,
+      "GOLD_FUT": 0.612,
+      "SILVER_FUT": 2.128,
+      "WTI_FUT": 0.141,
+      "BRENT_FUT": -0.041,
+      "INVESTOR_B": -0.291,
+      "VOLVO_B": -0.144,
+      "ATLAS_A": -0.372,
+      "ABB": -0.295,
+      "NVIDIA": -0.13,
+      "MICROSOFT": 0.083,
+      "APPLE": -0.197,
+      "TESLA": 0.103,
+      "AMAZON": 0.002,
+      "META": -0.213
+    }
+  },
+  "note": "Falsification pass only. Parameters frozen before inspection. No execution or candidate promotion.",
+  "research_contract": {
+    "schema_version": 1,
+    "engine": "random_entry_exit_robustness",
+    "dataset": {
+      "manifest_sha256": "327e6dbc1057a6da1d69a7b4b109a72340846ea4376a0ccf38c65c0c4bcc192f",
+      "manifest_bytes": 27490
+    },
+    "model_version": "robustness-v1-frozen-2026-09-30",
+    "reproducibility": {
+      "pythonhashseed": "0",
+      "random_seed": 1729
+    },
+    "execution": "BLOCKED_RESEARCH_ONLY",
+    "human_approval_required": true
+  }
+}
