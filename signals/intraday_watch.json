@@ -1,105 +1,55 @@
 {
   "status": "RESEARCH_WATCH_ONLY",
-  "generated_at_utc": "2026-09-30T14:56:07.915070+00:00",
+  "generated_at_utc": "2026-09-30T16:51:21.410104+00:00",
   "observations": [
     {
-      "symbol": "OMXS30",
-      "bar_start_utc": "2026-09-30T13:00:00+00:00",
-      "events": [
-        "FAILED_LOW_20H"
-      ],
-      "gap_pct": -0.0,
-      "hourly_move_pct": -0.43,
-      "status": "INTRADAY_WATCH_NOT_ORDER"
-    },
-    {
-      "symbol": "DAX",
-      "bar_start_utc": "2026-09-30T13:00:00+00:00",
-      "events": [
-        "FAILED_LOW_20H"
-      ],
-      "gap_pct": 0.0,
-      "hourly_move_pct": -0.27,
-      "status": "INTRADAY_WATCH_NOT_ORDER"
-    },
-    {
       "symbol": "WTI_FUT",
-      "bar_start_utc": "2026-09-30T13:00:00+00:00",
+      "bar_start_utc": "2026-09-30T15:00:00+00:00",
       "events": [
         "FAILED_HIGH_20H"
       ],
       "gap_pct": -0.01,
-      "hourly_move_pct": 0.42,
+      "hourly_move_pct": -0.47,
       "status": "INTRADAY_WATCH_NOT_ORDER"
     },
     {
       "symbol": "BRENT_FUT",
-      "bar_start_utc": "2026-09-30T13:00:00+00:00",
+      "bar_start_utc": "2026-09-30T15:00:00+00:00",
       "events": [
         "FAILED_HIGH_20H"
       ],
-      "gap_pct": -0.03,
-      "hourly_move_pct": 0.62,
+      "gap_pct": -0.05,
+      "hourly_move_pct": -0.46,
       "status": "INTRADAY_WATCH_NOT_ORDER"
     },
     {
-      "symbol": "INVESTOR_B",
-      "bar_start_utc": "2026-09-30T13:00:00+00:00",
+      "symbol": "US30Y_YIELD",
+      "bar_start_utc": "2026-09-30T15:20:00+00:00",
+      "events": [
+        "FAILED_HIGH_20H"
+      ],
+      "gap_pct": 0.02,
+      "hourly_move_pct": 0.0,
+      "status": "INTRADAY_WATCH_NOT_ORDER"
+    },
+    {
+      "symbol": "OVX",
+      "bar_start_utc": "2026-09-30T15:30:00+00:00",
       "events": [
         "FAILED_LOW_20H"
       ],
-      "gap_pct": 0.0,
-      "hourly_move_pct": -0.27,
+      "gap_pct": 0.02,
+      "hourly_move_pct": -1.49,
       "status": "INTRADAY_WATCH_NOT_ORDER"
     },
     {
-      "symbol": "MICROSOFT",
-      "bar_start_utc": "2026-09-30T13:30:00+00:00",
+      "symbol": "ABB",
+      "bar_start_utc": "2026-09-30T15:00:00+00:00",
       "events": [
-        "FAILED_HIGH_20H"
+        "FAILED_LOW_20H"
       ],
-      "gap_pct": 0.35,
-      "hourly_move_pct": 1.86,
-      "status": "INTRADAY_WATCH_NOT_ORDER"
-    },
-    {
-      "symbol": "APPLE",
-      "bar_start_utc": "2026-09-30T13:30:00+00:00",
-      "events": [
-        "HOURLY_SHOCK_2_5ATR"
-      ],
-      "gap_pct": 0.37,
-      "hourly_move_pct": 2.6,
-      "status": "INTRADAY_WATCH_NOT_ORDER"
-    },
-    {
-      "symbol": "AMAZON",
-      "bar_start_utc": "2026-09-30T13:30:00+00:00",
-      "events": [
-        "FAILED_HIGH_20H"
-      ],
-      "gap_pct": -0.02,
-      "hourly_move_pct": 1.55,
-      "status": "INTRADAY_WATCH_NOT_ORDER"
-    },
-    {
-      "symbol": "BITCOIN",
-      "bar_start_utc": "2026-09-30T13:00:00+00:00",
-      "events": [
-        "FAILED_HIGH_20H"
-      ],
-      "gap_pct": 0.05,
-      "hourly_move_pct": -0.8,
-      "status": "INTRADAY_WATCH_NOT_ORDER"
-    },
-    {
-      "symbol": "SOLANA",
-      "bar_start_utc": "2026-09-30T13:00:00+00:00",
-      "events": [
-        "FAILED_HIGH_20H"
-      ],
-      "gap_pct": 0.04,
-      "hourly_move_pct": -0.71,
+      "gap_pct": -0.04,
+      "hourly_move_pct": 0.17,
       "status": "INTRADAY_WATCH_NOT_ORDER"
     }
   ],
