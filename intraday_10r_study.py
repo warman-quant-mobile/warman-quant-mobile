@@ -60,5 +60,4 @@ def study(folder):
 if __name__=="__main__":
     p=argparse.ArgumentParser();p.add_argument("--folder",default="output");p.add_argument("--result",default="signals/intraday_10r_study.json")
     a=p.parse_args();r=study(a.folder);out=Path(a.result);out.parent.mkdir(parents=True,exist_ok=True)
-    out.write_text(json.dumps(r,indent=2)+"
-");print("INTRADAY_SAMPLE_GATE",sum(x["sample_gate_passed"] for x in r["results"].values()))
+    out.write_text(json.dumps(r,indent=2)+"\\n");print("INTRADAY_SAMPLE_GATE",sum(x["sample_gate_passed"] for x in r["results"].values()))
