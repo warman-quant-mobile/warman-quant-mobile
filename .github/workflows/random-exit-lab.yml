@@ -8,6 +8,7 @@ on:
       - 'random_entry_exit_lab.py'
       - 'random_entry_exit_robustness.py'
       - 'entry_ablation_lab.py'
+      - 'passive_champion_lab.py'
       - 'research_safety.py'
       - '.github/workflows/random-exit-lab.yml'
 permissions:
@@ -31,7 +32,9 @@ jobs:
       - name: Frozen robustness attack
         run: python random_entry_exit_robustness.py --folder output --result signals/random_entry_exit_robustness.json
       - name: Frozen entry-information ablation
-        run: python entry_ablation_lab.py --folder output --result signals/entry_ablation_lab.json
+        run: python entry_ablation_lab.py --folder output --result signals/entry_ablation_lab.json signals/passive_champion_lab.json
+      - name: Passive champion economic test
+        run: python passive_champion_lab.py --folder output --result signals/passive_champion_lab.json
       - name: Publish research outputs
         run: |
           git config user.name "github-actions[bot]"
@@ -44,5 +47,6 @@ jobs:
           name: random-exit-research
           path: |
             signals/random_entry_exit_lab.json
+            signals/passive_champion_lab.json
             signals/entry_ablation_lab.json
             signals/random_entry_exit_robustness.json
