@@ -12,7 +12,17 @@ def load(folder,m,name):
 
 def summarize(obs):
     n=len(obs); vals=[x["realized_r"] for x in obs]; mfes=[x["mfe_r"] for x in obs]
+    split=max(1,int(n*.6)) if n else 0
+    train=obs[:split]; test=obs[split:]
+    def part(xs):
+        if not xs:return {"events":0,"mean_realized_r":None,"median_realized_r":None,"reached_10r_mfe":0}
+        rv=[z["realized_r"] for z in xs]
+        return {"events":len(xs),"mean_realized_r":round(sum(rv)/len(rv),3),
+          "median_realized_r":round(float(pd.Series(rv).median()),3),
+          "reached_10r_mfe":sum(z["mfe_r"]>=10 for z in xs)}
     return {"events":n,"sample_qualified":n>=30,"strong_sample":n>=100,
+      "chronological_split_60_40":{"train":part(train),"oos":part(test)},
+      "oos_positive":bool(test) and part(test)["mean_realized_r"] is not None and part(test)["mean_realized_r"]>0,
       "targets_10r":sum(x["outcome"]=="TARGET" for x in obs),
       "reached_5r_mfe":sum(x["mfe_r"]>=5 for x in obs),"reached_10r_mfe":sum(x["mfe_r"]>=10 for x in obs),
       "mean_realized_r":round(sum(vals)/n,3) if n else None,
@@ -52,9 +62,10 @@ def study(folder):
         out["OVX_WTI_EXTREME"]={"CONTINUATION":run_events(asset,cond,side),"FADE":run_events(asset,cond,fade)}
     # Long-end rate extremes: 30Y yield percentile + 20d displacement, tested both ways.
     if "US30Y_YIELD" in m["symbols"]:
-        y=load(folder,m,"US30Y_YIELD");x=y.copy();x["pct"]=x.Close.rolling(756).rank(pct=True);x["r20"]=x.Close.pct_change(20)
-        cond=((x.pct>=.95)|(x.pct<=.05))&(x.r20.abs()>=.05)
-        trend=lambda i:"LONG" if x.r20.iloc[i]>0 else "SHORT";fade=lambda i:"SHORT" if x.r20.iloc[i]>0 else "LONG"
+        y=load(folder,m,"US30Y_YIELD");x=y.copy();x["pct"]=x.Close.rolling(756).rank(pct=True);x["bp20"]=(x.Close-x.Close.shift(20))*100
+        # Yahoo Treasury yield indices are percentage yields; x100 converts percentage-point change to bp.
+        cond=((x.pct>=.95)|(x.pct<=.05))&(x.bp20.abs()>=20)
+        trend=lambda i:"LONG" if x.bp20.iloc[i]>0 else "SHORT";fade=lambda i:"SHORT" if x.bp20.iloc[i]>0 else "LONG"
         out["US30Y_YIELD_EXTREME"]={"CONTINUATION":run_events(y,cond,trend),"FADE":run_events(y,cond,fade)}
     # Curve displacement: 30Y minus 10Y yield; trade 30Y bond future in direction implied by long-end move and opposite.
     if all(x in m["symbols"] for x in ("US30Y_YIELD","US10Y_YIELD","US30Y_BOND_FUT")):
@@ -66,8 +77,8 @@ def study(folder):
         trend=lambda i:"SHORT" if zz.chg20.iloc[i]>0 else "LONG";fade=lambda i:"LONG" if zz.chg20.iloc[i]>0 else "SHORT"
         out["30Y10Y_CURVE_EXTREME"]={"CONTINUATION":run_events(bb,cond,trend),"FADE":run_events(bb,cond,fade)}
     return {"status":"RESEARCH_ONLY","minimum_promotion_r":10,"results":out,
-      "methodology":"Completed daily signal; next-session open; ATR20 x2 stop; 20bps friction; 10R target; 60-session horizon; non-overlapping 60-session events; stop first on same-bar ambiguity.",
-      "promotion_rule":"No setup is eligible for promotion from this study unless sample_qualified=true and separate chronological out-of-sample validation confirms the edge. A 10R hit alone is insufficient."}
+      "methodology":"Completed daily signal; next-session open; ATR20 x2 stop; 20bps friction; 10R target; 60-session horizon; non-overlapping 60-session events; stop first on same-bar ambiguity. Each setup also reports a chronological 60/40 train/OOS split. Rate displacement uses basis points, not relative yield returns.",
+      "promotion_rule":"No setup is eligible for promotion unless sample_qualified=true, OOS is positive, and the trade maps to a Nordnet-KF-verifiable instrument. Yield/VIX/OVX/GVZ series are sensors only. A 10R hit alone is insufficient."}
 
 if __name__=="__main__":
     p=argparse.ArgumentParser();p.add_argument("--folder",default="output");p.add_argument("--result",default="signals/macro_combo_study.json")
