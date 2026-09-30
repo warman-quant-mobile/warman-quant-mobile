@@ -23,7 +23,9 @@ jobs:
           python-version: '3.11'
       - run: pip install -r requirements.txt
       - name: Fetch public research data
-        run: python data_collector.py
+        run: python collector.py
+      - name: Validate data; fail closed
+        run: python validate.py output
       - name: Frozen random-entry control
         run: python random_entry_exit_lab.py --folder output --result signals/random_entry_exit_lab.json
       - name: Frozen robustness attack
