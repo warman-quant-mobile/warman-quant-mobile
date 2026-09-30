@@ -27,7 +27,7 @@ jobs:
       - name: Offline scanner tests
         run: python -m unittest discover -s tests -v
       - name: Syntax-check scanner modules
-        run: python -m py_compile collector.py opportunistic_scan.py opportunistic_research.py contrarian_research.py extreme_event_research.py extreme_event_study.py published_strategy_lab.py cross_asset_vol_research.py vix_extreme_research.py intraday_10r_study.py intraday_watch.py live_10r_scan.py new_signal_alert.py
+        run: python -m py_compile collector.py opportunistic_scan.py opportunistic_research.py contrarian_research.py extreme_event_research.py extreme_event_study.py published_strategy_lab.py cross_asset_vol_research.py vix_extreme_research.py macro_combo_study.py intraday_10r_study.py intraday_watch.py live_10r_scan.py new_signal_alert.py
       - name: Fetch new public research data
         run: python collector.py
       - name: Validate data; fail closed
@@ -52,7 +52,7 @@ jobs:
         run: python cross_asset_vol_research.py --folder output --result signals/cross_asset_vol.json
       - name: VIX and SP500 extreme regime research
         run: python vix_extreme_research.py --folder output --result signals/vix_extremes.json
-      - name: Hourly research sample gate
+      - name: Cross-asset macro combination 10R study\n        if: github.event_name == 'workflow_dispatch' || github.event.schedule == '37 0 * * 2-6'\n        run: python macro_combo_study.py --folder output --result signals/macro_combo_study.json\n      - name: Hourly research sample gate
         if: github.event_name == 'workflow_dispatch' || github.event.schedule == '37 0 * * 2-6'
         run: python intraday_10r_study.py --folder output --result signals/intraday_10r_study.json
       - name: Completed-hour intraday gap and reversal watch
@@ -67,7 +67,7 @@ jobs:
         run: |
           git config user.name "warman-quant-bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add signals/cross_asset_vol.json signals/vix_extremes.json signals/intraday_10r_study.json signals/intraday_watch.json signals/new_10r.json signals/live_10r.json signals/latest.json signals/research_lab.json signals/contrarian_lab.json signals/extreme_events.json signals/extreme_event_study.json signals/published_strategy_lab.json
+          git add signals/macro_combo_study.json signals/cross_asset_vol.json signals/vix_extremes.json signals/intraday_10r_study.json signals/intraday_watch.json signals/new_10r.json signals/live_10r.json signals/latest.json signals/research_lab.json signals/contrarian_lab.json signals/extreme_events.json signals/extreme_event_study.json signals/published_strategy_lab.json
           if ! git diff --cached --quiet; then
             git commit -m "Update opportunistic research scan"
             # A scan can overlap a code push to main. Rebase generated outputs onto
