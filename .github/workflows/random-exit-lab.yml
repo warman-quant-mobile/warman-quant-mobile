@@ -7,6 +7,7 @@ on:
       - '.random-exit-trigger'
       - 'random_entry_exit_lab.py'
       - 'random_entry_exit_robustness.py'
+      - 'entry_ablation_lab.py'
       - 'research_safety.py'
       - '.github/workflows/random-exit-lab.yml'
 permissions:
@@ -27,11 +28,13 @@ jobs:
         run: python random_entry_exit_lab.py --folder output --result signals/random_entry_exit_lab.json
       - name: Frozen robustness attack
         run: python random_entry_exit_robustness.py --folder output --result signals/random_entry_exit_robustness.json
+      - name: Frozen entry-information ablation
+        run: python entry_ablation_lab.py --folder output --result signals/entry_ablation_lab.json
       - name: Publish research outputs
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add signals/random_entry_exit_lab.json signals/random_entry_exit_robustness.json output/manifest.json output/*.csv || true
+          git add signals/random_entry_exit_lab.json signals/random_entry_exit_robustness.json signals/entry_ablation_lab.json output/manifest.json output/*.csv || true
           git diff --cached --quiet || git commit -m "Update random exit research outputs"
           git push
       - uses: actions/upload-artifact@v4
@@ -39,4 +42,5 @@ jobs:
           name: random-exit-research
           path: |
             signals/random_entry_exit_lab.json
+            signals/entry_ablation_lab.json
             signals/random_entry_exit_robustness.json
