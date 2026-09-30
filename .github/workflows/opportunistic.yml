@@ -1,6 +1,10 @@
 name: Warman Opportunistic 10R Watch
 on:
   workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.research-trigger'
   schedule:
     # UTC, offset from the top of the hour to reduce GitHub schedule congestion.
     # After US session: next UTC date permits the preceding completed US daily bar.
