@@ -1,0 +1,230 @@
+{
+  "status": "RESEARCH_ONLY",
+  "hypothesis_version": "random-entry-exit-v1-frozen-2026-09-30",
+  "seed": 1729,
+  "rules": {
+    "entry": "deterministic pseudo-random side every 20 sessions; next-open; no signal features",
+    "stop_atr": 1.5,
+    "horizon_days": 120,
+    "friction_bps": 20,
+    "exit_families": [
+      "fixed5",
+      "fixed10",
+      "trail20",
+      "be2_trail20",
+      "partial3_trail20"
+    ]
+  },
+  "split_dates": {
+    "validation_start": "2022-12-05",
+    "final_test_start": "2024-08-06"
+  },
+  "results": {
+    "fixed5": {
+      "train": {
+        "n": 970,
+        "mean_r": 0.102,
+        "median_r": -1.0,
+        "win_rate": 0.206,
+        "loss_rate": 0.794,
+        "hit3_mfe": 0.282,
+        "hit5_mfe": 0.174,
+        "hit10_mfe": 0.0,
+        "p10_r": -1.065,
+        "p90_r": 4.938
+      },
+      "validation": {
+        "n": 313,
+        "mean_r": -0.055,
+        "median_r": -1.0,
+        "win_rate": 0.173,
+        "loss_rate": 0.827,
+        "hit3_mfe": 0.259,
+        "hit5_mfe": 0.16,
+        "hit10_mfe": 0.003,
+        "p10_r": -1.028,
+        "p90_r": 4.925
+      },
+      "final_test": {
+        "n": 315,
+        "mean_r": 0.252,
+        "median_r": -1.0,
+        "win_rate": 0.232,
+        "loss_rate": 0.768,
+        "hit3_mfe": 0.298,
+        "hit5_mfe": 0.203,
+        "hit10_mfe": 0.0,
+        "p10_r": -1.057,
+        "p90_r": 4.939
+      }
+    },
+    "fixed10": {
+      "train": {
+        "n": 970,
+        "mean_r": 0.123,
+        "median_r": -1.0,
+        "win_rate": 0.165,
+        "loss_rate": 0.835,
+        "hit3_mfe": 0.282,
+        "hit5_mfe": 0.174,
+        "hit10_mfe": 0.055,
+        "p10_r": -1.077,
+        "p90_r": 4.471
+      },
+      "validation": {
+        "n": 313,
+        "mean_r": 0.094,
+        "median_r": -1.0,
+        "win_rate": 0.15,
+        "loss_rate": 0.85,
+        "hit3_mfe": 0.259,
+        "hit5_mfe": 0.16,
+        "hit10_mfe": 0.058,
+        "p10_r": -1.049,
+        "p90_r": 4.504
+      },
+      "final_test": {
+        "n": 315,
+        "mean_r": 0.319,
+        "median_r": -1.0,
+        "win_rate": 0.184,
+        "loss_rate": 0.816,
+        "hit3_mfe": 0.298,
+        "hit5_mfe": 0.203,
+        "hit10_mfe": 0.067,
+        "p10_r": -1.077,
+        "p90_r": 5.557
+      }
+    },
+    "trail20": {
+      "train": {
+        "n": 970,
+        "mean_r": 0.178,
+        "median_r": -1.0,
+        "win_rate": 0.287,
+        "loss_rate": 0.713,
+        "hit3_mfe": 0.255,
+        "hit5_mfe": 0.125,
+        "hit10_mfe": 0.036,
+        "p10_r": -1.015,
+        "p90_r": 2.792
+      },
+      "validation": {
+        "n": 313,
+        "mean_r": 0.234,
+        "median_r": -1.0,
+        "win_rate": 0.284,
+        "loss_rate": 0.716,
+        "hit3_mfe": 0.246,
+        "hit5_mfe": 0.131,
+        "hit10_mfe": 0.035,
+        "p10_r": -1.0,
+        "p90_r": 2.815
+      },
+      "final_test": {
+        "n": 315,
+        "mean_r": 0.577,
+        "median_r": -1.0,
+        "win_rate": 0.279,
+        "loss_rate": 0.721,
+        "hit3_mfe": 0.267,
+        "hit5_mfe": 0.175,
+        "hit10_mfe": 0.044,
+        "p10_r": -1.034,
+        "p90_r": 3.652
+      }
+    },
+    "be2_trail20": {
+      "train": {
+        "n": 970,
+        "mean_r": 0.17,
+        "median_r": -1.0,
+        "win_rate": 0.276,
+        "loss_rate": 0.724,
+        "hit3_mfe": 0.244,
+        "hit5_mfe": 0.121,
+        "hit10_mfe": 0.033,
+        "p10_r": -1.003,
+        "p90_r": 2.7
+      },
+      "validation": {
+        "n": 313,
+        "mean_r": 0.274,
+        "median_r": -1.0,
+        "win_rate": 0.284,
+        "loss_rate": 0.716,
+        "hit3_mfe": 0.246,
+        "hit5_mfe": 0.131,
+        "hit10_mfe": 0.035,
+        "p10_r": -1.0,
+        "p90_r": 2.815
+      },
+      "final_test": {
+        "n": 315,
+        "mean_r": 0.587,
+        "median_r": -1.0,
+        "win_rate": 0.27,
+        "loss_rate": 0.73,
+        "hit3_mfe": 0.263,
+        "hit5_mfe": 0.168,
+        "hit10_mfe": 0.041,
+        "p10_r": -1.026,
+        "p90_r": 3.555
+      }
+    },
+    "partial3_trail20": {
+      "train": {
+        "n": 970,
+        "mean_r": 0.149,
+        "median_r": -1.0,
+        "win_rate": 0.309,
+        "loss_rate": 0.691,
+        "hit3_mfe": 0.255,
+        "hit5_mfe": 0.125,
+        "hit10_mfe": 0.036,
+        "p10_r": -1.005,
+        "p90_r": 2.896
+      },
+      "validation": {
+        "n": 313,
+        "mean_r": 0.163,
+        "median_r": -1.0,
+        "win_rate": 0.307,
+        "loss_rate": 0.693,
+        "hit3_mfe": 0.246,
+        "hit5_mfe": 0.131,
+        "hit10_mfe": 0.035,
+        "p10_r": -1.0,
+        "p90_r": 2.908
+      },
+      "final_test": {
+        "n": 315,
+        "mean_r": 0.358,
+        "median_r": -1.0,
+        "win_rate": 0.317,
+        "loss_rate": 0.683,
+        "hit3_mfe": 0.267,
+        "hit5_mfe": 0.171,
+        "hit10_mfe": 0.041,
+        "p10_r": -1.034,
+        "p90_r": 3.278
+      }
+    }
+  },
+  "note": "Control experiment for entry-vs-exit attribution. Exit family frozen before results. Final test is descriptive and must not be used to tune v1.",
+  "research_contract": {
+    "schema_version": 1,
+    "engine": "random_entry_exit_lab",
+    "dataset": {
+      "manifest_sha256": "e14a86d0ce7d6cde572ab146ac7ffa7876c4d40ddc285fa1fcc1f9ac9c3b9abf",
+      "manifest_bytes": 27550
+    },
+    "model_version": "exit-v1-frozen-2026-09-30",
+    "reproducibility": {
+      "pythonhashseed": "0",
+      "random_seed": 1729
+    },
+    "execution": "BLOCKED_RESEARCH_ONLY",
+    "human_approval_required": true
+  }
+}
