@@ -26,8 +26,10 @@ jobs:
         run: python collector.py
       - name: Validate data fail closed
         run: python validate.py output
-      - name: Build broad US equity universe
-        run: python stock_picker_universe.py --out output/us_universe_current.json
+      - name: Build broad US and Swedish equity universes
+        run: |
+          python stock_picker_universe.py --region us --out output/us_universe_current.json
+          python stock_picker_universe.py --region se --out output/se_universe_current.json
       - name: Validate broad universe
         run: |
           python - <<'PY'
@@ -35,6 +37,9 @@ jobs:
           d=json.load(open('output/us_universe_current.json'))
           assert d['count'] >= 3000, f"universe unexpectedly small: {d['count']}"
           print('US universe',d['count'])
+          s=json.load(open('output/se_universe_current.json'))
+          assert s['count'] >= 100, f"Swedish universe unexpectedly small: {s['count']}"
+          print('Swedish universe',s['count'])
           PY
       - name: Fetch point-in-time SEC fundamentals
         continue-on-error: true
@@ -56,7 +61,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add signals/stock_picker_price_v1.json output/manifest.json output/sec_point_in_time.json output/us_universe_current.json output/*.csv || true
+          git add signals/stock_picker_price_v1.json output/manifest.json output/sec_point_in_time.json output/us_universe_current.json output/se_universe_current.json output/*.csv || true
           git diff --cached --quiet || git commit -m "Update Stock Picker research output"
           git push
       - uses: actions/upload-artifact@v4
@@ -66,3 +71,4 @@ jobs:
             signals/stock_picker_price_v1.json
             output/sec_point_in_time.json
             output/us_universe_current.json
+            output/se_universe_current.json
