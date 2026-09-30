@@ -52,7 +52,10 @@ jobs:
         run: python cross_asset_vol_research.py --folder output --result signals/cross_asset_vol.json
       - name: VIX and SP500 extreme regime research
         run: python vix_extreme_research.py --folder output --result signals/vix_extremes.json
-      - name: Cross-asset macro combination 10R study\n        if: github.event_name == 'workflow_dispatch' || github.event.schedule == '37 0 * * 2-6'\n        run: python macro_combo_study.py --folder output --result signals/macro_combo_study.json\n      - name: Hourly research sample gate
+      - name: Cross-asset macro combination 10R study
+        if: github.event_name == 'workflow_dispatch' || github.event.schedule == '37 0 * * 2-6'
+        run: python macro_combo_study.py --folder output --result signals/macro_combo_study.json
+      - name: Hourly research sample gate
         if: github.event_name == 'workflow_dispatch' || github.event.schedule == '37 0 * * 2-6'
         run: python intraday_10r_study.py --folder output --result signals/intraday_10r_study.json
       - name: Completed-hour intraday gap and reversal watch
