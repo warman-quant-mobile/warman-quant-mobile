@@ -1,0 +1,32 @@
+name: Warman Stock Picker Robustness
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'stock_picker_adversarial_audit_v1.py'
+      - '.github/workflows/stock-picker-robustness.yml'
+permissions:
+  actions: read
+  contents: read
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/download-artifact@v4
+        with:
+          name: stock-picker-final
+          run-id: 36858689442
+          github-token: ${{ github.token }}
+          path: final
+      - uses: actions/download-artifact@v4
+        with:
+          name: stock-picker-final-holdout
+          run-id: 36861678143
+          github-token: ${{ github.token }}
+          path: holdout
+      - run: python stock_picker_adversarial_audit_v1.py --research final/stock_picker_portfolio_validation_v1.json --holdout holdout/stock_picker_final_holdout_v1.json --out stock_picker_adversarial_audit_v1.json
+      - uses: actions/upload-artifact@v4
+        with:
+          name: stock-picker-robustness
+          path: stock_picker_adversarial_audit_v1.json
