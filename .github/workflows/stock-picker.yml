@@ -71,6 +71,9 @@ jobs:
       - name: US Sweden cross-market ML ranking
         run: python warman_ml_crossmarket_v1.py --us output/us_universe_current.json --se output/se_universe_current.json --out signals/warman_ml_crossmarket_v1.json
 
+      - name: Leakage-safe portfolio wealth validation
+        run: python stock_picker_portfolio_validation_v1.py --pit output/sec_point_in_time_broad.json --out signals/stock_picker_portfolio_validation_v1.json
+
       - name: Tenbagger historical PIT pilot
         if: hashFiles('output/sec_point_in_time.json') != ''
         run: python tenbagger_pit_pilot_v1.py --pit output/sec_point_in_time.json --out signals/tenbagger_pit_pilot_v1.json
@@ -92,6 +95,8 @@ jobs:
             signals/stock_picker_prototype_v1.json
             signals/stock_picker_prototype_v2.json
             signals/winner_funnel_v1.json
+            signals/stock_picker_portfolio_validation_v1.json
+            signals/warman_ml_crossmarket_v1.json
             signals/tenbagger_pit_pilot_v1.json
             output/sec_point_in_time.json
             output/sec_point_in_time_broad.json
