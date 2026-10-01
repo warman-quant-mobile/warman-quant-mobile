@@ -9,7 +9,9 @@ TAGS={
  "net_income":["NetIncomeLoss"],
  "assets":["Assets"],"equity":["StockholdersEquity","StockholdersEquityIncludingPortionAttributableToNoncontrollingInterest"],
  "cash":["CashAndCashEquivalentsAtCarryingValue"],"cfo":["NetCashProvidedByUsedInOperatingActivities"],
- "capex":["PaymentsToAcquirePropertyPlantAndEquipment"],"shares":["CommonStockSharesOutstanding"]
+ "capex":["PaymentsToAcquirePropertyPlantAndEquipment"],"shares":["CommonStockSharesOutstanding","WeightedAverageNumberOfDilutedSharesOutstanding"],
+ "gross_profit":["GrossProfit"],"operating_income":["OperatingIncomeLoss"],
+ "debt":["LongTermDebtAndFinanceLeaseObligationsCurrent","LongTermDebtCurrent","LongTermDebtNoncurrent","LongTermDebt","DebtCurrent"]
 }
 def get(url):
  last=None
