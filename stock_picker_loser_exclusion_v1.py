@@ -48,11 +48,13 @@ def main():
  for model in ["bad","valbad","bad_plus_value"]:
   out["results"][model]={}
   for cut in [.05,.10,.20,.30,.40,.50]:
-  rs=[];cap={2:[],3:[],5:[]};dr=[]
-  for _,g in df.groupby("year"):
-   n=max(1,int(len(g)*cut));drop=set(g.nlargest(n,"bad").index);keep=g.loc[~g.index.isin(drop)];rs.append(float(keep.ret.mean()-.005));dr.append(float(g.loc[list(drop)].ret.mean()))
-   for m in [2,3,5]:
-    win=set(g.index[g.ret>=m-1]);cap[m].append(1.0 if not win else len(win-drop)/len(win))
-  pp=wealth(rs);out["results"][f"exclude_{int(cut*100)}pct"]={"cagr":pp["cagr"],"active_cagr":pp["cagr"]-bp["cagr"],"terminal_multiple":pp["terminal_multiple"],"avg_removed_return":float(np.mean(dr)),"winner_capture_2x":float(np.mean(cap[2])),"winner_capture_3x":float(np.mean(cap[3])),"winner_capture_5x":float(np.mean(cap[5]))}
+   rs=[];cap={2:[],3:[],5:[]};dr=[]
+   for _,g in df.groupby("year"):
+    n=max(1,int(len(g)*cut));drop=set(g.nlargest(n,model).index);keep=g.loc[~g.index.isin(drop)]
+    rs.append(float(keep.ret.mean()-.005));dr.append(float(g.loc[list(drop)].ret.mean()))
+    for m in [2,3,5]:
+     win=set(g.index[g.ret>=m-1]);cap[m].append(1.0 if not win else len(win-drop)/len(win))
+   pp=wealth(rs)
+   out["results"][model][f"exclude_{int(cut*100)}pct"]={"cagr":pp["cagr"],"active_cagr":pp["cagr"]-bp["cagr"],"terminal_multiple":pp["terminal_multiple"],"avg_removed_return":float(np.mean(dr)),"winner_capture_2x":float(np.mean(cap[2])),"winner_capture_3x":float(np.mean(cap[3])),"winner_capture_5x":float(np.mean(cap[5]))}
  Path(a.out).write_text(json.dumps(out,indent=2)+"\n");print(json.dumps(out))
 if __name__=="__main__":main()
