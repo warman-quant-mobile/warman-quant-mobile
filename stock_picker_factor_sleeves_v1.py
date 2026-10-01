@@ -56,3 +56,5 @@ def main():
    ps,pb,pw=perf(s),perf(b),perf(wo);out["results"][fac][f"top{k}"]={"cagr":ps["cagr"],"active_cagr":ps["cagr"]-pb["cagr"],"winner_removed_cagr":pw["cagr"],"winner_removed_active":pw["cagr"]-pb["cagr"]}
  Path(a.out).write_text(json.dumps(out,indent=2)+"\n");print(json.dumps(out))
 if __name__=="__main__":main()
+
+# trigger
