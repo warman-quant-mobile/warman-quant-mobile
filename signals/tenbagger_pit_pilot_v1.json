@@ -1,0 +1,1677 @@
+{
+  "status": "DIAGNOSTIC_PIT_PILOT_NOT_VALIDATION",
+  "universe": "six large US control companies; survivor biased",
+  "rule": "facts usable only after SEC filed date; price data through ranking date",
+  "summary": {
+    "3y_2x": {
+      "base_rate": 0.6296296296296297,
+      "top2_rate": 0.6666666666666666,
+      "lift": 1.0588235294117647,
+      "n": 54
+    },
+    "3y_3x": {
+      "base_rate": 0.3148148148148148,
+      "top2_rate": 0.3333333333333333,
+      "lift": 1.0588235294117647,
+      "n": 54
+    },
+    "3y_5x": {
+      "base_rate": 0.14814814814814814,
+      "top2_rate": 0.1111111111111111,
+      "lift": 0.75,
+      "n": 54
+    },
+    "3y_10x": {
+      "base_rate": 0.05555555555555555,
+      "top2_rate": 0.0,
+      "lift": 0.0,
+      "n": 54
+    },
+    "5y_2x": {
+      "base_rate": 0.9259259259259259,
+      "top2_rate": 1.0,
+      "lift": 1.08,
+      "n": 54
+    },
+    "5y_3x": {
+      "base_rate": 0.7037037037037037,
+      "top2_rate": 0.7777777777777778,
+      "lift": 1.1052631578947367,
+      "n": 54
+    },
+    "5y_5x": {
+      "base_rate": 0.42592592592592593,
+      "top2_rate": 0.3888888888888889,
+      "lift": 0.9130434782608696,
+      "n": 54
+    },
+    "5y_10x": {
+      "base_rate": 0.2037037037037037,
+      "top2_rate": 0.16666666666666666,
+      "lift": 0.8181818181818182,
+      "n": 54
+    }
+  },
+  "rows": [
+    {
+      "cik": "789019",
+      "ticker": "MSFT",
+      "date": "2013-06-30",
+      "price": 28.0646,
+      "quality_roa_proxy": 0.04515118750233026,
+      "fcf": 8736000000.0,
+      "momentum_12m": 0.179734288286169,
+      "labels": {
+        "3y": {
+          "max_multiple": 1.763,
+          "terminal_multiple": 1.609,
+          "2x": false,
+          "3x": false,
+          "5x": false,
+          "10x": false
+        },
+        "5y": {
+          "max_multiple": 3.368,
+          "terminal_multiple": 3.24,
+          "2x": true,
+          "3x": true,
+          "5x": false,
+          "10x": false
+        }
+      },
+      "quality_roa_proxy_pct": 0.8333333333333334,
+      "momentum_12m_pct": 0.6666666666666666,
+      "pilot_score": 0.75
+    },
+    {
+      "cik": "1318605",
+      "ticker": "TSLA",
+      "date": "2013-06-30",
+      "price": 7.1573,
+      "quality_roa_proxy": 0.009834076193107404,
+      "fcf": 6352000.0,
+      "momentum_12m": 2.3591983139124046,
+      "labels": {
+        "3y": {
+          "max_multiple": 2.664,
+          "terminal_multiple": 1.977,
+          "2x": true,
+          "3x": false,
+          "5x": false,
+          "10x": false
+        },
+        "5y": {
+          "max_multiple": 3.586,
+          "terminal_multiple": 3.194,
+          "2x": true,
+          "3x": true,
+          "5x": false,
+          "10x": false
+        }
+      },
+      "quality_roa_proxy_pct": 0.3333333333333333,
+      "momentum_12m_pct": 1.0,
+      "pilot_score": 0.6666666666666666
+    },
+    {
+      "cik": "320193",
+      "ticker": "AAPL",
+      "date": "2013-06-30",
+      "price": 12.1148,
+      "quality_roa_proxy": 0.049023584929881944,
+      "fcf": NaN,
+      "momentum_12m": -0.2949580075390068,
+      "labels": {
+        "3y": {
+          "max_multiple": 2.438,
+          "terminal_multiple": 1.795,
+          "2x": true,
+          "3x": false,
+          "5x": false,
+          "10x": false
+        },
+        "5y": {
+          "max_multiple": 3.769,
+          "terminal_multiple": 3.597,
+          "2x": true,
+          "3x": true,
+          "5x": false,
+          "10x": false
+        }
+      },
+      "quality_roa_proxy_pct": 1.0,
+      "momentum_12m_pct": 0.16666666666666666,
+      "pilot_score": 0.5833333333333334
+    },
+    {
+      "cik": "1045810",
+      "ticker": "NVDA",
+      "date": "2013-06-30",
+      "price": 0.3268,
+      "quality_roa_proxy": 0.012403959724992026,
+      "fcf": 109983000.0,
+      "momentum_12m": 0.08748044723379,
+      "labels": {
+        "3y": {
+          "max_multiple": 3.634,
+          "terminal_multiple": 3.523,
+          "2x": true,
+          "3x": true,
+          "5x": false,
+          "10x": false
+        },
+        "5y": {
+          "max_multiple": 20.172,
+          "terminal_multiple": 17.904,
+          "2x": true,
+          "3x": true,
+          "5x": true,
+          "10x": true
+        }
+      },
+      "quality_roa_proxy_pct": 0.5,
+      "momentum_12m_pct": 0.5,
+      "pilot_score": 0.5
+    },
+    {
+      "cik": "1018724",
+      "ticker": "AMZN",
+      "date": "2013-06-30",
+      "price": 13.8845,
+      "quality_roa_proxy": 0.002889664164640378,
+      "fcf": -3042000000.0,
+      "momentum_12m": 0.23078622292730744,
+      "labels": {
+        "3y": {
+          "max_multiple": 2.622,
+          "terminal_multiple": 2.577,
+          "2x": true,
+          "3x": false,
+          "5x": false,
+          "10x": false
+        },
+        "5y": {
+          "max_multiple": 6.302,
+          "terminal_multiple": 6.121,
+          "2x": true,
+          "3x": true,
+          "5x": true,
+          "10x": false
+        }
+      },
+      "quality_roa_proxy_pct": 0.16666666666666666,
+      "momentum_12m_pct": 0.8333333333333334,
+      "pilot_score": 0.5
+    },
+    {
+      "cik": "1326801",
+      "ticker": "META",
+      "date": "2013-06-30",
+      "price": 24.644,
+      "quality_roa_proxy": 0.014443052166457825,
+      "fcf": 392000000.0,
+      "momentum_12m": -0.22804834295693588,
+      "labels": {
+        "3y": {
+          "max_multiple": 4.843,
+          "terminal_multiple": 4.593,
+          "2x": true,
+          "3x": true,
+          "5x": false,
+          "10x": false
+        },
+        "5y": {
+          "max_multiple": 8.119,
+          "terminal_multiple": 7.81,
+          "2x": true,
+          "3x": true,
+          "5x": true,
+          "10x": false
+        }
+      },
+      "quality_roa_proxy_pct": 0.6666666666666666,
+      "momentum_12m_pct": 0.3333333333333333,
+      "pilot_score": 0.5
+    },
+    {
+      "cik": "320193",
+      "ticker": "AAPL",
+      "date": "2014-06-30",
+      "price": 20.3559,
+      "quality_roa_proxy": 0.04962886367718665,
+      "fcf": NaN,
+      "momentum_12m": 0.6281498163360391,
+      "labels": {
+        "3y": {
+          "max_multiple": 1.778,
+          "terminal_multiple": 1.64,
+          "2x": false,
+          "3x": false,
+          "5x": false,
+          "10x": false
+        },
+        "5y": {
+          "max_multiple": 2.693,
+          "terminal_multiple": 2.324,
+          "2x": true,
+          "3x": false,
+          "5x": false,
+          "10x": false
+        }
+      },
+      "quality_roa_proxy_pct": 1.0,
+      "momentum_12m_pct": 0.6666666666666666,
+      "pilot_score": 0.8333333333333333
+    },
+    {
+      "cik": "1326801",
+      "ticker": "META",
+      "date": "2014-06-30",
+      "price": 66.6516,
+      "quality_roa_proxy": 0.033739751944502835,
+      "fcf": 922000000.0,
+      "momentum_12m": 1.712213051288308,
+      "labels": {
+        "3y": {
+          "max_multiple": 2.305,
+          "terminal_multiple": 2.244,
+          "2x": true,
+          "3x": false,
+          "5x": false,
+          "10x": false
+        },
+        "5y": {
+          "max_multiple": 3.232,
+          "terminal_multiple": 2.868,
+          "2x": true,
+          "3x": true,
+          "5x": false,
+          "10x": false
+        }
+      },
+      "quality_roa_proxy_pct": 0.6666666666666666,
+      "momentum_12m_pct": 1.0,
+      "pilot_score": 0.8333333333333333
+    },
+    {
+      "cik": "789019",
+      "ticker": "MSFT",
+      "date": "2014-06-30",
+      "price": 34.8819,
+      "quality_roa_proxy": 0.03625439568534259,
+      "fcf": 27641000000.0,
+      "momentum_12m": 0.24942695896820566,
+      "labels": {
+        "3y": {
+          "max_multiple": 1.881,
+          "terminal_multiple": 1.787,
+          "2x": false,
+          "3x": false,
+          "5x": false,
+          "10x": false
+        },
+        "5y": {
+          "max_multiple": 3.702,
+          "terminal_multiple": 3.599,
+          "2x": true,
+          "3x": true,
+          "5x": false,
+          "10x": false
+        }
+      },
+      "quality_roa_proxy_pct": 0.8333333333333334,
+      "momentum_12m_pct": 0.3333333333333333,
+      "pilot_score": 0.5833333333333334
+    },
+    {
+      "cik": "1045810",
+      "ticker": "NVDA",
+      "date": "2014-06-30",
+      "price": 0.44,
+      "quality_roa_proxy": 0.01988677375713855,
+      "fcf": 121954000.0,
+      "momentum_12m": 0.340827071069677,
+      "labels": {
+        "3y": {
+          "max_multiple": 8.952,
+          "terminal_multiple": 8.091,
+          "2x": true,
+          "3x": true,
+          "5x": true,
+          "10x": false
+        },
+        "5y": {
+          "max_multiple": 16.25,
+          "terminal_multiple": 9.252,
+          "2x": true,
+          "3x": true,
+          "5x": true,
+          "10x": true
+        }
+      },
+      "quality_roa_proxy_pct": 0.5,
+      "momentum_12m_pct": 0.5,
+      "pilot_score": 0.5
+    },
+    {
+      "cik": "1318605",
+      "ticker": "TSLA",
+      "date": "2014-06-30",
+      "price": 16.004,
+      "quality_roa_proxy": -0.011065658462228997,
+      "fcf": -80724000.0,
+      "momentum_12m": 1.0486431290675289,
+      "labels": {
+        "3y": {
+          "max_multiple": 1.597,
+          "terminal_multiple": 1.506,
+          "2x": false,
+          "3x": false,
+          "5x": false,
+          "10x": false
+        },
+        "5y": {
+          "max_multiple": 1.604,
+          "terminal_multiple": 0.931,
+          "2x": false,
+          "3x": false,
+          "5x": false,
+          "10x": false
+        }
+      },
+      "quality_roa_proxy_pct": 0.16666666666666666,
+      "momentum_12m_pct": 0.8333333333333334,
+      "pilot_score": 0.5
+    },
+    {
+      "cik": "1018724",
+      "ticker": "AMZN",
+      "date": "2014-06-30",
+      "price": 16.239,
+      "quality_roa_proxy": 0.002969970300296997,
+      "fcf": -3582000000.0,
+      "momentum_12m": 0.1512939275047931,
+      "labels": {
+        "3y": {
+          "max_multiple": 3.114,
+          "terminal_multiple": 2.98,
+          "2x": true,
+          "3x": true,
+          "5x": false,
+          "10x": false
+        },
+        "5y": {
+          "max_multiple": 6.28,
+          "terminal_multiple": 5.831,
+          "2x": true,
+          "3x": true,
+          "5x": true,
+          "10x": false
+        }
+      },
+      "quality_roa_proxy_pct": 0.3333333333333333,
+      "momentum_12m_pct": 0.16666666666666666,
+      "pilot_score": 0.25
+    },
+    {
+      "cik": "320193",
+      "ticker": "AAPL",
+      "date": "2015-06-30",
+      "price": 27.957,
+      "quality_roa_proxy": 0.05194989165141619,
+      "fcf": 17084000000.0,
+      "momentum_12m": 0.36474575482128935,
+      "labels": {
+        "3y": {
+          "max_multiple": 1.633,
+          "terminal_multiple": 1.559,
+          "2x": false,
+          "3x": false,
+          "5x": false,
+          "10x": false
+        },
+        "5y": {
+          "max_multiple": 3.171,
+          "terminal_multiple": 3.156,
+          "2x": true,
+          "3x": true,
+          "5x": false,
+          "10x": false
+        }
+      },
+      "quality_roa_proxy_pct": 1.0,
+      "momentum_12m_pct": 1.0,
+      "pilot_score": 1.0
+    },
+    {
+      "cik": "1018724",
+      "ticker": "AMZN",
+      "date": "2015-06-30",
+      "price": 21.7045,
+      "quality_roa_proxy": -0.0011382925611582626,
+      "fcf": -2370000000.0,
+      "momentum_12m": 0.3059659577359204,
+      "labels": {
+        "3y": {
+          "max_multiple": 4.032,
+          "terminal_multiple": 3.916,
+          "2x": true,
+          "3x": true,
+          "5x": false,
+          "10x": false
+        },
+        "5y": {
+          "max_multiple": 6.368,
+          "terminal_multiple": 6.355,
+          "2x": true,
+          "3x": true,
+          "5x": true,
+          "10x": false
+        }
+      },
+      "quality_roa_proxy_pct": 0.3333333333333333,
+      "momentum_12m_pct": 0.8333333333333334,
+      "pilot_score": 0.5833333333333334
+    },
+    {
+      "cik": "1326801",
+      "ticker": "META",
+      "date": "2015-06-30",
+      "price": 84.9563,
+      "quality_roa_proxy": 0.012188444783012354,
+      "fcf": 1198000000.0,
+      "momentum_12m": 0.2602111421603932,
+      "labels": {
+        "3y": {
+          "max_multiple": 2.355,
+          "terminal_multiple": 2.266,
+          "2x": true,
+          "3x": false,
+          "5x": false,
+          "10x": false
+        },
+        "5y": {
+          "max_multiple": 2.824,
+          "terminal_multiple": 2.647,
+          "2x": true,
+          "3x": false,
+          "5x": false,
+          "10x": false
+        }
+      },
+      "quality_roa_proxy_pct": 0.5,
+      "momentum_12m_pct": 0.6666666666666666,
+      "pilot_score": 0.5833333333333333
+    },
+    {
+      "cik": "789019",
+      "ticker": "MSFT",
+      "date": "2015-06-30",
+      "price": 37.9073,
+      "quality_roa_proxy": 0.028214372633473508,
+      "fcf": 27442000000.0,
+      "momentum_12m": 0.08231971405583893,
+      "labels": {
+        "3y": {
+          "max_multiple": 2.493,
+          "terminal_multiple": 2.399,
+          "2x": true,
+          "3x": false,
+          "5x": false,
+          "10x": false
+        },
+        "5y": {
+          "max_multiple": 5.093,
+          "terminal_multiple": 5.093,
+          "2x": true,
+          "3x": true,
+          "5x": true,
+          "10x": false
+        }
+      },
+      "quality_roa_proxy_pct": 0.8333333333333334,
+      "momentum_12m_pct": 0.16666666666666666,
+      "pilot_score": 0.5
+    },
+    {
+      "cik": "1045810",
+      "ticker": "NVDA",
+      "date": "2015-06-30",
+      "price": 0.4855,
+      "quality_roa_proxy": 0.018378823206693182,
+      "fcf": 216000000.0,
+      "momentum_12m": 0.09102928351096207,
+      "labels": {
+        "3y": {
+          "max_multiple": 13.577,
+          "terminal_multiple": 12.05,
+          "2x": true,
+          "3x": true,
+          "5x": true,
+          "10x": true
+        },
+        "5y": {
+          "max_multiple": 19.51,
+          "terminal_multiple": 19.451,
+          "2x": true,
+          "3x": true,
+          "5x": true,
+          "10x": true
+        }
+      },
+      "quality_roa_proxy_pct": 0.6666666666666666,
+      "momentum_12m_pct": 0.3333333333333333,
+      "pilot_score": 0.5
+    },
+    {
+      "cik": "1318605",
+      "ticker": "TSLA",
+      "date": "2015-06-30",
+      "price": 17.884,
+      "quality_roa_proxy": -0.02519285036184463,
+      "fcf": -365420000.0,
+      "momentum_12m": 0.1190556523405859,
+      "labels": {
+        "3y": {
+          "max_multiple": 1.435,
+          "terminal_multiple": 1.278,
+          "2x": false,
+          "3x": false,
+          "5x": false,
+          "10x": false
+        },
+        "5y": {
+          "max_multiple": 4.025,
+          "terminal_multiple": 4.025,
+          "2x": true,
+          "3x": true,
+          "5x": false,
+          "10x": false
+        }
+      },
+      "quality_roa_proxy_pct": 0.16666666666666666,
+      "momentum_12m_pct": 0.5,
+      "pilot_score": 0.3333333333333333
+    },
+    {
+      "cik": "1045810",
+      "ticker": "NVDA",
+      "date": "2016-06-30",
+      "price": 1.1512,
+      "quality_roa_proxy": 0.027574563871693866,
+      "fcf": 254000000.0,
+      "momentum_12m": 1.3351217883195705,
+      "labels": {
+        "3y": {
+          "max_multiple": 6.211,
+          "terminal_multiple": 3.536,
+          "2x": true,
+          "3x": true,
+          "5x": true,
+          "10x": false
+        },
+        "5y": {
+          "max_multiple": 17.318,
+          "terminal_multiple": 17.297,
+          "2x": true,
+          "3x": true,
+          "5x": true,
+          "10x": true
+        }
+      },
+      "quality_roa_proxy_pct": 0.6666666666666666,
+      "momentum_12m_pct": 1.0,
+      "pilot_score": 0.8333333333333333
+    },
+    {
+      "cik": "1326801",
+      "ticker": "META",
+      "date": "2016-06-30",
+      "price": 113.1958,
+      "quality_roa_proxy": 0.02899663946231397,
+      "fcf": 1851000000.0,
+      "momentum_12m": 0.309198998229377,
+      "labels": {
+        "3y": {
+          "max_multiple": 1.903,
+          "terminal_multiple": 1.689,
+          "2x": false,
+          "3x": false,
+          "5x": false,
+          "10x": false
+        },
+        "5y": {
+          "max_multiple": 3.112,
+          "terminal_multiple": 3.043,
+          "2x": true,
+          "3x": true,
+          "5x": false,
+          "10x": false
+        }
+      },
+      "quality_roa_proxy_pct": 0.8333333333333334,
+      "momentum_12m_pct": 0.6666666666666666,
+      "pilot_score": 0.75
+    },
+    {
+      "cik": "320193",
+      "ticker": "AAPL",
+      "date": "2016-06-30",
+      "price": 21.7445,
+      "quality_roa_proxy": 0.03444740350566862,
+      "fcf": 16722000000.0,
+      "momentum_12m": -0.22842868329275956,
+      "labels": {
+        "3y": {
+          "max_multiple": 2.521,
+          "terminal_multiple": 2.175,
+          "2x": true,
+          "3x": false,
+          "5x": false,
+          "10x": false
+        },
+        "5y": {
+          "max_multiple": 6.392,
+          "terminal_multiple": 6.134,
+          "2x": true,
+          "3x": true,
+          "5x": true,
+          "10x": false
+        }
+      },
+      "quality_roa_proxy_pct": 1.0,
+      "momentum_12m_pct": 0.3333333333333333,
+      "pilot_score": 0.6666666666666666
+    },
+    {
+      "cik": "1018724",
+      "ticker": "AMZN",
+      "date": "2016-06-30",
+      "price": 35.781,
+      "quality_roa_proxy": 0.008392226148409895,
+      "fcf": -3339000000.0,
+      "momentum_12m": 0.6349180189998436,
+      "labels": {
+        "3y": {
+          "max_multiple": 2.85,
+          "terminal_multiple": 2.646,
+          "2x": true,
+          "3x": false,
+          "5x": false,
+          "10x": false
+        },
+        "5y": {
+          "max_multiple": 4.935,
+          "terminal_multiple": 4.807,
+          "2x": true,
+          "3x": true,
+          "5x": false,
+          "10x": false
+        }
+      },
+      "quality_roa_proxy_pct": 0.3333333333333333,
+      "momentum_12m_pct": 0.8333333333333334,
+      "pilot_score": 0.5833333333333334
+    },
+    {
+      "cik": "789019",
+      "ticker": "MSFT",
+      "date": "2016-06-30",
+      "price": 45.1558,
+      "quality_roa_proxy": 0.020652227702357192,
+      "fcf": 26525000000.0,
+      "momentum_12m": 0.18450952754435246,
+      "labels": {
+        "3y": {
+          "max_multiple": 2.86,
+          "terminal_multiple": 2.78,
+          "2x": true,
+          "3x": false,
+          "5x": false,
+          "10x": false
+        },
+        "5y": {
+          "max_multiple": 5.757,
+          "terminal_multiple": 5.747,
+          "2x": true,
+          "3x": true,
+          "5x": true,
+          "10x": false
+        }
+      },
+      "quality_roa_proxy_pct": 0.5,
+      "momentum_12m_pct": 0.5,
+      "pilot_score": 0.5
+    },
+    {
+      "cik": "1318605",
+      "ticker": "TSLA",
+      "date": "2016-06-30",
+      "price": 14.152,
+      "quality_roa_proxy": -0.03070889373915734,
+      "fcf": -156219000.0,
+      "momentum_12m": -0.24191123942110104,
+      "labels": {
+        "3y": {
+          "max_multiple": 1.814,
+          "terminal_multiple": 1.053,
+          "2x": false,
+          "3x": false,
+          "5x": false,
+          "10x": false
+        },
+        "5y": {
+          "max_multiple": 20.8,
+          "terminal_multiple": 16.01,
+          "2x": true,
+          "3x": true,
+          "5x": true,
+          "10x": true
+        }
+      },
+      "quality_roa_proxy_pct": 0.16666666666666666,
+      "momentum_12m_pct": 0.16666666666666666,
+      "pilot_score": 0.16666666666666666
+    },
+    {
+      "cik": "1045810",
+      "ticker": "NVDA",
+      "date": "2017-06-30",
+      "price": 3.56,
+      "quality_roa_proxy": 0.0538788522848034,
+      "fcf": 228000000.0,
+      "momentum_12m": 2.1157147215235463,
+      "labels": {
+        "3y": {
+          "max_multiple": 2.661,
+          "terminal_multiple": 2.653,
+          "2x": true,
+          "3x": false,
+          "5x": false,
+          "10x": false
+        },
+        "5y": {
+          "max_multiple": 9.334,
+          "terminal_multiple": 4.242,
+          "2x": true,
+          "3x": true,
+          "5x": true,
+          "10x": false
+        }
+      },
+      "quality_roa_proxy_pct": 1.0,
+      "momentum_12m_pct": 1.0,
+      "pilot_score": 1.0
+    },
+    {
+      "cik": "320193",
+      "ticker": "AAPL",
+      "date": "2017-06-30",
+      "price": 33.3852,
+      "quality_roa_proxy": 0.03296844547008956,
+      "fcf": 33270000000.0,
+      "momentum_12m": 0.5306915414275359,
+      "labels": {
+        "3y": {
+          "max_multiple": 2.655,
+          "terminal_multiple": 2.643,
+          "2x": true,
+          "3x": false,
+          "5x": false,
+          "10x": false
+        },
+        "5y": {
+          "max_multiple": 5.325,
+          "terminal_multiple": 4.011,
+          "2x": true,
+          "3x": true,
+          "5x": true,
+          "10x": false
+        }
+      },
+      "quality_roa_proxy_pct": 0.6666666666666666,
+      "momentum_12m_pct": 0.6666666666666666,
+      "pilot_score": 0.6666666666666666
+    },
+    {
+      "cik": "789019",
+      "ticker": "MSFT",
+      "date": "2017-06-30",
+      "price": 62.35,
+      "quality_roa_proxy": 0.02133616571192399,
+      "fcf": 27138000000.0,
+      "momentum_12m": 0.38104380051744746,
+      "labels": {
+        "3y": {
+          "max_multiple": 3.097,
+          "terminal_multiple": 3.097,
+          "2x": true,
+          "3x": true,
+          "5x": false,
+          "10x": false
+        },
+        "5y": {
+          "max_multiple": 5.291,
+          "terminal_multiple": 3.978,
+          "2x": true,
+          "3x": true,
+          "5x": true,
+          "10x": false
+        }
+      },
+      "quality_roa_proxy_pct": 0.5,
+      "momentum_12m_pct": 0.5,
+      "pilot_score": 0.5
+    },
+    {
+      "cik": "1326801",
+      "ticker": "META",
+      "date": "2017-06-30",
+      "price": 149.5477,
+      "quality_roa_proxy": 0.04459062199842827,
+      "fcf": 3787000000.0,
+      "momentum_12m": 0.32218248486352885,
+      "labels": {
+        "3y": {
+          "max_multiple": 1.604,
+          "terminal_multiple": 1.504,
+          "2x": false,
+          "3x": false,
+          "5x": false,
+          "10x": false
+        },
+        "5y": {
+          "max_multiple": 2.531,
+          "terminal_multiple": 1.068,
+          "2x": true,
+          "3x": false,
+          "5x": false,
+          "10x": false
+        }
+      },
+      "quality_roa_proxy_pct": 0.8333333333333334,
+      "momentum_12m_pct": 0.16666666666666666,
+      "pilot_score": 0.5
+    },
+    {
+      "cik": "1318605",
+      "ticker": "TSLA",
+      "date": "2017-06-30",
+      "price": 24.1073,
+      "quality_roa_proxy": -0.013182749743491248,
+      "fcf": -491984000.0,
+      "momentum_12m": 0.6702539577428894,
+      "labels": {
+        "3y": {
+          "max_multiple": 2.986,
+          "terminal_multiple": 2.986,
+          "2x": true,
+          "3x": false,
+          "5x": false,
+          "10x": false
+        },
+        "5y": {
+          "max_multiple": 17.006,
+          "terminal_multiple": 9.311,
+          "2x": true,
+          "3x": true,
+          "5x": true,
+          "10x": true
+        }
+      },
+      "quality_roa_proxy_pct": 0.16666666666666666,
+      "momentum_12m_pct": 0.8333333333333334,
+      "pilot_score": 0.5
+    },
+    {
+      "cik": "1018724",
+      "ticker": "AMZN",
+      "date": "2017-06-30",
+      "price": 48.4,
+      "quality_roa_proxy": 0.008941693734639183,
+      "fcf": -3451000000.0,
+      "momentum_12m": 0.3339213150885867,
+      "labels": {
+        "3y": {
+          "max_multiple": 2.856,
+          "terminal_multiple": 2.85,
+          "2x": true,
+          "3x": false,
+          "5x": false,
+          "10x": false
+        },
+        "5y": {
+          "max_multiple": 3.855,
+          "terminal_multiple": 2.194,
+          "2x": true,
+          "3x": true,
+          "5x": false,
+          "10x": false
+        }
+      },
+      "quality_roa_proxy_pct": 0.3333333333333333,
+      "momentum_12m_pct": 0.3333333333333333,
+      "pilot_score": 0.3333333333333333
+    },
+    {
+      "cik": "1045810",
+      "ticker": "NVDA",
+      "date": "2018-06-30",
+      "price": 5.8505,
+      "quality_roa_proxy": 0.10855148342059337,
+      "fcf": 1327000000.0,
+      "momentum_12m": 0.6433840786860479,
+      "labels": {
+        "3y": {
+          "max_multiple": 3.407,
+          "terminal_multiple": 3.403,
+          "2x": true,
+          "3x": true,
+          "5x": false,
+          "10x": false
+        },
+        "5y": {
+          "max_multiple": 7.465,
+          "terminal_multiple": 7.208,
+          "2x": true,
+          "3x": true,
+          "5x": true,
+          "10x": false
+        }
+      },
+      "quality_roa_proxy_pct": 1.0,
+      "momentum_12m_pct": 0.8333333333333334,
+      "pilot_score": 0.9166666666666667
+    },
+    {
+      "cik": "1018724",
+      "ticker": "AMZN",
+      "date": "2018-06-30",
+      "price": 84.99,
+      "quality_roa_proxy": 0.0128915338472009,
+      "fcf": -3652000000.0,
+      "momentum_12m": 0.7559916360400607,
+      "labels": {
+        "3y": {
+          "max_multiple": 2.078,
+          "terminal_multiple": 2.024,
+          "2x": true,
+          "3x": false,
+          "5x": false,
+          "10x": false
+        },
+        "5y": {
+          "max_multiple": 2.195,
+          "terminal_multiple": 1.534,
+          "2x": true,
+          "3x": false,
+          "5x": false,
+          "10x": false
+        }
+      },
+      "quality_roa_proxy_pct": 0.3333333333333333,
+      "momentum_12m_pct": 1.0,
+      "pilot_score": 0.6666666666666666
+    },
+    {
+      "cik": "1326801",
+      "ticker": "META",
+      "date": "2018-06-30",
+      "price": 192.4765,
+      "quality_roa_proxy": 0.05607959975265613,
+      "fcf": 5048000000.0,
+      "momentum_12m": 0.2870578262475032,
+      "labels": {
+        "3y": {
+          "max_multiple": 1.83,
+          "terminal_multiple": 1.789,
+          "2x": false,
+          "3x": false,
+          "5x": false,
+          "10x": false
+        },
+        "5y": {
+          "max_multiple": 1.967,
+          "terminal_multiple": 1.477,
+          "2x": false,
+          "3x": false,
+          "5x": false,
+          "10x": false
+        }
+      },
+      "quality_roa_proxy_pct": 0.8333333333333334,
+      "momentum_12m_pct": 0.3333333333333333,
+      "pilot_score": 0.5833333333333334
+    },
+    {
+      "cik": "320193",
+      "ticker": "AAPL",
+      "date": "2018-06-30",
+      "price": 43.5772,
+      "quality_roa_proxy": 0.037610679669770504,
+      "fcf": 36418000000.0,
+      "momentum_12m": 0.30528734802133806,
+      "labels": {
+        "3y": {
+          "max_multiple": 3.189,
+          "terminal_multiple": 3.061,
+          "2x": true,
+          "3x": true,
+          "5x": false,
+          "10x": false
+        },
+        "5y": {
+          "max_multiple": 4.386,
+          "terminal_multiple": 4.386,
+          "2x": true,
+          "3x": true,
+          "5x": false,
+          "10x": false
+        }
+      },
+      "quality_roa_proxy_pct": 0.6666666666666666,
+      "momentum_12m_pct": 0.5,
+      "pilot_score": 0.5833333333333333
+    },
+    {
+      "cik": "789019",
+      "ticker": "MSFT",
+      "date": "2018-06-30",
+      "price": 90.9382,
+      "quality_roa_proxy": 0.030240695405646504,
+      "fcf": 9217000000.0,
+      "momentum_12m": 0.4585108146191412,
+      "labels": {
+        "3y": {
+          "max_multiple": 2.859,
+          "terminal_multiple": 2.854,
+          "2x": true,
+          "3x": false,
+          "5x": false,
+          "10x": false
+        },
+        "5y": {
+          "max_multiple": 3.732,
+          "terminal_multiple": 3.651,
+          "2x": true,
+          "3x": true,
+          "5x": false,
+          "10x": false
+        }
+      },
+      "quality_roa_proxy_pct": 0.5,
+      "momentum_12m_pct": 0.6666666666666666,
+      "pilot_score": 0.5833333333333333
+    },
+    {
+      "cik": "1318605",
+      "ticker": "TSLA",
+      "date": "2018-06-30",
+      "price": 22.8633,
+      "quality_roa_proxy": -0.026018108548693946,
+      "fcf": -595022000.0,
+      "momentum_12m": -0.051602536081242545,
+      "labels": {
+        "3y": {
+          "max_multiple": 12.875,
+          "terminal_multiple": 9.91,
+          "2x": true,
+          "3x": true,
+          "5x": true,
+          "10x": true
+        },
+        "5y": {
+          "max_multiple": 17.931,
+          "terminal_multiple": 11.449,
+          "2x": true,
+          "3x": true,
+          "5x": true,
+          "10x": true
+        }
+      },
+      "quality_roa_proxy_pct": 0.16666666666666666,
+      "momentum_12m_pct": 0.16666666666666666,
+      "pilot_score": 0.16666666666666666
+    },
+    {
+      "cik": "789019",
+      "ticker": "MSFT",
+      "date": "2019-06-30",
+      "price": 125.544,
+      "quality_roa_proxy": 0.03345854809120294,
+      "fcf": 10955000000.0,
+      "momentum_12m": 0.38026265185858077,
+      "labels": {
+        "3y": {
+          "max_multiple": 2.628,
+          "terminal_multiple": 1.976,
+          "2x": true,
+          "3x": false,
+          "5x": false,
+          "10x": false
+        },
+        "5y": {
+          "max_multiple": 3.545,
+          "terminal_multiple": 3.498,
+          "2x": true,
+          "3x": true,
+          "5x": false,
+          "10x": false
+        }
+      },
+      "quality_roa_proxy_pct": 0.8333333333333334,
+      "momentum_12m_pct": 1.0,
+      "pilot_score": 0.9166666666666667
+    },
+    {
+      "cik": "320193",
+      "ticker": "AAPL",
+      "date": "2019-06-30",
+      "price": 47.3021,
+      "quality_roa_proxy": 0.033804291253165225,
+      "fcf": 32127000000.0,
+      "momentum_12m": 0.08319521827362486,
+      "labels": {
+        "3y": {
+          "max_multiple": 3.759,
+          "terminal_multiple": 2.831,
+          "2x": true,
+          "3x": true,
+          "5x": false,
+          "10x": false
+        },
+        "5y": {
+          "max_multiple": 4.537,
+          "terminal_multiple": 4.411,
+          "2x": true,
+          "3x": true,
+          "5x": false,
+          "10x": false
+        }
+      },
+      "quality_roa_proxy_pct": 1.0,
+      "momentum_12m_pct": 0.6666666666666666,
+      "pilot_score": 0.8333333333333333
+    },
+    {
+      "cik": "1018724",
+      "ticker": "AMZN",
+      "date": "2019-06-30",
+      "price": 94.6815,
+      "quality_roa_proxy": 0.019994160649515445,
+      "fcf": -15000000.0,
+      "momentum_12m": 0.112950729300058,
+      "labels": {
+        "3y": {
+          "max_multiple": 1.971,
+          "terminal_multiple": 1.122,
+          "2x": false,
+          "3x": false,
+          "5x": false,
+          "10x": false
+        },
+        "5y": {
+          "max_multiple": 2.09,
+          "terminal_multiple": 2.041,
+          "2x": true,
+          "3x": false,
+          "5x": false,
+          "10x": false
+        }
+      },
+      "quality_roa_proxy_pct": 0.3333333333333333,
+      "momentum_12m_pct": 0.8333333333333334,
+      "pilot_score": 0.5833333333333334
+    },
+    {
+      "cik": "1045810",
+      "ticker": "NVDA",
+      "date": "2019-06-30",
+      "price": 4.0709,
+      "quality_roa_proxy": 0.028100706083731546,
+      "fcf": 592000000.0,
+      "momentum_12m": -0.3156118761096737,
+      "labels": {
+        "3y": {
+          "max_multiple": 8.163,
+          "terminal_multiple": 3.709,
+          "2x": true,
+          "3x": true,
+          "5x": true,
+          "10x": false
+        },
+        "5y": {
+          "max_multiple": 33.213,
+          "terminal_multiple": 30.263,
+          "2x": true,
+          "3x": true,
+          "5x": true,
+          "10x": true
+        }
+      },
+      "quality_roa_proxy_pct": 0.6666666666666666,
+      "momentum_12m_pct": 0.3333333333333333,
+      "pilot_score": 0.5
+    },
+    {
+      "cik": "1326801",
+      "ticker": "META",
+      "date": "2019-06-30",
+      "price": 191.169,
+      "quality_roa_proxy": 0.022187308749783058,
+      "fcf": 5471000000.0,
+      "momentum_12m": -0.01646026923738475,
+      "labels": {
+        "3y": {
+          "max_multiple": 1.98,
+          "terminal_multiple": 0.835,
+          "2x": false,
+          "3x": false,
+          "5x": false,
+          "10x": false
+        },
+        "5y": {
+          "max_multiple": 2.735,
+          "terminal_multiple": 2.618,
+          "2x": true,
+          "3x": false,
+          "5x": false,
+          "10x": false
+        }
+      },
+      "quality_roa_proxy_pct": 0.5,
+      "momentum_12m_pct": 0.5,
+      "pilot_score": 0.5
+    },
+    {
+      "cik": "1318605",
+      "ticker": "TSLA",
+      "date": "2019-06-30",
+      "price": 14.8973,
+      "quality_roa_proxy": -0.02428480474413095,
+      "fcf": -919538000.0,
+      "momentum_12m": -0.3614151487947779,
+      "labels": {
+        "3y": {
+          "max_multiple": 27.52,
+          "terminal_multiple": 15.068,
+          "2x": true,
+          "3x": true,
+          "5x": true,
+          "10x": true
+        },
+        "5y": {
+          "max_multiple": 27.52,
+          "terminal_multiple": 13.283,
+          "2x": true,
+          "3x": true,
+          "5x": true,
+          "10x": true
+        }
+      },
+      "quality_roa_proxy_pct": 0.16666666666666666,
+      "momentum_12m_pct": 0.16666666666666666,
+      "pilot_score": 0.16666666666666666
+    },
+    {
+      "cik": "1045810",
+      "ticker": "NVDA",
+      "date": "2020-06-30",
+      "price": 9.4434,
+      "quality_roa_proxy": 0.03943407585791692,
+      "fcf": 754000000.0,
+      "momentum_12m": 1.3483204489790834,
+      "labels": {
+        "3y": {
+          "max_multiple": 4.625,
+          "terminal_multiple": 4.466,
+          "2x": true,
+          "3x": true,
+          "5x": false,
+          "10x": false
+        },
+        "5y": {
+          "max_multiple": 16.689,
+          "terminal_multiple": 16.689,
+          "2x": true,
+          "3x": true,
+          "5x": true,
+          "10x": true
+        }
+      },
+      "quality_roa_proxy_pct": 1.0,
+      "momentum_12m_pct": 0.8333333333333334,
+      "pilot_score": 0.9166666666666667
+    },
+    {
+      "cik": "789019",
+      "ticker": "MSFT",
+      "date": "2020-06-30",
+      "price": 193.0714,
+      "quality_roa_proxy": 0.03766697378515952,
+      "fcf": 13737000000.0,
+      "momentum_12m": 0.50837747077273,
+      "labels": {
+        "3y": {
+          "max_multiple": 1.758,
+          "terminal_multiple": 1.72,
+          "2x": false,
+          "3x": false,
+          "5x": false,
+          "10x": false
+        },
+        "5y": {
+          "max_multiple": 2.551,
+          "terminal_multiple": 2.551,
+          "2x": true,
+          "3x": false,
+          "5x": false,
+          "10x": false
+        }
+      },
+      "quality_roa_proxy_pct": 0.8333333333333334,
+      "momentum_12m_pct": 0.5,
+      "pilot_score": 0.6666666666666667
+    },
+    {
+      "cik": "1318605",
+      "ticker": "TSLA",
+      "date": "2020-06-30",
+      "price": 71.9873,
+      "quality_roa_proxy": 0.0004295302013422819,
+      "fcf": -895000000.0,
+      "momentum_12m": 3.808773141015174,
+      "labels": {
+        "3y": {
+          "max_multiple": 5.695,
+          "terminal_multiple": 3.636,
+          "2x": true,
+          "3x": true,
+          "5x": true,
+          "10x": false
+        },
+        "5y": {
+          "max_multiple": 6.666,
+          "terminal_multiple": 4.413,
+          "2x": true,
+          "3x": true,
+          "5x": true,
+          "10x": false
+        }
+      },
+      "quality_roa_proxy_pct": 0.16666666666666666,
+      "momentum_12m_pct": 1.0,
+      "pilot_score": 0.5833333333333334
+    },
+    {
+      "cik": "320193",
+      "ticker": "AAPL",
+      "date": "2020-06-30",
+      "price": 88.2263,
+      "quality_roa_proxy": 0.03510923845193508,
+      "fcf": 39867000000.0,
+      "momentum_12m": 0.8209127447177329,
+      "labels": {
+        "3y": {
+          "max_multiple": 2.166,
+          "terminal_multiple": 2.166,
+          "2x": true,
+          "3x": false,
+          "5x": false,
+          "10x": false
+        },
+        "5y": {
+          "max_multiple": 2.915,
+          "terminal_multiple": 2.314,
+          "2x": true,
+          "3x": false,
+          "5x": false,
+          "10x": false
+        }
+      },
+      "quality_roa_proxy_pct": 0.5,
+      "momentum_12m_pct": 0.6666666666666666,
+      "pilot_score": 0.5833333333333333
+    },
+    {
+      "cik": "1326801",
+      "ticker": "META",
+      "date": "2020-06-30",
+      "price": 224.9159,
+      "quality_roa_proxy": 0.03542649832696158,
+      "fcf": 7443000000.0,
+      "momentum_12m": 0.1644619044244633,
+      "labels": {
+        "3y": {
+          "max_multiple": 1.683,
+          "terminal_multiple": 1.264,
+          "2x": false,
+          "3x": false,
+          "5x": false,
+          "10x": false
+        },
+        "5y": {
+          "max_multiple": 3.268,
+          "terminal_multiple": 3.268,
+          "2x": true,
+          "3x": true,
+          "5x": false,
+          "10x": false
+        }
+      },
+      "quality_roa_proxy_pct": 0.6666666666666666,
+      "momentum_12m_pct": 0.16666666666666666,
+      "pilot_score": 0.41666666666666663
+    },
+    {
+      "cik": "1018724",
+      "ticker": "AMZN",
+      "date": "2020-06-30",
+      "price": 137.941,
+      "quality_roa_proxy": 0.011458248582973991,
+      "fcf": 1203000000.0,
+      "momentum_12m": 0.4262552996861799,
+      "labels": {
+        "3y": {
+          "max_multiple": 1.353,
+          "terminal_multiple": 0.945,
+          "2x": false,
+          "3x": false,
+          "5x": false,
+          "10x": false
+        },
+        "5y": {
+          "max_multiple": 1.755,
+          "terminal_multiple": 1.59,
+          "2x": false,
+          "3x": false,
+          "5x": false,
+          "10x": false
+        }
+      },
+      "quality_roa_proxy_pct": 0.3333333333333333,
+      "momentum_12m_pct": 0.3333333333333333,
+      "pilot_score": 0.3333333333333333
+    },
+    {
+      "cik": "1045810",
+      "ticker": "NVDA",
+      "date": "2021-06-30",
+      "price": 19.9113,
+      "quality_roa_proxy": 0.06208598519288219,
+      "fcf": 1502000000.0,
+      "momentum_12m": 1.1013531765953428,
+      "labels": {
+        "3y": {
+          "max_multiple": 6.79,
+          "terminal_multiple": 6.187,
+          "2x": true,
+          "3x": true,
+          "5x": true,
+          "10x": false
+        },
+        "5y": {
+          "max_multiple": 11.813,
+          "terminal_multiple": 10.038,
+          "2x": true,
+          "3x": true,
+          "5x": true,
+          "10x": true
+        }
+      },
+      "quality_roa_proxy_pct": 0.8333333333333334,
+      "momentum_12m_pct": 0.8333333333333334,
+      "pilot_score": 0.8333333333333334
+    },
+    {
+      "cik": "320193",
+      "ticker": "AAPL",
+      "date": "2021-06-30",
+      "price": 133.387,
+      "quality_roa_proxy": 0.07008583512774426,
+      "fcf": 56975000000.0,
+      "momentum_12m": 0.5147384038900982,
+      "labels": {
+        "3y": {
+          "max_multiple": 1.609,
+          "terminal_multiple": 1.564,
+          "2x": false,
+          "3x": false,
+          "5x": false,
+          "10x": false
+        },
+        "5y": {
+          "max_multiple": 2.361,
+          "terminal_multiple": 2.167,
+          "2x": true,
+          "3x": false,
+          "5x": false,
+          "10x": false
+        }
+      },
+      "quality_roa_proxy_pct": 1.0,
+      "momentum_12m_pct": 0.6666666666666666,
+      "pilot_score": 0.8333333333333333
+    },
+    {
+      "cik": "1318605",
+      "ticker": "TSLA",
+      "date": "2021-06-30",
+      "price": 226.5667,
+      "quality_roa_proxy": 0.008268519217699917,
+      "fcf": 293000000.0,
+      "momentum_12m": 2.0353778145926866,
+      "labels": {
+        "3y": {
+          "max_multiple": 1.809,
+          "terminal_multiple": 0.873,
+          "2x": false,
+          "3x": false,
+          "5x": false,
+          "10x": false
+        },
+        "5y": {
+          "max_multiple": 2.162,
+          "terminal_multiple": 1.856,
+          "2x": true,
+          "3x": false,
+          "5x": false,
+          "10x": false
+        }
+      },
+      "quality_roa_proxy_pct": 0.16666666666666666,
+      "momentum_12m_pct": 1.0,
+      "pilot_score": 0.5833333333333334
+    },
+    {
+      "cik": "1326801",
+      "ticker": "META",
+      "date": "2021-06-30",
+      "price": 344.4113,
+      "quality_roa_proxy": 0.05807745699381738,
+      "fcf": 7970000000.0,
+      "momentum_12m": 0.4637339770527116,
+      "labels": {
+        "3y": {
+          "max_multiple": 1.518,
+          "terminal_multiple": 1.453,
+          "2x": false,
+          "3x": false,
+          "5x": false,
+          "10x": false
+        },
+        "5y": {
+          "max_multiple": 2.284,
+          "terminal_multiple": 1.634,
+          "2x": true,
+          "3x": false,
+          "5x": false,
+          "10x": false
+        }
+      },
+      "quality_roa_proxy_pct": 0.6666666666666666,
+      "momentum_12m_pct": 0.5,
+      "pilot_score": 0.5833333333333333
+    },
+    {
+      "cik": "789019",
+      "ticker": "MSFT",
+      "date": "2021-06-30",
+      "price": 259.4933,
+      "quality_roa_proxy": 0.050042249554032484,
+      "fcf": 17090000000.0,
+      "momentum_12m": 0.3362142159756827,
+      "labels": {
+        "3y": {
+          "max_multiple": 1.715,
+          "terminal_multiple": 1.693,
+          "2x": false,
+          "3x": false,
+          "5x": false,
+          "10x": false
+        },
+        "5y": {
+          "max_multiple": 2.072,
+          "terminal_multiple": 1.435,
+          "2x": true,
+          "3x": false,
+          "5x": false,
+          "10x": false
+        }
+      },
+      "quality_roa_proxy_pct": 0.5,
+      "momentum_12m_pct": 0.3333333333333333,
+      "pilot_score": 0.41666666666666663
+    },
+    {
+      "cik": "1018724",
+      "ticker": "AMZN",
+      "date": "2021-06-30",
+      "price": 172.008,
+      "quality_roa_proxy": 0.025093089263550174,
+      "fcf": 2352000000.0,
+      "momentum_12m": 0.1950394172581058,
+      "labels": {
+        "3y": {
+          "max_multiple": 1.15,
+          "terminal_multiple": 1.123,
+          "2x": false,
+          "3x": false,
+          "5x": false,
+          "10x": false
+        },
+        "5y": {
+          "max_multiple": 1.599,
+          "terminal_multiple": 1.386,
+          "2x": false,
+          "3x": false,
+          "5x": false,
+          "10x": false
+        }
+      },
+      "quality_roa_proxy_pct": 0.3333333333333333,
+      "momentum_12m_pct": 0.16666666666666666,
+      "pilot_score": 0.25
+    }
+  ]
+}
