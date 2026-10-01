@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
-"""Sequential inflection study: frozen 2014-17 rule, 2018-21 OOS.\nResearch run trigger v2."""
+"""Sequential inflection study: frozen 2014-17 rule, 2018-21 OOS.
+Research run trigger v2."""
 import argparse,json
 from pathlib import Path
 import numpy as np,pandas as pd,yfinance as yf
@@ -41,7 +42,9 @@ def main():
  df=pd.DataFrame(R).replace([np.inf,-np.inf],np.nan)
  F=["rev","rev_acc","op","op_acc","gross","gross_acc","ni","ni_acc","cfo","cfo_acc","m12","mom_acc"]
  for dt,ix in df.groupby("date").groups.items():
-  for v in F:\n   s=pd.to_numeric(df.loc[ix,v],errors="coerce").astype(float)\n   df.loc[ix,v+"p"]=s.rank(pct=True).fillna(.5).values
+  for v in F:
+   s=pd.to_numeric(df.loc[ix,v],errors="coerce").astype(float)
+   df.loc[ix,v+"p"]=s.rank(pct=True).fillna(.5).values
  dev=df[df.year<2018].copy();oos=df[df.year>=2018].copy()
  # Discovery only: effect direction/strength among dev 5x winners vs non-winners.
  eff={}
@@ -62,5 +65,6 @@ def main():
    out[f"top{int(q*100)}"]=r
   return out
  out={"status":"SEQUENTIAL_INFLECTION_DEV_FROZEN_OOS","split":"2014-17 discovery; 2018-21 OOS","warning":"Current survivors/live Yahoo; diagnostic.","dev_effects":eff,"frozen_features":keep,"dev":E(dev),"oos":E(oos)}
- Path(a.out).write_text(json.dumps(out,indent=2,allow_nan=False)+"\n");print(json.dumps(out))
+ Path(a.out).write_text(json.dumps(out,indent=2,allow_nan=False)+"
+");print(json.dumps(out))
 if __name__=="__main__":main()
