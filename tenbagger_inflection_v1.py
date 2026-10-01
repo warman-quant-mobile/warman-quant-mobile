@@ -41,7 +41,7 @@ def main():
  df=pd.DataFrame(R).replace([np.inf,-np.inf],np.nan)
  F=["rev","rev_acc","op","op_acc","gross","gross_acc","ni","ni_acc","cfo","cfo_acc","m12","mom_acc"]
  for dt,ix in df.groupby("date").groups.items():
-  for v in F:df.loc[ix,v+"p"]=df.loc[ix,v].rank(pct=True).fillna(.5)
+  for v in F:\n   s=pd.to_numeric(df.loc[ix,v],errors="coerce").astype(float)\n   df.loc[ix,v+"p"]=s.rank(pct=True).fillna(.5).values
  dev=df[df.year<2018].copy();oos=df[df.year>=2018].copy()
  # Discovery only: effect direction/strength among dev 5x winners vs non-winners.
  eff={}
