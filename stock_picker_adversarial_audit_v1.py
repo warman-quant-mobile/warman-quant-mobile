@@ -23,3 +23,5 @@ def main():
   o["research"][k]=one(r["results"][k]);o["holdout"][k]=one(h["results"][k])
  Path(a.out).write_text(json.dumps(o,indent=2)+"\n");print(json.dumps(o))
 if __name__=="__main__":main()
+
+# trigger
