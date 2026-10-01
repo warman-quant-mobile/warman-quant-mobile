@@ -1,0 +1,22 @@
+name: Warman Tenbagger Contrast
+on:
+  workflow_dispatch:
+  push:
+    paths: ['tenbagger_broad_oos_v1.py','.github/workflows/tenbagger-contrast.yml']
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: '3.11'}
+      - run: pip install -r requirements.txt
+      - uses: actions/download-artifact@v4
+        with:
+          name: stock-picker-research
+          run-id: 36842701260
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          path: .
+      - run: mkdir -p signals && python tenbagger_broad_oos_v1.py --pit output/sec_point_in_time_broad.json --out signals/tenbagger_contrast.json
+      - uses: actions/upload-artifact@v4
+        with: {name: tenbagger-contrast, path: signals/tenbagger_contrast.json}
