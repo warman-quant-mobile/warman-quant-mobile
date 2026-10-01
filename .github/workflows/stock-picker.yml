@@ -11,6 +11,7 @@ on:
       - 'stock_picker_rank_v2.py'
       - 'winner_funnel_v1.py'
       - 'tenbagger_pit_pilot_v1.py'
+      - 'sec_pit_broad_cohort.py'
       - 'research_safety.py'
       - '.github/workflows/stock-picker.yml'
 permissions:
@@ -66,6 +67,11 @@ jobs:
           else:
               print('SEC PIT unavailable; broad Yahoo prototype continues')
           PY
+      - name: Build broader SEC PIT diagnostic cohort
+        continue-on-error: true
+        env:
+          SEC_USER_AGENT: ${{ secrets.SEC_USER_AGENT }}
+        run: python sec_pit_broad_cohort.py --universe output/us_universe_current.json --limit 120 --out output/sec_point_in_time_broad.json
       - name: Tenbagger historical PIT pilot
         if: hashFiles('output/sec_point_in_time.json') != ''
         run: python tenbagger_pit_pilot_v1.py --pit output/sec_point_in_time.json --out signals/tenbagger_pit_pilot_v1.json
@@ -89,5 +95,6 @@ jobs:
             signals/winner_funnel_v1.json
             signals/tenbagger_pit_pilot_v1.json
             output/sec_point_in_time.json
+            output/sec_point_in_time_broad.json
             output/us_universe_current.json
             output/se_universe_current.json
