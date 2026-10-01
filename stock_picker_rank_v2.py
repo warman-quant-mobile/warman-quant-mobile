@@ -40,7 +40,7 @@ def main():
   q=sorted([x for x in allout if x["region"]==region],key=lambda x:x["score"],reverse=True)
   for j,x in enumerate(q):x["region_percentile"]=1-j/max(1,len(q)-1)
  final=sorted(allout,key=lambda x:(x["region_percentile"],x["score"]),reverse=True)
- out={"status":"exploratory_current_snapshot_not_OOS","method":"union of full-market Yahoo factor screens","weights":W,"top":final[:50]}
+ out={"status":"exploratory_current_snapshot_not_OOS","method":"union of full-market Yahoo factor screens","weights":W,"top":final[:50],"all_eligible":final}
  Path("signals/stock_picker_prototype_v2.json").write_text(json.dumps(out,indent=2))
  print(json.dumps({"eligible":len(allout),"top":final[:12]}))
 if __name__=="__main__":main()
