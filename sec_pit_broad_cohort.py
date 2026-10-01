@@ -53,7 +53,7 @@ def main():
     try:
      j=json.loads(z.read(name));out["companies"][cik]=transform(j)
     except Exception as e: errors.append({"ticker":ticker,"cik":cik,"error":str(e)[:160]})
- out["selection"]={"requested":len(selected),"available":len(out["companies"]),"missing":len(missing),"errors":len(errors),"missing_sample":missing[:50],"error_sample":errors[:20],"note":"current US universe survivor-biased diagnostic cohort"}
+ out["selection"]={"requested":len(selected),"available":len(out["companies"]),"ticker_by_cik":{c:t for t,c in selected if c in out["companies"]},"missing":len(missing),"errors":len(errors),"missing_sample":missing[:50],"error_sample":errors[:20],"note":"current US universe survivor-biased diagnostic cohort"}
  if len(out["companies"])<100: raise RuntimeError(f"SEC PIT cohort unexpectedly small: {len(out['companies'])}")
  q=Path(a.out);q.parent.mkdir(parents=True,exist_ok=True);q.write_text(json.dumps(out,separators=(",",":"))+"\n")
  print(json.dumps({"mapped":len(selected),"companies":len(out["companies"]),"missing":len(missing),"errors":len(errors)}))
