@@ -65,6 +65,4 @@ def main():
    out[f"top{int(q*100)}"]=r
   return out
  out={"status":"SEQUENTIAL_INFLECTION_DEV_FROZEN_OOS","split":"2014-17 discovery; 2018-21 OOS","warning":"Current survivors/live Yahoo; diagnostic.","dev_effects":eff,"frozen_features":keep,"dev":E(dev),"oos":E(oos)}
- Path(a.out).write_text(json.dumps(out,indent=2,allow_nan=False)+"
-");print(json.dumps(out))
-if __name__=="__main__":main()
+ Path(a.out).write_text(json.dumps(out,indent=2,allow_nan=False)+"\\n");print(json.dumps(out))\nif __name__=="__main__":main()\n
