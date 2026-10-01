@@ -4,52 +4,52 @@
   "rule": "facts usable only after SEC filed date; price data through ranking date",
   "summary": {
     "3y_2x": {
-      "base_rate": 0.6222222222222222,
-      "top2_rate": 0.7222222222222222,
-      "lift": 1.1607142857142856,
-      "n": 45
+      "base_rate": 0.6296296296296297,
+      "top2_rate": 0.6666666666666666,
+      "lift": 1.0588235294117647,
+      "n": 54
     },
     "3y_3x": {
-      "base_rate": 0.3333333333333333,
-      "top2_rate": 0.3888888888888889,
-      "lift": 1.1666666666666667,
-      "n": 45
+      "base_rate": 0.3148148148148148,
+      "top2_rate": 0.3333333333333333,
+      "lift": 1.0588235294117647,
+      "n": 54
     },
     "3y_5x": {
-      "base_rate": 0.17777777777777778,
-      "top2_rate": 0.16666666666666666,
-      "lift": 0.9374999999999999,
-      "n": 45
+      "base_rate": 0.14814814814814814,
+      "top2_rate": 0.1111111111111111,
+      "lift": 0.75,
+      "n": 54
     },
     "3y_10x": {
-      "base_rate": 0.06666666666666667,
+      "base_rate": 0.05555555555555555,
       "top2_rate": 0.0,
       "lift": 0.0,
-      "n": 45
+      "n": 54
     },
     "5y_2x": {
-      "base_rate": 0.9111111111111111,
+      "base_rate": 0.9259259259259259,
       "top2_rate": 1.0,
-      "lift": 1.0975609756097562,
-      "n": 45
+      "lift": 1.08,
+      "n": 54
     },
     "5y_3x": {
-      "base_rate": 0.7111111111111111,
+      "base_rate": 0.7037037037037037,
       "top2_rate": 0.7777777777777778,
-      "lift": 1.09375,
-      "n": 45
+      "lift": 1.1052631578947367,
+      "n": 54
     },
     "5y_5x": {
-      "base_rate": 0.4666666666666667,
-      "top2_rate": 0.4444444444444444,
-      "lift": 0.9523809523809523,
-      "n": 45
+      "base_rate": 0.42592592592592593,
+      "top2_rate": 0.3888888888888889,
+      "lift": 0.9130434782608696,
+      "n": 54
     },
     "5y_10x": {
-      "base_rate": 0.24444444444444444,
-      "top2_rate": 0.2222222222222222,
-      "lift": 0.9090909090909091,
-      "n": 45
+      "base_rate": 0.2037037037037037,
+      "top2_rate": 0.16666666666666666,
+      "lift": 0.8181818181818182,
+      "n": 54
     }
   },
   "rows": [
@@ -59,8 +59,8 @@
       "date": "2013-06-30",
       "price": 28.0646,
       "quality_roa_proxy": 0.04515118750233026,
-      "fcf": 8736000000,
-      "momentum_12m": 0.17973494412149615,
+      "fcf": 8736000000.0,
+      "momentum_12m": 0.17973482699772725,
       "labels": {
         "3y": {
           "max_multiple": 1.763,
@@ -79,9 +79,9 @@
           "10x": false
         }
       },
-      "quality_roa_proxy_pct": 1.0,
-      "momentum_12m_pct": 0.6,
-      "pilot_score": 0.8
+      "quality_roa_proxy_pct": 0.8333333333333334,
+      "momentum_12m_pct": 0.6666666666666666,
+      "pilot_score": 0.75
     },
     {
       "cik": "1318605",
@@ -89,7 +89,7 @@
       "date": "2013-06-30",
       "price": 7.1573,
       "quality_roa_proxy": 0.009834076193107404,
-      "fcf": 6352000,
+      "fcf": 6352000.0,
       "momentum_12m": 2.3591983139124046,
       "labels": {
         "3y": {
@@ -109,9 +109,39 @@
           "10x": false
         }
       },
-      "quality_roa_proxy_pct": 0.4,
+      "quality_roa_proxy_pct": 0.3333333333333333,
       "momentum_12m_pct": 1.0,
-      "pilot_score": 0.7
+      "pilot_score": 0.6666666666666666
+    },
+    {
+      "cik": "320193",
+      "ticker": "AAPL",
+      "date": "2013-06-30",
+      "price": 12.1148,
+      "quality_roa_proxy": 0.049023584929881944,
+      "fcf": NaN,
+      "momentum_12m": -0.29495853260420135,
+      "labels": {
+        "3y": {
+          "max_multiple": 2.438,
+          "terminal_multiple": 1.795,
+          "2x": true,
+          "3x": false,
+          "5x": false,
+          "10x": false
+        },
+        "5y": {
+          "max_multiple": 3.769,
+          "terminal_multiple": 3.597,
+          "2x": true,
+          "3x": true,
+          "5x": false,
+          "10x": false
+        }
+      },
+      "quality_roa_proxy_pct": 1.0,
+      "momentum_12m_pct": 0.16666666666666666,
+      "pilot_score": 0.5833333333333334
     },
     {
       "cik": "1045810",
@@ -119,8 +149,8 @@
       "date": "2013-06-30",
       "price": 0.3268,
       "quality_roa_proxy": 0.012403959724992026,
-      "fcf": 109983000,
-      "momentum_12m": 0.08748042988057825,
+      "fcf": 109983000.0,
+      "momentum_12m": 0.08748044723379,
       "labels": {
         "3y": {
           "max_multiple": 3.634,
@@ -139,8 +169,8 @@
           "10x": true
         }
       },
-      "quality_roa_proxy_pct": 0.6,
-      "momentum_12m_pct": 0.4,
+      "quality_roa_proxy_pct": 0.5,
+      "momentum_12m_pct": 0.5,
       "pilot_score": 0.5
     },
     {
@@ -149,7 +179,7 @@
       "date": "2013-06-30",
       "price": 13.8845,
       "quality_roa_proxy": 0.002889664164640378,
-      "fcf": -3042000000,
+      "fcf": -3042000000.0,
       "momentum_12m": 0.23078622292730744,
       "labels": {
         "3y": {
@@ -169,8 +199,8 @@
           "10x": false
         }
       },
-      "quality_roa_proxy_pct": 0.2,
-      "momentum_12m_pct": 0.8,
+      "quality_roa_proxy_pct": 0.16666666666666666,
+      "momentum_12m_pct": 0.8333333333333334,
       "pilot_score": 0.5
     },
     {
@@ -179,8 +209,8 @@
       "date": "2013-06-30",
       "price": 24.644,
       "quality_roa_proxy": 0.014443052166457825,
-      "fcf": 392000000,
-      "momentum_12m": -0.2280482968358346,
+      "fcf": 392000000.0,
+      "momentum_12m": -0.22804835658193512,
       "labels": {
         "3y": {
           "max_multiple": 4.843,
@@ -199,9 +229,39 @@
           "10x": false
         }
       },
-      "quality_roa_proxy_pct": 0.8,
-      "momentum_12m_pct": 0.2,
+      "quality_roa_proxy_pct": 0.6666666666666666,
+      "momentum_12m_pct": 0.3333333333333333,
       "pilot_score": 0.5
+    },
+    {
+      "cik": "320193",
+      "ticker": "AAPL",
+      "date": "2014-06-30",
+      "price": 20.3559,
+      "quality_roa_proxy": 0.04962886367718665,
+      "fcf": NaN,
+      "momentum_12m": 0.6281495503214083,
+      "labels": {
+        "3y": {
+          "max_multiple": 1.778,
+          "terminal_multiple": 1.64,
+          "2x": false,
+          "3x": false,
+          "5x": false,
+          "10x": false
+        },
+        "5y": {
+          "max_multiple": 2.693,
+          "terminal_multiple": 2.324,
+          "2x": true,
+          "3x": false,
+          "5x": false,
+          "10x": false
+        }
+      },
+      "quality_roa_proxy_pct": 1.0,
+      "momentum_12m_pct": 0.6666666666666666,
+      "pilot_score": 0.8333333333333333
     },
     {
       "cik": "1326801",
@@ -209,7 +269,7 @@
       "date": "2014-06-30",
       "price": 66.6516,
       "quality_roa_proxy": 0.033739751944502835,
-      "fcf": 922000000,
+      "fcf": 922000000.0,
       "momentum_12m": 1.7122128407811594,
       "labels": {
         "3y": {
@@ -229,18 +289,18 @@
           "10x": false
         }
       },
-      "quality_roa_proxy_pct": 0.8,
+      "quality_roa_proxy_pct": 0.6666666666666666,
       "momentum_12m_pct": 1.0,
-      "pilot_score": 0.9
+      "pilot_score": 0.8333333333333333
     },
     {
       "cik": "789019",
       "ticker": "MSFT",
       "date": "2014-06-30",
-      "price": 34.8819,
+      "price": 34.882,
       "quality_roa_proxy": 0.03625439568534259,
-      "fcf": 27641000000,
-      "momentum_12m": 0.2494278125623195,
+      "fcf": 27641000000.0,
+      "momentum_12m": 0.2494285298321468,
       "labels": {
         "3y": {
           "max_multiple": 1.881,
@@ -259,9 +319,9 @@
           "10x": false
         }
       },
-      "quality_roa_proxy_pct": 1.0,
-      "momentum_12m_pct": 0.4,
-      "pilot_score": 0.7
+      "quality_roa_proxy_pct": 0.8333333333333334,
+      "momentum_12m_pct": 0.3333333333333333,
+      "pilot_score": 0.5833333333333334
     },
     {
       "cik": "1045810",
@@ -269,8 +329,8 @@
       "date": "2014-06-30",
       "price": 0.44,
       "quality_roa_proxy": 0.01988677375713855,
-      "fcf": 121954000,
-      "momentum_12m": 0.34082694930023494,
+      "fcf": 121954000.0,
+      "momentum_12m": 0.34082637140605665,
       "labels": {
         "3y": {
           "max_multiple": 8.952,
@@ -289,9 +349,9 @@
           "10x": true
         }
       },
-      "quality_roa_proxy_pct": 0.6,
-      "momentum_12m_pct": 0.6,
-      "pilot_score": 0.6
+      "quality_roa_proxy_pct": 0.5,
+      "momentum_12m_pct": 0.5,
+      "pilot_score": 0.5
     },
     {
       "cik": "1318605",
@@ -299,7 +359,7 @@
       "date": "2014-06-30",
       "price": 16.004,
       "quality_roa_proxy": -0.011065658462228997,
-      "fcf": -80724000,
+      "fcf": -80724000.0,
       "momentum_12m": 1.0486431290675289,
       "labels": {
         "3y": {
@@ -319,8 +379,8 @@
           "10x": false
         }
       },
-      "quality_roa_proxy_pct": 0.2,
-      "momentum_12m_pct": 0.8,
+      "quality_roa_proxy_pct": 0.16666666666666666,
+      "momentum_12m_pct": 0.8333333333333334,
       "pilot_score": 0.5
     },
     {
@@ -329,7 +389,7 @@
       "date": "2014-06-30",
       "price": 16.239,
       "quality_roa_proxy": 0.002969970300296997,
-      "fcf": -3582000000,
+      "fcf": -3582000000.0,
       "momentum_12m": 0.1512939275047931,
       "labels": {
         "3y": {
@@ -349,9 +409,39 @@
           "10x": false
         }
       },
-      "quality_roa_proxy_pct": 0.4,
-      "momentum_12m_pct": 0.2,
-      "pilot_score": 0.30000000000000004
+      "quality_roa_proxy_pct": 0.3333333333333333,
+      "momentum_12m_pct": 0.16666666666666666,
+      "pilot_score": 0.25
+    },
+    {
+      "cik": "320193",
+      "ticker": "AAPL",
+      "date": "2015-06-30",
+      "price": 27.957,
+      "quality_roa_proxy": 0.05194989165141619,
+      "fcf": 17084000000.0,
+      "momentum_12m": 0.3647463901706871,
+      "labels": {
+        "3y": {
+          "max_multiple": 1.633,
+          "terminal_multiple": 1.559,
+          "2x": false,
+          "3x": false,
+          "5x": false,
+          "10x": false
+        },
+        "5y": {
+          "max_multiple": 3.171,
+          "terminal_multiple": 3.156,
+          "2x": true,
+          "3x": true,
+          "5x": false,
+          "10x": false
+        }
+      },
+      "quality_roa_proxy_pct": 1.0,
+      "momentum_12m_pct": 1.0,
+      "pilot_score": 1.0
     },
     {
       "cik": "1018724",
@@ -359,7 +449,7 @@
       "date": "2015-06-30",
       "price": 21.7045,
       "quality_roa_proxy": -0.0011382925611582626,
-      "fcf": -2370000000,
+      "fcf": -2370000000.0,
       "momentum_12m": 0.3059659577359204,
       "labels": {
         "3y": {
@@ -379,9 +469,9 @@
           "10x": false
         }
       },
-      "quality_roa_proxy_pct": 0.4,
-      "momentum_12m_pct": 1.0,
-      "pilot_score": 0.7
+      "quality_roa_proxy_pct": 0.3333333333333333,
+      "momentum_12m_pct": 0.8333333333333334,
+      "pilot_score": 0.5833333333333334
     },
     {
       "cik": "1326801",
@@ -389,8 +479,8 @@
       "date": "2015-06-30",
       "price": 84.9563,
       "quality_roa_proxy": 0.012188444783012354,
-      "fcf": 1198000000,
-      "momentum_12m": 0.2602116242957466,
+      "fcf": 1198000000.0,
+      "momentum_12m": 0.26021148167546615,
       "labels": {
         "3y": {
           "max_multiple": 2.355,
@@ -409,39 +499,9 @@
           "10x": false
         }
       },
-      "quality_roa_proxy_pct": 0.6,
-      "momentum_12m_pct": 0.8,
-      "pilot_score": 0.7
-    },
-    {
-      "cik": "1045810",
-      "ticker": "NVDA",
-      "date": "2015-06-30",
-      "price": 0.4855,
-      "quality_roa_proxy": 0.018378823206693182,
-      "fcf": 216000000,
-      "momentum_12m": 0.09102893645178534,
-      "labels": {
-        "3y": {
-          "max_multiple": 13.577,
-          "terminal_multiple": 12.05,
-          "2x": true,
-          "3x": true,
-          "5x": true,
-          "10x": true
-        },
-        "5y": {
-          "max_multiple": 19.51,
-          "terminal_multiple": 19.451,
-          "2x": true,
-          "3x": true,
-          "5x": true,
-          "10x": true
-        }
-      },
-      "quality_roa_proxy_pct": 0.8,
-      "momentum_12m_pct": 0.4,
-      "pilot_score": 0.6000000000000001
+      "quality_roa_proxy_pct": 0.5,
+      "momentum_12m_pct": 0.6666666666666666,
+      "pilot_score": 0.5833333333333333
     },
     {
       "cik": "789019",
@@ -449,8 +509,8 @@
       "date": "2015-06-30",
       "price": 37.9073,
       "quality_roa_proxy": 0.028214372633473508,
-      "fcf": 27442000000,
-      "momentum_12m": 0.08231937834141156,
+      "fcf": 27442000000.0,
+      "momentum_12m": 0.08231947829165032,
       "labels": {
         "3y": {
           "max_multiple": 2.493,
@@ -469,9 +529,39 @@
           "10x": false
         }
       },
-      "quality_roa_proxy_pct": 1.0,
-      "momentum_12m_pct": 0.2,
-      "pilot_score": 0.6
+      "quality_roa_proxy_pct": 0.8333333333333334,
+      "momentum_12m_pct": 0.16666666666666666,
+      "pilot_score": 0.5
+    },
+    {
+      "cik": "1045810",
+      "ticker": "NVDA",
+      "date": "2015-06-30",
+      "price": 0.4855,
+      "quality_roa_proxy": 0.018378823206693182,
+      "fcf": 216000000.0,
+      "momentum_12m": 0.09102920434468698,
+      "labels": {
+        "3y": {
+          "max_multiple": 13.577,
+          "terminal_multiple": 12.05,
+          "2x": true,
+          "3x": true,
+          "5x": true,
+          "10x": true
+        },
+        "5y": {
+          "max_multiple": 19.51,
+          "terminal_multiple": 19.451,
+          "2x": true,
+          "3x": true,
+          "5x": true,
+          "10x": true
+        }
+      },
+      "quality_roa_proxy_pct": 0.6666666666666666,
+      "momentum_12m_pct": 0.3333333333333333,
+      "pilot_score": 0.5
     },
     {
       "cik": "1318605",
@@ -479,7 +569,7 @@
       "date": "2015-06-30",
       "price": 17.884,
       "quality_roa_proxy": -0.02519285036184463,
-      "fcf": -365420000,
+      "fcf": -365420000.0,
       "momentum_12m": 0.1190556523405859,
       "labels": {
         "3y": {
@@ -499,9 +589,9 @@
           "10x": false
         }
       },
-      "quality_roa_proxy_pct": 0.2,
-      "momentum_12m_pct": 0.6,
-      "pilot_score": 0.4
+      "quality_roa_proxy_pct": 0.16666666666666666,
+      "momentum_12m_pct": 0.5,
+      "pilot_score": 0.3333333333333333
     },
     {
       "cik": "1045810",
@@ -509,8 +599,8 @@
       "date": "2016-06-30",
       "price": 1.1512,
       "quality_roa_proxy": 0.027574563871693866,
-      "fcf": 254000000,
-      "momentum_12m": 1.335122877130849,
+      "fcf": 254000000.0,
+      "momentum_12m": 1.3351221111705436,
       "labels": {
         "3y": {
           "max_multiple": 6.211,
@@ -529,9 +619,9 @@
           "10x": true
         }
       },
-      "quality_roa_proxy_pct": 0.8,
+      "quality_roa_proxy_pct": 0.6666666666666666,
       "momentum_12m_pct": 1.0,
-      "pilot_score": 0.9
+      "pilot_score": 0.8333333333333333
     },
     {
       "cik": "1326801",
@@ -539,8 +629,8 @@
       "date": "2016-06-30",
       "price": 113.1958,
       "quality_roa_proxy": 0.02899663946231397,
-      "fcf": 1851000000,
-      "momentum_12m": 0.3091991747092979,
+      "fcf": 1851000000.0,
+      "momentum_12m": 0.30919908646933747,
       "labels": {
         "3y": {
           "max_multiple": 1.903,
@@ -559,9 +649,39 @@
           "10x": false
         }
       },
+      "quality_roa_proxy_pct": 0.8333333333333334,
+      "momentum_12m_pct": 0.6666666666666666,
+      "pilot_score": 0.75
+    },
+    {
+      "cik": "320193",
+      "ticker": "AAPL",
+      "date": "2016-06-30",
+      "price": 21.7446,
+      "quality_roa_proxy": 0.03444740350566862,
+      "fcf": 16722000000.0,
+      "momentum_12m": -0.22842842803549557,
+      "labels": {
+        "3y": {
+          "max_multiple": 2.521,
+          "terminal_multiple": 2.175,
+          "2x": true,
+          "3x": false,
+          "5x": false,
+          "10x": false
+        },
+        "5y": {
+          "max_multiple": 6.392,
+          "terminal_multiple": 6.134,
+          "2x": true,
+          "3x": true,
+          "5x": true,
+          "10x": false
+        }
+      },
       "quality_roa_proxy_pct": 1.0,
-      "momentum_12m_pct": 0.6,
-      "pilot_score": 0.8
+      "momentum_12m_pct": 0.3333333333333333,
+      "pilot_score": 0.6666666666666666
     },
     {
       "cik": "1018724",
@@ -569,7 +689,7 @@
       "date": "2016-06-30",
       "price": 35.781,
       "quality_roa_proxy": 0.008392226148409895,
-      "fcf": -3339000000,
+      "fcf": -3339000000.0,
       "momentum_12m": 0.6349180189998436,
       "labels": {
         "3y": {
@@ -589,18 +709,18 @@
           "10x": false
         }
       },
-      "quality_roa_proxy_pct": 0.4,
-      "momentum_12m_pct": 0.8,
-      "pilot_score": 0.6000000000000001
+      "quality_roa_proxy_pct": 0.3333333333333333,
+      "momentum_12m_pct": 0.8333333333333334,
+      "pilot_score": 0.5833333333333334
     },
     {
       "cik": "789019",
       "ticker": "MSFT",
       "date": "2016-06-30",
-      "price": 45.1559,
+      "price": 45.1558,
       "quality_roa_proxy": 0.020652227702357192,
-      "fcf": 26525000000,
-      "momentum_12m": 0.1845093351635987,
+      "fcf": 26525000000.0,
+      "momentum_12m": 0.18450939055269022,
       "labels": {
         "3y": {
           "max_multiple": 2.86,
@@ -619,8 +739,8 @@
           "10x": false
         }
       },
-      "quality_roa_proxy_pct": 0.6,
-      "momentum_12m_pct": 0.4,
+      "quality_roa_proxy_pct": 0.5,
+      "momentum_12m_pct": 0.5,
       "pilot_score": 0.5
     },
     {
@@ -629,7 +749,7 @@
       "date": "2016-06-30",
       "price": 14.152,
       "quality_roa_proxy": -0.03070889373915734,
-      "fcf": -156219000,
+      "fcf": -156219000.0,
       "momentum_12m": -0.24191123942110104,
       "labels": {
         "3y": {
@@ -649,9 +769,9 @@
           "10x": true
         }
       },
-      "quality_roa_proxy_pct": 0.2,
-      "momentum_12m_pct": 0.2,
-      "pilot_score": 0.2
+      "quality_roa_proxy_pct": 0.16666666666666666,
+      "momentum_12m_pct": 0.16666666666666666,
+      "pilot_score": 0.16666666666666666
     },
     {
       "cik": "1045810",
@@ -659,8 +779,8 @@
       "date": "2017-06-30",
       "price": 3.56,
       "quality_roa_proxy": 0.0538788522848034,
-      "fcf": 228000000,
-      "momentum_12m": 2.115713862723033,
+      "fcf": 228000000.0,
+      "momentum_12m": 2.1157134453955107,
       "labels": {
         "3y": {
           "max_multiple": 2.661,
@@ -684,13 +804,43 @@
       "pilot_score": 1.0
     },
     {
+      "cik": "320193",
+      "ticker": "AAPL",
+      "date": "2017-06-30",
+      "price": 33.3852,
+      "quality_roa_proxy": 0.03296844547008956,
+      "fcf": 33270000000.0,
+      "momentum_12m": 0.5306919019671819,
+      "labels": {
+        "3y": {
+          "max_multiple": 2.655,
+          "terminal_multiple": 2.643,
+          "2x": true,
+          "3x": false,
+          "5x": false,
+          "10x": false
+        },
+        "5y": {
+          "max_multiple": 5.325,
+          "terminal_multiple": 4.011,
+          "2x": true,
+          "3x": true,
+          "5x": true,
+          "10x": false
+        }
+      },
+      "quality_roa_proxy_pct": 0.6666666666666666,
+      "momentum_12m_pct": 0.6666666666666666,
+      "pilot_score": 0.6666666666666666
+    },
+    {
       "cik": "789019",
       "ticker": "MSFT",
       "date": "2017-06-30",
       "price": 62.35,
       "quality_roa_proxy": 0.02133616571192399,
-      "fcf": 27138000000,
-      "momentum_12m": 0.38104366372373377,
+      "fcf": 27138000000.0,
+      "momentum_12m": 0.38104382061985187,
       "labels": {
         "3y": {
           "max_multiple": 3.097,
@@ -709,9 +859,9 @@
           "10x": false
         }
       },
-      "quality_roa_proxy_pct": 0.6,
-      "momentum_12m_pct": 0.6,
-      "pilot_score": 0.6
+      "quality_roa_proxy_pct": 0.5,
+      "momentum_12m_pct": 0.5,
+      "pilot_score": 0.5
     },
     {
       "cik": "1326801",
@@ -719,8 +869,8 @@
       "date": "2017-06-30",
       "price": 149.5477,
       "quality_roa_proxy": 0.04459062199842827,
-      "fcf": 3787000000,
-      "momentum_12m": 0.3221822607721043,
+      "fcf": 3787000000.0,
+      "momentum_12m": 0.3221821715868509,
       "labels": {
         "3y": {
           "max_multiple": 1.604,
@@ -739,8 +889,8 @@
           "10x": false
         }
       },
-      "quality_roa_proxy_pct": 0.8,
-      "momentum_12m_pct": 0.2,
+      "quality_roa_proxy_pct": 0.8333333333333334,
+      "momentum_12m_pct": 0.16666666666666666,
       "pilot_score": 0.5
     },
     {
@@ -749,7 +899,7 @@
       "date": "2017-06-30",
       "price": 24.1073,
       "quality_roa_proxy": -0.013182749743491248,
-      "fcf": -491984000,
+      "fcf": -491984000.0,
       "momentum_12m": 0.6702539577428894,
       "labels": {
         "3y": {
@@ -769,8 +919,8 @@
           "10x": true
         }
       },
-      "quality_roa_proxy_pct": 0.2,
-      "momentum_12m_pct": 0.8,
+      "quality_roa_proxy_pct": 0.16666666666666666,
+      "momentum_12m_pct": 0.8333333333333334,
       "pilot_score": 0.5
     },
     {
@@ -779,7 +929,7 @@
       "date": "2017-06-30",
       "price": 48.4,
       "quality_roa_proxy": 0.008941693734639183,
-      "fcf": -3451000000,
+      "fcf": -3451000000.0,
       "momentum_12m": 0.3339213150885867,
       "labels": {
         "3y": {
@@ -799,9 +949,9 @@
           "10x": false
         }
       },
-      "quality_roa_proxy_pct": 0.4,
-      "momentum_12m_pct": 0.4,
-      "pilot_score": 0.4
+      "quality_roa_proxy_pct": 0.3333333333333333,
+      "momentum_12m_pct": 0.3333333333333333,
+      "pilot_score": 0.3333333333333333
     },
     {
       "cik": "1045810",
@@ -809,8 +959,8 @@
       "date": "2018-06-30",
       "price": 5.8505,
       "quality_roa_proxy": 0.10855148342059337,
-      "fcf": 1327000000,
-      "momentum_12m": 0.6433841887458023,
+      "fcf": 1327000000.0,
+      "momentum_12m": 0.6433840070368213,
       "labels": {
         "3y": {
           "max_multiple": 3.407,
@@ -830,8 +980,8 @@
         }
       },
       "quality_roa_proxy_pct": 1.0,
-      "momentum_12m_pct": 0.8,
-      "pilot_score": 0.9
+      "momentum_12m_pct": 0.8333333333333334,
+      "pilot_score": 0.9166666666666667
     },
     {
       "cik": "1018724",
@@ -839,7 +989,7 @@
       "date": "2018-06-30",
       "price": 84.99,
       "quality_roa_proxy": 0.0128915338472009,
-      "fcf": -3652000000,
+      "fcf": -3652000000.0,
       "momentum_12m": 0.7559916360400607,
       "labels": {
         "3y": {
@@ -859,9 +1009,9 @@
           "10x": false
         }
       },
-      "quality_roa_proxy_pct": 0.4,
+      "quality_roa_proxy_pct": 0.3333333333333333,
       "momentum_12m_pct": 1.0,
-      "pilot_score": 0.7
+      "pilot_score": 0.6666666666666666
     },
     {
       "cik": "1326801",
@@ -869,7 +1019,7 @@
       "date": "2018-06-30",
       "price": 192.4765,
       "quality_roa_proxy": 0.05607959975265613,
-      "fcf": 5048000000,
+      "fcf": 5048000000.0,
       "momentum_12m": 0.2870579575698038,
       "labels": {
         "3y": {
@@ -889,9 +1039,39 @@
           "10x": false
         }
       },
-      "quality_roa_proxy_pct": 0.8,
-      "momentum_12m_pct": 0.4,
-      "pilot_score": 0.6000000000000001
+      "quality_roa_proxy_pct": 0.8333333333333334,
+      "momentum_12m_pct": 0.3333333333333333,
+      "pilot_score": 0.5833333333333334
+    },
+    {
+      "cik": "320193",
+      "ticker": "AAPL",
+      "date": "2018-06-30",
+      "price": 43.5772,
+      "quality_roa_proxy": 0.037610679669770504,
+      "fcf": 36418000000.0,
+      "momentum_12m": 0.30528726864121936,
+      "labels": {
+        "3y": {
+          "max_multiple": 3.189,
+          "terminal_multiple": 3.061,
+          "2x": true,
+          "3x": true,
+          "5x": false,
+          "10x": false
+        },
+        "5y": {
+          "max_multiple": 4.386,
+          "terminal_multiple": 4.386,
+          "2x": true,
+          "3x": true,
+          "5x": false,
+          "10x": false
+        }
+      },
+      "quality_roa_proxy_pct": 0.6666666666666666,
+      "momentum_12m_pct": 0.5,
+      "pilot_score": 0.5833333333333333
     },
     {
       "cik": "789019",
@@ -899,8 +1079,8 @@
       "date": "2018-06-30",
       "price": 90.9382,
       "quality_roa_proxy": 0.030240695405646504,
-      "fcf": 9217000000,
-      "momentum_12m": 0.4585109599589543,
+      "fcf": 9217000000.0,
+      "momentum_12m": 0.45851066927938167,
       "labels": {
         "3y": {
           "max_multiple": 2.859,
@@ -919,9 +1099,9 @@
           "10x": false
         }
       },
-      "quality_roa_proxy_pct": 0.6,
-      "momentum_12m_pct": 0.6,
-      "pilot_score": 0.6
+      "quality_roa_proxy_pct": 0.5,
+      "momentum_12m_pct": 0.6666666666666666,
+      "pilot_score": 0.5833333333333333
     },
     {
       "cik": "1318605",
@@ -929,7 +1109,7 @@
       "date": "2018-06-30",
       "price": 22.8633,
       "quality_roa_proxy": -0.026018108548693946,
-      "fcf": -595022000,
+      "fcf": -595022000.0,
       "momentum_12m": -0.051602536081242545,
       "labels": {
         "3y": {
@@ -949,9 +1129,9 @@
           "10x": true
         }
       },
-      "quality_roa_proxy_pct": 0.2,
-      "momentum_12m_pct": 0.2,
-      "pilot_score": 0.2
+      "quality_roa_proxy_pct": 0.16666666666666666,
+      "momentum_12m_pct": 0.16666666666666666,
+      "pilot_score": 0.16666666666666666
     },
     {
       "cik": "789019",
@@ -959,8 +1139,8 @@
       "date": "2019-06-30",
       "price": 125.544,
       "quality_roa_proxy": 0.03345854809120294,
-      "fcf": 10955000000,
-      "momentum_12m": 0.3802629672895923,
+      "fcf": 10955000000.0,
+      "momentum_12m": 0.3802627676343229,
       "labels": {
         "3y": {
           "max_multiple": 2.628,
@@ -979,39 +1159,39 @@
           "10x": false
         }
       },
-      "quality_roa_proxy_pct": 1.0,
+      "quality_roa_proxy_pct": 0.8333333333333334,
       "momentum_12m_pct": 1.0,
-      "pilot_score": 1.0
+      "pilot_score": 0.9166666666666667
     },
     {
-      "cik": "1045810",
-      "ticker": "NVDA",
+      "cik": "320193",
+      "ticker": "AAPL",
       "date": "2019-06-30",
-      "price": 4.0709,
-      "quality_roa_proxy": 0.028100706083731546,
-      "fcf": 592000000,
-      "momentum_12m": -0.3156118508088853,
+      "price": 47.3021,
+      "quality_roa_proxy": 0.033804291253165225,
+      "fcf": 32127000000.0,
+      "momentum_12m": 0.08319495620952577,
       "labels": {
         "3y": {
-          "max_multiple": 8.163,
-          "terminal_multiple": 3.709,
+          "max_multiple": 3.759,
+          "terminal_multiple": 2.831,
           "2x": true,
           "3x": true,
-          "5x": true,
+          "5x": false,
           "10x": false
         },
         "5y": {
-          "max_multiple": 33.213,
-          "terminal_multiple": 30.263,
+          "max_multiple": 4.537,
+          "terminal_multiple": 4.411,
           "2x": true,
           "3x": true,
-          "5x": true,
-          "10x": true
+          "5x": false,
+          "10x": false
         }
       },
-      "quality_roa_proxy_pct": 0.8,
-      "momentum_12m_pct": 0.4,
-      "pilot_score": 0.6000000000000001
+      "quality_roa_proxy_pct": 1.0,
+      "momentum_12m_pct": 0.6666666666666666,
+      "pilot_score": 0.8333333333333333
     },
     {
       "cik": "1018724",
@@ -1019,7 +1199,7 @@
       "date": "2019-06-30",
       "price": 94.6815,
       "quality_roa_proxy": 0.019994160649515445,
-      "fcf": -15000000,
+      "fcf": -15000000.0,
       "momentum_12m": 0.112950729300058,
       "labels": {
         "3y": {
@@ -1039,9 +1219,39 @@
           "10x": false
         }
       },
-      "quality_roa_proxy_pct": 0.4,
-      "momentum_12m_pct": 0.8,
-      "pilot_score": 0.6000000000000001
+      "quality_roa_proxy_pct": 0.3333333333333333,
+      "momentum_12m_pct": 0.8333333333333334,
+      "pilot_score": 0.5833333333333334
+    },
+    {
+      "cik": "1045810",
+      "ticker": "NVDA",
+      "date": "2019-06-30",
+      "price": 4.0709,
+      "quality_roa_proxy": 0.028100706083731546,
+      "fcf": 592000000.0,
+      "momentum_12m": -0.315611956273927,
+      "labels": {
+        "3y": {
+          "max_multiple": 8.163,
+          "terminal_multiple": 3.709,
+          "2x": true,
+          "3x": true,
+          "5x": true,
+          "10x": false
+        },
+        "5y": {
+          "max_multiple": 33.213,
+          "terminal_multiple": 30.263,
+          "2x": true,
+          "3x": true,
+          "5x": true,
+          "10x": true
+        }
+      },
+      "quality_roa_proxy_pct": 0.6666666666666666,
+      "momentum_12m_pct": 0.3333333333333333,
+      "pilot_score": 0.5
     },
     {
       "cik": "1326801",
@@ -1049,7 +1259,7 @@
       "date": "2019-06-30",
       "price": 191.169,
       "quality_roa_proxy": 0.022187308749783058,
-      "fcf": 5471000000,
+      "fcf": 5471000000.0,
       "momentum_12m": -0.01646026923738475,
       "labels": {
         "3y": {
@@ -1069,9 +1279,9 @@
           "10x": false
         }
       },
-      "quality_roa_proxy_pct": 0.6,
-      "momentum_12m_pct": 0.6,
-      "pilot_score": 0.6
+      "quality_roa_proxy_pct": 0.5,
+      "momentum_12m_pct": 0.5,
+      "pilot_score": 0.5
     },
     {
       "cik": "1318605",
@@ -1079,7 +1289,7 @@
       "date": "2019-06-30",
       "price": 14.8973,
       "quality_roa_proxy": -0.02428480474413095,
-      "fcf": -919538000,
+      "fcf": -919538000.0,
       "momentum_12m": -0.3614151487947779,
       "labels": {
         "3y": {
@@ -1099,9 +1309,9 @@
           "10x": true
         }
       },
-      "quality_roa_proxy_pct": 0.2,
-      "momentum_12m_pct": 0.2,
-      "pilot_score": 0.2
+      "quality_roa_proxy_pct": 0.16666666666666666,
+      "momentum_12m_pct": 0.16666666666666666,
+      "pilot_score": 0.16666666666666666
     },
     {
       "cik": "1045810",
@@ -1109,8 +1319,8 @@
       "date": "2020-06-30",
       "price": 9.4434,
       "quality_roa_proxy": 0.03943407585791692,
-      "fcf": 754000000,
-      "momentum_12m": 1.3483209645889405,
+      "fcf": 754000000.0,
+      "momentum_12m": 1.3483215215017705,
       "labels": {
         "3y": {
           "max_multiple": 4.625,
@@ -1130,8 +1340,8 @@
         }
       },
       "quality_roa_proxy_pct": 1.0,
-      "momentum_12m_pct": 0.8,
-      "pilot_score": 0.9
+      "momentum_12m_pct": 0.8333333333333334,
+      "pilot_score": 0.9166666666666667
     },
     {
       "cik": "789019",
@@ -1139,8 +1349,8 @@
       "date": "2020-06-30",
       "price": 193.0715,
       "quality_roa_proxy": 0.03766697378515952,
-      "fcf": 13737000000,
-      "momentum_12m": 0.5083781294230587,
+      "fcf": 13737000000.0,
+      "momentum_12m": 0.5083777384954922,
       "labels": {
         "3y": {
           "max_multiple": 1.758,
@@ -1159,9 +1369,9 @@
           "10x": false
         }
       },
-      "quality_roa_proxy_pct": 0.8,
-      "momentum_12m_pct": 0.6,
-      "pilot_score": 0.7
+      "quality_roa_proxy_pct": 0.8333333333333334,
+      "momentum_12m_pct": 0.5,
+      "pilot_score": 0.6666666666666667
     },
     {
       "cik": "1318605",
@@ -1169,7 +1379,7 @@
       "date": "2020-06-30",
       "price": 71.9873,
       "quality_roa_proxy": 0.0004295302013422819,
-      "fcf": -895000000,
+      "fcf": -895000000.0,
       "momentum_12m": 3.808773141015174,
       "labels": {
         "3y": {
@@ -1189,9 +1399,69 @@
           "10x": false
         }
       },
-      "quality_roa_proxy_pct": 0.2,
+      "quality_roa_proxy_pct": 0.16666666666666666,
       "momentum_12m_pct": 1.0,
-      "pilot_score": 0.6
+      "pilot_score": 0.5833333333333334
+    },
+    {
+      "cik": "320193",
+      "ticker": "AAPL",
+      "date": "2020-06-30",
+      "price": 88.2263,
+      "quality_roa_proxy": 0.03510923845193508,
+      "fcf": 39867000000.0,
+      "momentum_12m": 0.8209127447177329,
+      "labels": {
+        "3y": {
+          "max_multiple": 2.166,
+          "terminal_multiple": 2.166,
+          "2x": true,
+          "3x": false,
+          "5x": false,
+          "10x": false
+        },
+        "5y": {
+          "max_multiple": 2.915,
+          "terminal_multiple": 2.314,
+          "2x": true,
+          "3x": false,
+          "5x": false,
+          "10x": false
+        }
+      },
+      "quality_roa_proxy_pct": 0.5,
+      "momentum_12m_pct": 0.6666666666666666,
+      "pilot_score": 0.5833333333333333
+    },
+    {
+      "cik": "1326801",
+      "ticker": "META",
+      "date": "2020-06-30",
+      "price": 224.9158,
+      "quality_roa_proxy": 0.03542649832696158,
+      "fcf": 7443000000.0,
+      "momentum_12m": 0.16446173343270432,
+      "labels": {
+        "3y": {
+          "max_multiple": 1.683,
+          "terminal_multiple": 1.264,
+          "2x": false,
+          "3x": false,
+          "5x": false,
+          "10x": false
+        },
+        "5y": {
+          "max_multiple": 3.268,
+          "terminal_multiple": 3.268,
+          "2x": true,
+          "3x": true,
+          "5x": false,
+          "10x": false
+        }
+      },
+      "quality_roa_proxy_pct": 0.6666666666666666,
+      "momentum_12m_pct": 0.16666666666666666,
+      "pilot_score": 0.41666666666666663
     },
     {
       "cik": "1018724",
@@ -1199,7 +1469,7 @@
       "date": "2020-06-30",
       "price": 137.941,
       "quality_roa_proxy": 0.011458248582973991,
-      "fcf": 1203000000,
+      "fcf": 1203000000.0,
       "momentum_12m": 0.4262552996861799,
       "labels": {
         "3y": {
@@ -1219,39 +1489,9 @@
           "10x": false
         }
       },
-      "quality_roa_proxy_pct": 0.4,
-      "momentum_12m_pct": 0.4,
-      "pilot_score": 0.4
-    },
-    {
-      "cik": "1326801",
-      "ticker": "META",
-      "date": "2020-06-30",
-      "price": 224.9158,
-      "quality_roa_proxy": 0.03542649832696158,
-      "fcf": 7443000000,
-      "momentum_12m": 0.16446164144062814,
-      "labels": {
-        "3y": {
-          "max_multiple": 1.683,
-          "terminal_multiple": 1.264,
-          "2x": false,
-          "3x": false,
-          "5x": false,
-          "10x": false
-        },
-        "5y": {
-          "max_multiple": 3.268,
-          "terminal_multiple": 3.268,
-          "2x": true,
-          "3x": true,
-          "5x": false,
-          "10x": false
-        }
-      },
-      "quality_roa_proxy_pct": 0.6,
-      "momentum_12m_pct": 0.2,
-      "pilot_score": 0.4
+      "quality_roa_proxy_pct": 0.3333333333333333,
+      "momentum_12m_pct": 0.3333333333333333,
+      "pilot_score": 0.3333333333333333
     },
     {
       "cik": "1045810",
@@ -1259,8 +1499,8 @@
       "date": "2021-06-30",
       "price": 19.9113,
       "quality_roa_proxy": 0.06208598519288219,
-      "fcf": 1502000000,
-      "momentum_12m": 1.101353377889017,
+      "fcf": 1502000000.0,
+      "momentum_12m": 1.1013531663944671,
       "labels": {
         "3y": {
           "max_multiple": 6.79,
@@ -1279,39 +1519,39 @@
           "10x": true
         }
       },
-      "quality_roa_proxy_pct": 1.0,
-      "momentum_12m_pct": 0.8,
-      "pilot_score": 0.9
+      "quality_roa_proxy_pct": 0.8333333333333334,
+      "momentum_12m_pct": 0.8333333333333334,
+      "pilot_score": 0.8333333333333334
     },
     {
-      "cik": "1326801",
-      "ticker": "META",
+      "cik": "320193",
+      "ticker": "AAPL",
       "date": "2021-06-30",
-      "price": 344.4113,
-      "quality_roa_proxy": 0.05807745699381738,
-      "fcf": 7970000000,
-      "momentum_12m": 0.4637336575102595,
+      "price": 133.387,
+      "quality_roa_proxy": 0.07008583512774426,
+      "fcf": 56975000000.0,
+      "momentum_12m": 0.5147389708755461,
       "labels": {
         "3y": {
-          "max_multiple": 1.518,
-          "terminal_multiple": 1.453,
+          "max_multiple": 1.609,
+          "terminal_multiple": 1.564,
           "2x": false,
           "3x": false,
           "5x": false,
           "10x": false
         },
         "5y": {
-          "max_multiple": 2.284,
-          "terminal_multiple": 1.634,
+          "max_multiple": 2.361,
+          "terminal_multiple": 2.167,
           "2x": true,
           "3x": false,
           "5x": false,
           "10x": false
         }
       },
-      "quality_roa_proxy_pct": 0.8,
-      "momentum_12m_pct": 0.6,
-      "pilot_score": 0.7
+      "quality_roa_proxy_pct": 1.0,
+      "momentum_12m_pct": 0.6666666666666666,
+      "pilot_score": 0.8333333333333333
     },
     {
       "cik": "1318605",
@@ -1319,7 +1559,7 @@
       "date": "2021-06-30",
       "price": 226.5667,
       "quality_roa_proxy": 0.008268519217699917,
-      "fcf": 293000000,
+      "fcf": 293000000.0,
       "momentum_12m": 2.0353778145926866,
       "labels": {
         "3y": {
@@ -1339,9 +1579,39 @@
           "10x": false
         }
       },
-      "quality_roa_proxy_pct": 0.2,
+      "quality_roa_proxy_pct": 0.16666666666666666,
       "momentum_12m_pct": 1.0,
-      "pilot_score": 0.6
+      "pilot_score": 0.5833333333333334
+    },
+    {
+      "cik": "1326801",
+      "ticker": "META",
+      "date": "2021-06-30",
+      "price": 344.4113,
+      "quality_roa_proxy": 0.05807745699381738,
+      "fcf": 7970000000.0,
+      "momentum_12m": 0.46373378720869884,
+      "labels": {
+        "3y": {
+          "max_multiple": 1.518,
+          "terminal_multiple": 1.453,
+          "2x": false,
+          "3x": false,
+          "5x": false,
+          "10x": false
+        },
+        "5y": {
+          "max_multiple": 2.284,
+          "terminal_multiple": 1.634,
+          "2x": true,
+          "3x": false,
+          "5x": false,
+          "10x": false
+        }
+      },
+      "quality_roa_proxy_pct": 0.6666666666666666,
+      "momentum_12m_pct": 0.5,
+      "pilot_score": 0.5833333333333333
     },
     {
       "cik": "789019",
@@ -1349,8 +1619,8 @@
       "date": "2021-06-30",
       "price": 259.4933,
       "quality_roa_proxy": 0.050042249554032484,
-      "fcf": 17090000000,
-      "momentum_12m": 0.33621405883091526,
+      "fcf": 17090000000.0,
+      "momentum_12m": 0.336213743862418,
       "labels": {
         "3y": {
           "max_multiple": 1.715,
@@ -1369,9 +1639,9 @@
           "10x": false
         }
       },
-      "quality_roa_proxy_pct": 0.6,
-      "momentum_12m_pct": 0.4,
-      "pilot_score": 0.5
+      "quality_roa_proxy_pct": 0.5,
+      "momentum_12m_pct": 0.3333333333333333,
+      "pilot_score": 0.41666666666666663
     },
     {
       "cik": "1018724",
@@ -1379,7 +1649,7 @@
       "date": "2021-06-30",
       "price": 172.008,
       "quality_roa_proxy": 0.025093089263550174,
-      "fcf": 2352000000,
+      "fcf": 2352000000.0,
       "momentum_12m": 0.1950394172581058,
       "labels": {
         "3y": {
@@ -1399,9 +1669,9 @@
           "10x": false
         }
       },
-      "quality_roa_proxy_pct": 0.4,
-      "momentum_12m_pct": 0.2,
-      "pilot_score": 0.30000000000000004
+      "quality_roa_proxy_pct": 0.3333333333333333,
+      "momentum_12m_pct": 0.16666666666666666,
+      "pilot_score": 0.25
     }
   ]
 }
