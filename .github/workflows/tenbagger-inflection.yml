@@ -1,5 +1,5 @@
 name: Warman Tenbagger Inflection
-on: workflow_dispatch
+on:\n  workflow_dispatch:\n  push:\n    paths: ['tenbagger_inflection_v1.py','.github/workflows/tenbagger-inflection.yml']
 jobs:
   run:
     runs-on: ubuntu-latest
