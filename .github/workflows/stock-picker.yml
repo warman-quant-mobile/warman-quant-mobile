@@ -2,18 +2,9 @@ name: Warman Stock Picker Lab
 on:
   workflow_dispatch:
   push:
-    branches: [main]
-    paths:
-      - '.stock-picker-trigger'
-      - 'stock_picker_price_v1.py'
-      - 'sec_fundamentals_collector.py'
-      - 'stock_picker_universe.py'
-      - 'stock_picker_rank_v2.py'
-      - 'winner_funnel_v1.py'
-      - 'tenbagger_pit_pilot_v1.py'
-      - 'sec_pit_broad_cohort.py'
-      - 'research_safety.py'
-      - '.github/workflows/stock-picker.yml'
+    branches:
+      - main
+
 permissions:
   contents: write
 jobs:
