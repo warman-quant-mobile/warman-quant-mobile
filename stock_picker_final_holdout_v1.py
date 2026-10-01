@@ -54,3 +54,5 @@ def main():
  out={"status":"FINAL_HOLDOUT_OPENED_ONCE","warning":"Weights/concentration were frozen before this run. Current-survivor bias remains; this is not delisting-complete certification.","window":"2022-2025 cohorts","cost_drag":drag,"coverage":{"priced":len(px),"observations":len(df)},"frozen_score":"35% quality + 35% growth + 30% momentum","results":outres}
  Path(a.out).write_text(json.dumps(out,indent=2,allow_nan=False)+"\n");print(json.dumps(out))
 if __name__=="__main__":main()
+
+# frozen holdout trigger
