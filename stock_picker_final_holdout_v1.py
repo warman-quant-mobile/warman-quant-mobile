@@ -47,12 +47,12 @@ def main():
   g=df.loc[ix];q=(rk(g.roa).fillna(.5)+rk(g.fcf_margin).fillna(.5)+rk(-g.debt_assets).fillna(.5)+rk(-g.dilution).fillna(.5))/4;gr=(rk(g.rev_growth).fillna(.5)+rk(g.op_growth).fillna(.5)+rk(g.gross_growth).fillna(.5))/3;m=rk(g.momentum).fillna(.5);df.loc[ix,"score"]=(.35*q+.35*gr+.30*m).values
  drag=.005;outres={}
  for k in [5,10,20]:
-  s=[];b=[];annual=[]
+  s=[];b=[];wr=[];annual=[]
   for y,g in df.groupby("year"):
-   top=g.nlargest(min(k,len(g)),"score");sr=float(top.ret.mean()-drag);br=float(g.ret.mean()-drag);s.append(sr);b.append(br);annual.append({"year":int(y),"n":len(top),"net_return":sr,"equal_weight_net":br})
-  ps,pb=perf(s),perf(b);outres[f"top{k}"]={"strategy":ps,"equal_weight":pb,"active_cagr":ps["cagr"]-pb["cagr"],"annual":annual}
+   top=g.nlargest(min(k,len(g)),"score");sr=float(top.ret.mean()-drag);br=float(g.ret.mean()-drag);wo=top.drop(top.ret.idxmax()) if len(top)>1 else top;wor=float(wo.ret.mean()-drag);s.append(sr);b.append(br);wr.append(wor);annual.append({"year":int(y),"n":len(top),"net_return":sr,"equal_weight_net":br,"winner_removed_net":wor,"best_ticker":str(top.loc[top.ret.idxmax(),"ticker"]),"best_return":float(top.ret.max()),"selected":[{"ticker":str(r.ticker),"score":float(r.score),"ret":float(r.ret)} for _,r in top.iterrows()]})
+  ps,pb,pw=perf(s),perf(b),perf(wr);outres[f"top{k}"]={"strategy":ps,"equal_weight":pb,"winner_removed":pw,"active_cagr":ps["cagr"]-pb["cagr"],"winner_removed_active_cagr":pw["cagr"]-pb["cagr"],"annual":annual}
  out={"status":"FINAL_HOLDOUT_OPENED_ONCE","warning":"Weights/concentration were frozen before this run. Current-survivor bias remains; this is not delisting-complete certification.","window":"2022-2025 cohorts","cost_drag":drag,"coverage":{"priced":len(px),"observations":len(df)},"frozen_score":"35% quality + 35% growth + 30% momentum","results":outres}
  Path(a.out).write_text(json.dumps(out,indent=2,allow_nan=False)+"\n");print(json.dumps(out))
 if __name__=="__main__":main()
 
-# frozen holdout trigger
+# frozen holdout trigger\n# diagnostics only: exact frozen scores/concentrations; no refit
