@@ -6,7 +6,7 @@
       "ticker": "INDU-A.ST",
       "name": "Industriv\u00e4rden, AB ser. A",
       "region": "se",
-      "market_cap": 227394879488,
+      "market_cap": 228042719232,
       "families": {
         "quality": 0.9304,
         "value": 0.7001,
@@ -22,7 +22,7 @@
       "ticker": "INDU-C.ST",
       "name": "Industriv\u00e4rden, AB ser. C",
       "region": "se",
-      "market_cap": 225192198144,
+      "market_cap": 225624096768,
       "families": {
         "quality": 0.9264,
         "value": 0.6961,
@@ -38,7 +38,7 @@
       "ticker": "INVE-B.ST",
       "name": "Investor AB ser. B",
       "region": "se",
-      "market_cap": 1232081387520,
+      "market_cap": 1233000464384,
       "families": {
         "quality": 0.8742,
         "value": 0.6747,
@@ -54,7 +54,7 @@
       "ticker": "INVE-A.ST",
       "name": "Investor AB ser. A",
       "region": "se",
-      "market_cap": 1211626160128,
+      "market_cap": 1212545105920,
       "families": {
         "quality": 0.8782,
         "value": 0.6787,
@@ -86,7 +86,7 @@
       "ticker": "TIETOS.ST",
       "name": "Tieto Corporation",
       "region": "se",
-      "market_cap": 22136946688,
+      "market_cap": 22180825088,
       "families": {
         "quality": 0.7108,
         "value": 0.5261,
@@ -102,7 +102,7 @@
       "ticker": "STORY-B.ST",
       "name": "Storytel AB ser. B",
       "region": "se",
-      "market_cap": 8958237696,
+      "market_cap": 8973563904,
       "families": {
         "quality": 0.8474,
         "value": 0.3373,
@@ -118,7 +118,7 @@
       "ticker": "BOL.ST",
       "name": "Boliden AB",
       "region": "se",
-      "market_cap": 143855386624,
+      "market_cap": 143741796352,
       "families": {
         "quality": 0.6814,
         "value": 0.5221,
@@ -134,7 +134,7 @@
       "ticker": "HACK.ST",
       "name": "Hacksaw AB",
       "region": "se",
-      "market_cap": 23829751808,
+      "market_cap": 23815290880,
       "families": {
         "quality": 1.0,
         "value": 0.4036,
@@ -150,7 +150,7 @@
       "ticker": "NREST.ST",
       "name": "Nordrest Holding AB",
       "region": "se",
-      "market_cap": 3334192640,
+      "market_cap": 3321466624,
       "families": {
         "quality": 0.9826,
         "value": 0.4096,
@@ -200,7 +200,7 @@
       "ticker": "INDU-A.ST",
       "name": "Industriv\u00e4rden, AB ser. A",
       "region": "se",
-      "market_cap": 227394879488,
+      "market_cap": 228042719232,
       "families": {
         "quality": 0.9304,
         "value": 0.7001,
@@ -216,7 +216,7 @@
       "ticker": "INDU-C.ST",
       "name": "Industriv\u00e4rden, AB ser. C",
       "region": "se",
-      "market_cap": 225192198144,
+      "market_cap": 225624096768,
       "families": {
         "quality": 0.9264,
         "value": 0.6961,
@@ -232,7 +232,7 @@
       "ticker": "INVE-B.ST",
       "name": "Investor AB ser. B",
       "region": "se",
-      "market_cap": 1232081387520,
+      "market_cap": 1233000464384,
       "families": {
         "quality": 0.8742,
         "value": 0.6747,
@@ -248,7 +248,7 @@
       "ticker": "INVE-A.ST",
       "name": "Investor AB ser. A",
       "region": "se",
-      "market_cap": 1211626160128,
+      "market_cap": 1212545105920,
       "families": {
         "quality": 0.8782,
         "value": 0.6787,
@@ -280,7 +280,7 @@
       "ticker": "TIETOS.ST",
       "name": "Tieto Corporation",
       "region": "se",
-      "market_cap": 22136946688,
+      "market_cap": 22180825088,
       "families": {
         "quality": 0.7108,
         "value": 0.5261,
@@ -296,7 +296,7 @@
       "ticker": "STORY-B.ST",
       "name": "Storytel AB ser. B",
       "region": "se",
-      "market_cap": 8958237696,
+      "market_cap": 8973563904,
       "families": {
         "quality": 0.8474,
         "value": 0.3373,
