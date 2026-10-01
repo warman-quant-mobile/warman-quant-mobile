@@ -41,9 +41,14 @@ def main():
  # Split expensive history from current scoring. Long history is capped to the
  # largest liquid US names for this explicitly diagnostic survivor-trained model;
  # every current US/SE name still receives a 36-month scoring history.
- train_us=sorted(um,key=lambda t:(um.get(t) or 0),reverse=True)[:2500]
+ train_us=sorted(um,key=lambda t:(um.get(t) or 0),reverse=True)[:1200]
  Ptrain=dl(train_us,start="2011-01-01",end="2022-07-01")
- ticks=list(dict.fromkeys(list(um)+list(sm)))
+ try:
+  proto=json.load(open("signals/stock_picker_prototype_v2.json"))
+  allowed={x["ticker"] for x in proto.get("all_eligible",[]) if x.get("ticker")}
+ except Exception:
+  allowed=set(um)|set(sm)
+ ticks=[t for t in dict.fromkeys(list(um)+list(sm)) if t in allowed]
  Pcur=dl(ticks,start="2023-01-01",end="2027-01-01")
  # Historical training from US names with current membership: diagnostic, chronological OOS.
  rows=[]
@@ -71,6 +76,7 @@ def main():
  cur=[]
  for region,mp in [("us",um),("se",sm)]:
   for t,mc in mp.items():
+   if t not in allowed:continue
    px=Pcur.get(t)
    if px is None:continue
    # investability floor
@@ -87,6 +93,6 @@ def main():
  C["sleeve"]=np.where(C.compounder_score>=C.recovery_score,"compounder","recovery")
  cols=["ticker","region","market_cap","score","sleeve","compounder_score","recovery_score","p_hit2","p_hit3","p_hit5","p_loss"]+F
  top=C.sort_values("score",ascending=False)[cols].head(100).replace({np.nan:None}).to_dict("records")
- out={"status":"CROSS_MARKET_ML_DIAGNOSTIC","warning":"Historical training uses current US survivors; Swedish scores are transfer scores, not Sweden-specific calibrated probabilities.","coverage":{"historical_obs":len(df),"oos":len(te),"training_us":len(train_us),"current_us":int((C.region=="us").sum()),"current_se":int((C.region=="se").sum())},"oos":metrics,"candidates":top}
+ out={"status":"CROSS_MARKET_ML_DIAGNOSTIC","warning":"Historical training uses current US survivors; Swedish scores are transfer scores, not Sweden-specific calibrated probabilities.","coverage":{"historical_obs":len(df),"oos":len(te),"training_us":len(train_us),"stage1_allowed":len(allowed),"current_us":int((C.region=="us").sum()),"current_se":int((C.region=="se").sum())},"oos":metrics,"candidates":top}
  Path(a.out).write_text(json.dumps(out,indent=2,allow_nan=False)+"\n");print(json.dumps({"coverage":out["coverage"],"oos":metrics,"top":top[:20]}))
 if __name__=="__main__":main()
