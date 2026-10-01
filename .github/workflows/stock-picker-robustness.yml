@@ -13,6 +13,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+      - run: pip install numpy
       - uses: actions/download-artifact@v4
         with:
           name: stock-picker-final
