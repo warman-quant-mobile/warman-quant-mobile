@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Sequential inflection study: frozen 2014-17 rule, 2018-21 OOS."""
+"""Sequential inflection study: frozen 2014-17 rule, 2018-21 OOS.\nResearch run trigger v2."""
 import argparse,json
 from pathlib import Path
 import numpy as np,pandas as pd,yfinance as yf
