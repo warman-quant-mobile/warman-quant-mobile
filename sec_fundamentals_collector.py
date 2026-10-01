@@ -2,7 +2,7 @@
 """SEC EDGAR point-in-time fundamentals collector for Stock Picker. Research only."""
 import argparse,json,time,urllib.request,os
 from pathlib import Path
-UA=os.environ.get("SEC_USER_AGENT","WarmanQuant/1.0 warman-quant-mobile GitHub research")
+UA=os.environ.get("SEC_USER_AGENT","WarmanQuant/1.0 warman-quant-mobile GitHub research").strip().replace("\\r"," ").replace("\\n"," ").replace("\r"," ").replace("\n"," ")
 BASE="https://data.sec.gov"
 TAGS={
  "revenue":["RevenueFromContractWithCustomerExcludingAssessedTax","Revenues","SalesRevenueNet"],
@@ -12,8 +12,14 @@ TAGS={
  "capex":["PaymentsToAcquirePropertyPlantAndEquipment"],"shares":["CommonStockSharesOutstanding"]
 }
 def get(url):
- q=urllib.request.Request(url,headers={"User-Agent":UA,"Accept-Encoding":"identity"})
- with urllib.request.urlopen(q,timeout=45) as r:return json.load(r)
+ last=None
+ for attempt in range(4):
+  try:
+   q=urllib.request.Request(url,headers={"User-Agent":UA,"Accept-Encoding":"identity"})
+   with urllib.request.urlopen(q,timeout=45) as r:return json.load(r)
+  except Exception as e:
+   last=e; time.sleep(1.5*(attempt+1))
+ raise last
 def facts(cik):
  return get(f"{BASE}/api/xbrl/companyfacts/CIK{int(cik):010d}.json")
 def choose(usgaap,names):
