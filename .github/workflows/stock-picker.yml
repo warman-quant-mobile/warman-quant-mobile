@@ -19,7 +19,7 @@ permissions:
 jobs:
   stock-picker:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 60
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -70,7 +70,7 @@ jobs:
       - name: Build broader SEC PIT diagnostic cohort
         env:
           SEC_USER_AGENT: ${{ secrets.SEC_USER_AGENT }}
-        run: python sec_pit_broad_cohort.py --universe output/us_universe_current.json --limit 120 --out output/sec_point_in_time_broad.json
+        run: python sec_pit_broad_cohort.py --universe output/us_universe_current.json --limit 7500 --out output/sec_point_in_time_broad.json
       - name: Tenbagger historical PIT pilot
         if: hashFiles('output/sec_point_in_time.json') != ''
         run: python tenbagger_pit_pilot_v1.py --pit output/sec_point_in_time.json --out signals/tenbagger_pit_pilot_v1.json
@@ -80,7 +80,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add signals/stock_picker_price_v1.json signals/stock_picker_prototype_v2.json signals/winner_funnel_v1.json signals/tenbagger_pit_pilot_v1.json output/sec_point_in_time.json output/us_universe_current.json output/se_universe_current.json || true
+          git add signals/stock_picker_price_v1.json signals/stock_picker_prototype_v2.json signals/winner_funnel_v1.json signals/tenbagger_pit_pilot_v1.json output/sec_point_in_time.json output/sec_point_in_time_broad.json output/us_universe_current.json output/se_universe_current.json || true
           git diff --cached --quiet || git commit -m "Update Stock Picker research output"
           git fetch origin main
           git push origin HEAD:main || echo 'Research outputs retained in artifact; concurrent publish skipped'
