@@ -1,0 +1,41 @@
+name: Warman Stock Picker Finalizer
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'stock_picker_portfolio_validation_v1.py'
+      - 'warman_ml_crossmarket_v1.py'
+      - '.github/workflows/stock-picker-finalize.yml'
+permissions:
+  actions: read
+  contents: read
+jobs:
+  finalize:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: pip install -r requirements.txt
+      - name: Reuse frozen same-day PIT research artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: stock-picker-research
+          run-id: 36842701260
+          github-token: ${{ github.token }}
+          path: .
+      - name: Cross-market current rank
+        run: python warman_ml_crossmarket_v1.py --us output/us_universe_current.json --se output/se_universe_current.json --out signals/warman_ml_crossmarket_v1.json
+      - name: Portfolio wealth validation
+        run: python stock_picker_portfolio_validation_v1.py --pit output/sec_point_in_time_broad.json --out signals/stock_picker_portfolio_validation_v1.json
+      - uses: actions/upload-artifact@v4
+        with:
+          name: stock-picker-final
+          path: |
+            signals/warman_ml_crossmarket_v1.json
+            signals/stock_picker_portfolio_validation_v1.json
+            signals/stock_picker_prototype_v2.json
+            signals/winner_funnel_v1.json
