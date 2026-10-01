@@ -68,7 +68,6 @@ jobs:
               print('SEC PIT unavailable; broad Yahoo prototype continues')
           PY
       - name: Build broader SEC PIT diagnostic cohort
-        continue-on-error: true
         env:
           SEC_USER_AGENT: ${{ secrets.SEC_USER_AGENT }}
         run: python sec_pit_broad_cohort.py --universe output/us_universe_current.json --limit 120 --out output/sec_point_in_time_broad.json
