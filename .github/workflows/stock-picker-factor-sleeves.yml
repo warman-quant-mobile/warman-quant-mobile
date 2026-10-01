@@ -1,0 +1,24 @@
+name: Warman Stock Picker Factor Sleeves
+on:
+  push:
+    branches: [main]
+    paths: ['stock_picker_factor_sleeves_v1.py','.github/workflows/stock-picker-factor-sleeves.yml']
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: '3.11'}
+      - run: pip install -r requirements.txt
+      - uses: actions/download-artifact@v4
+        with:
+          name: stock-picker-final
+          run-id: 36858689442
+          github-token: ${{ github.token }}
+          path: final
+      - run: python stock_picker_factor_sleeves_v1.py --pit final/sec_point_in_time_broad.json --out stock_picker_factor_sleeves_v1.json
+      - uses: actions/upload-artifact@v4
+        with:
+          name: stock-picker-factor-sleeves
+          path: stock_picker_factor_sleeves_v1.json
