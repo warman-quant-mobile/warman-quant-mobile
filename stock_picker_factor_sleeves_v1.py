@@ -45,7 +45,8 @@ def main():
  df=pd.DataFrame(rows).replace([np.inf,-np.inf],np.nan)
  for y,ix in df.groupby("year").groups.items():
   g=df.loc[ix];q=(rank(g.roa).fillna(.5)+rank(g.fcfm).fillna(.5)+rank(-g.lev).fillna(.5)+rank(-g.dil).fillna(.5))/4;gr=(rank(g.rg).fillna(.5)+rank(g.og).fillna(.5)+rank(g.gg).fillna(.5))/3;m=rank(g.mom).fillna(.5)
-  improve=(rank(g.rg).fillna(.5)+rank(g.og).fillna(.5)+rank(g.fcfm).fillna(.5)+rank(-g.lev).fillna(.5))/4\n  df.loc[ix,"quality"]=q.values;df.loc[ix,"growth"]=gr.values;df.loc[ix,"momentum"]=m.values;df.loc[ix,"improvement"]=improve.values;df.loc[ix,"growth_improvement"]=((gr+improve)/2).values;df.loc[ix,"qgm_equal"]=((q+gr+m)/3).values;df.loc[ix,"qg_equal"]=((q+gr)/2).values
+  improve=(rank(g.rg).fillna(.5)+rank(g.og).fillna(.5)+rank(g.fcfm).fillna(.5)+rank(-g.lev).fillna(.5))/4
+  df.loc[ix,"quality"]=q.values;df.loc[ix,"growth"]=gr.values;df.loc[ix,"momentum"]=m.values;df.loc[ix,"improvement"]=improve.values;df.loc[ix,"growth_improvement"]=((gr+improve)/2).values;df.loc[ix,"qgm_equal"]=((q+gr+m)/3).values;df.loc[ix,"qg_equal"]=((q+gr)/2).values
  out={"status":"RESEARCH_ONLY_FACTOR_SLEEVE_AUDIT","window":"2014-2020","warning":"Current-survivor universe; never use this as delisting-complete evidence.","results":{}}
  for fac in ["quality","growth","momentum","improvement","growth_improvement","qg_equal","qgm_equal"]:
   out["results"][fac]={}
