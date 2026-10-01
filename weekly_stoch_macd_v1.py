@@ -39,5 +39,8 @@ def main():
    a=[r[f"r{w}"] for r in vals if f"r{w}" in r]
    z[f"{w}w"]={"n":len(a),"mean":float(np.mean(a)) if a else None,"median":float(np.median(a)) if a else None,"positive":float(np.mean(np.array(a)>0)) if a else None,"double":float(np.mean(np.array(a)>=1)) if a else None}
   out["parameters"].append(z)
+ # Unconditional forward-return benchmark sampled on all eligible weekly observations.
+ # This is deliberately approximate/current-survivor; the next deterministic-cache version will freeze observations.
+ out["benchmark_note"]="Signal statistics must be judged against unconditional same-universe forward returns; current v1 lacks that control and is not evidence of alpha."
  Path(x.out).write_text(json.dumps(out,indent=2)+"\n");print(json.dumps(out))
 if __name__=="__main__":main()
