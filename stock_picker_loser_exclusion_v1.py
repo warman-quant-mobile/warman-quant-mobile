@@ -41,10 +41,13 @@ def main():
    rows.append({"ticker":t,"year":y,"ret":float(f.iloc[-1]/h.iloc[-1]-1),"roa":ni/ass if ni is not None else np.nan,"fcfm":((cfo-cap)/rev if cfo is not None and cap is not None and rev else np.nan),"lev":debt/ass if debt is not None else np.nan,"dil":pct(sh,s0),"mom":float(h.iloc[-1]/h.iloc[-13]-1),"vol":float(rr.std()*np.sqrt(12)),"earnings_yield":(ni/(float(h.iloc[-1])*sh) if ni is not None and sh not in (None,0) and float(h.iloc[-1])>0 else np.nan),"loss_firm":1.0 if ni is not None and ni<=0 else 0.0})
  df=pd.DataFrame(rows).replace([np.inf,-np.inf],np.nan)
  for y,ix in df.groupby("year").groups.items():
-  g=df.loc[ix];bad=(rk(-g.roa).fillna(.5)+rk(-g.fcfm).fillna(.5)+rk(g.lev).fillna(.5)+rk(g.dil).fillna(.5)+rk(-g.mom).fillna(.5)+rk(g.vol).fillna(.5))/6;valbad=(rk(-g.earnings_yield).fillna(.5)+g.loss_firm)/2\n  df.loc[ix,"bad"]=bad.values;df.loc[ix,"valbad"]=valbad.values;df.loc[ix,"bad_plus_value"]=((bad+valbad)/2).values
+  g=df.loc[ix];bad=(rk(-g.roa).fillna(.5)+rk(-g.fcfm).fillna(.5)+rk(g.lev).fillna(.5)+rk(g.dil).fillna(.5)+rk(-g.mom).fillna(.5)+rk(g.vol).fillna(.5))/6;valbad=(rk(-g.earnings_yield).fillna(.5)+g.loss_firm)/2
+  df.loc[ix,"bad"]=bad.values;df.loc[ix,"valbad"]=valbad.values;df.loc[ix,"bad_plus_value"]=((bad+valbad)/2).values
  base=[float(g.ret.mean()-.005) for _,g in df.groupby("year")];bp=wealth(base)
  out={"status":"RESEARCH_ONLY_LOSER_EXCLUSION_AUDIT","window":"2014-2020","warning":"Current-survivor universe; delisted losers underrepresented.","benchmark":bp,"results":{}}
- for model in ["bad","valbad","bad_plus_value"]:\n  out["results"][model]={}\n  for cut in [.05,.10,.20,.30,.40,.50]:
+ for model in ["bad","valbad","bad_plus_value"]:
+  out["results"][model]={}
+  for cut in [.05,.10,.20,.30,.40,.50]:
   rs=[];cap={2:[],3:[],5:[]};dr=[]
   for _,g in df.groupby("year"):
    n=max(1,int(len(g)*cut));drop=set(g.nlargest(n,"bad").index);keep=g.loc[~g.index.isin(drop)];rs.append(float(keep.ret.mean()-.005));dr.append(float(g.loc[list(drop)].ret.mean()))
