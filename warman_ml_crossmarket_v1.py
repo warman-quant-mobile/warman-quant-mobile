@@ -18,12 +18,12 @@ def pf(px,mcap=np.nan):
  return dict(mom12=rr(13),mom6=rr(7),dd36=p/float(px.tail(36).max())-1,
   vol12=float(ret.tail(12).std()*np.sqrt(12)),vol36=float(ret.tail(36).std()*np.sqrt(12)),
   reversal3=rr(4),trend=(p/ma10-1 if ma10 else np.nan),log_mcap=(np.log(mcap) if mcap and mcap>0 else np.nan))
-def dl(ticks,start="2011-01-01"):
+def dl(ticks,start="2011-01-01",end="2027-01-01"):
  out={}
- for i in range(0,len(ticks),200):
-  b=ticks[i:i+200]
+ for i in range(0,len(ticks),100):
+  b=ticks[i:i+100]
   try:
-   q=yf.download(b,start=start,end="2027-01-01",interval="1mo",auto_adjust=True,progress=False,threads=True,group_by="ticker")
+   q=yf.download(b,start=start,end=end,interval="1mo",auto_adjust=True,progress=False,threads=True,group_by="ticker")
    for t in b:
     try:
      s=(q[t]["Close"] if len(b)>1 else q["Close"]).dropna()
@@ -38,11 +38,17 @@ def main():
  ap=argparse.ArgumentParser();ap.add_argument("--us",default="output/us_universe_current.json");ap.add_argument("--se",default="output/se_universe_current.json");ap.add_argument("--out",default="signals/warman_ml_crossmarket_v1.json");a=ap.parse_args()
  us=json.load(open(a.us))["companies"];se=json.load(open(a.se))["companies"]; um={x["ticker"]:x.get("market_cap") for x in us}; sm={x["ticker"]:x.get("market_cap") for x in se}
  # Broad but practical current set: every listed equity with market cap known and >= $50m / SEK 500m; plus all missing-cap names for scoring if price exists.
- ticks=list(dict.fromkeys(list(um)+list(sm))); P=dl(ticks)
+ # Split expensive history from current scoring. Long history is capped to the
+ # largest liquid US names for this explicitly diagnostic survivor-trained model;
+ # every current US/SE name still receives a 36-month scoring history.
+ train_us=sorted(um,key=lambda t:(um.get(t) or 0),reverse=True)[:2500]
+ Ptrain=dl(train_us,start="2011-01-01",end="2022-07-01")
+ ticks=list(dict.fromkeys(list(um)+list(sm)))
+ Pcur=dl(ticks,start="2023-01-01",end="2027-01-01")
  # Historical training from US names with current membership: diagnostic, chronological OOS.
  rows=[]
- for t in um:
-  px=P.get(t)
+ for t in train_us:
+  px=Ptrain.get(t)
   if px is None:continue
   for y in range(2014,2022):
    h=px.loc[:f"{y}-06-30"]; fut=px.loc[f"{y}-06-30":f"{y+5}-06-30"]
@@ -65,7 +71,7 @@ def main():
  cur=[]
  for region,mp in [("us",um),("se",sm)]:
   for t,mc in mp.items():
-   px=P.get(t)
+   px=Pcur.get(t)
    if px is None:continue
    # investability floor
    floor=50_000_000 if region=="us" else 500_000_000
@@ -81,6 +87,6 @@ def main():
  C["sleeve"]=np.where(C.compounder_score>=C.recovery_score,"compounder","recovery")
  cols=["ticker","region","market_cap","score","sleeve","compounder_score","recovery_score","p_hit2","p_hit3","p_hit5","p_loss"]+F
  top=C.sort_values("score",ascending=False)[cols].head(100).replace({np.nan:None}).to_dict("records")
- out={"status":"CROSS_MARKET_ML_DIAGNOSTIC","warning":"Historical training uses current US survivors; Swedish scores are transfer scores, not Sweden-specific calibrated probabilities.","coverage":{"historical_obs":len(df),"oos":len(te),"current_us":int((C.region=="us").sum()),"current_se":int((C.region=="se").sum())},"oos":metrics,"candidates":top}
+ out={"status":"CROSS_MARKET_ML_DIAGNOSTIC","warning":"Historical training uses current US survivors; Swedish scores are transfer scores, not Sweden-specific calibrated probabilities.","coverage":{"historical_obs":len(df),"oos":len(te),"training_us":len(train_us),"current_us":int((C.region=="us").sum()),"current_se":int((C.region=="se").sum())},"oos":metrics,"candidates":top}
  Path(a.out).write_text(json.dumps(out,indent=2,allow_nan=False)+"\n");print(json.dumps({"coverage":out["coverage"],"oos":metrics,"top":top[:20]}))
 if __name__=="__main__":main()
