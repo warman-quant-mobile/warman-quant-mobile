@@ -1,17 +1,25 @@
 {
   "schema_version": 2,
-  "generated_at_utc": "2026-10-01T00:56:36.810310+00:00",
-  "source_manifest_utc": "2026-10-01T00:56:03.978462+00:00",
+  "generated_at_utc": "2026-10-01T07:51:28.037719+00:00",
+  "source_manifest_utc": "2026-10-01T07:50:48.595032+00:00",
   "status": "NO_QUALIFIED_CANDIDATES",
   "candidates": [],
   "rejected": {},
   "screening_funnel": {
     "eligible": 30,
-    "directional_breakouts": 2,
-    "positive_reference_reward": 0,
+    "directional_breakouts": 3,
+    "positive_reference_reward": 1,
     "reference_10r": 0
   },
   "diagnostic_watchlist": [
+    {
+      "symbol": "SILVER_FUT",
+      "direction": "SHORT",
+      "session_date": "2026-09-30",
+      "reference_reward_risk_after_proxy_cost": 4.74,
+      "reason": "BELOW_10R_REFERENCE",
+      "note": "Research diagnostics only; historical reference is not a validated target."
+    },
     {
       "symbol": "US30Y_YIELD",
       "direction": "LONG",
@@ -24,7 +32,7 @@
       "symbol": "US30Y_BOND_FUT",
       "direction": "SHORT",
       "session_date": "2026-09-30",
-      "reference_reward_risk_after_proxy_cost": -2.72,
+      "reference_reward_risk_after_proxy_cost": -2.6,
       "reason": "BELOW_10R_REFERENCE",
       "note": "Research diagnostics only; historical reference is not a validated target."
     }
