@@ -37,3 +37,5 @@ def main():
  o={"status":"CURRENT_PROXY_FOR_FROZEN_FINAL_TESTED_QGM","weights":W,"warning":"Current Yahoo family proxies are not identical SEC PIT variables; no weights were retuned.","top20":final[:20],"top50":final[:50],"eligible":len(final)}
  Path("signals/stock_picker_frozen_qgm_current_v1.json").write_text(json.dumps(o,indent=2)+"\n");print(json.dumps(o))
 if __name__=="__main__":main()
+
+# trigger
