@@ -64,7 +64,15 @@ def main():
     top=z[z[score]>=z.groupby("date")[score].transform(lambda s:s.quantile(1-q))]
     rate=float(top[lab].mean()) if len(top) else None;o[lab][f"top{int(q*100)}"]=rate;o[lab][f"lift{int(q*100)}"]=(rate/base if base and rate is not None else None)
   return o
- out={"status":"BROAD_PIT_CURRENT_SURVIVOR_OOS_DIAGNOSTIC","split":"2014-2017 development; 2018-2021 untouched chronological OOS","price_interval":"monthly adjusted","coverage":{"pit_companies":len(companies),"mapped_tickers":len(tickers),"price_tickers":len(prices),"observations":len(df)},"growth_inflection":{"dev":stats(dev,"growth_score"),"oos":stats(test,"growth_score")},"value_recovery":{"dev":stats(dev,"recovery_score"),"oos":stats(test,"recovery_score")}}
+ # Contrast profiles: development only. Effect size is winner mean minus loser mean after within-date percentile ranks.
+ feats=["rev_growth","op_growth","gross_growth","roa","fcf_margin","debt_assets","dilution","momentum"]
+ D=dev.copy()
+ for dt,ix in D.groupby("date").groups.items():
+  for v in feats:D.loc[ix,v+"_pct"]=D.loc[ix,v].rank(pct=True).fillna(.5)
+ contrast={}
+ for lab in ["hit3","hit5","hit10"]:
+  w=D[D[lab]];lo=D[D.max5<1.0];contrast[lab]={v:{"winner_mean":float(w[v+"_pct"].mean()),"loser_mean":float(lo[v+"_pct"].mean()),"spread":float(w[v+"_pct"].mean()-lo[v+"_pct"].mean())} for v in feats}
+ out={"status":"BROAD_PIT_CURRENT_SURVIVOR_OOS_DIAGNOSTIC","split":"2014-2017 development; 2018-2021 untouched chronological OOS","price_interval":"monthly adjusted","coverage":{"pit_companies":len(companies),"mapped_tickers":len(tickers),"price_tickers":len(prices),"observations":len(df)},"contrast_dev_only":contrast,"growth_inflection":{"dev":stats(dev,"growth_score"),"oos":stats(test,"growth_score")},"value_recovery":{"dev":stats(dev,"recovery_score"),"oos":stats(test,"recovery_score")}}
  # Current candidate proxy = latest available observation per ticker scored by OOS-better hypothesis, not a calibrated probability.
  latest=df.sort_values("date").groupby("ticker").tail(1);out["historical_top_profiles"]=latest.sort_values("growth_score",ascending=False)[["ticker","date","growth_score","recovery_score"]].head(30).to_dict("records")
  Path(a.out).write_text(json.dumps(out,indent=2,allow_nan=False)+"\n");print(json.dumps(out))
