@@ -3,7 +3,7 @@ import json
 from pathlib import Path
 d=json.loads(Path("signals/stock_picker_prototype_v2.json").read_text())
 rows=[]
-for x in d.get("top",[]):
+for x in d.get("all_eligible",d.get("top",[])):
  f=x.get("families",{})
  if not all(k in f for k in ("quality","value","growth","momentum")): continue
  if min(f.values())<.30 or f["quality"]<.55 or f["growth"]<.55 or f["momentum"]<.55: continue
