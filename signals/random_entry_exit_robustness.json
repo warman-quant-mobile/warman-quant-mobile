@@ -27,173 +27,173 @@
     "stop_atr": 1.5,
     "horizon": 120
   },
-  "final_test_start": "2024-07-29",
+  "final_test_start": "2024-07-26",
   "robustness": {
     "20": {
       "trail20": {
-        "n": 3202,
-        "pooled_mean_r": 0.108,
+        "n": 3197,
+        "pooled_mean_r": 0.116,
         "seed_mean_r": [
-          -0.054,
-          0.283,
-          0.076,
-          0.348,
-          0.164,
-          -0.045,
-          -0.016,
+          -0.015,
+          0.309,
           0.021,
-          -0.032,
-          0.339
+          0.342,
+          0.282,
+          -0.017,
+          -0.066,
+          0.028,
+          -0.026,
+          0.308
         ],
         "positive_seeds": 6,
-        "min_seed": -0.054,
-        "max_seed": 0.348
+        "min_seed": -0.066,
+        "max_seed": 0.342
       },
       "be2_trail20": {
-        "n": 3202,
-        "pooled_mean_r": 0.094,
+        "n": 3197,
+        "pooled_mean_r": 0.099,
         "seed_mean_r": [
-          -0.088,
-          0.289,
-          0.024,
-          0.302,
-          0.169,
-          -0.054,
-          -0.025,
-          0.002,
-          -0.033,
-          0.354
+          -0.023,
+          0.321,
+          -0.06,
+          0.318,
+          0.287,
+          -0.029,
+          -0.07,
+          -0.027,
+          -0.048,
+          0.328
         ],
-        "positive_seeds": 6,
-        "min_seed": -0.088,
-        "max_seed": 0.354
+        "positive_seeds": 4,
+        "min_seed": -0.07,
+        "max_seed": 0.328
       }
     },
     "50": {
       "trail20": {
-        "n": 3202,
-        "pooled_mean_r": 0.019,
+        "n": 3197,
+        "pooled_mean_r": 0.025,
         "seed_mean_r": [
-          -0.127,
-          0.168,
-          -0.009,
-          0.225,
-          0.071,
-          -0.118,
-          -0.088,
+          -0.091,
+          0.189,
           -0.06,
-          -0.105,
-          0.229
+          0.221,
+          0.173,
+          -0.094,
+          -0.134,
+          -0.051,
+          -0.1,
+          0.196
         ],
         "positive_seeds": 4,
-        "min_seed": -0.127,
-        "max_seed": 0.229
+        "min_seed": -0.134,
+        "max_seed": 0.221
       },
       "be2_trail20": {
-        "n": 3202,
-        "pooled_mean_r": 0.003,
+        "n": 3197,
+        "pooled_mean_r": 0.009,
         "seed_mean_r": [
-          -0.149,
-          0.168,
-          -0.036,
-          0.176,
-          0.065,
-          -0.135,
-          -0.092,
-          -0.082,
-          -0.116,
-          0.233
+          -0.081,
+          0.199,
+          -0.113,
+          0.194,
+          0.159,
+          -0.114,
+          -0.125,
+          -0.11,
+          -0.125,
+          0.206
         ],
         "positive_seeds": 4,
-        "min_seed": -0.149,
-        "max_seed": 0.233
+        "min_seed": -0.125,
+        "max_seed": 0.206
       }
     },
     "100": {
       "trail20": {
-        "n": 3202,
-        "pooled_mean_r": -0.1,
+        "n": 3197,
+        "pooled_mean_r": -0.096,
         "seed_mean_r": [
-          -0.225,
-          0.019,
-          -0.121,
-          0.067,
-          -0.052,
-          -0.215,
-          -0.184,
+          -0.191,
+          0.035,
           -0.167,
-          -0.203,
-          0.085
+          0.063,
+          0.032,
+          -0.196,
+          -0.225,
+          -0.155,
+          -0.199,
+          0.052
         ],
-        "positive_seeds": 3,
+        "positive_seeds": 4,
         "min_seed": -0.225,
-        "max_seed": 0.085
+        "max_seed": 0.063
       },
       "be2_trail20": {
-        "n": 3202,
-        "pooled_mean_r": -0.109,
+        "n": 3197,
+        "pooled_mean_r": -0.107,
         "seed_mean_r": [
-          -0.238,
-          0.017,
-          -0.148,
-          0.059,
-          -0.043,
-          -0.231,
-          -0.185,
-          -0.192,
+          -0.175,
+          0.032,
           -0.213,
-          0.087
+          0.064,
+          0.046,
+          -0.216,
+          -0.23,
+          -0.218,
+          -0.208,
+          0.051
         ],
-        "positive_seeds": 3,
-        "min_seed": -0.238,
-        "max_seed": 0.087
+        "positive_seeds": 4,
+        "min_seed": -0.23,
+        "max_seed": 0.064
       }
     }
   },
   "side_attribution_20bps": {
     "trail20": {
-      "LONG": 0.668,
-      "SHORT": -0.471
+      "LONG": 0.688,
+      "SHORT": -0.477
     },
     "be2_trail20": {
-      "LONG": 0.633,
-      "SHORT": -0.464
+      "LONG": 0.648,
+      "SHORT": -0.47
     }
   },
   "symbol_attribution_20bps": {
     "trail20": {
-      "SP500": -0.014,
-      "GOLD_FUT": 0.745,
-      "SILVER_FUT": 2.156,
-      "WTI_FUT": 0.113,
+      "SP500": -0.031,
+      "GOLD_FUT": 0.915,
+      "SILVER_FUT": 2.118,
+      "WTI_FUT": 0.142,
       "BRENT_FUT": 0.026,
-      "INVESTOR_B": -0.317,
+      "INVESTOR_B": -0.272,
       "VOLVO_B": -0.161,
-      "ATLAS_A": -0.41,
-      "ABB": -0.252,
-      "NVIDIA": -0.179,
-      "MICROSOFT": 0.197,
-      "APPLE": -0.221,
-      "TESLA": 0.149,
-      "AMAZON": 0.034,
-      "META": -0.25
+      "ATLAS_A": -0.408,
+      "ABB": -0.27,
+      "NVIDIA": -0.309,
+      "MICROSOFT": 0.278,
+      "APPLE": -0.241,
+      "TESLA": 0.168,
+      "AMAZON": 0.055,
+      "META": -0.298
     },
     "be2_trail20": {
-      "SP500": 0.014,
-      "GOLD_FUT": 0.612,
-      "SILVER_FUT": 2.128,
-      "WTI_FUT": 0.141,
+      "SP500": 0.008,
+      "GOLD_FUT": 0.783,
+      "SILVER_FUT": 2.093,
+      "WTI_FUT": 0.16,
       "BRENT_FUT": -0.041,
-      "INVESTOR_B": -0.291,
+      "INVESTOR_B": -0.245,
       "VOLVO_B": -0.144,
-      "ATLAS_A": -0.372,
-      "ABB": -0.295,
-      "NVIDIA": -0.13,
-      "MICROSOFT": 0.083,
-      "APPLE": -0.197,
-      "TESLA": 0.103,
+      "ATLAS_A": -0.369,
+      "ABB": -0.314,
+      "NVIDIA": -0.285,
+      "MICROSOFT": 0.17,
+      "APPLE": -0.192,
+      "TESLA": 0.108,
       "AMAZON": 0.002,
-      "META": -0.213
+      "META": -0.274
     }
   },
   "note": "Falsification pass only. Parameters frozen before inspection. No execution or candidate promotion.",
@@ -201,8 +201,8 @@
     "schema_version": 1,
     "engine": "random_entry_exit_robustness",
     "dataset": {
-      "manifest_sha256": "53f30be4e1b830cbc62aa8bcdd0c83ca0236c832de0663b416d5fb4fca594ff2",
-      "manifest_bytes": 27566
+      "manifest_sha256": "9732f5aa52c8b701b21a7cc7e226d9bfec2b9f872299a1aa0ed0e3e35bf17c2e",
+      "manifest_bytes": 27585
     },
     "model_version": "robustness-v1-frozen-2026-09-30",
     "reproducibility": {

@@ -1,6 +1,48 @@
 {
-  "status": "NO_NEW_10R_CANDIDATES",
-  "new_or_changed": [],
-  "count": 0,
+  "status": "NEW_10R_PAPER_CANDIDATES",
+  "new_or_changed": [
+    {
+      "id": "d9512b2cf2a9adb19f03",
+      "symbol": "SILVER_FUT",
+      "strategy": "failed_breakout",
+      "direction": "LONG",
+      "signal_session": "2026-09-30",
+      "reference_close": 60.509998,
+      "indicative_entry": "NEXT_AVAILABLE_QUOTE_REQUIRED",
+      "indicative_stop": 57.578895,
+      "historical_reference_level": 121.300003,
+      "indicative_net_r": 19.88,
+      "risk_per_unit_proxy": 3.052124,
+      "status": "BLOCKED_UNTIL_NORDNET_KF_PRODUCT_AND_QUOTE_VERIFIED",
+      "execution_ready": false,
+      "nordnet_gate": {
+        "eligible": true,
+        "status": "NORDNET_PRODUCT_AND_QUOTE_REQUIRED",
+        "product_search": "Silver",
+        "preferred_types": [
+          "MINI_FUTURE",
+          "TURBO"
+        ]
+      },
+      "instrument_isin": null,
+      "verified_bid": null,
+      "verified_ask": null,
+      "verified_spread": null,
+      "verified_financing": null,
+      "verified_knockout_distance": null,
+      "required_checks": [
+        "specific Nordnet instrument verified available in KF",
+        "ISIN and product type verified",
+        "live executable bid/ask verified",
+        "spread and slippage included",
+        "financing and FX included where applicable",
+        "knockout/stop-loss distance compatible with strategy stop",
+        "R recomputed from executable product economics and remains >=10",
+        "position size and gap risk checked",
+        "independent strategy validation; no live execution"
+      ]
+    }
+  ],
+  "count": 1,
   "note": "GitHub artifact notification payload only; no push/email provider configured."
 }
