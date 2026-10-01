@@ -14,11 +14,11 @@
       "region": "us",
       "market_cap": 254752964608,
       "families": {
-        "quality": 0.826,
+        "quality": 0.8286,
         "growth": 0.8701,
         "momentum": 0.992
       },
-      "score": 0.8849620705042391,
+      "score": 0.8860330209727799,
       "region_percentile": 1.0
     },
     {
@@ -28,10 +28,10 @@
       "market_cap": 2089966848,
       "families": {
         "value": 0.8233,
-        "growth": 0.9378,
-        "momentum": 0.8474
+        "growth": 0.9418,
+        "momentum": 0.8594
       },
-      "score": 0.8710556511761331,
+      "score": 0.8759323006310958,
       "region_percentile": 1.0
     },
     {
@@ -41,10 +41,10 @@
       "market_cap": 1104898432,
       "families": {
         "value": 0.7805,
-        "growth": 0.8661,
+        "growth": 0.8701,
         "momentum": 0.9719
       },
-      "score": 0.8657487091222033,
+      "score": 0.8671830177854276,
       "region_percentile": 0.996742671009772
     },
     {
@@ -55,10 +55,10 @@
       "families": {
         "quality": 0.9304,
         "value": 0.6961,
-        "growth": 0.9468,
-        "momentum": 0.8233
+        "growth": 0.9498,
+        "momentum": 0.8273
       },
-      "score": 0.8545013386880858,
+      "score": 0.856057563587684,
       "region_percentile": 0.993485342019544
     },
     {
@@ -69,24 +69,11 @@
       "families": {
         "quality": 0.9264,
         "value": 0.6921,
-        "growth": 0.9428,
-        "momentum": 0.8112
+        "growth": 0.9458,
+        "momentum": 0.8153
       },
-      "score": 0.8488788487282464,
+      "score": 0.8504350736278448,
       "region_percentile": 0.990228013029316
-    },
-    {
-      "ticker": "KJELL.ST",
-      "name": "Kjell Group AB",
-      "region": "se",
-      "market_cap": 1534920832,
-      "families": {
-        "value": 0.6667,
-        "growth": 0.9578,
-        "momentum": 0.8916
-      },
-      "score": 0.83491107286288,
-      "region_percentile": 0.9869706840390879
     },
     {
       "ticker": "QMCO",
@@ -95,25 +82,24 @@
       "market_cap": 1250085120,
       "families": {
         "quality": 0.9197,
-        "value": 0.8795,
+        "value": 0.8755,
         "momentum": 0.7349
       },
-      "score": 0.8570281124497993,
-      "region_percentile": 0.9866666666666667
+      "score": 0.8556894243641232,
+      "region_percentile": 0.9871794871794872
     },
     {
-      "ticker": "INVE-B.ST",
-      "name": "Investor AB ser. B",
+      "ticker": "KJELL.ST",
+      "name": "Kjell Group AB",
       "region": "se",
-      "market_cap": 1243263926272,
+      "market_cap": 1534920832,
       "families": {
-        "quality": 0.8742,
-        "value": 0.6707,
-        "growth": 0.9629,
-        "momentum": 0.7912
+        "value": 0.6693,
+        "growth": 0.9618,
+        "momentum": 0.8835
       },
-      "score": 0.8288654618473895,
-      "region_percentile": 0.9837133550488599
+      "score": 0.8350066934404283,
+      "region_percentile": 0.9869706840390879
     },
     {
       "ticker": "INVE-A.ST",
@@ -124,23 +110,23 @@
         "quality": 0.8782,
         "value": 0.6747,
         "growth": 0.9669,
-        "momentum": 0.7711
+        "momentum": 0.7831
       },
-      "score": 0.8280622489959839,
-      "region_percentile": 0.9804560260586319
+      "score": 0.8304718875502008,
+      "region_percentile": 0.9837133550488599
     },
     {
       "ticker": "NANEXA.ST",
       "name": "Nanexa AB",
       "region": "se",
-      "market_cap": 1947650048,
+      "market_cap": 2013524992,
       "families": {
         "value": 0.9739,
-        "growth": 0.5201,
+        "growth": 0.5301,
         "momentum": 0.996
       },
-      "score": 0.8181296615031555,
-      "region_percentile": 0.9771986970684039
+      "score": 0.8217154331612163,
+      "region_percentile": 0.9804560260586319
     },
     {
       "ticker": "BEAMMW-B.ST",
@@ -149,11 +135,11 @@
       "market_cap": 1089393920,
       "families": {
         "value": 0.9337,
-        "growth": 0.5261,
+        "growth": 0.5341,
         "momentum": 0.988
       },
-      "score": 0.8036431440045898,
-      "region_percentile": 0.9739413680781759
+      "score": 0.8065117613310385,
+      "region_percentile": 0.9771986970684039
     },
     {
       "ticker": "LQDA",
@@ -166,7 +152,7 @@
         "momentum": 0.7831
       },
       "score": 0.8551539491298529,
-      "region_percentile": 0.9733333333333334
+      "region_percentile": 0.9743589743589743
     },
     {
       "ticker": "SIVE.ST",
@@ -175,24 +161,11 @@
       "market_cap": 10036999168,
       "families": {
         "value": 0.9458,
-        "growth": 0.4779,
+        "growth": 0.4859,
         "momentum": 1.0
       },
-      "score": 0.7941767068273092,
-      "region_percentile": 0.9706840390879479
-    },
-    {
-      "ticker": "KAR.ST",
-      "name": "Karnov Group AB",
-      "region": "se",
-      "market_cap": 7225790464,
-      "families": {
-        "quality": 0.8849,
-        "value": 0.4819,
-        "growth": 0.9424
-      },
-      "score": 0.7769410977242303,
-      "region_percentile": 0.9674267100977199
+      "score": 0.7970453241537578,
+      "region_percentile": 0.9739413680781759
     },
     {
       "ticker": "ALM-PREF.ST",
@@ -201,11 +174,24 @@
       "market_cap": 2787216640,
       "families": {
         "value": 0.905,
-        "growth": 0.9518,
-        "momentum": 0.3936
+        "growth": 0.9558,
+        "momentum": 0.4096
       },
-      "score": 0.7755785044941672,
-      "region_percentile": 0.9641693811074918
+      "score": 0.7816026008797093,
+      "region_percentile": 0.9706840390879479
+    },
+    {
+      "ticker": "KAR.ST",
+      "name": "Karnov Group AB",
+      "region": "se",
+      "market_cap": 7225790464,
+      "families": {
+        "quality": 0.8876,
+        "value": 0.4886,
+        "growth": 0.9451
+      },
+      "score": 0.7808734939759036,
+      "region_percentile": 0.9674267100977199
     },
     {
       "ticker": "EGTX.ST",
@@ -214,11 +200,11 @@
       "market_cap": 4119594752,
       "families": {
         "value": 0.8855,
-        "growth": 0.5532,
-        "momentum": 0.8876
+        "growth": 0.5612,
+        "momentum": 0.8956
       },
-      "score": 0.7674268502581756,
-      "region_percentile": 0.9609120521172638
+      "score": 0.7725903614457832,
+      "region_percentile": 0.9641693811074918
     },
     {
       "ticker": "EMAT",
@@ -227,11 +213,11 @@
       "market_cap": 1599361664,
       "families": {
         "quality": 0.8775,
-        "value": 0.9317,
-        "growth": 0.739
+        "value": 0.9277,
+        "growth": 0.747
       },
-      "score": 0.8511546184738956,
-      "region_percentile": 0.96
+      "score": 0.8524096385542168,
+      "region_percentile": 0.9615384615384616
     },
     {
       "ticker": "MSON-B.ST",
@@ -239,25 +225,91 @@
       "region": "se",
       "market_cap": 1497909248,
       "families": {
-        "value": 0.5904,
-        "growth": 0.9197,
-        "momentum": 0.759
+        "value": 0.5944,
+        "growth": 0.9237,
+        "momentum": 0.7671
       },
-      "score": 0.7561675272518648,
-      "region_percentile": 0.9576547231270358
+      "score": 0.7613310384394721,
+      "region_percentile": 0.9609120521172638
     },
     {
       "ticker": "MVIR.ST",
       "name": "Medivir AB",
       "region": "se",
-      "market_cap": 1012184960,
+      "market_cap": 1022172736,
       "families": {
         "value": 0.8795,
-        "growth": 0.8052,
-        "momentum": 0.5181
+        "growth": 0.8092,
+        "momentum": 0.5261
       },
-      "score": 0.7497131382673552,
+      "score": 0.7534423407917384,
+      "region_percentile": 0.9576547231270358
+    },
+    {
+      "ticker": "MILDEF.ST",
+      "name": "Mildef Group AB",
+      "region": "se",
+      "market_cap": 11326322688,
+      "families": {
+        "quality": 0.7216,
+        "growth": 0.8139,
+        "momentum": 0.7108
+      },
+      "score": 0.7494868362338242,
       "region_percentile": 0.9543973941368078
+    },
+    {
+      "ticker": "VISC.ST",
+      "name": "Gruvaktiebolaget Viscaria",
+      "region": "se",
+      "market_cap": 7960084992,
+      "families": {
+        "value": 0.7604,
+        "growth": 0.8082,
+        "momentum": 0.6064
+      },
+      "score": 0.7334815452285333,
+      "region_percentile": 0.9511400651465798
+    },
+    {
+      "ticker": "AEHR",
+      "name": "Aehr Test Systems",
+      "region": "us",
+      "market_cap": 3253543936,
+      "families": {
+        "value": 0.9096,
+        "growth": 0.8273,
+        "momentum": 0.7671
+      },
+      "score": 0.8395008605851979,
+      "region_percentile": 0.9487179487179487
+    },
+    {
+      "ticker": "MSAB-B.ST",
+      "name": "Micro Systemation AB B",
+      "region": "se",
+      "market_cap": 1699093120,
+      "families": {
+        "quality": 0.9732,
+        "value": 0.1687,
+        "growth": 0.8461,
+        "momentum": 0.9036
+      },
+      "score": 0.726372155287818,
+      "region_percentile": 0.9478827361563518
+    },
+    {
+      "ticker": "SANION.ST",
+      "name": "Saniona AB",
+      "region": "se",
+      "market_cap": 1347174144,
+      "families": {
+        "quality": 0.9679,
+        "value": 0.5596,
+        "growth": 0.5984
+      },
+      "score": 0.7248159303882196,
+      "region_percentile": 0.9446254071661238
     },
     {
       "ticker": "HNSA.ST",
@@ -267,76 +319,10 @@
       "families": {
         "quality": 0.996,
         "value": 0.909,
-        "growth": 0.2871
+        "growth": 0.2008
       },
-      "score": 0.7472807898259705,
-      "region_percentile": 0.9511400651465798
-    },
-    {
-      "ticker": "MSON-A.ST",
-      "name": "Midsona AB ser. A",
-      "region": "se",
-      "market_cap": 2137792768,
-      "families": {
-        "value": 0.5944,
-        "growth": 0.9237,
-        "momentum": 0.7068
-      },
-      "score": 0.7441193344807802,
-      "region_percentile": 0.9478827361563518
-    },
-    {
-      "ticker": "AEHR",
-      "name": "Aehr Test Systems",
-      "region": "us",
-      "market_cap": 3253543936,
-      "families": {
-        "value": 0.9056,
-        "growth": 0.8273,
-        "momentum": 0.7671
-      },
-      "score": 0.8380665519219738,
-      "region_percentile": 0.9466666666666667
-    },
-    {
-      "ticker": "MILDEF.ST",
-      "name": "Mildef Group AB",
-      "region": "se",
-      "market_cap": 11326322688,
-      "families": {
-        "quality": 0.7175,
-        "growth": 0.8086,
-        "momentum": 0.7028
-      },
-      "score": 0.7439535921463634,
-      "region_percentile": 0.9446254071661238
-    },
-    {
-      "ticker": "MSAB-B.ST",
-      "name": "Micro Systemation AB B",
-      "region": "se",
-      "market_cap": 1699093120,
-      "families": {
-        "quality": 0.9732,
-        "value": 0.1566,
-        "growth": 0.842,
-        "momentum": 0.8996
-      },
-      "score": 0.7215528781793842,
+      "score": 0.7202978580990628,
       "region_percentile": 0.9413680781758957
-    },
-    {
-      "ticker": "SANION.ST",
-      "name": "Saniona AB",
-      "region": "se",
-      "market_cap": 1347174144,
-      "families": {
-        "quality": 0.9679,
-        "value": 0.5542,
-        "growth": 0.5884
-      },
-      "score": 0.7200050200803212,
-      "region_percentile": 0.9381107491856677
     },
     {
       "ticker": "SAVE.ST",
@@ -345,11 +331,11 @@
       "market_cap": 85040742400,
       "families": {
         "quality": 0.9558,
-        "growth": 0.4578,
-        "momentum": 0.6747
+        "growth": 0.4639,
+        "momentum": 0.6867
       },
-      "score": 0.714859437751004,
-      "region_percentile": 0.9348534201954397
+      "score": 0.7200803212851405,
+      "region_percentile": 0.9381107491856677
     },
     {
       "ticker": "XERS",
@@ -357,79 +343,26 @@
       "region": "us",
       "market_cap": 1742982144,
       "families": {
-        "quality": 0.7309,
-        "value": 0.8173,
+        "quality": 0.7349,
+        "value": 0.8193,
         "growth": 0.9639
       },
-      "score": 0.8306977911646586,
-      "region_percentile": 0.9333333333333333
-    },
-    {
-      "ticker": "VISC.ST",
-      "name": "Gruvaktiebolaget Viscaria",
-      "region": "se",
-      "market_cap": 5969612800,
-      "families": {
-        "value": 0.7577,
-        "growth": 0.8052,
-        "momentum": 0.5382
-      },
-      "score": 0.7119430101357813,
-      "region_percentile": 0.9315960912052117
+      "score": 0.8328313253012049,
+      "region_percentile": 0.9358974358974359
     },
     {
       "ticker": "LUMI.ST",
       "name": "Lundin Mining Corporation",
       "region": "se",
-      "market_cap": 205162725376,
+      "market_cap": 205172310016,
       "families": {
-        "quality": 0.8233,
-        "value": 0.2503,
-        "growth": 0.8594,
+        "quality": 0.8273,
+        "value": 0.2584,
+        "growth": 0.8624,
         "momentum": 0.9357
       },
-      "score": 0.7115796519410977,
-      "region_percentile": 0.9283387622149837
-    },
-    {
-      "ticker": "CHEF.ST",
-      "name": "Cheffelo AB",
-      "region": "se",
-      "market_cap": 1489536512,
-      "families": {
-        "quality": 0.7831,
-        "value": 0.3635,
-        "growth": 0.7922,
-        "momentum": 0.9197
-      },
-      "score": 0.7077811244979919,
-      "region_percentile": 0.9250814332247557
-    },
-    {
-      "ticker": "ABB.ST",
-      "name": "ABB Ltd",
-      "region": "se",
-      "market_cap": 1726186389504,
-      "families": {
-        "quality": 0.8554,
-        "growth": 0.4518,
-        "momentum": 0.8032
-      },
-      "score": 0.7069611780455154,
-      "region_percentile": 0.9218241042345277
-    },
-    {
-      "ticker": "GRPN",
-      "name": "Groupon, Inc.",
-      "region": "us",
-      "market_cap": 803546240,
-      "families": {
-        "quality": 0.9598,
-        "value": 0.6426,
-        "growth": 0.8112
-      },
-      "score": 0.8142570281124497,
-      "region_percentile": 0.92
+      "score": 0.7155455153949131,
+      "region_percentile": 0.9348534201954397
     },
     {
       "ticker": "PLEJD.ST",
@@ -438,24 +371,51 @@
       "market_cap": 10594768896,
       "families": {
         "quality": 0.9264,
-        "growth": 0.755,
-        "momentum": 0.3173
+        "growth": 0.76,
+        "momentum": 0.3414
       },
-      "score": 0.7068273092369478,
-      "region_percentile": 0.9185667752442996
+      "score": 0.7149263721552878,
+      "region_percentile": 0.9315960912052117
     },
     {
-      "ticker": "NCAB.ST",
-      "name": "NCAB Group AB",
+      "ticker": "CHEF.ST",
+      "name": "Cheffelo AB",
       "region": "se",
-      "market_cap": 15425126400,
+      "market_cap": 1489536512,
       "families": {
-        "quality": 0.6707,
-        "growth": 0.5914,
-        "momentum": 0.8956
+        "quality": 0.7871,
+        "value": 0.3695,
+        "growth": 0.7962,
+        "momentum": 0.9237
       },
-      "score": 0.7042168674698795,
-      "region_percentile": 0.9153094462540716
+      "score": 0.7122991967871486,
+      "region_percentile": 0.9283387622149837
+    },
+    {
+      "ticker": "ABB.ST",
+      "name": "ABB Ltd",
+      "region": "se",
+      "market_cap": 1726186389504,
+      "families": {
+        "quality": 0.8568,
+        "growth": 0.4608,
+        "momentum": 0.8072
+      },
+      "score": 0.7115796519410976,
+      "region_percentile": 0.9250814332247557
+    },
+    {
+      "ticker": "GRPN",
+      "name": "Groupon, Inc.",
+      "region": "us",
+      "market_cap": 803546240,
+      "families": {
+        "quality": 0.9598,
+        "value": 0.6386,
+        "growth": 0.8193
+      },
+      "score": 0.815512048192771,
+      "region_percentile": 0.9230769230769231
     },
     {
       "ticker": "ZZ-B.ST",
@@ -464,12 +424,25 @@
       "market_cap": 5240112640,
       "families": {
         "quality": 0.9719,
-        "value": 0.5622,
-        "growth": 0.8414,
-        "momentum": 0.3052
+        "value": 0.5663,
+        "growth": 0.8454,
+        "momentum": 0.3293
       },
-      "score": 0.7035140562248996,
-      "region_percentile": 0.9120521172638436
+      "score": 0.7103413654618475,
+      "region_percentile": 0.9218241042345277
+    },
+    {
+      "ticker": "NCAB.ST",
+      "name": "NCAB Group AB",
+      "region": "se",
+      "market_cap": 15425126400,
+      "families": {
+        "quality": 0.6774,
+        "growth": 0.5974,
+        "momentum": 0.8996
+      },
+      "score": 0.7099732262382865,
+      "region_percentile": 0.9185667752442996
     },
     {
       "ticker": "CRED-A.ST",
@@ -477,13 +450,26 @@
       "region": "se",
       "market_cap": 11818116096,
       "families": {
-        "quality": 0.7912,
-        "value": 0.6486,
-        "growth": 0.7965,
-        "momentum": 0.5221
+        "quality": 0.7952,
+        "value": 0.6506,
+        "growth": 0.8005,
+        "momentum": 0.5301
       },
-      "score": 0.7030455153949131,
-      "region_percentile": 0.9087947882736156
+      "score": 0.7073627844712183,
+      "region_percentile": 0.9153094462540716
+    },
+    {
+      "ticker": "MYCR.ST",
+      "name": "Mycronic AB",
+      "region": "se",
+      "market_cap": 66040365056,
+      "families": {
+        "quality": 0.8594,
+        "growth": 0.3745,
+        "momentum": 0.8876
+      },
+      "score": 0.7052878179384203,
+      "region_percentile": 0.9120521172638436
     },
     {
       "ticker": "ANGX",
@@ -492,24 +478,11 @@
       "market_cap": 872152000,
       "families": {
         "quality": 0.9679,
-        "value": 0.8112,
+        "value": 0.8072,
         "growth": 0.5984
       },
-      "score": 0.8034638554216867,
-      "region_percentile": 0.9066666666666666
-    },
-    {
-      "ticker": "MYCR.ST",
-      "name": "Mycronic AB",
-      "region": "se",
-      "market_cap": 66040365056,
-      "families": {
-        "quality": 0.8568,
-        "growth": 0.3655,
-        "momentum": 0.8795
-      },
-      "score": 0.6990629183400268,
-      "region_percentile": 0.9055374592833876
+      "score": 0.8022088353413654,
+      "region_percentile": 0.9102564102564102
     },
     {
       "ticker": "HACK.ST",
@@ -518,26 +491,12 @@
       "market_cap": 23540555776,
       "families": {
         "quality": 1.0,
-        "value": 0.3976,
-        "growth": 0.6801,
-        "momentum": 0.6345
+        "value": 0.4036,
+        "growth": 0.6841,
+        "momentum": 0.6466
       },
-      "score": 0.6963186077643908,
-      "region_percentile": 0.9022801302931596
-    },
-    {
-      "ticker": "TIETOS.ST",
-      "name": "Tieto Corporation",
-      "region": "se",
-      "market_cap": 22290522112,
-      "families": {
-        "quality": 0.7108,
-        "value": 0.5207,
-        "growth": 0.9197,
-        "momentum": 0.6064
-      },
-      "score": 0.6946452476572959,
-      "region_percentile": 0.8990228013029316
+      "score": 0.7012382864792504,
+      "region_percentile": 0.9087947882736156
     },
     {
       "ticker": "NREST.ST",
@@ -546,12 +505,40 @@
       "market_cap": 3302377728,
       "families": {
         "quality": 0.9826,
-        "value": 0.4036,
-        "growth": 0.6777,
-        "momentum": 0.6466
+        "value": 0.4096,
+        "growth": 0.6837,
+        "momentum": 0.6586
       },
-      "score": 0.6944277108433735,
-      "region_percentile": 0.8957654723127035
+      "score": 0.6998493975903614,
+      "region_percentile": 0.9055374592833876
+    },
+    {
+      "ticker": "TIETOS.ST",
+      "name": "Tieto Corporation",
+      "region": "se",
+      "market_cap": 22290522112,
+      "families": {
+        "quality": 0.7149,
+        "value": 0.5261,
+        "growth": 0.9237,
+        "momentum": 0.6145
+      },
+      "score": 0.6997991967871486,
+      "region_percentile": 0.9022801302931596
+    },
+    {
+      "ticker": "BYGGP.ST",
+      "name": "ByggPartner Gruppen AB",
+      "region": "se",
+      "market_cap": 1654998912,
+      "families": {
+        "quality": 0.7965,
+        "value": 0.5033,
+        "growth": 0.8313,
+        "momentum": 0.6305
+      },
+      "score": 0.6987282463186077,
+      "region_percentile": 0.8990228013029316
     },
     {
       "ticker": "MTC",
@@ -560,26 +547,12 @@
       "market_cap": 516860736,
       "families": {
         "quality": 0.9076,
-        "value": 0.5622,
-        "growth": 0.7631,
-        "momentum": 0.9438
+        "value": 0.5683,
+        "growth": 0.7671,
+        "momentum": 0.9558
       },
-      "score": 0.7923694779116465,
-      "region_percentile": 0.8933333333333333
-    },
-    {
-      "ticker": "BYGGP.ST",
-      "name": "ByggPartner Gruppen AB",
-      "region": "se",
-      "market_cap": 1654998912,
-      "families": {
-        "quality": 0.7925,
-        "value": 0.4967,
-        "growth": 0.8283,
-        "momentum": 0.6225
-      },
-      "score": 0.6934906291834002,
-      "region_percentile": 0.8925081433224755
+      "score": 0.7972891566265059,
+      "region_percentile": 0.8974358974358975
     },
     {
       "ticker": "HMS.ST",
@@ -587,25 +560,25 @@
       "region": "se",
       "market_cap": 27355738112,
       "families": {
-        "quality": 0.6894,
-        "growth": 0.6586,
-        "momentum": 0.7229
+        "quality": 0.6934,
+        "growth": 0.6637,
+        "momentum": 0.7309
       },
-      "score": 0.6880856760374833,
-      "region_percentile": 0.8892508143322475
+      "score": 0.6935073627844712,
+      "region_percentile": 0.8957654723127035
     },
     {
       "ticker": "BURE.ST",
       "name": "Bure Equity AB",
       "region": "se",
-      "market_cap": 23430873088,
+      "market_cap": 23527653376,
       "families": {
-        "quality": 0.8179,
+        "quality": 0.822,
         "value": 0.7108,
-        "momentum": 0.4538
+        "momentum": 0.4699
       },
-      "score": 0.685140562248996,
-      "region_percentile": 0.8859934853420195
+      "score": 0.6910307898259705,
+      "region_percentile": 0.8925081433224755
     },
     {
       "ticker": "VSSAB-B.ST",
@@ -613,13 +586,26 @@
       "region": "se",
       "market_cap": 2237098240,
       "families": {
-        "quality": 0.4458,
-        "value": 0.5368,
-        "growth": 0.9327,
-        "momentum": 0.8594
+        "quality": 0.4578,
+        "value": 0.5395,
+        "growth": 0.9347,
+        "momentum": 0.8675
       },
-      "score": 0.673008701472557,
-      "region_percentile": 0.8827361563517915
+      "score": 0.67940093708166,
+      "region_percentile": 0.8892508143322475
+    },
+    {
+      "ticker": "VOLO.ST",
+      "name": "Volati AB",
+      "region": "se",
+      "market_cap": 2187973120,
+      "families": {
+        "quality": 0.5542,
+        "value": 0.6238,
+        "growth": 0.8815
+      },
+      "score": 0.6782546854082999,
+      "region_percentile": 0.8859934853420195
     },
     {
       "ticker": "ADSE",
@@ -632,20 +618,7 @@
         "growth": 0.9438
       },
       "score": 0.7921686746987951,
-      "region_percentile": 0.88
-    },
-    {
-      "ticker": "VOLO.ST",
-      "name": "Volati AB",
-      "region": "se",
-      "market_cap": 2187973120,
-      "families": {
-        "quality": 0.5448,
-        "value": 0.6212,
-        "growth": 0.8785
-      },
-      "score": 0.6729626840696118,
-      "region_percentile": 0.8794788273615635
+      "region_percentile": 0.8846153846153846
     },
     {
       "ticker": "ALM.ST",
@@ -654,11 +627,11 @@
       "market_cap": 1420277248,
       "families": {
         "value": 0.9009,
-        "growth": 0.9478,
-        "momentum": 0.0241
+        "growth": 0.9518,
+        "momentum": 0.0361
       },
-      "score": 0.667144769554408,
-      "region_percentile": 0.8762214983713354
+      "score": 0.6720214190093708,
+      "region_percentile": 0.8827361563517915
     },
     {
       "ticker": "BICO.ST",
@@ -667,11 +640,5250 @@
       "market_cap": 1542061568,
       "families": {
         "value": 0.751,
-        "growth": 0.8554,
+        "growth": 0.8594,
+        "momentum": 0.3333
+      },
+      "score": 0.67039586919105,
+      "region_percentile": 0.8794788273615635
+    },
+    {
+      "ticker": "BOL.ST",
+      "name": "Boliden AB",
+      "region": "se",
+      "market_cap": 145843109888,
+      "families": {
+        "quality": 0.6854,
+        "value": 0.5221,
+        "growth": 0.7282,
+        "momentum": 0.743
+      },
+      "score": 0.6668005354752342,
+      "region_percentile": 0.8762214983713354
+    },
+    {
+      "ticker": "MIPS.ST",
+      "name": "Mips AB",
+      "region": "se",
+      "market_cap": 10310344704,
+      "families": {
+        "quality": 0.913,
+        "growth": 0.51,
+        "momentum": 0.4819
+      },
+      "score": 0.6637215528781794,
+      "region_percentile": 0.8729641693811074
+    }
+  ],
+  "all_eligible": [
+    {
+      "ticker": "SNDK",
+      "name": "Sandisk Corporation",
+      "region": "us",
+      "market_cap": 254752964608,
+      "families": {
+        "quality": 0.8286,
+        "growth": 0.8701,
+        "momentum": 0.992
+      },
+      "score": 0.8860330209727799,
+      "region_percentile": 1.0
+    },
+    {
+      "ticker": "ORRON.ST",
+      "name": "Orr\u00f6n Energy AB (publ)",
+      "region": "se",
+      "market_cap": 2089966848,
+      "families": {
+        "value": 0.8233,
+        "growth": 0.9418,
+        "momentum": 0.8594
+      },
+      "score": 0.8759323006310958,
+      "region_percentile": 1.0
+    },
+    {
+      "ticker": "EPIS-B.ST",
+      "name": "Episurf Medical AB B",
+      "region": "se",
+      "market_cap": 1104898432,
+      "families": {
+        "value": 0.7805,
+        "growth": 0.8701,
+        "momentum": 0.9719
+      },
+      "score": 0.8671830177854276,
+      "region_percentile": 0.996742671009772
+    },
+    {
+      "ticker": "INDU-A.ST",
+      "name": "Industriv\u00e4rden, AB ser. A",
+      "region": "se",
+      "market_cap": 231066025984,
+      "families": {
+        "quality": 0.9304,
+        "value": 0.6961,
+        "growth": 0.9498,
+        "momentum": 0.8273
+      },
+      "score": 0.856057563587684,
+      "region_percentile": 0.993485342019544
+    },
+    {
+      "ticker": "INDU-C.ST",
+      "name": "Industriv\u00e4rden, AB ser. C",
+      "region": "se",
+      "market_cap": 228388241408,
+      "families": {
+        "quality": 0.9264,
+        "value": 0.6921,
+        "growth": 0.9458,
+        "momentum": 0.8153
+      },
+      "score": 0.8504350736278448,
+      "region_percentile": 0.990228013029316
+    },
+    {
+      "ticker": "QMCO",
+      "name": "Quantum Corporation",
+      "region": "us",
+      "market_cap": 1250085120,
+      "families": {
+        "quality": 0.9197,
+        "value": 0.8755,
+        "momentum": 0.7349
+      },
+      "score": 0.8556894243641232,
+      "region_percentile": 0.9871794871794872
+    },
+    {
+      "ticker": "KJELL.ST",
+      "name": "Kjell Group AB",
+      "region": "se",
+      "market_cap": 1534920832,
+      "families": {
+        "value": 0.6693,
+        "growth": 0.9618,
+        "momentum": 0.8835
+      },
+      "score": 0.8350066934404283,
+      "region_percentile": 0.9869706840390879
+    },
+    {
+      "ticker": "INVE-A.ST",
+      "name": "Investor AB ser. A",
+      "region": "se",
+      "market_cap": 1220510351360,
+      "families": {
+        "quality": 0.8782,
+        "value": 0.6747,
+        "growth": 0.9669,
+        "momentum": 0.7831
+      },
+      "score": 0.8304718875502008,
+      "region_percentile": 0.9837133550488599
+    },
+    {
+      "ticker": "NANEXA.ST",
+      "name": "Nanexa AB",
+      "region": "se",
+      "market_cap": 2013524992,
+      "families": {
+        "value": 0.9739,
+        "growth": 0.5301,
+        "momentum": 0.996
+      },
+      "score": 0.8217154331612163,
+      "region_percentile": 0.9804560260586319
+    },
+    {
+      "ticker": "BEAMMW-B.ST",
+      "name": "BeammWave AB ser. B",
+      "region": "se",
+      "market_cap": 1089393920,
+      "families": {
+        "value": 0.9337,
+        "growth": 0.5341,
+        "momentum": 0.988
+      },
+      "score": 0.8065117613310385,
+      "region_percentile": 0.9771986970684039
+    },
+    {
+      "ticker": "LQDA",
+      "name": "Liquidia Corporation",
+      "region": "us",
+      "market_cap": 2708538880,
+      "families": {
+        "quality": 0.8193,
+        "growth": 0.9558,
+        "momentum": 0.7831
+      },
+      "score": 0.8551539491298529,
+      "region_percentile": 0.9743589743589743
+    },
+    {
+      "ticker": "SIVE.ST",
+      "name": "Sivers Semiconductors AB",
+      "region": "se",
+      "market_cap": 10036999168,
+      "families": {
+        "value": 0.9458,
+        "growth": 0.4859,
+        "momentum": 1.0
+      },
+      "score": 0.7970453241537578,
+      "region_percentile": 0.9739413680781759
+    },
+    {
+      "ticker": "ALM-PREF.ST",
+      "name": "ALM Equity AB Pref",
+      "region": "se",
+      "market_cap": 2787216640,
+      "families": {
+        "value": 0.905,
+        "growth": 0.9558,
+        "momentum": 0.4096
+      },
+      "score": 0.7816026008797093,
+      "region_percentile": 0.9706840390879479
+    },
+    {
+      "ticker": "KAR.ST",
+      "name": "Karnov Group AB",
+      "region": "se",
+      "market_cap": 7225790464,
+      "families": {
+        "quality": 0.8876,
+        "value": 0.4886,
+        "growth": 0.9451
+      },
+      "score": 0.7808734939759036,
+      "region_percentile": 0.9674267100977199
+    },
+    {
+      "ticker": "EGTX.ST",
+      "name": "Egetis Therapeutics AB",
+      "region": "se",
+      "market_cap": 4119594752,
+      "families": {
+        "value": 0.8855,
+        "growth": 0.5612,
+        "momentum": 0.8956
+      },
+      "score": 0.7725903614457832,
+      "region_percentile": 0.9641693811074918
+    },
+    {
+      "ticker": "EMAT",
+      "name": "Evolution Metals & Technologies",
+      "region": "us",
+      "market_cap": 1599361664,
+      "families": {
+        "quality": 0.8775,
+        "value": 0.9277,
+        "growth": 0.747
+      },
+      "score": 0.8524096385542168,
+      "region_percentile": 0.9615384615384616
+    },
+    {
+      "ticker": "MSON-B.ST",
+      "name": "Midsona AB ser. B",
+      "region": "se",
+      "market_cap": 1497909248,
+      "families": {
+        "value": 0.5944,
+        "growth": 0.9237,
+        "momentum": 0.7671
+      },
+      "score": 0.7613310384394721,
+      "region_percentile": 0.9609120521172638
+    },
+    {
+      "ticker": "MVIR.ST",
+      "name": "Medivir AB",
+      "region": "se",
+      "market_cap": 1022172736,
+      "families": {
+        "value": 0.8795,
+        "growth": 0.8092,
+        "momentum": 0.5261
+      },
+      "score": 0.7534423407917384,
+      "region_percentile": 0.9576547231270358
+    },
+    {
+      "ticker": "MILDEF.ST",
+      "name": "Mildef Group AB",
+      "region": "se",
+      "market_cap": 11326322688,
+      "families": {
+        "quality": 0.7216,
+        "growth": 0.8139,
+        "momentum": 0.7108
+      },
+      "score": 0.7494868362338242,
+      "region_percentile": 0.9543973941368078
+    },
+    {
+      "ticker": "VISC.ST",
+      "name": "Gruvaktiebolaget Viscaria",
+      "region": "se",
+      "market_cap": 7960084992,
+      "families": {
+        "value": 0.7604,
+        "growth": 0.8082,
+        "momentum": 0.6064
+      },
+      "score": 0.7334815452285333,
+      "region_percentile": 0.9511400651465798
+    },
+    {
+      "ticker": "AEHR",
+      "name": "Aehr Test Systems",
+      "region": "us",
+      "market_cap": 3253543936,
+      "families": {
+        "value": 0.9096,
+        "growth": 0.8273,
+        "momentum": 0.7671
+      },
+      "score": 0.8395008605851979,
+      "region_percentile": 0.9487179487179487
+    },
+    {
+      "ticker": "MSAB-B.ST",
+      "name": "Micro Systemation AB B",
+      "region": "se",
+      "market_cap": 1699093120,
+      "families": {
+        "quality": 0.9732,
+        "value": 0.1687,
+        "growth": 0.8461,
+        "momentum": 0.9036
+      },
+      "score": 0.726372155287818,
+      "region_percentile": 0.9478827361563518
+    },
+    {
+      "ticker": "SANION.ST",
+      "name": "Saniona AB",
+      "region": "se",
+      "market_cap": 1347174144,
+      "families": {
+        "quality": 0.9679,
+        "value": 0.5596,
+        "growth": 0.5984
+      },
+      "score": 0.7248159303882196,
+      "region_percentile": 0.9446254071661238
+    },
+    {
+      "ticker": "HNSA.ST",
+      "name": "Hansa Biopharma AB",
+      "region": "se",
+      "market_cap": 3341087488,
+      "families": {
+        "quality": 0.996,
+        "value": 0.909,
+        "growth": 0.2008
+      },
+      "score": 0.7202978580990628,
+      "region_percentile": 0.9413680781758957
+    },
+    {
+      "ticker": "SAVE.ST",
+      "name": "Nordnet AB",
+      "region": "se",
+      "market_cap": 85040742400,
+      "families": {
+        "quality": 0.9558,
+        "growth": 0.4639,
+        "momentum": 0.6867
+      },
+      "score": 0.7200803212851405,
+      "region_percentile": 0.9381107491856677
+    },
+    {
+      "ticker": "XERS",
+      "name": "Xeris Biopharma Holdings, Inc.",
+      "region": "us",
+      "market_cap": 1742982144,
+      "families": {
+        "quality": 0.7349,
+        "value": 0.8193,
+        "growth": 0.9639
+      },
+      "score": 0.8328313253012049,
+      "region_percentile": 0.9358974358974359
+    },
+    {
+      "ticker": "LUMI.ST",
+      "name": "Lundin Mining Corporation",
+      "region": "se",
+      "market_cap": 205172310016,
+      "families": {
+        "quality": 0.8273,
+        "value": 0.2584,
+        "growth": 0.8624,
+        "momentum": 0.9357
+      },
+      "score": 0.7155455153949131,
+      "region_percentile": 0.9348534201954397
+    },
+    {
+      "ticker": "PLEJD.ST",
+      "name": "Plejd AB",
+      "region": "se",
+      "market_cap": 10594768896,
+      "families": {
+        "quality": 0.9264,
+        "growth": 0.76,
+        "momentum": 0.3414
+      },
+      "score": 0.7149263721552878,
+      "region_percentile": 0.9315960912052117
+    },
+    {
+      "ticker": "CHEF.ST",
+      "name": "Cheffelo AB",
+      "region": "se",
+      "market_cap": 1489536512,
+      "families": {
+        "quality": 0.7871,
+        "value": 0.3695,
+        "growth": 0.7962,
+        "momentum": 0.9237
+      },
+      "score": 0.7122991967871486,
+      "region_percentile": 0.9283387622149837
+    },
+    {
+      "ticker": "ABB.ST",
+      "name": "ABB Ltd",
+      "region": "se",
+      "market_cap": 1726186389504,
+      "families": {
+        "quality": 0.8568,
+        "growth": 0.4608,
+        "momentum": 0.8072
+      },
+      "score": 0.7115796519410976,
+      "region_percentile": 0.9250814332247557
+    },
+    {
+      "ticker": "GRPN",
+      "name": "Groupon, Inc.",
+      "region": "us",
+      "market_cap": 803546240,
+      "families": {
+        "quality": 0.9598,
+        "value": 0.6386,
+        "growth": 0.8193
+      },
+      "score": 0.815512048192771,
+      "region_percentile": 0.9230769230769231
+    },
+    {
+      "ticker": "ZZ-B.ST",
+      "name": "Zinzino AB Ser. B",
+      "region": "se",
+      "market_cap": 5240112640,
+      "families": {
+        "quality": 0.9719,
+        "value": 0.5663,
+        "growth": 0.8454,
+        "momentum": 0.3293
+      },
+      "score": 0.7103413654618475,
+      "region_percentile": 0.9218241042345277
+    },
+    {
+      "ticker": "NCAB.ST",
+      "name": "NCAB Group AB",
+      "region": "se",
+      "market_cap": 15425126400,
+      "families": {
+        "quality": 0.6774,
+        "growth": 0.5974,
+        "momentum": 0.8996
+      },
+      "score": 0.7099732262382865,
+      "region_percentile": 0.9185667752442996
+    },
+    {
+      "ticker": "CRED-A.ST",
+      "name": "Creades AB A",
+      "region": "se",
+      "market_cap": 11818116096,
+      "families": {
+        "quality": 0.7952,
+        "value": 0.6506,
+        "growth": 0.8005,
+        "momentum": 0.5301
+      },
+      "score": 0.7073627844712183,
+      "region_percentile": 0.9153094462540716
+    },
+    {
+      "ticker": "MYCR.ST",
+      "name": "Mycronic AB",
+      "region": "se",
+      "market_cap": 66040365056,
+      "families": {
+        "quality": 0.8594,
+        "growth": 0.3745,
+        "momentum": 0.8876
+      },
+      "score": 0.7052878179384203,
+      "region_percentile": 0.9120521172638436
+    },
+    {
+      "ticker": "ANGX",
+      "name": "Angel Studios, Inc.",
+      "region": "us",
+      "market_cap": 872152000,
+      "families": {
+        "quality": 0.9679,
+        "value": 0.8072,
+        "growth": 0.5984
+      },
+      "score": 0.8022088353413654,
+      "region_percentile": 0.9102564102564102
+    },
+    {
+      "ticker": "HACK.ST",
+      "name": "Hacksaw AB",
+      "region": "se",
+      "market_cap": 23540555776,
+      "families": {
+        "quality": 1.0,
+        "value": 0.4036,
+        "growth": 0.6841,
+        "momentum": 0.6466
+      },
+      "score": 0.7012382864792504,
+      "region_percentile": 0.9087947882736156
+    },
+    {
+      "ticker": "NREST.ST",
+      "name": "Nordrest Holding AB",
+      "region": "se",
+      "market_cap": 3302377728,
+      "families": {
+        "quality": 0.9826,
+        "value": 0.4096,
+        "growth": 0.6837,
+        "momentum": 0.6586
+      },
+      "score": 0.6998493975903614,
+      "region_percentile": 0.9055374592833876
+    },
+    {
+      "ticker": "TIETOS.ST",
+      "name": "Tieto Corporation",
+      "region": "se",
+      "market_cap": 22290522112,
+      "families": {
+        "quality": 0.7149,
+        "value": 0.5261,
+        "growth": 0.9237,
+        "momentum": 0.6145
+      },
+      "score": 0.6997991967871486,
+      "region_percentile": 0.9022801302931596
+    },
+    {
+      "ticker": "BYGGP.ST",
+      "name": "ByggPartner Gruppen AB",
+      "region": "se",
+      "market_cap": 1654998912,
+      "families": {
+        "quality": 0.7965,
+        "value": 0.5033,
+        "growth": 0.8313,
+        "momentum": 0.6305
+      },
+      "score": 0.6987282463186077,
+      "region_percentile": 0.8990228013029316
+    },
+    {
+      "ticker": "MTC",
+      "name": "MMTec, Inc.",
+      "region": "us",
+      "market_cap": 516860736,
+      "families": {
+        "quality": 0.9076,
+        "value": 0.5683,
+        "growth": 0.7671,
+        "momentum": 0.9558
+      },
+      "score": 0.7972891566265059,
+      "region_percentile": 0.8974358974358975
+    },
+    {
+      "ticker": "HMS.ST",
+      "name": "HMS Networks AB",
+      "region": "se",
+      "market_cap": 27355738112,
+      "families": {
+        "quality": 0.6934,
+        "growth": 0.6637,
+        "momentum": 0.7309
+      },
+      "score": 0.6935073627844712,
+      "region_percentile": 0.8957654723127035
+    },
+    {
+      "ticker": "BURE.ST",
+      "name": "Bure Equity AB",
+      "region": "se",
+      "market_cap": 23527653376,
+      "families": {
+        "quality": 0.822,
+        "value": 0.7108,
+        "momentum": 0.4699
+      },
+      "score": 0.6910307898259705,
+      "region_percentile": 0.8925081433224755
+    },
+    {
+      "ticker": "VSSAB-B.ST",
+      "name": "Viking Supply Ships AB ser. B",
+      "region": "se",
+      "market_cap": 2237098240,
+      "families": {
+        "quality": 0.4578,
+        "value": 0.5395,
+        "growth": 0.9347,
+        "momentum": 0.8675
+      },
+      "score": 0.67940093708166,
+      "region_percentile": 0.8892508143322475
+    },
+    {
+      "ticker": "VOLO.ST",
+      "name": "Volati AB",
+      "region": "se",
+      "market_cap": 2187973120,
+      "families": {
+        "quality": 0.5542,
+        "value": 0.6238,
+        "growth": 0.8815
+      },
+      "score": 0.6782546854082999,
+      "region_percentile": 0.8859934853420195
+    },
+    {
+      "ticker": "ADSE",
+      "name": "ADS-TEC ENERGY PLC",
+      "region": "us",
+      "market_cap": 827045824,
+      "families": {
+        "quality": 0.9277,
+        "value": 0.4779,
+        "growth": 0.9438
+      },
+      "score": 0.7921686746987951,
+      "region_percentile": 0.8846153846153846
+    },
+    {
+      "ticker": "ALM.ST",
+      "name": "ALM Equity AB",
+      "region": "se",
+      "market_cap": 1420277248,
+      "families": {
+        "value": 0.9009,
+        "growth": 0.9518,
+        "momentum": 0.0361
+      },
+      "score": 0.6720214190093708,
+      "region_percentile": 0.8827361563517915
+    },
+    {
+      "ticker": "BICO.ST",
+      "name": "BICO Group AB",
+      "region": "se",
+      "market_cap": 1542061568,
+      "families": {
+        "value": 0.751,
+        "growth": 0.8594,
+        "momentum": 0.3333
+      },
+      "score": 0.67039586919105,
+      "region_percentile": 0.8794788273615635
+    },
+    {
+      "ticker": "BOL.ST",
+      "name": "Boliden AB",
+      "region": "se",
+      "market_cap": 145843109888,
+      "families": {
+        "quality": 0.6854,
+        "value": 0.5221,
+        "growth": 0.7282,
+        "momentum": 0.743
+      },
+      "score": 0.6668005354752342,
+      "region_percentile": 0.8762214983713354
+    },
+    {
+      "ticker": "MIPS.ST",
+      "name": "Mips AB",
+      "region": "se",
+      "market_cap": 10310344704,
+      "families": {
+        "quality": 0.913,
+        "growth": 0.51,
+        "momentum": 0.4819
+      },
+      "score": 0.6637215528781794,
+      "region_percentile": 0.8729641693811074
+    },
+    {
+      "ticker": "MU",
+      "name": "Micron Technology, Inc.",
+      "region": "us",
+      "market_cap": 1202927960064,
+      "families": {
+        "quality": 0.7456,
+        "growth": 0.6627,
+        "momentum": 0.9398
+      },
+      "score": 0.7697456492637217,
+      "region_percentile": 0.8717948717948718
+    },
+    {
+      "ticker": "MER.ST",
+      "name": "Meren Energy Inc.",
+      "region": "se",
+      "market_cap": 10074118144,
+      "families": {
+        "quality": 0.5944,
+        "value": 0.7242,
+        "growth": 0.7189,
+        "momentum": 0.6225
+      },
+      "score": 0.6635876840696118,
+      "region_percentile": 0.8697068403908794
+    },
+    {
+      "ticker": "LAGR-B.ST",
+      "name": "Lagercrantz Group AB ser B",
+      "region": "se",
+      "market_cap": 46468296704,
+      "families": {
+        "quality": 0.8046,
+        "growth": 0.6155,
+        "momentum": 0.494
+      },
+      "score": 0.6587014725568942,
+      "region_percentile": 0.8664495114006514
+    },
+    {
+      "ticker": "BUFAB.ST",
+      "name": "Bufab AB",
+      "region": "se",
+      "market_cap": 27123191808,
+      "families": {
+        "quality": 0.6452,
+        "growth": 0.4699,
+        "momentum": 0.9076
+      },
+      "score": 0.656760374832664,
+      "region_percentile": 0.8631921824104234
+    },
+    {
+      "ticker": "STORY-B.ST",
+      "name": "Storytel AB ser. B",
+      "region": "se",
+      "market_cap": 9042532352,
+      "families": {
+        "quality": 0.8501,
+        "value": 0.3373,
+        "growth": 0.5723,
+        "momentum": 0.8554
+      },
+      "score": 0.6535140562248996,
+      "region_percentile": 0.8599348534201954
+    },
+    {
+      "ticker": "SATL",
+      "name": "Satellogic Inc.",
+      "region": "us",
+      "market_cap": 850181696,
+      "families": {
+        "quality": 0.9398,
+        "value": 0.6707,
+        "growth": 0.6225
+      },
+      "score": 0.7565261044176708,
+      "region_percentile": 0.858974358974359
+    },
+    {
+      "ticker": "EG7.ST",
+      "name": "Enad Global 7 AB",
+      "region": "se",
+      "market_cap": 1238677248,
+      "families": {
+        "value": 0.7376,
+        "growth": 0.9177,
+        "momentum": 0.1847
+      },
+      "score": 0.6439567794989481,
+      "region_percentile": 0.8566775244299674
+    },
+    {
+      "ticker": "LUG.ST",
+      "name": "Lundin Gold Inc.",
+      "region": "se",
+      "market_cap": 147940360192,
+      "families": {
+        "quality": 0.992,
+        "value": 0.3695,
+        "growth": 0.742,
+        "momentum": 0.3173
+      },
+      "score": 0.6389056224899599,
+      "region_percentile": 0.8534201954397393
+    },
+    {
+      "ticker": "INTRUM.ST",
+      "name": "Intrum AB",
+      "region": "se",
+      "market_cap": 10095479808,
+      "families": {
+        "quality": 0.4418,
+        "value": 0.7805,
+        "growth": 0.7323
+      },
+      "score": 0.6383868808567602,
+      "region_percentile": 0.8501628664495113
+    },
+    {
+      "ticker": "OEM-B.ST",
+      "name": "OEM International AB ser. B",
+      "region": "se",
+      "market_cap": 25167443968,
+      "families": {
+        "quality": 0.8675,
+        "growth": 0.3223,
+        "momentum": 0.6787
+      },
+      "score": 0.6354082998661311,
+      "region_percentile": 0.8469055374592833
+    },
+    {
+      "ticker": "PGEN",
+      "name": "Precigen, Inc.",
+      "region": "us",
+      "market_cap": 3064781824,
+      "families": {
+        "value": 0.7229,
+        "growth": 0.9518,
+        "momentum": 0.5462
+      },
+      "score": 0.7541594951233506,
+      "region_percentile": 0.8461538461538461
+    },
+    {
+      "ticker": "VPAB-B.ST",
+      "name": "Veteranpoolen AB ser. B",
+      "region": "se",
+      "market_cap": 1346143872,
+      "families": {
+        "quality": 0.9933,
+        "value": 0.0783,
+        "growth": 0.6335,
+        "momentum": 0.7912
+      },
+      "score": 0.6341867469879517,
+      "region_percentile": 0.8436482084690554
+    },
+    {
+      "ticker": "LMGAB.ST",
+      "name": null,
+      "region": "se",
+      "market_cap": 2379610368,
+      "families": {
+        "quality": 0.8996,
+        "value": 0.5161,
+        "growth": 0.6653,
+        "momentum": 0.3373
+      },
+      "score": 0.6326974564926372,
+      "region_percentile": 0.8403908794788274
+    },
+    {
+      "ticker": "BIOG-B.ST",
+      "name": "BioGaia AB ser. B",
+      "region": "se",
+      "market_cap": 11755060224,
+      "families": {
+        "quality": 0.9384,
+        "growth": 0.3966,
+        "momentum": 0.4177
+      },
+      "score": 0.6189424364123159,
+      "region_percentile": 0.8371335504885994
+    },
+    {
+      "ticker": "SFAB.ST",
+      "name": "Solid F\u00f6rs\u00e4kringsaktiebolag (publ)",
+      "region": "se",
+      "market_cap": 1993616512,
+      "families": {
+        "quality": 0.8514,
+        "value": 0.4538,
+        "growth": 0.2811,
+        "momentum": 0.8514
+      },
+      "score": 0.6094377510040161,
+      "region_percentile": 0.8338762214983714
+    },
+    {
+      "ticker": "GH",
+      "name": "Guardant Health, Inc.",
+      "region": "us",
+      "market_cap": 23935227904,
+      "families": {
+        "quality": 0.8353,
+        "value": 0.6586,
+        "momentum": 0.6827
+      },
+      "score": 0.7357429718875502,
+      "region_percentile": 0.8333333333333334
+    },
+    {
+      "ticker": "GSKR-SDB.ST",
+      "name": "Goldsky Resources Corp.",
+      "region": "se",
+      "market_cap": 5689213952,
+      "families": {
+        "value": 0.6908,
+        "growth": 0.2791,
+        "momentum": 0.9157
+      },
+      "score": 0.6080034423407917,
+      "region_percentile": 0.8306188925081434
+    },
+    {
+      "ticker": "PAX.ST",
+      "name": "Paxman AB",
+      "region": "se",
+      "market_cap": 1536045440,
+      "families": {
+        "value": 0.9839,
+        "growth": 0.6519,
+        "momentum": 0.0763
+      },
+      "score": 0.6060432205010519,
+      "region_percentile": 0.8273615635179153
+    },
+    {
+      "ticker": "HAMLET-B.ST",
+      "name": "Hamlet BioPharma AB ser. B",
+      "region": "se",
+      "market_cap": 1158019328,
+      "families": {
+        "value": 0.9297,
+        "growth": 0.3106,
+        "momentum": 0.5622
+      },
+      "score": 0.6036048957735706,
+      "region_percentile": 0.8241042345276873
+    },
+    {
+      "ticker": "ADDT-B.ST",
+      "name": "Addtech AB ser. B",
+      "region": "se",
+      "market_cap": 92218490880,
+      "families": {
+        "quality": 0.8233,
+        "growth": 0.4127,
+        "momentum": 0.498
+      },
+      "score": 0.599665327978581,
+      "region_percentile": 0.8208469055374593
+    },
+    {
+      "ticker": "IBRX",
+      "name": "ImmunityBio, Inc.",
+      "region": "us",
+      "market_cap": 10004853760,
+      "families": {
+        "quality": 0.7711,
+        "value": 0.5743,
+        "growth": 0.751,
+        "momentum": 0.8434
+      },
+      "score": 0.7313253012048193,
+      "region_percentile": 0.8205128205128205
+    },
+    {
+      "ticker": "SCA-B.ST",
+      "name": "Svenska Cellulosa AB SCA ser. B",
+      "region": "se",
+      "market_cap": 84667383808,
+      "families": {
+        "value": 0.6667,
+        "growth": 0.8153,
+        "momentum": 0.245
+      },
+      "score": 0.5992541594951235,
+      "region_percentile": 0.8175895765472313
+    },
+    {
+      "ticker": "NAVIGO-PREF.ST",
+      "name": "Navigo Invest AB Pref",
+      "region": "se",
+      "market_cap": 13133170688,
+      "families": {
+        "quality": 0.178,
+        "value": 0.838,
+        "growth": 0.7028,
+        "momentum": 0.7992
+      },
+      "score": 0.5984605087014726,
+      "region_percentile": 0.8143322475570033
+    },
+    {
+      "ticker": "SCA-A.ST",
+      "name": "Svenska Cellulosa AB SCA ser. A",
+      "region": "se",
+      "market_cap": 84983439360,
+      "families": {
+        "value": 0.6707,
+        "growth": 0.8193,
+        "momentum": 0.2289
+      },
+      "score": 0.5975329890992541,
+      "region_percentile": 0.8110749185667753
+    },
+    {
+      "ticker": "ACAST.ST",
+      "name": "Acast AB",
+      "region": "se",
+      "market_cap": 6003107328,
+      "families": {
+        "quality": 0.2477,
+        "growth": 0.7369,
+        "momentum": 0.9438
+      },
+      "score": 0.5963855421686747,
+      "region_percentile": 0.8078175895765473
+    },
+    {
+      "ticker": "AMRX",
+      "name": "Amneal Pharmaceuticals, Inc.",
+      "region": "us",
+      "market_cap": 7014682112,
+      "families": {
+        "quality": 0.9438,
+        "growth": 0.9518,
+        "momentum": 0.0964
+      },
+      "score": 0.7204819277108433,
+      "region_percentile": 0.8076923076923077
+    },
+    {
+      "ticker": "SOBI.ST",
+      "name": "Swedish Orphan Biovitrum AB",
+      "region": "se",
+      "market_cap": 153261195264,
+      "families": {
+        "quality": 0.7249,
+        "value": 0.2209,
+        "growth": 0.6359,
+        "momentum": 0.8193
+      },
+      "score": 0.5955153949129852,
+      "region_percentile": 0.8045602605863192
+    },
+    {
+      "ticker": "SAAB-B.ST",
+      "name": "SAAB AB ser. B",
+      "region": "se",
+      "market_cap": 332777652224,
+      "families": {
+        "quality": 0.577,
+        "growth": 0.745,
+        "momentum": 0.4337
+      },
+      "score": 0.5947791164658635,
+      "region_percentile": 0.8013029315960912
+    },
+    {
+      "ticker": "LUND-B.ST",
+      "name": "Lundbergf\u00f6retagen AB, L E ser.",
+      "region": "se",
+      "market_cap": 143716007936,
+      "families": {
+        "quality": 0.4418,
+        "value": 0.5301,
+        "growth": 0.8434,
+        "momentum": 0.5944
+      },
+      "score": 0.5947791164658633,
+      "region_percentile": 0.7980456026058632
+    },
+    {
+      "ticker": "STX",
+      "name": "Seagate Technology Holdings PLC",
+      "region": "us",
+      "market_cap": 209733681152,
+      "families": {
+        "quality": 0.9023,
+        "growth": 0.2952,
+        "momentum": 0.8474
+      },
+      "score": 0.6852744310575636,
+      "region_percentile": 0.7948717948717949
+    },
+    {
+      "ticker": "CLAS-B.ST",
+      "name": "Clas Ohlson AB ser. B",
+      "region": "se",
+      "market_cap": 27434219520,
+      "families": {
+        "quality": 0.9331,
+        "value": 0.1827,
+        "growth": 0.5612,
+        "momentum": 0.6386
+      },
+      "score": 0.5936244979919678,
+      "region_percentile": 0.7947882736156352
+    },
+    {
+      "ticker": "VOLO-PREF.ST",
+      "name": "Volati AB Pref",
+      "region": "se",
+      "market_cap": 50226413568,
+      "families": {
+        "quality": 0.5582,
+        "value": 0.6278,
+        "growth": 0.8855,
+        "momentum": 0.2088
+      },
+      "score": 0.5875836680053548,
+      "region_percentile": 0.7915309446254072
+    },
+    {
+      "ticker": "INISS-B.ST",
+      "name": "Inission AB ser. B",
+      "region": "se",
+      "market_cap": 1624415488,
+      "families": {
+        "quality": 0.5047,
+        "value": 0.2878,
+        "growth": 0.6988,
+        "momentum": 0.9398
+      },
+      "score": 0.5860107095046854,
+      "region_percentile": 0.7882736156351792
+    },
+    {
+      "ticker": "MSON-A.ST",
+      "name": "Midsona AB ser. A",
+      "region": "se",
+      "market_cap": 2137792768,
+      "families": {
+        "value": 0.5984,
+        "growth": 0.4639,
+        "momentum": 0.7149
+      },
+      "score": 0.5836201950659783,
+      "region_percentile": 0.7850162866449512
+    },
+    {
+      "ticker": "DCBO",
+      "name": "Docebo Inc.",
+      "region": "us",
+      "market_cap": 575042048,
+      "families": {
+        "quality": 0.8072,
+        "value": 0.992,
+        "growth": 0.2008
+      },
+      "score": 0.6754518072289156,
+      "region_percentile": 0.782051282051282
+    },
+    {
+      "ticker": "RUSTA.ST",
+      "name": "Rusta AB",
+      "region": "se",
+      "market_cap": 11410191360,
+      "families": {
+        "quality": 0.6854,
+        "value": 0.3655,
+        "growth": 0.6044,
+        "momentum": 0.6707
+      },
+      "score": 0.5822289156626506,
+      "region_percentile": 0.7817589576547231
+    },
+    {
+      "ticker": "ATCO-A.ST",
+      "name": "Atlas Copco AB ser. A",
+      "region": "se",
+      "market_cap": 1006459486208,
+      "families": {
+        "quality": 0.8514,
+        "growth": 0.1888,
+        "momentum": 0.6627
+      },
+      "score": 0.5801874163319946,
+      "region_percentile": 0.7785016286644951
+    },
+    {
+      "ticker": "FMM-B.ST",
+      "name": "FM Mattsson AB ser. B",
+      "region": "se",
+      "market_cap": 5204183040,
+      "families": {
+        "quality": 0.7175,
+        "value": 0.1165,
+        "growth": 0.5532,
+        "momentum": 0.9799
+      },
+      "score": 0.5786646586345382,
+      "region_percentile": 0.7752442996742671
+    },
+    {
+      "ticker": "ATCO-B.ST",
+      "name": "Atlas Copco AB ser. B",
+      "region": "se",
+      "market_cap": 869858082816,
+      "families": {
+        "quality": 0.8474,
+        "growth": 0.1847,
+        "momentum": 0.6345
+      },
+      "score": 0.5697456492637215,
+      "region_percentile": 0.7719869706840391
+    },
+    {
+      "ticker": "DELL",
+      "name": "Dell Technologies Inc.",
+      "region": "us",
+      "market_cap": 342035464192,
+      "families": {
+        "quality": 0.7068,
+        "value": 0.9719,
+        "growth": 0.1606,
+        "momentum": 0.8594
+      },
+      "score": 0.6670682730923695,
+      "region_percentile": 0.7692307692307692
+    },
+    {
+      "ticker": "SECT-B.ST",
+      "name": "SECTRA AB ser B",
+      "region": "se",
+      "market_cap": 56297443328,
+      "families": {
+        "quality": 0.8956,
+        "growth": 0.4759,
+        "momentum": 0.1928
+      },
+      "score": 0.5682730923694779,
+      "region_percentile": 0.7687296416938111
+    },
+    {
+      "ticker": "DUST.ST",
+      "name": "Dustin Group AB",
+      "region": "se",
+      "market_cap": 2397317120,
+      "families": {
+        "value": 0.8447,
+        "growth": 0.508,
+        "momentum": 0.2851
+      },
+      "score": 0.5645917001338688,
+      "region_percentile": 0.7654723127035831
+    },
+    {
+      "ticker": "EPI-A.ST",
+      "name": "Epiroc AB ser. A",
+      "region": "se",
+      "market_cap": 318819041280,
+      "families": {
+        "quality": 0.7938,
+        "growth": 0.1325,
+        "momentum": 0.759
+      },
+      "score": 0.5641231593038822,
+      "region_percentile": 0.762214983713355
+    },
+    {
+      "ticker": "PUBLI.ST",
+      "name": "PPI Public Property Invest AB",
+      "region": "se",
+      "market_cap": 15120806912,
+      "families": {
+        "quality": 0.1325,
+        "value": 0.6867,
+        "growth": 0.9518
+      },
+      "score": 0.5617469879518072,
+      "region_percentile": 0.758957654723127
+    },
+    {
+      "ticker": "BCRX",
+      "name": "BioCryst Pharmaceuticals, Inc.",
+      "region": "us",
+      "market_cap": 2128607360,
+      "families": {
+        "quality": 0.834,
+        "value": 0.5382,
+        "growth": 0.5783
+      },
+      "score": 0.6616465863453815,
+      "region_percentile": 0.7564102564102564
+    },
+    {
+      "ticker": "LEA.ST",
+      "name": "Lea Bank AB",
+      "region": "se",
+      "market_cap": 1306559616,
+      "families": {
+        "quality": 0.2892,
+        "value": 0.504,
+        "growth": 0.9739,
+        "momentum": 0.5181
+      },
+      "score": 0.5598393574297188,
+      "region_percentile": 0.755700325732899
+    },
+    {
+      "ticker": "ASMDEE-B.ST",
+      "name": "Asmodee Group AB ser. B",
+      "region": "se",
+      "market_cap": 38490914816,
+      "families": {
+        "quality": 0.3936,
+        "value": 0.2711,
+        "growth": 0.8353,
+        "momentum": 0.7871
+      },
+      "score": 0.5521084337349398,
+      "region_percentile": 0.752442996742671
+    },
+    {
+      "ticker": "CRAD-B.ST",
+      "name": "C-RAD AB ser. B",
+      "region": "se",
+      "market_cap": 1101580032,
+      "families": {
+        "quality": 0.739,
+        "value": 0.4538,
+        "growth": 0.6014,
+        "momentum": 0.3253
+      },
+      "score": 0.5505522088353414,
+      "region_percentile": 0.749185667752443
+    },
+    {
+      "ticker": "ERIC-A.ST",
+      "name": "Ericsson, Telefonab. L M ser. A",
+      "region": "se",
+      "market_cap": 303769747456,
+      "families": {
+        "quality": 0.7778,
+        "value": 0.3855,
+        "growth": 0.3855,
+        "momentum": 0.6185
+      },
+      "score": 0.5497991967871485,
+      "region_percentile": 0.745928338762215
+    },
+    {
+      "ticker": "CLMT",
+      "name": "Calumet, Inc",
+      "region": "us",
+      "market_cap": 4604109312,
+      "families": {
+        "value": 0.3494,
+        "growth": 0.9317,
+        "momentum": 0.6988
+      },
+      "score": 0.6572002294893862,
+      "region_percentile": 0.7435897435897436
+    },
+    {
+      "ticker": "PACT.ST",
+      "name": "Proact IT Group AB",
+      "region": "se",
+      "market_cap": 3534127104,
+      "families": {
+        "quality": 0.6051,
+        "value": 0.4096,
+        "growth": 0.3715,
+        "momentum": 0.8635
+      },
+      "score": 0.5494979919678714,
+      "region_percentile": 0.742671009771987
+    },
+    {
+      "ticker": "BAHN-B.ST",
+      "name": "Bahnhof AB ser. B",
+      "region": "se",
+      "market_cap": 6432394752,
+      "families": {
+        "quality": 0.9357,
+        "growth": 0.2209,
+        "momentum": 0.3735
+      },
+      "score": 0.5475234270414994,
+      "region_percentile": 0.739413680781759
+    },
+    {
+      "ticker": "APOTEA.ST",
+      "name": "Apotea AB",
+      "region": "se",
+      "market_cap": 8872049664,
+      "families": {
+        "quality": 0.8527,
+        "growth": 0.3882,
+        "momentum": 0.2811
+      },
+      "score": 0.545470771976796,
+      "region_percentile": 0.7361563517915309
+    },
+    {
+      "ticker": "ENGCON-B.ST",
+      "name": "engcon AB ser. B",
+      "region": "se",
+      "market_cap": 10713811968,
+      "families": {
+        "quality": 0.9465,
+        "growth": 0.4157,
+        "momentum": 0.1044
+      },
+      "score": 0.5449799196787147,
+      "region_percentile": 0.7328990228013029
+    },
+    {
+      "ticker": "IRWD",
+      "name": "Ironwood Pharmaceuticals, Inc.",
+      "region": "us",
+      "market_cap": 656002624,
+      "families": {
+        "quality": 0.9438,
+        "value": 0.51,
+        "growth": 0.496,
+        "momentum": 0.6104
+      },
+      "score": 0.6567269076305221,
+      "region_percentile": 0.7307692307692308
+    },
+    {
+      "ticker": "ATT.ST",
+      "name": "Attendo AB",
+      "region": "se",
+      "market_cap": 17860415488,
+      "families": {
+        "quality": 0.506,
+        "value": 0.2631,
+        "growth": 0.5395,
+        "momentum": 0.9558
+      },
+      "score": 0.543607764390897,
+      "region_percentile": 0.7296416938110749
+    },
+    {
+      "ticker": "DYVOX.ST",
+      "name": "Dynavox Group AB",
+      "region": "se",
+      "market_cap": 7880650240,
+      "families": {
+        "quality": 0.8608,
+        "value": 0.012,
+        "growth": 0.6921
+      },
+      "score": 0.5428380187416333,
+      "region_percentile": 0.7263843648208469
+    },
+    {
+      "ticker": "GRNG.ST",
+      "name": "Gr\u00e4nges AB",
+      "region": "se",
+      "market_cap": 19709308928,
+      "families": {
+        "quality": 0.4672,
+        "value": 0.3521,
+        "growth": 0.5532,
+        "momentum": 0.8795
+      },
+      "score": 0.5423862115127176,
+      "region_percentile": 0.7231270358306189
+    },
+    {
+      "ticker": "NEOBO.ST",
+      "name": "Neobo Fastigheter AB",
+      "region": "se",
+      "market_cap": 2405531648,
+      "families": {
+        "value": 0.9478,
+        "growth": 0.2088,
+        "momentum": 0.4498
+      },
+      "score": 0.5415949512335055,
+      "region_percentile": 0.7198697068403909
+    },
+    {
+      "ticker": "HOVNP",
+      "name": "Hovnanian Enterprises Inc - Dep",
+      "region": "us",
+      "market_cap": null,
+      "families": {
+        "quality": 0.6707,
+        "value": 0.2932,
+        "growth": 1.0
+      },
+      "score": 0.6556224899598393,
+      "region_percentile": 0.717948717948718
+    },
+    {
+      "ticker": "BERNER-B.ST",
+      "name": "Berner Industrier AB ser. B",
+      "region": "se",
+      "market_cap": 1533179648,
+      "families": {
+        "quality": 0.7778,
+        "value": 0.239,
+        "growth": 0.5562,
+        "momentum": 0.5462
+      },
+      "score": 0.5413654618473895,
+      "region_percentile": 0.7166123778501629
+    },
+    {
+      "ticker": "ERIC-B.ST",
+      "name": "Ericsson, Telefonab. L M ser. B",
+      "region": "se",
+      "market_cap": 300311150592,
+      "families": {
+        "quality": 0.7738,
+        "value": 0.3815,
+        "growth": 0.3815,
+        "momentum": 0.5904
+      },
+      "score": 0.5409638554216868,
+      "region_percentile": 0.7133550488599348
+    },
+    {
+      "ticker": "VER.ST",
+      "name": "Verve Group Media SE",
+      "region": "se",
+      "market_cap": 2417407744,
+      "families": {
+        "quality": 0.0683,
+        "value": 0.8233,
+        "growth": 0.8233
+      },
+      "score": 0.5401606425702811,
+      "region_percentile": 0.7100977198697068
+    },
+    {
+      "ticker": "TEL2-A.ST",
+      "name": "Tele2 AB ser. A",
+      "region": "se",
+      "market_cap": 114436767744,
+      "families": {
+        "quality": 0.7644,
+        "value": 0.4558,
+        "growth": 0.4799,
+        "momentum": 0.3775
+      },
+      "score": 0.5387550200803213,
+      "region_percentile": 0.7068403908794788
+    },
+    {
+      "ticker": "TXG",
+      "name": "10x Genomics, Inc.",
+      "region": "us",
+      "market_cap": 11773110272,
+      "families": {
+        "value": 0.8594,
+        "growth": 0.1847,
+        "momentum": 0.9759
+      },
+      "score": 0.6517498565691338,
+      "region_percentile": 0.7051282051282051
+    },
+    {
+      "ticker": "EPI-B.ST",
+      "name": "Epiroc AB ser. B",
+      "region": "se",
+      "market_cap": 268122587136,
+      "families": {
+        "quality": 0.7898,
+        "growth": 0.1285,
+        "momentum": 0.6747
+      },
+      "score": 0.5386880856760375,
+      "region_percentile": 0.7035830618892508
+    },
+    {
+      "ticker": "TEL2-B.ST",
+      "name": "Tele2 AB ser. B",
+      "region": "se",
+      "market_cap": 112668196864,
+      "families": {
+        "quality": 0.7604,
+        "value": 0.4518,
+        "growth": 0.4759,
+        "momentum": 0.3855
+      },
+      "score": 0.5371485943775101,
+      "region_percentile": 0.7003257328990228
+    },
+    {
+      "ticker": "ALIV-SDB.ST",
+      "name": "Autoliv Inc. SDB",
+      "region": "se",
+      "market_cap": 82904530944,
+      "families": {
+        "quality": 0.8139,
+        "value": 0.5823,
+        "growth": 0.3956,
+        "momentum": 0.241
+      },
+      "score": 0.536847389558233,
+      "region_percentile": 0.6970684039087948
+    },
+    {
+      "ticker": "KARNEL-B.ST",
+      "name": "Karnell Group AB ser. B",
+      "region": "se",
+      "market_cap": 5614211584,
+      "families": {
+        "quality": 0.5663,
+        "value": 0.0843,
+        "growth": 0.6175,
+        "momentum": 0.9478
+      },
+      "score": 0.5348895582329317,
+      "region_percentile": 0.6938110749185668
+    },
+    {
+      "ticker": "INBX",
+      "name": "Inhibrx Biosciences, Inc.",
+      "region": "us",
+      "market_cap": 1472943488,
+      "families": {
+        "value": 0.7992,
+        "growth": 0.3956,
+        "momentum": 0.7269
+      },
+      "score": 0.6343947217441193,
+      "region_percentile": 0.6923076923076923
+    },
+    {
+      "ticker": "RVRC.ST",
+      "name": "RVRC Holding AB",
+      "region": "se",
+      "market_cap": 5150317056,
+      "families": {
+        "quality": 0.9036,
+        "value": 0.2871,
+        "growth": 0.5512,
+        "momentum": 0.2691
+      },
+      "score": 0.5344879518072289,
+      "region_percentile": 0.6905537459283387
+    },
+    {
+      "ticker": "TRAC-B.ST",
+      "name": "Traction AB ser. B",
+      "region": "se",
+      "market_cap": 3813583360,
+      "families": {
+        "quality": 0.3253,
+        "value": 0.6827,
+        "growth": 0.7661,
+        "momentum": 0.3655
+      },
+      "score": 0.5328815261044176,
+      "region_percentile": 0.6872964169381108
+    },
+    {
+      "ticker": "ENITY.ST",
+      "name": "Enity Holding AB",
+      "region": "se",
+      "market_cap": 3775000064,
+      "families": {
+        "quality": 0.2129,
+        "value": 0.6446,
+        "growth": 0.8032
+      },
+      "score": 0.5322540160642569,
+      "region_percentile": 0.6840390879478828
+    },
+    {
+      "ticker": "SNM-SDB.ST",
+      "name": "ShaMaran Petroleum Ltd",
+      "region": "se",
+      "market_cap": 4360131584,
+      "families": {
+        "quality": 0.7309,
+        "value": 0.5944,
+        "growth": 0.3032,
+        "momentum": 0.4378
+      },
+      "score": 0.5312248995983935,
+      "region_percentile": 0.6807817589576548
+    },
+    {
+      "ticker": "AYA",
+      "name": "Aya Gold & Silver Inc.",
+      "region": "us",
+      "market_cap": 3874572544,
+      "families": {
+        "quality": 0.512,
+        "growth": 0.8896,
+        "momentum": 0.4578
+      },
+      "score": 0.6234270414993307,
+      "region_percentile": 0.6794871794871795
+    },
+    {
+      "ticker": "NYAB.ST",
+      "name": "NYAB AB",
+      "region": "se",
+      "market_cap": 5501739520,
+      "families": {
+        "quality": 0.5904,
+        "value": 0.2329,
+        "growth": 0.7199,
+        "momentum": 0.5703
+      },
+      "score": 0.5293674698795181,
+      "region_percentile": 0.6775244299674268
+    },
+    {
+      "ticker": "HOFI.ST",
+      "name": "Hoist Finance AB",
+      "region": "se",
+      "market_cap": 18273282048,
+      "families": {
+        "quality": 0.3755,
+        "value": 0.2369,
+        "growth": 0.6586,
+        "momentum": 0.9639
+      },
+      "score": 0.5293172690763053,
+      "region_percentile": 0.6742671009771988
+    },
+    {
+      "ticker": "HANZA.ST",
+      "name": "HANZA AB",
+      "region": "se",
+      "market_cap": 9862940672,
+      "families": {
+        "quality": 0.3788,
+        "value": 0.1459,
+        "growth": 0.8447,
+        "momentum": 0.8394
+      },
+      "score": 0.5291834002677376,
+      "region_percentile": 0.6710097719869708
+    },
+    {
+      "ticker": "GOTL-A.ST",
+      "name": "Rederiaktiebolaget Gotland ser.",
+      "region": "se",
+      "market_cap": 6249999872,
+      "families": {
+        "value": 0.5803,
+        "growth": 0.6934,
+        "momentum": 0.253
+      },
+      "score": 0.5272040543124881,
+      "region_percentile": 0.6677524429967427
+    },
+    {
+      "ticker": "VIAV",
+      "name": "Viavi Solutions Inc.",
+      "region": "us",
+      "market_cap": 10343751680,
+      "families": {
+        "value": 0.8916,
+        "growth": 0.1888,
+        "momentum": 0.8032
+      },
+      "score": 0.6153184165232358,
+      "region_percentile": 0.6666666666666667
+    },
+    {
+      "ticker": "WSG.ST",
+      "name": "WS WeSports Group AB",
+      "region": "se",
+      "market_cap": 1779765504,
+      "families": {
+        "quality": 0.1352,
+        "value": 0.6225,
+        "growth": 0.8889
+      },
+      "score": 0.5230087014725568,
+      "region_percentile": 0.6644951140065147
+    },
+    {
+      "ticker": "HEM.ST",
+      "name": "Hemnet Group AB",
+      "region": "se",
+      "market_cap": 6072720896,
+      "families": {
+        "quality": 0.9237,
+        "value": 0.3293,
+        "growth": 0.2329
+      },
+      "score": 0.5220883534136547,
+      "region_percentile": 0.6612377850162867
+    },
+    {
+      "ticker": "INSTAL.ST",
+      "name": "Instalco AB",
+      "region": "se",
+      "market_cap": 11516257280,
+      "families": {
+        "quality": 0.4485,
+        "value": 0.3173,
+        "growth": 0.495,
+        "momentum": 0.9197
+      },
+      "score": 0.5215361445783132,
+      "region_percentile": 0.6579804560260587
+    },
+    {
+      "ticker": "AAK.ST",
+      "name": "AAK AB",
+      "region": "se",
+      "market_cap": 47955120128,
+      "families": {
+        "quality": 0.759,
+        "value": 0.3628,
+        "growth": 0.3886
+      },
+      "score": 0.5194318942436412,
+      "region_percentile": 0.6547231270358307
+    },
+    {
+      "ticker": "ATEX",
+      "name": "Anterix Inc.",
+      "region": "us",
+      "market_cap": 1539368192,
+      "families": {
+        "value": 0.49,
+        "growth": 0.5301,
+        "momentum": 0.8635
+      },
+      "score": 0.6110154905335629,
+      "region_percentile": 0.6538461538461539
+    },
+    {
+      "ticker": "BETS-B.ST",
+      "name": "Betsson AB ser. B",
+      "region": "se",
+      "market_cap": 12901358592,
+      "families": {
+        "quality": 0.743,
+        "value": 0.6305,
+        "growth": 0.1365
+      },
+      "score": 0.5183232931726907,
+      "region_percentile": 0.6514657980456027
+    },
+    {
+      "ticker": "MORROW.ST",
+      "name": "Morrow Bank AB",
+      "region": "se",
+      "market_cap": 5297839104,
+      "families": {
+        "quality": 0.3574,
+        "value": 0.3253,
+        "growth": 0.5201,
+        "momentum": 0.992
+      },
+      "score": 0.5169678714859438,
+      "region_percentile": 0.6482084690553747
+    },
+    {
+      "ticker": "SCST.ST",
+      "name": "Scandi Standard AB",
+      "region": "se",
+      "market_cap": 11708452864,
+      "families": {
+        "quality": 0.5489,
+        "value": 0.241,
+        "growth": 0.4043,
+        "momentum": 0.9518
+      },
+      "score": 0.5163319946452476,
+      "region_percentile": 0.6449511400651466
+    },
+    {
+      "ticker": "VOLCAR-B.ST",
+      "name": "Volvo Car AB ser. B",
+      "region": "se",
+      "market_cap": 45833744384,
+      "families": {
+        "quality": 0.1847,
+        "value": 0.842,
+        "growth": 0.5863
+      },
+      "score": 0.5156459170013387,
+      "region_percentile": 0.6416938110749186
+    },
+    {
+      "ticker": "CORZ",
+      "name": "Core Scientific, Inc.",
+      "region": "us",
+      "market_cap": 5135020032,
+      "families": {
+        "quality": 0.5462,
+        "value": 0.6024,
+        "growth": 0.6908
+      },
+      "score": 0.6089357429718875,
+      "region_percentile": 0.641025641025641
+    },
+    {
+      "ticker": "EKTA-B.ST",
+      "name": "Elekta AB ser. B",
+      "region": "se",
+      "market_cap": 20173989888,
+      "families": {
+        "quality": 0.3434,
+        "value": 0.4311,
+        "growth": 0.8012,
+        "momentum": 0.502
+      },
+      "score": 0.511479250334672,
+      "region_percentile": 0.6384364820846906
+    },
+    {
+      "ticker": "MTG-B.ST",
+      "name": "Modern Times Group MTG AB ser. ",
+      "region": "se",
+      "market_cap": 15551113216,
+      "families": {
+        "quality": 0.253,
+        "value": 0.5161,
+        "growth": 0.8153,
+        "momentum": 0.51
+      },
+      "score": 0.5107429718875502,
+      "region_percentile": 0.6351791530944626
+    },
+    {
+      "ticker": "CLA-B.ST",
+      "name": "Cloetta AB ser. B",
+      "region": "se",
+      "market_cap": 14777618432,
+      "families": {
+        "quality": 0.6225,
+        "value": 0.2142,
+        "growth": 0.4016,
+        "momentum": 0.8434
+      },
+      "score": 0.5093708165997323,
+      "region_percentile": 0.6319218241042346
+    },
+    {
+      "ticker": "OVZON.ST",
+      "name": "Ovzon AB",
+      "region": "se",
+      "market_cap": 3974947328,
+      "families": {
+        "quality": 0.5221,
+        "value": 0.2664,
+        "growth": 0.9639,
+        "momentum": 0.2169
+      },
+      "score": 0.5075635876840696,
+      "region_percentile": 0.6286644951140066
+    },
+    {
+      "ticker": "PRAX",
+      "name": "Praxis Precision Medicines, Inc",
+      "region": "us",
+      "market_cap": 8131138560,
+      "families": {
+        "value": 0.1124,
+        "growth": 0.8394,
+        "momentum": 0.9237
+      },
+      "score": 0.6038439472174412,
+      "region_percentile": 0.6282051282051282
+    },
+    {
+      "ticker": "LIFCO-B.ST",
+      "name": "Lifco AB ser.B",
+      "region": "se",
+      "market_cap": 144804151296,
+      "families": {
+        "quality": 0.743,
+        "growth": 0.4177,
+        "momentum": 0.2651
+      },
+      "score": 0.5070950468540829,
+      "region_percentile": 0.6254071661237786
+    },
+    {
+      "ticker": "MTG-A.ST",
+      "name": "Modern Times Group MTG AB ser. ",
+      "region": "se",
+      "market_cap": 15271702528,
+      "families": {
+        "quality": 0.257,
+        "value": 0.5201,
+        "growth": 0.8193,
+        "momentum": 0.4659
+      },
+      "score": 0.5051204819277109,
+      "region_percentile": 0.6221498371335505
+    },
+    {
+      "ticker": "EVO.ST",
+      "name": "Evolution AB",
+      "region": "se",
+      "market_cap": 142728773632,
+      "families": {
+        "quality": 0.8795,
+        "value": 0.4538,
+        "growth": 0.1954,
+        "momentum": 0.3815
+      },
+      "score": 0.5024765729585007,
+      "region_percentile": 0.6188925081433225
+    },
+    {
+      "ticker": "AZA.ST",
+      "name": "Avanza Bank Holding AB",
+      "region": "se",
+      "market_cap": 60875337728,
+      "families": {
+        "quality": 0.9317,
+        "value": 0.0482,
+        "growth": 0.488,
+        "momentum": 0.4418
+      },
+      "score": 0.5019076305220884,
+      "region_percentile": 0.6156351791530945
+    },
+    {
+      "ticker": "STLN",
+      "name": "Starling Oncology, Inc.",
+      "region": "us",
+      "market_cap": 644109824,
+      "families": {
+        "quality": 0.8755,
+        "value": 0.749,
+        "momentum": 0.004
+      },
+      "score": 0.6009370816599732,
+      "region_percentile": 0.6153846153846154
+    },
+    {
+      "ticker": "FIRE.ST",
+      "name": "Firefly AB",
+      "region": "se",
+      "market_cap": 1074250624,
+      "families": {
+        "quality": 0.9438,
+        "value": 0.1325,
+        "growth": 0.4608,
+        "momentum": 0.3454
+      },
+      "score": 0.5005522088353414,
+      "region_percentile": 0.6123778501628665
+    },
+    {
+      "ticker": "SAND.ST",
+      "name": "Sandvik AB",
+      "region": "se",
+      "market_cap": 471398219776,
+      "families": {
+        "quality": 0.7122,
+        "value": 0.0763,
+        "growth": 0.3936,
+        "momentum": 0.8233
+      },
+      "score": 0.4957831325301205,
+      "region_percentile": 0.6091205211726385
+    },
+    {
+      "ticker": "GOTL-B.ST",
+      "name": "Rederiaktiebolaget Gotland ser.",
+      "region": "se",
+      "market_cap": 6150000128,
+      "families": {
+        "value": 0.5763,
+        "growth": 0.6894,
+        "momentum": 0.1526
+      },
+      "score": 0.49564926372155294,
+      "region_percentile": 0.6058631921824105
+    },
+    {
+      "ticker": "ELTEL.ST",
+      "name": "Eltel AB",
+      "region": "se",
+      "market_cap": 3056367360,
+      "families": {
+        "quality": 0.1165,
+        "value": 0.5181,
+        "growth": 0.5382,
+        "momentum": 0.9759
+      },
+      "score": 0.4941767068273093,
+      "region_percentile": 0.6026058631921825
+    },
+    {
+      "ticker": "INDV",
+      "name": "Indivior Pharmaceuticals, Inc.",
+      "region": "us",
+      "market_cap": 4231444736,
+      "families": {
+        "quality": 0.9277,
+        "value": 0.751,
+        "growth": 0.0361
+      },
+      "score": 0.5938755020080321,
+      "region_percentile": 0.6025641025641026
+    },
+    {
+      "ticker": "AMBEA.ST",
+      "name": "Ambea AB",
+      "region": "se",
+      "market_cap": 12989406208,
+      "families": {
+        "quality": 0.4217,
+        "value": 0.2771,
+        "growth": 0.5713,
+        "momentum": 0.7751
+      },
+      "score": 0.49362449799196784,
+      "region_percentile": 0.5993485342019544
+    },
+    {
+      "ticker": "SSAB-A.ST",
+      "name": "SSAB AB ser. A",
+      "region": "se",
+      "market_cap": 102103474176,
+      "families": {
+        "quality": 0.3213,
+        "value": 0.3869,
+        "growth": 0.4498,
+        "momentum": 0.9277
+      },
+      "score": 0.4910977242302544,
+      "region_percentile": 0.5960912052117264
+    },
+    {
+      "ticker": "ALVO-SDB.ST",
+      "name": "Alvotech SDB",
+      "region": "se",
+      "market_cap": 20659705856,
+      "families": {
+        "quality": 0.3414,
+        "value": 0.9398,
+        "growth": 0.2209
+      },
+      "score": 0.49071285140562254,
+      "region_percentile": 0.5928338762214984
+    },
+    {
+      "ticker": "WDC",
+      "name": "Western Digital Corporation",
+      "region": "us",
+      "market_cap": 163851419648,
+      "families": {
+        "quality": 0.7323,
+        "growth": 0.241,
+        "momentum": 0.8233
+      },
+      "score": 0.5927710843373494,
+      "region_percentile": 0.5897435897435898
+    },
+    {
+      "ticker": "BEIA-B.ST",
+      "name": "Beijer Alma AB ser. B",
+      "region": "se",
+      "market_cap": 18229315584,
+      "families": {
+        "quality": 0.6506,
+        "value": 0.1486,
+        "growth": 0.5131,
+        "momentum": 0.6506
+      },
+      "score": 0.4907128514056225,
+      "region_percentile": 0.5895765472312704
+    },
+    {
+      "ticker": "PRISMA.ST",
+      "name": "Prisma Properties AB",
+      "region": "se",
+      "market_cap": 4044920320,
+      "families": {
+        "quality": 0.1406,
+        "value": 0.6466,
+        "growth": 0.8072,
+        "momentum": 0.4217
+      },
+      "score": 0.48995983935742965,
+      "region_percentile": 0.5863192182410424
+    },
+    {
+      "ticker": "ENEA.ST",
+      "name": "Enea AB",
+      "region": "se",
+      "market_cap": 1221074176,
+      "families": {
+        "quality": 0.3628,
+        "value": 0.7001,
+        "growth": 0.4297
+      },
+      "score": 0.4891231593038821,
+      "region_percentile": 0.5830618892508144
+    },
+    {
+      "ticker": "EXS.ST",
+      "name": "Exsitec Holding AB",
+      "region": "se",
+      "market_cap": 1513046912,
+      "families": {
+        "quality": 0.6011,
+        "value": 0.2463,
+        "growth": 0.5954
+      },
+      "score": 0.48843289825970543,
+      "region_percentile": 0.5798045602605864
+    },
+    {
+      "ticker": "PARR",
+      "name": "Par Pacific Holdings, Inc. Comm",
+      "region": "us",
+      "market_cap": 4089131776,
+      "families": {
+        "quality": 0.4605,
+        "growth": 0.8594,
+        "momentum": 0.4257
+      },
+      "score": 0.5842034805890227,
+      "region_percentile": 0.5769230769230769
+    },
+    {
+      "ticker": "FNM.ST",
+      "name": "Ferronordic AB",
+      "region": "se",
+      "market_cap": 1336983936,
+      "families": {
+        "quality": 0.095,
+        "value": 0.5114,
+        "growth": 0.5502,
+        "momentum": 0.9679
+      },
+      "score": 0.487483266398929,
+      "region_percentile": 0.5765472312703583
+    },
+    {
+      "ticker": "SF.ST",
+      "name": "Stillfront Group AB",
+      "region": "se",
+      "market_cap": 3710482176,
+      "families": {
+        "quality": 0.259,
+        "value": 0.7483,
+        "growth": 0.4197,
+        "momentum": 0.5823
+      },
+      "score": 0.4861780455153949,
+      "region_percentile": 0.5732899022801303
+    },
+    {
+      "ticker": "INDT.ST",
+      "name": "Indutrade AB",
+      "region": "se",
+      "market_cap": 93703880704,
+      "families": {
+        "quality": 0.6466,
+        "growth": 0.252,
+        "momentum": 0.5382
+      },
+      "score": 0.48614457831325303,
+      "region_percentile": 0.5700325732899023
+    },
+    {
+      "ticker": "ORES.ST",
+      "name": "INVESTMENT AB ORESUND",
+      "region": "se",
+      "market_cap": 6534089728,
+      "families": {
+        "quality": 0.581,
+        "value": 0.5181,
+        "growth": 0.1878,
+        "momentum": 0.6667
+      },
+      "score": 0.4840863453815261,
+      "region_percentile": 0.5667752442996743
+    },
+    {
+      "ticker": "AAOI",
+      "name": "Applied Optoelectronics, Inc.",
+      "region": "us",
+      "market_cap": 8427798528,
+      "families": {
+        "value": 0.8213,
+        "growth": 0.1165,
+        "momentum": 0.8554
+      },
+      "score": 0.5793172690763052,
+      "region_percentile": 0.5641025641025641
+    },
+    {
+      "ticker": "RAY-B.ST",
+      "name": "RaySearch Laboratories AB ser. ",
+      "region": "se",
+      "market_cap": 5573338112,
+      "families": {
+        "quality": 0.8474,
+        "value": 0.1566,
+        "growth": 0.3735
+      },
+      "score": 0.48343373493975894,
+      "region_percentile": 0.5635179153094463
+    },
+    {
+      "ticker": "SWEC-A.ST",
+      "name": "SWECO AB ser. A",
+      "region": "se",
+      "market_cap": 46600060928,
+      "families": {
+        "quality": 0.7336,
+        "value": 0.251,
+        "growth": 0.4036
+      },
+      "score": 0.47966867469879504,
+      "region_percentile": 0.5602605863192183
+    },
+    {
+      "ticker": "SWEC-B.ST",
+      "name": "SWECO AB ser. B",
+      "region": "se",
+      "market_cap": 46672306176,
+      "families": {
+        "quality": 0.7296,
+        "value": 0.247,
+        "growth": 0.3996
+      },
+      "score": 0.47565261044176715,
+      "region_percentile": 0.5570032573289903
+    },
+    {
+      "ticker": "WALL-B.ST",
+      "name": "Wallenstam AB ser. B",
+      "region": "se",
+      "market_cap": 22941237248,
+      "families": {
+        "quality": 0.2088,
+        "value": 0.6847,
+        "growth": 0.5763
+      },
+      "score": 0.4723895582329317,
+      "region_percentile": 0.5537459283387622
+    },
+    {
+      "ticker": "AUGO",
+      "name": "Aura Minerals Inc.",
+      "region": "us",
+      "market_cap": 6596282368,
+      "families": {
+        "quality": 0.8286,
+        "growth": 0.4726,
+        "momentum": 0.3333
+      },
+      "score": 0.5778670236501563,
+      "region_percentile": 0.5512820512820513
+    },
+    {
+      "ticker": "SYNSAM.ST",
+      "name": "Synsam AB",
+      "region": "se",
+      "market_cap": 7288473088,
+      "families": {
+        "quality": 0.6894,
+        "value": 0.411,
+        "growth": 0.6114,
+        "momentum": 0.0482
+      },
+      "score": 0.47207161981258366,
+      "region_percentile": 0.5504885993485342
+    },
+    {
+      "ticker": "EPEN.ST",
+      "name": "Ependion AB",
+      "region": "se",
+      "market_cap": 5013194752,
+      "families": {
+        "quality": 0.4659,
+        "value": 0.1084,
+        "growth": 0.6255,
+        "momentum": 0.739
+      },
+      "score": 0.47103413654618476,
+      "region_percentile": 0.5472312703583062
+    },
+    {
+      "ticker": "ACAD.ST",
+      "name": "AcadeMedia AB",
+      "region": "se",
+      "market_cap": 9519514624,
+      "families": {
+        "quality": 0.4886,
+        "value": 0.5957,
+        "growth": 0.4508,
         "momentum": 0.3092
       },
-      "score": 0.6620768789443489,
-      "region_percentile": 0.8729641693811074
+      "score": 0.47006358768406964,
+      "region_percentile": 0.5439739413680782
+    },
+    {
+      "ticker": "LIME.ST",
+      "name": "Lime Technologies AB",
+      "region": "se",
+      "market_cap": 3277891072,
+      "families": {
+        "quality": 0.8929,
+        "value": 0.0241,
+        "growth": 0.4056
+      },
+      "score": 0.4691265060240963,
+      "region_percentile": 0.5407166123778502
+    },
+    {
+      "ticker": "EOSE",
+      "name": "Eos Energy Enterprises, Inc.",
+      "region": "us",
+      "market_cap": 1108571648,
+      "families": {
+        "quality": 0.743,
+        "value": 0.3414,
+        "growth": 0.5723
+      },
+      "score": 0.5641315261044176,
+      "region_percentile": 0.5384615384615384
+    },
+    {
+      "ticker": "BRAV.ST",
+      "name": "Bravida Holding AB",
+      "region": "se",
+      "market_cap": 30710654976,
+      "families": {
+        "quality": 0.5475,
+        "value": 0.1205,
+        "growth": 0.3624,
+        "momentum": 0.9116
+      },
+      "score": 0.46731927710843374,
+      "region_percentile": 0.5374592833876222
+    },
+    {
+      "ticker": "COOR.ST",
+      "name": "Coor Service Management Holding",
+      "region": "se",
+      "market_cap": 4741393920,
+      "families": {
+        "quality": 0.5649,
+        "value": 0.4056,
+        "growth": 0.4699,
+        "momentum": 0.3896
+      },
+      "score": 0.46626506024096376,
+      "region_percentile": 0.5342019543973942
+    },
+    {
+      "ticker": "XVIVO.ST",
+      "name": "Xvivo Perfusion AB",
+      "region": "se",
+      "market_cap": 6936183296,
+      "families": {
+        "quality": 0.083,
+        "growth": 0.6586,
+        "momentum": 0.7952
+      },
+      "score": 0.46479250334672023,
+      "region_percentile": 0.5309446254071661
+    },
+    {
+      "ticker": "BESQAB.ST",
+      "name": "Besqab AB",
+      "region": "se",
+      "market_cap": 2900290304,
+      "families": {
+        "quality": 0.012,
+        "value": 0.5422,
+        "growth": 0.7724,
+        "momentum": 0.6546
+      },
+      "score": 0.46318607764390907,
+      "region_percentile": 0.5276872964169381
+    },
+    {
+      "ticker": "NEO",
+      "name": "NeoGenomics, Inc.",
+      "region": "us",
+      "market_cap": 2358809088,
+      "families": {
+        "value": 0.3855,
+        "growth": 0.9157,
+        "momentum": 0.3414
+      },
+      "score": 0.5622489959839359,
+      "region_percentile": 0.5256410256410257
+    },
+    {
+      "ticker": "SAMPO-SEK.ST",
+      "name": "Sampo Plc A",
+      "region": "se",
+      "market_cap": 261859229696,
+      "families": {
+        "quality": 0.7242,
+        "value": 0.2784,
+        "growth": 0.502,
+        "momentum": 0.249
+      },
+      "score": 0.46218206157965197,
+      "region_percentile": 0.5244299674267101
+    },
+    {
+      "ticker": "PEAB-B.ST",
+      "name": "Peab AB ser. B",
+      "region": "se",
+      "market_cap": 27387791360,
+      "families": {
+        "quality": 0.3588,
+        "value": 0.4029,
+        "growth": 0.3916,
+        "momentum": 0.7791
+      },
+      "score": 0.46208165997322626,
+      "region_percentile": 0.5211726384364821
+    },
+    {
+      "ticker": "LOOMIS.ST",
+      "name": "Loomis AB",
+      "region": "se",
+      "market_cap": 37610303488,
+      "families": {
+        "quality": 0.593,
+        "value": 0.2744,
+        "growth": 0.2115,
+        "momentum": 0.8032
+      },
+      "score": 0.46004016064257025,
+      "region_percentile": 0.5179153094462541
+    },
+    {
+      "ticker": "REJL-B.ST",
+      "name": "Rejlers AB ser. B",
+      "region": "se",
+      "market_cap": 3151308288,
+      "families": {
+        "quality": 0.4418,
+        "value": 0.4137,
+        "growth": 0.5248
+      },
+      "score": 0.4589190093708166,
+      "region_percentile": 0.5146579804560261
+    },
+    {
+      "ticker": "ECO",
+      "name": "Okeanis Eco Tankers Corp.",
+      "region": "us",
+      "market_cap": 3157931776,
+      "families": {
+        "quality": 0.4859,
+        "growth": 0.5408,
+        "momentum": 0.6667
+      },
+      "score": 0.5524319500223115,
+      "region_percentile": 0.5128205128205128
+    },
+    {
+      "ticker": "BILI-A.ST",
+      "name": "Bilia AB ser. A",
+      "region": "se",
+      "market_cap": 13236246528,
+      "families": {
+        "quality": 0.4659,
+        "value": 0.336,
+        "growth": 0.3788,
+        "momentum": 0.6827
+      },
+      "score": 0.45502008032128516,
+      "region_percentile": 0.511400651465798
+    },
+    {
+      "ticker": "KLARA-B.ST",
+      "name": "KlaraBo Sverige AB ser. B",
+      "region": "se",
+      "market_cap": 2043982848,
+      "families": {
+        "quality": 0.1245,
+        "value": 0.8032,
+        "growth": 0.502
+      },
+      "score": 0.45456827309236947,
+      "region_percentile": 0.50814332247557
+    },
+    {
+      "ticker": "BORG.ST",
+      "name": "Bj\u00f6rn Borg AB",
+      "region": "se",
+      "market_cap": 1373476608,
+      "families": {
+        "quality": 0.838,
+        "value": 0.3715,
+        "growth": 0.419,
+        "momentum": 0.0241
+      },
+      "score": 0.45384872824631856,
+      "region_percentile": 0.504885993485342
+    },
+    {
+      "ticker": "LUC.ST",
+      "name": "Lucara Diamond Corp",
+      "region": "se",
+      "market_cap": 1761683456,
+      "families": {
+        "quality": 0.0,
+        "value": 0.6841,
+        "growth": 0.7671
+      },
+      "score": 0.4534805890227576,
+      "region_percentile": 0.501628664495114
+    },
+    {
+      "ticker": "HUT",
+      "name": "Hut 8 Corp.",
+      "region": "us",
+      "market_cap": 10612640768,
+      "families": {
+        "value": 0.2731,
+        "growth": 0.7972,
+        "momentum": 0.5944
+      },
+      "score": 0.552065404475043,
+      "region_percentile": 0.5
+    },
+    {
+      "ticker": "INTEA-D.ST",
+      "name": "Intea Fastigheter AB ser. D",
+      "region": "se",
+      "market_cap": 8389880832,
+      "families": {
+        "quality": 0.253,
+        "value": 0.4297,
+        "growth": 0.7169
+      },
+      "score": 0.4531877510040161,
+      "region_percentile": 0.498371335504886
+    },
+    {
+      "ticker": "BOOZT.ST",
+      "name": "Boozt AB",
+      "region": "se",
+      "market_cap": 9019439104,
+      "families": {
+        "quality": 0.4953,
+        "value": 0.1928,
+        "growth": 0.3283,
+        "momentum": 0.8715
+      },
+      "score": 0.4531626506024096,
+      "region_percentile": 0.495114006514658
+    },
+    {
+      "ticker": "SOF-B.ST",
+      "name": "Softronic AB ser. B",
+      "region": "se",
+      "market_cap": 1157921664,
+      "families": {
+        "quality": 0.8942,
+        "value": 0.3675,
+        "growth": 0.2661,
+        "momentum": 0.1205
+      },
+      "score": 0.45075301204819274,
+      "region_percentile": 0.49185667752442996
+    },
+    {
+      "ticker": "BOKUS.ST",
+      "name": "Bokusgruppen AB",
+      "region": "se",
+      "market_cap": 1143506816,
+      "families": {
+        "quality": 0.4726,
+        "value": 0.4846,
+        "growth": 0.4203,
+        "momentum": 0.4137
+      },
+      "score": 0.45073627844712183,
+      "region_percentile": 0.48859934853420195
+    },
+    {
+      "ticker": "SEPN",
+      "name": "Septerna, Inc.",
+      "region": "us",
+      "market_cap": 1826468992,
+      "families": {
+        "value": 0.4578,
+        "growth": 0.988,
+        "momentum": 0.0843
+      },
+      "score": 0.5404475043029261,
+      "region_percentile": 0.4871794871794872
+    },
+    {
+      "ticker": "AQ.ST",
+      "name": "AQ Group AB",
+      "region": "se",
+      "market_cap": 21722324992,
+      "families": {
+        "quality": 0.6747,
+        "value": 0.0723,
+        "growth": 0.3012,
+        "momentum": 0.7711
+      },
+      "score": 0.44999999999999996,
+      "region_percentile": 0.48534201954397393
+    },
+    {
+      "ticker": "GETI-B.ST",
+      "name": "Getinge AB ser. B",
+      "region": "se",
+      "market_cap": 67547652096,
+      "families": {
+        "quality": 0.4378,
+        "value": 0.251,
+        "growth": 0.5341,
+        "momentum": 0.6104
+      },
+      "score": 0.44969879518072287,
+      "region_percentile": 0.4820846905537459
+    },
+    {
+      "ticker": "KNOW.ST",
+      "name": "Knowit AB",
+      "region": "se",
+      "market_cap": 2571234048,
+      "families": {
+        "value": 0.7805,
+        "growth": 0.3896,
+        "momentum": 0.1084
+      },
+      "score": 0.4488429910116657,
+      "region_percentile": 0.4788273615635179
+    },
+    {
+      "ticker": "CATE.ST",
+      "name": "Catena AB",
+      "region": "se",
+      "market_cap": 23092566016,
+      "families": {
+        "quality": 0.1365,
+        "value": 0.6104,
+        "growth": 0.6566
+      },
+      "score": 0.44716365461847385,
+      "region_percentile": 0.4755700325732899
+    },
+    {
+      "ticker": "PUBM",
+      "name": "PubMatic, Inc.",
+      "region": "us",
+      "market_cap": 853152576,
+      "families": {
+        "value": 0.5221,
+        "growth": 0.6104,
+        "momentum": 0.4618
+      },
+      "score": 0.5364314400458979,
+      "region_percentile": 0.47435897435897434
+    },
+    {
+      "ticker": "LOGI-B.ST",
+      "name": "Logistea AB ser. B",
+      "region": "se",
+      "market_cap": 6262407168,
+      "families": {
+        "quality": 0.2423,
+        "value": 0.5033,
+        "growth": 0.6365
+      },
+      "score": 0.44707998661311904,
+      "region_percentile": 0.4723127035830619
+    },
+    {
+      "ticker": "MEKO.ST",
+      "name": "MEKO AB",
+      "region": "se",
+      "market_cap": 3754578432,
+      "families": {
+        "quality": 0.0321,
+        "value": 0.7851,
+        "growth": 0.9317,
+        "momentum": 0.0321
+      },
+      "score": 0.44528112449799195,
+      "region_percentile": 0.46905537459283386
+    },
+    {
+      "ticker": "AZN.ST",
+      "name": "AstraZeneca PLC",
+      "region": "se",
+      "market_cap": 2533388451840,
+      "families": {
+        "quality": 0.7483,
+        "value": 0.2048,
+        "growth": 0.3514,
+        "momentum": 0.3976
+      },
+      "score": 0.44307228915662655,
+      "region_percentile": 0.46579804560260585
+    },
+    {
+      "ticker": "TRUE-B.ST",
+      "name": "Truecaller AB ser. B",
+      "region": "se",
+      "market_cap": 6987953664,
+      "families": {
+        "quality": 0.8701,
+        "value": 0.2972,
+        "growth": 0.0763
+      },
+      "score": 0.4430220883534137,
+      "region_percentile": 0.46254071661237783
+    },
+    {
+      "ticker": "TNGX",
+      "name": "Tango Therapeutics, Inc.",
+      "region": "us",
+      "market_cap": 4206828800,
+      "families": {
+        "value": 0.2771,
+        "growth": 0.5944,
+        "momentum": 0.7751
+      },
+      "score": 0.5327022375215147,
+      "region_percentile": 0.46153846153846156
+    },
+    {
+      "ticker": "SLP-B.ST",
+      "name": "Swedish Logistic Property AB se",
+      "region": "se",
+      "market_cap": 9070057472,
+      "families": {
+        "quality": 0.2102,
+        "value": 0.508,
+        "growth": 0.6546
+      },
+      "score": 0.44214357429718865,
+      "region_percentile": 0.4592833876221498
+    },
+    {
+      "ticker": "MMGR-B.ST",
+      "name": "Momentum Group AB ser. B",
+      "region": "se",
+      "market_cap": 6565185024,
+      "families": {
+        "quality": 0.7631,
+        "value": 0.1124,
+        "growth": 0.3805
+      },
+      "score": 0.4401982931726907,
+      "region_percentile": 0.4560260586319218
+    },
+    {
+      "ticker": "MCOV-B.ST",
+      "name": "Medicover AB ser. B",
+      "region": "se",
+      "market_cap": 39513309184,
+      "families": {
+        "quality": 0.4672,
+        "value": 0.2651,
+        "growth": 0.6355,
+        "momentum": 0.3614
+      },
+      "score": 0.4376004016064257,
+      "region_percentile": 0.4527687296416938
+    },
+    {
+      "ticker": "NIVI-B.ST",
+      "name": "Nivika Fastigheter AB ser. B",
+      "region": "se",
+      "market_cap": 3370640128,
+      "families": {
+        "quality": 0.0884,
+        "value": 0.7088,
+        "growth": 0.7731,
+        "momentum": 0.2008
+      },
+      "score": 0.43714859437751,
+      "region_percentile": 0.4495114006514658
+    },
+    {
+      "ticker": "AXGN",
+      "name": "AxoGen, Inc.",
+      "region": "us",
+      "market_cap": 2459509760,
+      "families": {
+        "value": 0.757,
+        "growth": 0.3092,
+        "momentum": 0.5301
+      },
+      "score": 0.5322719449225474,
+      "region_percentile": 0.4487179487179487
+    },
+    {
+      "ticker": "EQT.ST",
+      "name": "EQT AB",
+      "region": "se",
+      "market_cap": 358825656320,
+      "families": {
+        "quality": 0.6011,
+        "value": 0.1606,
+        "growth": 0.5127
+      },
+      "score": 0.43582663989290493,
+      "region_percentile": 0.44625407166123776
+    },
+    {
+      "ticker": "TELIA.ST",
+      "name": "Telia Company AB",
+      "region": "se",
+      "market_cap": 172658917376,
+      "families": {
+        "quality": 0.2704,
+        "value": 0.5502,
+        "growth": 0.3082,
+        "momentum": 0.6988
+      },
+      "score": 0.4354919678714859,
+      "region_percentile": 0.44299674267100975
+    },
+    {
+      "ticker": "BETCO.ST",
+      "name": "Better Collective A/S",
+      "region": "se",
+      "market_cap": 3975541504,
+      "families": {
+        "quality": 0.1941,
+        "value": 0.6894,
+        "growth": 0.4699
+      },
+      "score": 0.43507362784471215,
+      "region_percentile": 0.43973941368078173
+    },
+    {
+      "ticker": "ESSITY-A.ST",
+      "name": "Essity AB ser. A",
+      "region": "se",
+      "market_cap": 175432368128,
+      "families": {
+        "quality": 0.5944,
+        "value": 0.4043,
+        "growth": 0.2932,
+        "momentum": 0.4016
+      },
+      "score": 0.43299866131191433,
+      "region_percentile": 0.4364820846905537
+    },
+    {
+      "ticker": "NUAI",
+      "name": "New Era Energy & Digital, Inc.",
+      "region": "us",
+      "market_cap": 811756352,
+      "families": {
+        "value": 0.2088,
+        "growth": 0.5924,
+        "momentum": 0.8514
+      },
+      "score": 0.5294033275960988,
+      "region_percentile": 0.4358974358974359
+    },
+    {
+      "ticker": "ARION-SDB.ST",
+      "name": "Arion Banki hf SDB",
+      "region": "se",
+      "market_cap": 19781801984,
+      "families": {
+        "quality": 0.5301,
+        "value": 0.5622,
+        "growth": 0.2028,
+        "momentum": 0.4056
+      },
+      "score": 0.43142570281124504,
+      "region_percentile": 0.4332247557003257
+    },
+    {
+      "ticker": "ALFA.ST",
+      "name": "Alfa Laval AB",
+      "region": "se",
+      "market_cap": 231132069888,
+      "families": {
+        "quality": 0.7296,
+        "value": 0.0161,
+        "growth": 0.2681,
+        "momentum": 0.7028
+      },
+      "score": 0.43047188755020077,
+      "region_percentile": 0.4299674267100977
+    },
+    {
+      "ticker": "HM-B.ST",
+      "name": "Hennes & Mauritz AB, H & M ser.",
+      "region": "se",
+      "market_cap": 255100403712,
+      "families": {
+        "quality": 0.7724,
+        "value": 0.3514,
+        "growth": 0.4391,
+        "momentum": 0.004
+      },
+      "score": 0.4301539491298527,
+      "region_percentile": 0.4267100977198697
+    },
+    {
+      "ticker": "NDA-SE.ST",
+      "name": "Nordea Bank Abp",
+      "region": "se",
+      "market_cap": 672641974272,
+      "families": {
+        "quality": 0.5743,
+        "value": 0.3394,
+        "growth": 0.0924,
+        "momentum": 0.747
+      },
+      "score": 0.4296184738955824,
+      "region_percentile": 0.42345276872964166
+    },
+    {
+      "ticker": "URGN",
+      "name": "UroGen Pharma Ltd.",
+      "region": "us",
+      "market_cap": 1986017408,
+      "families": {
+        "quality": 0.5622,
+        "value": 0.5402,
+        "growth": 0.5141,
+        "momentum": 0.4538
+      },
+      "score": 0.5229919678714859,
+      "region_percentile": 0.42307692307692313
+    },
+    {
+      "ticker": "ESSITY-B.ST",
+      "name": "Essity AB ser. B",
+      "region": "se",
+      "market_cap": 174825111552,
+      "families": {
+        "quality": 0.5904,
+        "value": 0.4003,
+        "growth": 0.2892,
+        "momentum": 0.3936
+      },
+      "score": 0.4281793842034806,
+      "region_percentile": 0.42019543973941365
+    },
+    {
+      "ticker": "INTEA-B.ST",
+      "name": "Intea Fastigheter AB ser. B",
+      "region": "se",
+      "market_cap": 19152072704,
+      "families": {
+        "quality": 0.257,
+        "value": 0.4337,
+        "growth": 0.7209,
+        "momentum": 0.3012
+      },
+      "score": 0.426004016064257,
+      "region_percentile": 0.41693811074918563
+    },
+    {
+      "ticker": "ASKER.ST",
+      "name": "Asker Healthcare Group AB",
+      "region": "se",
+      "market_cap": 25452775424,
+      "families": {
+        "quality": 0.419,
+        "value": 0.2088,
+        "growth": 0.6506
+      },
+      "score": 0.42570281124497994,
+      "region_percentile": 0.4136807817589576
+    },
+    {
+      "ticker": "HEXA-B.ST",
+      "name": "Hexagon AB ser. B",
+      "region": "se",
+      "market_cap": 264572272640,
+      "families": {
+        "quality": 0.573,
+        "value": 0.2691,
+        "growth": 0.3963
+      },
+      "score": 0.42277443105756357,
+      "region_percentile": 0.4104234527687296
+    },
+    {
+      "ticker": "AIP",
+      "name": "Arteris, Inc.",
+      "region": "us",
+      "market_cap": 1161955712,
+      "families": {
+        "value": 0.3293,
+        "growth": 0.9277,
+        "momentum": 0.245
+      },
+      "score": 0.5189328743545613,
+      "region_percentile": 0.41025641025641024
+    },
+    {
+      "ticker": "SVED-B.ST",
+      "name": "Svedbergs Group AB ser. B",
+      "region": "se",
+      "market_cap": 2911474176,
+      "families": {
+        "quality": 0.5515,
+        "value": 0.3802,
+        "growth": 0.3906,
+        "momentum": 0.3213
+      },
+      "score": 0.4224062918340027,
+      "region_percentile": 0.4071661237785016
+    },
+    {
+      "ticker": "PDX.ST",
+      "name": "Paradox Interactive AB",
+      "region": "se",
+      "market_cap": 15954951168,
+      "families": {
+        "quality": 0.5904,
+        "growth": 0.5442,
+        "momentum": 0.0161
+      },
+      "score": 0.4218206157965194,
+      "region_percentile": 0.4039087947882736
+    },
+    {
+      "ticker": "STIL.ST",
+      "name": "Stille AB",
+      "region": "se",
+      "market_cap": 2219405312,
+      "families": {
+        "quality": 0.5127,
+        "value": 0.0763,
+        "growth": 0.4177,
+        "momentum": 0.7189
+      },
+      "score": 0.42108433734939765,
+      "region_percentile": 0.40065146579804556
+    },
+    {
+      "ticker": "BAK",
+      "name": "Braskem SA",
+      "region": "us",
+      "market_cap": 577802112,
+      "families": {
+        "quality": 0.5382,
+        "value": 0.2691,
+        "growth": 0.739
+      },
+      "score": 0.5168172690763052,
+      "region_percentile": 0.39743589743589747
+    },
+    {
+      "ticker": "ALLIGO-B.ST",
+      "name": "Alligo AB ser. B",
+      "region": "se",
+      "market_cap": 6391214592,
+      "families": {
+        "quality": 0.2999,
+        "value": 0.3668,
+        "growth": 0.5863,
+        "momentum": 0.4458
+      },
+      "score": 0.4174029451137885,
+      "region_percentile": 0.39739413680781754
+    },
+    {
+      "ticker": "KAMBI.ST",
+      "name": "Kambi Group Plc",
+      "region": "se",
+      "market_cap": 4478466048,
+      "families": {
+        "quality": 0.3989,
+        "value": 0.1968,
+        "growth": 0.3243,
+        "momentum": 0.8353
+      },
+      "score": 0.41701807228915666,
+      "region_percentile": 0.39413680781758953
+    },
+    {
+      "ticker": "TROAX.ST",
+      "name": "Troax Group AB",
+      "region": "se",
+      "market_cap": 9252088832,
+      "families": {
+        "quality": 0.5161,
+        "growth": 0.241,
+        "momentum": 0.4859
+      },
+      "score": 0.41633199464524767,
+      "region_percentile": 0.3908794788273615
+    },
+    {
+      "ticker": "CLAV.ST",
+      "name": "Clavister AB",
+      "region": "se",
+      "market_cap": 1622390912,
+      "families": {
+        "quality": 0.5141,
+        "growth": 0.5221,
+        "momentum": 0.1365
+      },
+      "score": 0.41606425702811256,
+      "region_percentile": 0.3876221498371335
+    },
+    {
+      "ticker": "TER",
+      "name": "Teradyne, Inc.",
+      "region": "us",
+      "market_cap": 62678573056,
+      "families": {
+        "quality": 0.6506,
+        "growth": 0.2028,
+        "momentum": 0.6867
+      },
+      "score": 0.5109772423025435,
+      "region_percentile": 0.3846153846153846
+    },
+    {
+      "ticker": "KABE-B.ST",
+      "name": "KABE Group AB ser. B",
+      "region": "se",
+      "market_cap": 2196000000,
+      "families": {
+        "quality": 0.2544,
+        "value": 0.4498,
+        "growth": 0.5321,
+        "momentum": 0.4618
+      },
+      "score": 0.4141566265060241,
+      "region_percentile": 0.3843648208469055
+    },
+    {
+      "ticker": "VIMIAN.ST",
+      "name": "Vimian Group AB",
+      "region": "se",
+      "market_cap": 18799589376,
+      "families": {
+        "quality": 0.2664,
+        "value": 0.1165,
+        "growth": 0.6627,
+        "momentum": 0.6908
+      },
+      "score": 0.41285140562249,
+      "region_percentile": 0.38110749185667747
+    },
+    {
+      "ticker": "SDIP-B.ST",
+      "name": "Sdiptech AB ser. B",
+      "region": "se",
+      "market_cap": 9657549824,
+      "families": {
+        "quality": 0.1908,
+        "value": 0.4859,
+        "growth": 0.2838,
+        "momentum": 0.8112
+      },
+      "score": 0.4119143239625167,
+      "region_percentile": 0.37785016286644946
+    },
+    {
+      "ticker": "SWED-A.ST",
+      "name": "Swedbank AB ser A",
+      "region": "se",
+      "market_cap": 457913729024,
+      "families": {
+        "quality": 0.5542,
+        "value": 0.261,
+        "growth": 0.0562,
+        "momentum": 0.8313
+      },
+      "score": 0.41184738955823297,
+      "region_percentile": 0.37459283387622155
+    },
+    {
+      "ticker": "TVTX",
+      "name": "Travere Therapeutics, Inc.",
+      "region": "us",
+      "market_cap": 5550092288,
+      "families": {
+        "value": 0.6426,
+        "growth": 0.2972,
+        "momentum": 0.5502
+      },
+      "score": 0.4928284566838784,
+      "region_percentile": 0.3717948717948718
+    },
+    {
+      "ticker": "LOGIST-A.ST",
+      "name": "Logistri Fastighets AB ser. A",
+      "region": "se",
+      "market_cap": 1401908352,
+      "families": {
+        "quality": 0.2169,
+        "value": 0.6064,
+        "growth": 0.7751,
+        "momentum": 0.0
+      },
+      "score": 0.4104417670682731,
+      "region_percentile": 0.37133550488599354
+    },
+    {
+      "ticker": "CEVI.ST",
+      "name": "CellaVision AB",
+      "region": "se",
+      "market_cap": 4131088128,
+      "families": {
+        "quality": 0.7068,
+        "growth": 0.1606,
+        "momentum": 0.2771
+      },
+      "score": 0.41017402945113784,
+      "region_percentile": 0.3680781758957655
+    },
+    {
+      "ticker": "CAMX.ST",
+      "name": "Camurus AB",
+      "region": "se",
+      "market_cap": 37163487232,
+      "families": {
+        "quality": 0.7403,
+        "growth": 0.2239,
+        "momentum": 0.1406
+      },
+      "score": 0.4082329317269076,
+      "region_percentile": 0.3648208469055375
+    },
+    {
+      "ticker": "TREL-B.ST",
+      "name": "Trelleborg AB ser. B",
+      "region": "se",
+      "market_cap": 99358220288,
+      "families": {
+        "quality": 0.4967,
+        "value": 0.1325,
+        "growth": 0.2952,
+        "momentum": 0.755
+      },
+      "score": 0.40692771084337354,
+      "region_percentile": 0.3615635179153095
+    },
+    {
+      "ticker": "ANDG",
+      "name": "Andersen Group Inc.",
+      "region": "us",
+      "market_cap": 1008598336,
+      "families": {
+        "quality": 0.4337,
+        "value": 0.3213,
+        "growth": 0.6667,
+        "momentum": 0.5141
+      },
+      "score": 0.4799196787148594,
+      "region_percentile": 0.3589743589743589
+    },
+    {
+      "ticker": "ALLEI.ST",
+      "name": "Alleima AB",
+      "region": "se",
+      "market_cap": 29382139904,
+      "families": {
+        "quality": 0.2129,
+        "value": 0.2671,
+        "growth": 0.3916,
+        "momentum": 0.8916
+      },
+      "score": 0.4068273092369478,
+      "region_percentile": 0.3583061889250815
+    },
+    {
+      "ticker": "SFAST.ST",
+      "name": "Stenhus Fastigheter i Norden AB",
+      "region": "se",
+      "market_cap": 3812021760,
+      "families": {
+        "quality": 0.1901,
+        "value": 0.5408,
+        "growth": 0.4689,
+        "momentum": 0.4779
+      },
+      "score": 0.4050368139223561,
+      "region_percentile": 0.35504885993485347
+    },
+    {
+      "ticker": "NOBA.ST",
+      "name": "NOBA Bank Group AB",
+      "region": "se",
+      "market_cap": 43950002176,
+      "families": {
+        "quality": 0.3173,
+        "value": 0.3876,
+        "growth": 0.6627,
+        "momentum": 0.2329
+      },
+      "score": 0.4043172690763052,
+      "region_percentile": 0.35179153094462545
+    },
+    {
+      "ticker": "EMIL-B.ST",
+      "name": "Fastighetsbolaget Emilshus AB s",
+      "region": "se",
+      "market_cap": 5510472192,
+      "families": {
+        "quality": 0.3039,
+        "value": 0.4759,
+        "growth": 0.7202,
+        "momentum": 0.0602
+      },
+      "score": 0.40224230254350735,
+      "region_percentile": 0.34853420195439744
+    },
+    {
+      "ticker": "IMMX",
+      "name": "Immix Biopharma, Inc.",
+      "region": "us",
+      "market_cap": 744366528,
+      "families": {
+        "value": 0.0321,
+        "growth": 0.5703,
+        "momentum": 0.9116
+      },
+      "score": 0.4756167527251865,
+      "region_percentile": 0.34615384615384615
+    },
+    {
+      "ticker": "MCAP.ST",
+      "name": "MedCap AB",
+      "region": "se",
+      "market_cap": 7847242240,
+      "families": {
+        "quality": 0.7068,
+        "value": 0.0321,
+        "growth": 0.6606,
+        "momentum": 0.0843
+      },
+      "score": 0.40210843373493976,
+      "region_percentile": 0.3452768729641694
+    },
+    {
+      "ticker": "AGROUP.ST",
+      "name": "Arlandastad Group AB",
+      "region": "se",
+      "market_cap": 2213945344,
+      "families": {
+        "quality": 0.0161,
+        "value": 0.6908,
+        "growth": 0.5301,
+        "momentum": 0.4538
+      },
+      "score": 0.4008032128514056,
+      "region_percentile": 0.3420195439739414
+    },
+    {
+      "ticker": "SEB-C.ST",
+      "name": "Skandinaviska Enskilda Banken s",
+      "region": "se",
+      "market_cap": 461842776064,
+      "families": {
+        "quality": 0.5141,
+        "value": 0.2671,
+        "growth": 0.1165,
+        "momentum": 0.751
+      },
+      "score": 0.4003012048192771,
+      "region_percentile": 0.3387622149837134
+    },
+    {
+      "ticker": "GPG.ST",
+      "name": "Genova Property Group AB",
+      "region": "se",
+      "market_cap": 1618356480,
+      "families": {
+        "quality": 0.245,
+        "value": 0.747,
+        "growth": 0.4598,
+        "momentum": 0.1245
+      },
+      "score": 0.4001004016064257,
+      "region_percentile": 0.3355048859934854
+    },
+    {
+      "ticker": "VFS",
+      "name": "VinFast Auto Ltd.",
+      "region": "us",
+      "market_cap": 7299352576,
+      "families": {
+        "quality": 0.7108,
+        "value": 0.3373,
+        "growth": 0.3253
+      },
+      "score": 0.47364457831325296,
+      "region_percentile": 0.33333333333333337
+    },
+    {
+      "ticker": "AFRY.ST",
+      "name": "AFRY AB",
+      "region": "se",
+      "market_cap": 11732880384,
+      "families": {
+        "quality": 0.2463,
+        "value": 0.5248,
+        "growth": 0.4558
+      },
+      "score": 0.398803547523427,
+      "region_percentile": 0.33224755700325737
+    },
+    {
+      "ticker": "SEB-A.ST",
+      "name": "Skandinaviska Enskilda Banken s",
+      "region": "se",
+      "market_cap": 452897603584,
+      "families": {
+        "quality": 0.5181,
+        "value": 0.2711,
+        "growth": 0.1205,
+        "momentum": 0.7229
+      },
+      "score": 0.3978915662650603,
+      "region_percentile": 0.32899022801302935
+    },
+    {
+      "ticker": "WIHL.ST",
+      "name": "Wihlborgs Fastigheter AB",
+      "region": "se",
+      "market_cap": 21704339456,
+      "families": {
+        "quality": 0.1901,
+        "value": 0.5743,
+        "growth": 0.4669
+      },
+      "score": 0.3966490963855422,
+      "region_percentile": 0.32573289902280134
+    },
+    {
+      "ticker": "SECU-B.ST",
+      "name": "Securitas AB ser. B",
+      "region": "se",
+      "market_cap": 88270643200,
+      "families": {
+        "quality": 0.5636,
+        "value": 0.3548,
+        "growth": 0.2115,
+        "momentum": 0.4297
+      },
+      "score": 0.39658634538152615,
+      "region_percentile": 0.3224755700325733
+    },
+    {
+      "ticker": "AAUC",
+      "name": "Allied Gold Corporation",
+      "region": "us",
+      "market_cap": 2909583872,
+      "families": {
+        "quality": 0.6948,
+        "value": 0.3052,
+        "growth": 0.3708
+      },
+      "score": 0.47180388219544844,
+      "region_percentile": 0.3205128205128205
+    },
+    {
+      "ticker": "AVARDA.ST",
+      "name": "Avarda Bank AB",
+      "region": "se",
+      "market_cap": 13220925440,
+      "families": {
+        "quality": 0.4438,
+        "value": 0.2129,
+        "growth": 0.4337,
+        "momentum": 0.49
+      },
+      "score": 0.39277108433734936,
+      "region_percentile": 0.3192182410423453
+    },
+    {
+      "ticker": "CIBUS.ST",
+      "name": "Cibus Real Estate AB (publ)",
+      "region": "se",
+      "market_cap": 10026811392,
+      "families": {
+        "quality": 0.2209,
+        "value": 0.3936,
+        "growth": 0.5974
+      },
+      "score": 0.39250753012048195,
+      "region_percentile": 0.3159609120521173
+    },
+    {
+      "ticker": "TEQ.ST",
+      "name": "Teqnion AB",
+      "region": "se",
+      "market_cap": 3117301504,
+      "families": {
+        "quality": 0.3507,
+        "value": 0.1165,
+        "growth": 0.5713,
+        "momentum": 0.5743
+      },
+      "score": 0.39201807228915664,
+      "region_percentile": 0.3127035830618893
+    },
+    {
+      "ticker": "HEBA-B.ST",
+      "name": "Heba Fastighets AB ser. B",
+      "region": "se",
+      "market_cap": 3631708160,
+      "families": {
+        "quality": 0.1044,
+        "value": 0.6667,
+        "growth": 0.4548
+      },
+      "score": 0.38962098393574296,
+      "region_percentile": 0.30944625407166126
+    },
+    {
+      "ticker": "ETON",
+      "name": "Eton Pharmaceuticals, Inc.",
+      "region": "us",
+      "market_cap": 1471745664,
+      "families": {
+        "quality": 0.2169,
+        "growth": 0.5763,
+        "momentum": 0.7229
+      },
+      "score": 0.4716198125836681,
+      "region_percentile": 0.3076923076923077
+    },
+    {
+      "ticker": "ITAB.ST",
+      "name": "ITAB Group AB",
+      "region": "se",
+      "market_cap": 4268206592,
+      "families": {
+        "quality": 0.1767,
+        "value": 0.4498,
+        "growth": 0.751,
+        "momentum": 0.1807
+      },
+      "score": 0.3893574297188755,
+      "region_percentile": 0.30618892508143325
+    },
+    {
+      "ticker": "SHB-A.ST",
+      "name": "Svenska Handelsbanken ser. A",
+      "region": "se",
+      "market_cap": 309836611584,
+      "families": {
+        "quality": 0.4458,
+        "value": 0.3956,
+        "growth": 0.0442,
+        "momentum": 0.7269
+      },
+      "score": 0.38905622489959835,
+      "region_percentile": 0.30293159609120524
+    },
+    {
+      "ticker": "SHOT.ST",
+      "name": "Scandic Hotels Group AB",
+      "region": "se",
+      "market_cap": 19167842304,
+      "families": {
+        "quality": 0.419,
+        "value": 0.502,
+        "growth": 0.2992,
+        "momentum": 0.3133
+      },
+      "score": 0.3886546184738956,
+      "region_percentile": 0.2996742671009772
+    },
+    {
+      "ticker": "HTRO.ST",
+      "name": "Hexatronic Group AB",
+      "region": "se",
+      "market_cap": 8771636224,
+      "families": {
+        "value": 0.1486,
+        "growth": 0.1647,
+        "momentum": 0.9598
+      },
+      "score": 0.38611589213998854,
+      "region_percentile": 0.2964169381107492
+    },
+    {
+      "ticker": "ERAS",
+      "name": "Erasca, Inc.",
+      "region": "us",
+      "market_cap": 5127511552,
+      "families": {
+        "value": 0.3896,
+        "growth": 0.1566,
+        "momentum": 0.9639
+      },
+      "score": 0.4704532415375789,
+      "region_percentile": 0.2948717948717948
+    },
+    {
+      "ticker": "THULE.ST",
+      "name": "Thule Group AB",
+      "region": "se",
+      "market_cap": 21438226432,
+      "families": {
+        "quality": 0.6493,
+        "value": 0.1767,
+        "growth": 0.2761
+      },
+      "score": 0.38497740963855415,
+      "region_percentile": 0.2931596091205212
+    },
+    {
+      "ticker": "SIVI.ST",
+      "name": "Siljansvik AB",
+      "region": "se",
+      "market_cap": 1617120896,
+      "families": {
+        "quality": 0.0683,
+        "value": 0.4819,
+        "momentum": 0.7349
+      },
+      "score": 0.38393574297188754,
+      "region_percentile": 0.2899022801302932
+    },
+    {
+      "ticker": "RUG.ST",
+      "name": "RugVista Group AB",
+      "region": "se",
+      "market_cap": 1394682880,
+      "families": {
+        "quality": 0.6051,
+        "value": 0.1647,
+        "growth": 0.6215,
+        "momentum": 0.0281
+      },
+      "score": 0.38368473895582333,
+      "region_percentile": 0.28664495114006516
+    },
+    {
+      "ticker": "BALD-B.ST",
+      "name": "Fastighets AB Balder ser. B",
+      "region": "se",
+      "market_cap": 55013449728,
+      "families": {
+        "quality": 0.1526,
+        "value": 0.6928,
+        "growth": 0.3434
+      },
+      "score": 0.38102409638554213,
+      "region_percentile": 0.28338762214983715
+    },
+    {
+      "ticker": "OABI",
+      "name": "OmniAb, Inc.",
+      "region": "us",
+      "market_cap": 721136384,
+      "families": {
+        "value": 0.494,
+        "growth": 0.1888,
+        "momentum": 0.7108
+      },
+      "score": 0.4469305794607,
+      "region_percentile": 0.28205128205128205
+    },
+    {
+      "ticker": "BULTEN.ST",
+      "name": "Bulten AB",
+      "region": "se",
+      "market_cap": 1389405056,
+      "families": {
+        "quality": 0.1185,
+        "value": 0.7001,
+        "growth": 0.2155,
+        "momentum": 0.5783
+      },
+      "score": 0.38012048192771086,
+      "region_percentile": 0.28013029315960913
+    },
+    {
+      "ticker": "STEF-B.ST",
+      "name": "Stend\u00f6rren Fastigheter AB ser.",
+      "region": "se",
+      "market_cap": 5157604352,
+      "families": {
+        "quality": 0.1165,
+        "value": 0.4558,
+        "growth": 0.6114
+      },
+      "score": 0.3771962851405623,
+      "region_percentile": 0.2768729641693811
+    },
+    {
+      "ticker": "CORE-A.ST",
+      "name": "Corem Property Group AB ser. A",
+      "region": "se",
+      "market_cap": 3943719680,
+      "families": {
+        "quality": 0.0281,
+        "value": 0.8614,
+        "growth": 0.3092
+      },
+      "score": 0.37638052208835343,
+      "region_percentile": 0.2736156351791531
+    },
+    {
+      "ticker": "AXFO.ST",
+      "name": "Axfood AB",
+      "region": "se",
+      "market_cap": 55957118976,
+      "families": {
+        "quality": 0.747,
+        "value": 0.261,
+        "growth": 0.2932,
+        "momentum": 0.0683
+      },
+      "score": 0.37630522088353413,
+      "region_percentile": 0.2703583061889251
+    },
+    {
+      "ticker": "GTX",
+      "name": "Garrett Motion Inc.",
+      "region": "us",
+      "market_cap": 4854423552,
+      "families": {
+        "quality": 0.6004,
+        "value": 0.5823,
+        "momentum": 0.0321
+      },
+      "score": 0.4428380187416332,
+      "region_percentile": 0.2692307692307693
+    },
+    {
+      "ticker": "HUM.ST",
+      "name": "Humana AB",
+      "region": "se",
+      "market_cap": 3393008896,
+      "families": {
+        "quality": 0.1098,
+        "value": 0.427,
+        "growth": 0.1968,
+        "momentum": 0.9317
+      },
+      "score": 0.37523427041499335,
+      "region_percentile": 0.2671009771986971
+    },
+    {
+      "ticker": "DIOS.ST",
+      "name": "Di\u00f6s Fastigheter AB",
+      "region": "se",
+      "market_cap": 7952921600,
+      "families": {
+        "value": 0.5221,
+        "growth": 0.4565,
+        "momentum": 0.0884
+      },
+      "score": 0.37473704341174224,
+      "region_percentile": 0.26384364820846906
+    },
+    {
+      "ticker": "MTRS.ST",
+      "name": "Munters Group AB",
+      "region": "se",
+      "market_cap": 24378408960,
+      "families": {
+        "quality": 0.34,
+        "value": 0.0803,
+        "growth": 0.5636,
+        "momentum": 0.5582
+      },
+      "score": 0.3746318607764391,
+      "region_percentile": 0.26058631921824105
+    },
+    {
+      "ticker": "SYSR.ST",
+      "name": "Systemair AB",
+      "region": "se",
+      "market_cap": 17701920768,
+      "families": {
+        "quality": 0.5984,
+        "value": 0.1325,
+        "growth": 0.2751,
+        "momentum": 0.4578
+      },
+      "score": 0.3729919678714859,
+      "region_percentile": 0.25732899022801303
+    },
+    {
+      "ticker": "ABCL",
+      "name": "AbCellera Biologics Inc.",
+      "region": "us",
+      "market_cap": 4727851008,
+      "families": {
+        "value": 0.2369,
+        "growth": 0.5221,
+        "momentum": 0.5703
+      },
+      "score": 0.43402180149168107,
+      "region_percentile": 0.2564102564102564
+    },
+    {
+      "ticker": "JOMA.ST",
+      "name": "John Mattson Fastighetsf\u00f6retag",
+      "region": "se",
+      "market_cap": 4060096768,
+      "families": {
+        "quality": 0.2048,
+        "value": 0.7048,
+        "growth": 0.415,
+        "momentum": 0.1566
+      },
+      "score": 0.3727242302543507,
+      "region_percentile": 0.254071661237785
+    },
+    {
+      "ticker": "CORE-B.ST",
+      "name": "Corem Property Group AB ser. B",
+      "region": "se",
+      "market_cap": 2531892736,
+      "families": {
+        "quality": 0.0241,
+        "value": 0.8574,
+        "growth": 0.3052
+      },
+      "score": 0.37236445783132527,
+      "region_percentile": 0.250814332247557
+    },
+    {
+      "ticker": "NP3-PREF.ST",
+      "name": "NP3 Fastigheter AB Pref",
+      "region": "se",
+      "market_cap": null,
+      "families": {
+        "quality": 0.3628,
+        "value": 0.3628,
+        "growth": 0.5482,
+        "momentum": 0.1767
+      },
+      "score": 0.37192101740294514,
+      "region_percentile": 0.247557003257329
+    },
+    {
+      "ticker": "NEWA-B.ST",
+      "name": "New Wave Group AB ser. B",
+      "region": "se",
+      "market_cap": 11829054464,
+      "families": {
+        "quality": 0.494,
+        "value": 0.3561,
+        "growth": 0.2329
+      },
+      "score": 0.3693105756358768,
+      "region_percentile": 0.24429967426710097
+    },
+    {
+      "ticker": "BLTE",
+      "name": "Belite Bio, Inc",
+      "region": "us",
+      "market_cap": 6839015936,
+      "families": {
+        "value": 0.5622,
+        "growth": 0.2892,
+        "momentum": 0.4498
+      },
+      "score": 0.43258749282845677,
+      "region_percentile": 0.2435897435897436
+    },
+    {
+      "ticker": "VPLAY-A.ST",
+      "name": "Viaplay Group AB ser. A",
+      "region": "se",
+      "market_cap": 10964274176,
+      "families": {
+        "quality": 0.1486,
+        "value": 0.3481,
+        "growth": 0.8046,
+        "momentum": 0.1727
+      },
+      "score": 0.3672690763052209,
+      "region_percentile": 0.24104234527687296
+    },
+    {
+      "ticker": "BMAX.ST",
+      "name": "Byggmax Group AB",
+      "region": "se",
+      "market_cap": 3171614720,
+      "families": {
+        "quality": 0.2718,
+        "value": 0.5609,
+        "growth": 0.4157,
+        "momentum": 0.2048
+      },
+      "score": 0.3666331994645247,
+      "region_percentile": 0.23778501628664495
+    },
+    {
+      "ticker": "NP3.ST",
+      "name": "NP3 Fastigheter AB",
+      "region": "se",
+      "market_cap": 13682882560,
+      "families": {
+        "quality": 0.3588,
+        "value": 0.3588,
+        "growth": 0.5442,
+        "momentum": 0.1486
+      },
+      "score": 0.36308567603748326,
+      "region_percentile": 0.23452768729641693
+    },
+    {
+      "ticker": "NOTE.ST",
+      "name": "NOTE AB",
+      "region": "se",
+      "market_cap": 4978875904,
+      "families": {
+        "quality": 0.5676,
+        "value": 0.1821,
+        "growth": 0.2945
+      },
+      "score": 0.36178045515394913,
+      "region_percentile": 0.23127035830618892
+    },
+    {
+      "ticker": "XMAX",
+      "name": "XMAX, Inc.",
+      "region": "us",
+      "market_cap": 556837184,
+      "families": {
+        "quality": 0.2811,
+        "value": 0.8434,
+        "growth": 0.1566
+      },
+      "score": 0.41792168674698793,
+      "region_percentile": 0.23076923076923073
+    },
+    {
+      "ticker": "STOR-B.ST",
+      "name": "Storskogen Group AB ser. B",
+      "region": "se",
+      "market_cap": 18323361792,
+      "families": {
+        "quality": 0.1981,
+        "value": 0.5288,
+        "growth": 0.2661,
+        "momentum": 0.5141
+      },
+      "score": 0.36096050870147256,
+      "region_percentile": 0.2280130293159609
+    },
+    {
+      "ticker": "NIBE-B.ST",
+      "name": "NIBE Industrier AB ser. B",
+      "region": "se",
+      "market_cap": 91065720832,
+      "families": {
+        "quality": 0.2865,
+        "value": 0.0201,
+        "growth": 0.5622,
+        "momentum": 0.6426
+      },
+      "score": 0.3600401606425703,
+      "region_percentile": 0.2247557003257329
+    },
+    {
+      "ticker": "NOKIA-SEK.ST",
+      "name": "Nokia Corporation",
+      "region": "se",
+      "market_cap": 572461416448,
+      "families": {
+        "quality": 0.2309,
+        "value": 0.1024,
+        "growth": 0.2664,
+        "momentum": 0.9839
+      },
+      "score": 0.35826639892904955,
+      "region_percentile": 0.22149837133550487
+    },
+    {
+      "ticker": "TRIAN-B.ST",
+      "name": "Fastighets AB Trianon ser. B",
+      "region": "se",
+      "market_cap": 2986869504,
+      "families": {
+        "quality": 0.1004,
+        "value": 0.6687,
+        "growth": 0.3481
+      },
+      "score": 0.3553798527443106,
+      "region_percentile": 0.21824104234527686
+    },
+    {
+      "ticker": "CGAU",
+      "name": "Centerra Gold Inc.",
+      "region": "us",
+      "market_cap": 4260332288,
+      "families": {
+        "quality": 0.502,
+        "growth": 0.5743,
+        "momentum": 0.0884
+      },
+      "score": 0.41579651941097723,
+      "region_percentile": 0.21794871794871795
+    },
+    {
+      "ticker": "SHB-B.ST",
+      "name": "Svenska Handelsbanken ser. B",
+      "region": "se",
+      "market_cap": 482334965760,
+      "families": {
+        "quality": 0.4418,
+        "value": 0.3916,
+        "growth": 0.0402,
+        "momentum": 0.5663
+      },
+      "score": 0.35371485943775105,
+      "region_percentile": 0.21498371335504884
+    },
+    {
+      "ticker": "8TRA.ST",
+      "name": "TRATON SE",
+      "region": "se",
+      "market_cap": 199399997440,
+      "families": {
+        "quality": 0.1365,
+        "value": 0.6091,
+        "growth": 0.0281,
+        "momentum": 0.7631
+      },
+      "score": 0.3528781793842035,
+      "region_percentile": 0.21172638436482083
+    },
+    {
+      "ticker": "CORE-PREF.ST",
+      "name": "Corem Property Group AB Pref",
+      "region": "se",
+      "market_cap": 24139304960,
+      "families": {
+        "quality": 0.0161,
+        "value": 0.8494,
+        "growth": 0.4498,
+        "momentum": 0.1124
+      },
+      "score": 0.3521084337349397,
+      "region_percentile": 0.20846905537459282
+    },
+    {
+      "ticker": "LINC.ST",
+      "name": "Linc AB",
+      "region": "se",
+      "market_cap": 3986692096,
+      "families": {
+        "quality": 0.2691,
+        "value": 0.5502,
+        "momentum": 0.2209
+      },
+      "score": 0.3499330655957162,
+      "region_percentile": 0.2052117263843648
+    },
+    {
+      "ticker": "FIX",
+      "name": "Comfort Systems USA, Inc.",
+      "region": "us",
+      "market_cap": 58214584320,
+      "families": {
+        "quality": 0.5917,
+        "growth": 0.3614,
+        "momentum": 0.1526
+      },
+      "score": 0.3978580990629183,
+      "region_percentile": 0.20512820512820518
+    },
+    {
+      "ticker": "ELAN-B.ST",
+      "name": "Elanders AB ser. B",
+      "region": "se",
+      "market_cap": 1702475776,
+      "families": {
+        "quality": 0.0663,
+        "value": 0.8614,
+        "growth": 0.1767
+      },
+      "score": 0.34927208835341367,
+      "region_percentile": 0.2019543973941368
+    },
+    {
+      "ticker": "RATO-B.ST",
+      "name": "Ratos AB ser. B",
+      "region": "se",
+      "market_cap": 12183397376,
+      "families": {
+        "value": 0.7122,
+        "growth": 0.0201,
+        "momentum": 0.3052
+      },
+      "score": 0.3487282463186078,
+      "region_percentile": 0.19869706840390877
+    },
+    {
+      "ticker": "CORE-D.ST",
+      "name": "Corem Property Group AB ser. D",
+      "region": "se",
+      "market_cap": 260854169600,
+      "families": {
+        "quality": 0.0201,
+        "value": 0.8534,
+        "growth": 0.4538,
+        "momentum": 0.0723
+      },
+      "score": 0.34728915662650606,
+      "region_percentile": 0.19543973941368076
+    },
+    {
+      "ticker": "INSW",
+      "name": "International Seaways, Inc.",
+      "region": "us",
+      "market_cap": 5455378432,
+      "families": {
+        "quality": 0.506,
+        "growth": 0.1272,
+        "momentum": 0.5341
+      },
+      "score": 0.38723784024988844,
+      "region_percentile": 0.1923076923076923
+    },
+    {
+      "ticker": "RATO-A.ST",
+      "name": "Ratos AB ser. A",
+      "region": "se",
+      "market_cap": 12314401792,
+      "families": {
+        "value": 0.7162,
+        "growth": 0.0241,
+        "momentum": 0.2892
+      },
+      "score": 0.3470070759227386,
+      "region_percentile": 0.19218241042345274
+    },
+    {
+      "ticker": "VOLV-B.ST",
+      "name": "Volvo, AB ser. B",
+      "region": "se",
+      "market_cap": 655991635968,
+      "families": {
+        "quality": 0.5542,
+        "value": 0.1506,
+        "growth": 0.071,
+        "momentum": 0.6265
+      },
+      "score": 0.34695448460508704,
+      "region_percentile": 0.18892508143322473
+    },
+    {
+      "ticker": "VOLV-A.ST",
+      "name": "Volvo, AB ser. A",
+      "region": "se",
+      "market_cap": 656398286848,
+      "families": {
+        "quality": 0.5582,
+        "value": 0.1546,
+        "growth": 0.075,
+        "momentum": 0.6024
+      },
+      "score": 0.34534805890227577,
+      "region_percentile": 0.18566775244299671
+    },
+    {
+      "ticker": "PNDX-B.ST",
+      "name": "Pandox AB ser. B",
+      "region": "se",
+      "market_cap": 30007783424,
+      "families": {
+        "quality": 0.1874,
+        "value": 0.4284,
+        "growth": 0.7058,
+        "momentum": 0.0201
+      },
+      "score": 0.3437918340026774,
+      "region_percentile": 0.1824104234527687
+    },
+    {
+      "ticker": "ROIV",
+      "name": "Roivant Sciences Ltd.",
+      "region": "us",
+      "market_cap": 26415351808,
+      "families": {
+        "value": 0.3675,
+        "growth": 0.2972,
+        "momentum": 0.4779
+      },
+      "score": 0.37392426850258176,
+      "region_percentile": 0.17948717948717952
+    },
+    {
+      "ticker": "CARA.ST",
+      "name": "Carasent AB",
+      "region": "se",
+      "market_cap": 1751582848,
+      "families": {
+        "quality": 0.0482,
+        "value": 0.2088,
+        "growth": 0.8112,
+        "momentum": 0.3695
+      },
+      "score": 0.34337349397590367,
+      "region_percentile": 0.17915309446254069
+    },
+    {
+      "ticker": "LIAB.ST",
+      "name": "Lindab International AB",
+      "region": "se",
+      "market_cap": 9637195776,
+      "families": {
+        "quality": 0.3025,
+        "value": 0.4324,
+        "growth": 0.2985
+      },
+      "score": 0.34186746987951805,
+      "region_percentile": 0.17589576547231267
+    },
+    {
+      "ticker": "SKIS-B.ST",
+      "name": "SkiStar AB ser. B",
+      "region": "se",
+      "market_cap": 12845835264,
+      "families": {
+        "quality": 0.5408,
+        "value": 0.1874,
+        "growth": 0.2463,
+        "momentum": 0.3494
+      },
+      "score": 0.3405622489959839,
+      "region_percentile": 0.17263843648208466
+    },
+    {
+      "ticker": "VPLAY-B.ST",
+      "name": "Viaplay Group AB ser. B",
+      "region": "se",
+      "market_cap": 5300909056,
+      "families": {
+        "quality": 0.1446,
+        "value": 0.344,
+        "growth": 0.8005,
+        "momentum": 0.0522
+      },
+      "score": 0.33995983935742974,
+      "region_percentile": 0.16938110749185664
+    },
+    {
+      "ticker": "VSXY",
+      "name": "Victorias Secret & Co.",
+      "region": "us",
+      "market_cap": 7055926784,
+      "families": {
+        "quality": 0.1888,
+        "growth": 0.2932,
+        "momentum": 0.747
+      },
+      "score": 0.3724230254350736,
+      "region_percentile": 0.16666666666666663
+    },
+    {
+      "ticker": "BERG-B.ST",
+      "name": "Bergman & Beving Aktiebolag ser",
+      "region": "se",
+      "market_cap": 7051802112,
+      "families": {
+        "quality": 0.3293,
+        "value": 0.2249,
+        "growth": 0.4618
+      },
+      "score": 0.3381024096385542,
+      "region_percentile": 0.16612377850162863
+    },
+    {
+      "ticker": "VBG-B.ST",
+      "name": "VBG GROUP AB ser. B",
+      "region": "se",
+      "market_cap": 7838769152,
+      "families": {
+        "quality": 0.4565,
+        "value": 0.2811,
+        "growth": 0.2972,
+        "momentum": 0.2731
+      },
+      "score": 0.33614457831325295,
+      "region_percentile": 0.1628664495114006
+    },
+    {
+      "ticker": "ANOD-B.ST",
+      "name": "Addnode Group AB ser. B",
+      "region": "se",
+      "market_cap": 6750659072,
+      "families": {
+        "quality": 0.4003,
+        "value": 0.2129,
+        "growth": 0.3635
+      },
+      "score": 0.3301957831325301,
+      "region_percentile": 0.1596091205211726
+    },
+    {
+      "ticker": "ABSO.ST",
+      "name": "Absolent Air Care Group AB",
+      "region": "se",
+      "market_cap": 2173625856,
+      "families": {
+        "quality": 0.4391,
+        "value": 0.2269,
+        "growth": 0.2972
+      },
+      "score": 0.32843875502008024,
+      "region_percentile": 0.15635179153094458
+    },
+    {
+      "ticker": "HYMC",
+      "name": "Hycroft Mining Holding Corporat",
+      "region": "us",
+      "market_cap": 1774179328,
+      "families": {
+        "value": 0.1004,
+        "growth": 0.3012,
+        "momentum": 0.759
+      },
+      "score": 0.36029833620195073,
+      "region_percentile": 0.15384615384615385
+    },
+    {
+      "ticker": "FNOVA-B.ST",
+      "name": "Fortinova Fastigheter AB ser. B",
+      "region": "se",
+      "market_cap": 1129993472,
+      "families": {
+        "quality": 0.0348,
+        "value": 0.7369,
+        "growth": 0.5261,
+        "momentum": 0.008
+      },
+      "score": 0.3278112449799197,
+      "region_percentile": 0.15309446254071657
+    },
+    {
+      "ticker": "HUSQ-A.ST",
+      "name": "Husqvarna AB ser. A",
+      "region": "se",
+      "market_cap": 20101472256,
+      "families": {
+        "quality": 0.1847,
+        "value": 0.6212,
+        "growth": 0.2008
+      },
+      "score": 0.3261378848728246,
+      "region_percentile": 0.14983713355048855
+    },
+    {
+      "ticker": "FOI-B.ST",
+      "name": "Fenix Outdoor International AG ",
+      "region": "se",
+      "market_cap": 3078406656,
+      "families": {
+        "quality": 0.0341,
+        "value": 0.6707,
+        "growth": 0.3303
+      },
+      "score": 0.3256149598393574,
+      "region_percentile": 0.14657980456026054
+    },
+    {
+      "ticker": "IDUN-B.ST",
+      "name": "Idun Industrier AB ser. B",
+      "region": "se",
+      "market_cap": 3741521152,
+      "families": {
+        "quality": 0.4096,
+        "value": 0.257,
+        "growth": 0.3986,
+        "momentum": 0.1888
+      },
+      "score": 0.3245481927710844,
+      "region_percentile": 0.14332247557003253
+    },
+    {
+      "ticker": "KYMR",
+      "name": "Kymera Therapeutics, Inc.",
+      "region": "us",
+      "market_cap": 9195575296,
+      "families": {
+        "value": 0.241,
+        "growth": 0.6386,
+        "momentum": 0.1365
+      },
+      "score": 0.35312679288582904,
+      "region_percentile": 0.14102564102564108
+    },
+    {
+      "ticker": "VERT-B.ST",
+      "name": "Vertiseit AB ser. B",
+      "region": "se",
+      "market_cap": 2118466688,
+      "families": {
+        "quality": 0.0442,
+        "value": 0.2008,
+        "growth": 0.7845
+      },
+      "score": 0.3244645247657296,
+      "region_percentile": 0.1400651465798045
+    },
+    {
+      "ticker": "ROKO-B.ST",
+      "name": "R\u00f6ko AB (publ)",
+      "region": "se",
+      "market_cap": 27873359872,
+      "families": {
+        "quality": 0.5837,
+        "value": 0.004,
+        "growth": 0.5161,
+        "momentum": 0.0964
+      },
+      "score": 0.3243975903614458,
+      "region_percentile": 0.1368078175895765
+    },
+    {
+      "ticker": "HUSQ-B.ST",
+      "name": "Husqvarna AB ser. B",
+      "region": "se",
+      "market_cap": 19964221440,
+      "families": {
+        "quality": 0.1807,
+        "value": 0.6171,
+        "growth": 0.1968
+      },
+      "score": 0.3221218206157965,
+      "region_percentile": 0.13355048859934848
+    },
+    {
+      "ticker": "VITR.ST",
+      "name": "Vitrolife AB",
+      "region": "se",
+      "market_cap": 12881027072,
+      "families": {
+        "quality": 0.0964,
+        "value": 0.4685,
+        "growth": 0.4458
+      },
+      "score": 0.32187081659973227,
+      "region_percentile": 0.13029315960912047
+    },
+    {
+      "ticker": "TBBB",
+      "name": "BBB Foods Inc.",
+      "region": "us",
+      "market_cap": 6346424320,
+      "families": {
+        "value": 0.1727,
+        "growth": 0.5924,
+        "momentum": 0.2731
+      },
+      "score": 0.3512621916236375,
+      "region_percentile": 0.1282051282051282
+    },
+    {
+      "ticker": "VIT-B.ST",
+      "name": "Vitec Software Group AB ser. B",
+      "region": "se",
+      "market_cap": 10995118080,
+      "families": {
+        "quality": 0.3681,
+        "value": 0.2182,
+        "growth": 0.3675
+      },
+      "score": 0.32107597054886206,
+      "region_percentile": 0.12703583061889245
+    },
+    {
+      "ticker": "BTS-B.ST",
+      "name": "BTS Group AB ser. B",
+      "region": "se",
+      "market_cap": 4044237056,
+      "families": {
+        "quality": 0.3628,
+        "value": 0.2269,
+        "growth": 0.1807,
+        "momentum": 0.5502
+      },
+      "score": 0.3207831325301205,
+      "region_percentile": 0.12377850162866455
+    },
+    {
+      "ticker": "NORION.ST",
+      "name": "Norion Bank AB",
+      "region": "se",
+      "market_cap": 11680566272,
+      "families": {
+        "quality": 0.4096,
+        "value": 0.4859,
+        "growth": 0.0663,
+        "momentum": 0.2932
+      },
+      "score": 0.319578313253012,
+      "region_percentile": 0.12052117263843654
+    },
+    {
+      "ticker": "INWI.ST",
+      "name": "Inwido AB",
+      "region": "se",
+      "market_cap": 10678539264,
+      "families": {
+        "quality": 0.4578,
+        "value": 0.2624,
+        "growth": 0.1787,
+        "momentum": 0.3574
+      },
+      "score": 0.31910977242302546,
+      "region_percentile": 0.11726384364820852
+    },
+    {
+      "ticker": "FRO",
+      "name": "Frontline Plc",
+      "region": "us",
+      "market_cap": 10968630272,
+      "families": {
+        "quality": 0.3273,
+        "growth": 0.3695,
+        "momentum": 0.3454
+      },
+      "score": 0.3461847389558233,
+      "region_percentile": 0.11538461538461542
+    },
+    {
+      "ticker": "SKA-B.ST",
+      "name": "Skanska AB ser. B",
+      "region": "se",
+      "market_cap": 114576056320,
+      "families": {
+        "quality": 0.2798,
+        "value": 0.2905,
+        "growth": 0.1827,
+        "momentum": 0.5422
+      },
+      "score": 0.31067603748326644,
+      "region_percentile": 0.1140065146579805
+    },
+    {
+      "ticker": "IPCO.ST",
+      "name": "International Petroleum Corpora",
+      "region": "se",
+      "market_cap": 26971058176,
+      "families": {
+        "quality": 0.2731,
+        "value": 0.1345,
+        "growth": 0.0696,
+        "momentum": 0.8755
+      },
+      "score": 0.3080655957161981,
+      "region_percentile": 0.11074918566775249
+    },
+    {
+      "ticker": "SINCH.ST",
+      "name": "Sinch AB",
+      "region": "se",
+      "market_cap": 31596066816,
+      "families": {
+        "quality": 0.0201,
+        "value": 0.3012,
+        "growth": 0.1908,
+        "momentum": 0.8474
+      },
+      "score": 0.2984939759036145,
+      "region_percentile": 0.10749185667752448
+    },
+    {
+      "ticker": "PLAZ-B.ST",
+      "name": "Platzer Fastigheter Holding AB ",
+      "region": "se",
+      "market_cap": 7453228032,
+      "families": {
+        "quality": 0.0817,
+        "value": 0.4846,
+        "growth": 0.4056,
+        "momentum": 0.2249
+      },
+      "score": 0.29203480589022757,
+      "region_percentile": 0.10423452768729646
+    },
+    {
+      "ticker": "NUTX",
+      "name": "Nutex Health Inc.",
+      "region": "us",
+      "market_cap": 1449442048,
+      "families": {
+        "quality": 0.7242,
+        "growth": 0.0241,
+        "momentum": 0.1687
+      },
+      "score": 0.3427041499330656,
+      "region_percentile": 0.10256410256410253
+    },
+    {
+      "ticker": "ARJO-B.ST",
+      "name": "Arjo AB ser. B",
+      "region": "se",
+      "market_cap": 7511952896,
+      "families": {
+        "quality": 0.1647,
+        "value": 0.4659,
+        "growth": 0.2691
+      },
+      "score": 0.29141566265060237,
+      "region_percentile": 0.10097719869706845
+    },
+    {
+      "ticker": "SAGA-A.ST",
+      "name": "Sagax AB A",
+      "region": "se",
+      "market_cap": 77669302272,
+      "families": {
+        "quality": 0.2222,
+        "value": 0.3635,
+        "growth": 0.2962
+      },
+      "score": 0.28947038152610444,
+      "region_percentile": 0.09771986970684043
+    },
+    {
+      "ticker": "XANO-B.ST",
+      "name": "XANO Industri AB ser. B",
+      "region": "se",
+      "market_cap": 2989254656,
+      "families": {
+        "quality": 0.2985,
+        "value": 0.3079,
+        "growth": 0.3481,
+        "momentum": 0.1687
+      },
+      "score": 0.28728246318607764,
+      "region_percentile": 0.09446254071661242
+    },
+    {
+      "ticker": "NOLA-B.ST",
+      "name": "Nolato AB ser. B",
+      "region": "se",
+      "market_cap": 14681261056,
+      "families": {
+        "quality": 0.5649,
+        "value": 0.2195,
+        "growth": 0.1707,
+        "momentum": 0.1004
+      },
+      "score": 0.2871151271753682,
+      "region_percentile": 0.0912052117263844
+    },
+    {
+      "ticker": "FTH",
+      "name": "Faeth Therapeutics, Inc.",
+      "region": "us",
+      "market_cap": 768494208,
+      "families": {
+        "value": 0.0562,
+        "growth": 0.2129,
+        "momentum": 0.7189
+      },
+      "score": 0.3014916810097533,
+      "region_percentile": 0.08974358974358976
+    },
+    {
+      "ticker": "SAGA-B.ST",
+      "name": "Sagax AB B",
+      "region": "se",
+      "market_cap": 77669302272,
+      "families": {
+        "quality": 0.2182,
+        "value": 0.3594,
+        "growth": 0.2922
+      },
+      "score": 0.28545431726907633,
+      "region_percentile": 0.08794788273615639
+    },
+    {
+      "ticker": "SKF-A.ST",
+      "name": "SKF, AB ser. A",
+      "region": "se",
+      "market_cap": 123400142848,
+      "families": {
+        "quality": 0.3427,
+        "value": 0.2651,
+        "growth": 0.008,
+        "momentum": 0.5542
+      },
+      "score": 0.28192771084337354,
+      "region_percentile": 0.08469055374592838
+    },
+    {
+      "ticker": "LATO-B.ST",
+      "name": "Latour, Investmentab. ser. B",
+      "region": "se",
+      "market_cap": 129206222848,
+      "families": {
+        "quality": 0.3735,
+        "value": 0.079,
+        "growth": 0.5643,
+        "momentum": 0.0402
+      },
+      "score": 0.28089022757697457,
+      "region_percentile": 0.08143322475570036
+    },
+    {
+      "ticker": "EPRO-B.ST",
+      "name": "Electrolux Professional AB ser.",
+      "region": "se",
+      "market_cap": 13047843840,
+      "families": {
+        "quality": 0.4378,
+        "value": 0.2477,
+        "growth": 0.1225
+      },
+      "score": 0.27982764390896914,
+      "region_percentile": 0.07817589576547235
+    },
+    {
+      "ticker": "KOPN",
+      "name": "Kopin Corporation",
+      "region": "us",
+      "market_cap": 855013952,
+      "families": {
+        "value": 0.6225,
+        "growth": 0.1084,
+        "momentum": 0.0201
+      },
+      "score": 0.2667814113597246,
+      "region_percentile": 0.07692307692307687
+    },
+    {
+      "ticker": "ALIF-B.ST",
+      "name": "AddLife AB ser. B",
+      "region": "se",
+      "market_cap": 20960618496,
+      "families": {
+        "quality": 0.3601,
+        "value": 0.1084,
+        "growth": 0.3785,
+        "momentum": 0.2369
+      },
+      "score": 0.27715863453815265,
+      "region_percentile": 0.07491856677524433
+    },
+    {
+      "ticker": "SMCRT.ST",
+      "name": "SmartCraft Group AB",
+      "region": "se",
+      "market_cap": 2499917568,
+      "families": {
+        "quality": 0.3989,
+        "value": 0.1165,
+        "growth": 0.2892
+      },
+      "score": 0.276355421686747,
+      "region_percentile": 0.07166123778501632
+    },
+    {
+      "ticker": "SKF-B.ST",
+      "name": "SKF, AB ser. B",
+      "region": "se",
+      "market_cap": 123582275584,
+      "families": {
+        "quality": 0.3387,
+        "value": 0.261,
+        "growth": 0.004,
+        "momentum": 0.5341
+      },
+      "score": 0.2746987951807229,
+      "region_percentile": 0.0684039087947883
+    },
+    {
+      "ticker": "EAST.ST",
+      "name": "Eastnine AB",
+      "region": "se",
+      "market_cap": 4135844864,
+      "families": {
+        "quality": 0.1446,
+        "value": 0.3949,
+        "growth": 0.4043,
+        "momentum": 0.1325
+      },
+      "score": 0.26967871485943773,
+      "region_percentile": 0.06514657980456029
+    },
+    {
+      "ticker": "ARWR",
+      "name": "Arrowhead Pharmaceuticals, Inc.",
+      "region": "us",
+      "market_cap": 9245104128,
+      "families": {
+        "value": 0.2972,
+        "growth": 0.4016,
+        "momentum": 0.0442
+      },
+      "score": 0.2621916236374068,
+      "region_percentile": 0.0641025641025641
+    },
+    {
+      "ticker": "FAG.ST",
+      "name": "Fagerhult Group AB",
+      "region": "se",
+      "market_cap": 3106977024,
+      "families": {
+        "quality": 0.008,
+        "value": 0.6171,
+        "growth": 0.2048
+      },
+      "score": 0.25987282463186073,
+      "region_percentile": 0.061889250814332275
+    },
+    {
+      "ticker": "ALTRA.ST",
+      "name": "Altra Fastigheter AB",
+      "region": "se",
+      "market_cap": 13080586240,
+      "families": {
+        "quality": 0.1513,
+        "value": 0.3722,
+        "growth": 0.4096,
+        "momentum": 0.0924
+      },
+      "score": 0.2593038821954485,
+      "region_percentile": 0.05863192182410426
+    },
+    {
+      "ticker": "CAST.ST",
+      "name": "Castellum AB",
+      "region": "se",
+      "market_cap": 53487857664,
+      "families": {
+        "quality": 0.0863,
+        "value": 0.245,
+        "growth": 0.2021,
+        "momentum": 0.5863
+      },
+      "score": 0.25495314591700136,
+      "region_percentile": 0.055374592833876246
+    },
+    {
+      "ticker": "SAGA-D.ST",
+      "name": "Sagax AB D",
+      "region": "se",
+      "market_cap": 15187564544,
+      "families": {
+        "quality": 0.2142,
+        "value": 0.3554,
+        "growth": 0.2882,
+        "momentum": 0.1285
+      },
+      "score": 0.2508534136546185,
+      "region_percentile": 0.05211726384364823
+    },
+    {
+      "ticker": "PAYS",
+      "name": "Paysign, Inc.",
+      "region": "us",
+      "market_cap": 761109824,
+      "families": {
+        "quality": 0.241,
+        "growth": 0.2851,
+        "momentum": 0.2289
+      },
+      "score": 0.2524765729585007,
+      "region_percentile": 0.05128205128205132
+    },
+    {
+      "ticker": "NMAN.ST",
+      "name": "Nederman Holding AB",
+      "region": "se",
+      "market_cap": 4429312000,
+      "families": {
+        "quality": 0.3507,
+        "value": 0.3293,
+        "growth": 0.0388
+      },
+      "score": 0.24656961178045517,
+      "region_percentile": 0.04885993485342022
+    },
+    {
+      "ticker": "STE-R.ST",
+      "name": "Stora Enso Oyj ser. R",
+      "region": "se",
+      "market_cap": 94074109952,
+      "families": {
+        "quality": 0.0723,
+        "value": 0.4096,
+        "growth": 0.0402,
+        "momentum": 0.506
+      },
+      "score": 0.23534136546184742,
+      "region_percentile": 0.0456026058631922
+    },
+    {
+      "ticker": "KBC.ST",
+      "name": "KB Components AB",
+      "region": "se",
+      "market_cap": 2105599872,
+      "families": {
+        "quality": 0.2329,
+        "value": 0.3414,
+        "momentum": 0.0803
+      },
+      "score": 0.228380187416332,
+      "region_percentile": 0.04234527687296419
+    },
+    {
+      "ticker": "SVIK.ST",
+      "name": "Studsvik AB",
+      "region": "se",
+      "market_cap": 1768836864,
+      "families": {
+        "quality": 0.1633,
+        "growth": 0.3735,
+        "momentum": 0.1446
+      },
+      "score": 0.228380187416332,
+      "region_percentile": 0.039087947882736174
+    },
+    {
+      "ticker": "LIFE",
+      "name": "Ethos Technologies Inc.",
+      "region": "us",
+      "market_cap": 3217296896,
+      "families": {
+        "value": 0.1807,
+        "growth": 0.3695,
+        "momentum": 0.1647
+      },
+      "score": 0.2435456110154906,
+      "region_percentile": 0.038461538461538436
+    },
+    {
+      "ticker": "ANNE-B.ST",
+      "name": "Annehem Fastigheter AB ser. B",
+      "region": "se",
+      "market_cap": 1237333632,
+      "families": {
+        "quality": 0.0522,
+        "value": 0.4157,
+        "growth": 0.2838,
+        "momentum": 0.1606
+      },
+      "score": 0.22265729585006694,
+      "region_percentile": 0.03583061889250816
+    },
+    {
+      "ticker": "STE-A.ST",
+      "name": "Stora Enso Oyj ser. A",
+      "region": "se",
+      "market_cap": 93082025984,
+      "families": {
+        "quality": 0.0763,
+        "value": 0.4137,
+        "growth": 0.0442,
+        "momentum": 0.4257
+      },
+      "score": 0.22248995983935743,
+      "region_percentile": 0.032573289902280145
+    },
+    {
+      "ticker": "ALIG.ST",
+      "name": "Alimak Group AB",
+      "region": "se",
+      "market_cap": 12699983872,
+      "families": {
+        "quality": 0.2851,
+        "value": 0.2035,
+        "growth": 0.1647
+      },
+      "score": 0.22197121820615798,
+      "region_percentile": 0.02931596091205213
+    },
+    {
+      "ticker": "BEIJ-B.ST",
+      "name": "Beijer Ref AB ser. B",
+      "region": "se",
+      "market_cap": 75695554560,
+      "families": {
+        "quality": 0.4003,
+        "value": 0.0,
+        "growth": 0.1185,
+        "momentum": 0.3534
+      },
+      "score": 0.22038152610441764,
+      "region_percentile": 0.026058631921824116
+    },
+    {
+      "ticker": "DHT",
+      "name": "DHT Holdings, Inc.",
+      "region": "us",
+      "market_cap": 3639086848,
+      "families": {
+        "quality": 0.4317,
+        "growth": 0.1606,
+        "momentum": 0.0
+      },
+      "score": 0.22623828647925034,
+      "region_percentile": 0.02564102564102566
+    },
+    {
+      "ticker": "COFFEE-B.ST",
+      "name": "Coffee Stain Group AB ser. B",
+      "region": "se",
+      "market_cap": 4506360832,
+      "families": {
+        "quality": 0.004,
+        "value": 0.6044,
+        "growth": 0.0843
+      },
+      "score": 0.21674196787148595,
+      "region_percentile": 0.0228013029315961
+    },
+    {
+      "ticker": "HOLM-A.ST",
+      "name": "Holmen AB ser. A",
+      "region": "se",
+      "market_cap": 48891219968,
+      "families": {
+        "quality": 0.0281,
+        "value": 0.2905,
+        "growth": 0.4558,
+        "momentum": 0.0643
+      },
+      "score": 0.20786479250334675,
+      "region_percentile": 0.019543973941368087
+    },
+    {
+      "ticker": "HUFV-A.ST",
+      "name": "Hufvudstaden AB ser. A",
+      "region": "se",
+      "market_cap": 21762375680,
+      "families": {
+        "quality": 0.004,
+        "value": 0.4137,
+        "growth": 0.3574,
+        "momentum": 0.0562
+      },
+      "score": 0.20522088353413653,
+      "region_percentile": 0.016286644951140072
+    },
+    {
+      "ticker": "DUNI.ST",
+      "name": "Duni AB",
+      "region": "se",
+      "market_cap": 3581326080,
+      "families": {
+        "quality": 0.1432,
+        "value": 0.415,
+        "growth": 0.0656
+      },
+      "score": 0.20389892904953147,
+      "region_percentile": 0.013029315960912058
+    },
+    {
+      "ticker": "MPC",
+      "name": "Marathon Petroleum Corporation",
+      "region": "us",
+      "market_cap": 111043731456,
+      "families": {
+        "quality": 0.0482,
+        "growth": 0.3025,
+        "momentum": 0.1968
+      },
+      "score": 0.17260151717983044,
+      "region_percentile": 0.012820512820512775
+    },
+    {
+      "ticker": "DOM.ST",
+      "name": "Dometic Group AB",
+      "region": "se",
+      "market_cap": 6651990016,
+      "families": {
+        "quality": 0.012,
+        "value": 0.581,
+        "growth": 0.0562
+      },
+      "score": 0.2036479250334672,
+      "region_percentile": 0.009771986970684043
+    },
+    {
+      "ticker": "HOLM-B.ST",
+      "name": "Holmen AB ser. B",
+      "region": "se",
+      "market_cap": 48620441600,
+      "families": {
+        "quality": 0.0241,
+        "value": 0.2865,
+        "growth": 0.4518,
+        "momentum": 0.0442
+      },
+      "score": 0.20063587684069611,
+      "region_percentile": 0.006514657980456029
+    },
+    {
+      "ticker": "FPAR-D.ST",
+      "name": "Fastpartner AB ser. D",
+      "region": "se",
+      "market_cap": 13436167168,
+      "families": {
+        "quality": 0.0643,
+        "value": 0.3052,
+        "growth": 0.247,
+        "momentum": 0.1647
+      },
+      "score": 0.1902610441767068,
+      "region_percentile": 0.0032573289902280145
+    },
+    {
+      "ticker": "FPAR-A.ST",
+      "name": "Fastpartner AB ser. A",
+      "region": "se",
+      "market_cap": 7296901632,
+      "families": {
+        "quality": 0.0683,
+        "value": 0.3092,
+        "growth": 0.1673
+      },
+      "score": 0.1745314591700134,
+      "region_percentile": 0.0
+    },
+    {
+      "ticker": "TNK",
+      "name": "Teekay Tankers Ltd.",
+      "region": "us",
+      "market_cap": 3366051584,
+      "families": {
+        "quality": 0.0241,
+        "growth": 0.0643,
+        "momentum": 0.012
+      },
+      "score": 0.03427041499330657,
+      "region_percentile": 0.0
     }
   ]
 }

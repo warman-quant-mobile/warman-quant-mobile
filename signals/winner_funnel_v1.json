@@ -1,0 +1,296 @@
+{
+  "status": "LIVE_CHALLENGER_NOT_OOS_VALIDATED",
+  "method": "complete Q/V/G/M + breadth + cap filter",
+  "candidates": [
+    {
+      "ticker": "INDU-A.ST",
+      "name": "Industriv\u00e4rden, AB ser. A",
+      "region": "se",
+      "market_cap": 231066025984,
+      "families": {
+        "quality": 0.9304,
+        "value": 0.6961,
+        "growth": 0.9498,
+        "momentum": 0.8273
+      },
+      "score": 0.856057563587684,
+      "region_percentile": 0.993485342019544,
+      "winner_score": 0.85024,
+      "breadth": 3
+    },
+    {
+      "ticker": "INDU-C.ST",
+      "name": "Industriv\u00e4rden, AB ser. C",
+      "region": "se",
+      "market_cap": 228388241408,
+      "families": {
+        "quality": 0.9264,
+        "value": 0.6921,
+        "growth": 0.9458,
+        "momentum": 0.8153
+      },
+      "score": 0.8504350736278448,
+      "region_percentile": 0.990228013029316,
+      "winner_score": 0.84544,
+      "breadth": 3
+    },
+    {
+      "ticker": "INVE-A.ST",
+      "name": "Investor AB ser. A",
+      "region": "se",
+      "market_cap": 1220510351360,
+      "families": {
+        "quality": 0.8782,
+        "value": 0.6747,
+        "growth": 0.9669,
+        "momentum": 0.7831
+      },
+      "score": 0.8304718875502008,
+      "region_percentile": 0.9837133550488599,
+      "winner_score": 0.830408,
+      "breadth": 3
+    },
+    {
+      "ticker": "IBRX",
+      "name": "ImmunityBio, Inc.",
+      "region": "us",
+      "market_cap": 10004853760,
+      "families": {
+        "quality": 0.7711,
+        "value": 0.5743,
+        "growth": 0.751,
+        "momentum": 0.8434
+      },
+      "score": 0.7313253012048193,
+      "region_percentile": 0.8205128205128205,
+      "winner_score": 0.7529,
+      "breadth": 3
+    },
+    {
+      "ticker": "TIETOS.ST",
+      "name": "Tieto Corporation",
+      "region": "se",
+      "market_cap": 22290522112,
+      "families": {
+        "quality": 0.7149,
+        "value": 0.5261,
+        "growth": 0.9237,
+        "momentum": 0.6145
+      },
+      "score": 0.6997991967871486,
+      "region_percentile": 0.9022801302931596,
+      "winner_score": 0.679296,
+      "breadth": 2
+    },
+    {
+      "ticker": "STORY-B.ST",
+      "name": "Storytel AB ser. B",
+      "region": "se",
+      "market_cap": 9042532352,
+      "families": {
+        "quality": 0.8501,
+        "value": 0.3373,
+        "growth": 0.5723,
+        "momentum": 0.8554
+      },
+      "score": 0.6535140562248996,
+      "region_percentile": 0.8599348534201954,
+      "winner_score": 0.652932,
+      "breadth": 2
+    },
+    {
+      "ticker": "BOL.ST",
+      "name": "Boliden AB",
+      "region": "se",
+      "market_cap": 145843109888,
+      "families": {
+        "quality": 0.6854,
+        "value": 0.5221,
+        "growth": 0.7282,
+        "momentum": 0.743
+      },
+      "score": 0.6668005354752342,
+      "region_percentile": 0.8762214983713354,
+      "winner_score": 0.650516,
+      "breadth": 2
+    },
+    {
+      "ticker": "HACK.ST",
+      "name": "Hacksaw AB",
+      "region": "se",
+      "market_cap": 23540555776,
+      "families": {
+        "quality": 1.0,
+        "value": 0.4036,
+        "growth": 0.6841,
+        "momentum": 0.6466
+      },
+      "score": 0.7012382864792504,
+      "region_percentile": 0.9087947882736156,
+      "winner_score": 0.631936,
+      "breadth": 1
+    },
+    {
+      "ticker": "NREST.ST",
+      "name": "Nordrest Holding AB",
+      "region": "se",
+      "market_cap": 3302377728,
+      "families": {
+        "quality": 0.9826,
+        "value": 0.4096,
+        "growth": 0.6837,
+        "momentum": 0.6586
+      },
+      "score": 0.6998493975903614,
+      "region_percentile": 0.9055374592833876,
+      "winner_score": 0.630784,
+      "breadth": 1
+    },
+    {
+      "ticker": "MER.ST",
+      "name": "Meren Energy Inc.",
+      "region": "se",
+      "market_cap": 10074118144,
+      "families": {
+        "quality": 0.5944,
+        "value": 0.7242,
+        "growth": 0.7189,
+        "momentum": 0.6225
+      },
+      "score": 0.6635876840696118,
+      "region_percentile": 0.8697068403908794,
+      "winner_score": 0.626596,
+      "breadth": 2
+    },
+    {
+      "ticker": "RUSTA.ST",
+      "name": "Rusta AB",
+      "region": "se",
+      "market_cap": 11410191360,
+      "families": {
+        "quality": 0.6854,
+        "value": 0.3655,
+        "growth": 0.6044,
+        "momentum": 0.6707
+      },
+      "score": 0.5822289156626506,
+      "region_percentile": 0.7817589576547231,
+      "winner_score": 0.487552,
+      "breadth": 0
+    }
+  ],
+  "trade_shortlist": [
+    {
+      "ticker": "INDU-A.ST",
+      "name": "Industriv\u00e4rden, AB ser. A",
+      "region": "se",
+      "market_cap": 231066025984,
+      "families": {
+        "quality": 0.9304,
+        "value": 0.6961,
+        "growth": 0.9498,
+        "momentum": 0.8273
+      },
+      "score": 0.856057563587684,
+      "region_percentile": 0.993485342019544,
+      "winner_score": 0.85024,
+      "breadth": 3
+    },
+    {
+      "ticker": "INDU-C.ST",
+      "name": "Industriv\u00e4rden, AB ser. C",
+      "region": "se",
+      "market_cap": 228388241408,
+      "families": {
+        "quality": 0.9264,
+        "value": 0.6921,
+        "growth": 0.9458,
+        "momentum": 0.8153
+      },
+      "score": 0.8504350736278448,
+      "region_percentile": 0.990228013029316,
+      "winner_score": 0.84544,
+      "breadth": 3
+    },
+    {
+      "ticker": "INVE-A.ST",
+      "name": "Investor AB ser. A",
+      "region": "se",
+      "market_cap": 1220510351360,
+      "families": {
+        "quality": 0.8782,
+        "value": 0.6747,
+        "growth": 0.9669,
+        "momentum": 0.7831
+      },
+      "score": 0.8304718875502008,
+      "region_percentile": 0.9837133550488599,
+      "winner_score": 0.830408,
+      "breadth": 3
+    },
+    {
+      "ticker": "IBRX",
+      "name": "ImmunityBio, Inc.",
+      "region": "us",
+      "market_cap": 10004853760,
+      "families": {
+        "quality": 0.7711,
+        "value": 0.5743,
+        "growth": 0.751,
+        "momentum": 0.8434
+      },
+      "score": 0.7313253012048193,
+      "region_percentile": 0.8205128205128205,
+      "winner_score": 0.7529,
+      "breadth": 3
+    },
+    {
+      "ticker": "TIETOS.ST",
+      "name": "Tieto Corporation",
+      "region": "se",
+      "market_cap": 22290522112,
+      "families": {
+        "quality": 0.7149,
+        "value": 0.5261,
+        "growth": 0.9237,
+        "momentum": 0.6145
+      },
+      "score": 0.6997991967871486,
+      "region_percentile": 0.9022801302931596,
+      "winner_score": 0.679296,
+      "breadth": 2
+    },
+    {
+      "ticker": "STORY-B.ST",
+      "name": "Storytel AB ser. B",
+      "region": "se",
+      "market_cap": 9042532352,
+      "families": {
+        "quality": 0.8501,
+        "value": 0.3373,
+        "growth": 0.5723,
+        "momentum": 0.8554
+      },
+      "score": 0.6535140562248996,
+      "region_percentile": 0.8599348534201954,
+      "winner_score": 0.652932,
+      "breadth": 2
+    },
+    {
+      "ticker": "BOL.ST",
+      "name": "Boliden AB",
+      "region": "se",
+      "market_cap": 145843109888,
+      "families": {
+        "quality": 0.6854,
+        "value": 0.5221,
+        "growth": 0.7282,
+        "momentum": 0.743
+      },
+      "score": 0.6668005354752342,
+      "region_percentile": 0.8762214983713354,
+      "winner_score": 0.650516,
+      "breadth": 2
+    }
+  ]
+}
