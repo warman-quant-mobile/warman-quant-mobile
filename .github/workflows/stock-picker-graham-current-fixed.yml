@@ -1,5 +1,6 @@
 name: Warman Graham Current Fixed
 on:
+  workflow_dispatch:
   push:
     branches: [main]
     paths: ['stock_picker_graham_current_fixed_v1.py','.github/workflows/stock-picker-graham-current-fixed.yml']
