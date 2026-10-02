@@ -70,5 +70,5 @@ def main():
    z["balance_penalty"]=penalty;z["rank_score"]=base-penalty
  arr.sort(key=lambda z:z["rank_score"],reverse=True)
  out={"status":"CURRENT_GRAHAM_PRODUCT_SCREEN_ROBUST_V2","rule":"positive PE/PB and PE*PB<=22.5; market cap floors US $500m / SE SEK1bn; QGM current proxy only ranks survivors","n":len(arr),"candidates":arr}
-  Path("signals/stock_picker_graham_current_fixed_v1.json").write_text(json.dumps(out,indent=2,default=str)+chr(10));print(json.dumps(out,default=str))
+ Path("signals/stock_picker_graham_current_fixed_v1.json").write_text(json.dumps(out,indent=2,default=str)+chr(10));print(json.dumps(out,default=str))
 if __name__=="__main__":main()
