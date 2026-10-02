@@ -105,8 +105,8 @@
     "schema_version": 1,
     "engine": "pattern_ranker",
     "dataset": {
-      "manifest_sha256": "9732f5aa52c8b701b21a7cc7e226d9bfec2b9f872299a1aa0ed0e3e35bf17c2e",
-      "manifest_bytes": 27585
+      "manifest_sha256": "55d04aa9b175bfa4654dcdbedfd0339ea48126c656590e0ce6d2d190da95e104",
+      "manifest_bytes": 27594
     },
     "model_version": "logit-v1-frozen-2026-09-30",
     "reproducibility": {

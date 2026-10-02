@@ -1,38 +1,7 @@
 {
   "status": "RESEARCH_WATCH_ONLY",
-  "generated_at_utc": "2026-10-01T16:50:44.557375+00:00",
-  "observations": [
-    {
-      "symbol": "WTI_FUT",
-      "bar_start_utc": "2026-10-01T15:00:00+00:00",
-      "events": [
-        "FAILED_HIGH_20H"
-      ],
-      "gap_pct": -0.02,
-      "hourly_move_pct": 0.76,
-      "status": "INTRADAY_WATCH_NOT_ORDER"
-    },
-    {
-      "symbol": "APPLE",
-      "bar_start_utc": "2026-10-01T15:30:00+00:00",
-      "events": [
-        "FAILED_LOW_20H"
-      ],
-      "gap_pct": 0.01,
-      "hourly_move_pct": -0.02,
-      "status": "INTRADAY_WATCH_NOT_ORDER"
-    },
-    {
-      "symbol": "SOLANA",
-      "bar_start_utc": "2026-10-01T15:00:00+00:00",
-      "events": [
-        "FAILED_LOW_20H"
-      ],
-      "gap_pct": 0.01,
-      "hourly_move_pct": -0.03,
-      "status": "INTRADAY_WATCH_NOT_ORDER"
-    }
-  ],
+  "generated_at_utc": "2026-10-02T01:02:29.145079+00:00",
+  "observations": [],
   "excluded": {},
   "note": "Hourly data may be delayed; market sessions vary. Events require a separate validated 10R target and executable instrument quote before proposal."
 }

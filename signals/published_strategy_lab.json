@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "status": "RESEARCH_ONLY",
-  "generated_at_utc": "2026-10-01T00:59:07.471110+00:00",
+  "generated_at_utc": "2026-10-02T00:59:11.919825+00:00",
   "rules": [
     "turtle_55",
     "volatility_contraction",
@@ -76,7 +76,7 @@
     "DAX": {
       "turtle_55": {
         "events": 30,
-        "mean_realized_r": -0.279,
+        "mean_realized_r": -0.301,
         "reached_5r_mfe": 1,
         "reached_10r_mfe": 0,
         "reached_15r_mfe": 0,
@@ -116,7 +116,7 @@
       },
       "time_series_momentum": {
         "events": 35,
-        "mean_realized_r": -0.261,
+        "mean_realized_r": -0.247,
         "reached_5r_mfe": 1,
         "reached_10r_mfe": 0,
         "reached_15r_mfe": 0,
@@ -282,7 +282,7 @@
       },
       "failed_breakout": {
         "events": 33,
-        "mean_realized_r": -0.375,
+        "mean_realized_r": -0.392,
         "reached_5r_mfe": 1,
         "reached_10r_mfe": 0,
         "reached_15r_mfe": 0,
@@ -364,7 +364,7 @@
       },
       "time_series_momentum": {
         "events": 36,
-        "mean_realized_r": 0.019,
+        "mean_realized_r": 0.017,
         "reached_5r_mfe": 3,
         "reached_10r_mfe": 1,
         "reached_15r_mfe": 1,
@@ -426,7 +426,7 @@
       },
       "time_series_momentum": {
         "events": 34,
-        "mean_realized_r": -0.076,
+        "mean_realized_r": -0.057,
         "reached_5r_mfe": 2,
         "reached_10r_mfe": 0,
         "reached_15r_mfe": 0,
@@ -488,7 +488,7 @@
       },
       "time_series_momentum": {
         "events": 34,
-        "mean_realized_r": -0.187,
+        "mean_realized_r": -0.143,
         "reached_5r_mfe": 2,
         "reached_10r_mfe": 1,
         "reached_15r_mfe": 0,
@@ -510,7 +510,7 @@
     "US30Y_BOND_FUT": {
       "turtle_55": {
         "events": 28,
-        "mean_realized_r": -0.135,
+        "mean_realized_r": -0.163,
         "reached_5r_mfe": 2,
         "reached_10r_mfe": 1,
         "reached_15r_mfe": 0,
@@ -592,7 +592,7 @@
       },
       "failed_breakout": {
         "events": 32,
-        "mean_realized_r": 0.15,
+        "mean_realized_r": 0.17,
         "reached_5r_mfe": 2,
         "reached_10r_mfe": 0,
         "reached_15r_mfe": 0,
@@ -612,7 +612,7 @@
       },
       "time_series_momentum": {
         "events": 35,
-        "mean_realized_r": 0.399,
+        "mean_realized_r": 0.405,
         "reached_5r_mfe": 1,
         "reached_10r_mfe": 0,
         "reached_15r_mfe": 0,
@@ -736,7 +736,7 @@
       },
       "time_series_momentum": {
         "events": 33,
-        "mean_realized_r": 0.841,
+        "mean_realized_r": 0.786,
         "reached_5r_mfe": 7,
         "reached_10r_mfe": 1,
         "reached_15r_mfe": 0,
@@ -746,7 +746,7 @@
       },
       "rsi2_reversal": {
         "events": 24,
-        "mean_realized_r": 0.293,
+        "mean_realized_r": 0.322,
         "reached_5r_mfe": 1,
         "reached_10r_mfe": 0,
         "reached_15r_mfe": 0,
@@ -778,7 +778,7 @@
       },
       "failed_breakout": {
         "events": 28,
-        "mean_realized_r": -0.092,
+        "mean_realized_r": -0.105,
         "reached_5r_mfe": 3,
         "reached_10r_mfe": 0,
         "reached_15r_mfe": 0,
@@ -1108,7 +1108,7 @@
       },
       "time_series_momentum": {
         "events": 36,
-        "mean_realized_r": 0.132,
+        "mean_realized_r": 0.115,
         "reached_5r_mfe": 1,
         "reached_10r_mfe": 0,
         "reached_15r_mfe": 0,
@@ -1130,7 +1130,7 @@
     "VOLVO_B": {
       "turtle_55": {
         "events": 26,
-        "mean_realized_r": -0.571,
+        "mean_realized_r": -0.621,
         "reached_5r_mfe": 0,
         "reached_10r_mfe": 0,
         "reached_15r_mfe": 0,
@@ -1170,7 +1170,7 @@
       },
       "time_series_momentum": {
         "events": 35,
-        "mean_realized_r": -0.601,
+        "mean_realized_r": -0.638,
         "reached_5r_mfe": 0,
         "reached_10r_mfe": 0,
         "reached_15r_mfe": 0,
@@ -1728,12 +1728,12 @@
       },
       "time_series_momentum": {
         "events": 50,
-        "mean_realized_r": 1.775,
+        "mean_realized_r": 1.688,
         "reached_5r_mfe": 9,
         "reached_10r_mfe": 7,
         "reached_15r_mfe": 3,
         "realized_10r": 4,
-        "max_mfe_r": 35.208,
+        "max_mfe_r": 35.324,
         "insufficient_sample": true
       },
       "rsi2_reversal": {
