@@ -1,5 +1,5 @@
 name: Warman Graham Current Fixed
-# rerun robust-v2
+# rerun robust-v2 compile-clean
 on:
   workflow_dispatch:
   push:
