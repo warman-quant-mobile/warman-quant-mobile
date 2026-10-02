@@ -35,9 +35,15 @@ def main():
    dt=f"{y}-06-30";h=px.loc[:dt]
    if len(h)<25:continue
    p=float(h.iloc[-1]);f=px.loc[dt:f"{y+5}-06-30"]
-   # A 5y winner label requires essentially the full forward horizon. Partial\n   # 24m histories previously leaked shorter-horizon outcomes into a 5y label.\n   if len(f)<55 or pd.Timestamp(f.index[-1]) < pd.Timestamp(f"{y+5}-01-01"):continue
+   # A 5y winner label requires essentially the full forward horizon. Partial
+   # 24m histories previously leaked shorter-horizon outcomes into a 5y label.
+   if len(f)<55 or pd.Timestamp(f.index[-1]) < pd.Timestamp(f"{y+5}-01-01"):continue
    rv,r0=g3(c,"revenue",dt);op,o0=g3(c,"operating_income",dt);gp,g0=g3(c,"gross_profit",dt);ni,n0=g3(c,"net_income",dt);cf,c0=g3(c,"cfo",dt)
-   m12=p/float(h.iloc[-13])-1\n   # Momentum acceleration = most recent 12m return minus preceding 12m return.\n   # Do not infer it by annualising a 24m return: that mixes the two windows.\n   prev12=float(h.iloc[-13])/float(h.iloc[-25])-1\n   R.append(dict(ticker=t,year=y,date=dt,rev=rv,rev_acc=rv-r0,op=op,op_acc=op-o0,gross=gp,gross_acc=gp-g0,ni=ni,ni_acc=ni-n0,cfo=cf,cfo_acc=cf-c0,m12=m12,mom_acc=m12-prev12,max5=float(f.max())/p))
+   m12=p/float(h.iloc[-13])-1
+   # Momentum acceleration = most recent 12m return minus preceding 12m return.
+   # Do not infer it by annualising a 24m return: that mixes the two windows.
+   prev12=float(h.iloc[-13])/float(h.iloc[-25])-1
+   R.append(dict(ticker=t,year=y,date=dt,rev=rv,rev_acc=rv-r0,op=op,op_acc=op-o0,gross=gp,gross_acc=gp-g0,ni=ni,ni_acc=ni-n0,cfo=cf,cfo_acc=cf-c0,m12=m12,mom_acc=m12-prev12,max5=float(f.max())/p))
  df=pd.DataFrame(R).replace([np.inf,-np.inf],np.nan)
  F=["rev","rev_acc","op","op_acc","gross","gross_acc","ni","ni_acc","cfo","cfo_acc","m12","mom_acc"]
  for dt,ix in df.groupby("date").groups.items():
