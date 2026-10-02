@@ -1,0 +1,16 @@
+name: Warman Graham Current Fixed
+on:
+  push:
+    branches: [main]
+    paths: ['stock_picker_graham_current_fixed_v1.py','.github/workflows/stock-picker-graham-current-fixed.yml']
+jobs:
+ screen:
+  runs-on: ubuntu-latest
+  steps:
+   - uses: actions/checkout@v4
+   - uses: actions/setup-python@v5
+     with: {python-version: '3.11'}
+   - run: pip install -r requirements.txt
+   - run: python stock_picker_graham_current_fixed_v1.py
+   - uses: actions/upload-artifact@v4
+     with: {name: stock-picker-graham-current-fixed, path: signals/stock_picker_graham_current_fixed_v1.json}
