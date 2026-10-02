@@ -1,16 +1,16 @@
 {
   "schema_version": 1,
   "status": "NO_10R_PROPOSALS",
-  "generated_at_utc": "2026-10-02T07:51:51.746270+00:00",
+  "generated_at_utc": "2026-10-02T16:52:19.598384+00:00",
   "minimum_net_r": 10,
   "proposals": [],
   "raw_signal_counts": {
-    "turtle_55": 0,
+    "turtle_55": 1,
     "volatility_contraction": 0,
-    "failed_breakout": 3,
+    "failed_breakout": 2,
     "momentum_ignition": 0,
     "time_series_momentum": 11,
-    "rsi2_reversal": 2
+    "rsi2_reversal": 3
   },
   "excluded": {},
   "note": "Completed daily bars only. Research sensors and unmapped underlyings cannot become proposals. A proposal remains blocked until a specific Nordnet-KF instrument, executable quote and product economics are verified and net R is recomputed >=10. No broker orders."
