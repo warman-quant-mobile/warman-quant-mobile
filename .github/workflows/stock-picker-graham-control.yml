@@ -1,0 +1,24 @@
+name: Warman Graham Control
+on:
+  push:
+    branches: [main]
+    paths: ['stock_picker_graham_control_v1.py','.github/workflows/stock-picker-graham-control.yml']
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: '3.11'}
+      - run: pip install -r requirements.txt
+      - uses: actions/download-artifact@v4
+        with:
+          name: stock-picker-research
+          run-id: 36842701260
+          github-token: ${{ github.token }}
+          path: .
+      - run: python stock_picker_graham_control_v1.py --pit output/sec_point_in_time_broad.json --out stock_picker_graham_control_v1.json
+      - uses: actions/upload-artifact@v4
+        with:
+          name: stock-picker-graham-control
+          path: stock_picker_graham_control_v1.json
