@@ -46,16 +46,16 @@ def main():
    z["momentum"]=[v for v in [info.get("52WeekChange")] if isinstance(v,(int,float))]
    z["current_ratio"]=info.get("currentRatio");z["debt_to_equity"]=info.get("debtToEquity")
   except Exception:pass
- arr=list(rows.values())
+ arr=list(rows.values())\n # Deduplicate share classes / near-identical companies by normalized name, keep cheaper Graham product.\n ded={}\n for z in arr:\n  nm=(z.get("name") or z["ticker"]).lower().replace(" ser. a","").replace(" ser. c","").replace(" class a","").replace(" class c","")\n  if nm not in ded or z["graham_product"]<ded[nm]["graham_product"]:ded[nm]=z\n arr=list(ded.values())
  for reg in REG:
   g=[z for z in arr if z["region"]==reg]
   for fam in ["quality","growth","momentum"]:
    vals=[sum(z[fam])/len(z[fam]) for z in g if z[fam]]
    for z in g:
     if not z[fam]:z[fam+"_pct"]=.5;continue
-    v=sum(z[fam])/len(z[fam]);z[fam+"_pct"]=sum(q<=v for q in vals)/max(1,len(vals))
-  for z in g:z["rank_score"]=.35*z["quality_pct"]+.35*z["growth_pct"]+.30*z["momentum_pct"]
+    v=sum(z[fam])/len(z[fam]);\n    # Winsorized percentile: extreme accounting jumps must not dominate rank.\n    lo,hi=(sorted(vals)[max(0,int(.05*len(vals))-1)],sorted(vals)[min(len(vals)-1,int(.95*len(vals)))]) if vals else (v,v)\n    v=min(max(v,lo),hi);z[fam+"_pct"]=sum(min(max(q,lo),hi)<=v for q in vals)/max(1,len(vals))
+  for z in g:\n   base=.35*z["quality_pct"]+.35*z["growth_pct"]+.30*z["momentum_pct"]\n   cr=z.get("current_ratio");de=z.get("debt_to_equity")\n   penalty=(.08 if isinstance(cr,(int,float)) and cr<1 else 0)+(.08 if isinstance(de,(int,float)) and de>100 else 0)\n   z["balance_penalty"]=penalty;z["rank_score"]=base-penalty
  arr.sort(key=lambda z:z["rank_score"],reverse=True)
- out={"status":"CURRENT_GRAHAM_PRODUCT_SCREEN_FIXED","rule":"positive PE/PB and PE*PB<=22.5; market cap floors US $500m / SE SEK1bn; QGM current proxy only ranks survivors","n":len(arr),"candidates":arr}
+ out={"status":"CURRENT_GRAHAM_PRODUCT_SCREEN_ROBUST_V2","rule":"positive PE/PB and PE*PB<=22.5; market cap floors US $500m / SE SEK1bn; QGM current proxy only ranks survivors","n":len(arr),"candidates":arr}
  Path("signals/stock_picker_graham_current_fixed_v1.json").write_text(json.dumps(out,indent=2,default=str)+"\n");print(json.dumps(out,default=str))
 if __name__=="__main__":main()
