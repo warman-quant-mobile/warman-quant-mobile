@@ -6,7 +6,7 @@
       "ticker": "INDU-A.ST",
       "name": "Industriv\u00e4rden, AB ser. A",
       "region": "se",
-      "market_cap": 225667284992,
+      "market_cap": 226315124736,
       "families": {
         "quality": 0.9304,
         "value": 0.6961,
@@ -22,7 +22,7 @@
       "ticker": "INDU-C.ST",
       "name": "Industriv\u00e4rden, AB ser. C",
       "region": "se",
-      "market_cap": 223032705024,
+      "market_cap": 223810125824,
       "families": {
         "quality": 0.9264,
         "value": 0.6921,
@@ -38,7 +38,7 @@
       "ticker": "INVE-B.ST",
       "name": "Investor AB ser. B",
       "region": "se",
-      "market_cap": 1228558041088,
+      "market_cap": 1238362095616,
       "families": {
         "quality": 0.8742,
         "value": 0.6707,
@@ -54,7 +54,7 @@
       "ticker": "INVE-A.ST",
       "name": "Investor AB ser. A",
       "region": "se",
-      "market_cap": 1207949852672,
+      "market_cap": 1217140490240,
       "families": {
         "quality": 0.8782,
         "value": 0.6747,
@@ -102,7 +102,7 @@
       "ticker": "BOL.ST",
       "name": "Boliden AB",
       "region": "se",
-      "market_cap": 144877649920,
+      "market_cap": 145559158784,
       "families": {
         "quality": 0.6814,
         "value": 0.5194,
@@ -118,7 +118,7 @@
       "ticker": "STORY-B.ST",
       "name": "Storytel AB ser. B",
       "region": "se",
-      "market_cap": 9065522176,
+      "market_cap": 8965901312,
       "families": {
         "quality": 0.8474,
         "value": 0.3213,
@@ -150,7 +150,7 @@
       "ticker": "HACK.ST",
       "name": "Hacksaw AB",
       "region": "se",
-      "market_cap": 24090028032,
+      "market_cap": 23945428992,
       "families": {
         "quality": 1.0,
         "value": 0.4237,
@@ -166,7 +166,7 @@
       "ticker": "MER.ST",
       "name": "Meren Energy Inc.",
       "region": "se",
-      "market_cap": 9992984576,
+      "market_cap": 9938894848,
       "families": {
         "quality": 0.5863,
         "value": 0.7242,
@@ -182,7 +182,7 @@
       "ticker": "RUSTA.ST",
       "name": "Rusta AB",
       "region": "se",
-      "market_cap": 11111936000,
+      "market_cap": 11234296832,
       "families": {
         "quality": 0.676,
         "value": 0.3635,
@@ -200,7 +200,7 @@
       "ticker": "INDU-A.ST",
       "name": "Industriv\u00e4rden, AB ser. A",
       "region": "se",
-      "market_cap": 225667284992,
+      "market_cap": 226315124736,
       "families": {
         "quality": 0.9304,
         "value": 0.6961,
@@ -216,7 +216,7 @@
       "ticker": "INDU-C.ST",
       "name": "Industriv\u00e4rden, AB ser. C",
       "region": "se",
-      "market_cap": 223032705024,
+      "market_cap": 223810125824,
       "families": {
         "quality": 0.9264,
         "value": 0.6921,
@@ -232,7 +232,7 @@
       "ticker": "INVE-B.ST",
       "name": "Investor AB ser. B",
       "region": "se",
-      "market_cap": 1228558041088,
+      "market_cap": 1238362095616,
       "families": {
         "quality": 0.8742,
         "value": 0.6707,
@@ -248,7 +248,7 @@
       "ticker": "INVE-A.ST",
       "name": "Investor AB ser. A",
       "region": "se",
-      "market_cap": 1207949852672,
+      "market_cap": 1217140490240,
       "families": {
         "quality": 0.8782,
         "value": 0.6747,
@@ -296,7 +296,7 @@
       "ticker": "BOL.ST",
       "name": "Boliden AB",
       "region": "se",
-      "market_cap": 144877649920,
+      "market_cap": 145559158784,
       "families": {
         "quality": 0.6814,
         "value": 0.5194,
