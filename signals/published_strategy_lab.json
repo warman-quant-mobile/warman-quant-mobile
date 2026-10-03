@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "status": "RESEARCH_ONLY",
-  "generated_at_utc": "2026-10-02T00:59:11.919825+00:00",
+  "generated_at_utc": "2026-10-03T00:59:40.526610+00:00",
   "rules": [
     "turtle_55",
     "volatility_contraction",
@@ -1293,8 +1293,8 @@
         "insufficient_sample": true
       },
       "time_series_momentum": {
-        "events": 36,
-        "mean_realized_r": 0.02,
+        "events": 37,
+        "mean_realized_r": -0.007,
         "reached_5r_mfe": 1,
         "reached_10r_mfe": 0,
         "reached_15r_mfe": 0,
@@ -1728,17 +1728,17 @@
       },
       "time_series_momentum": {
         "events": 50,
-        "mean_realized_r": 1.688,
+        "mean_realized_r": 1.715,
         "reached_5r_mfe": 9,
         "reached_10r_mfe": 7,
         "reached_15r_mfe": 3,
         "realized_10r": 4,
-        "max_mfe_r": 35.324,
+        "max_mfe_r": 36.95,
         "insufficient_sample": true
       },
       "rsi2_reversal": {
         "events": 35,
-        "mean_realized_r": 1.678,
+        "mean_realized_r": 1.697,
         "reached_5r_mfe": 7,
         "reached_10r_mfe": 4,
         "reached_15r_mfe": 1,

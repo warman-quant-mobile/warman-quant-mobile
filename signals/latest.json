@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
-  "generated_at_utc": "2026-10-02T16:52:15.928021+00:00",
-  "source_manifest_utc": "2026-10-02T16:51:40.967178+00:00",
+  "generated_at_utc": "2026-10-03T00:54:10.157249+00:00",
+  "source_manifest_utc": "2026-10-03T00:53:35.970882+00:00",
   "status": "NO_QUALIFIED_CANDIDATES",
   "candidates": [],
   "rejected": {},
@@ -13,10 +13,10 @@
   },
   "diagnostic_watchlist": [
     {
-      "symbol": "EURUSD",
-      "direction": "SHORT",
-      "session_date": "2026-10-01",
-      "reference_reward_risk_after_proxy_cost": -0.16,
+      "symbol": "NASDAQ100",
+      "direction": "LONG",
+      "session_date": "2026-10-02",
+      "reference_reward_risk_after_proxy_cost": -0.13,
       "reason": "BELOW_10R_REFERENCE",
       "note": "Research diagnostics only; historical reference is not a validated target."
     }

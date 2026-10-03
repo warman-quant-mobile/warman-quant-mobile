@@ -1,13 +1,55 @@
 {
   "schema_version": 1,
-  "status": "NO_10R_PROPOSALS",
-  "generated_at_utc": "2026-10-02T16:52:19.598384+00:00",
+  "status": "REVIEW_10R_PAPER_PROPOSALS",
+  "generated_at_utc": "2026-10-03T01:11:48.452389+00:00",
   "minimum_net_r": 10,
-  "proposals": [],
+  "proposals": [
+    {
+      "id": "eb74a5046848d139c83e",
+      "symbol": "SILVER_FUT",
+      "strategy": "failed_breakout",
+      "direction": "LONG",
+      "signal_session": "2026-10-02",
+      "reference_close": 60.709999,
+      "indicative_entry": "NEXT_AVAILABLE_QUOTE_REQUIRED",
+      "indicative_stop": 57.835396,
+      "historical_reference_level": 121.300003,
+      "indicative_net_r": 20.18,
+      "risk_per_unit_proxy": 2.996023,
+      "status": "BLOCKED_UNTIL_NORDNET_KF_PRODUCT_AND_QUOTE_VERIFIED",
+      "execution_ready": false,
+      "nordnet_gate": {
+        "eligible": true,
+        "status": "NORDNET_PRODUCT_AND_QUOTE_REQUIRED",
+        "product_search": "Silver",
+        "preferred_types": [
+          "MINI_FUTURE",
+          "TURBO"
+        ]
+      },
+      "instrument_isin": null,
+      "verified_bid": null,
+      "verified_ask": null,
+      "verified_spread": null,
+      "verified_financing": null,
+      "verified_knockout_distance": null,
+      "required_checks": [
+        "specific Nordnet instrument verified available in KF",
+        "ISIN and product type verified",
+        "live executable bid/ask verified",
+        "spread and slippage included",
+        "financing and FX included where applicable",
+        "knockout/stop-loss distance compatible with strategy stop",
+        "R recomputed from executable product economics and remains >=10",
+        "position size and gap risk checked",
+        "independent strategy validation; no live execution"
+      ]
+    }
+  ],
   "raw_signal_counts": {
     "turtle_55": 1,
     "volatility_contraction": 0,
-    "failed_breakout": 2,
+    "failed_breakout": 3,
     "momentum_ignition": 0,
     "time_series_momentum": 11,
     "rsi2_reversal": 3

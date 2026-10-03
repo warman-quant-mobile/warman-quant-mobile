@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at_utc": "2026-10-02T16:52:16.792500+00:00",
+  "generated_at_utc": "2026-10-03T00:54:48.229630+00:00",
   "status": "RESEARCH_ONLY",
   "parameters": {
     "gap_abs_pct": 3,
@@ -8,15 +8,14 @@
     "daily_range_atr": 2.5
   },
   "observations": {
-    "BRENT_FUT": {
-      "session_date": "2026-10-01",
+    "VIX": {
+      "session_date": "2026-10-02",
       "events": [
         {
-          "type": "GAP",
+          "type": "EXTREME_DAILY_RETURN",
           "direction": "DOWN",
-          "magnitude_pct": -5.38,
-          "subtype": "GAP_FADE_WATCH",
-          "note": "Requires independently verified catalyst and actual bid/ask; never infer earnings from price."
+          "magnitude_pct": -6.59,
+          "note": "Magnitude alone is not an entry signal."
         }
       ]
     }
