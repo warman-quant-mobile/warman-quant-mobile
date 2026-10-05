@@ -1,17 +1,25 @@
 {
   "schema_version": 2,
-  "generated_at_utc": "2026-10-03T00:54:10.157249+00:00",
-  "source_manifest_utc": "2026-10-03T00:53:35.970882+00:00",
+  "generated_at_utc": "2026-10-05T07:53:46.725364+00:00",
+  "source_manifest_utc": "2026-10-05T07:53:16.061269+00:00",
   "status": "NO_QUALIFIED_CANDIDATES",
   "candidates": [],
   "rejected": {},
   "screening_funnel": {
     "eligible": 30,
-    "directional_breakouts": 1,
-    "positive_reference_reward": 0,
+    "directional_breakouts": 2,
+    "positive_reference_reward": 1,
     "reference_10r": 0
   },
   "diagnostic_watchlist": [
+    {
+      "symbol": "SILVER_FUT",
+      "direction": "SHORT",
+      "session_date": "2026-10-02",
+      "reference_reward_risk_after_proxy_cost": 4.98,
+      "reason": "BELOW_10R_REFERENCE",
+      "note": "Research diagnostics only; historical reference is not a validated target."
+    },
     {
       "symbol": "NASDAQ100",
       "direction": "LONG",
