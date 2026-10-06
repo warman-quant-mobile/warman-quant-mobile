@@ -61,7 +61,7 @@
       },
       "final_test": {
         "n": 10,
-        "mean_r": 0.277,
+        "mean_r": 0.2,
         "median_r": -1.0,
         "stops": 7,
         "measured_target_hits": 1,
@@ -99,9 +99,9 @@
       },
       "final_test": {
         "n": 6,
-        "mean_r": -0.175,
+        "mean_r": -0.199,
         "median_r": -1.0,
-        "stops": 4,
+        "stops": 5,
         "measured_target_hits": 0,
         "hit_3r_before_stop": 3,
         "hit_5r_before_stop": 1,
@@ -1405,9 +1405,9 @@
       },
       "weekly_context_daily_retest": {
         "risk": 12.001363,
-        "realized_r": -0.855,
+        "realized_r": -1.0,
         "mfe_r": 3.82,
-        "mae_r": 0.905,
+        "mae_r": 1.296,
         "fixed_r_before_stop": {
           "3": true,
           "5": false,
@@ -1415,7 +1415,7 @@
           "15": false,
           "20": false
         },
-        "exit_reason": "TIMEOUT",
+        "exit_reason": "STOP",
         "measured_target_r": 11.556
       }
     },
@@ -1429,7 +1429,7 @@
       "r2_low": 0.881,
       "weekly": {
         "risk": 8.2887,
-        "realized_r": 1.968,
+        "realized_r": 1.196,
         "mfe_r": 3.82,
         "mae_r": 0.934,
         "fixed_r_before_stop": {
@@ -1464,8 +1464,8 @@
     "schema_version": 1,
     "engine": "weekly_pattern_mtf_v2",
     "dataset": {
-      "manifest_sha256": "536cb622b760d2c52a26c6c5fcc31c97616fe24678e9634d2bce0c9615bd34c4",
-      "manifest_bytes": 27664
+      "manifest_sha256": "f8c8b2aabe492647397e4142fc06c21be0aedf5457ce723a649481d3d126a892",
+      "manifest_bytes": 27652
     },
     "model_version": "rules-v2-corrected-2026-09-30",
     "reproducibility": {

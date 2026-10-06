@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at_utc": "2026-10-03T00:54:48.807315+00:00",
+  "generated_at_utc": "2026-10-06T00:57:29.013210+00:00",
   "status": "EXPLORATORY_NOT_VALIDATED",
   "methodology": "Prior completed bar; next open; 2ATR stop; 10R target; 20bps proxy friction; 60 sessions; conservative gaps; nonoverlapping events per strategy.",
   "results": {
@@ -553,10 +553,10 @@
     "OVX": {
       "GAP_CONTINUATION": {
         "events": 34,
-        "targets_10r": 2,
-        "stops": 22,
+        "targets_10r": 3,
+        "stops": 21,
         "timeouts": 10,
-        "mean_realized_r": 0.066,
+        "mean_realized_r": 0.389,
         "insufficient_sample": false
       },
       "GAP_FADE": {
@@ -1166,9 +1166,9 @@
       "SHOCK_FADE": {
         "events": 45,
         "targets_10r": 0,
-        "stops": 40,
-        "timeouts": 5,
-        "mean_realized_r": -0.741,
+        "stops": 41,
+        "timeouts": 4,
+        "mean_realized_r": -0.761,
         "insufficient_sample": false
       },
       "RANGE_CONTINUATION": {

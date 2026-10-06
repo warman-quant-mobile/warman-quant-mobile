@@ -670,7 +670,7 @@
       "summary": {
         "all": {
           "n": 14,
-          "mean_r": -0.188,
+          "mean_r": -0.186,
           "median_r": -1.0,
           "mean_geometric_r": 9.149,
           "target_hits": 1,
@@ -690,8 +690,8 @@
         },
         "oos": {
           "n": 6,
-          "mean_r": 0.925,
-          "median_r": -0.596,
+          "mean_r": 0.928,
+          "median_r": -0.586,
           "mean_geometric_r": 5.635,
           "target_hits": 1,
           "mfe_5r": 2,
@@ -735,8 +735,8 @@
         "DESCENDING": {
           "all": {
             "n": 2,
-            "mean_r": -0.596,
-            "median_r": -0.596,
+            "mean_r": -0.586,
+            "median_r": -0.586,
             "mean_geometric_r": 5.027,
             "target_hits": 0,
             "mfe_5r": 0,
@@ -755,8 +755,8 @@
           },
           "oos": {
             "n": 1,
-            "mean_r": -0.191,
-            "median_r": -0.191,
+            "mean_r": -0.171,
+            "median_r": -0.171,
             "mean_geometric_r": 3.891,
             "target_hits": 0,
             "mfe_5r": 0,
@@ -2314,7 +2314,7 @@
       "summary": {
         "all": {
           "n": 11,
-          "mean_r": 0.222,
+          "mean_r": 0.27,
           "median_r": -1.0,
           "mean_geometric_r": 31.128,
           "target_hits": 1,
@@ -2334,7 +2334,7 @@
         },
         "oos": {
           "n": 5,
-          "mean_r": -0.201,
+          "mean_r": -0.096,
           "median_r": -1.0,
           "mean_geometric_r": 57.707,
           "target_hits": 0,
@@ -2436,7 +2436,7 @@
         "SYMMETRICAL": {
           "all": {
             "n": 4,
-            "mean_r": -1.02,
+            "mean_r": -0.888,
             "median_r": -1.0,
             "mean_geometric_r": 70.301,
             "target_hits": 0,
@@ -2456,8 +2456,8 @@
           },
           "oos": {
             "n": 2,
-            "mean_r": -0.148,
-            "median_r": -0.148,
+            "mean_r": 0.116,
+            "median_r": 0.116,
             "mean_geometric_r": 11.101,
             "target_hits": 0,
             "mfe_5r": 0,
@@ -5206,7 +5206,7 @@
       "type": "DESCENDING",
       "side": "SHORT",
       "geometric_r": 3.891,
-      "realized_r": -0.191,
+      "realized_r": -0.171,
       "mfe_r": 0.0,
       "outcome": "TIMEOUT",
       "compression": 0.127,
@@ -8272,7 +8272,7 @@
       "type": "SYMMETRICAL",
       "side": "LONG",
       "geometric_r": 7.065,
-      "realized_r": 0.704,
+      "realized_r": 1.232,
       "mfe_r": 1.825,
       "outcome": "TIMEOUT",
       "compression": 0.204,
@@ -10116,57 +10116,14 @@
       "symbol": "SOLANA"
     }
   ],
-  "recent_patterns": [
-    {
-      "date": "2026-09-28",
-      "type": "DESCENDING",
-      "side": "SHORT",
-      "geometric_r": 3.891,
-      "realized_r": -0.191,
-      "mfe_r": 0.0,
-      "outcome": "TIMEOUT",
-      "compression": 0.127,
-      "r2_high": 0.942,
-      "r2_low": 0.949,
-      "slope_high_atr": -0.1703,
-      "slope_low_atr": -0.0385,
-      "touches_high": 4,
-      "touches_low": 3,
-      "breakout_strength_atr": 0.7516,
-      "trend20_signed": 0.0735,
-      "gap_atr": 0.1736,
-      "atr_pct": 0.02541,
-      "symbol": "GOLD_FUT"
-    },
-    {
-      "date": "2026-09-25",
-      "type": "SYMMETRICAL",
-      "side": "LONG",
-      "geometric_r": 7.065,
-      "realized_r": 0.704,
-      "mfe_r": 1.825,
-      "outcome": "TIMEOUT",
-      "compression": 0.204,
-      "r2_high": 0.98,
-      "r2_low": 0.994,
-      "slope_high_atr": -0.0738,
-      "slope_low_atr": 0.048,
-      "touches_high": 4,
-      "touches_low": 3,
-      "breakout_strength_atr": 1.1849,
-      "trend20_signed": 0.0031,
-      "gap_atr": -0.9662,
-      "atr_pct": 0.02191,
-      "symbol": "MICROSOFT"
-    }
-  ],
+  "recent_patterns": [],
   "note": "Frozen first-pass geometry. No parameter optimization. Results must survive OOS/robustness and Nordnet-KF execution checks before promotion.",
   "research_contract": {
     "schema_version": 1,
     "engine": "pattern_geometry_v2",
     "dataset": {
-      "manifest_sha256": "536cb622b760d2c52a26c6c5fcc31c97616fe24678e9634d2bce0c9615bd34c4",
-      "manifest_bytes": 27664
+      "manifest_sha256": "f8c8b2aabe492647397e4142fc06c21be0aedf5457ce723a649481d3d126a892",
+      "manifest_bytes": 27652
     },
     "model_version": "rules-v2-frozen-2026-09-30",
     "reproducibility": {

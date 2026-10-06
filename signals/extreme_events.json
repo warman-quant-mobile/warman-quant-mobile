@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at_utc": "2026-10-05T16:54:17.565058+00:00",
+  "generated_at_utc": "2026-10-06T00:57:28.564737+00:00",
   "status": "RESEARCH_ONLY",
   "parameters": {
     "gap_abs_pct": 3,
@@ -9,13 +9,26 @@
   },
   "observations": {
     "VIX": {
-      "session_date": "2026-10-02",
+      "session_date": "2026-10-05",
       "events": [
         {
-          "type": "EXTREME_DAILY_RETURN",
-          "direction": "DOWN",
-          "magnitude_pct": -6.59,
-          "note": "Magnitude alone is not an entry signal."
+          "type": "GAP",
+          "direction": "UP",
+          "magnitude_pct": 6.07,
+          "subtype": "GAP_FADE_WATCH",
+          "note": "Requires independently verified catalyst and actual bid/ask; never infer earnings from price."
+        }
+      ]
+    },
+    "GVZ": {
+      "session_date": "2026-10-05",
+      "events": [
+        {
+          "type": "GAP",
+          "direction": "UP",
+          "magnitude_pct": 3.49,
+          "subtype": "GAP_FADE_WATCH",
+          "note": "Requires independently verified catalyst and actual bid/ask; never infer earnings from price."
         }
       ]
     }

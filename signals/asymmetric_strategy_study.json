@@ -7,7 +7,7 @@
         "sample_qualified": false,
         "train": {
           "n": 15,
-          "mean_r": 0.288,
+          "mean_r": 0.267,
           "median_r": -1.0,
           "hit_5r": 2,
           "hit_10r": 0,
@@ -15,7 +15,7 @@
           "hit_20r": 0,
           "p50_mfe": 2.445,
           "p75_mfe": 3.639,
-          "p90_mfe": 5.602,
+          "p90_mfe": 5.239,
           "max_mfe": 7.899,
           "fixed_target_ev": {
             "5": {
@@ -23,15 +23,15 @@
               "wins": 2
             },
             "10": {
-              "mean_r": 0.288,
+              "mean_r": 0.267,
               "wins": 0
             },
             "15": {
-              "mean_r": 0.288,
+              "mean_r": 0.267,
               "wins": 0
             },
             "20": {
-              "mean_r": 0.288,
+              "mean_r": 0.267,
               "wins": 0
             }
           }
@@ -70,7 +70,7 @@
         "oos_positive": false,
         "all": {
           "n": 25,
-          "mean_r": 0.219,
+          "mean_r": 0.207,
           "median_r": -1.0,
           "hit_5r": 2,
           "hit_10r": 0,
@@ -86,15 +86,15 @@
               "wins": 2
             },
             "10": {
-              "mean_r": 0.219,
+              "mean_r": 0.207,
               "wins": 0
             },
             "15": {
-              "mean_r": 0.219,
+              "mean_r": 0.207,
               "wins": 0
             },
             "20": {
-              "mean_r": 0.219,
+              "mean_r": 0.207,
               "wins": 0
             }
           }
@@ -408,7 +408,7 @@
           "hit_15r": 0,
           "hit_20r": 0,
           "p50_mfe": 0.457,
-          "p75_mfe": 1.502,
+          "p75_mfe": 1.417,
           "p90_mfe": 2.386,
           "max_mfe": 5.973,
           "fixed_target_ev": {
@@ -704,7 +704,7 @@
           "hit_15r": 0,
           "hit_20r": 0,
           "p50_mfe": 0.889,
-          "p75_mfe": 1.487,
+          "p75_mfe": 1.164,
           "p90_mfe": 2.255,
           "max_mfe": 4.565,
           "fixed_target_ev": {
