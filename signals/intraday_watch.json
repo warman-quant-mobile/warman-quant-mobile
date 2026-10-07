@@ -1,10 +1,20 @@
 {
   "status": "RESEARCH_WATCH_ONLY",
-  "generated_at_utc": "2026-10-06T16:53:46.158754+00:00",
+  "generated_at_utc": "2026-10-07T01:09:38.753597+00:00",
   "observations": [
     {
-      "symbol": "AMAZON",
-      "bar_start_utc": "2026-10-06T15:30:00+00:00",
+      "symbol": "WTI_FUT",
+      "bar_start_utc": "2026-10-07T00:00:00+00:00",
+      "events": [
+        "FAILED_HIGH_20H"
+      ],
+      "gap_pct": 0.0,
+      "hourly_move_pct": -0.03,
+      "status": "INTRADAY_WATCH_NOT_ORDER"
+    },
+    {
+      "symbol": "BRENT_FUT",
+      "bar_start_utc": "2026-10-07T00:00:00+00:00",
       "events": [
         "FAILED_HIGH_20H"
       ],
@@ -13,34 +23,13 @@
       "status": "INTRADAY_WATCH_NOT_ORDER"
     },
     {
-      "symbol": "BITCOIN",
-      "bar_start_utc": "2026-10-06T15:00:00+00:00",
-      "events": [
-        "HOURLY_SHOCK_2_5ATR",
-        "FAILED_HIGH_20H"
-      ],
-      "gap_pct": 0.02,
-      "hourly_move_pct": -1.03,
-      "status": "INTRADAY_WATCH_NOT_ORDER"
-    },
-    {
-      "symbol": "ETHEREUM",
-      "bar_start_utc": "2026-10-06T15:00:00+00:00",
+      "symbol": "AMAZON",
+      "bar_start_utc": "2026-10-06T19:30:00+00:00",
       "events": [
         "FAILED_HIGH_20H"
       ],
       "gap_pct": 0.01,
-      "hourly_move_pct": -0.74,
-      "status": "INTRADAY_WATCH_NOT_ORDER"
-    },
-    {
-      "symbol": "SOLANA",
-      "bar_start_utc": "2026-10-06T15:00:00+00:00",
-      "events": [
-        "FAILED_HIGH_20H"
-      ],
-      "gap_pct": -0.02,
-      "hourly_move_pct": -1.04,
+      "hourly_move_pct": -0.05,
       "status": "INTRADAY_WATCH_NOT_ORDER"
     }
   ],
