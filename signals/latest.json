@@ -1,17 +1,33 @@
 {
   "schema_version": 2,
-  "generated_at_utc": "2026-10-08T00:59:50.593383+00:00",
-  "source_manifest_utc": "2026-10-08T00:59:16.860235+00:00",
+  "generated_at_utc": "2026-10-08T07:53:46.722067+00:00",
+  "source_manifest_utc": "2026-10-08T07:53:10.825453+00:00",
   "status": "NO_QUALIFIED_CANDIDATES",
   "candidates": [],
   "rejected": {},
   "screening_funnel": {
     "eligible": 30,
-    "directional_breakouts": 1,
-    "positive_reference_reward": 0,
+    "directional_breakouts": 3,
+    "positive_reference_reward": 2,
     "reference_10r": 0
   },
   "diagnostic_watchlist": [
+    {
+      "symbol": "SILVER_FUT",
+      "direction": "SHORT",
+      "session_date": "2026-10-07",
+      "reference_reward_risk_after_proxy_cost": 4.84,
+      "reason": "BELOW_10R_REFERENCE",
+      "note": "Research diagnostics only; historical reference is not a validated target."
+    },
+    {
+      "symbol": "AMAZON",
+      "direction": "LONG",
+      "session_date": "2026-10-07",
+      "reference_reward_risk_after_proxy_cost": 2.38,
+      "reason": "BELOW_10R_REFERENCE",
+      "note": "Research diagnostics only; historical reference is not a validated target."
+    },
     {
       "symbol": "ATLAS_A",
       "direction": "LONG",
