@@ -18,7 +18,7 @@
   ],
   "split": {
     "train": 184,
-    "validation": 61,
+    "validation": 62,
     "final_test": 62,
     "rule": "60/20/20 chronological; final test untouched by fitting"
   },
@@ -26,20 +26,20 @@
     "5": {
       "train_positives": 24,
       "validation": {
-        "n": 61,
-        "base_rate": 0.1475,
-        "brier": 0.1347,
+        "n": 62,
+        "base_rate": 0.1613,
+        "brier": 0.1422,
         "top_quartile_n": 15,
-        "top_quartile_hit_rate": 0.0667,
+        "top_quartile_hit_rate": 0.1333,
         "top_quartile_mean_realized_r": -1.079,
         "top_quartile_median_realized_r": -1.0
       },
       "final_test": {
         "n": 62,
-        "base_rate": 0.1129,
-        "brier": 0.0967,
+        "base_rate": 0.0968,
+        "brier": 0.0871,
         "top_quartile_n": 15,
-        "top_quartile_hit_rate": 0.2667,
+        "top_quartile_hit_rate": 0.2,
         "top_quartile_mean_realized_r": -1.195,
         "top_quartile_median_realized_r": -1.0
       },
@@ -62,7 +62,7 @@
     "10": {
       "train_positives": 3,
       "validation": {
-        "n": 61,
+        "n": 62,
         "base_rate": 0.0,
         "brier": 0.0029,
         "top_quartile_n": 15,
@@ -105,8 +105,8 @@
     "schema_version": 1,
     "engine": "pattern_ranker",
     "dataset": {
-      "manifest_sha256": "cba54539fedc21e15c4d97060f3471d46101ed434e9167dda3a7965f95755fb8",
-      "manifest_bytes": 27651
+      "manifest_sha256": "a3c01b76f315e4586df97e301ae156d3f799275e82a315250533abaa8a540129",
+      "manifest_bytes": 27650
     },
     "model_version": "logit-v1-frozen-2026-09-30",
     "reproducibility": {

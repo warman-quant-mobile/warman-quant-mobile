@@ -670,7 +670,7 @@
       "summary": {
         "all": {
           "n": 14,
-          "mean_r": -0.194,
+          "mean_r": -0.172,
           "median_r": -1.0,
           "mean_geometric_r": 9.149,
           "target_hits": 1,
@@ -690,8 +690,8 @@
         },
         "oos": {
           "n": 6,
-          "mean_r": 0.912,
-          "median_r": -0.636,
+          "mean_r": 0.961,
+          "median_r": -0.487,
           "mean_geometric_r": 5.635,
           "target_hits": 1,
           "mfe_5r": 2,
@@ -735,8 +735,8 @@
         "DESCENDING": {
           "all": {
             "n": 2,
-            "mean_r": -0.636,
-            "median_r": -0.636,
+            "mean_r": -0.487,
+            "median_r": -0.487,
             "mean_geometric_r": 5.027,
             "target_hits": 0,
             "mfe_5r": 0,
@@ -755,13 +755,13 @@
           },
           "oos": {
             "n": 1,
-            "mean_r": -0.272,
-            "median_r": -0.272,
+            "mean_r": 0.025,
+            "median_r": 0.025,
             "mean_geometric_r": 3.891,
             "target_hits": 0,
             "mfe_5r": 0,
             "mfe_10r": 0,
-            "max_mfe_r": 0.0
+            "max_mfe_r": 0.086
           }
         },
         "FALLING_WEDGE": {
@@ -3166,10 +3166,10 @@
     "BITCOIN": {
       "summary": {
         "all": {
-          "n": 17,
-          "mean_r": 0.327,
+          "n": 18,
+          "mean_r": 0.305,
           "median_r": -1.0,
-          "mean_geometric_r": 7.183,
+          "mean_geometric_r": 6.901,
           "target_hits": 5,
           "mfe_5r": 2,
           "mfe_10r": 0,
@@ -3186,10 +3186,10 @@
           "max_mfe_r": 5.548
         },
         "oos": {
-          "n": 7,
-          "mean_r": 0.188,
+          "n": 8,
+          "mean_r": 0.157,
           "median_r": -1.0,
-          "mean_geometric_r": 7.982,
+          "mean_geometric_r": 7.247,
           "target_hits": 1,
           "mfe_5r": 1,
           "mfe_10r": 0,
@@ -3288,34 +3288,34 @@
         },
         "RISING_WEDGE": {
           "all": {
-            "n": 3,
-            "mean_r": -1.0,
+            "n": 4,
+            "mean_r": -0.765,
             "median_r": -1.0,
-            "mean_geometric_r": 6.027,
+            "mean_geometric_r": 5.045,
             "target_hits": 0,
             "mfe_5r": 0,
             "mfe_10r": 0,
             "max_mfe_r": 2.058
           },
           "train": {
-            "n": 1,
-            "mean_r": -1.0,
-            "median_r": -1.0,
-            "mean_geometric_r": 2.498,
-            "target_hits": 0,
-            "mfe_5r": 0,
-            "mfe_10r": 0,
-            "max_mfe_r": 0.469
-          },
-          "oos": {
             "n": 2,
             "mean_r": -1.0,
             "median_r": -1.0,
-            "mean_geometric_r": 7.792,
+            "mean_geometric_r": 4.703,
             "target_hits": 0,
             "mfe_5r": 0,
             "mfe_10r": 0,
             "max_mfe_r": 2.058
+          },
+          "oos": {
+            "n": 2,
+            "mean_r": -0.529,
+            "median_r": -0.529,
+            "mean_geometric_r": 5.387,
+            "target_hits": 0,
+            "mfe_5r": 0,
+            "mfe_10r": 0,
+            "max_mfe_r": 1.579
           }
         },
         "SYMMETRICAL": {
@@ -5206,8 +5206,8 @@
       "type": "DESCENDING",
       "side": "SHORT",
       "geometric_r": 3.891,
-      "realized_r": -0.272,
-      "mfe_r": 0.0,
+      "realized_r": 0.025,
+      "mfe_r": 0.086,
       "outcome": "TIMEOUT",
       "compression": 0.127,
       "r2_high": 0.942,
@@ -9633,6 +9633,27 @@
       "symbol": "BITCOIN"
     },
     {
+      "date": "2026-10-06",
+      "type": "RISING_WEDGE",
+      "side": "SHORT",
+      "geometric_r": 2.099,
+      "realized_r": -0.059,
+      "mfe_r": 0.0,
+      "outcome": "TIMEOUT",
+      "compression": 0.561,
+      "r2_high": 0.703,
+      "r2_low": 0.865,
+      "slope_high_atr": 0.1538,
+      "slope_low_atr": 0.1924,
+      "touches_high": 4,
+      "touches_low": 4,
+      "breakout_strength_atr": 0.0231,
+      "trend20_signed": -0.1346,
+      "gap_atr": 1.0224,
+      "atr_pct": 0.0268,
+      "symbol": "BITCOIN"
+    },
+    {
       "date": "2019-07-25",
       "type": "FALLING_WEDGE",
       "side": "LONG",
@@ -10116,14 +10137,36 @@
       "symbol": "SOLANA"
     }
   ],
-  "recent_patterns": [],
+  "recent_patterns": [
+    {
+      "date": "2026-10-06",
+      "type": "RISING_WEDGE",
+      "side": "SHORT",
+      "geometric_r": 2.099,
+      "realized_r": -0.059,
+      "mfe_r": 0.0,
+      "outcome": "TIMEOUT",
+      "compression": 0.561,
+      "r2_high": 0.703,
+      "r2_low": 0.865,
+      "slope_high_atr": 0.1538,
+      "slope_low_atr": 0.1924,
+      "touches_high": 4,
+      "touches_low": 4,
+      "breakout_strength_atr": 0.0231,
+      "trend20_signed": -0.1346,
+      "gap_atr": 1.0224,
+      "atr_pct": 0.0268,
+      "symbol": "BITCOIN"
+    }
+  ],
   "note": "Frozen first-pass geometry. No parameter optimization. Results must survive OOS/robustness and Nordnet-KF execution checks before promotion.",
   "research_contract": {
     "schema_version": 1,
     "engine": "pattern_geometry_v2",
     "dataset": {
-      "manifest_sha256": "cba54539fedc21e15c4d97060f3471d46101ed434e9167dda3a7965f95755fb8",
-      "manifest_bytes": 27651
+      "manifest_sha256": "a3c01b76f315e4586df97e301ae156d3f799275e82a315250533abaa8a540129",
+      "manifest_bytes": 27650
     },
     "model_version": "rules-v2-frozen-2026-09-30",
     "reproducibility": {

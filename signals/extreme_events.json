@@ -1,13 +1,26 @@
 {
   "schema_version": 1,
-  "generated_at_utc": "2026-10-07T07:52:40.928087+00:00",
+  "generated_at_utc": "2026-10-08T01:00:17.293602+00:00",
   "status": "RESEARCH_ONLY",
   "parameters": {
     "gap_abs_pct": 3,
     "daily_return_abs_pct": 5,
     "daily_range_atr": 2.5
   },
-  "observations": {},
+  "observations": {
+    "GVZ": {
+      "session_date": "2026-10-07",
+      "events": [
+        {
+          "type": "GAP",
+          "direction": "UP",
+          "magnitude_pct": 4.61,
+          "subtype": "GAP_FADE_WATCH",
+          "note": "Requires independently verified catalyst and actual bid/ask; never infer earnings from price."
+        }
+      ]
+    }
+  },
   "rejected": {},
   "warning": "Research diagnostics only; no 10R qualification, product check, or order. Market-specific gap thresholds require out-of-sample validation."
 }
