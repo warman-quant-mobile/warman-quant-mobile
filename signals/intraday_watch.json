@@ -1,85 +1,25 @@
 {
   "status": "RESEARCH_WATCH_ONLY",
-  "generated_at_utc": "2026-10-08T16:55:30.895017+00:00",
+  "generated_at_utc": "2026-10-09T01:06:44.554310+00:00",
   "observations": [
     {
-      "symbol": "WTI_FUT",
-      "bar_start_utc": "2026-10-08T15:00:00+00:00",
+      "symbol": "GOLD_FUT",
+      "bar_start_utc": "2026-10-09T00:00:00+00:00",
       "events": [
         "FAILED_HIGH_20H"
       ],
       "gap_pct": 0.01,
-      "hourly_move_pct": -0.08,
+      "hourly_move_pct": 0.0,
       "status": "INTRADAY_WATCH_NOT_ORDER"
     },
     {
       "symbol": "US30Y_YIELD",
-      "bar_start_utc": "2026-10-08T15:20:00+00:00",
+      "bar_start_utc": "2026-10-08T18:20:00+00:00",
       "events": [
         "FAILED_LOW_20H"
       ],
-      "gap_pct": 0.0,
-      "hourly_move_pct": -0.39,
-      "status": "INTRADAY_WATCH_NOT_ORDER"
-    },
-    {
-      "symbol": "US10Y_YIELD",
-      "bar_start_utc": "2026-10-08T15:20:00+00:00",
-      "events": [
-        "FAILED_LOW_20H"
-      ],
-      "gap_pct": 0.0,
-      "hourly_move_pct": -0.6,
-      "status": "INTRADAY_WATCH_NOT_ORDER"
-    },
-    {
-      "symbol": "OVX",
-      "bar_start_utc": "2026-10-08T15:30:00+00:00",
-      "events": [
-        "FAILED_HIGH_20H"
-      ],
-      "gap_pct": -0.06,
-      "hourly_move_pct": -2.11,
-      "status": "INTRADAY_WATCH_NOT_ORDER"
-    },
-    {
-      "symbol": "APPLE",
-      "bar_start_utc": "2026-10-08T15:30:00+00:00",
-      "events": [
-        "FAILED_HIGH_20H"
-      ],
-      "gap_pct": 0.0,
-      "hourly_move_pct": 0.21,
-      "status": "INTRADAY_WATCH_NOT_ORDER"
-    },
-    {
-      "symbol": "BITCOIN",
-      "bar_start_utc": "2026-10-08T15:00:00+00:00",
-      "events": [
-        "HOURLY_SHOCK_2_5ATR"
-      ],
-      "gap_pct": -0.03,
-      "hourly_move_pct": -2.0,
-      "status": "INTRADAY_WATCH_NOT_ORDER"
-    },
-    {
-      "symbol": "ETHEREUM",
-      "bar_start_utc": "2026-10-08T15:00:00+00:00",
-      "events": [
-        "HOURLY_SHOCK_2_5ATR"
-      ],
-      "gap_pct": -0.02,
-      "hourly_move_pct": -3.82,
-      "status": "INTRADAY_WATCH_NOT_ORDER"
-    },
-    {
-      "symbol": "SOLANA",
-      "bar_start_utc": "2026-10-08T15:00:00+00:00",
-      "events": [
-        "HOURLY_SHOCK_2_5ATR"
-      ],
-      "gap_pct": -0.02,
-      "hourly_move_pct": -3.52,
+      "gap_pct": -0.04,
+      "hourly_move_pct": -0.05,
       "status": "INTRADAY_WATCH_NOT_ORDER"
     }
   ],

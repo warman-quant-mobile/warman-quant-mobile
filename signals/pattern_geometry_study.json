@@ -670,7 +670,7 @@
       "summary": {
         "all": {
           "n": 14,
-          "mean_r": -0.172,
+          "mean_r": -0.187,
           "median_r": -1.0,
           "mean_geometric_r": 9.149,
           "target_hits": 1,
@@ -690,8 +690,8 @@
         },
         "oos": {
           "n": 6,
-          "mean_r": 0.961,
-          "median_r": -0.487,
+          "mean_r": 0.928,
+          "median_r": -0.587,
           "mean_geometric_r": 5.635,
           "target_hits": 1,
           "mfe_5r": 2,
@@ -735,8 +735,8 @@
         "DESCENDING": {
           "all": {
             "n": 2,
-            "mean_r": -0.487,
-            "median_r": -0.487,
+            "mean_r": -0.587,
+            "median_r": -0.587,
             "mean_geometric_r": 5.027,
             "target_hits": 0,
             "mfe_5r": 0,
@@ -755,13 +755,13 @@
           },
           "oos": {
             "n": 1,
-            "mean_r": 0.025,
-            "median_r": 0.025,
+            "mean_r": -0.174,
+            "median_r": -0.174,
             "mean_geometric_r": 3.891,
             "target_hits": 0,
             "mfe_5r": 0,
             "mfe_10r": 0,
-            "max_mfe_r": 0.086
+            "max_mfe_r": 0.319
           }
         },
         "FALLING_WEDGE": {
@@ -2314,7 +2314,7 @@
       "summary": {
         "all": {
           "n": 11,
-          "mean_r": 0.39,
+          "mean_r": 0.394,
           "median_r": -1.0,
           "mean_geometric_r": 31.128,
           "target_hits": 1,
@@ -2334,7 +2334,7 @@
         },
         "oos": {
           "n": 5,
-          "mean_r": 0.167,
+          "mean_r": 0.177,
           "median_r": -1.0,
           "mean_geometric_r": 57.707,
           "target_hits": 0,
@@ -2436,7 +2436,7 @@
         "SYMMETRICAL": {
           "all": {
             "n": 4,
-            "mean_r": -0.56,
+            "mean_r": -0.548,
             "median_r": -1.0,
             "mean_geometric_r": 70.301,
             "target_hits": 0,
@@ -2456,8 +2456,8 @@
           },
           "oos": {
             "n": 2,
-            "mean_r": 0.772,
-            "median_r": 0.772,
+            "mean_r": 0.798,
+            "median_r": 0.798,
             "mean_geometric_r": 11.101,
             "target_hits": 0,
             "mfe_5r": 0,
@@ -3167,9 +3167,9 @@
       "summary": {
         "all": {
           "n": 18,
-          "mean_r": 0.305,
+          "mean_r": 0.466,
           "median_r": -1.0,
-          "mean_geometric_r": 6.901,
+          "mean_geometric_r": 7.107,
           "target_hits": 5,
           "mfe_5r": 2,
           "mfe_10r": 0,
@@ -3187,9 +3187,9 @@
         },
         "oos": {
           "n": 8,
-          "mean_r": 0.157,
+          "mean_r": 0.518,
           "median_r": -1.0,
-          "mean_geometric_r": 7.247,
+          "mean_geometric_r": 7.712,
           "target_hits": 1,
           "mfe_5r": 1,
           "mfe_10r": 0,
@@ -3289,13 +3289,13 @@
         "RISING_WEDGE": {
           "all": {
             "n": 4,
-            "mean_r": -0.765,
+            "mean_r": -0.041,
             "median_r": -1.0,
-            "mean_geometric_r": 5.045,
+            "mean_geometric_r": 5.976,
             "target_hits": 0,
             "mfe_5r": 0,
             "mfe_10r": 0,
-            "max_mfe_r": 2.058
+            "max_mfe_r": 2.9
           },
           "train": {
             "n": 2,
@@ -3309,13 +3309,13 @@
           },
           "oos": {
             "n": 2,
-            "mean_r": -0.529,
-            "median_r": -0.529,
-            "mean_geometric_r": 5.387,
+            "mean_r": 0.917,
+            "median_r": 0.917,
+            "mean_geometric_r": 7.249,
             "target_hits": 0,
             "mfe_5r": 0,
             "mfe_10r": 0,
-            "max_mfe_r": 1.579
+            "max_mfe_r": 2.9
           }
         },
         "SYMMETRICAL": {
@@ -5206,8 +5206,8 @@
       "type": "DESCENDING",
       "side": "SHORT",
       "geometric_r": 3.891,
-      "realized_r": 0.025,
-      "mfe_r": 0.086,
+      "realized_r": -0.174,
+      "mfe_r": 0.319,
       "outcome": "TIMEOUT",
       "compression": 0.127,
       "r2_high": 0.942,
@@ -8272,7 +8272,7 @@
       "type": "SYMMETRICAL",
       "side": "LONG",
       "geometric_r": 7.065,
-      "realized_r": 2.544,
+      "realized_r": 2.595,
       "mfe_r": 3.256,
       "outcome": "TIMEOUT",
       "compression": 0.204,
@@ -9636,9 +9636,9 @@
       "date": "2026-10-06",
       "type": "RISING_WEDGE",
       "side": "SHORT",
-      "geometric_r": 2.099,
-      "realized_r": -0.059,
-      "mfe_r": 0.0,
+      "geometric_r": 5.823,
+      "realized_r": 2.835,
+      "mfe_r": 2.9,
       "outcome": "TIMEOUT",
       "compression": 0.561,
       "r2_high": 0.703,
@@ -9649,8 +9649,8 @@
       "touches_low": 4,
       "breakout_strength_atr": 0.0231,
       "trend20_signed": -0.1346,
-      "gap_atr": 1.0224,
-      "atr_pct": 0.0268,
+      "gap_atr": 0.0012,
+      "atr_pct": 0.02609,
       "symbol": "BITCOIN"
     },
     {
@@ -10142,9 +10142,9 @@
       "date": "2026-10-06",
       "type": "RISING_WEDGE",
       "side": "SHORT",
-      "geometric_r": 2.099,
-      "realized_r": -0.059,
-      "mfe_r": 0.0,
+      "geometric_r": 5.823,
+      "realized_r": 2.835,
+      "mfe_r": 2.9,
       "outcome": "TIMEOUT",
       "compression": 0.561,
       "r2_high": 0.703,
@@ -10155,8 +10155,8 @@
       "touches_low": 4,
       "breakout_strength_atr": 0.0231,
       "trend20_signed": -0.1346,
-      "gap_atr": 1.0224,
-      "atr_pct": 0.0268,
+      "gap_atr": 0.0012,
+      "atr_pct": 0.02609,
       "symbol": "BITCOIN"
     }
   ],
@@ -10165,8 +10165,8 @@
     "schema_version": 1,
     "engine": "pattern_geometry_v2",
     "dataset": {
-      "manifest_sha256": "a3c01b76f315e4586df97e301ae156d3f799275e82a315250533abaa8a540129",
-      "manifest_bytes": 27650
+      "manifest_sha256": "f75c8fca0edab2e9d5c02136015f84e7786ac9b4506726834cfec5e740126c1a",
+      "manifest_bytes": 27662
     },
     "model_version": "rules-v2-frozen-2026-09-30",
     "reproducibility": {
