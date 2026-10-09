@@ -1,58 +1,16 @@
 {
   "schema_version": 1,
-  "status": "REVIEW_10R_PAPER_PROPOSALS",
-  "generated_at_utc": "2026-10-09T01:10:49.314230+00:00",
+  "status": "NO_10R_PROPOSALS",
+  "generated_at_utc": "2026-10-09T07:54:07.024383+00:00",
   "minimum_net_r": 10,
-  "proposals": [
-    {
-      "id": "7664bf39836d633c4979",
-      "symbol": "SILVER_FUT",
-      "strategy": "failed_breakout",
-      "direction": "LONG",
-      "signal_session": "2026-10-08",
-      "reference_close": 59.845001,
-      "indicative_entry": "NEXT_AVAILABLE_QUOTE_REQUIRED",
-      "indicative_stop": 57.411399,
-      "historical_reference_level": 121.300003,
-      "indicative_net_r": 24.02,
-      "risk_per_unit_proxy": 2.553292,
-      "status": "BLOCKED_UNTIL_NORDNET_KF_PRODUCT_AND_QUOTE_VERIFIED",
-      "execution_ready": false,
-      "nordnet_gate": {
-        "eligible": true,
-        "status": "NORDNET_PRODUCT_AND_QUOTE_REQUIRED",
-        "product_search": "Silver",
-        "preferred_types": [
-          "MINI_FUTURE",
-          "TURBO"
-        ]
-      },
-      "instrument_isin": null,
-      "verified_bid": null,
-      "verified_ask": null,
-      "verified_spread": null,
-      "verified_financing": null,
-      "verified_knockout_distance": null,
-      "required_checks": [
-        "specific Nordnet instrument verified available in KF",
-        "ISIN and product type verified",
-        "live executable bid/ask verified",
-        "spread and slippage included",
-        "financing and FX included where applicable",
-        "knockout/stop-loss distance compatible with strategy stop",
-        "R recomputed from executable product economics and remains >=10",
-        "position size and gap risk checked",
-        "independent strategy validation; no live execution"
-      ]
-    }
-  ],
+  "proposals": [],
   "raw_signal_counts": {
     "turtle_55": 0,
-    "volatility_contraction": 1,
-    "failed_breakout": 1,
+    "volatility_contraction": 0,
+    "failed_breakout": 0,
     "momentum_ignition": 0,
-    "time_series_momentum": 13,
-    "rsi2_reversal": 2
+    "time_series_momentum": 12,
+    "rsi2_reversal": 4
   },
   "excluded": {},
   "note": "Completed daily bars only. Research sensors and unmapped underlyings cannot become proposals. A proposal remains blocked until a specific Nordnet-KF instrument, executable quote and product economics are verified and net R is recomputed >=10. No broker orders."

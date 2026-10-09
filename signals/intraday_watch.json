@@ -1,24 +1,14 @@
 {
   "status": "RESEARCH_WATCH_ONLY",
-  "generated_at_utc": "2026-10-09T01:06:44.554310+00:00",
+  "generated_at_utc": "2026-10-09T07:54:05.980597+00:00",
   "observations": [
-    {
-      "symbol": "GOLD_FUT",
-      "bar_start_utc": "2026-10-09T00:00:00+00:00",
-      "events": [
-        "FAILED_HIGH_20H"
-      ],
-      "gap_pct": 0.01,
-      "hourly_move_pct": 0.0,
-      "status": "INTRADAY_WATCH_NOT_ORDER"
-    },
     {
       "symbol": "US30Y_YIELD",
       "bar_start_utc": "2026-10-08T18:20:00+00:00",
       "events": [
         "FAILED_LOW_20H"
       ],
-      "gap_pct": -0.04,
+      "gap_pct": 0.09,
       "hourly_move_pct": -0.05,
       "status": "INTRADAY_WATCH_NOT_ORDER"
     }

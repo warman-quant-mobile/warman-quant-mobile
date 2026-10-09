@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
-  "generated_at_utc": "2026-10-09T01:01:18.431157+00:00",
-  "source_manifest_utc": "2026-10-09T01:00:41.747785+00:00",
+  "generated_at_utc": "2026-10-09T07:54:03.652359+00:00",
+  "source_manifest_utc": "2026-10-09T07:53:25.576791+00:00",
   "status": "NO_QUALIFIED_CANDIDATES",
   "candidates": [],
   "rejected": {},
@@ -13,10 +13,10 @@
   },
   "diagnostic_watchlist": [
     {
-      "symbol": "AMAZON",
-      "direction": "LONG",
-      "session_date": "2026-10-07",
-      "reference_reward_risk_after_proxy_cost": 2.38,
+      "symbol": "SILVER_FUT",
+      "direction": "SHORT",
+      "session_date": "2026-10-08",
+      "reference_reward_risk_after_proxy_cost": 5.04,
       "reason": "BELOW_10R_REFERENCE",
       "note": "Research diagnostics only; historical reference is not a validated target."
     }

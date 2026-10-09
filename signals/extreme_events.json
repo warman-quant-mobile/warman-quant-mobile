@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at_utc": "2026-10-09T01:01:39.896276+00:00",
+  "generated_at_utc": "2026-10-09T07:54:04.449311+00:00",
   "status": "RESEARCH_ONLY",
   "parameters": {
     "gap_abs_pct": 3,
@@ -8,30 +8,6 @@
     "daily_range_atr": 2.5
   },
   "observations": {
-    "WTI_FUT": {
-      "session_date": "2026-10-08",
-      "events": [
-        {
-          "type": "GAP",
-          "direction": "UP",
-          "magnitude_pct": 3.41,
-          "subtype": "GAP_FADE_WATCH",
-          "note": "Requires independently verified catalyst and actual bid/ask; never infer earnings from price."
-        }
-      ]
-    },
-    "BRENT_FUT": {
-      "session_date": "2026-10-08",
-      "events": [
-        {
-          "type": "GAP",
-          "direction": "UP",
-          "magnitude_pct": 3.69,
-          "subtype": "GAP_FADE_WATCH",
-          "note": "Requires independently verified catalyst and actual bid/ask; never infer earnings from price."
-        }
-      ]
-    },
     "VIX": {
       "session_date": "2026-10-08",
       "events": [
@@ -41,6 +17,17 @@
           "magnitude_pct": 3.98,
           "subtype": "GAP_FADE_WATCH",
           "note": "Requires independently verified catalyst and actual bid/ask; never infer earnings from price."
+        }
+      ]
+    },
+    "SOLANA": {
+      "session_date": "2026-10-08",
+      "events": [
+        {
+          "type": "EXTREME_DAILY_RETURN",
+          "direction": "DOWN",
+          "magnitude_pct": -5.83,
+          "note": "Magnitude alone is not an entry signal."
         }
       ]
     }
