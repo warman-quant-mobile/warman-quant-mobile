@@ -670,7 +670,7 @@
       "summary": {
         "all": {
           "n": 14,
-          "mean_r": -0.187,
+          "mean_r": -0.21,
           "median_r": -1.0,
           "mean_geometric_r": 9.149,
           "target_hits": 1,
@@ -690,8 +690,8 @@
         },
         "oos": {
           "n": 6,
-          "mean_r": 0.928,
-          "median_r": -0.587,
+          "mean_r": 0.874,
+          "median_r": -0.748,
           "mean_geometric_r": 5.635,
           "target_hits": 1,
           "mfe_5r": 2,
@@ -735,8 +735,8 @@
         "DESCENDING": {
           "all": {
             "n": 2,
-            "mean_r": -0.587,
-            "median_r": -0.587,
+            "mean_r": -0.748,
+            "median_r": -0.748,
             "mean_geometric_r": 5.027,
             "target_hits": 0,
             "mfe_5r": 0,
@@ -755,8 +755,8 @@
           },
           "oos": {
             "n": 1,
-            "mean_r": -0.174,
-            "median_r": -0.174,
+            "mean_r": -0.495,
+            "median_r": -0.495,
             "mean_geometric_r": 3.891,
             "target_hits": 0,
             "mfe_5r": 0,
@@ -1596,10 +1596,10 @@
     "VOLVO_B": {
       "summary": {
         "all": {
-          "n": 17,
-          "mean_r": -0.247,
+          "n": 18,
+          "mean_r": -0.221,
           "median_r": -1.0,
-          "mean_geometric_r": 13.717,
+          "mean_geometric_r": 13.174,
           "target_hits": 1,
           "mfe_5r": 3,
           "mfe_10r": 0,
@@ -1616,10 +1616,10 @@
           "max_mfe_r": 6.302
         },
         "oos": {
-          "n": 7,
-          "mean_r": 0.027,
+          "n": 8,
+          "mean_r": 0.052,
           "median_r": -1.0,
-          "mean_geometric_r": 9.396,
+          "mean_geometric_r": 8.714,
           "target_hits": 0,
           "mfe_5r": 2,
           "mfe_10r": 0,
@@ -1686,10 +1686,10 @@
         },
         "FALLING_WEDGE": {
           "all": {
-            "n": 1,
-            "mean_r": -1.0,
-            "median_r": -1.0,
-            "mean_geometric_r": 12.747,
+            "n": 2,
+            "mean_r": -0.386,
+            "median_r": -0.386,
+            "mean_geometric_r": 8.341,
             "target_hits": 0,
             "mfe_5r": 0,
             "mfe_10r": 0,
@@ -1706,7 +1706,14 @@
             "max_mfe_r": 0.918
           },
           "oos": {
-            "n": 0
+            "n": 1,
+            "mean_r": 0.229,
+            "median_r": 0.229,
+            "mean_geometric_r": 3.934,
+            "target_hits": 0,
+            "mfe_5r": 0,
+            "mfe_10r": 0,
+            "max_mfe_r": 0.499
           }
         },
         "RISING_WEDGE": {
@@ -2314,7 +2321,7 @@
       "summary": {
         "all": {
           "n": 11,
-          "mean_r": 0.394,
+          "mean_r": 0.322,
           "median_r": -1.0,
           "mean_geometric_r": 31.128,
           "target_hits": 1,
@@ -2334,7 +2341,7 @@
         },
         "oos": {
           "n": 5,
-          "mean_r": 0.177,
+          "mean_r": 0.018,
           "median_r": -1.0,
           "mean_geometric_r": 57.707,
           "target_hits": 0,
@@ -2436,7 +2443,7 @@
         "SYMMETRICAL": {
           "all": {
             "n": 4,
-            "mean_r": -0.548,
+            "mean_r": -0.747,
             "median_r": -1.0,
             "mean_geometric_r": 70.301,
             "target_hits": 0,
@@ -2456,8 +2463,8 @@
           },
           "oos": {
             "n": 2,
-            "mean_r": 0.798,
-            "median_r": 0.798,
+            "mean_r": 0.399,
+            "median_r": 0.399,
             "mean_geometric_r": 11.101,
             "target_hits": 0,
             "mfe_5r": 0,
@@ -3167,7 +3174,7 @@
       "summary": {
         "all": {
           "n": 18,
-          "mean_r": 0.466,
+          "mean_r": 0.434,
           "median_r": -1.0,
           "mean_geometric_r": 7.107,
           "target_hits": 5,
@@ -3187,7 +3194,7 @@
         },
         "oos": {
           "n": 8,
-          "mean_r": 0.518,
+          "mean_r": 0.446,
           "median_r": -1.0,
           "mean_geometric_r": 7.712,
           "target_hits": 1,
@@ -3289,13 +3296,13 @@
         "RISING_WEDGE": {
           "all": {
             "n": 4,
-            "mean_r": -0.041,
+            "mean_r": -0.187,
             "median_r": -1.0,
             "mean_geometric_r": 5.976,
             "target_hits": 0,
             "mfe_5r": 0,
             "mfe_10r": 0,
-            "max_mfe_r": 2.9
+            "max_mfe_r": 3.94
           },
           "train": {
             "n": 2,
@@ -3309,13 +3316,13 @@
           },
           "oos": {
             "n": 2,
-            "mean_r": 0.917,
-            "median_r": 0.917,
+            "mean_r": 0.627,
+            "median_r": 0.627,
             "mean_geometric_r": 7.249,
             "target_hits": 0,
             "mfe_5r": 0,
             "mfe_10r": 0,
-            "max_mfe_r": 2.9
+            "max_mfe_r": 3.94
           }
         },
         "SYMMETRICAL": {
@@ -5206,7 +5213,7 @@
       "type": "DESCENDING",
       "side": "SHORT",
       "geometric_r": 3.891,
-      "realized_r": -0.174,
+      "realized_r": -0.495,
       "mfe_r": 0.319,
       "outcome": "TIMEOUT",
       "compression": 0.127,
@@ -6819,6 +6826,27 @@
       "symbol": "VOLVO_B"
     },
     {
+      "date": "2026-10-07",
+      "type": "FALLING_WEDGE",
+      "side": "SHORT",
+      "geometric_r": 3.934,
+      "realized_r": 0.229,
+      "mfe_r": 0.499,
+      "outcome": "TIMEOUT",
+      "compression": 0.451,
+      "r2_high": 0.962,
+      "r2_low": 1.0,
+      "slope_high_atr": -0.1942,
+      "slope_low_atr": -0.1424,
+      "touches_high": 4,
+      "touches_low": 4,
+      "breakout_strength_atr": 0.1421,
+      "trend20_signed": 0.0901,
+      "gap_atr": 0.1627,
+      "atr_pct": 0.01973,
+      "symbol": "VOLVO_B"
+    },
+    {
       "date": "2017-10-20",
       "type": "RISING_WEDGE",
       "side": "LONG",
@@ -8272,7 +8300,7 @@
       "type": "SYMMETRICAL",
       "side": "LONG",
       "geometric_r": 7.065,
-      "realized_r": 2.595,
+      "realized_r": 1.798,
       "mfe_r": 3.256,
       "outcome": "TIMEOUT",
       "compression": 0.204,
@@ -9637,8 +9665,8 @@
       "type": "RISING_WEDGE",
       "side": "SHORT",
       "geometric_r": 5.823,
-      "realized_r": 2.835,
-      "mfe_r": 2.9,
+      "realized_r": 2.253,
+      "mfe_r": 3.94,
       "outcome": "TIMEOUT",
       "compression": 0.561,
       "r2_high": 0.703,
@@ -10139,12 +10167,33 @@
   ],
   "recent_patterns": [
     {
+      "date": "2026-10-07",
+      "type": "FALLING_WEDGE",
+      "side": "SHORT",
+      "geometric_r": 3.934,
+      "realized_r": 0.229,
+      "mfe_r": 0.499,
+      "outcome": "TIMEOUT",
+      "compression": 0.451,
+      "r2_high": 0.962,
+      "r2_low": 1.0,
+      "slope_high_atr": -0.1942,
+      "slope_low_atr": -0.1424,
+      "touches_high": 4,
+      "touches_low": 4,
+      "breakout_strength_atr": 0.1421,
+      "trend20_signed": 0.0901,
+      "gap_atr": 0.1627,
+      "atr_pct": 0.01973,
+      "symbol": "VOLVO_B"
+    },
+    {
       "date": "2026-10-06",
       "type": "RISING_WEDGE",
       "side": "SHORT",
       "geometric_r": 5.823,
-      "realized_r": 2.835,
-      "mfe_r": 2.9,
+      "realized_r": 2.253,
+      "mfe_r": 3.94,
       "outcome": "TIMEOUT",
       "compression": 0.561,
       "r2_high": 0.703,
@@ -10165,8 +10214,8 @@
     "schema_version": 1,
     "engine": "pattern_geometry_v2",
     "dataset": {
-      "manifest_sha256": "f75c8fca0edab2e9d5c02136015f84e7786ac9b4506726834cfec5e740126c1a",
-      "manifest_bytes": 27662
+      "manifest_sha256": "befb04352a803becd3e4a4a8b40a2a91a22aea8c43581e0d585592e098767dc9",
+      "manifest_bytes": 27660
     },
     "model_version": "rules-v2-frozen-2026-09-30",
     "reproducibility": {

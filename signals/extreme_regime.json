@@ -1,98 +1,91 @@
 {
   "status": "RESEARCH_WARNING_ONLY",
-  "generated_at_utc": "2026-10-09T16:54:19.111290+00:00",
-  "level": "WATCH",
-  "stress_score": 2,
+  "generated_at_utc": "2026-10-10T01:06:04.933372+00:00",
+  "level": "NORMAL",
+  "stress_score": 0,
   "cross_asset_tail_count": 0,
-  "events": [
-    {
-      "symbol": "VIX",
-      "tags": [
-        "GAP_3PCT"
-      ]
-    }
-  ],
+  "events": [],
   "metrics": {
     "SP500": {
-      "ret1": -0.00467,
-      "gap": -0.00299,
-      "tail_rank": 0.4312,
-      "rv_rank": 0.1976,
-      "prior_rv_rank": 0.2064,
-      "atr_move": 0.51928,
-      "dd20": -0.00685
+      "ret1": 0.00595,
+      "gap": 0.0027,
+      "tail_rank": 0.5248,
+      "rv_rank": 0.1776,
+      "prior_rv_rank": 0.1984,
+      "atr_move": 0.65201,
+      "dd20": -0.00095
     },
     "NASDAQ100": {
-      "ret1": -0.01394,
-      "gap": -0.00561,
-      "tail_rank": 0.7136,
-      "rv_rank": 0.2688,
-      "prior_rv_rank": 0.24,
-      "atr_move": 1.11946,
-      "dd20": -0.01597
+      "ret1": 0.00512,
+      "gap": 0.00567,
+      "tail_rank": 0.3536,
+      "rv_rank": 0.26,
+      "prior_rv_rank": 0.2696,
+      "atr_move": 0.39438,
+      "dd20": -0.01093
     },
     "GOLD_FUT": {
-      "ret1": 0.00394,
-      "gap": -0.00019,
-      "tail_rank": 0.3328,
-      "rv_rank": 0.588,
-      "prior_rv_rank": 0.5936,
-      "atr_move": 0.17764,
-      "dd20": -0.06054
+      "ret1": 0.01523,
+      "gap": 0.00065,
+      "tail_rank": 0.8456,
+      "rv_rank": 0.6488,
+      "prior_rv_rank": 0.588,
+      "atr_move": 0.72239,
+      "dd20": -0.04624
     },
     "SILVER_FUT": {
-      "ret1": -0.01394,
-      "gap": -0.01394,
-      "tail_rank": 0.5688,
-      "rv_rank": 0.4152,
-      "prior_rv_rank": 0.6016,
-      "atr_move": 0.60468,
-      "dd20": -0.11257
+      "ret1": 0.03464,
+      "gap": 0.0067,
+      "tail_rank": 0.8728,
+      "rv_rank": 0.5336,
+      "prior_rv_rank": 0.4152,
+      "atr_move": 1.64967,
+      "dd20": -0.08183
     },
     "WTI_FUT": {
-      "ret1": 0.03636,
-      "gap": 0.00816,
-      "tail_rank": 0.8776,
-      "rv_rank": 0.6536,
-      "prior_rv_rank": 0.76,
-      "atr_move": 0.65191,
-      "dd20": -0.1355
+      "ret1": 0.00186,
+      "gap": -0.00219,
+      "tail_rank": 0.0616,
+      "rv_rank": 0.6384,
+      "prior_rv_rank": 0.6536,
+      "atr_move": 0.03589,
+      "dd20": -0.13389
     },
     "BRENT_FUT": {
-      "ret1": 0.04072,
-      "gap": 0.00928,
-      "tail_rank": 0.912,
-      "rv_rank": 0.6096,
-      "prior_rv_rank": 0.72,
-      "atr_move": 0.82516,
-      "dd20": -0.0411
+      "ret1": 0.00144,
+      "gap": -0.00364,
+      "tail_rank": 0.0592,
+      "rv_rank": 0.568,
+      "prior_rv_rank": 0.6096,
+      "atr_move": 0.03134,
+      "dd20": -0.03972
     },
     "US30Y_BOND_FUT": {
-      "ret1": 0.00825,
-      "gap": -0.00122,
-      "tail_rank": 0.7728,
-      "rv_rank": 0.3272,
-      "prior_rv_rank": 0.2848,
-      "atr_move": 0.75524,
-      "dd20": -0.04682
+      "ret1": 0.00121,
+      "gap": 0.0003,
+      "tail_rank": 0.116,
+      "rv_rank": 0.3384,
+      "prior_rv_rank": 0.3272,
+      "atr_move": 0.10974,
+      "dd20": -0.04566
     },
     "EURUSD": {
-      "ret1": -0.00464,
-      "gap": -0.00464,
-      "tail_rank": 0.7328,
-      "rv_rank": 0.0792,
-      "prior_rv_rank": 0.0736,
-      "atr_move": 0.79375,
-      "dd20": -0.03718
+      "ret1": 0.00039,
+      "gap": 0.0014,
+      "tail_rank": 0.0824,
+      "rv_rank": 0.092,
+      "prior_rv_rank": 0.08,
+      "atr_move": 0.06529,
+      "dd20": -0.03482
     },
     "USDSEK": {
-      "ret1": 2e-05,
-      "gap": -0.0,
-      "tail_rank": 0.004,
-      "rv_rank": 0.0224,
-      "prior_rv_rank": 0.0216,
-      "atr_move": 0.00311,
-      "dd20": -0.00453
+      "ret1": -0.00349,
+      "gap": -0.00288,
+      "tail_rank": 0.4144,
+      "rv_rank": 0.0072,
+      "prior_rv_rank": 0.0232,
+      "atr_move": 0.4445,
+      "dd20": -0.008
     },
     "BITCOIN": {
       "ret1": -0.01921,
@@ -104,49 +97,49 @@
       "dd20": -0.05689
     },
     "VIX": {
-      "ret1": 0.02188,
-      "gap": 0.03979,
-      "tail_rank": 0.2968,
-      "rv_rank": 0.3664,
-      "prior_rv_rank": 0.4176,
-      "atr_move": 0.24194,
-      "dd20": -0.13621
+      "ret1": -0.03699,
+      "gap": -0.00454,
+      "tail_rank": 0.4776,
+      "rv_rank": 0.276,
+      "prior_rv_rank": 0.3672,
+      "atr_move": 0.42569,
+      "dd20": -0.16206
     },
     "OVX": {
-      "ret1": -0.00432,
-      "gap": 0.01461,
-      "tail_rank": 0.0784,
+      "ret1": 0.01033,
+      "gap": 0.01467,
+      "tail_rank": 0.1768,
       "rv_rank": 0.1808,
-      "prior_rv_rank": 0.68,
-      "atr_move": 0.05637,
-      "dd20": -0.21594
+      "prior_rv_rank": 0.1816,
+      "atr_move": 0.1497,
+      "dd20": -0.20784
     },
     "GVZ": {
-      "ret1": -0.03035,
-      "gap": -0.01796,
-      "tail_rank": 0.5704,
-      "rv_rank": 0.5344,
-      "prior_rv_rank": 0.54,
-      "atr_move": 0.59315,
-      "dd20": -0.20365
+      "ret1": 0.00485,
+      "gap": 0.00926,
+      "tail_rank": 0.0968,
+      "rv_rank": 0.3608,
+      "prior_rv_rank": 0.5344,
+      "atr_move": 0.09236,
+      "dd20": -0.15279
     },
     "US30Y_YIELD": {
-      "ret1": -0.00972,
-      "gap": 0.00601,
-      "tail_rank": 0.5648,
-      "rv_rank": 0.1608,
-      "prior_rv_rank": 0.152,
-      "atr_move": 0.71661,
-      "dd20": -0.01041
+      "ret1": -0.00107,
+      "gap": 0.00054,
+      "tail_rank": 0.0616,
+      "rv_rank": 0.1592,
+      "prior_rv_rank": 0.1616,
+      "atr_move": 0.07732,
+      "dd20": -0.01147
     },
     "US10Y_YIELD": {
-      "ret1": -0.00872,
-      "gap": 0.00891,
-      "tail_rank": 0.4296,
-      "rv_rank": 0.1552,
-      "prior_rv_rank": 0.1904,
-      "atr_move": 0.52995,
-      "dd20": -0.01506
+      "ret1": 0.00249,
+      "gap": 0.00096,
+      "tail_rank": 0.1168,
+      "rv_rank": 0.1544,
+      "prior_rv_rank": 0.156,
+      "atr_move": 0.15038,
+      "dd20": -0.01262
     }
   },
   "interpretation": "Fragility/tail-state indicator, not a crash forecast and never an automatic trade.",

@@ -1,15 +1,15 @@
 {
   "status": "RESEARCH_WATCH_ONLY",
-  "generated_at_utc": "2026-10-09T16:54:18.756854+00:00",
+  "generated_at_utc": "2026-10-10T01:06:04.465531+00:00",
   "observations": [
     {
-      "symbol": "BRENT_FUT",
-      "bar_start_utc": "2026-10-09T15:00:00+00:00",
+      "symbol": "VIX",
+      "bar_start_utc": "2026-10-09T20:00:00+00:00",
       "events": [
-        "FAILED_HIGH_20H"
+        "FAILED_LOW_20H"
       ],
-      "gap_pct": 0.03,
-      "hourly_move_pct": -0.05,
+      "gap_pct": -0.14,
+      "hourly_move_pct": 0.34,
       "status": "INTRADAY_WATCH_NOT_ORDER"
     }
   ],
