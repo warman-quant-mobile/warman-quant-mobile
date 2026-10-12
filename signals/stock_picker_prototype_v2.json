@@ -12,7 +12,7 @@
       "ticker": "GORO",
       "name": "Goldgroup Mining Inc.",
       "region": "us",
-      "market_cap": 589887168,
+      "market_cap": 589058880,
       "families": {
         "quality": 0.988,
         "value": 0.8876,
@@ -93,7 +93,7 @@
       "ticker": "SNDK",
       "name": "Sandisk Corporation",
       "region": "us",
-      "market_cap": 215523115008,
+      "market_cap": 214192750592,
       "families": {
         "quality": 0.8246,
         "growth": 0.8728,
@@ -159,7 +159,7 @@
       "ticker": "EMAT",
       "name": "Evolution Metals & Technologies",
       "region": "us",
-      "market_cap": 859264896,
+      "market_cap": 893760896,
       "families": {
         "quality": 0.8775,
         "value": 0.9116,
@@ -238,7 +238,7 @@
       "ticker": "AEHR",
       "name": "Aehr Test Systems",
       "region": "us",
-      "market_cap": 2577817856,
+      "market_cap": 2549694976,
       "families": {
         "value": 0.8855,
         "growth": 0.8233,
@@ -303,7 +303,7 @@
       "ticker": "MU",
       "name": "Micron Technology, Inc.",
       "region": "us",
-      "market_cap": 1129250947072,
+      "market_cap": 1120889733120,
       "families": {
         "quality": 0.8179,
         "growth": 0.7818,
@@ -384,7 +384,7 @@
       "ticker": "WFF",
       "name": "WF Holding Limited",
       "region": "us",
-      "market_cap": 672395840,
+      "market_cap": 817434624,
       "families": {
         "value": 0.8795,
         "growth": 0.9076,
@@ -451,7 +451,7 @@
       "ticker": "XERS",
       "name": "Xeris Biopharma Holdings, Inc.",
       "region": "us",
-      "market_cap": 1905247104,
+      "market_cap": 1889749888,
       "families": {
         "quality": 0.7349,
         "value": 0.8193,
@@ -532,7 +532,7 @@
       "ticker": "QMCO",
       "name": "Quantum Corporation",
       "region": "us",
-      "market_cap": 1131264000,
+      "market_cap": 1082986752,
       "families": {
         "quality": 0.9157,
         "value": 0.8715,
@@ -599,7 +599,7 @@
       "ticker": "GRPN",
       "name": "Groupon, Inc.",
       "region": "us",
-      "market_cap": 753934656,
+      "market_cap": 751901312,
       "families": {
         "quality": 0.9558,
         "value": 0.6225,
@@ -667,7 +667,7 @@
       "ticker": "ANGX",
       "name": "Angel Studios, Inc.",
       "region": "us",
-      "market_cap": 710607808,
+      "market_cap": 701270016,
       "families": {
         "quality": 0.9639,
         "value": 0.7631,
@@ -682,7 +682,7 @@
       "ticker": "GORO",
       "name": "Goldgroup Mining Inc.",
       "region": "us",
-      "market_cap": 589887168,
+      "market_cap": 589058880,
       "families": {
         "quality": 0.988,
         "value": 0.8876,
@@ -763,7 +763,7 @@
       "ticker": "SNDK",
       "name": "Sandisk Corporation",
       "region": "us",
-      "market_cap": 215523115008,
+      "market_cap": 214192750592,
       "families": {
         "quality": 0.8246,
         "growth": 0.8728,
@@ -829,7 +829,7 @@
       "ticker": "EMAT",
       "name": "Evolution Metals & Technologies",
       "region": "us",
-      "market_cap": 859264896,
+      "market_cap": 893760896,
       "families": {
         "quality": 0.8775,
         "value": 0.9116,
@@ -908,7 +908,7 @@
       "ticker": "AEHR",
       "name": "Aehr Test Systems",
       "region": "us",
-      "market_cap": 2577817856,
+      "market_cap": 2549694976,
       "families": {
         "value": 0.8855,
         "growth": 0.8233,
@@ -973,7 +973,7 @@
       "ticker": "MU",
       "name": "Micron Technology, Inc.",
       "region": "us",
-      "market_cap": 1129250947072,
+      "market_cap": 1120889733120,
       "families": {
         "quality": 0.8179,
         "growth": 0.7818,
@@ -1054,7 +1054,7 @@
       "ticker": "WFF",
       "name": "WF Holding Limited",
       "region": "us",
-      "market_cap": 672395840,
+      "market_cap": 817434624,
       "families": {
         "value": 0.8795,
         "growth": 0.9076,
@@ -1121,7 +1121,7 @@
       "ticker": "XERS",
       "name": "Xeris Biopharma Holdings, Inc.",
       "region": "us",
-      "market_cap": 1905247104,
+      "market_cap": 1889749888,
       "families": {
         "quality": 0.7349,
         "value": 0.8193,
@@ -1202,7 +1202,7 @@
       "ticker": "QMCO",
       "name": "Quantum Corporation",
       "region": "us",
-      "market_cap": 1131264000,
+      "market_cap": 1082986752,
       "families": {
         "quality": 0.9157,
         "value": 0.8715,
@@ -1269,7 +1269,7 @@
       "ticker": "GRPN",
       "name": "Groupon, Inc.",
       "region": "us",
-      "market_cap": 753934656,
+      "market_cap": 751901312,
       "families": {
         "quality": 0.9558,
         "value": 0.6225,
@@ -1337,7 +1337,7 @@
       "ticker": "ANGX",
       "name": "Angel Studios, Inc.",
       "region": "us",
-      "market_cap": 710607808,
+      "market_cap": 701270016,
       "families": {
         "quality": 0.9639,
         "value": 0.7631,
@@ -1415,7 +1415,7 @@
       "ticker": "AMRX",
       "name": "Amneal Pharmaceuticals, Inc.",
       "region": "us",
-      "market_cap": 6979852800,
+      "market_cap": 6962437632,
       "families": {
         "quality": 0.9398,
         "growth": 0.9518,
@@ -1482,7 +1482,7 @@
       "ticker": "IBRX",
       "name": "ImmunityBio, Inc.",
       "region": "us",
-      "market_cap": 10805030912,
+      "market_cap": 10773235712,
       "families": {
         "quality": 0.7751,
         "value": 0.6124,
@@ -1562,7 +1562,7 @@
       "ticker": "PGEN",
       "name": "Precigen, Inc.",
       "region": "us",
-      "market_cap": 2766525184,
+      "market_cap": 2750482176,
       "families": {
         "value": 0.7108,
         "growth": 0.9518,
@@ -1630,7 +1630,7 @@
       "ticker": "SATL",
       "name": "Satellogic Inc.",
       "region": "us",
-      "market_cap": 730264576,
+      "market_cap": 729495808,
       "families": {
         "quality": 0.9357,
         "value": 0.6185,
@@ -1710,7 +1710,7 @@
       "ticker": "GH",
       "name": "Guardant Health, Inc.",
       "region": "us",
-      "market_cap": 21683417088,
+      "market_cap": 21431128064,
       "families": {
         "quality": 0.8394,
         "value": 0.6452,
@@ -1776,13 +1776,13 @@
       "ticker": "STX",
       "name": "Seagate Technology Holdings PLC",
       "region": "us",
-      "market_cap": 171577114624,
+      "market_cap": 172371853312,
       "families": {
         "quality": 0.9009,
-        "growth": 0.3012,
+        "growth": 0.3032,
         "momentum": 0.8434
       },
-      "score": 0.6856760374832663,
+      "score": 0.6863453815261044,
       "region_percentile": 0.7794117647058824
     },
     {
@@ -1856,7 +1856,7 @@
       "ticker": "CLMT",
       "name": "Calumet, Inc",
       "region": "us",
-      "market_cap": 4973282304,
+      "market_cap": 4961855488,
       "families": {
         "value": 0.3614,
         "growth": 0.9357,
@@ -1924,7 +1924,7 @@
       "ticker": "DCBO",
       "name": "Docebo Inc.",
       "region": "us",
-      "market_cap": 635664704,
+      "market_cap": 636163648,
       "families": {
         "quality": 0.8112,
         "value": 0.996,
@@ -1992,7 +1992,7 @@
       "ticker": "DELL",
       "name": "Dell Technologies Inc.",
       "region": "us",
-      "market_cap": 362235199488,
+      "market_cap": 364594102272,
       "families": {
         "quality": 0.7108,
         "value": 0.9799,
@@ -2075,7 +2075,7 @@
       "ticker": "BCRX",
       "name": "BioCryst Pharmaceuticals, Inc.",
       "region": "us",
-      "market_cap": 2127329664,
+      "market_cap": 2133718272,
       "families": {
         "quality": 0.8313,
         "value": 0.5341,
@@ -2143,7 +2143,7 @@
       "ticker": "IRWD",
       "name": "Ironwood Pharmaceuticals, Inc.",
       "region": "us",
-      "market_cap": 620476032,
+      "market_cap": 618823616,
       "families": {
         "quality": 0.9438,
         "value": 0.498,
@@ -2295,7 +2295,7 @@
       "ticker": "AYA",
       "name": "Aya Gold & Silver Inc.",
       "region": "us",
-      "market_cap": 3860168960,
+      "market_cap": 3834242816,
       "families": {
         "quality": 0.5141,
         "growth": 0.8896,
@@ -2374,7 +2374,7 @@
       "ticker": "TXG",
       "name": "10x Genomics, Inc.",
       "region": "us",
-      "market_cap": 9784866816,
+      "market_cap": 9479985152,
       "families": {
         "value": 0.8313,
         "growth": 0.1847,
@@ -2442,7 +2442,7 @@
       "ticker": "AUGO",
       "name": "Aura Minerals Inc.",
       "region": "us",
-      "market_cap": 7772513280,
+      "market_cap": 7708796928,
       "families": {
         "quality": 0.826,
         "growth": 0.4873,
@@ -2522,13 +2522,13 @@
       "ticker": "VIAV",
       "name": "Viavi Solutions Inc.",
       "region": "us",
-      "market_cap": 10481201152,
+      "market_cap": 10360699904,
       "families": {
         "value": 0.9076,
-        "growth": 0.1888,
+        "growth": 0.1928,
         "momentum": 0.8514
       },
-      "score": 0.6348250143430867,
+      "score": 0.636259323006311,
       "region_percentile": 0.6323529411764706
     },
     {
@@ -2590,7 +2590,7 @@
       "ticker": "ATEX",
       "name": "Anterix Inc.",
       "region": "us",
-      "market_cap": 1675362048,
+      "market_cap": 1673106944,
       "families": {
         "value": 0.4859,
         "growth": 0.5462,
@@ -2659,7 +2659,7 @@
       "ticker": "INBX",
       "name": "Inhibrx Biosciences, Inc.",
       "region": "us",
-      "market_cap": 1380074880,
+      "market_cap": 1371023616,
       "families": {
         "value": 0.7831,
         "growth": 0.4036,
@@ -2738,7 +2738,7 @@
       "ticker": "PRAX",
       "name": "Praxis Precision Medicines, Inc",
       "region": "us",
-      "market_cap": 7128813056,
+      "market_cap": 7053984768,
       "families": {
         "value": 0.1044,
         "growth": 0.8394,
@@ -2804,7 +2804,7 @@
       "ticker": "CORZ",
       "name": "Core Scientific, Inc.",
       "region": "us",
-      "market_cap": 4845813760,
+      "market_cap": 4834567168,
       "families": {
         "quality": 0.5341,
         "value": 0.5823,
@@ -2884,7 +2884,7 @@
       "ticker": "AAOI",
       "name": "Applied Optoelectronics, Inc.",
       "region": "us",
-      "market_cap": 8694404096,
+      "market_cap": 8452421120,
       "families": {
         "value": 0.8454,
         "growth": 0.1185,
@@ -2952,7 +2952,7 @@
       "ticker": "PARR",
       "name": "Par Pacific Holdings, Inc. Comm",
       "region": "us",
-      "market_cap": 4176304896,
+      "market_cap": 4168539648,
       "families": {
         "quality": 0.4605,
         "growth": 0.8594,
@@ -3032,7 +3032,7 @@
       "ticker": "INDV",
       "name": "Indivior Pharmaceuticals, Inc.",
       "region": "us",
-      "market_cap": 4203117312,
+      "market_cap": 4231444736,
       "families": {
         "quality": 0.9297,
         "value": 0.747,
@@ -3100,13 +3100,13 @@
       "ticker": "WDC",
       "name": "Western Digital Corporation",
       "region": "us",
-      "market_cap": 145499455488,
+      "market_cap": 145061494784,
       "families": {
         "quality": 0.7349,
-        "growth": 0.2309,
+        "growth": 0.2329,
         "momentum": 0.8072
       },
-      "score": 0.5862115127175368,
+      "score": 0.5868808567603748,
       "region_percentile": 0.5147058823529411
     },
     {
@@ -3168,7 +3168,7 @@
       "ticker": "ECO",
       "name": "Okeanis Eco Tankers Corp.",
       "region": "us",
-      "market_cap": 3834966272,
+      "market_cap": 3854683648,
       "families": {
         "quality": 0.4833,
         "growth": 0.5422,
@@ -3248,7 +3248,7 @@
       "ticker": "EOSE",
       "name": "Eos Energy Enterprises, Inc.",
       "region": "us",
-      "market_cap": 890390080,
+      "market_cap": 884927616,
       "families": {
         "quality": 0.743,
         "value": 0.3253,
@@ -3316,7 +3316,7 @@
       "ticker": "PUBM",
       "name": "PubMatic, Inc.",
       "region": "us",
-      "market_cap": 845864576,
+      "market_cap": 844056256,
       "families": {
         "value": 0.5341,
         "growth": 0.5904,
@@ -3397,7 +3397,7 @@
       "ticker": "TER",
       "name": "Teradyne, Inc.",
       "region": "us",
-      "market_cap": 60586729472,
+      "market_cap": 60231839744,
       "families": {
         "quality": 0.6526,
         "growth": 0.2048,
@@ -3466,7 +3466,7 @@
       "ticker": "NGL",
       "name": "NGL ENERGY PARTNERS LP",
       "region": "us",
-      "market_cap": 1828737152,
+      "market_cap": 1823908224,
       "families": {
         "value": 0.4618,
         "growth": 0.5502,
@@ -3548,7 +3548,7 @@
       "ticker": "GTX",
       "name": "Garrett Motion Inc.",
       "region": "us",
-      "market_cap": 4900782080,
+      "market_cap": 4889363456,
       "families": {
         "quality": 0.6004,
         "value": 0.5823,
@@ -3616,7 +3616,7 @@
       "ticker": "TNGX",
       "name": "Tango Therapeutics, Inc.",
       "region": "us",
-      "market_cap": 4062666752,
+      "market_cap": 4029787648,
       "families": {
         "value": 0.2771,
         "growth": 0.6104,
@@ -3698,7 +3698,7 @@
       "ticker": "AXGN",
       "name": "AxoGen, Inc.",
       "region": "us",
-      "market_cap": 2109240960,
+      "market_cap": 2165858816,
       "families": {
         "value": 0.7209,
         "growth": 0.2972,
@@ -3766,7 +3766,7 @@
       "ticker": "URGN",
       "name": "UroGen Pharma Ltd.",
       "region": "us",
-      "market_cap": 1855995136,
+      "market_cap": 1827644288,
       "families": {
         "quality": 0.5502,
         "value": 0.506,
@@ -3836,7 +3836,7 @@
       "ticker": "ERAS",
       "name": "Erasca, Inc.",
       "region": "us",
-      "market_cap": 5442297856,
+      "market_cap": 5424809472,
       "families": {
         "value": 0.4578,
         "growth": 0.1566,
@@ -3918,7 +3918,7 @@
       "ticker": "ANDG",
       "name": "Andersen Group Inc.",
       "region": "us",
-      "market_cap": 1068298432,
+      "market_cap": 1068761920,
       "families": {
         "quality": 0.4317,
         "value": 0.3414,
@@ -3987,7 +3987,7 @@
       "ticker": "ETON",
       "name": "Eton Pharmaceuticals, Inc.",
       "region": "us",
-      "market_cap": 1619620608,
+      "market_cap": 1595510656,
       "families": {
         "quality": 0.2129,
         "growth": 0.5843,
@@ -4067,7 +4067,7 @@
       "ticker": "VFS",
       "name": "VinFast Auto Ltd.",
       "region": "us",
-      "market_cap": 7138392576,
+      "market_cap": 7135585280,
       "families": {
         "quality": 0.7108,
         "value": 0.3333,
@@ -4135,7 +4135,7 @@
       "ticker": "IMMX",
       "name": "Immix Biopharma, Inc.",
       "region": "us",
-      "market_cap": 775142656,
+      "market_cap": 773899072,
       "families": {
         "value": 0.0402,
         "growth": 0.5863,
@@ -4217,13 +4217,13 @@
       "ticker": "AAUC",
       "name": "Allied Gold Corporation",
       "region": "us",
-      "market_cap": 2794621952,
+      "market_cap": 2803679744,
       "families": {
         "quality": 0.6948,
         "value": 0.2771,
-        "growth": 0.3708
+        "growth": 0.3722
       },
-      "score": 0.4630187416331994,
+      "score": 0.46343708165997316,
       "region_percentile": 0.2941176470588235
     },
     {
@@ -4286,7 +4286,7 @@
       "ticker": "OABI",
       "name": "OmniAb, Inc.",
       "region": "us",
-      "market_cap": 691767488,
+      "market_cap": 696420032,
       "families": {
         "value": 0.4739,
         "growth": 0.1968,
@@ -4367,7 +4367,7 @@
       "ticker": "FIX",
       "name": "Comfort Systems USA, Inc.",
       "region": "us",
-      "market_cap": 58996953088,
+      "market_cap": 57918603264,
       "families": {
         "quality": 0.5917,
         "growth": 0.3695,
@@ -4434,13 +4434,13 @@
       "ticker": "INSW",
       "name": "International Seaways, Inc.",
       "region": "us",
-      "market_cap": 6114888192,
+      "market_cap": 6155999232,
       "families": {
         "quality": 0.506,
-        "growth": 0.1205,
+        "growth": 0.1218,
         "momentum": 0.6506
       },
-      "score": 0.4160642570281125,
+      "score": 0.4165104863900045,
       "region_percentile": 0.25
     },
     {
@@ -4503,7 +4503,7 @@
       "ticker": "XMAX",
       "name": "XMAX, Inc.",
       "region": "us",
-      "market_cap": 566364160,
+      "market_cap": 557606016,
       "families": {
         "quality": 0.2771,
         "value": 0.8233,
@@ -4583,13 +4583,13 @@
       "ticker": "FRO",
       "name": "Frontline Plc",
       "region": "us",
-      "market_cap": 13105809408,
+      "market_cap": 13070189568,
       "families": {
         "quality": 0.3253,
-        "growth": 0.3594,
+        "growth": 0.3614,
         "momentum": 0.5703
       },
-      "score": 0.40200803212851405,
+      "score": 0.4026773761713521,
       "region_percentile": 0.22058823529411764
     },
     {
@@ -4650,7 +4650,7 @@
       "ticker": "TBBB",
       "name": "BBB Foods Inc.",
       "region": "us",
-      "market_cap": 6671944192,
+      "market_cap": 6752720896,
       "families": {
         "value": 0.1928,
         "growth": 0.5904,
@@ -4732,7 +4732,7 @@
       "ticker": "ABCL",
       "name": "AbCellera Biologics Inc.",
       "region": "us",
-      "market_cap": 4173730048,
+      "market_cap": 4078136064,
       "families": {
         "value": 0.1968,
         "growth": 0.5382,
@@ -4801,13 +4801,13 @@
       "ticker": "PAYS",
       "name": "Paysign, Inc.",
       "region": "us",
-      "market_cap": 845238464,
+      "market_cap": 850320064,
       "families": {
         "quality": 0.2369,
-        "growth": 0.2851,
+        "growth": 0.2892,
         "momentum": 0.6747
       },
-      "score": 0.3697456492637215,
+      "score": 0.37108433734939755,
       "region_percentile": 0.17647058823529416
     },
     {
@@ -4880,7 +4880,7 @@
       "ticker": "VSXY",
       "name": "Victorias Secret & Co.",
       "region": "us",
-      "market_cap": 6981746176,
+      "market_cap": 7071880192,
       "families": {
         "quality": 0.1807,
         "growth": 0.2972,
@@ -4946,13 +4946,13 @@
       "ticker": "NUTX",
       "name": "Nutex Health Inc.",
       "region": "us",
-      "market_cap": 1397328896,
+      "market_cap": 1394658176,
       "families": {
         "quality": 0.7242,
-        "growth": 0.0241,
+        "growth": 0.0281,
         "momentum": 0.2169
       },
-      "score": 0.35555555555555557,
+      "score": 0.3568942436412316,
       "region_percentile": 0.1470588235294118
     },
     {
@@ -5025,7 +5025,7 @@
       "ticker": "TVTX",
       "name": "Travere Therapeutics, Inc.",
       "region": "us",
-      "market_cap": 4903981056,
+      "market_cap": 4896541184,
       "families": {
         "value": 0.5622,
         "growth": 0.3133,
@@ -5092,7 +5092,7 @@
       "ticker": "ROIV",
       "name": "Roivant Sciences Ltd.",
       "region": "us",
-      "market_cap": 25353535488,
+      "market_cap": 25093502976,
       "families": {
         "value": 0.3574,
         "growth": 0.3012,
@@ -5161,7 +5161,7 @@
       "ticker": "LIFE",
       "name": "Ethos Technologies Inc.",
       "region": "us",
-      "market_cap": 2372489216,
+      "market_cap": 2384603648,
       "families": {
         "value": 0.2329,
         "growth": 0.3896,
@@ -5243,13 +5243,13 @@
       "ticker": "DHT",
       "name": "DHT Holdings, Inc.",
       "region": "us",
-      "market_cap": 4186481664,
+      "market_cap": 4176807424,
       "families": {
         "quality": 0.4297,
-        "growth": 0.1606,
+        "growth": 0.1647,
         "momentum": 0.3534
       },
-      "score": 0.3196787148594378,
+      "score": 0.32101740294511383,
       "region_percentile": 0.08823529411764708
     },
     {
@@ -5310,7 +5310,7 @@
       "ticker": "HYMC",
       "name": "Hycroft Mining Holding Corporat",
       "region": "us",
-      "market_cap": 1721531520,
+      "market_cap": 1705224704,
       "families": {
         "value": 0.1245,
         "growth": 0.3052,
@@ -5391,13 +5391,13 @@
       "ticker": "BLTE",
       "name": "Belite Bio, Inc",
       "region": "us",
-      "market_cap": 6411325440,
+      "market_cap": 6350715904,
       "families": {
         "value": 0.5321,
-        "growth": 0.2892,
+        "growth": 0.2932,
         "momentum": 0.0361
       },
-      "score": 0.3036431440045898,
+      "score": 0.3050774526678141,
       "region_percentile": 0.05882352941176472
     },
     {
@@ -5457,13 +5457,13 @@
       "ticker": "MPC",
       "name": "Marathon Petroleum Corporation",
       "region": "us",
-      "market_cap": 134374055936,
+      "market_cap": 133724495872,
       "families": {
         "quality": 0.0402,
-        "growth": 0.3012,
+        "growth": 0.3025,
         "momentum": 0.5863
       },
-      "score": 0.2728246318607765,
+      "score": 0.27327086122266847,
       "region_percentile": 0.044117647058823484
     },
     {
@@ -5538,7 +5538,7 @@
       "ticker": "NUAI",
       "name": "New Era Energy & Digital, Inc.",
       "region": "us",
-      "market_cap": 541774912,
+      "market_cap": 544190848,
       "families": {
         "value": 0.0361,
         "growth": 0.5964,
@@ -5605,7 +5605,7 @@
       "ticker": "FTH",
       "name": "Faeth Therapeutics, Inc.",
       "region": "us",
-      "market_cap": 633219584,
+      "market_cap": 605053568,
       "families": {
         "value": 0.0643,
         "growth": 0.1968,
@@ -5687,13 +5687,13 @@
       "ticker": "TNK",
       "name": "Teekay Tankers Ltd.",
       "region": "us",
-      "market_cap": 3727332352,
+      "market_cap": 3760244224,
       "families": {
         "quality": 0.0241,
-        "growth": 0.0602,
+        "growth": 0.0643,
         "momentum": 0.3293
       },
-      "score": 0.11753681392235606,
+      "score": 0.11887550200803211,
       "region_percentile": 0.0
     }
   ]
