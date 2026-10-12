@@ -1,6 +1,6 @@
 {
   "status": "RESEARCH_WATCH_ONLY",
-  "generated_at_utc": "2026-10-10T01:06:04.465531+00:00",
+  "generated_at_utc": "2026-10-12T07:57:42.620938+00:00",
   "observations": [
     {
       "symbol": "VIX",
@@ -10,6 +10,26 @@
       ],
       "gap_pct": -0.14,
       "hourly_move_pct": 0.34,
+      "status": "INTRADAY_WATCH_NOT_ORDER"
+    },
+    {
+      "symbol": "BITCOIN",
+      "bar_start_utc": "2026-10-12T06:00:00+00:00",
+      "events": [
+        "FAILED_HIGH_20H"
+      ],
+      "gap_pct": -0.01,
+      "hourly_move_pct": 0.24,
+      "status": "INTRADAY_WATCH_NOT_ORDER"
+    },
+    {
+      "symbol": "ETHEREUM",
+      "bar_start_utc": "2026-10-12T06:00:00+00:00",
+      "events": [
+        "FAILED_HIGH_20H"
+      ],
+      "gap_pct": -0.02,
+      "hourly_move_pct": 0.25,
       "status": "INTRADAY_WATCH_NOT_ORDER"
     }
   ],

@@ -1,6 +1,6 @@
 {
   "status": "RESEARCH_WARNING_ONLY",
-  "generated_at_utc": "2026-10-10T01:06:04.933372+00:00",
+  "generated_at_utc": "2026-10-12T07:57:43.008912+00:00",
   "level": "NORMAL",
   "stress_score": 0,
   "cross_asset_tail_count": 0,
@@ -21,62 +21,62 @@
       "tail_rank": 0.3536,
       "rv_rank": 0.26,
       "prior_rv_rank": 0.2696,
-      "atr_move": 0.39438,
+      "atr_move": 0.39439,
       "dd20": -0.01093
     },
     "GOLD_FUT": {
-      "ret1": 0.01523,
+      "ret1": 0.01427,
       "gap": 0.00065,
-      "tail_rank": 0.8456,
-      "rv_rank": 0.6488,
+      "tail_rank": 0.8208,
+      "rv_rank": 0.6408,
       "prior_rv_rank": 0.588,
-      "atr_move": 0.72239,
-      "dd20": -0.04624
+      "atr_move": 0.67675,
+      "dd20": -0.04714
     },
     "SILVER_FUT": {
-      "ret1": 0.03464,
-      "gap": 0.0067,
-      "tail_rank": 0.8728,
-      "rv_rank": 0.5336,
+      "ret1": 0.02719,
+      "gap": 0.02719,
+      "tail_rank": 0.8256,
+      "rv_rank": 0.4912,
       "prior_rv_rank": 0.4152,
-      "atr_move": 1.64967,
-      "dd20": -0.08183
+      "atr_move": 1.2949,
+      "dd20": -0.08844
     },
     "WTI_FUT": {
-      "ret1": 0.00186,
+      "ret1": 0.00393,
       "gap": -0.00219,
-      "tail_rank": 0.0616,
-      "rv_rank": 0.6384,
+      "tail_rank": 0.1408,
+      "rv_rank": 0.64,
       "prior_rv_rank": 0.6536,
-      "atr_move": 0.03589,
-      "dd20": -0.13389
+      "atr_move": 0.07601,
+      "dd20": -0.1321
     },
     "BRENT_FUT": {
-      "ret1": 0.00144,
+      "ret1": 0.00422,
       "gap": -0.00364,
-      "tail_rank": 0.0592,
+      "tail_rank": 0.1792,
       "rv_rank": 0.568,
       "prior_rv_rank": 0.6096,
-      "atr_move": 0.03134,
-      "dd20": -0.03972
+      "atr_move": 0.09192,
+      "dd20": -0.03706
     },
     "US30Y_BOND_FUT": {
-      "ret1": 0.00121,
+      "ret1": 0.00061,
       "gap": 0.0003,
-      "tail_rank": 0.116,
-      "rv_rank": 0.3384,
+      "tail_rank": 0.0608,
+      "rv_rank": 0.336,
       "prior_rv_rank": 0.3272,
-      "atr_move": 0.10974,
-      "dd20": -0.04566
+      "atr_move": 0.05487,
+      "dd20": -0.04624
     },
     "EURUSD": {
-      "ret1": 0.00039,
-      "gap": 0.0014,
-      "tail_rank": 0.0824,
-      "rv_rank": 0.092,
+      "ret1": 0.00104,
+      "gap": 0.00105,
+      "tail_rank": 0.2176,
+      "rv_rank": 0.0976,
       "prior_rv_rank": 0.08,
-      "atr_move": 0.06529,
-      "dd20": -0.03482
+      "atr_move": 0.17357,
+      "dd20": -0.03419
     },
     "USDSEK": {
       "ret1": -0.00349,
@@ -88,13 +88,13 @@
       "dd20": -0.008
     },
     "BITCOIN": {
-      "ret1": -0.01921,
-      "gap": 7e-05,
-      "tail_rank": 0.6848,
-      "rv_rank": 0.368,
-      "prior_rv_rank": 0.5312,
-      "atr_move": 0.69054,
-      "dd20": -0.05689
+      "ret1": 0.00925,
+      "gap": 0.0,
+      "tail_rank": 0.4248,
+      "rv_rank": 0.0328,
+      "prior_rv_rank": 0.3752,
+      "atr_move": 0.34568,
+      "dd20": -0.03376
     },
     "VIX": {
       "ret1": -0.03699,

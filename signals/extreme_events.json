@@ -1,25 +1,13 @@
 {
   "schema_version": 1,
-  "generated_at_utc": "2026-10-10T01:00:19.950047+00:00",
+  "generated_at_utc": "2026-10-12T07:57:41.548896+00:00",
   "status": "RESEARCH_ONLY",
   "parameters": {
     "gap_abs_pct": 3,
     "daily_return_abs_pct": 5,
     "daily_range_atr": 2.5
   },
-  "observations": {
-    "SOLANA": {
-      "session_date": "2026-10-08",
-      "events": [
-        {
-          "type": "EXTREME_DAILY_RETURN",
-          "direction": "DOWN",
-          "magnitude_pct": -5.83,
-          "note": "Magnitude alone is not an entry signal."
-        }
-      ]
-    }
-  },
+  "observations": {},
   "rejected": {},
   "warning": "Research diagnostics only; no 10R qualification, product check, or order. Market-specific gap thresholds require out-of-sample validation."
 }
