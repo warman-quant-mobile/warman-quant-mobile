@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at_utc": "2026-10-13T01:04:20.048117+00:00",
+  "generated_at_utc": "2026-10-13T07:56:59.216421+00:00",
   "status": "RESEARCH_ONLY",
   "parameters": {
     "gap_abs_pct": 3,
@@ -29,6 +29,17 @@
           "magnitude_pct": 4.62,
           "subtype": "GAP_FADE_WATCH",
           "note": "Requires independently verified catalyst and actual bid/ask; never infer earnings from price."
+        }
+      ]
+    },
+    "SOLANA": {
+      "session_date": "2026-10-12",
+      "events": [
+        {
+          "type": "EXTREME_DAILY_RETURN",
+          "direction": "DOWN",
+          "magnitude_pct": -5.11,
+          "note": "Magnitude alone is not an entry signal."
         }
       ]
     }
