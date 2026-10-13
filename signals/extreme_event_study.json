@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at_utc": "2026-10-10T01:00:20.438392+00:00",
+  "generated_at_utc": "2026-10-13T01:04:20.624955+00:00",
   "status": "EXPLORATORY_NOT_VALIDATED",
   "methodology": "Prior completed bar; next open; 2ATR stop; 10R target; 20bps proxy friction; 60 sessions; conservative gaps; nonoverlapping events per strategy.",
   "results": {
@@ -526,11 +526,11 @@
         "insufficient_sample": false
       },
       "SHOCK_CONTINUATION": {
-        "events": 35,
+        "events": 34,
         "targets_10r": 3,
-        "stops": 20,
-        "timeouts": 12,
-        "mean_realized_r": 0.549,
+        "stops": 17,
+        "timeouts": 14,
+        "mean_realized_r": 0.616,
         "insufficient_sample": false
       },
       "SHOCK_FADE": {
@@ -862,27 +862,27 @@
         "insufficient_sample": true
       },
       "SHOCK_CONTINUATION": {
+        "events": 13,
+        "targets_10r": 0,
+        "stops": 9,
+        "timeouts": 4,
+        "mean_realized_r": 0.19,
+        "insufficient_sample": true
+      },
+      "SHOCK_FADE": {
+        "events": 13,
+        "targets_10r": 0,
+        "stops": 9,
+        "timeouts": 4,
+        "mean_realized_r": 0.13,
+        "insufficient_sample": true
+      },
+      "RANGE_CONTINUATION": {
         "events": 12,
         "targets_10r": 0,
         "stops": 8,
         "timeouts": 4,
-        "mean_realized_r": 0.289,
-        "insufficient_sample": true
-      },
-      "SHOCK_FADE": {
-        "events": 12,
-        "targets_10r": 0,
-        "stops": 9,
-        "timeouts": 3,
-        "mean_realized_r": 0.124,
-        "insufficient_sample": true
-      },
-      "RANGE_CONTINUATION": {
-        "events": 11,
-        "targets_10r": 0,
-        "stops": 7,
-        "timeouts": 4,
-        "mean_realized_r": -0.026,
+        "mean_realized_r": -0.107,
         "insufficient_sample": true
       }
     },
@@ -890,17 +890,17 @@
       "GAP_CONTINUATION": {
         "events": 26,
         "targets_10r": 0,
-        "stops": 16,
-        "timeouts": 10,
-        "mean_realized_r": 0.453,
+        "stops": 17,
+        "timeouts": 9,
+        "mean_realized_r": 0.329,
         "insufficient_sample": true
       },
       "GAP_FADE": {
         "events": 27,
         "targets_10r": 0,
-        "stops": 17,
-        "timeouts": 10,
-        "mean_realized_r": 0.421,
+        "stops": 16,
+        "timeouts": 11,
+        "mean_realized_r": 0.43,
         "insufficient_sample": true
       },
       "SHOCK_CONTINUATION": {

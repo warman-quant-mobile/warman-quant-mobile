@@ -40,7 +40,7 @@
         "brier": 0.086,
         "top_quartile_n": 15,
         "top_quartile_hit_rate": 0.2,
-        "top_quartile_mean_realized_r": -0.978,
+        "top_quartile_mean_realized_r": -0.925,
         "top_quartile_median_realized_r": -1.0
       },
       "coefficients": {
@@ -105,8 +105,8 @@
     "schema_version": 1,
     "engine": "pattern_ranker",
     "dataset": {
-      "manifest_sha256": "befb04352a803becd3e4a4a8b40a2a91a22aea8c43581e0d585592e098767dc9",
-      "manifest_bytes": 27660
+      "manifest_sha256": "50e964ed451bbd3f99c949fefd6b6828817217db86e731b435ea8d3e9e722487",
+      "manifest_bytes": 27664
     },
     "model_version": "logit-v1-frozen-2026-09-30",
     "reproducibility": {

@@ -1,18 +1,31 @@
 {
   "status": "RESEARCH_WATCH_ONLY",
-  "generated_at_utc": "2026-10-12T16:53:46.287673+00:00",
+  "generated_at_utc": "2026-10-13T01:13:16.419320+00:00",
   "observations": [
     {
-      "symbol": "SILVER_FUT",
-      "bar_start_utc": "2026-10-12T15:00:00+00:00",
+      "symbol": "US10Y_NOTE_FUT",
+      "bar_start_utc": "2026-10-13T00:00:00+00:00",
       "events": [
-        "FAILED_LOW_20H"
+        "FAILED_HIGH_20H"
       ],
       "gap_pct": 0.0,
-      "hourly_move_pct": -0.2,
+      "hourly_move_pct": 0.03,
+      "status": "INTRADAY_WATCH_NOT_ORDER"
+    },
+    {
+      "symbol": "SOLANA",
+      "bar_start_utc": "2026-10-13T00:00:00+00:00",
+      "events": [
+        "HOURLY_SHOCK_2_5ATR"
+      ],
+      "gap_pct": 0.03,
+      "hourly_move_pct": -2.65,
       "status": "INTRADAY_WATCH_NOT_ORDER"
     }
   ],
-  "excluded": {},
+  "excluded": {
+    "OVX": "STALE_HOURLY",
+    "GVZ": "STALE_HOURLY"
+  },
   "note": "Hourly data may be delayed; market sessions vary. Events require a separate validated 10R target and executable instrument quote before proposal."
 }
