@@ -2,17 +2,6 @@
   "status": "RESEARCH_ONLY",
   "setups": [
     {
-      "date": "2025-04-08",
-      "vix": 52.33,
-      "spx": 4982.77,
-      "tags": [
-        "VIX_TOP_5PCT",
-        "VIX_1_5X_MA20",
-        "SPX_DRAWDOWN_8PCT_20D",
-        "SPX_RSI2_LE_10"
-      ]
-    },
-    {
       "date": "2025-04-09",
       "vix": 33.62,
       "spx": 5456.9,
@@ -811,6 +800,14 @@
       "date": "2026-10-13",
       "vix": 15.27,
       "spx": 7805.45,
+      "tags": [
+        "SPX_RSI2_LE_10"
+      ]
+    },
+    {
+      "date": "2026-10-14",
+      "vix": 16.48,
+      "spx": 7719.96,
       "tags": [
         "SPX_RSI2_LE_10"
       ]
