@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at_utc": "2026-10-13T01:03:43.183871+00:00",
+  "generated_at_utc": "2026-10-14T01:14:28.476272+00:00",
   "status": "RESEARCH_ONLY",
   "methodology": "251-session warmup; prior-close 20-day breakout plus MA50/MA200; next open; ATR20 x2; 10R gross-risk target; 20bps roundtrip friction; 60 sessions; stop first if same bar; worse gap fill; disjoint 60-session windows per side.",
   "results": {
@@ -47,11 +47,11 @@
     "SP500": {
       "LONG": {
         "events": 25,
-        "targets": 0,
+        "targets": 1,
         "stops": 15,
-        "timeouts": 10,
-        "mean_realized_r": 0.616,
-        "maximum_favorable_excursion_r": 8.13,
+        "timeouts": 9,
+        "mean_realized_r": 0.692,
+        "maximum_favorable_excursion_r": 10.124,
         "note": "Exploratory overlapping-market selection bias; not independently validated."
       },
       "SHORT": {

@@ -670,7 +670,7 @@
       "summary": {
         "all": {
           "n": 14,
-          "mean_r": -0.192,
+          "mean_r": -0.19,
           "median_r": -1.0,
           "mean_geometric_r": 9.149,
           "target_hits": 1,
@@ -690,8 +690,8 @@
         },
         "oos": {
           "n": 6,
-          "mean_r": 0.916,
-          "median_r": -0.625,
+          "mean_r": 0.921,
+          "median_r": -0.607,
           "mean_geometric_r": 5.635,
           "target_hits": 1,
           "mfe_5r": 2,
@@ -735,8 +735,8 @@
         "DESCENDING": {
           "all": {
             "n": 2,
-            "mean_r": -0.625,
-            "median_r": -0.625,
+            "mean_r": -0.607,
+            "median_r": -0.607,
             "mean_geometric_r": 5.027,
             "target_hits": 0,
             "mfe_5r": 0,
@@ -755,8 +755,8 @@
           },
           "oos": {
             "n": 1,
-            "mean_r": -0.249,
-            "median_r": -0.249,
+            "mean_r": -0.214,
+            "median_r": -0.214,
             "mean_geometric_r": 3.891,
             "target_hits": 0,
             "mfe_5r": 0,
@@ -3174,7 +3174,7 @@
       "summary": {
         "all": {
           "n": 18,
-          "mean_r": 0.479,
+          "mean_r": 0.401,
           "median_r": -1.0,
           "mean_geometric_r": 7.107,
           "target_hits": 5,
@@ -3194,7 +3194,7 @@
         },
         "oos": {
           "n": 8,
-          "mean_r": 0.546,
+          "mean_r": 0.371,
           "median_r": -1.0,
           "mean_geometric_r": 7.712,
           "target_hits": 1,
@@ -3296,7 +3296,7 @@
         "RISING_WEDGE": {
           "all": {
             "n": 4,
-            "mean_r": 0.014,
+            "mean_r": -0.336,
             "median_r": -1.0,
             "mean_geometric_r": 5.976,
             "target_hits": 0,
@@ -3316,8 +3316,8 @@
           },
           "oos": {
             "n": 2,
-            "mean_r": 1.028,
-            "median_r": 1.028,
+            "mean_r": 0.328,
+            "median_r": 0.328,
             "mean_geometric_r": 7.249,
             "target_hits": 0,
             "mfe_5r": 0,
@@ -5213,7 +5213,7 @@
       "type": "DESCENDING",
       "side": "SHORT",
       "geometric_r": 3.891,
-      "realized_r": -0.249,
+      "realized_r": -0.214,
       "mfe_r": 0.319,
       "outcome": "TIMEOUT",
       "compression": 0.127,
@@ -9665,7 +9665,7 @@
       "type": "RISING_WEDGE",
       "side": "SHORT",
       "geometric_r": 5.823,
-      "realized_r": 3.056,
+      "realized_r": 1.656,
       "mfe_r": 3.94,
       "outcome": "TIMEOUT",
       "compression": 0.561,
@@ -10193,8 +10193,8 @@
     "schema_version": 1,
     "engine": "pattern_geometry_v2",
     "dataset": {
-      "manifest_sha256": "50e964ed451bbd3f99c949fefd6b6828817217db86e731b435ea8d3e9e722487",
-      "manifest_bytes": 27664
+      "manifest_sha256": "aad95778c9c859e4e439a8f6f18be20368e4d9ecc5d0a230c2ff529d320ed277",
+      "manifest_bytes": 27658
     },
     "model_version": "rules-v2-frozen-2026-09-30",
     "reproducibility": {
