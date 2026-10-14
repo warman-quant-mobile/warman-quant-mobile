@@ -1,7 +1,18 @@
 {
   "status": "RESEARCH_WATCH_ONLY",
-  "generated_at_utc": "2026-10-14T01:22:12.298554+00:00",
-  "observations": [],
+  "generated_at_utc": "2026-10-14T08:10:31.456720+00:00",
+  "observations": [
+    {
+      "symbol": "GOLD_FUT",
+      "bar_start_utc": "2026-10-14T07:00:00+00:00",
+      "events": [
+        "FAILED_LOW_20H"
+      ],
+      "gap_pct": -0.01,
+      "hourly_move_pct": 0.03,
+      "status": "INTRADAY_WATCH_NOT_ORDER"
+    }
+  ],
   "excluded": {
     "OVX": "STALE_HOURLY",
     "GVZ": "STALE_HOURLY"

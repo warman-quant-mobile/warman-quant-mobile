@@ -1,22 +1,30 @@
 {
   "schema_version": 2,
-  "generated_at_utc": "2026-10-14T01:14:27.619466+00:00",
-  "source_manifest_utc": "2026-10-14T01:13:52.158685+00:00",
+  "generated_at_utc": "2026-10-14T08:10:28.914087+00:00",
+  "source_manifest_utc": "2026-10-14T08:09:53.800432+00:00",
   "status": "NO_QUALIFIED_CANDIDATES",
   "candidates": [],
   "rejected": {},
   "screening_funnel": {
     "eligible": 30,
-    "directional_breakouts": 1,
-    "positive_reference_reward": 1,
+    "directional_breakouts": 2,
+    "positive_reference_reward": 2,
     "reference_10r": 0
   },
   "diagnostic_watchlist": [
     {
+      "symbol": "GVZ",
+      "direction": "SHORT",
+      "session_date": "2026-10-13",
+      "reference_reward_risk_after_proxy_cost": 1.3,
+      "reason": "BELOW_10R_REFERENCE",
+      "note": "Research diagnostics only; historical reference is not a validated target."
+    },
+    {
       "symbol": "MICROSOFT",
       "direction": "LONG",
-      "session_date": "2026-10-12",
-      "reference_reward_risk_after_proxy_cost": 0.47,
+      "session_date": "2026-10-13",
+      "reference_reward_risk_after_proxy_cost": 0.37,
       "reason": "BELOW_10R_REFERENCE",
       "note": "Research diagnostics only; historical reference is not a validated target."
     }
