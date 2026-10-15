@@ -1,6 +1,6 @@
 {
   "status": "RESEARCH_WARNING_ONLY",
-  "generated_at_utc": "2026-10-15T08:11:37.221371+00:00",
+  "generated_at_utc": "2026-10-15T17:10:48.301347+00:00",
   "level": "ELEVATED",
   "stress_score": 4,
   "cross_asset_tail_count": 0,
@@ -113,8 +113,8 @@
       "ret1": 0.10478,
       "gap": -0.00655,
       "tail_rank": 0.8768,
-      "rv_rank": 0.3144,
-      "prior_rv_rank": 0.232,
+      "rv_rank": 0.3168,
+      "prior_rv_rank": 0.2328,
       "atr_move": 1.40783,
       "dd20": -0.04743
     },
