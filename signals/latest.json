@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
-  "generated_at_utc": "2026-10-15T01:12:35.226956+00:00",
-  "source_manifest_utc": "2026-10-15T01:11:55.994887+00:00",
+  "generated_at_utc": "2026-10-15T08:11:34.062835+00:00",
+  "source_manifest_utc": "2026-10-15T08:11:02.509097+00:00",
   "status": "NO_QUALIFIED_CANDIDATES",
   "candidates": [],
   "rejected": {},
@@ -16,7 +16,7 @@
       "symbol": "SILVER_FUT",
       "direction": "SHORT",
       "session_date": "2026-10-14",
-      "reference_reward_risk_after_proxy_cost": 3.77,
+      "reference_reward_risk_after_proxy_cost": 3.44,
       "reason": "BELOW_10R_REFERENCE",
       "note": "Research diagnostics only; historical reference is not a validated target."
     },

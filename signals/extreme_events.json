@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at_utc": "2026-10-15T01:13:13.679603+00:00",
+  "generated_at_utc": "2026-10-15T08:11:34.940790+00:00",
   "status": "RESEARCH_ONLY",
   "parameters": {
     "gap_abs_pct": 3,
@@ -14,9 +14,15 @@
         {
           "type": "GAP",
           "direction": "DOWN",
-          "magnitude_pct": -5.68,
-          "subtype": "GAP_FADE_WATCH",
+          "magnitude_pct": -4.08,
+          "subtype": "GAP_CONTINUATION_WATCH",
           "note": "Requires independently verified catalyst and actual bid/ask; never infer earnings from price."
+        },
+        {
+          "type": "EXTREME_DAILY_RETURN",
+          "direction": "DOWN",
+          "magnitude_pct": -6.1,
+          "note": "Magnitude alone is not an entry signal."
         }
       ]
     },
