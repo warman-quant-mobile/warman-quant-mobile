@@ -128,43 +128,43 @@
     },
     "US30Y_YIELD_EXTREME": {
       "CONTINUATION": {
-        "events": 13,
-        "sample_qualified": false,
-        "strong_sample": false,
-        "chronological_split_60_40": {
-          "train": {
-            "events": 7,
-            "mean_realized_r": 1.019,
-            "median_realized_r": -1.0,
-            "reached_10r_mfe": 1
-          },
-          "oos": {
-            "events": 6,
-            "mean_realized_r": -0.511,
-            "median_realized_r": -1.0,
-            "reached_10r_mfe": 0
-          }
-        },
-        "oos_positive": false,
-        "targets_10r": 1,
-        "reached_5r_mfe": 1,
-        "reached_10r_mfe": 1,
-        "mean_realized_r": 0.312,
-        "median_realized_r": -1.0,
-        "p75_mfe_r": 2.824,
-        "p90_mfe_r": 3.856,
-        "max_mfe_r": 11.117,
-        "first_event": "2020-01-24",
-        "last_event": "2026-03-20"
-      },
-      "FADE": {
         "events": 14,
         "sample_qualified": false,
         "strong_sample": false,
         "chronological_split_60_40": {
           "train": {
             "events": 8,
-            "mean_realized_r": -0.09,
+            "mean_realized_r": 0.766,
+            "median_realized_r": -1.0,
+            "reached_10r_mfe": 1
+          },
+          "oos": {
+            "events": 6,
+            "mean_realized_r": 0.338,
+            "median_realized_r": -0.555,
+            "reached_10r_mfe": 0
+          }
+        },
+        "oos_positive": true,
+        "targets_10r": 1,
+        "reached_5r_mfe": 2,
+        "reached_10r_mfe": 1,
+        "mean_realized_r": 0.583,
+        "median_realized_r": -1.0,
+        "p75_mfe_r": 2.883,
+        "p90_mfe_r": 5.295,
+        "max_mfe_r": 11.117,
+        "first_event": "2020-01-24",
+        "last_event": "2026-07-20"
+      },
+      "FADE": {
+        "events": 15,
+        "sample_qualified": false,
+        "strong_sample": false,
+        "chronological_split_60_40": {
+          "train": {
+            "events": 9,
+            "mean_realized_r": -0.191,
             "median_realized_r": -1.0,
             "reached_10r_mfe": 0
           },
@@ -179,13 +179,13 @@
         "targets_10r": 0,
         "reached_5r_mfe": 1,
         "reached_10r_mfe": 0,
-        "mean_realized_r": -0.481,
+        "mean_realized_r": -0.516,
         "median_realized_r": -1.0,
-        "p75_mfe_r": 1.382,
-        "p90_mfe_r": 2.782,
+        "p75_mfe_r": 1.362,
+        "p90_mfe_r": 2.585,
         "max_mfe_r": 5.067,
         "first_event": "2020-01-24",
-        "last_event": "2026-03-20"
+        "last_event": "2026-07-20"
       }
     },
     "30Y10Y_CURVE_EXTREME": {

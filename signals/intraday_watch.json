@@ -1,55 +1,45 @@
 {
   "status": "RESEARCH_WATCH_ONLY",
-  "generated_at_utc": "2026-10-14T17:09:57.038573+00:00",
+  "generated_at_utc": "2026-10-15T01:22:03.303086+00:00",
   "observations": [
     {
-      "symbol": "SP500",
-      "bar_start_utc": "2026-10-14T16:30:00+00:00",
+      "symbol": "US30Y_YIELD",
+      "bar_start_utc": "2026-10-14T18:20:00+00:00",
+      "events": [
+        "FAILED_LOW_20H"
+      ],
+      "gap_pct": 0.27,
+      "hourly_move_pct": 0.13,
+      "status": "INTRADAY_WATCH_NOT_ORDER"
+    },
+    {
+      "symbol": "US10Y_YIELD",
+      "bar_start_utc": "2026-10-14T18:20:00+00:00",
+      "events": [
+        "FAILED_LOW_20H"
+      ],
+      "gap_pct": 0.33,
+      "hourly_move_pct": 0.1,
+      "status": "INTRADAY_WATCH_NOT_ORDER"
+    },
+    {
+      "symbol": "AMAZON",
+      "bar_start_utc": "2026-10-14T19:30:00+00:00",
       "events": [
         "FAILED_LOW_20H"
       ],
       "gap_pct": 0.0,
-      "hourly_move_pct": -0.0,
-      "status": "INTRADAY_WATCH_NOT_ORDER"
-    },
-    {
-      "symbol": "NASDAQ100",
-      "bar_start_utc": "2026-10-14T16:30:00+00:00",
-      "events": [
-        "FAILED_LOW_20H"
-      ],
-      "gap_pct": -0.01,
-      "hourly_move_pct": 0.07,
-      "status": "INTRADAY_WATCH_NOT_ORDER"
-    },
-    {
-      "symbol": "GOLD_FUT",
-      "bar_start_utc": "2026-10-14T16:00:00+00:00",
-      "events": [
-        "FAILED_LOW_20H"
-      ],
-      "gap_pct": -0.01,
-      "hourly_move_pct": 0.06,
-      "status": "INTRADAY_WATCH_NOT_ORDER"
-    },
-    {
-      "symbol": "NVIDIA",
-      "bar_start_utc": "2026-10-14T16:30:00+00:00",
-      "events": [
-        "FAILED_LOW_20H"
-      ],
-      "gap_pct": 0.0,
-      "hourly_move_pct": 0.37,
+      "hourly_move_pct": 0.13,
       "status": "INTRADAY_WATCH_NOT_ORDER"
     },
     {
       "symbol": "BITCOIN",
-      "bar_start_utc": "2026-10-14T16:00:00+00:00",
+      "bar_start_utc": "2026-10-15T00:00:00+00:00",
       "events": [
         "FAILED_LOW_20H"
       ],
-      "gap_pct": 0.01,
-      "hourly_move_pct": 0.45,
+      "gap_pct": -0.1,
+      "hourly_move_pct": -0.14,
       "status": "INTRADAY_WATCH_NOT_ORDER"
     }
   ],
