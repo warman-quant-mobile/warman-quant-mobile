@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at_utc": "2026-10-16T01:11:42.762762+00:00",
+  "generated_at_utc": "2026-10-16T08:10:07.036500+00:00",
   "status": "RESEARCH_ONLY",
   "parameters": {
     "gap_abs_pct": 3,
@@ -8,18 +8,6 @@
     "daily_range_atr": 2.5
   },
   "observations": {
-    "SILVER_FUT": {
-      "session_date": "2026-10-15",
-      "events": [
-        {
-          "type": "GAP",
-          "direction": "UP",
-          "magnitude_pct": 3.75,
-          "subtype": "GAP_FADE_WATCH",
-          "note": "Requires independently verified catalyst and actual bid/ask; never infer earnings from price."
-        }
-      ]
-    },
     "VIX": {
       "session_date": "2026-10-15",
       "events": [
