@@ -670,7 +670,7 @@
       "summary": {
         "all": {
           "n": 14,
-          "mean_r": -0.187,
+          "mean_r": -0.189,
           "median_r": -1.0,
           "mean_geometric_r": 9.149,
           "target_hits": 1,
@@ -690,8 +690,8 @@
         },
         "oos": {
           "n": 6,
-          "mean_r": 0.928,
-          "median_r": -0.588,
+          "mean_r": 0.922,
+          "median_r": -0.606,
           "mean_geometric_r": 5.635,
           "target_hits": 1,
           "mfe_5r": 2,
@@ -735,8 +735,8 @@
         "DESCENDING": {
           "all": {
             "n": 2,
-            "mean_r": -0.588,
-            "median_r": -0.588,
+            "mean_r": -0.606,
+            "median_r": -0.606,
             "mean_geometric_r": 5.027,
             "target_hits": 0,
             "mfe_5r": 0,
@@ -755,8 +755,8 @@
           },
           "oos": {
             "n": 1,
-            "mean_r": -0.176,
-            "median_r": -0.176,
+            "mean_r": -0.211,
+            "median_r": -0.211,
             "mean_geometric_r": 3.891,
             "target_hits": 0,
             "mfe_5r": 0,
@@ -2321,7 +2321,7 @@
       "summary": {
         "all": {
           "n": 11,
-          "mean_r": 0.434,
+          "mean_r": 0.492,
           "median_r": -1.0,
           "mean_geometric_r": 31.128,
           "target_hits": 1,
@@ -2341,7 +2341,7 @@
         },
         "oos": {
           "n": 5,
-          "mean_r": 0.265,
+          "mean_r": 0.393,
           "median_r": -1.0,
           "mean_geometric_r": 57.707,
           "target_hits": 0,
@@ -2443,7 +2443,7 @@
         "SYMMETRICAL": {
           "all": {
             "n": 4,
-            "mean_r": -0.438,
+            "mean_r": -0.278,
             "median_r": -1.0,
             "mean_geometric_r": 70.301,
             "target_hits": 0,
@@ -2463,8 +2463,8 @@
           },
           "oos": {
             "n": 2,
-            "mean_r": 1.016,
-            "median_r": 1.016,
+            "mean_r": 1.337,
+            "median_r": 1.337,
             "mean_geometric_r": 11.101,
             "target_hits": 0,
             "mfe_5r": 0,
@@ -3174,7 +3174,7 @@
       "summary": {
         "all": {
           "n": 18,
-          "mean_r": 0.473,
+          "mean_r": 0.448,
           "median_r": -1.0,
           "mean_geometric_r": 7.107,
           "target_hits": 5,
@@ -3194,7 +3194,7 @@
         },
         "oos": {
           "n": 8,
-          "mean_r": 0.534,
+          "mean_r": 0.477,
           "median_r": -1.0,
           "mean_geometric_r": 7.712,
           "target_hits": 1,
@@ -3296,7 +3296,7 @@
         "RISING_WEDGE": {
           "all": {
             "n": 4,
-            "mean_r": -0.009,
+            "mean_r": -0.123,
             "median_r": -1.0,
             "mean_geometric_r": 5.976,
             "target_hits": 0,
@@ -3316,8 +3316,8 @@
           },
           "oos": {
             "n": 2,
-            "mean_r": 0.981,
-            "median_r": 0.981,
+            "mean_r": 0.754,
+            "median_r": 0.754,
             "mean_geometric_r": 7.249,
             "target_hits": 0,
             "mfe_5r": 0,
@@ -5213,7 +5213,7 @@
       "type": "DESCENDING",
       "side": "SHORT",
       "geometric_r": 3.891,
-      "realized_r": -0.176,
+      "realized_r": -0.211,
       "mfe_r": 0.319,
       "outcome": "TIMEOUT",
       "compression": 0.127,
@@ -8279,7 +8279,7 @@
       "type": "SYMMETRICAL",
       "side": "LONG",
       "geometric_r": 7.065,
-      "realized_r": 3.033,
+      "realized_r": 3.674,
       "mfe_r": 4.98,
       "outcome": "TIMEOUT",
       "compression": 0.204,
@@ -9644,7 +9644,7 @@
       "type": "RISING_WEDGE",
       "side": "SHORT",
       "geometric_r": 5.823,
-      "realized_r": 2.962,
+      "realized_r": 2.507,
       "mfe_r": 3.94,
       "outcome": "TIMEOUT",
       "compression": 0.561,
@@ -10144,36 +10144,14 @@
       "symbol": "SOLANA"
     }
   ],
-  "recent_patterns": [
-    {
-      "date": "2026-10-07",
-      "type": "FALLING_WEDGE",
-      "side": "SHORT",
-      "geometric_r": 3.934,
-      "realized_r": -1.0,
-      "mfe_r": 0.499,
-      "outcome": "STOP",
-      "compression": 0.451,
-      "r2_high": 0.962,
-      "r2_low": 1.0,
-      "slope_high_atr": -0.1942,
-      "slope_low_atr": -0.1424,
-      "touches_high": 4,
-      "touches_low": 4,
-      "breakout_strength_atr": 0.1421,
-      "trend20_signed": 0.0901,
-      "gap_atr": 0.1627,
-      "atr_pct": 0.01973,
-      "symbol": "VOLVO_B"
-    }
-  ],
+  "recent_patterns": [],
   "note": "Frozen first-pass geometry. No parameter optimization. Results must survive OOS/robustness and Nordnet-KF execution checks before promotion.",
   "research_contract": {
     "schema_version": 1,
     "engine": "pattern_geometry_v2",
     "dataset": {
-      "manifest_sha256": "6ecd0cc0d1632533e30bba8b5d942ac44cae317cd50efbf1b597d5daef87a881",
-      "manifest_bytes": 27602
+      "manifest_sha256": "fff40ffa0bbef7aa8e8e087914bb296e15a43ed259ea01c0c1fa9bf1bda7545f",
+      "manifest_bytes": 27660
     },
     "model_version": "rules-v2-frozen-2026-09-30",
     "reproducibility": {

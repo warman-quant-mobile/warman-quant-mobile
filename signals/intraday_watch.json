@@ -1,18 +1,7 @@
 {
   "status": "RESEARCH_WATCH_ONLY",
-  "generated_at_utc": "2026-10-15T17:10:47.799345+00:00",
-  "observations": [
-    {
-      "symbol": "ETHEREUM",
-      "bar_start_utc": "2026-10-15T16:00:00+00:00",
-      "events": [
-        "FAILED_HIGH_20H"
-      ],
-      "gap_pct": -0.0,
-      "hourly_move_pct": -0.25,
-      "status": "INTRADAY_WATCH_NOT_ORDER"
-    }
-  ],
+  "generated_at_utc": "2026-10-16T01:17:21.246280+00:00",
+  "observations": [],
   "excluded": {
     "OVX": "STALE_HOURLY",
     "GVZ": "STALE_HOURLY"
