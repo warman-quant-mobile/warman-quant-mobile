@@ -1,45 +1,85 @@
 {
   "status": "RESEARCH_WATCH_ONLY",
-  "generated_at_utc": "2026-10-16T08:10:08.707948+00:00",
+  "generated_at_utc": "2026-10-16T17:07:16.246388+00:00",
   "observations": [
     {
-      "symbol": "BRENT_FUT",
-      "bar_start_utc": "2026-10-16T07:00:00+00:00",
-      "events": [
-        "HOURLY_SHOCK_2_5ATR"
-      ],
-      "gap_pct": 0.01,
-      "hourly_move_pct": -2.48,
-      "status": "INTRADAY_WATCH_NOT_ORDER"
-    },
-    {
-      "symbol": "EURUSD",
-      "bar_start_utc": "2026-10-16T07:00:00+00:00",
+      "symbol": "OMXS30",
+      "bar_start_utc": "2026-10-16T15:00:00+00:00",
       "events": [
         "FAILED_HIGH_20H"
       ],
-      "gap_pct": 0.02,
-      "hourly_move_pct": 0.04,
+      "gap_pct": -0.0,
+      "hourly_move_pct": 0.0,
       "status": "INTRADAY_WATCH_NOT_ORDER"
     },
     {
-      "symbol": "INVESTOR_B",
-      "bar_start_utc": "2026-10-16T07:00:00+00:00",
+      "symbol": "WTI_FUT",
+      "bar_start_utc": "2026-10-16T16:00:00+00:00",
       "events": [
         "HOURLY_SHOCK_2_5ATR"
       ],
-      "gap_pct": 0.91,
-      "hourly_move_pct": 1.68,
+      "gap_pct": 0.0,
+      "hourly_move_pct": 1.87,
       "status": "INTRADAY_WATCH_NOT_ORDER"
     },
     {
-      "symbol": "VOLVO_B",
-      "bar_start_utc": "2026-10-16T07:00:00+00:00",
+      "symbol": "BRENT_FUT",
+      "bar_start_utc": "2026-10-16T16:00:00+00:00",
       "events": [
         "HOURLY_SHOCK_2_5ATR"
       ],
-      "gap_pct": 0.28,
-      "hourly_move_pct": 1.69,
+      "gap_pct": -0.02,
+      "hourly_move_pct": 2.02,
+      "status": "INTRADAY_WATCH_NOT_ORDER"
+    },
+    {
+      "symbol": "US30Y_BOND_FUT",
+      "bar_start_utc": "2026-10-16T16:00:00+00:00",
+      "events": [
+        "FAILED_LOW_20H"
+      ],
+      "gap_pct": 0.03,
+      "hourly_move_pct": -0.38,
+      "status": "INTRADAY_WATCH_NOT_ORDER"
+    },
+    {
+      "symbol": "US10Y_NOTE_FUT",
+      "bar_start_utc": "2026-10-16T16:00:00+00:00",
+      "events": [
+        "FAILED_LOW_20H"
+      ],
+      "gap_pct": 0.01,
+      "hourly_move_pct": -0.16,
+      "status": "INTRADAY_WATCH_NOT_ORDER"
+    },
+    {
+      "symbol": "VIX",
+      "bar_start_utc": "2026-10-16T16:00:00+00:00",
+      "events": [
+        "HOURLY_SHOCK_2_5ATR"
+      ],
+      "gap_pct": 0.12,
+      "hourly_move_pct": 7.47,
+      "status": "INTRADAY_WATCH_NOT_ORDER"
+    },
+    {
+      "symbol": "BITCOIN",
+      "bar_start_utc": "2026-10-16T16:00:00+00:00",
+      "events": [
+        "FAILED_LOW_20H"
+      ],
+      "gap_pct": -0.01,
+      "hourly_move_pct": 0.12,
+      "status": "INTRADAY_WATCH_NOT_ORDER"
+    },
+    {
+      "symbol": "SOLANA",
+      "bar_start_utc": "2026-10-16T16:00:00+00:00",
+      "events": [
+        "FAILED_LOW_20H"
+      ],
+      "gap_pct": -0.06,
+      "hourly_move_pct": 0.24,
       "status": "INTRADAY_WATCH_NOT_ORDER"
     }
   ],
