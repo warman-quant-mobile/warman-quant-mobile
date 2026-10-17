@@ -1,6 +1,6 @@
 {
   "status": "RESEARCH_WATCH_ONLY",
-  "generated_at_utc": "2026-10-16T17:07:16.246388+00:00",
+  "generated_at_utc": "2026-10-17T01:19:17.900942+00:00",
   "observations": [
     {
       "symbol": "OMXS30",
@@ -10,76 +10,6 @@
       ],
       "gap_pct": -0.0,
       "hourly_move_pct": 0.0,
-      "status": "INTRADAY_WATCH_NOT_ORDER"
-    },
-    {
-      "symbol": "WTI_FUT",
-      "bar_start_utc": "2026-10-16T16:00:00+00:00",
-      "events": [
-        "HOURLY_SHOCK_2_5ATR"
-      ],
-      "gap_pct": 0.0,
-      "hourly_move_pct": 1.87,
-      "status": "INTRADAY_WATCH_NOT_ORDER"
-    },
-    {
-      "symbol": "BRENT_FUT",
-      "bar_start_utc": "2026-10-16T16:00:00+00:00",
-      "events": [
-        "HOURLY_SHOCK_2_5ATR"
-      ],
-      "gap_pct": -0.02,
-      "hourly_move_pct": 2.02,
-      "status": "INTRADAY_WATCH_NOT_ORDER"
-    },
-    {
-      "symbol": "US30Y_BOND_FUT",
-      "bar_start_utc": "2026-10-16T16:00:00+00:00",
-      "events": [
-        "FAILED_LOW_20H"
-      ],
-      "gap_pct": 0.03,
-      "hourly_move_pct": -0.38,
-      "status": "INTRADAY_WATCH_NOT_ORDER"
-    },
-    {
-      "symbol": "US10Y_NOTE_FUT",
-      "bar_start_utc": "2026-10-16T16:00:00+00:00",
-      "events": [
-        "FAILED_LOW_20H"
-      ],
-      "gap_pct": 0.01,
-      "hourly_move_pct": -0.16,
-      "status": "INTRADAY_WATCH_NOT_ORDER"
-    },
-    {
-      "symbol": "VIX",
-      "bar_start_utc": "2026-10-16T16:00:00+00:00",
-      "events": [
-        "HOURLY_SHOCK_2_5ATR"
-      ],
-      "gap_pct": 0.12,
-      "hourly_move_pct": 7.47,
-      "status": "INTRADAY_WATCH_NOT_ORDER"
-    },
-    {
-      "symbol": "BITCOIN",
-      "bar_start_utc": "2026-10-16T16:00:00+00:00",
-      "events": [
-        "FAILED_LOW_20H"
-      ],
-      "gap_pct": -0.01,
-      "hourly_move_pct": 0.12,
-      "status": "INTRADAY_WATCH_NOT_ORDER"
-    },
-    {
-      "symbol": "SOLANA",
-      "bar_start_utc": "2026-10-16T16:00:00+00:00",
-      "events": [
-        "FAILED_LOW_20H"
-      ],
-      "gap_pct": -0.06,
-      "hourly_move_pct": 0.24,
       "status": "INTRADAY_WATCH_NOT_ORDER"
     }
   ],

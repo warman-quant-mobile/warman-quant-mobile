@@ -216,8 +216,8 @@
     "schema_version": 1,
     "engine": "random_entry_exit_lab",
     "dataset": {
-      "manifest_sha256": "fff40ffa0bbef7aa8e8e087914bb296e15a43ed259ea01c0c1fa9bf1bda7545f",
-      "manifest_bytes": 27660
+      "manifest_sha256": "df9cc439881ff5cf6b8f32218a5553c1d5946a13a99f2631721ab5f7fb56d5b2",
+      "manifest_bytes": 27674
     },
     "model_version": "exit-v1-frozen-2026-09-30",
     "reproducibility": {

@@ -1,37 +1,37 @@
 {
   "schema_version": 1,
-  "generated_at_utc": "2026-10-16T01:11:42.288084+00:00",
+  "generated_at_utc": "2026-10-17T01:13:36.047764+00:00",
   "status": "RESEARCH_ONLY",
   "crash_threshold_pct": -20,
   "results": {
     "GOLD_FUT": {
       "stage": "CRASH_ONLY_NO_ENTRY",
-      "drawdown_pct": -21.49,
+      "drawdown_pct": -21.28,
       "reclaim": false,
-      "proxy_close": 4175.299805,
-      "invalidation_reference": 4132.777338,
+      "proxy_close": 4186.700195,
+      "invalidation_reference": 4128.255011,
       "former_peak_reference": 5318.399902,
-      "recovery_reference_r_after_proxy_cost": 22.31,
+      "recovery_reference_r_after_proxy_cost": 16.81,
       "note": "Historical peak is NOT a forecast; require independent thesis, confirmation and actual product checks."
     },
     "SILVER_FUT": {
       "stage": "CRASH_ONLY_NO_ENTRY",
-      "drawdown_pct": -50.25,
+      "drawdown_pct": -50.35,
       "reclaim": false,
-      "proxy_close": 57.255001,
-      "invalidation_reference": 56.537699,
+      "proxy_close": 57.134998,
+      "invalidation_reference": 56.367325,
       "former_peak_reference": 115.080002,
-      "recovery_reference_r_after_proxy_cost": 69.38,
+      "recovery_reference_r_after_proxy_cost": 65.57,
       "note": "Historical peak is NOT a forecast; require independent thesis, confirmation and actual product checks."
     },
     "VIX": {
       "stage": "CRASH_ONLY_NO_ENTRY",
-      "drawdown_pct": -46.99,
+      "drawdown_pct": -35.62,
       "reclaim": false,
-      "proxy_close": 16.459999,
-      "invalidation_reference": 15.79,
+      "proxy_close": 19.99,
+      "invalidation_reference": 15.026,
       "former_peak_reference": 31.049999,
-      "recovery_reference_r_after_proxy_cost": 20.71,
+      "recovery_reference_r_after_proxy_cost": 2.2,
       "note": "Historical peak is NOT a forecast; require independent thesis, confirmation and actual product checks."
     },
     "OVX": {

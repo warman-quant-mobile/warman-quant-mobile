@@ -670,7 +670,7 @@
       "summary": {
         "all": {
           "n": 14,
-          "mean_r": -0.189,
+          "mean_r": -0.194,
           "median_r": -1.0,
           "mean_geometric_r": 9.149,
           "target_hits": 1,
@@ -690,8 +690,8 @@
         },
         "oos": {
           "n": 6,
-          "mean_r": 0.922,
-          "median_r": -0.606,
+          "mean_r": 0.91,
+          "median_r": -0.641,
           "mean_geometric_r": 5.635,
           "target_hits": 1,
           "mfe_5r": 2,
@@ -735,8 +735,8 @@
         "DESCENDING": {
           "all": {
             "n": 2,
-            "mean_r": -0.606,
-            "median_r": -0.606,
+            "mean_r": -0.641,
+            "median_r": -0.641,
             "mean_geometric_r": 5.027,
             "target_hits": 0,
             "mfe_5r": 0,
@@ -755,8 +755,8 @@
           },
           "oos": {
             "n": 1,
-            "mean_r": -0.211,
-            "median_r": -0.211,
+            "mean_r": -0.283,
+            "median_r": -0.283,
             "mean_geometric_r": 3.891,
             "target_hits": 0,
             "mfe_5r": 0,
@@ -865,20 +865,20 @@
     "SILVER_FUT": {
       "summary": {
         "all": {
-          "n": 11,
-          "mean_r": 0.207,
+          "n": 12,
+          "mean_r": -0.248,
           "median_r": -1.0,
-          "mean_geometric_r": 7.319,
+          "mean_geometric_r": 38.533,
           "target_hits": 2,
           "mfe_5r": 2,
           "mfe_10r": 0,
           "max_mfe_r": 8.457
         },
         "train": {
-          "n": 6,
-          "mean_r": 1.212,
+          "n": 7,
+          "mean_r": 0.896,
           "median_r": -1.0,
-          "mean_geometric_r": 8.587,
+          "mean_geometric_r": 8.333,
           "target_hits": 2,
           "mfe_5r": 2,
           "mfe_10r": 0,
@@ -886,9 +886,9 @@
         },
         "oos": {
           "n": 5,
-          "mean_r": -1.0,
+          "mean_r": -1.849,
           "median_r": -1.0,
-          "mean_geometric_r": 5.797,
+          "mean_geometric_r": 80.813,
           "target_hits": 0,
           "mfe_5r": 0,
           "mfe_10r": 0,
@@ -962,30 +962,30 @@
         },
         "FALLING_WEDGE": {
           "all": {
-            "n": 4,
-            "mean_r": -1.0,
+            "n": 5,
+            "mean_r": -1.849,
             "median_r": -1.0,
-            "mean_geometric_r": 7.774,
+            "mean_geometric_r": 82.598,
             "target_hits": 0,
             "mfe_5r": 0,
             "mfe_10r": 0,
             "max_mfe_r": 1.838
           },
           "train": {
-            "n": 2,
+            "n": 3,
             "mean_r": -1.0,
             "median_r": -1.0,
-            "mean_geometric_r": 10.69,
+            "mean_geometric_r": 8.305,
             "target_hits": 0,
             "mfe_5r": 0,
             "mfe_10r": 0,
-            "max_mfe_r": 0.009
+            "max_mfe_r": 1.756
           },
           "oos": {
             "n": 2,
-            "mean_r": -1.0,
-            "median_r": -1.0,
-            "mean_geometric_r": 4.858,
+            "mean_r": -3.123,
+            "median_r": -3.123,
+            "mean_geometric_r": 194.037,
             "target_hits": 0,
             "mfe_5r": 0,
             "mfe_10r": 0,
@@ -3174,7 +3174,7 @@
       "summary": {
         "all": {
           "n": 18,
-          "mean_r": 0.448,
+          "mean_r": 0.479,
           "median_r": -1.0,
           "mean_geometric_r": 7.107,
           "target_hits": 5,
@@ -3194,7 +3194,7 @@
         },
         "oos": {
           "n": 8,
-          "mean_r": 0.477,
+          "mean_r": 0.547,
           "median_r": -1.0,
           "mean_geometric_r": 7.712,
           "target_hits": 1,
@@ -3296,13 +3296,13 @@
         "RISING_WEDGE": {
           "all": {
             "n": 4,
-            "mean_r": -0.123,
+            "mean_r": 0.016,
             "median_r": -1.0,
             "mean_geometric_r": 5.976,
             "target_hits": 0,
             "mfe_5r": 0,
             "mfe_10r": 0,
-            "max_mfe_r": 3.94
+            "max_mfe_r": 4.409
           },
           "train": {
             "n": 2,
@@ -3316,13 +3316,13 @@
           },
           "oos": {
             "n": 2,
-            "mean_r": 0.754,
-            "median_r": 0.754,
+            "mean_r": 1.032,
+            "median_r": 1.032,
             "mean_geometric_r": 7.249,
             "target_hits": 0,
             "mfe_5r": 0,
             "mfe_10r": 0,
-            "max_mfe_r": 3.94
+            "max_mfe_r": 4.409
           }
         },
         "SYMMETRICAL": {
@@ -5213,7 +5213,7 @@
       "type": "DESCENDING",
       "side": "SHORT",
       "geometric_r": 3.891,
-      "realized_r": -0.211,
+      "realized_r": -0.283,
       "mfe_r": 0.319,
       "outcome": "TIMEOUT",
       "compression": 0.127,
@@ -5458,6 +5458,27 @@
       "trend20_signed": -0.0499,
       "gap_atr": 0.5746,
       "atr_pct": 0.02236,
+      "symbol": "SILVER_FUT"
+    },
+    {
+      "date": "2026-10-14",
+      "type": "FALLING_WEDGE",
+      "side": "SHORT",
+      "geometric_r": 381.891,
+      "realized_r": -5.245,
+      "mfe_r": 0.0,
+      "outcome": "STOP",
+      "compression": 0.146,
+      "r2_high": 0.949,
+      "r2_low": 0.958,
+      "slope_high_atr": -0.3045,
+      "slope_low_atr": -0.1539,
+      "touches_high": 5,
+      "touches_low": 3,
+      "breakout_strength_atr": 2.0715,
+      "trend20_signed": 0.0644,
+      "gap_atr": -0.9616,
+      "atr_pct": 0.02355,
       "symbol": "SILVER_FUT"
     },
     {
@@ -9644,8 +9665,8 @@
       "type": "RISING_WEDGE",
       "side": "SHORT",
       "geometric_r": 5.823,
-      "realized_r": 2.507,
-      "mfe_r": 3.94,
+      "realized_r": 3.064,
+      "mfe_r": 4.409,
       "outcome": "TIMEOUT",
       "compression": 0.561,
       "r2_high": 0.703,
@@ -10144,14 +10165,36 @@
       "symbol": "SOLANA"
     }
   ],
-  "recent_patterns": [],
+  "recent_patterns": [
+    {
+      "date": "2026-10-14",
+      "type": "FALLING_WEDGE",
+      "side": "SHORT",
+      "geometric_r": 381.891,
+      "realized_r": -5.245,
+      "mfe_r": 0.0,
+      "outcome": "STOP",
+      "compression": 0.146,
+      "r2_high": 0.949,
+      "r2_low": 0.958,
+      "slope_high_atr": -0.3045,
+      "slope_low_atr": -0.1539,
+      "touches_high": 5,
+      "touches_low": 3,
+      "breakout_strength_atr": 2.0715,
+      "trend20_signed": 0.0644,
+      "gap_atr": -0.9616,
+      "atr_pct": 0.02355,
+      "symbol": "SILVER_FUT"
+    }
+  ],
   "note": "Frozen first-pass geometry. No parameter optimization. Results must survive OOS/robustness and Nordnet-KF execution checks before promotion.",
   "research_contract": {
     "schema_version": 1,
     "engine": "pattern_geometry_v2",
     "dataset": {
-      "manifest_sha256": "fff40ffa0bbef7aa8e8e087914bb296e15a43ed259ea01c0c1fa9bf1bda7545f",
-      "manifest_bytes": 27660
+      "manifest_sha256": "df9cc439881ff5cf6b8f32218a5553c1d5946a13a99f2631721ab5f7fb56d5b2",
+      "manifest_bytes": 27674
     },
     "model_version": "rules-v2-frozen-2026-09-30",
     "reproducibility": {
