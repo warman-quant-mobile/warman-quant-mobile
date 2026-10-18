@@ -31,11 +31,25 @@ jobs:
         run: python audit_journal.py --state state/paperdesk.json --ledger state/ledger.json --report output/journal_audit.json
       - name: Run exploratory research lab
         run: python research.py --folder output
-      - name: Run Flow Dislocation daily research\n        run: python flow_dislocation.py --folder output\n      - name: Run cash-backed crypto portfolio research (diagnostic only)
+      - name: Run Flow Dislocation daily research
+        run: python flow_dislocation.py --folder output
+      - name: Run cash-backed crypto portfolio research (diagnostic only)
         run: python portfolio_v6.py --folder output
       - name: Enforce Nordnet instrument promotion gate
         run: python promotion_gate.py --folder output
-      - name: Publish research summaries to repository\n        if: success()\n        run: |\n          mkdir -p reports\n          cp output/flow_dislocation_report.json output/flow_dislocation_summary.csv reports/\n          git config user.name 'github-actions[bot]'\n          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'\n          git add reports/flow_dislocation_report.json reports/flow_dislocation_summary.csv\n          if ! git diff --cached --quiet; then\n            git commit -m 'Update Flow Dislocation research results [skip ci]'\n            git push origin HEAD:main\n          fi\n      - name: Upload audit and journal
+      - name: Publish research summaries to repository
+        if: success()
+        run: |
+          mkdir -p reports
+          cp output/flow_dislocation_report.json output/flow_dislocation_summary.csv reports/
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add reports/flow_dislocation_report.json reports/flow_dislocation_summary.csv
+          if ! git diff --cached --quiet; then
+            git commit -m 'Update Flow Dislocation research results [skip ci]'
+            git push origin HEAD:main
+          fi
+      - name: Upload audit and journal
         if: always()
         uses: actions/upload-artifact@v4
         with:
