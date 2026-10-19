@@ -1,106 +1,15 @@
 {
   "status": "RESEARCH_WATCH_ONLY",
-  "generated_at_utc": "2026-10-19T08:18:40.765009+00:00",
+  "generated_at_utc": "2026-10-19T17:08:15.257781+00:00",
   "observations": [
     {
-      "symbol": "OMXS30",
-      "bar_start_utc": "2026-10-19T07:00:00+00:00",
-      "events": [
-        "HOURLY_SHOCK_2_5ATR"
-      ],
-      "gap_pct": -0.45,
-      "hourly_move_pct": -1.23,
-      "status": "INTRADAY_WATCH_NOT_ORDER"
-    },
-    {
-      "symbol": "DAX",
-      "bar_start_utc": "2026-10-19T07:00:00+00:00",
-      "events": [
-        "HOURLY_SHOCK_2_5ATR"
-      ],
-      "gap_pct": -0.32,
-      "hourly_move_pct": -1.05,
-      "status": "INTRADAY_WATCH_NOT_ORDER"
-    },
-    {
-      "symbol": "VIX",
-      "bar_start_utc": "2026-10-19T07:00:00+00:00",
-      "events": [
-        "GAP_3PCT"
-      ],
-      "gap_pct": -8.06,
-      "hourly_move_pct": -6.96,
-      "status": "INTRADAY_WATCH_NOT_ORDER"
-    },
-    {
-      "symbol": "EURUSD",
-      "bar_start_utc": "2026-10-19T07:00:00+00:00",
-      "events": [
-        "HOURLY_SHOCK_2_5ATR"
-      ],
-      "gap_pct": -0.01,
-      "hourly_move_pct": -0.36,
-      "status": "INTRADAY_WATCH_NOT_ORDER"
-    },
-    {
-      "symbol": "VOLVO_B",
-      "bar_start_utc": "2026-10-19T07:00:00+00:00",
-      "events": [
-        "HOURLY_SHOCK_2_5ATR"
-      ],
-      "gap_pct": -0.58,
-      "hourly_move_pct": -1.63,
-      "status": "INTRADAY_WATCH_NOT_ORDER"
-    },
-    {
-      "symbol": "ATLAS_A",
-      "bar_start_utc": "2026-10-19T07:00:00+00:00",
-      "events": [
-        "HOURLY_SHOCK_2_5ATR",
-        "FAILED_LOW_20H"
-      ],
-      "gap_pct": -1.09,
-      "hourly_move_pct": -2.6,
-      "status": "INTRADAY_WATCH_NOT_ORDER"
-    },
-    {
-      "symbol": "ABB",
-      "bar_start_utc": "2026-10-19T07:00:00+00:00",
+      "symbol": "GOLD_FUT",
+      "bar_start_utc": "2026-10-19T16:00:00+00:00",
       "events": [
         "FAILED_LOW_20H"
       ],
-      "gap_pct": -0.44,
-      "hourly_move_pct": -1.36,
-      "status": "INTRADAY_WATCH_NOT_ORDER"
-    },
-    {
-      "symbol": "BITCOIN",
-      "bar_start_utc": "2026-10-19T07:00:00+00:00",
-      "events": [
-        "FAILED_HIGH_20H"
-      ],
-      "gap_pct": 0.01,
-      "hourly_move_pct": -0.13,
-      "status": "INTRADAY_WATCH_NOT_ORDER"
-    },
-    {
-      "symbol": "ETHEREUM",
-      "bar_start_utc": "2026-10-19T07:00:00+00:00",
-      "events": [
-        "FAILED_HIGH_20H"
-      ],
-      "gap_pct": -0.01,
+      "gap_pct": -0.0,
       "hourly_move_pct": -0.02,
-      "status": "INTRADAY_WATCH_NOT_ORDER"
-    },
-    {
-      "symbol": "SOLANA",
-      "bar_start_utc": "2026-10-19T07:00:00+00:00",
-      "events": [
-        "FAILED_HIGH_20H"
-      ],
-      "gap_pct": 0.0,
-      "hourly_move_pct": -0.09,
       "status": "INTRADAY_WATCH_NOT_ORDER"
     }
   ],
