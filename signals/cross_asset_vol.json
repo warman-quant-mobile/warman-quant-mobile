@@ -6,14 +6,6 @@
       "underlying": "WTI_FUT",
       "observations": [
         {
-          "date": "2026-02-26",
-          "vol": 59.8,
-          "asset": 65.21,
-          "tags": [
-            "VOL_TOP_5PCT"
-          ]
-        },
-        {
           "date": "2026-02-27",
           "vol": 64.68,
           "asset": 67.02,
@@ -872,6 +864,14 @@
           "asset": 94.61,
           "tags": [
             "ASSET_20D_MOVE_15PCT"
+          ]
+        },
+        {
+          "date": "2026-10-16",
+          "vol": 50.74,
+          "asset": 101.41,
+          "tags": [
+            "ASSET_5D_MOVE_8PCT"
           ]
         }
       ]
