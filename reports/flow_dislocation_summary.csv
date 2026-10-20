@@ -8,7 +8,7 @@ INVESTOR_B,relative_momentum,10,0,,0,,,False
 INVESTOR_B,weekly_close_reversal,3,4,-1.4677,0,,,False
 INVESTOR_B,weekly_close_reversal,5,4,2.6069,0,,,False
 INVESTOR_B,weekly_close_reversal,10,3,0.5493,0,,,False
-INVESTOR_B,breakout,3,91,-0.2365,39,0.0482,1.071,True
+INVESTOR_B,breakout,3,91,-0.2365,40,0.0642,1.097,True
 INVESTOR_B,breakout,5,76,0.0622,33,0.1339,1.141,True
 INVESTOR_B,breakout,10,62,0.0556,26,0.6768,1.723,True
 VOLVO_B,relative_reversal,3,7,0.5195,3,-1.7847,0.446,False
