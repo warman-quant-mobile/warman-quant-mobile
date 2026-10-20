@@ -1,15 +1,45 @@
 {
   "status": "RESEARCH_WATCH_ONLY",
-  "generated_at_utc": "2026-10-20T01:22:41.804514+00:00",
+  "generated_at_utc": "2026-10-20T08:12:59.245518+00:00",
   "observations": [
     {
-      "symbol": "SILVER_FUT",
-      "bar_start_utc": "2026-10-20T00:00:00+00:00",
+      "symbol": "OMXS30",
+      "bar_start_utc": "2026-10-20T07:00:00+00:00",
       "events": [
-        "FAILED_LOW_20H"
+        "HOURLY_SHOCK_2_5ATR"
       ],
-      "gap_pct": -0.04,
-      "hourly_move_pct": -0.08,
+      "gap_pct": -0.64,
+      "hourly_move_pct": -1.65,
+      "status": "INTRADAY_WATCH_NOT_ORDER"
+    },
+    {
+      "symbol": "VOLVO_B",
+      "bar_start_utc": "2026-10-20T07:00:00+00:00",
+      "events": [
+        "HOURLY_SHOCK_2_5ATR"
+      ],
+      "gap_pct": -0.65,
+      "hourly_move_pct": -1.83,
+      "status": "INTRADAY_WATCH_NOT_ORDER"
+    },
+    {
+      "symbol": "ATLAS_A",
+      "bar_start_utc": "2026-10-20T07:00:00+00:00",
+      "events": [
+        "HOURLY_SHOCK_2_5ATR"
+      ],
+      "gap_pct": -1.14,
+      "hourly_move_pct": -3.88,
+      "status": "INTRADAY_WATCH_NOT_ORDER"
+    },
+    {
+      "symbol": "ABB",
+      "bar_start_utc": "2026-10-20T07:00:00+00:00",
+      "events": [
+        "HOURLY_SHOCK_2_5ATR"
+      ],
+      "gap_pct": -2.63,
+      "hourly_move_pct": -5.84,
       "status": "INTRADAY_WATCH_NOT_ORDER"
     },
     {

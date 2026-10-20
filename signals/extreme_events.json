@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at_utc": "2026-10-20T01:16:51.021347+00:00",
+  "generated_at_utc": "2026-10-20T08:12:57.713340+00:00",
   "status": "RESEARCH_ONLY",
   "parameters": {
     "gap_abs_pct": 3,
@@ -8,18 +8,6 @@
     "daily_range_atr": 2.5
   },
   "observations": {
-    "WTI_FUT": {
-      "session_date": "2026-10-19",
-      "events": [
-        {
-          "type": "GAP",
-          "direction": "DOWN",
-          "magnitude_pct": -3.13,
-          "subtype": "GAP_FADE_WATCH",
-          "note": "Requires independently verified catalyst and actual bid/ask; never infer earnings from price."
-        }
-      ]
-    },
     "VIX": {
       "session_date": "2026-10-19",
       "events": [
@@ -35,6 +23,18 @@
           "direction": "DOWN",
           "magnitude_pct": -7.75,
           "note": "Magnitude alone is not an entry signal."
+        }
+      ]
+    },
+    "OVX": {
+      "session_date": "2026-10-19",
+      "events": [
+        {
+          "type": "GAP",
+          "direction": "UP",
+          "magnitude_pct": 4.24,
+          "subtype": "GAP_FADE_WATCH",
+          "note": "Requires independently verified catalyst and actual bid/ask; never infer earnings from price."
         }
       ]
     }
