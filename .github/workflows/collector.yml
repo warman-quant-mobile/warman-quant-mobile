@@ -35,6 +35,8 @@ jobs:
         run: python flow_dislocation.py --folder output
       - name: Run one-position breakout portfolio research
         run: python portfolio_breakout.py --folder output
+      - name: Run rotation research diagnostics
+        run: python rotation_research.py --folder output
       - name: Run cash-backed crypto portfolio research (diagnostic only)
         run: python portfolio_v6.py --folder output
       - name: Enforce Nordnet instrument promotion gate
@@ -43,10 +45,10 @@ jobs:
         if: success()
         run: |
           mkdir -p reports
-          cp output/flow_dislocation_report.json output/flow_dislocation_summary.csv output/portfolio_breakout_report.json reports/
+          cp output/flow_dislocation_report.json output/flow_dislocation_summary.csv output/portfolio_breakout_report.json output/rotation_research_report.json reports/
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add reports/flow_dislocation_report.json reports/flow_dislocation_summary.csv reports/portfolio_breakout_report.json
+          git add reports/flow_dislocation_report.json reports/flow_dislocation_summary.csv reports/portfolio_breakout_report.json reports/rotation_research_report.json
           if ! git diff --cached --quiet; then
             git commit -m 'Update Flow Dislocation research results [skip ci]'
             git push origin HEAD:main
