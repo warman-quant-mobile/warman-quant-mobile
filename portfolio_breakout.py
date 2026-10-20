@@ -25,6 +25,7 @@ def run(folder):
  for stop_mult in (2.0,3.0):
   cash=100000.;pos=None;trades=[];equity=[];peak=cash
   for i,d in enumerate(dates):
+   exited_today=False
    # Signals from previous completed daily bar; today's opening fills.
    if pos and d in data[pos['symbol']]:
     o,h,l,c=data[pos['symbol']][d]
@@ -37,7 +38,8 @@ def run(folder):
      cash+=pos['qty']*px*(1-.001)
      trades.append({'symbol':pos['symbol'],'entry_date':pos['date'],'exit_date':d,'entry':pos['entry'],'exit':px,'reason':reason,'net_return':px/pos['entry']*(1-.001)/(1+.001)-1,'pnl':cash-pos['cash_before']})
      pos=None
-   if pos is None and i>=23:
+     exited_today=True
+   if pos is None and not exited_today and i>=23:
     candidates=[]
     for s in SYMS:
      if s not in data or d not in data[s]:continue
