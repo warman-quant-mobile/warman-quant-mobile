@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at_utc": "2026-10-17T01:13:16.736051+00:00",
+  "generated_at_utc": "2026-10-20T01:16:26.572541+00:00",
   "status": "RESEARCH_ONLY",
   "methodology": "251-session warmup; prior-close 20-day breakout plus MA50/MA200; next open; ATR20 x2; 10R gross-risk target; 20bps roundtrip friction; 60 sessions; stop first if same bar; worse gap fill; disjoint 60-session windows per side.",
   "results": {
@@ -68,10 +68,10 @@
       "LONG": {
         "events": 25,
         "targets": 0,
-        "stops": 13,
-        "timeouts": 12,
-        "mean_realized_r": 0.756,
-        "maximum_favorable_excursion_r": 5.485,
+        "stops": 12,
+        "timeouts": 13,
+        "mean_realized_r": 1.066,
+        "maximum_favorable_excursion_r": 7.621,
         "note": "Exploratory overlapping-market selection bias; not independently validated."
       },
       "SHORT": {
@@ -430,7 +430,7 @@
         "targets": 2,
         "stops": 15,
         "timeouts": 8,
-        "mean_realized_r": 1.171,
+        "mean_realized_r": 1.162,
         "maximum_favorable_excursion_r": 11.028,
         "note": "Exploratory overlapping-market selection bias; not independently validated."
       },
@@ -447,11 +447,11 @@
     "MICROSOFT": {
       "LONG": {
         "events": 24,
-        "targets": 1,
-        "stops": 10,
-        "timeouts": 13,
-        "mean_realized_r": 1.211,
-        "maximum_favorable_excursion_r": 10.014,
+        "targets": 0,
+        "stops": 12,
+        "timeouts": 12,
+        "mean_realized_r": 0.845,
+        "maximum_favorable_excursion_r": 7.568,
         "note": "Exploratory overlapping-market selection bias; not independently validated."
       },
       "SHORT": {
@@ -468,9 +468,9 @@
       "LONG": {
         "events": 22,
         "targets": 0,
-        "stops": 14,
-        "timeouts": 8,
-        "mean_realized_r": 0.834,
+        "stops": 13,
+        "timeouts": 9,
+        "mean_realized_r": 0.949,
         "maximum_favorable_excursion_r": 7.686,
         "note": "Exploratory overlapping-market selection bias; not independently validated."
       },

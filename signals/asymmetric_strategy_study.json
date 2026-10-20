@@ -105,31 +105,31 @@
         "sample_qualified": true,
         "train": {
           "n": 20,
-          "mean_r": -0.494,
+          "mean_r": -0.23,
           "median_r": -1.0,
-          "hit_5r": 0,
+          "hit_5r": 1,
           "hit_10r": 0,
           "hit_15r": 0,
           "hit_20r": 0,
-          "p50_mfe": 0.355,
-          "p75_mfe": 1.026,
-          "p90_mfe": 2.782,
-          "max_mfe": 4.365,
+          "p50_mfe": 0.438,
+          "p75_mfe": 1.322,
+          "p90_mfe": 4.037,
+          "max_mfe": 7.721,
           "fixed_target_ev": {
             "5": {
-              "mean_r": -0.494,
-              "wins": 0
+              "mean_r": -0.197,
+              "wins": 1
             },
             "10": {
-              "mean_r": -0.494,
+              "mean_r": -0.23,
               "wins": 0
             },
             "15": {
-              "mean_r": -0.494,
+              "mean_r": -0.23,
               "wins": 0
             },
             "20": {
-              "mean_r": -0.468,
+              "mean_r": -0.189,
               "wins": 0
             }
           }
@@ -168,31 +168,31 @@
         "oos_positive": false,
         "all": {
           "n": 34,
-          "mean_r": -0.598,
+          "mean_r": -0.443,
           "median_r": -1.0,
-          "hit_5r": 0,
+          "hit_5r": 1,
           "hit_10r": 0,
           "hit_15r": 0,
           "hit_20r": 0,
-          "p50_mfe": 0.417,
-          "p75_mfe": 1.113,
-          "p90_mfe": 3.5,
-          "max_mfe": 4.918,
+          "p50_mfe": 0.482,
+          "p75_mfe": 1.272,
+          "p90_mfe": 3.96,
+          "max_mfe": 7.721,
           "fixed_target_ev": {
             "5": {
-              "mean_r": -0.598,
-              "wins": 0
+              "mean_r": -0.423,
+              "wins": 1
             },
             "10": {
-              "mean_r": -0.598,
+              "mean_r": -0.443,
               "wins": 0
             },
             "15": {
-              "mean_r": -0.598,
+              "mean_r": -0.443,
               "wins": 0
             },
             "20": {
-              "mean_r": -0.586,
+              "mean_r": -0.426,
               "wins": 0
             }
           }
