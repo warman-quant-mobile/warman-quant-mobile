@@ -1,0 +1,6067 @@
+{
+  "generated_at": "2026-10-20T13:50:23.703015+00:00",
+  "validated_edge": false,
+  "research_only": true,
+  "split_date": "2023-10-13",
+  "method": "Failed downside break and same-day reclaim of previous 10/20-session low, enter next open, stop at signal low, 3R target, 2/5 day timeout, adverse same-bar stop precedence, 20-30bp costs",
+  "results": {
+    "10d_2d": {
+      "train": {
+        "n": 569,
+        "mean_net_pct": -0.21,
+        "profit_factor": 0.815,
+        "win_rate": 0.438,
+        "mean_R": -0.262
+      },
+      "holdout": {
+        "n": 206,
+        "mean_net_pct": -0.302,
+        "profit_factor": 0.701,
+        "win_rate": 0.417,
+        "mean_R": -0.229
+      },
+      "holdout_trades": [
+        {
+          "symbol": "INVESTOR_B",
+          "signal_date": "2024-01-08",
+          "entry_date": "2024-01-09",
+          "exit_date": "2024-01-09",
+          "return": -0.015337688759807896,
+          "R": -1.2431573739947956,
+          "reason": "stop"
+        },
+        {
+          "symbol": "INVESTOR_B",
+          "signal_date": "2024-04-08",
+          "entry_date": "2024-04-09",
+          "exit_date": "2024-04-10",
+          "return": -0.005616911142314883,
+          "R": -0.4403817878713361,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "INVESTOR_B",
+          "signal_date": "2024-09-06",
+          "entry_date": "2024-09-09",
+          "exit_date": "2024-09-10",
+          "return": 0.005601351351351315,
+          "R": 0.3349486689436607,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "INVESTOR_B",
+          "signal_date": "2024-10-08",
+          "entry_date": "2024-10-09",
+          "exit_date": "2024-10-09",
+          "return": -0.008076201996280338,
+          "R": -1.5909930302612696,
+          "reason": "stop"
+        },
+        {
+          "symbol": "INVESTOR_B",
+          "signal_date": "2024-10-09",
+          "entry_date": "2024-10-10",
+          "exit_date": "2024-10-10",
+          "return": -0.014396938881271911,
+          "R": -1.2632285766601559,
+          "reason": "stop"
+        },
+        {
+          "symbol": "INVESTOR_B",
+          "signal_date": "2024-12-20",
+          "entry_date": "2024-12-23",
+          "exit_date": "2024-12-27",
+          "return": 0.008671277464769702,
+          "R": 0.47084172518238726,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "INVESTOR_B",
+          "signal_date": "2025-03-07",
+          "entry_date": "2025-03-10",
+          "exit_date": "2025-03-11",
+          "return": -0.022760995082171328,
+          "R": -1.151814217225663,
+          "reason": "stop"
+        },
+        {
+          "symbol": "INVESTOR_B",
+          "signal_date": "2025-12-10",
+          "entry_date": "2025-12-11",
+          "exit_date": "2025-12-12",
+          "return": -0.00896055684454755,
+          "R": -0.3532311814751128,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "INVESTOR_B",
+          "signal_date": "2026-03-23",
+          "entry_date": "2026-03-24",
+          "exit_date": "2026-03-25",
+          "return": 0.030286635424128683,
+          "R": 0.8024782824309188,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "INVESTOR_B",
+          "signal_date": "2026-04-28",
+          "entry_date": "2026-04-29",
+          "exit_date": "2026-04-29",
+          "return": -0.011976436210985982,
+          "R": -1.3342083572463117,
+          "reason": "stop"
+        },
+        {
+          "symbol": "INVESTOR_B",
+          "signal_date": "2026-04-30",
+          "entry_date": "2026-05-04",
+          "exit_date": "2026-05-05",
+          "return": -0.014391722575574637,
+          "R": -0.4821864295017473,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "INVESTOR_B",
+          "signal_date": "2026-05-18",
+          "entry_date": "2026-05-19",
+          "exit_date": "2026-05-20",
+          "return": 0.012307125835542944,
+          "R": 0.5045914878236751,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "INVESTOR_B",
+          "signal_date": "2026-06-08",
+          "entry_date": "2026-06-09",
+          "exit_date": "2026-06-10",
+          "return": -0.021019219291059318,
+          "R": -1.1664889000761807,
+          "reason": "stop"
+        },
+        {
+          "symbol": "INVESTOR_B",
+          "signal_date": "2026-07-14",
+          "entry_date": "2026-07-15",
+          "exit_date": "2026-07-16",
+          "return": -0.0033929803774719308,
+          "R": -0.1798276681331458,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "INVESTOR_B",
+          "signal_date": "2026-08-18",
+          "entry_date": "2026-08-19",
+          "exit_date": "2026-08-20",
+          "return": -0.009208956013523114,
+          "R": -1.4831730154740914,
+          "reason": "stop"
+        },
+        {
+          "symbol": "INVESTOR_B",
+          "signal_date": "2026-08-20",
+          "entry_date": "2026-08-21",
+          "exit_date": "2026-08-24",
+          "return": 0.0032387766287995685,
+          "R": 0.5779134623039623,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "VOLVO_B",
+          "signal_date": "2023-10-24",
+          "entry_date": "2023-10-25",
+          "exit_date": "2023-10-26",
+          "return": 0.007921592919020394,
+          "R": 0.5201841133033347,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "VOLVO_B",
+          "signal_date": "2024-01-08",
+          "entry_date": "2024-01-09",
+          "exit_date": "2024-01-09",
+          "return": -0.016545792416272406,
+          "R": -1.2214709858093005,
+          "reason": "stop"
+        },
+        {
+          "symbol": "VOLVO_B",
+          "signal_date": "2024-01-26",
+          "entry_date": "2024-01-29",
+          "exit_date": "2024-01-30",
+          "return": -0.02013519004697406,
+          "R": -0.2978013207087194,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "VOLVO_B",
+          "signal_date": "2024-04-02",
+          "entry_date": "2024-04-03",
+          "exit_date": "2024-04-03",
+          "return": -0.007137973127693928,
+          "R": -1.7249926249936334,
+          "reason": "stop"
+        },
+        {
+          "symbol": "VOLVO_B",
+          "signal_date": "2024-04-19",
+          "entry_date": "2024-04-22",
+          "exit_date": "2024-04-23",
+          "return": 0.0022644357962307033,
+          "R": 0.09956450420809497,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "VOLVO_B",
+          "signal_date": "2024-05-30",
+          "entry_date": "2024-05-31",
+          "exit_date": "2024-05-31",
+          "return": -0.013903889268524813,
+          "R": -1.2751311872415787,
+          "reason": "stop"
+        },
+        {
+          "symbol": "VOLVO_B",
+          "signal_date": "2024-09-11",
+          "entry_date": "2024-09-12",
+          "exit_date": "2024-09-13",
+          "return": 0.002731849051109016,
+          "R": 0.13584237390570159,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "VOLVO_B",
+          "signal_date": "2024-10-18",
+          "entry_date": "2024-10-21",
+          "exit_date": "2024-10-22",
+          "return": -0.013721656436011863,
+          "R": -0.2341257629394524,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "VOLVO_B",
+          "signal_date": "2024-11-21",
+          "entry_date": "2024-11-22",
+          "exit_date": "2024-11-25",
+          "return": -0.0031110658998843004,
+          "R": -0.10632765087863792,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "VOLVO_B",
+          "signal_date": "2024-12-17",
+          "entry_date": "2024-12-18",
+          "exit_date": "2024-12-19",
+          "return": -0.016420428158170682,
+          "R": -1.9682940013533747,
+          "reason": "gap_stop"
+        },
+        {
+          "symbol": "VOLVO_B",
+          "signal_date": "2025-06-03",
+          "entry_date": "2025-06-04",
+          "exit_date": "2025-06-05",
+          "return": 0.009923100398137043,
+          "R": 0.7588266867724031,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "VOLVO_B",
+          "signal_date": "2025-06-19",
+          "entry_date": "2025-06-23",
+          "exit_date": "2025-06-23",
+          "return": -0.011546996893585511,
+          "R": -1.3510004785717726,
+          "reason": "stop"
+        },
+        {
+          "symbol": "VOLVO_B",
+          "signal_date": "2025-09-11",
+          "entry_date": "2025-09-12",
+          "exit_date": "2025-09-15",
+          "return": -0.010360662520964901,
+          "R": -0.5278188045007834,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "VOLVO_B",
+          "signal_date": "2025-10-08",
+          "entry_date": "2025-10-09",
+          "exit_date": "2025-10-10",
+          "return": -0.013111111111111072,
+          "R": -0.8045465705823985,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "VOLVO_B",
+          "signal_date": "2026-03-23",
+          "entry_date": "2026-03-24",
+          "exit_date": "2026-03-25",
+          "return": 0.017463046285129957,
+          "R": 0.24204594385901054,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "VOLVO_B",
+          "signal_date": "2026-04-30",
+          "entry_date": "2026-05-04",
+          "exit_date": "2026-05-04",
+          "return": -0.028265146442013164,
+          "R": -1.118740653527793,
+          "reason": "stop"
+        },
+        {
+          "symbol": "VOLVO_B",
+          "signal_date": "2026-05-18",
+          "entry_date": "2026-05-19",
+          "exit_date": "2026-05-19",
+          "return": -0.008765593338136087,
+          "R": -1.5203280606276326,
+          "reason": "stop"
+        },
+        {
+          "symbol": "VOLVO_B",
+          "signal_date": "2026-08-20",
+          "entry_date": "2026-08-21",
+          "exit_date": "2026-08-24",
+          "return": 0.01649130486423478,
+          "R": 1.4406545118782998,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "VOLVO_B",
+          "signal_date": "2026-09-03",
+          "entry_date": "2026-09-04",
+          "exit_date": "2026-09-07",
+          "return": 9.796817585174325e-06,
+          "R": 0.0002420026491910611,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "ATLAS_A",
+          "signal_date": "2023-10-24",
+          "entry_date": "2023-10-25",
+          "exit_date": "2023-10-26",
+          "return": 0.026057510046650245,
+          "R": 1.393071305327656,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "ATLAS_A",
+          "signal_date": "2024-01-08",
+          "entry_date": "2024-01-09",
+          "exit_date": "2024-01-10",
+          "return": -0.00655927051671734,
+          "R": -0.34806383083450726,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "ATLAS_A",
+          "signal_date": "2024-01-26",
+          "entry_date": "2024-01-29",
+          "exit_date": "2024-01-30",
+          "return": 0.013955852422270711,
+          "R": 0.7219398463461153,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "ATLAS_A",
+          "signal_date": "2024-04-05",
+          "entry_date": "2024-04-08",
+          "exit_date": "2024-04-09",
+          "return": 0.000477358778705474,
+          "R": 0.019707349891454676,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "ATLAS_A",
+          "signal_date": "2024-04-23",
+          "entry_date": "2024-04-24",
+          "exit_date": "2024-04-24",
+          "return": 0.03662885202953914,
+          "R": 2.772892740034677,
+          "reason": "target"
+        },
+        {
+          "symbol": "ATLAS_A",
+          "signal_date": "2024-06-24",
+          "entry_date": "2024-06-25",
+          "exit_date": "2024-06-25",
+          "return": -0.026134297992459584,
+          "R": -1.1296775895675688,
+          "reason": "stop"
+        },
+        {
+          "symbol": "ATLAS_A",
+          "signal_date": "2024-07-23",
+          "entry_date": "2024-07-24",
+          "exit_date": "2024-07-25",
+          "return": -0.022464671014479683,
+          "R": -1.5678680773881473,
+          "reason": "gap_stop"
+        },
+        {
+          "symbol": "ATLAS_A",
+          "signal_date": "2024-07-25",
+          "entry_date": "2024-07-26",
+          "exit_date": "2024-07-29",
+          "return": 0.006738344027263478,
+          "R": 0.30844770812988276,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "ATLAS_A",
+          "signal_date": "2024-10-23",
+          "entry_date": "2024-10-24",
+          "exit_date": "2024-10-25",
+          "return": -0.001163828537474874,
+          "R": -0.040541957275342995,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "ATLAS_A",
+          "signal_date": "2024-11-21",
+          "entry_date": "2024-11-22",
+          "exit_date": "2024-11-25",
+          "return": 0.0006018904665077169,
+          "R": 0.04337384128275154,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "ATLAS_A",
+          "signal_date": "2024-12-17",
+          "entry_date": "2024-12-18",
+          "exit_date": "2024-12-18",
+          "return": -0.010334290842075152,
+          "R": -1.4090375013204752,
+          "reason": "stop"
+        },
+        {
+          "symbol": "ATLAS_A",
+          "signal_date": "2025-02-25",
+          "entry_date": "2025-02-26",
+          "exit_date": "2025-02-27",
+          "return": -0.010161044478207091,
+          "R": -0.5574915234165033,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "ATLAS_A",
+          "signal_date": "2025-02-28",
+          "entry_date": "2025-03-03",
+          "exit_date": "2025-03-04",
+          "return": -0.026274917075252865,
+          "R": -1.4762461594801661,
+          "reason": "gap_stop"
+        },
+        {
+          "symbol": "ATLAS_A",
+          "signal_date": "2025-03-13",
+          "entry_date": "2025-03-14",
+          "exit_date": "2025-03-17",
+          "return": 0.015403726400900599,
+          "R": 1.8617301609016506,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "ATLAS_A",
+          "signal_date": "2025-03-19",
+          "entry_date": "2025-03-20",
+          "exit_date": "2025-03-20",
+          "return": -0.013066148625603177,
+          "R": -1.2980285818917454,
+          "reason": "stop"
+        },
+        {
+          "symbol": "ATLAS_A",
+          "signal_date": "2025-03-25",
+          "entry_date": "2025-03-26",
+          "exit_date": "2025-03-27",
+          "return": -0.03471802582369676,
+          "R": -1.3587897938137095,
+          "reason": "gap_stop"
+        },
+        {
+          "symbol": "ATLAS_A",
+          "signal_date": "2025-03-27",
+          "entry_date": "2025-03-28",
+          "exit_date": "2025-03-28",
+          "return": -0.008160843111573831,
+          "R": -1.581300368010058,
+          "reason": "stop"
+        },
+        {
+          "symbol": "ATLAS_A",
+          "signal_date": "2025-04-30",
+          "entry_date": "2025-05-02",
+          "exit_date": "2025-05-05",
+          "return": -0.008873997065517612,
+          "R": -0.15403438428206587,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "ATLAS_A",
+          "signal_date": "2025-06-19",
+          "entry_date": "2025-06-23",
+          "exit_date": "2025-06-23",
+          "return": -0.01533738501085213,
+          "R": -1.2431633605793437,
+          "reason": "stop"
+        },
+        {
+          "symbol": "ATLAS_A",
+          "signal_date": "2025-10-20",
+          "entry_date": "2025-10-21",
+          "exit_date": "2025-10-22",
+          "return": 0.0013262036447971876,
+          "R": 0.07433453334160955,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "ATLAS_A",
+          "signal_date": "2025-11-05",
+          "entry_date": "2025-11-06",
+          "exit_date": "2025-11-07",
+          "return": -0.017589203184358856,
+          "R": -1.2056315181912243,
+          "reason": "stop"
+        },
+        {
+          "symbol": "ATLAS_A",
+          "signal_date": "2025-11-21",
+          "entry_date": "2025-11-24",
+          "exit_date": "2025-11-25",
+          "return": 0.019809835362043504,
+          "R": 0.7332009927383009,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "ATLAS_A",
+          "signal_date": "2025-12-18",
+          "entry_date": "2025-12-19",
+          "exit_date": "2025-12-22",
+          "return": 0.0025801526717557106,
+          "R": 0.1005953111886963,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "ATLAS_A",
+          "signal_date": "2026-02-02",
+          "entry_date": "2026-02-03",
+          "exit_date": "2026-02-04",
+          "return": 0.0019830057771896854,
+          "R": 0.04609872994224106,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "ATLAS_A",
+          "signal_date": "2026-03-23",
+          "entry_date": "2026-03-24",
+          "exit_date": "2026-03-25",
+          "return": 0.008185147509162773,
+          "R": 0.15508695008146875,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "ATLAS_A",
+          "signal_date": "2026-04-30",
+          "entry_date": "2026-05-04",
+          "exit_date": "2026-05-05",
+          "return": -0.005413974984441626,
+          "R": -0.13124222117456769,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "ATLAS_A",
+          "signal_date": "2026-07-16",
+          "entry_date": "2026-07-17",
+          "exit_date": "2026-07-20",
+          "return": -0.016739486132067993,
+          "R": -0.20713806042482807,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "ATLAS_A",
+          "signal_date": "2026-09-02",
+          "entry_date": "2026-09-03",
+          "exit_date": "2026-09-04",
+          "return": 0.014368672626777991,
+          "R": 1.967521378134632,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "ABB",
+          "signal_date": "2023-10-23",
+          "entry_date": "2023-10-24",
+          "exit_date": "2023-10-25",
+          "return": 0.0009867122996865003,
+          "R": 0.05957501350783826,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "ABB",
+          "signal_date": "2024-01-04",
+          "entry_date": "2024-01-05",
+          "exit_date": "2024-01-05",
+          "return": -0.014415525114155222,
+          "R": -1.2627999999999975,
+          "reason": "stop"
+        },
+        {
+          "symbol": "ABB",
+          "signal_date": "2024-06-25",
+          "entry_date": "2024-06-26",
+          "exit_date": "2024-06-27",
+          "return": 0.0007183769749581365,
+          "R": 0.046981852213539864,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "ABB",
+          "signal_date": "2024-09-04",
+          "entry_date": "2024-09-05",
+          "exit_date": "2024-09-06",
+          "return": -0.023329435825905406,
+          "R": -1.1475692697864823,
+          "reason": "stop"
+        },
+        {
+          "symbol": "ABB",
+          "signal_date": "2024-12-17",
+          "entry_date": "2024-12-18",
+          "exit_date": "2024-12-19",
+          "return": -0.03233750092419163,
+          "R": -5.395274064793843,
+          "reason": "gap_stop"
+        },
+        {
+          "symbol": "ABB",
+          "signal_date": "2024-12-20",
+          "entry_date": "2024-12-23",
+          "exit_date": "2024-12-27",
+          "return": 0.0013189513458828923,
+          "R": 0.058441284971856924,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "ABB",
+          "signal_date": "2025-03-06",
+          "entry_date": "2025-03-07",
+          "exit_date": "2025-03-10",
+          "return": -0.012032311892921864,
+          "R": -0.6853515317974854,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "ABB",
+          "signal_date": "2025-06-26",
+          "entry_date": "2025-06-27",
+          "exit_date": "2025-06-30",
+          "return": 0.028965391621129433,
+          "R": 1.2423449347924609,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "ABB",
+          "signal_date": "2025-11-14",
+          "entry_date": "2025-11-17",
+          "exit_date": "2025-11-18",
+          "return": -0.031110030107818095,
+          "R": -2.123103436034451,
+          "reason": "gap_stop"
+        },
+        {
+          "symbol": "ABB",
+          "signal_date": "2025-11-19",
+          "entry_date": "2025-11-20",
+          "exit_date": "2025-11-21",
+          "return": -0.0175156857746126,
+          "R": -0.6190747088530333,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "ABB",
+          "signal_date": "2025-12-18",
+          "entry_date": "2025-12-19",
+          "exit_date": "2025-12-22",
+          "return": 0.008324483775811188,
+          "R": 0.43415384615384506,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "ABB",
+          "signal_date": "2026-01-20",
+          "entry_date": "2026-01-21",
+          "exit_date": "2026-01-21",
+          "return": -0.01891895803183796,
+          "R": -1.1884545454545483,
+          "reason": "stop"
+        },
+        {
+          "symbol": "ABB",
+          "signal_date": "2026-01-23",
+          "entry_date": "2026-01-26",
+          "exit_date": "2026-01-27",
+          "return": 0.02641176470588225,
+          "R": 2.721222187286134,
+          "reason": "gap_target"
+        },
+        {
+          "symbol": "ABB",
+          "signal_date": "2026-03-23",
+          "entry_date": "2026-03-24",
+          "exit_date": "2026-03-25",
+          "return": 0.020797895836706548,
+          "R": 0.4159581798229652,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "ABB",
+          "signal_date": "2026-06-08",
+          "entry_date": "2026-06-09",
+          "exit_date": "2026-06-09",
+          "return": -0.01670986707524957,
+          "R": -1.2188205023093097,
+          "reason": "stop"
+        },
+        {
+          "symbol": "ABB",
+          "signal_date": "2026-07-17",
+          "entry_date": "2026-07-20",
+          "exit_date": "2026-07-21",
+          "return": 0.015106665477329752,
+          "R": 0.4470628814697274,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "ABB",
+          "signal_date": "2026-07-30",
+          "entry_date": "2026-07-31",
+          "exit_date": "2026-08-03",
+          "return": -0.000510612325465452,
+          "R": -0.011267038990885424,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "ABB",
+          "signal_date": "2026-10-09",
+          "entry_date": "2026-10-12",
+          "exit_date": "2026-10-13",
+          "return": -0.00720833333333337,
+          "R": -0.37608645751096503,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "NVIDIA",
+          "signal_date": "2023-10-23",
+          "entry_date": "2023-10-24",
+          "exit_date": "2023-10-25",
+          "return": -0.03213209707752407,
+          "R": -0.6492281214047104,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "NVIDIA",
+          "signal_date": "2023-10-31",
+          "entry_date": "2023-11-01",
+          "exit_date": "2023-11-02",
+          "return": 0.06213271011556332,
+          "R": 1.5358129875042072,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "NVIDIA",
+          "signal_date": "2025-01-28",
+          "entry_date": "2025-01-29",
+          "exit_date": "2025-01-30",
+          "return": -0.016624493866569945,
+          "R": -0.20517058284108272,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "NVIDIA",
+          "signal_date": "2025-02-03",
+          "entry_date": "2025-02-04",
+          "exit_date": "2025-02-05",
+          "return": 0.06528798570610483,
+          "R": 1.9331869995016744,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "NVIDIA",
+          "signal_date": "2025-02-28",
+          "entry_date": "2025-03-03",
+          "exit_date": "2025-03-03",
+          "return": -0.06056619291860499,
+          "R": -1.0521139204783225,
+          "reason": "stop"
+        },
+        {
+          "symbol": "NVIDIA",
+          "signal_date": "2025-03-04",
+          "entry_date": "2025-03-05",
+          "exit_date": "2025-03-06",
+          "return": -0.06161900006008525,
+          "R": -0.969901065051047,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "NVIDIA",
+          "signal_date": "2025-03-07",
+          "entry_date": "2025-03-10",
+          "exit_date": "2025-03-10",
+          "return": -0.02429211951588683,
+          "R": -1.140897198973621,
+          "reason": "stop"
+        },
+        {
+          "symbol": "NVIDIA",
+          "signal_date": "2025-03-11",
+          "entry_date": "2025-03-12",
+          "exit_date": "2025-03-13",
+          "return": 0.010793542318034978,
+          "R": 0.1317388529314817,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "NVIDIA",
+          "signal_date": "2025-09-02",
+          "entry_date": "2025-09-03",
+          "exit_date": "2025-09-04",
+          "return": 0.001507576944224544,
+          "R": 0.06715790477553006,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "NVIDIA",
+          "signal_date": "2025-11-07",
+          "entry_date": "2025-11-10",
+          "exit_date": "2025-11-11",
+          "return": -0.011994346482200434,
+          "R": -0.14445786359958696,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "NVIDIA",
+          "signal_date": "2025-11-25",
+          "entry_date": "2025-11-26",
+          "exit_date": "2025-11-28",
+          "return": -0.027491409780007303,
+          "R": -0.41334968010863055,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "NVIDIA",
+          "signal_date": "2026-01-12",
+          "entry_date": "2026-01-13",
+          "exit_date": "2026-01-14",
+          "return": -0.013702679608319276,
+          "R": -1.2803036351446138,
+          "reason": "stop"
+        },
+        {
+          "symbol": "NVIDIA",
+          "signal_date": "2026-03-02",
+          "entry_date": "2026-03-03",
+          "exit_date": "2026-03-04",
+          "return": 0.023491555005543452,
+          "R": 1.089091203817464,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "NVIDIA",
+          "signal_date": "2026-06-29",
+          "entry_date": "2026-06-30",
+          "exit_date": "2026-07-01",
+          "return": -0.0002762303365357859,
+          "R": -0.007323071937782712,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "NVIDIA",
+          "signal_date": "2026-07-28",
+          "entry_date": "2026-07-29",
+          "exit_date": "2026-07-29",
+          "return": -0.018879502238604903,
+          "R": -1.1889227983926751,
+          "reason": "stop"
+        },
+        {
+          "symbol": "NVIDIA",
+          "signal_date": "2026-10-13",
+          "entry_date": "2026-10-14",
+          "exit_date": "2026-10-14",
+          "return": -0.013951985252836693,
+          "R": -1.2739229400644994,
+          "reason": "stop"
+        },
+        {
+          "symbol": "MICROSOFT",
+          "signal_date": "2023-12-04",
+          "entry_date": "2023-12-05",
+          "exit_date": "2023-12-06",
+          "return": 0.0044128135015857346,
+          "R": 0.4555118931976259,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "MICROSOFT",
+          "signal_date": "2024-02-21",
+          "entry_date": "2024-02-22",
+          "exit_date": "2024-02-23",
+          "return": -0.0016343306867754297,
+          "R": -0.05168743602956546,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "MICROSOFT",
+          "signal_date": "2024-04-22",
+          "entry_date": "2024-04-23",
+          "exit_date": "2024-04-24",
+          "return": 0.0099236281433317,
+          "R": 0.4725008195542746,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "MICROSOFT",
+          "signal_date": "2024-04-25",
+          "entry_date": "2024-04-26",
+          "exit_date": "2024-04-29",
+          "return": -0.02606777083377909,
+          "R": -0.4450847943161988,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "MICROSOFT",
+          "signal_date": "2024-07-19",
+          "entry_date": "2024-07-22",
+          "exit_date": "2024-07-23",
+          "return": 0.004926362071139058,
+          "R": 0.2223100757795377,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "MICROSOFT",
+          "signal_date": "2024-07-26",
+          "entry_date": "2024-07-29",
+          "exit_date": "2024-07-30",
+          "return": -0.02206574311591991,
+          "R": -0.6654881021944508,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "MICROSOFT",
+          "signal_date": "2024-09-04",
+          "entry_date": "2024-09-05",
+          "exit_date": "2024-09-06",
+          "return": -0.010973112307863239,
+          "R": -1.3762646108774041,
+          "reason": "stop"
+        },
+        {
+          "symbol": "MICROSOFT",
+          "signal_date": "2024-09-30",
+          "entry_date": "2024-10-01",
+          "exit_date": "2024-10-01",
+          "return": -0.010188743148770048,
+          "R": -1.4173191249033912,
+          "reason": "stop"
+        },
+        {
+          "symbol": "MICROSOFT",
+          "signal_date": "2024-10-08",
+          "entry_date": "2024-10-09",
+          "exit_date": "2024-10-10",
+          "return": -0.0020480666916172768,
+          "R": -0.11075579895628497,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "MICROSOFT",
+          "signal_date": "2024-12-20",
+          "entry_date": "2024-12-23",
+          "exit_date": "2024-12-24",
+          "return": 0.003930293528881414,
+          "R": 0.21165468037389062,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "MICROSOFT",
+          "signal_date": "2025-01-13",
+          "entry_date": "2025-01-14",
+          "exit_date": "2025-01-14",
+          "return": -0.016211720748491084,
+          "R": -1.2270711027814187,
+          "reason": "stop"
+        },
+        {
+          "symbol": "MICROSOFT",
+          "signal_date": "2025-02-12",
+          "entry_date": "2025-02-13",
+          "exit_date": "2025-02-14",
+          "return": 0.0015134955178901528,
+          "R": 0.2342173126015477,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "MICROSOFT",
+          "signal_date": "2025-02-26",
+          "entry_date": "2025-02-27",
+          "exit_date": "2025-02-27",
+          "return": -0.020494428205127254,
+          "R": -1.1714831696597428,
+          "reason": "stop"
+        },
+        {
+          "symbol": "MICROSOFT",
+          "signal_date": "2025-02-28",
+          "entry_date": "2025-03-03",
+          "exit_date": "2025-03-03",
+          "return": -0.033715610488521564,
+          "R": -1.0976702058753205,
+          "reason": "stop"
+        },
+        {
+          "symbol": "MICROSOFT",
+          "signal_date": "2025-03-04",
+          "entry_date": "2025-03-05",
+          "exit_date": "2025-03-06",
+          "return": 0.01739183844855896,
+          "R": 0.8119114258009082,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "MICROSOFT",
+          "signal_date": "2025-03-11",
+          "entry_date": "2025-03-12",
+          "exit_date": "2025-03-13",
+          "return": -0.012915323306216695,
+          "R": -0.8188603014364464,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "MICROSOFT",
+          "signal_date": "2025-08-22",
+          "entry_date": "2025-08-25",
+          "exit_date": "2025-08-26",
+          "return": -0.011329552493992586,
+          "R": -1.3601634063971146,
+          "reason": "stop"
+        },
+        {
+          "symbol": "MICROSOFT",
+          "signal_date": "2025-09-02",
+          "entry_date": "2025-09-03",
+          "exit_date": "2025-09-04",
+          "return": 0.0062970932429846655,
+          "R": 0.4544996655313691,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "MICROSOFT",
+          "signal_date": "2025-10-14",
+          "entry_date": "2025-10-15",
+          "exit_date": "2025-10-16",
+          "return": -0.008505430476449026,
+          "R": -0.4888332504547003,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "MICROSOFT",
+          "signal_date": "2025-11-04",
+          "entry_date": "2025-11-05",
+          "exit_date": "2025-11-05",
+          "return": -0.013637037960110617,
+          "R": -1.2820334017092105,
+          "reason": "stop"
+        },
+        {
+          "symbol": "MICROSOFT",
+          "signal_date": "2025-11-25",
+          "entry_date": "2025-11-26",
+          "exit_date": "2025-11-28",
+          "return": 0.009720943915705773,
+          "R": 0.22070009260710546,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "MICROSOFT",
+          "signal_date": "2025-12-16",
+          "entry_date": "2025-12-17",
+          "exit_date": "2025-12-18",
+          "return": 0.012824615273173913,
+          "R": 1.0142932927106976,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "MICROSOFT",
+          "signal_date": "2026-02-24",
+          "entry_date": "2026-02-25",
+          "exit_date": "2026-02-26",
+          "return": 0.026653374840303057,
+          "R": 1.1801512245081596,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "MICROSOFT",
+          "signal_date": "2026-06-18",
+          "entry_date": "2026-06-22",
+          "exit_date": "2026-06-22",
+          "return": -0.009547057856534421,
+          "R": -1.4582210919376275,
+          "reason": "stop"
+        },
+        {
+          "symbol": "MICROSOFT",
+          "signal_date": "2026-08-18",
+          "entry_date": "2026-08-19",
+          "exit_date": "2026-08-19",
+          "return": 0.015247422562449157,
+          "R": 2.506779657828439,
+          "reason": "target"
+        },
+        {
+          "symbol": "MICROSOFT",
+          "signal_date": "2026-09-10",
+          "entry_date": "2026-09-11",
+          "exit_date": "2026-09-14",
+          "return": 0.017691334380735224,
+          "R": 0.9086751631031227,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "APPLE",
+          "signal_date": "2023-10-23",
+          "entry_date": "2023-10-24",
+          "exit_date": "2023-10-25",
+          "return": -0.01326840169808585,
+          "R": -0.7359260635878582,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "APPLE",
+          "signal_date": "2023-12-27",
+          "entry_date": "2023-12-28",
+          "exit_date": "2023-12-29",
+          "return": -0.010292987614160863,
+          "R": -0.6551733146559237,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "APPLE",
+          "signal_date": "2024-02-02",
+          "entry_date": "2024-02-05",
+          "exit_date": "2024-02-06",
+          "return": 0.004112193423222445,
+          "R": 0.08693367394174197,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "APPLE",
+          "signal_date": "2024-02-27",
+          "entry_date": "2024-02-28",
+          "exit_date": "2024-02-29",
+          "return": -0.019163481655968703,
+          "R": -1.1856035762500594,
+          "reason": "stop"
+        },
+        {
+          "symbol": "APPLE",
+          "signal_date": "2024-03-25",
+          "entry_date": "2024-03-26",
+          "exit_date": "2024-03-27",
+          "return": 0.006705936207490717,
+          "R": 2.072732417811041,
+          "reason": "target"
+        },
+        {
+          "symbol": "APPLE",
+          "signal_date": "2024-09-09",
+          "entry_date": "2024-09-10",
+          "exit_date": "2024-09-11",
+          "return": 0.01508389148750955,
+          "R": 1.494198309789133,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "APPLE",
+          "signal_date": "2024-11-04",
+          "entry_date": "2024-11-05",
+          "exit_date": "2024-11-06",
+          "return": 0.0021478726613481953,
+          "R": 0.22794210411039872,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "APPLE",
+          "signal_date": "2025-01-13",
+          "entry_date": "2025-01-14",
+          "exit_date": "2025-01-15",
+          "return": 0.01129071402422799,
+          "R": 0.5269375269228243,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "APPLE",
+          "signal_date": "2025-02-28",
+          "entry_date": "2025-03-03",
+          "exit_date": "2025-03-04",
+          "return": -0.026235910389462935,
+          "R": -0.5473324073610842,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "APPLE",
+          "signal_date": "2025-03-05",
+          "entry_date": "2025-03-06",
+          "exit_date": "2025-03-07",
+          "return": 0.017749210179989205,
+          "R": 0.7986793696166006,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "APPLE",
+          "signal_date": "2025-06-18",
+          "entry_date": "2025-06-20",
+          "exit_date": "2025-06-23",
+          "return": 0.014444685313269591,
+          "R": 0.9033173974363233,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "APPLE",
+          "signal_date": "2025-12-16",
+          "entry_date": "2025-12-17",
+          "exit_date": "2025-12-17",
+          "return": -0.014708669162432849,
+          "R": -1.2562204088595734,
+          "reason": "stop"
+        },
+        {
+          "symbol": "APPLE",
+          "signal_date": "2026-03-09",
+          "entry_date": "2026-03-10",
+          "exit_date": "2026-03-11",
+          "return": 0.010264714678700717,
+          "R": 0.6661720053194319,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "APPLE",
+          "signal_date": "2026-03-20",
+          "entry_date": "2026-03-23",
+          "exit_date": "2026-03-24",
+          "return": -0.011174319092237537,
+          "R": -0.3560779672309418,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "APPLE",
+          "signal_date": "2026-06-10",
+          "entry_date": "2026-06-11",
+          "exit_date": "2026-06-12",
+          "return": -0.01081790932563864,
+          "R": -0.5011732138301517,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "APPLE",
+          "signal_date": "2026-10-01",
+          "entry_date": "2026-10-02",
+          "exit_date": "2026-10-05",
+          "return": -0.003110229569541543,
+          "R": -0.13912932058560887,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "TESLA",
+          "signal_date": "2023-10-23",
+          "entry_date": "2023-10-24",
+          "exit_date": "2023-10-25",
+          "return": -0.020845274046441986,
+          "R": -0.322587566763993,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "TESLA",
+          "signal_date": "2023-10-31",
+          "entry_date": "2023-11-01",
+          "exit_date": "2023-11-02",
+          "return": 0.06891747547948257,
+          "R": 1.41042537951891,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "TESLA",
+          "signal_date": "2023-12-13",
+          "entry_date": "2023-12-14",
+          "exit_date": "2023-12-15",
+          "return": 0.048907879600171844,
+          "R": 0.906110207798386,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "TESLA",
+          "signal_date": "2024-01-05",
+          "entry_date": "2024-01-08",
+          "exit_date": "2024-01-08",
+          "return": 0.012753436474579941,
+          "R": 2.428696080723547,
+          "reason": "target"
+        },
+        {
+          "symbol": "TESLA",
+          "signal_date": "2024-01-16",
+          "entry_date": "2024-01-17",
+          "exit_date": "2024-01-17",
+          "return": -0.015473275281379647,
+          "R": -1.2405142139754157,
+          "reason": "stop"
+        },
+        {
+          "symbol": "TESLA",
+          "signal_date": "2024-01-17",
+          "entry_date": "2024-01-18",
+          "exit_date": "2024-01-18",
+          "return": -0.025454861058344155,
+          "R": -1.1336013610685503,
+          "reason": "stop"
+        },
+        {
+          "symbol": "TESLA",
+          "signal_date": "2024-01-19",
+          "entry_date": "2024-01-22",
+          "exit_date": "2024-01-22",
+          "return": -0.0251426414297341,
+          "R": -1.1354851908486185,
+          "reason": "stop"
+        },
+        {
+          "symbol": "TESLA",
+          "signal_date": "2024-04-02",
+          "entry_date": "2024-04-03",
+          "exit_date": "2024-04-03",
+          "return": -0.006597192911296343,
+          "R": -1.8339836294514786,
+          "reason": "stop"
+        },
+        {
+          "symbol": "TESLA",
+          "signal_date": "2024-04-03",
+          "entry_date": "2024-04-04",
+          "exit_date": "2024-04-05",
+          "return": -0.042924785397213006,
+          "R": -1.075141293062766,
+          "reason": "stop"
+        },
+        {
+          "symbol": "TESLA",
+          "signal_date": "2025-02-28",
+          "entry_date": "2025-03-03",
+          "exit_date": "2025-03-04",
+          "return": -0.10092236805191379,
+          "R": -1.1335465490244412,
+          "reason": "gap_stop"
+        },
+        {
+          "symbol": "TESLA",
+          "signal_date": "2025-03-07",
+          "entry_date": "2025-03-10",
+          "exit_date": "2025-03-10",
+          "return": -0.010167171959741813,
+          "R": -1.4185751390996497,
+          "reason": "stop"
+        },
+        {
+          "symbol": "TESLA",
+          "signal_date": "2025-07-07",
+          "entry_date": "2025-07-08",
+          "exit_date": "2025-07-09",
+          "return": -0.005771027330597643,
+          "R": -0.20826158312969767,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "TESLA",
+          "signal_date": "2025-11-14",
+          "entry_date": "2025-11-17",
+          "exit_date": "2025-11-18",
+          "return": 0.0042948533558162545,
+          "R": 0.10730142243349108,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "TESLA",
+          "signal_date": "2026-01-08",
+          "entry_date": "2026-01-09",
+          "exit_date": "2026-01-12",
+          "return": 0.027842823451667886,
+          "R": 1.0481918229877683,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "TESLA",
+          "signal_date": "2026-02-02",
+          "entry_date": "2026-02-03",
+          "exit_date": "2026-02-03",
+          "return": -0.026027763609641093,
+          "R": -1.1302775228569717,
+          "reason": "stop"
+        },
+        {
+          "symbol": "TESLA",
+          "signal_date": "2026-03-02",
+          "entry_date": "2026-03-03",
+          "exit_date": "2026-03-03",
+          "return": -0.020312501964845683,
+          "R": -1.1732851788893173,
+          "reason": "stop"
+        },
+        {
+          "symbol": "TESLA",
+          "signal_date": "2026-03-09",
+          "entry_date": "2026-03-10",
+          "exit_date": "2026-03-11",
+          "return": 0.011922743987171415,
+          "R": 0.23033450595840108,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "TESLA",
+          "signal_date": "2026-04-07",
+          "entry_date": "2026-04-08",
+          "exit_date": "2026-04-09",
+          "return": -0.05194643338449656,
+          "R": -0.7117732735166226,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "TESLA",
+          "signal_date": "2026-06-26",
+          "entry_date": "2026-06-29",
+          "exit_date": "2026-06-30",
+          "return": 0.10064338101729786,
+          "R": 2.913163774554036,
+          "reason": "target"
+        },
+        {
+          "symbol": "TESLA",
+          "signal_date": "2026-07-28",
+          "entry_date": "2026-07-29",
+          "exit_date": "2026-07-29",
+          "return": -0.024000234093282,
+          "R": -1.1428555504035882,
+          "reason": "stop"
+        },
+        {
+          "symbol": "TESLA",
+          "signal_date": "2026-09-30",
+          "entry_date": "2026-10-01",
+          "exit_date": "2026-10-02",
+          "return": 0.03661999067734634,
+          "R": 1.1954608911250453,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "AMAZON",
+          "signal_date": "2023-10-23",
+          "entry_date": "2023-10-24",
+          "exit_date": "2023-10-25",
+          "return": -0.032434746905553036,
+          "R": -1.101920359961854,
+          "reason": "stop"
+        },
+        {
+          "symbol": "AMAZON",
+          "signal_date": "2024-04-25",
+          "entry_date": "2024-04-26",
+          "exit_date": "2024-04-29",
+          "return": 0.01577279869443804,
+          "R": 0.24428612366801097,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "AMAZON",
+          "signal_date": "2024-05-21",
+          "entry_date": "2024-05-22",
+          "exit_date": "2024-05-23",
+          "return": -0.020021996952889306,
+          "R": -1.1762425412425428,
+          "reason": "stop"
+        },
+        {
+          "symbol": "AMAZON",
+          "signal_date": "2024-05-28",
+          "entry_date": "2024-05-29",
+          "exit_date": "2024-05-30",
+          "return": -0.015162859065471764,
+          "R": -1.2466525332449538,
+          "reason": "stop"
+        },
+        {
+          "symbol": "AMAZON",
+          "signal_date": "2024-07-19",
+          "entry_date": "2024-07-22",
+          "exit_date": "2024-07-23",
+          "return": 0.005621641416807323,
+          "R": 0.212679712048824,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "AMAZON",
+          "signal_date": "2024-08-05",
+          "entry_date": "2024-08-06",
+          "exit_date": "2024-08-07",
+          "return": 0.004554928666036908,
+          "R": 0.07292842574715133,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "AMAZON",
+          "signal_date": "2024-10-01",
+          "entry_date": "2024-10-02",
+          "exit_date": "2024-10-03",
+          "return": -0.010536322767562441,
+          "R": -1.962937994173954,
+          "reason": "gap_stop"
+        },
+        {
+          "symbol": "AMAZON",
+          "signal_date": "2024-12-20",
+          "entry_date": "2024-12-23",
+          "exit_date": "2024-12-24",
+          "return": 0.01595479598040317,
+          "R": 0.5716543397656758,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "AMAZON",
+          "signal_date": "2024-12-30",
+          "entry_date": "2024-12-31",
+          "exit_date": "2025-01-02",
+          "return": -0.023361521819377003,
+          "R": -1.1473367279033633,
+          "reason": "stop"
+        },
+        {
+          "symbol": "AMAZON",
+          "signal_date": "2025-01-13",
+          "entry_date": "2025-01-14",
+          "exit_date": "2025-01-14",
+          "return": -0.021009441012224458,
+          "R": -1.166579295712934,
+          "reason": "stop"
+        },
+        {
+          "symbol": "AMAZON",
+          "signal_date": "2025-02-13",
+          "entry_date": "2025-02-14",
+          "exit_date": "2025-02-14",
+          "return": -0.01032981107395314,
+          "R": -1.4092874931880117,
+          "reason": "stop"
+        },
+        {
+          "symbol": "AMAZON",
+          "signal_date": "2025-02-19",
+          "entry_date": "2025-02-20",
+          "exit_date": "2025-02-20",
+          "return": -0.007760174709673715,
+          "R": -1.6302289690971672,
+          "reason": "stop"
+        },
+        {
+          "symbol": "AMAZON",
+          "signal_date": "2025-02-25",
+          "entry_date": "2025-02-26",
+          "exit_date": "2025-02-27",
+          "return": -0.03084524461626137,
+          "R": -0.6150164845897529,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "AMAZON",
+          "signal_date": "2025-03-04",
+          "entry_date": "2025-03-05",
+          "exit_date": "2025-03-06",
+          "return": -0.022019560754007683,
+          "R": -0.6118859919544679,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "AMAZON",
+          "signal_date": "2025-03-18",
+          "entry_date": "2025-03-19",
+          "exit_date": "2025-03-20",
+          "return": 0.006118688725760936,
+          "R": 0.2958080139160149,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "AMAZON",
+          "signal_date": "2025-03-31",
+          "entry_date": "2025-04-01",
+          "exit_date": "2025-04-02",
+          "return": 0.052254019524524575,
+          "R": 2.83711592247139,
+          "reason": "target"
+        },
+        {
+          "symbol": "AMAZON",
+          "signal_date": "2025-10-14",
+          "entry_date": "2025-10-15",
+          "exit_date": "2025-10-16",
+          "return": -0.011925186709201395,
+          "R": -0.6425972503738807,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "AMAZON",
+          "signal_date": "2025-11-21",
+          "entry_date": "2025-11-24",
+          "exit_date": "2025-11-25",
+          "return": 0.029946444501913305,
+          "R": 0.9030997568519792,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "AMAZON",
+          "signal_date": "2026-01-21",
+          "entry_date": "2026-01-22",
+          "exit_date": "2026-01-23",
+          "return": 0.019832944002233344,
+          "R": 0.6474061073478443,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "AMAZON",
+          "signal_date": "2026-02-17",
+          "entry_date": "2026-02-18",
+          "exit_date": "2026-02-19",
+          "return": 0.011807062824797711,
+          "R": 0.3930560778674941,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "AMAZON",
+          "signal_date": "2026-03-19",
+          "entry_date": "2026-03-20",
+          "exit_date": "2026-03-20",
+          "return": -0.00950911708994728,
+          "R": -1.4608920009494462,
+          "reason": "stop"
+        },
+        {
+          "symbol": "AMAZON",
+          "signal_date": "2026-05-15",
+          "entry_date": "2026-05-18",
+          "exit_date": "2026-05-19",
+          "return": -0.014293366142014593,
+          "R": -1.2656426757332464,
+          "reason": "stop"
+        },
+        {
+          "symbol": "AMAZON",
+          "signal_date": "2026-06-11",
+          "entry_date": "2026-06-12",
+          "exit_date": "2026-06-12",
+          "return": -0.03601679131785529,
+          "R": -1.090862857360025,
+          "reason": "stop"
+        },
+        {
+          "symbol": "AMAZON",
+          "signal_date": "2026-06-23",
+          "entry_date": "2026-06-24",
+          "exit_date": "2026-06-24",
+          "return": 0.02073323996446719,
+          "R": 2.6207850249913283,
+          "reason": "target"
+        },
+        {
+          "symbol": "AMAZON",
+          "signal_date": "2026-09-10",
+          "entry_date": "2026-09-11",
+          "exit_date": "2026-09-14",
+          "return": -0.004164599392675104,
+          "R": -0.23463067257170225,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "META",
+          "signal_date": "2024-05-31",
+          "entry_date": "2024-06-03",
+          "exit_date": "2024-06-04",
+          "return": 0.011018742457453936,
+          "R": 0.3163589538421474,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "META",
+          "signal_date": "2024-09-04",
+          "entry_date": "2024-09-05",
+          "exit_date": "2024-09-06",
+          "return": -0.017949569839434406,
+          "R": -1.2006746703899454,
+          "reason": "stop"
+        },
+        {
+          "symbol": "META",
+          "signal_date": "2024-09-11",
+          "entry_date": "2024-09-12",
+          "exit_date": "2024-09-13",
+          "return": 0.012640764922036586,
+          "R": 0.30470456540512975,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "META",
+          "signal_date": "2024-10-24",
+          "entry_date": "2024-10-25",
+          "exit_date": "2024-10-28",
+          "return": 0.00537020285179546,
+          "R": 0.24835835239149068,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "META",
+          "signal_date": "2024-11-06",
+          "entry_date": "2024-11-07",
+          "exit_date": "2024-11-08",
+          "return": 0.019581257936347463,
+          "R": 0.5200835944371514,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "META",
+          "signal_date": "2025-03-07",
+          "entry_date": "2025-03-10",
+          "exit_date": "2025-03-10",
+          "return": -0.015268360357853724,
+          "R": -1.2445314542851325,
+          "reason": "stop"
+        },
+        {
+          "symbol": "META",
+          "signal_date": "2025-03-31",
+          "entry_date": "2025-04-01",
+          "exit_date": "2025-04-02",
+          "return": 0.02093105809769491,
+          "R": 0.6812006361004385,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "META",
+          "signal_date": "2025-04-07",
+          "entry_date": "2025-04-08",
+          "exit_date": "2025-04-09",
+          "return": 0.07626970921537035,
+          "R": 0.6753629243547152,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "META",
+          "signal_date": "2025-07-18",
+          "entry_date": "2025-07-21",
+          "exit_date": "2025-07-22",
+          "return": -0.004815492740158243,
+          "R": -0.22465996285508497,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "META",
+          "signal_date": "2025-09-02",
+          "entry_date": "2025-09-03",
+          "exit_date": "2025-09-04",
+          "return": 0.015187533171280522,
+          "R": 0.7833222925577391,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "META",
+          "signal_date": "2025-10-06",
+          "entry_date": "2025-10-07",
+          "exit_date": "2025-10-08",
+          "return": -0.0018327256350048043,
+          "R": -0.04834199476007661,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "META",
+          "signal_date": "2025-11-07",
+          "entry_date": "2025-11-10",
+          "exit_date": "2025-11-11",
+          "return": -0.00835410099190703,
+          "R": -0.17638632437443483,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "META",
+          "signal_date": "2025-11-14",
+          "entry_date": "2025-11-17",
+          "exit_date": "2025-11-18",
+          "return": -0.03163523425489034,
+          "R": -1.3921365576792475,
+          "reason": "gap_stop"
+        },
+        {
+          "symbol": "META",
+          "signal_date": "2025-11-18",
+          "entry_date": "2025-11-19",
+          "exit_date": "2025-11-19",
+          "return": -0.0197418006749519,
+          "R": -1.1791921943311885,
+          "reason": "stop"
+        },
+        {
+          "symbol": "META",
+          "signal_date": "2026-01-08",
+          "entry_date": "2026-01-09",
+          "exit_date": "2026-01-12",
+          "return": -0.007376226644081106,
+          "R": -0.48980413555788715,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "META",
+          "signal_date": "2026-01-15",
+          "entry_date": "2026-01-16",
+          "exit_date": "2026-01-20",
+          "return": -0.0291142426611477,
+          "R": -1.826382459928475,
+          "reason": "gap_stop"
+        },
+        {
+          "symbol": "META",
+          "signal_date": "2026-02-18",
+          "entry_date": "2026-02-19",
+          "exit_date": "2026-02-20",
+          "return": 0.024762869574667334,
+          "R": 1.5175481516626477,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "META",
+          "signal_date": "2026-03-09",
+          "entry_date": "2026-03-10",
+          "exit_date": "2026-03-11",
+          "return": -1.0912849891518348e-05,
+          "R": -0.0002663260119935737,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "META",
+          "signal_date": "2026-05-06",
+          "entry_date": "2026-05-07",
+          "exit_date": "2026-05-08",
+          "return": -0.01028013740059641,
+          "R": -0.3802290985743754,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "META",
+          "signal_date": "2026-05-12",
+          "entry_date": "2026-05-13",
+          "exit_date": "2026-05-13",
+          "return": 0.028211068213560456,
+          "R": 2.711640757105199,
+          "reason": "target"
+        },
+        {
+          "symbol": "META",
+          "signal_date": "2026-08-19",
+          "entry_date": "2026-08-20",
+          "exit_date": "2026-08-21",
+          "return": 0.0033935682259653727,
+          "R": 0.19174727138596223,
+          "reason": "time_exit_close"
+        }
+      ]
+    },
+    "10d_5d": {
+      "train": {
+        "n": 569,
+        "mean_net_pct": 0.105,
+        "profit_factor": 1.074,
+        "win_rate": 0.411,
+        "mean_R": -0.133
+      },
+      "holdout": {
+        "n": 205,
+        "mean_net_pct": -0.491,
+        "profit_factor": 0.663,
+        "win_rate": 0.361,
+        "mean_R": -0.271
+      },
+      "holdout_trades": [
+        {
+          "symbol": "INVESTOR_B",
+          "signal_date": "2024-01-08",
+          "entry_date": "2024-01-09",
+          "exit_date": "2024-01-09",
+          "return": -0.015337688759807896,
+          "R": -1.2431573739947956,
+          "reason": "stop"
+        },
+        {
+          "symbol": "INVESTOR_B",
+          "signal_date": "2024-04-08",
+          "entry_date": "2024-04-09",
+          "exit_date": "2024-04-11",
+          "return": -0.015754639944274725,
+          "R": -1.2352085212210615,
+          "reason": "stop"
+        },
+        {
+          "symbol": "INVESTOR_B",
+          "signal_date": "2024-09-06",
+          "entry_date": "2024-09-09",
+          "exit_date": "2024-09-13",
+          "return": 0.015060769570840462,
+          "R": 0.9006013735958921,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "INVESTOR_B",
+          "signal_date": "2024-10-08",
+          "entry_date": "2024-10-09",
+          "exit_date": "2024-10-09",
+          "return": -0.008076201996280338,
+          "R": -1.5909930302612696,
+          "reason": "stop"
+        },
+        {
+          "symbol": "INVESTOR_B",
+          "signal_date": "2024-10-09",
+          "entry_date": "2024-10-10",
+          "exit_date": "2024-10-10",
+          "return": -0.014396938881271911,
+          "R": -1.2632285766601559,
+          "reason": "stop"
+        },
+        {
+          "symbol": "INVESTOR_B",
+          "signal_date": "2024-12-20",
+          "entry_date": "2024-12-23",
+          "exit_date": "2025-01-03",
+          "return": 0.019342554929539624,
+          "R": 1.0502814573125188,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "INVESTOR_B",
+          "signal_date": "2025-03-07",
+          "entry_date": "2025-03-10",
+          "exit_date": "2025-03-11",
+          "return": -0.022760995082171328,
+          "R": -1.151814217225663,
+          "reason": "stop"
+        },
+        {
+          "symbol": "INVESTOR_B",
+          "signal_date": "2025-12-10",
+          "entry_date": "2025-12-11",
+          "exit_date": "2025-12-17",
+          "return": -0.014993077206593151,
+          "R": -0.5910371941733825,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "INVESTOR_B",
+          "signal_date": "2026-03-23",
+          "entry_date": "2026-03-24",
+          "exit_date": "2026-03-30",
+          "return": 0.027927743120002457,
+          "R": 0.7399767923133784,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "INVESTOR_B",
+          "signal_date": "2026-04-28",
+          "entry_date": "2026-04-29",
+          "exit_date": "2026-04-29",
+          "return": -0.011976436210985982,
+          "R": -1.3342083572463117,
+          "reason": "stop"
+        },
+        {
+          "symbol": "INVESTOR_B",
+          "signal_date": "2026-04-30",
+          "entry_date": "2026-05-04",
+          "exit_date": "2026-05-08",
+          "return": -0.01745632989465351,
+          "R": -0.5848643440635183,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "INVESTOR_B",
+          "signal_date": "2026-05-18",
+          "entry_date": "2026-05-19",
+          "exit_date": "2026-05-25",
+          "return": 0.05277578666654237,
+          "R": 2.1638043740665682,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "INVESTOR_B",
+          "signal_date": "2026-06-08",
+          "entry_date": "2026-06-09",
+          "exit_date": "2026-06-10",
+          "return": -0.021019219291059318,
+          "R": -1.1664889000761807,
+          "reason": "stop"
+        },
+        {
+          "symbol": "INVESTOR_B",
+          "signal_date": "2026-07-14",
+          "entry_date": "2026-07-15",
+          "exit_date": "2026-07-21",
+          "return": 0.0009124829142914698,
+          "R": 0.04836151596332939,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "INVESTOR_B",
+          "signal_date": "2026-08-18",
+          "entry_date": "2026-08-19",
+          "exit_date": "2026-08-20",
+          "return": -0.009208956013523114,
+          "R": -1.4831730154740914,
+          "reason": "stop"
+        },
+        {
+          "symbol": "INVESTOR_B",
+          "signal_date": "2026-08-20",
+          "entry_date": "2026-08-21",
+          "exit_date": "2026-08-27",
+          "return": 0.008964912443773178,
+          "R": 1.599660669267308,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "VOLVO_B",
+          "signal_date": "2023-10-24",
+          "entry_date": "2023-10-25",
+          "exit_date": "2023-10-31",
+          "return": 0.017381619784910818,
+          "R": 1.1413919609375291,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "VOLVO_B",
+          "signal_date": "2024-01-08",
+          "entry_date": "2024-01-09",
+          "exit_date": "2024-01-09",
+          "return": -0.016545792416272406,
+          "R": -1.2214709858093005,
+          "reason": "stop"
+        },
+        {
+          "symbol": "VOLVO_B",
+          "signal_date": "2024-01-26",
+          "entry_date": "2024-01-29",
+          "exit_date": "2024-02-02",
+          "return": 0.012587077847678653,
+          "R": 0.18616404405209422,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "VOLVO_B",
+          "signal_date": "2024-04-02",
+          "entry_date": "2024-04-03",
+          "exit_date": "2024-04-03",
+          "return": -0.007137973127693928,
+          "R": -1.7249926249936334,
+          "reason": "stop"
+        },
+        {
+          "symbol": "VOLVO_B",
+          "signal_date": "2024-04-19",
+          "entry_date": "2024-04-22",
+          "exit_date": "2024-04-26",
+          "return": -0.0023553877245371373,
+          "R": -0.10356355053286774,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "VOLVO_B",
+          "signal_date": "2024-05-30",
+          "entry_date": "2024-05-31",
+          "exit_date": "2024-05-31",
+          "return": -0.013903889268524813,
+          "R": -1.2751311872415787,
+          "reason": "stop"
+        },
+        {
+          "symbol": "VOLVO_B",
+          "signal_date": "2024-09-11",
+          "entry_date": "2024-09-12",
+          "exit_date": "2024-09-18",
+          "return": 0.029545740565694256,
+          "R": 1.4691747099337558,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "VOLVO_B",
+          "signal_date": "2024-10-18",
+          "entry_date": "2024-10-21",
+          "exit_date": "2024-10-25",
+          "return": 0.013384660099015512,
+          "R": 0.2283757629394522,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "VOLVO_B",
+          "signal_date": "2024-11-21",
+          "entry_date": "2024-11-22",
+          "exit_date": "2024-11-28",
+          "return": 0.006888866283275565,
+          "R": 0.2354424472798808,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "VOLVO_B",
+          "signal_date": "2024-12-17",
+          "entry_date": "2024-12-18",
+          "exit_date": "2024-12-19",
+          "return": -0.016420428158170682,
+          "R": -1.9682940013533747,
+          "reason": "gap_stop"
+        },
+        {
+          "symbol": "VOLVO_B",
+          "signal_date": "2025-06-03",
+          "entry_date": "2025-06-04",
+          "exit_date": "2025-06-11",
+          "return": 0.02069228421724767,
+          "R": 1.5823539865901988,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "VOLVO_B",
+          "signal_date": "2025-06-19",
+          "entry_date": "2025-06-23",
+          "exit_date": "2025-06-23",
+          "return": -0.011546996893585511,
+          "R": -1.3510004785717726,
+          "reason": "stop"
+        },
+        {
+          "symbol": "VOLVO_B",
+          "signal_date": "2025-09-11",
+          "entry_date": "2025-09-12",
+          "exit_date": "2025-09-18",
+          "return": 0.0019985680810987744,
+          "R": 0.10181605791564162,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "VOLVO_B",
+          "signal_date": "2025-10-08",
+          "entry_date": "2025-10-09",
+          "exit_date": "2025-10-13",
+          "return": -0.01929627369068287,
+          "R": -1.1840911644552952,
+          "reason": "stop"
+        },
+        {
+          "symbol": "VOLVO_B",
+          "signal_date": "2026-03-23",
+          "entry_date": "2026-03-24",
+          "exit_date": "2026-03-30",
+          "return": 0.00538259129876262,
+          "R": 0.07460521893168653,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "VOLVO_B",
+          "signal_date": "2026-04-30",
+          "entry_date": "2026-05-04",
+          "exit_date": "2026-05-04",
+          "return": -0.028265146442013164,
+          "R": -1.118740653527793,
+          "reason": "stop"
+        },
+        {
+          "symbol": "VOLVO_B",
+          "signal_date": "2026-05-18",
+          "entry_date": "2026-05-19",
+          "exit_date": "2026-05-19",
+          "return": -0.008765593338136087,
+          "R": -1.5203280606276326,
+          "reason": "stop"
+        },
+        {
+          "symbol": "VOLVO_B",
+          "signal_date": "2026-08-20",
+          "entry_date": "2026-08-21",
+          "exit_date": "2026-08-26",
+          "return": 0.031341276263523565,
+          "R": 2.737924708128583,
+          "reason": "target"
+        },
+        {
+          "symbol": "VOLVO_B",
+          "signal_date": "2026-09-03",
+          "entry_date": "2026-09-04",
+          "exit_date": "2026-09-10",
+          "return": -0.028126832916648192,
+          "R": -0.6947937960469929,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "ATLAS_A",
+          "signal_date": "2023-10-24",
+          "entry_date": "2023-10-25",
+          "exit_date": "2023-10-31",
+          "return": 0.035410049987353975,
+          "R": 1.8930713053276582,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "ATLAS_A",
+          "signal_date": "2024-01-08",
+          "entry_date": "2024-01-09",
+          "exit_date": "2024-01-15",
+          "return": 0.0016474535168122823,
+          "R": 0.08742115159330831,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "ATLAS_A",
+          "signal_date": "2024-01-26",
+          "entry_date": "2024-01-29",
+          "exit_date": "2024-02-02",
+          "return": 0.03696904708462556,
+          "R": 1.9124183435220312,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "ATLAS_A",
+          "signal_date": "2024-04-05",
+          "entry_date": "2024-04-08",
+          "exit_date": "2024-04-12",
+          "return": 0.00433090665518421,
+          "R": 0.17879778608534916,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "ATLAS_A",
+          "signal_date": "2024-04-23",
+          "entry_date": "2024-04-24",
+          "exit_date": "2024-04-24",
+          "return": 0.03662885202953914,
+          "R": 2.772892740034677,
+          "reason": "target"
+        },
+        {
+          "symbol": "ATLAS_A",
+          "signal_date": "2024-06-24",
+          "entry_date": "2024-06-25",
+          "exit_date": "2024-06-25",
+          "return": -0.026134297992459584,
+          "R": -1.1296775895675688,
+          "reason": "stop"
+        },
+        {
+          "symbol": "ATLAS_A",
+          "signal_date": "2024-07-23",
+          "entry_date": "2024-07-24",
+          "exit_date": "2024-07-25",
+          "return": -0.022464671014479683,
+          "R": -1.5678680773881473,
+          "reason": "gap_stop"
+        },
+        {
+          "symbol": "ATLAS_A",
+          "signal_date": "2024-07-25",
+          "entry_date": "2024-07-26",
+          "exit_date": "2024-08-01",
+          "return": -0.005276931095110958,
+          "R": -0.24155152893066195,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "ATLAS_A",
+          "signal_date": "2024-10-23",
+          "entry_date": "2024-10-24",
+          "exit_date": "2024-10-30",
+          "return": -0.011197290705798111,
+          "R": -0.39005752718437947,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "ATLAS_A",
+          "signal_date": "2024-11-21",
+          "entry_date": "2024-11-22",
+          "exit_date": "2024-11-28",
+          "return": -0.005758276426445328,
+          "R": -0.41495684294851215,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "ATLAS_A",
+          "signal_date": "2024-12-17",
+          "entry_date": "2024-12-18",
+          "exit_date": "2024-12-18",
+          "return": -0.010334290842075152,
+          "R": -1.4090375013204752,
+          "reason": "stop"
+        },
+        {
+          "symbol": "ATLAS_A",
+          "signal_date": "2025-02-25",
+          "entry_date": "2025-02-26",
+          "exit_date": "2025-02-28",
+          "return": -0.02585090793529243,
+          "R": -1.418324865859546,
+          "reason": "gap_stop"
+        },
+        {
+          "symbol": "ATLAS_A",
+          "signal_date": "2025-02-28",
+          "entry_date": "2025-03-03",
+          "exit_date": "2025-03-04",
+          "return": -0.026274917075252865,
+          "R": -1.4762461594801661,
+          "reason": "gap_stop"
+        },
+        {
+          "symbol": "ATLAS_A",
+          "signal_date": "2025-03-13",
+          "entry_date": "2025-03-14",
+          "exit_date": "2025-03-18",
+          "return": -0.011273877022779929,
+          "R": -1.3625869700190438,
+          "reason": "stop"
+        },
+        {
+          "symbol": "ATLAS_A",
+          "signal_date": "2025-03-19",
+          "entry_date": "2025-03-20",
+          "exit_date": "2025-03-20",
+          "return": -0.013066148625603177,
+          "R": -1.2980285818917454,
+          "reason": "stop"
+        },
+        {
+          "symbol": "ATLAS_A",
+          "signal_date": "2025-03-25",
+          "entry_date": "2025-03-26",
+          "exit_date": "2025-03-27",
+          "return": -0.03471802582369676,
+          "R": -1.3587897938137095,
+          "reason": "gap_stop"
+        },
+        {
+          "symbol": "ATLAS_A",
+          "signal_date": "2025-03-27",
+          "entry_date": "2025-03-28",
+          "exit_date": "2025-03-28",
+          "return": -0.008160843111573831,
+          "R": -1.581300368010058,
+          "reason": "stop"
+        },
+        {
+          "symbol": "ATLAS_A",
+          "signal_date": "2025-04-30",
+          "entry_date": "2025-05-02",
+          "exit_date": "2025-05-08",
+          "return": -0.006255279191387018,
+          "R": -0.10857881421910483,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "ATLAS_A",
+          "signal_date": "2025-06-19",
+          "entry_date": "2025-06-23",
+          "exit_date": "2025-06-23",
+          "return": -0.01533738501085213,
+          "R": -1.2431633605793437,
+          "reason": "stop"
+        },
+        {
+          "symbol": "ATLAS_A",
+          "signal_date": "2025-10-20",
+          "entry_date": "2025-10-21",
+          "exit_date": "2025-10-23",
+          "return": -0.020841016620128935,
+          "R": -1.168151852771396,
+          "reason": "stop"
+        },
+        {
+          "symbol": "ATLAS_A",
+          "signal_date": "2025-11-05",
+          "entry_date": "2025-11-06",
+          "exit_date": "2025-11-07",
+          "return": -0.017589203184358856,
+          "R": -1.2056315181912243,
+          "reason": "stop"
+        },
+        {
+          "symbol": "ATLAS_A",
+          "signal_date": "2025-11-21",
+          "entry_date": "2025-11-24",
+          "exit_date": "2025-11-28",
+          "return": 0.04096868868793302,
+          "R": 1.5163317952017676,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "ATLAS_A",
+          "signal_date": "2025-12-18",
+          "entry_date": "2025-12-19",
+          "exit_date": "2025-12-30",
+          "return": 0.012045820163406386,
+          "R": 0.46964392499936025,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "ATLAS_A",
+          "signal_date": "2026-02-02",
+          "entry_date": "2026-02-03",
+          "exit_date": "2026-02-09",
+          "return": 0.004903892887354157,
+          "R": 0.11400029010515175,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "ATLAS_A",
+          "signal_date": "2026-03-23",
+          "entry_date": "2026-03-24",
+          "exit_date": "2026-03-30",
+          "return": -0.00786417869285305,
+          "R": -0.1490054378378579,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "ATLAS_A",
+          "signal_date": "2026-04-30",
+          "entry_date": "2026-05-04",
+          "exit_date": "2026-05-08",
+          "return": 0.024458002255956623,
+          "R": 0.592895709859914,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "ATLAS_A",
+          "signal_date": "2026-07-16",
+          "entry_date": "2026-07-17",
+          "exit_date": "2026-07-23",
+          "return": 0.016043217543877164,
+          "R": 0.19852228071960218,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "ATLAS_A",
+          "signal_date": "2026-09-02",
+          "entry_date": "2026-09-03",
+          "exit_date": "2026-09-07",
+          "return": 0.01890879263594181,
+          "R": 2.5892060256558755,
+          "reason": "target"
+        },
+        {
+          "symbol": "ABB",
+          "signal_date": "2023-10-23",
+          "entry_date": "2023-10-24",
+          "exit_date": "2023-10-30",
+          "return": 0.004787944835353388,
+          "R": 0.289083128214364,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "ABB",
+          "signal_date": "2024-01-04",
+          "entry_date": "2024-01-05",
+          "exit_date": "2024-01-05",
+          "return": -0.014415525114155222,
+          "R": -1.2627999999999975,
+          "reason": "stop"
+        },
+        {
+          "symbol": "ABB",
+          "signal_date": "2024-06-25",
+          "entry_date": "2024-06-26",
+          "exit_date": "2024-07-02",
+          "return": -0.008455976810372688,
+          "R": -0.5530208604600686,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "ABB",
+          "signal_date": "2024-09-04",
+          "entry_date": "2024-09-05",
+          "exit_date": "2024-09-06",
+          "return": -0.023329435825905406,
+          "R": -1.1475692697864823,
+          "reason": "stop"
+        },
+        {
+          "symbol": "ABB",
+          "signal_date": "2024-12-17",
+          "entry_date": "2024-12-18",
+          "exit_date": "2024-12-19",
+          "return": -0.03233750092419163,
+          "R": -5.395274064793843,
+          "reason": "gap_stop"
+        },
+        {
+          "symbol": "ABB",
+          "signal_date": "2024-12-20",
+          "entry_date": "2024-12-23",
+          "exit_date": "2025-01-02",
+          "return": -0.025568828637461457,
+          "R": -1.1329267038263713,
+          "reason": "stop"
+        },
+        {
+          "symbol": "ABB",
+          "signal_date": "2025-03-06",
+          "entry_date": "2025-03-07",
+          "exit_date": "2025-03-13",
+          "return": -0.007016101275057361,
+          "R": -0.3996319077246911,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "ABB",
+          "signal_date": "2025-06-26",
+          "entry_date": "2025-06-27",
+          "exit_date": "2025-07-03",
+          "return": 0.03843718070497504,
+          "R": 1.6485962758982464,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "ABB",
+          "signal_date": "2025-11-14",
+          "entry_date": "2025-11-17",
+          "exit_date": "2025-11-18",
+          "return": -0.031110030107818095,
+          "R": -2.123103436034451,
+          "reason": "gap_stop"
+        },
+        {
+          "symbol": "ABB",
+          "signal_date": "2025-11-19",
+          "entry_date": "2025-11-20",
+          "exit_date": "2025-11-26",
+          "return": 0.01838327179992061,
+          "R": 0.6497386847277886,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "ABB",
+          "signal_date": "2025-12-18",
+          "entry_date": "2025-12-19",
+          "exit_date": "2025-12-30",
+          "return": 0.012454259281664772,
+          "R": 0.649537522536055,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "ABB",
+          "signal_date": "2026-01-20",
+          "entry_date": "2026-01-21",
+          "exit_date": "2026-01-21",
+          "return": -0.01891895803183796,
+          "R": -1.1884545454545483,
+          "reason": "stop"
+        },
+        {
+          "symbol": "ABB",
+          "signal_date": "2026-01-23",
+          "entry_date": "2026-01-26",
+          "exit_date": "2026-01-27",
+          "return": 0.02641176470588225,
+          "R": 2.721222187286134,
+          "reason": "gap_target"
+        },
+        {
+          "symbol": "ABB",
+          "signal_date": "2026-03-23",
+          "entry_date": "2026-03-24",
+          "exit_date": "2026-03-30",
+          "return": -0.037492259603707945,
+          "R": -0.749845666343044,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "ABB",
+          "signal_date": "2026-06-08",
+          "entry_date": "2026-06-09",
+          "exit_date": "2026-06-09",
+          "return": -0.01670986707524957,
+          "R": -1.2188205023093097,
+          "reason": "stop"
+        },
+        {
+          "symbol": "ABB",
+          "signal_date": "2026-07-17",
+          "entry_date": "2026-07-20",
+          "exit_date": "2026-07-24",
+          "return": 0.0015903108913015735,
+          "R": 0.047063262939455945,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "ABB",
+          "signal_date": "2026-07-30",
+          "entry_date": "2026-07-31",
+          "exit_date": "2026-08-06",
+          "return": 0.02417018679355043,
+          "R": 0.5333330658864838,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "ABB",
+          "signal_date": "2026-10-09",
+          "entry_date": "2026-10-12",
+          "exit_date": "2026-10-15",
+          "return": -0.05987497456868485,
+          "R": -3.123907571666454,
+          "reason": "gap_stop"
+        },
+        {
+          "symbol": "NVIDIA",
+          "signal_date": "2023-10-23",
+          "entry_date": "2023-10-24",
+          "exit_date": "2023-10-26",
+          "return": -0.05249276844016104,
+          "R": -1.060614915967515,
+          "reason": "stop"
+        },
+        {
+          "symbol": "NVIDIA",
+          "signal_date": "2023-10-31",
+          "entry_date": "2023-11-01",
+          "exit_date": "2023-11-06",
+          "return": 0.11836772632037607,
+          "R": 2.925845195647458,
+          "reason": "target"
+        },
+        {
+          "symbol": "NVIDIA",
+          "signal_date": "2025-01-28",
+          "entry_date": "2025-01-29",
+          "exit_date": "2025-02-03",
+          "return": -0.09588537549407117,
+          "R": -1.1833658536585367,
+          "reason": "gap_stop"
+        },
+        {
+          "symbol": "NVIDIA",
+          "signal_date": "2025-02-03",
+          "entry_date": "2025-02-04",
+          "exit_date": "2025-02-07",
+          "return": 0.10182218050784908,
+          "R": 3.014969959477257,
+          "reason": "gap_target"
+        },
+        {
+          "symbol": "NVIDIA",
+          "signal_date": "2025-02-28",
+          "entry_date": "2025-03-03",
+          "exit_date": "2025-03-03",
+          "return": -0.06056619291860499,
+          "R": -1.0521139204783225,
+          "reason": "stop"
+        },
+        {
+          "symbol": "NVIDIA",
+          "signal_date": "2025-03-04",
+          "entry_date": "2025-03-05",
+          "exit_date": "2025-03-07",
+          "return": -0.06653122218382368,
+          "R": -1.0472208765529447,
+          "reason": "stop"
+        },
+        {
+          "symbol": "NVIDIA",
+          "signal_date": "2025-03-07",
+          "entry_date": "2025-03-10",
+          "exit_date": "2025-03-10",
+          "return": -0.02429211951588683,
+          "R": -1.140897198973621,
+          "reason": "stop"
+        },
+        {
+          "symbol": "NVIDIA",
+          "signal_date": "2025-03-11",
+          "entry_date": "2025-03-12",
+          "exit_date": "2025-03-18",
+          "return": 0.009479123090303078,
+          "R": 0.1156959194597566,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "NVIDIA",
+          "signal_date": "2025-09-02",
+          "entry_date": "2025-09-03",
+          "exit_date": "2025-09-05",
+          "return": -0.025448242679152907,
+          "R": -1.1336407505424007,
+          "reason": "stop"
+        },
+        {
+          "symbol": "NVIDIA",
+          "signal_date": "2025-11-07",
+          "entry_date": "2025-11-10",
+          "exit_date": "2025-11-14",
+          "return": -0.02731906322563027,
+          "R": -0.3290261386873484,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "NVIDIA",
+          "signal_date": "2025-11-25",
+          "entry_date": "2025-11-26",
+          "exit_date": "2025-12-03",
+          "return": -0.013231671475415594,
+          "R": -0.19894604225218726,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "NVIDIA",
+          "signal_date": "2026-01-12",
+          "entry_date": "2026-01-13",
+          "exit_date": "2026-01-14",
+          "return": -0.013702679608319276,
+          "R": -1.2803036351446138,
+          "reason": "stop"
+        },
+        {
+          "symbol": "NVIDIA",
+          "signal_date": "2026-03-02",
+          "entry_date": "2026-03-03",
+          "exit_date": "2026-03-09",
+          "return": 0.02130656213397697,
+          "R": 0.9877928216428752,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "NVIDIA",
+          "signal_date": "2026-06-29",
+          "entry_date": "2026-06-30",
+          "exit_date": "2026-07-07",
+          "return": -0.0035717542524280593,
+          "R": -0.09468986521407444,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "NVIDIA",
+          "signal_date": "2026-07-28",
+          "entry_date": "2026-07-29",
+          "exit_date": "2026-07-29",
+          "return": -0.018879502238604903,
+          "R": -1.1889227983926751,
+          "reason": "stop"
+        },
+        {
+          "symbol": "MICROSOFT",
+          "signal_date": "2023-12-04",
+          "entry_date": "2023-12-05",
+          "exit_date": "2023-12-11",
+          "return": 0.01123502640026497,
+          "R": 1.1597336130047136,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "MICROSOFT",
+          "signal_date": "2024-02-21",
+          "entry_date": "2024-02-22",
+          "exit_date": "2024-02-28",
+          "return": -0.008021602686564598,
+          "R": -0.25369166660784215,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "MICROSOFT",
+          "signal_date": "2024-04-22",
+          "entry_date": "2024-04-23",
+          "exit_date": "2024-04-25",
+          "return": -0.028257252379108918,
+          "R": -1.3454328109273914,
+          "reason": "gap_stop"
+        },
+        {
+          "symbol": "MICROSOFT",
+          "signal_date": "2024-04-25",
+          "entry_date": "2024-04-26",
+          "exit_date": "2024-05-02",
+          "return": -0.03676724803600062,
+          "R": -0.6277691765062829,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "MICROSOFT",
+          "signal_date": "2024-07-19",
+          "entry_date": "2024-07-22",
+          "exit_date": "2024-07-24",
+          "return": -0.025159868615332034,
+          "R": -1.1353798640270085,
+          "reason": "stop"
+        },
+        {
+          "symbol": "MICROSOFT",
+          "signal_date": "2024-07-26",
+          "entry_date": "2024-07-29",
+          "exit_date": "2024-07-31",
+          "return": -0.036157231576579685,
+          "R": -1.090478000042653,
+          "reason": "stop"
+        },
+        {
+          "symbol": "MICROSOFT",
+          "signal_date": "2024-09-04",
+          "entry_date": "2024-09-05",
+          "exit_date": "2024-09-06",
+          "return": -0.010973112307863239,
+          "R": -1.3762646108774041,
+          "reason": "stop"
+        },
+        {
+          "symbol": "MICROSOFT",
+          "signal_date": "2024-09-30",
+          "entry_date": "2024-10-01",
+          "exit_date": "2024-10-01",
+          "return": -0.010188743148770048,
+          "R": -1.4173191249033912,
+          "reason": "stop"
+        },
+        {
+          "symbol": "MICROSOFT",
+          "signal_date": "2024-10-08",
+          "entry_date": "2024-10-09",
+          "exit_date": "2024-10-15",
+          "return": 0.004925419574518088,
+          "R": 0.2663579181300495,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "MICROSOFT",
+          "signal_date": "2024-12-20",
+          "entry_date": "2024-12-23",
+          "exit_date": "2024-12-27",
+          "return": -0.021569367433493577,
+          "R": -1.1615563917696472,
+          "reason": "stop"
+        },
+        {
+          "symbol": "MICROSOFT",
+          "signal_date": "2025-01-13",
+          "entry_date": "2025-01-14",
+          "exit_date": "2025-01-14",
+          "return": -0.016211720748491084,
+          "R": -1.2270711027814187,
+          "reason": "stop"
+        },
+        {
+          "symbol": "MICROSOFT",
+          "signal_date": "2025-02-12",
+          "entry_date": "2025-02-13",
+          "exit_date": "2025-02-19",
+          "return": 0.016385785376996313,
+          "R": 2.535742306799721,
+          "reason": "target"
+        },
+        {
+          "symbol": "MICROSOFT",
+          "signal_date": "2025-02-26",
+          "entry_date": "2025-02-27",
+          "exit_date": "2025-02-27",
+          "return": -0.020494428205127254,
+          "R": -1.1714831696597428,
+          "reason": "stop"
+        },
+        {
+          "symbol": "MICROSOFT",
+          "signal_date": "2025-02-28",
+          "entry_date": "2025-03-03",
+          "exit_date": "2025-03-03",
+          "return": -0.033715610488521564,
+          "R": -1.0976702058753205,
+          "reason": "stop"
+        },
+        {
+          "symbol": "MICROSOFT",
+          "signal_date": "2025-03-04",
+          "entry_date": "2025-03-05",
+          "exit_date": "2025-03-10",
+          "return": -0.02442085687660178,
+          "R": -1.140050419891321,
+          "reason": "stop"
+        },
+        {
+          "symbol": "MICROSOFT",
+          "signal_date": "2025-03-11",
+          "entry_date": "2025-03-12",
+          "exit_date": "2025-03-18",
+          "return": -0.0005116156457189974,
+          "R": -0.032437572946501916,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "MICROSOFT",
+          "signal_date": "2025-08-22",
+          "entry_date": "2025-08-25",
+          "exit_date": "2025-08-26",
+          "return": -0.011329552493992586,
+          "R": -1.3601634063971146,
+          "reason": "stop"
+        },
+        {
+          "symbol": "MICROSOFT",
+          "signal_date": "2025-09-02",
+          "entry_date": "2025-09-03",
+          "exit_date": "2025-09-05",
+          "return": -0.016855000829588126,
+          "R": -1.2165283161581106,
+          "reason": "stop"
+        },
+        {
+          "symbol": "MICROSOFT",
+          "signal_date": "2025-10-14",
+          "entry_date": "2025-10-15",
+          "exit_date": "2025-10-21",
+          "return": 0.003243030636693513,
+          "R": 0.18638694559301383,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "MICROSOFT",
+          "signal_date": "2025-11-04",
+          "entry_date": "2025-11-05",
+          "exit_date": "2025-11-05",
+          "return": -0.013637037960110617,
+          "R": -1.2820334017092105,
+          "reason": "stop"
+        },
+        {
+          "symbol": "MICROSOFT",
+          "signal_date": "2025-11-25",
+          "entry_date": "2025-11-26",
+          "exit_date": "2025-12-03",
+          "return": -0.019643039656473182,
+          "R": -0.44596704896778794,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "MICROSOFT",
+          "signal_date": "2025-12-16",
+          "entry_date": "2025-12-17",
+          "exit_date": "2025-12-23",
+          "return": 0.018842511931137285,
+          "R": 1.4902461448142865,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "MICROSOFT",
+          "signal_date": "2026-02-24",
+          "entry_date": "2026-02-25",
+          "exit_date": "2026-03-03",
+          "return": 0.03231232924069727,
+          "R": 1.4307169410478342,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "MICROSOFT",
+          "signal_date": "2026-06-18",
+          "entry_date": "2026-06-22",
+          "exit_date": "2026-06-22",
+          "return": -0.009547057856534421,
+          "R": -1.4582210919376275,
+          "reason": "stop"
+        },
+        {
+          "symbol": "MICROSOFT",
+          "signal_date": "2026-08-18",
+          "entry_date": "2026-08-19",
+          "exit_date": "2026-08-19",
+          "return": 0.015247422562449157,
+          "R": 2.506779657828439,
+          "reason": "target"
+        },
+        {
+          "symbol": "MICROSOFT",
+          "signal_date": "2026-09-10",
+          "entry_date": "2026-09-11",
+          "exit_date": "2026-09-17",
+          "return": 0.002236873054323409,
+          "R": 0.11489189813130606,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "APPLE",
+          "signal_date": "2023-10-23",
+          "entry_date": "2023-10-24",
+          "exit_date": "2023-10-26",
+          "return": -0.02102953089254433,
+          "R": -1.166393680339212,
+          "reason": "stop"
+        },
+        {
+          "symbol": "APPLE",
+          "signal_date": "2023-12-27",
+          "entry_date": "2023-12-28",
+          "exit_date": "2024-01-02",
+          "return": -0.039004973293189193,
+          "R": -2.482759971983889,
+          "reason": "gap_stop"
+        },
+        {
+          "symbol": "APPLE",
+          "signal_date": "2024-02-02",
+          "entry_date": "2024-02-05",
+          "exit_date": "2024-02-09",
+          "return": 0.0017205008224256985,
+          "R": 0.036372184408594084,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "APPLE",
+          "signal_date": "2024-02-27",
+          "entry_date": "2024-02-28",
+          "exit_date": "2024-02-29",
+          "return": -0.019163481655968703,
+          "R": -1.1856035762500594,
+          "reason": "stop"
+        },
+        {
+          "symbol": "APPLE",
+          "signal_date": "2024-03-25",
+          "entry_date": "2024-03-26",
+          "exit_date": "2024-03-27",
+          "return": 0.006705936207490717,
+          "R": 2.072732417811041,
+          "reason": "target"
+        },
+        {
+          "symbol": "APPLE",
+          "signal_date": "2024-09-09",
+          "entry_date": "2024-09-10",
+          "exit_date": "2024-09-16",
+          "return": -0.013871573646624055,
+          "R": -1.3741070674012974,
+          "reason": "gap_stop"
+        },
+        {
+          "symbol": "APPLE",
+          "signal_date": "2024-11-04",
+          "entry_date": "2024-11-05",
+          "exit_date": "2024-11-08",
+          "return": 0.025268660628506526,
+          "R": 2.6816262320216007,
+          "reason": "target"
+        },
+        {
+          "symbol": "APPLE",
+          "signal_date": "2025-01-13",
+          "entry_date": "2025-01-14",
+          "exit_date": "2025-01-16",
+          "return": -0.024427044853234877,
+          "R": -1.1400099743361083,
+          "reason": "stop"
+        },
+        {
+          "symbol": "APPLE",
+          "signal_date": "2025-02-28",
+          "entry_date": "2025-03-03",
+          "exit_date": "2025-03-05",
+          "return": -0.05093414392536544,
+          "R": -1.0625858679080846,
+          "reason": "stop"
+        },
+        {
+          "symbol": "APPLE",
+          "signal_date": "2025-03-05",
+          "entry_date": "2025-03-06",
+          "exit_date": "2025-03-10",
+          "return": -0.025223198513953823,
+          "R": -1.1349940692882858,
+          "reason": "stop"
+        },
+        {
+          "symbol": "APPLE",
+          "signal_date": "2025-06-18",
+          "entry_date": "2025-06-20",
+          "exit_date": "2025-06-26",
+          "return": 0.01192249006435331,
+          "R": 0.7455885997044462,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "APPLE",
+          "signal_date": "2025-12-16",
+          "entry_date": "2025-12-17",
+          "exit_date": "2025-12-17",
+          "return": -0.014708669162432849,
+          "R": -1.2562204088595734,
+          "reason": "stop"
+        },
+        {
+          "symbol": "APPLE",
+          "signal_date": "2026-03-09",
+          "entry_date": "2026-03-10",
+          "exit_date": "2026-03-13",
+          "return": -0.018408505005818695,
+          "R": -1.1946976685192472,
+          "reason": "stop"
+        },
+        {
+          "symbol": "APPLE",
+          "signal_date": "2026-03-20",
+          "entry_date": "2026-03-23",
+          "exit_date": "2026-03-27",
+          "return": -0.02235672773987396,
+          "R": -0.7124137141456801,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "APPLE",
+          "signal_date": "2026-06-10",
+          "entry_date": "2026-06-11",
+          "exit_date": "2026-06-17",
+          "return": 0.005592302114463267,
+          "R": 0.2590807464777164,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "APPLE",
+          "signal_date": "2026-10-01",
+          "entry_date": "2026-10-02",
+          "exit_date": "2026-10-08",
+          "return": 0.019484736999032304,
+          "R": 0.8716071144755512,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "TESLA",
+          "signal_date": "2023-10-23",
+          "entry_date": "2023-10-24",
+          "exit_date": "2023-10-30",
+          "return": -0.06761896301692405,
+          "R": -1.0464260003555652,
+          "reason": "stop"
+        },
+        {
+          "symbol": "TESLA",
+          "signal_date": "2023-10-31",
+          "entry_date": "2023-11-01",
+          "exit_date": "2023-11-07",
+          "return": 0.0869041363778622,
+          "R": 1.7785300271046678,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "TESLA",
+          "signal_date": "2023-12-13",
+          "entry_date": "2023-12-14",
+          "exit_date": "2023-12-20",
+          "return": 0.0225419042325965,
+          "R": 0.417631058540055,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "TESLA",
+          "signal_date": "2024-01-05",
+          "entry_date": "2024-01-08",
+          "exit_date": "2024-01-08",
+          "return": 0.012753436474579941,
+          "R": 2.428696080723547,
+          "reason": "target"
+        },
+        {
+          "symbol": "TESLA",
+          "signal_date": "2024-01-16",
+          "entry_date": "2024-01-17",
+          "exit_date": "2024-01-17",
+          "return": -0.015473275281379647,
+          "R": -1.2405142139754157,
+          "reason": "stop"
+        },
+        {
+          "symbol": "TESLA",
+          "signal_date": "2024-01-17",
+          "entry_date": "2024-01-18",
+          "exit_date": "2024-01-18",
+          "return": -0.025454861058344155,
+          "R": -1.1336013610685503,
+          "reason": "stop"
+        },
+        {
+          "symbol": "TESLA",
+          "signal_date": "2024-01-19",
+          "entry_date": "2024-01-22",
+          "exit_date": "2024-01-22",
+          "return": -0.0251426414297341,
+          "R": -1.1354851908486185,
+          "reason": "stop"
+        },
+        {
+          "symbol": "TESLA",
+          "signal_date": "2024-04-02",
+          "entry_date": "2024-04-03",
+          "exit_date": "2024-04-03",
+          "return": -0.006597192911296343,
+          "R": -1.8339836294514786,
+          "reason": "stop"
+        },
+        {
+          "symbol": "TESLA",
+          "signal_date": "2024-04-03",
+          "entry_date": "2024-04-04",
+          "exit_date": "2024-04-05",
+          "return": -0.042924785397213006,
+          "R": -1.075141293062766,
+          "reason": "stop"
+        },
+        {
+          "symbol": "TESLA",
+          "signal_date": "2025-02-28",
+          "entry_date": "2025-03-03",
+          "exit_date": "2025-03-04",
+          "return": -0.10092236805191379,
+          "R": -1.1335465490244412,
+          "reason": "gap_stop"
+        },
+        {
+          "symbol": "TESLA",
+          "signal_date": "2025-03-07",
+          "entry_date": "2025-03-10",
+          "exit_date": "2025-03-10",
+          "return": -0.010167171959741813,
+          "R": -1.4185751390996497,
+          "reason": "stop"
+        },
+        {
+          "symbol": "TESLA",
+          "signal_date": "2025-07-07",
+          "entry_date": "2025-07-08",
+          "exit_date": "2025-07-14",
+          "return": 0.08013142410432439,
+          "R": 2.89173769008569,
+          "reason": "target"
+        },
+        {
+          "symbol": "TESLA",
+          "signal_date": "2025-11-14",
+          "entry_date": "2025-11-17",
+          "exit_date": "2025-11-21",
+          "return": -0.021185419280338014,
+          "R": -0.5292906265476298,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "TESLA",
+          "signal_date": "2026-01-08",
+          "entry_date": "2026-01-09",
+          "exit_date": "2026-01-15",
+          "return": 0.004009852147780714,
+          "R": 0.1509579026706756,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "TESLA",
+          "signal_date": "2026-02-02",
+          "entry_date": "2026-02-03",
+          "exit_date": "2026-02-03",
+          "return": -0.026027763609641093,
+          "R": -1.1302775228569717,
+          "reason": "stop"
+        },
+        {
+          "symbol": "TESLA",
+          "signal_date": "2026-03-02",
+          "entry_date": "2026-03-03",
+          "exit_date": "2026-03-03",
+          "return": -0.020312501964845683,
+          "R": -1.1732851788893173,
+          "reason": "stop"
+        },
+        {
+          "symbol": "TESLA",
+          "signal_date": "2026-03-09",
+          "entry_date": "2026-03-10",
+          "exit_date": "2026-03-16",
+          "return": -0.01855811158544285,
+          "R": -0.35852262433490106,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "TESLA",
+          "signal_date": "2026-04-07",
+          "entry_date": "2026-04-08",
+          "exit_date": "2026-04-14",
+          "return": -0.0008729661274939887,
+          "R": -0.0119614363826751,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "TESLA",
+          "signal_date": "2026-06-26",
+          "entry_date": "2026-06-29",
+          "exit_date": "2026-06-30",
+          "return": 0.10064338101729786,
+          "R": 2.913163774554036,
+          "reason": "target"
+        },
+        {
+          "symbol": "TESLA",
+          "signal_date": "2026-07-28",
+          "entry_date": "2026-07-29",
+          "exit_date": "2026-07-29",
+          "return": -0.024000234093282,
+          "R": -1.1428555504035882,
+          "reason": "stop"
+        },
+        {
+          "symbol": "TESLA",
+          "signal_date": "2026-09-30",
+          "entry_date": "2026-10-01",
+          "exit_date": "2026-10-07",
+          "return": 0.05685485312544092,
+          "R": 1.8560286915684285,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "AMAZON",
+          "signal_date": "2023-10-23",
+          "entry_date": "2023-10-24",
+          "exit_date": "2023-10-25",
+          "return": -0.032434746905553036,
+          "R": -1.101920359961854,
+          "reason": "stop"
+        },
+        {
+          "symbol": "AMAZON",
+          "signal_date": "2024-04-25",
+          "entry_date": "2024-04-26",
+          "exit_date": "2024-05-02",
+          "return": 0.03692012401670719,
+          "R": 0.5718118994674058,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "AMAZON",
+          "signal_date": "2024-05-21",
+          "entry_date": "2024-05-22",
+          "exit_date": "2024-05-23",
+          "return": -0.020021996952889306,
+          "R": -1.1762425412425428,
+          "reason": "stop"
+        },
+        {
+          "symbol": "AMAZON",
+          "signal_date": "2024-05-28",
+          "entry_date": "2024-05-29",
+          "exit_date": "2024-05-30",
+          "return": -0.015162859065471764,
+          "R": -1.2466525332449538,
+          "reason": "stop"
+        },
+        {
+          "symbol": "AMAZON",
+          "signal_date": "2024-07-19",
+          "entry_date": "2024-07-22",
+          "exit_date": "2024-07-25",
+          "return": -0.029432429133234846,
+          "R": -1.113496946681605,
+          "reason": "stop"
+        },
+        {
+          "symbol": "AMAZON",
+          "signal_date": "2024-08-05",
+          "entry_date": "2024-08-06",
+          "exit_date": "2024-08-12",
+          "return": 0.029476075236932964,
+          "R": 0.47193796475070715,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "AMAZON",
+          "signal_date": "2024-10-01",
+          "entry_date": "2024-10-02",
+          "exit_date": "2024-10-03",
+          "return": -0.010536322767562441,
+          "R": -1.962937994173954,
+          "reason": "gap_stop"
+        },
+        {
+          "symbol": "AMAZON",
+          "signal_date": "2024-12-20",
+          "entry_date": "2024-12-23",
+          "exit_date": "2024-12-30",
+          "return": -0.030909865928671395,
+          "R": -1.107488871772693,
+          "reason": "stop"
+        },
+        {
+          "symbol": "AMAZON",
+          "signal_date": "2024-12-30",
+          "entry_date": "2024-12-31",
+          "exit_date": "2025-01-02",
+          "return": -0.023361521819377003,
+          "R": -1.1473367279033633,
+          "reason": "stop"
+        },
+        {
+          "symbol": "AMAZON",
+          "signal_date": "2025-01-13",
+          "entry_date": "2025-01-14",
+          "exit_date": "2025-01-14",
+          "return": -0.021009441012224458,
+          "R": -1.166579295712934,
+          "reason": "stop"
+        },
+        {
+          "symbol": "AMAZON",
+          "signal_date": "2025-02-13",
+          "entry_date": "2025-02-14",
+          "exit_date": "2025-02-14",
+          "return": -0.01032981107395314,
+          "R": -1.4092874931880117,
+          "reason": "stop"
+        },
+        {
+          "symbol": "AMAZON",
+          "signal_date": "2025-02-19",
+          "entry_date": "2025-02-20",
+          "exit_date": "2025-02-20",
+          "return": -0.007760174709673715,
+          "R": -1.6302289690971672,
+          "reason": "stop"
+        },
+        {
+          "symbol": "AMAZON",
+          "signal_date": "2025-02-25",
+          "entry_date": "2025-02-26",
+          "exit_date": "2025-03-03",
+          "return": -0.05315352496906922,
+          "R": -1.0598163339835063,
+          "reason": "stop"
+        },
+        {
+          "symbol": "AMAZON",
+          "signal_date": "2025-03-04",
+          "entry_date": "2025-03-05",
+          "exit_date": "2025-03-07",
+          "return": -0.03898637825270923,
+          "R": -1.0833648770913518,
+          "reason": "stop"
+        },
+        {
+          "symbol": "AMAZON",
+          "signal_date": "2025-03-18",
+          "entry_date": "2025-03-19",
+          "exit_date": "2025-03-25",
+          "return": 0.05905398540181006,
+          "R": 2.854964996337892,
+          "reason": "target"
+        },
+        {
+          "symbol": "AMAZON",
+          "signal_date": "2025-03-31",
+          "entry_date": "2025-04-01",
+          "exit_date": "2025-04-02",
+          "return": 0.052254019524524575,
+          "R": 2.83711592247139,
+          "reason": "target"
+        },
+        {
+          "symbol": "AMAZON",
+          "signal_date": "2025-10-14",
+          "entry_date": "2025-10-15",
+          "exit_date": "2025-10-17",
+          "return": -0.02155779292902826,
+          "R": -1.161657154569679,
+          "reason": "stop"
+        },
+        {
+          "symbol": "AMAZON",
+          "signal_date": "2025-11-21",
+          "entry_date": "2025-11-24",
+          "exit_date": "2025-12-01",
+          "return": 0.048862722180065266,
+          "R": 1.4735609937641638,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "AMAZON",
+          "signal_date": "2026-01-21",
+          "entry_date": "2026-01-22",
+          "exit_date": "2026-01-28",
+          "return": 0.036282381278571085,
+          "R": 1.184364521284632,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "AMAZON",
+          "signal_date": "2026-02-17",
+          "entry_date": "2026-02-18",
+          "exit_date": "2026-02-24",
+          "return": 0.03011753352372515,
+          "R": 1.002610029059534,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "AMAZON",
+          "signal_date": "2026-03-19",
+          "entry_date": "2026-03-20",
+          "exit_date": "2026-03-20",
+          "return": -0.00950911708994728,
+          "R": -1.4608920009494462,
+          "reason": "stop"
+        },
+        {
+          "symbol": "AMAZON",
+          "signal_date": "2026-05-15",
+          "entry_date": "2026-05-18",
+          "exit_date": "2026-05-19",
+          "return": -0.014293366142014593,
+          "R": -1.2656426757332464,
+          "reason": "stop"
+        },
+        {
+          "symbol": "AMAZON",
+          "signal_date": "2026-06-11",
+          "entry_date": "2026-06-12",
+          "exit_date": "2026-06-12",
+          "return": -0.03601679131785529,
+          "R": -1.090862857360025,
+          "reason": "stop"
+        },
+        {
+          "symbol": "AMAZON",
+          "signal_date": "2026-06-23",
+          "entry_date": "2026-06-24",
+          "exit_date": "2026-06-24",
+          "return": 0.02073323996446719,
+          "R": 2.6207850249913283,
+          "reason": "target"
+        },
+        {
+          "symbol": "AMAZON",
+          "signal_date": "2026-09-10",
+          "entry_date": "2026-09-11",
+          "exit_date": "2026-09-15",
+          "return": -0.02074959491454564,
+          "R": -1.169017941786466,
+          "reason": "stop"
+        },
+        {
+          "symbol": "META",
+          "signal_date": "2024-05-31",
+          "entry_date": "2024-06-03",
+          "exit_date": "2024-06-07",
+          "return": 0.04493540923214123,
+          "R": 1.2901398784878897,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "META",
+          "signal_date": "2024-09-04",
+          "entry_date": "2024-09-05",
+          "exit_date": "2024-09-06",
+          "return": -0.017949569839434406,
+          "R": -1.2006746703899454,
+          "reason": "stop"
+        },
+        {
+          "symbol": "META",
+          "signal_date": "2024-09-11",
+          "entry_date": "2024-09-12",
+          "exit_date": "2024-09-18",
+          "return": 0.0384216708393601,
+          "R": 0.9261511140703959,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "META",
+          "signal_date": "2024-10-24",
+          "entry_date": "2024-10-25",
+          "exit_date": "2024-10-31",
+          "return": -0.01306402464930012,
+          "R": -0.6041782269765139,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "META",
+          "signal_date": "2024-11-06",
+          "entry_date": "2024-11-07",
+          "exit_date": "2024-11-13",
+          "return": 0.0033909502203079995,
+          "R": 0.09006457015520009,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "META",
+          "signal_date": "2025-03-07",
+          "entry_date": "2025-03-10",
+          "exit_date": "2025-03-10",
+          "return": -0.015268360357853724,
+          "R": -1.2445314542851325,
+          "reason": "stop"
+        },
+        {
+          "symbol": "META",
+          "signal_date": "2025-03-31",
+          "entry_date": "2025-04-01",
+          "exit_date": "2025-04-03",
+          "return": -0.04612951964487477,
+          "R": -1.5012837850064045,
+          "reason": "gap_stop"
+        },
+        {
+          "symbol": "META",
+          "signal_date": "2025-04-07",
+          "entry_date": "2025-04-08",
+          "exit_date": "2025-04-14",
+          "return": -0.02366593563046482,
+          "R": -0.20956019970979722,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "META",
+          "signal_date": "2025-07-18",
+          "entry_date": "2025-07-21",
+          "exit_date": "2025-07-25",
+          "return": 0.0063191921114391664,
+          "R": 0.2948129177292492,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "META",
+          "signal_date": "2025-09-02",
+          "entry_date": "2025-09-03",
+          "exit_date": "2025-09-09",
+          "return": 0.03835327745520556,
+          "R": 1.97813409751925,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "META",
+          "signal_date": "2025-10-06",
+          "entry_date": "2025-10-07",
+          "exit_date": "2025-10-13",
+          "return": -0.0048144103251228625,
+          "R": -0.1269902020600798,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "META",
+          "signal_date": "2025-11-07",
+          "entry_date": "2025-11-10",
+          "exit_date": "2025-11-14",
+          "return": -0.05036252099778926,
+          "R": -1.0633412229078785,
+          "reason": "stop"
+        },
+        {
+          "symbol": "META",
+          "signal_date": "2025-11-14",
+          "entry_date": "2025-11-17",
+          "exit_date": "2025-11-18",
+          "return": -0.03163523425489034,
+          "R": -1.3921365576792475,
+          "reason": "gap_stop"
+        },
+        {
+          "symbol": "META",
+          "signal_date": "2025-11-18",
+          "entry_date": "2025-11-19",
+          "exit_date": "2025-11-19",
+          "return": -0.0197418006749519,
+          "R": -1.1791921943311885,
+          "reason": "stop"
+        },
+        {
+          "symbol": "META",
+          "signal_date": "2026-01-08",
+          "entry_date": "2026-01-09",
+          "exit_date": "2026-01-13",
+          "return": -0.018059543414592812,
+          "R": -1.1992092268277519,
+          "reason": "stop"
+        },
+        {
+          "symbol": "META",
+          "signal_date": "2026-01-15",
+          "entry_date": "2026-01-16",
+          "exit_date": "2026-01-20",
+          "return": -0.0291142426611477,
+          "R": -1.826382459928475,
+          "reason": "gap_stop"
+        },
+        {
+          "symbol": "META",
+          "signal_date": "2026-02-18",
+          "entry_date": "2026-02-19",
+          "exit_date": "2026-02-25",
+          "return": 0.021677897401640278,
+          "R": 1.328491152230836,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "META",
+          "signal_date": "2026-03-09",
+          "entry_date": "2026-03-10",
+          "exit_date": "2026-03-13",
+          "return": -0.048397489168538366,
+          "R": -1.1811314559340682,
+          "reason": "gap_stop"
+        },
+        {
+          "symbol": "META",
+          "signal_date": "2026-05-06",
+          "entry_date": "2026-05-07",
+          "exit_date": "2026-05-11",
+          "return": -0.030036692980996423,
+          "R": -1.1109603161196029,
+          "reason": "stop"
+        },
+        {
+          "symbol": "META",
+          "signal_date": "2026-05-12",
+          "entry_date": "2026-05-13",
+          "exit_date": "2026-05-13",
+          "return": 0.028211068213560456,
+          "R": 2.711640757105199,
+          "reason": "target"
+        },
+        {
+          "symbol": "META",
+          "signal_date": "2026-08-19",
+          "entry_date": "2026-08-20",
+          "exit_date": "2026-08-26",
+          "return": 0.07627595645641916,
+          "R": 4.309831289368655,
+          "reason": "gap_target"
+        }
+      ]
+    },
+    "20d_2d": {
+      "train": {
+        "n": 332,
+        "mean_net_pct": -0.218,
+        "profit_factor": 0.816,
+        "win_rate": 0.446,
+        "mean_R": -0.207
+      },
+      "holdout": {
+        "n": 127,
+        "mean_net_pct": -0.111,
+        "profit_factor": 0.889,
+        "win_rate": 0.48,
+        "mean_R": -0.109
+      },
+      "holdout_trades": [
+        {
+          "symbol": "INVESTOR_B",
+          "signal_date": "2024-12-20",
+          "entry_date": "2024-12-23",
+          "exit_date": "2024-12-27",
+          "return": 0.008671277464769702,
+          "R": 0.47084172518238726,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "INVESTOR_B",
+          "signal_date": "2025-03-07",
+          "entry_date": "2025-03-10",
+          "exit_date": "2025-03-11",
+          "return": -0.022760995082171328,
+          "R": -1.151814217225663,
+          "reason": "stop"
+        },
+        {
+          "symbol": "INVESTOR_B",
+          "signal_date": "2026-03-23",
+          "entry_date": "2026-03-24",
+          "exit_date": "2026-03-25",
+          "return": 0.030286635424128683,
+          "R": 0.8024782824309188,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "INVESTOR_B",
+          "signal_date": "2026-05-18",
+          "entry_date": "2026-05-19",
+          "exit_date": "2026-05-20",
+          "return": 0.012307125835542944,
+          "R": 0.5045914878236751,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "VOLVO_B",
+          "signal_date": "2023-10-24",
+          "entry_date": "2023-10-25",
+          "exit_date": "2023-10-26",
+          "return": 0.007921592919020394,
+          "R": 0.5201841133033347,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "VOLVO_B",
+          "signal_date": "2024-01-26",
+          "entry_date": "2024-01-29",
+          "exit_date": "2024-01-30",
+          "return": -0.02013519004697406,
+          "R": -0.2978013207087194,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "VOLVO_B",
+          "signal_date": "2024-04-19",
+          "entry_date": "2024-04-22",
+          "exit_date": "2024-04-23",
+          "return": 0.0022644357962307033,
+          "R": 0.09956450420809497,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "VOLVO_B",
+          "signal_date": "2024-09-11",
+          "entry_date": "2024-09-12",
+          "exit_date": "2024-09-13",
+          "return": 0.002731849051109016,
+          "R": 0.13584237390570159,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "VOLVO_B",
+          "signal_date": "2024-10-18",
+          "entry_date": "2024-10-21",
+          "exit_date": "2024-10-22",
+          "return": -0.013721656436011863,
+          "R": -0.2341257629394524,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "VOLVO_B",
+          "signal_date": "2024-11-21",
+          "entry_date": "2024-11-22",
+          "exit_date": "2024-11-25",
+          "return": -0.0031110658998843004,
+          "R": -0.10632765087863792,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "VOLVO_B",
+          "signal_date": "2025-06-19",
+          "entry_date": "2025-06-23",
+          "exit_date": "2025-06-23",
+          "return": -0.011546996893585511,
+          "R": -1.3510004785717726,
+          "reason": "stop"
+        },
+        {
+          "symbol": "VOLVO_B",
+          "signal_date": "2025-09-11",
+          "entry_date": "2025-09-12",
+          "exit_date": "2025-09-15",
+          "return": -0.010360662520964901,
+          "R": -0.5278188045007834,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "VOLVO_B",
+          "signal_date": "2025-10-08",
+          "entry_date": "2025-10-09",
+          "exit_date": "2025-10-10",
+          "return": -0.013111111111111072,
+          "R": -0.8045465705823985,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "VOLVO_B",
+          "signal_date": "2026-03-23",
+          "entry_date": "2026-03-24",
+          "exit_date": "2026-03-25",
+          "return": 0.017463046285129957,
+          "R": 0.24204594385901054,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "VOLVO_B",
+          "signal_date": "2026-05-18",
+          "entry_date": "2026-05-19",
+          "exit_date": "2026-05-19",
+          "return": -0.008765593338136087,
+          "R": -1.5203280606276326,
+          "reason": "stop"
+        },
+        {
+          "symbol": "VOLVO_B",
+          "signal_date": "2026-08-20",
+          "entry_date": "2026-08-21",
+          "exit_date": "2026-08-24",
+          "return": 0.01649130486423478,
+          "R": 1.4406545118782998,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "VOLVO_B",
+          "signal_date": "2026-09-03",
+          "entry_date": "2026-09-04",
+          "exit_date": "2026-09-07",
+          "return": 9.796817585174325e-06,
+          "R": 0.0002420026491910611,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "ATLAS_A",
+          "signal_date": "2023-10-24",
+          "entry_date": "2023-10-25",
+          "exit_date": "2023-10-26",
+          "return": 0.026057510046650245,
+          "R": 1.393071305327656,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "ATLAS_A",
+          "signal_date": "2024-01-08",
+          "entry_date": "2024-01-09",
+          "exit_date": "2024-01-10",
+          "return": -0.00655927051671734,
+          "R": -0.34806383083450726,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "ATLAS_A",
+          "signal_date": "2024-01-26",
+          "entry_date": "2024-01-29",
+          "exit_date": "2024-01-30",
+          "return": 0.013955852422270711,
+          "R": 0.7219398463461153,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "ATLAS_A",
+          "signal_date": "2024-04-23",
+          "entry_date": "2024-04-24",
+          "exit_date": "2024-04-24",
+          "return": 0.03662885202953914,
+          "R": 2.772892740034677,
+          "reason": "target"
+        },
+        {
+          "symbol": "ATLAS_A",
+          "signal_date": "2024-06-24",
+          "entry_date": "2024-06-25",
+          "exit_date": "2024-06-25",
+          "return": -0.026134297992459584,
+          "R": -1.1296775895675688,
+          "reason": "stop"
+        },
+        {
+          "symbol": "ATLAS_A",
+          "signal_date": "2024-07-23",
+          "entry_date": "2024-07-24",
+          "exit_date": "2024-07-25",
+          "return": -0.022464671014479683,
+          "R": -1.5678680773881473,
+          "reason": "gap_stop"
+        },
+        {
+          "symbol": "ATLAS_A",
+          "signal_date": "2024-07-25",
+          "entry_date": "2024-07-26",
+          "exit_date": "2024-07-29",
+          "return": 0.006738344027263478,
+          "R": 0.30844770812988276,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "ATLAS_A",
+          "signal_date": "2024-10-23",
+          "entry_date": "2024-10-24",
+          "exit_date": "2024-10-25",
+          "return": -0.001163828537474874,
+          "R": -0.040541957275342995,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "ATLAS_A",
+          "signal_date": "2024-11-21",
+          "entry_date": "2024-11-22",
+          "exit_date": "2024-11-25",
+          "return": 0.0006018904665077169,
+          "R": 0.04337384128275154,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "ATLAS_A",
+          "signal_date": "2025-02-28",
+          "entry_date": "2025-03-03",
+          "exit_date": "2025-03-04",
+          "return": -0.026274917075252865,
+          "R": -1.4762461594801661,
+          "reason": "gap_stop"
+        },
+        {
+          "symbol": "ATLAS_A",
+          "signal_date": "2025-03-13",
+          "entry_date": "2025-03-14",
+          "exit_date": "2025-03-17",
+          "return": 0.015403726400900599,
+          "R": 1.8617301609016506,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "ATLAS_A",
+          "signal_date": "2025-03-19",
+          "entry_date": "2025-03-20",
+          "exit_date": "2025-03-20",
+          "return": -0.013066148625603177,
+          "R": -1.2980285818917454,
+          "reason": "stop"
+        },
+        {
+          "symbol": "ATLAS_A",
+          "signal_date": "2025-03-25",
+          "entry_date": "2025-03-26",
+          "exit_date": "2025-03-27",
+          "return": -0.03471802582369676,
+          "R": -1.3587897938137095,
+          "reason": "gap_stop"
+        },
+        {
+          "symbol": "ATLAS_A",
+          "signal_date": "2025-03-27",
+          "entry_date": "2025-03-28",
+          "exit_date": "2025-03-28",
+          "return": -0.008160843111573831,
+          "R": -1.581300368010058,
+          "reason": "stop"
+        },
+        {
+          "symbol": "ATLAS_A",
+          "signal_date": "2025-06-19",
+          "entry_date": "2025-06-23",
+          "exit_date": "2025-06-23",
+          "return": -0.01533738501085213,
+          "R": -1.2431633605793437,
+          "reason": "stop"
+        },
+        {
+          "symbol": "ATLAS_A",
+          "signal_date": "2025-11-05",
+          "entry_date": "2025-11-06",
+          "exit_date": "2025-11-07",
+          "return": -0.017589203184358856,
+          "R": -1.2056315181912243,
+          "reason": "stop"
+        },
+        {
+          "symbol": "ATLAS_A",
+          "signal_date": "2025-11-21",
+          "entry_date": "2025-11-24",
+          "exit_date": "2025-11-25",
+          "return": 0.019809835362043504,
+          "R": 0.7332009927383009,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "ATLAS_A",
+          "signal_date": "2026-03-23",
+          "entry_date": "2026-03-24",
+          "exit_date": "2026-03-25",
+          "return": 0.008185147509162773,
+          "R": 0.15508695008146875,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "ATLAS_A",
+          "signal_date": "2026-07-16",
+          "entry_date": "2026-07-17",
+          "exit_date": "2026-07-20",
+          "return": -0.016739486132067993,
+          "R": -0.20713806042482807,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "ATLAS_A",
+          "signal_date": "2026-09-02",
+          "entry_date": "2026-09-03",
+          "exit_date": "2026-09-04",
+          "return": 0.014368672626777991,
+          "R": 1.967521378134632,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "ABB",
+          "signal_date": "2023-10-23",
+          "entry_date": "2023-10-24",
+          "exit_date": "2023-10-25",
+          "return": 0.0009867122996865003,
+          "R": 0.05957501350783826,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "ABB",
+          "signal_date": "2024-12-20",
+          "entry_date": "2024-12-23",
+          "exit_date": "2024-12-27",
+          "return": 0.0013189513458828923,
+          "R": 0.058441284971856924,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "ABB",
+          "signal_date": "2025-02-03",
+          "entry_date": "2025-02-04",
+          "exit_date": "2025-02-05",
+          "return": -0.00805037913602946,
+          "R": -0.6302619701569289,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "ABB",
+          "signal_date": "2025-03-06",
+          "entry_date": "2025-03-07",
+          "exit_date": "2025-03-10",
+          "return": -0.012032311892921864,
+          "R": -0.6853515317974854,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "ABB",
+          "signal_date": "2025-11-14",
+          "entry_date": "2025-11-17",
+          "exit_date": "2025-11-18",
+          "return": -0.031110030107818095,
+          "R": -2.123103436034451,
+          "reason": "gap_stop"
+        },
+        {
+          "symbol": "ABB",
+          "signal_date": "2025-11-19",
+          "entry_date": "2025-11-20",
+          "exit_date": "2025-11-21",
+          "return": -0.0175156857746126,
+          "R": -0.6190747088530333,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "ABB",
+          "signal_date": "2026-03-23",
+          "entry_date": "2026-03-24",
+          "exit_date": "2026-03-25",
+          "return": 0.020797895836706548,
+          "R": 0.4159581798229652,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "ABB",
+          "signal_date": "2026-07-17",
+          "entry_date": "2026-07-20",
+          "exit_date": "2026-07-21",
+          "return": 0.015106665477329752,
+          "R": 0.4470628814697274,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "ABB",
+          "signal_date": "2026-07-30",
+          "entry_date": "2026-07-31",
+          "exit_date": "2026-08-03",
+          "return": -0.000510612325465452,
+          "R": -0.011267038990885424,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "NVIDIA",
+          "signal_date": "2023-10-23",
+          "entry_date": "2023-10-24",
+          "exit_date": "2023-10-25",
+          "return": -0.03213209707752407,
+          "R": -0.6492281214047104,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "NVIDIA",
+          "signal_date": "2023-10-31",
+          "entry_date": "2023-11-01",
+          "exit_date": "2023-11-02",
+          "return": 0.06213271011556332,
+          "R": 1.5358129875042072,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "NVIDIA",
+          "signal_date": "2024-11-27",
+          "entry_date": "2024-11-29",
+          "exit_date": "2024-12-02",
+          "return": 0.01152541394959883,
+          "R": 0.3165557145439647,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "NVIDIA",
+          "signal_date": "2025-01-28",
+          "entry_date": "2025-01-29",
+          "exit_date": "2025-01-30",
+          "return": -0.016624493866569945,
+          "R": -0.20517058284108272,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "NVIDIA",
+          "signal_date": "2025-02-03",
+          "entry_date": "2025-02-04",
+          "exit_date": "2025-02-05",
+          "return": 0.06528798570610483,
+          "R": 1.9331869995016744,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "NVIDIA",
+          "signal_date": "2025-03-04",
+          "entry_date": "2025-03-05",
+          "exit_date": "2025-03-06",
+          "return": -0.06161900006008525,
+          "R": -0.969901065051047,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "NVIDIA",
+          "signal_date": "2025-03-07",
+          "entry_date": "2025-03-10",
+          "exit_date": "2025-03-10",
+          "return": -0.02429211951588683,
+          "R": -1.140897198973621,
+          "reason": "stop"
+        },
+        {
+          "symbol": "NVIDIA",
+          "signal_date": "2025-03-11",
+          "entry_date": "2025-03-12",
+          "exit_date": "2025-03-13",
+          "return": 0.010793542318034978,
+          "R": 0.1317388529314817,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "NVIDIA",
+          "signal_date": "2025-03-31",
+          "entry_date": "2025-04-01",
+          "exit_date": "2025-04-02",
+          "return": 0.01550830800454417,
+          "R": 0.3455776632410076,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "NVIDIA",
+          "signal_date": "2025-09-02",
+          "entry_date": "2025-09-03",
+          "exit_date": "2025-09-04",
+          "return": 0.001507576944224544,
+          "R": 0.06715790477553006,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "NVIDIA",
+          "signal_date": "2025-11-25",
+          "entry_date": "2025-11-26",
+          "exit_date": "2025-11-28",
+          "return": -0.027491409780007303,
+          "R": -0.41334968010863055,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "NVIDIA",
+          "signal_date": "2026-06-29",
+          "entry_date": "2026-06-30",
+          "exit_date": "2026-07-01",
+          "return": -0.0002762303365357859,
+          "R": -0.007323071937782712,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "NVIDIA",
+          "signal_date": "2026-10-15",
+          "entry_date": "2026-10-16",
+          "exit_date": "2026-10-19",
+          "return": 0.000447353090468507,
+          "R": 0.026112939976474733,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "MICROSOFT",
+          "signal_date": "2024-04-22",
+          "entry_date": "2024-04-23",
+          "exit_date": "2024-04-24",
+          "return": 0.0099236281433317,
+          "R": 0.4725008195542746,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "MICROSOFT",
+          "signal_date": "2024-04-25",
+          "entry_date": "2024-04-26",
+          "exit_date": "2024-04-29",
+          "return": -0.02606777083377909,
+          "R": -0.4450847943161988,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "MICROSOFT",
+          "signal_date": "2024-07-17",
+          "entry_date": "2024-07-18",
+          "exit_date": "2024-07-18",
+          "return": -0.01461273732870438,
+          "R": -1.2583370238285367,
+          "reason": "stop"
+        },
+        {
+          "symbol": "MICROSOFT",
+          "signal_date": "2024-07-19",
+          "entry_date": "2024-07-22",
+          "exit_date": "2024-07-23",
+          "return": 0.004926362071139058,
+          "R": 0.2223100757795377,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "MICROSOFT",
+          "signal_date": "2024-07-26",
+          "entry_date": "2024-07-29",
+          "exit_date": "2024-07-30",
+          "return": -0.02206574311591991,
+          "R": -0.6654881021944508,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "MICROSOFT",
+          "signal_date": "2025-01-13",
+          "entry_date": "2025-01-14",
+          "exit_date": "2025-01-14",
+          "return": -0.016211720748491084,
+          "R": -1.2270711027814187,
+          "reason": "stop"
+        },
+        {
+          "symbol": "MICROSOFT",
+          "signal_date": "2025-02-12",
+          "entry_date": "2025-02-13",
+          "exit_date": "2025-02-14",
+          "return": 0.0015134955178901528,
+          "R": 0.2342173126015477,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "MICROSOFT",
+          "signal_date": "2025-02-26",
+          "entry_date": "2025-02-27",
+          "exit_date": "2025-02-27",
+          "return": -0.020494428205127254,
+          "R": -1.1714831696597428,
+          "reason": "stop"
+        },
+        {
+          "symbol": "MICROSOFT",
+          "signal_date": "2025-02-28",
+          "entry_date": "2025-03-03",
+          "exit_date": "2025-03-03",
+          "return": -0.033715610488521564,
+          "R": -1.0976702058753205,
+          "reason": "stop"
+        },
+        {
+          "symbol": "MICROSOFT",
+          "signal_date": "2025-03-04",
+          "entry_date": "2025-03-05",
+          "exit_date": "2025-03-06",
+          "return": 0.01739183844855896,
+          "R": 0.8119114258009082,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "MICROSOFT",
+          "signal_date": "2025-03-11",
+          "entry_date": "2025-03-12",
+          "exit_date": "2025-03-13",
+          "return": -0.012915323306216695,
+          "R": -0.8188603014364464,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "MICROSOFT",
+          "signal_date": "2025-08-22",
+          "entry_date": "2025-08-25",
+          "exit_date": "2025-08-26",
+          "return": -0.011329552493992586,
+          "R": -1.3601634063971146,
+          "reason": "stop"
+        },
+        {
+          "symbol": "MICROSOFT",
+          "signal_date": "2025-09-02",
+          "entry_date": "2025-09-03",
+          "exit_date": "2025-09-04",
+          "return": 0.0062970932429846655,
+          "R": 0.4544996655313691,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "MICROSOFT",
+          "signal_date": "2025-11-25",
+          "entry_date": "2025-11-26",
+          "exit_date": "2025-11-28",
+          "return": 0.009720943915705773,
+          "R": 0.22070009260710546,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "MICROSOFT",
+          "signal_date": "2026-02-24",
+          "entry_date": "2026-02-25",
+          "exit_date": "2026-02-26",
+          "return": 0.026653374840303057,
+          "R": 1.1801512245081596,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "MICROSOFT",
+          "signal_date": "2026-06-18",
+          "entry_date": "2026-06-22",
+          "exit_date": "2026-06-22",
+          "return": -0.009547057856534421,
+          "R": -1.4582210919376275,
+          "reason": "stop"
+        },
+        {
+          "symbol": "APPLE",
+          "signal_date": "2024-02-02",
+          "entry_date": "2024-02-05",
+          "exit_date": "2024-02-06",
+          "return": 0.004112193423222445,
+          "R": 0.08693367394174197,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "APPLE",
+          "signal_date": "2024-11-01",
+          "entry_date": "2024-11-04",
+          "exit_date": "2024-11-04",
+          "return": -0.006258071418643427,
+          "R": -1.920790128427933,
+          "reason": "stop"
+        },
+        {
+          "symbol": "APPLE",
+          "signal_date": "2024-11-04",
+          "entry_date": "2024-11-05",
+          "exit_date": "2024-11-06",
+          "return": 0.0021478726613481953,
+          "R": 0.22794210411039872,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "APPLE",
+          "signal_date": "2025-01-13",
+          "entry_date": "2025-01-14",
+          "exit_date": "2025-01-15",
+          "return": 0.01129071402422799,
+          "R": 0.5269375269228243,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "APPLE",
+          "signal_date": "2026-03-09",
+          "entry_date": "2026-03-10",
+          "exit_date": "2026-03-11",
+          "return": 0.010264714678700717,
+          "R": 0.6661720053194319,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "APPLE",
+          "signal_date": "2026-03-20",
+          "entry_date": "2026-03-23",
+          "exit_date": "2026-03-24",
+          "return": -0.011174319092237537,
+          "R": -0.3560779672309418,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "APPLE",
+          "signal_date": "2026-06-10",
+          "entry_date": "2026-06-11",
+          "exit_date": "2026-06-12",
+          "return": -0.01081790932563864,
+          "R": -0.5011732138301517,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "TESLA",
+          "signal_date": "2023-10-23",
+          "entry_date": "2023-10-24",
+          "exit_date": "2023-10-25",
+          "return": -0.020845274046441986,
+          "R": -0.322587566763993,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "TESLA",
+          "signal_date": "2023-10-31",
+          "entry_date": "2023-11-01",
+          "exit_date": "2023-11-02",
+          "return": 0.06891747547948257,
+          "R": 1.41042537951891,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "TESLA",
+          "signal_date": "2024-01-16",
+          "entry_date": "2024-01-17",
+          "exit_date": "2024-01-17",
+          "return": -0.015473275281379647,
+          "R": -1.2405142139754157,
+          "reason": "stop"
+        },
+        {
+          "symbol": "TESLA",
+          "signal_date": "2024-01-17",
+          "entry_date": "2024-01-18",
+          "exit_date": "2024-01-18",
+          "return": -0.025454861058344155,
+          "R": -1.1336013610685503,
+          "reason": "stop"
+        },
+        {
+          "symbol": "TESLA",
+          "signal_date": "2024-01-19",
+          "entry_date": "2024-01-22",
+          "exit_date": "2024-01-22",
+          "return": -0.0251426414297341,
+          "R": -1.1354851908486185,
+          "reason": "stop"
+        },
+        {
+          "symbol": "TESLA",
+          "signal_date": "2025-02-28",
+          "entry_date": "2025-03-03",
+          "exit_date": "2025-03-04",
+          "return": -0.10092236805191379,
+          "R": -1.1335465490244412,
+          "reason": "gap_stop"
+        },
+        {
+          "symbol": "TESLA",
+          "signal_date": "2025-03-07",
+          "entry_date": "2025-03-10",
+          "exit_date": "2025-03-10",
+          "return": -0.010167171959741813,
+          "R": -1.4185751390996497,
+          "reason": "stop"
+        },
+        {
+          "symbol": "TESLA",
+          "signal_date": "2025-11-14",
+          "entry_date": "2025-11-17",
+          "exit_date": "2025-11-18",
+          "return": 0.0042948533558162545,
+          "R": 0.10730142243349108,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "TESLA",
+          "signal_date": "2026-01-08",
+          "entry_date": "2026-01-09",
+          "exit_date": "2026-01-12",
+          "return": 0.027842823451667886,
+          "R": 1.0481918229877683,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "TESLA",
+          "signal_date": "2026-02-02",
+          "entry_date": "2026-02-03",
+          "exit_date": "2026-02-03",
+          "return": -0.026027763609641093,
+          "R": -1.1302775228569717,
+          "reason": "stop"
+        },
+        {
+          "symbol": "TESLA",
+          "signal_date": "2026-03-09",
+          "entry_date": "2026-03-10",
+          "exit_date": "2026-03-11",
+          "return": 0.011922743987171415,
+          "R": 0.23033450595840108,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "TESLA",
+          "signal_date": "2026-04-07",
+          "entry_date": "2026-04-08",
+          "exit_date": "2026-04-09",
+          "return": -0.05194643338449656,
+          "R": -0.7117732735166226,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "TESLA",
+          "signal_date": "2026-06-26",
+          "entry_date": "2026-06-29",
+          "exit_date": "2026-06-30",
+          "return": 0.10064338101729786,
+          "R": 2.913163774554036,
+          "reason": "target"
+        },
+        {
+          "symbol": "TESLA",
+          "signal_date": "2026-07-28",
+          "entry_date": "2026-07-29",
+          "exit_date": "2026-07-29",
+          "return": -0.024000234093282,
+          "R": -1.1428555504035882,
+          "reason": "stop"
+        },
+        {
+          "symbol": "TESLA",
+          "signal_date": "2026-09-30",
+          "entry_date": "2026-10-01",
+          "exit_date": "2026-10-02",
+          "return": 0.03661999067734634,
+          "R": 1.1954608911250453,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "AMAZON",
+          "signal_date": "2024-04-25",
+          "entry_date": "2024-04-26",
+          "exit_date": "2024-04-29",
+          "return": 0.01577279869443804,
+          "R": 0.24428612366801097,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "AMAZON",
+          "signal_date": "2024-07-19",
+          "entry_date": "2024-07-22",
+          "exit_date": "2024-07-23",
+          "return": 0.005621641416807323,
+          "R": 0.212679712048824,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "AMAZON",
+          "signal_date": "2024-08-05",
+          "entry_date": "2024-08-06",
+          "exit_date": "2024-08-07",
+          "return": 0.004554928666036908,
+          "R": 0.07292842574715133,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "AMAZON",
+          "signal_date": "2025-01-13",
+          "entry_date": "2025-01-14",
+          "exit_date": "2025-01-14",
+          "return": -0.021009441012224458,
+          "R": -1.166579295712934,
+          "reason": "stop"
+        },
+        {
+          "symbol": "AMAZON",
+          "signal_date": "2025-02-19",
+          "entry_date": "2025-02-20",
+          "exit_date": "2025-02-20",
+          "return": -0.007760174709673715,
+          "R": -1.6302289690971672,
+          "reason": "stop"
+        },
+        {
+          "symbol": "AMAZON",
+          "signal_date": "2025-02-25",
+          "entry_date": "2025-02-26",
+          "exit_date": "2025-02-27",
+          "return": -0.03084524461626137,
+          "R": -0.6150164845897529,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "AMAZON",
+          "signal_date": "2025-03-04",
+          "entry_date": "2025-03-05",
+          "exit_date": "2025-03-06",
+          "return": -0.022019560754007683,
+          "R": -0.6118859919544679,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "AMAZON",
+          "signal_date": "2025-03-18",
+          "entry_date": "2025-03-19",
+          "exit_date": "2025-03-20",
+          "return": 0.006118688725760936,
+          "R": 0.2958080139160149,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "AMAZON",
+          "signal_date": "2025-03-31",
+          "entry_date": "2025-04-01",
+          "exit_date": "2025-04-02",
+          "return": 0.052254019524524575,
+          "R": 2.83711592247139,
+          "reason": "target"
+        },
+        {
+          "symbol": "AMAZON",
+          "signal_date": "2025-10-14",
+          "entry_date": "2025-10-15",
+          "exit_date": "2025-10-16",
+          "return": -0.011925186709201395,
+          "R": -0.6425972503738807,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "AMAZON",
+          "signal_date": "2025-11-21",
+          "entry_date": "2025-11-24",
+          "exit_date": "2025-11-25",
+          "return": 0.029946444501913305,
+          "R": 0.9030997568519792,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "AMAZON",
+          "signal_date": "2026-02-17",
+          "entry_date": "2026-02-18",
+          "exit_date": "2026-02-19",
+          "return": 0.011807062824797711,
+          "R": 0.3930560778674941,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "AMAZON",
+          "signal_date": "2026-06-11",
+          "entry_date": "2026-06-12",
+          "exit_date": "2026-06-12",
+          "return": -0.03601679131785529,
+          "R": -1.090862857360025,
+          "reason": "stop"
+        },
+        {
+          "symbol": "AMAZON",
+          "signal_date": "2026-06-23",
+          "entry_date": "2026-06-24",
+          "exit_date": "2026-06-24",
+          "return": 0.02073323996446719,
+          "R": 2.6207850249913283,
+          "reason": "target"
+        },
+        {
+          "symbol": "AMAZON",
+          "signal_date": "2026-09-10",
+          "entry_date": "2026-09-11",
+          "exit_date": "2026-09-14",
+          "return": -0.004164599392675104,
+          "R": -0.23463067257170225,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "META",
+          "signal_date": "2024-09-11",
+          "entry_date": "2024-09-12",
+          "exit_date": "2024-09-13",
+          "return": 0.012640764922036586,
+          "R": 0.30470456540512975,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "META",
+          "signal_date": "2024-10-24",
+          "entry_date": "2024-10-25",
+          "exit_date": "2024-10-28",
+          "return": 0.00537020285179546,
+          "R": 0.24835835239149068,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "META",
+          "signal_date": "2024-11-06",
+          "entry_date": "2024-11-07",
+          "exit_date": "2024-11-08",
+          "return": 0.019581257936347463,
+          "R": 0.5200835944371514,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "META",
+          "signal_date": "2025-03-07",
+          "entry_date": "2025-03-10",
+          "exit_date": "2025-03-10",
+          "return": -0.015268360357853724,
+          "R": -1.2445314542851325,
+          "reason": "stop"
+        },
+        {
+          "symbol": "META",
+          "signal_date": "2025-03-31",
+          "entry_date": "2025-04-01",
+          "exit_date": "2025-04-02",
+          "return": 0.02093105809769491,
+          "R": 0.6812006361004385,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "META",
+          "signal_date": "2025-04-07",
+          "entry_date": "2025-04-08",
+          "exit_date": "2025-04-09",
+          "return": 0.07626970921537035,
+          "R": 0.6753629243547152,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "META",
+          "signal_date": "2025-09-02",
+          "entry_date": "2025-09-03",
+          "exit_date": "2025-09-04",
+          "return": 0.015187533171280522,
+          "R": 0.7833222925577391,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "META",
+          "signal_date": "2025-10-06",
+          "entry_date": "2025-10-07",
+          "exit_date": "2025-10-08",
+          "return": -0.0018327256350048043,
+          "R": -0.04834199476007661,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "META",
+          "signal_date": "2025-11-07",
+          "entry_date": "2025-11-10",
+          "exit_date": "2025-11-11",
+          "return": -0.00835410099190703,
+          "R": -0.17638632437443483,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "META",
+          "signal_date": "2025-11-14",
+          "entry_date": "2025-11-17",
+          "exit_date": "2025-11-18",
+          "return": -0.03163523425489034,
+          "R": -1.3921365576792475,
+          "reason": "gap_stop"
+        },
+        {
+          "symbol": "META",
+          "signal_date": "2025-11-18",
+          "entry_date": "2025-11-19",
+          "exit_date": "2025-11-19",
+          "return": -0.0197418006749519,
+          "R": -1.1791921943311885,
+          "reason": "stop"
+        },
+        {
+          "symbol": "META",
+          "signal_date": "2026-01-08",
+          "entry_date": "2026-01-09",
+          "exit_date": "2026-01-12",
+          "return": -0.007376226644081106,
+          "R": -0.48980413555788715,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "META",
+          "signal_date": "2026-01-15",
+          "entry_date": "2026-01-16",
+          "exit_date": "2026-01-20",
+          "return": -0.0291142426611477,
+          "R": -1.826382459928475,
+          "reason": "gap_stop"
+        },
+        {
+          "symbol": "META",
+          "signal_date": "2026-03-09",
+          "entry_date": "2026-03-10",
+          "exit_date": "2026-03-11",
+          "return": -1.0912849891518348e-05,
+          "R": -0.0002663260119935737,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "META",
+          "signal_date": "2026-05-12",
+          "entry_date": "2026-05-13",
+          "exit_date": "2026-05-13",
+          "return": 0.028211068213560456,
+          "R": 2.711640757105199,
+          "reason": "target"
+        }
+      ]
+    },
+    "20d_5d": {
+      "train": {
+        "n": 332,
+        "mean_net_pct": 0.006,
+        "profit_factor": 1.004,
+        "win_rate": 0.407,
+        "mean_R": -0.141
+      },
+      "holdout": {
+        "n": 126,
+        "mean_net_pct": -0.393,
+        "profit_factor": 0.747,
+        "win_rate": 0.373,
+        "mean_R": -0.157
+      },
+      "holdout_trades": [
+        {
+          "symbol": "INVESTOR_B",
+          "signal_date": "2024-12-20",
+          "entry_date": "2024-12-23",
+          "exit_date": "2025-01-03",
+          "return": 0.019342554929539624,
+          "R": 1.0502814573125188,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "INVESTOR_B",
+          "signal_date": "2025-03-07",
+          "entry_date": "2025-03-10",
+          "exit_date": "2025-03-11",
+          "return": -0.022760995082171328,
+          "R": -1.151814217225663,
+          "reason": "stop"
+        },
+        {
+          "symbol": "INVESTOR_B",
+          "signal_date": "2026-03-23",
+          "entry_date": "2026-03-24",
+          "exit_date": "2026-03-30",
+          "return": 0.027927743120002457,
+          "R": 0.7399767923133784,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "INVESTOR_B",
+          "signal_date": "2026-05-18",
+          "entry_date": "2026-05-19",
+          "exit_date": "2026-05-25",
+          "return": 0.05277578666654237,
+          "R": 2.1638043740665682,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "VOLVO_B",
+          "signal_date": "2023-10-24",
+          "entry_date": "2023-10-25",
+          "exit_date": "2023-10-31",
+          "return": 0.017381619784910818,
+          "R": 1.1413919609375291,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "VOLVO_B",
+          "signal_date": "2024-01-26",
+          "entry_date": "2024-01-29",
+          "exit_date": "2024-02-02",
+          "return": 0.012587077847678653,
+          "R": 0.18616404405209422,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "VOLVO_B",
+          "signal_date": "2024-04-19",
+          "entry_date": "2024-04-22",
+          "exit_date": "2024-04-26",
+          "return": -0.0023553877245371373,
+          "R": -0.10356355053286774,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "VOLVO_B",
+          "signal_date": "2024-09-11",
+          "entry_date": "2024-09-12",
+          "exit_date": "2024-09-18",
+          "return": 0.029545740565694256,
+          "R": 1.4691747099337558,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "VOLVO_B",
+          "signal_date": "2024-10-18",
+          "entry_date": "2024-10-21",
+          "exit_date": "2024-10-25",
+          "return": 0.013384660099015512,
+          "R": 0.2283757629394522,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "VOLVO_B",
+          "signal_date": "2024-11-21",
+          "entry_date": "2024-11-22",
+          "exit_date": "2024-11-28",
+          "return": 0.006888866283275565,
+          "R": 0.2354424472798808,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "VOLVO_B",
+          "signal_date": "2025-06-19",
+          "entry_date": "2025-06-23",
+          "exit_date": "2025-06-23",
+          "return": -0.011546996893585511,
+          "R": -1.3510004785717726,
+          "reason": "stop"
+        },
+        {
+          "symbol": "VOLVO_B",
+          "signal_date": "2025-09-11",
+          "entry_date": "2025-09-12",
+          "exit_date": "2025-09-18",
+          "return": 0.0019985680810987744,
+          "R": 0.10181605791564162,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "VOLVO_B",
+          "signal_date": "2025-10-08",
+          "entry_date": "2025-10-09",
+          "exit_date": "2025-10-13",
+          "return": -0.01929627369068287,
+          "R": -1.1840911644552952,
+          "reason": "stop"
+        },
+        {
+          "symbol": "VOLVO_B",
+          "signal_date": "2026-03-23",
+          "entry_date": "2026-03-24",
+          "exit_date": "2026-03-30",
+          "return": 0.00538259129876262,
+          "R": 0.07460521893168653,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "VOLVO_B",
+          "signal_date": "2026-05-18",
+          "entry_date": "2026-05-19",
+          "exit_date": "2026-05-19",
+          "return": -0.008765593338136087,
+          "R": -1.5203280606276326,
+          "reason": "stop"
+        },
+        {
+          "symbol": "VOLVO_B",
+          "signal_date": "2026-08-20",
+          "entry_date": "2026-08-21",
+          "exit_date": "2026-08-26",
+          "return": 0.031341276263523565,
+          "R": 2.737924708128583,
+          "reason": "target"
+        },
+        {
+          "symbol": "VOLVO_B",
+          "signal_date": "2026-09-03",
+          "entry_date": "2026-09-04",
+          "exit_date": "2026-09-10",
+          "return": -0.028126832916648192,
+          "R": -0.6947937960469929,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "ATLAS_A",
+          "signal_date": "2023-10-24",
+          "entry_date": "2023-10-25",
+          "exit_date": "2023-10-31",
+          "return": 0.035410049987353975,
+          "R": 1.8930713053276582,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "ATLAS_A",
+          "signal_date": "2024-01-08",
+          "entry_date": "2024-01-09",
+          "exit_date": "2024-01-15",
+          "return": 0.0016474535168122823,
+          "R": 0.08742115159330831,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "ATLAS_A",
+          "signal_date": "2024-01-26",
+          "entry_date": "2024-01-29",
+          "exit_date": "2024-02-02",
+          "return": 0.03696904708462556,
+          "R": 1.9124183435220312,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "ATLAS_A",
+          "signal_date": "2024-04-23",
+          "entry_date": "2024-04-24",
+          "exit_date": "2024-04-24",
+          "return": 0.03662885202953914,
+          "R": 2.772892740034677,
+          "reason": "target"
+        },
+        {
+          "symbol": "ATLAS_A",
+          "signal_date": "2024-06-24",
+          "entry_date": "2024-06-25",
+          "exit_date": "2024-06-25",
+          "return": -0.026134297992459584,
+          "R": -1.1296775895675688,
+          "reason": "stop"
+        },
+        {
+          "symbol": "ATLAS_A",
+          "signal_date": "2024-07-23",
+          "entry_date": "2024-07-24",
+          "exit_date": "2024-07-25",
+          "return": -0.022464671014479683,
+          "R": -1.5678680773881473,
+          "reason": "gap_stop"
+        },
+        {
+          "symbol": "ATLAS_A",
+          "signal_date": "2024-07-25",
+          "entry_date": "2024-07-26",
+          "exit_date": "2024-08-01",
+          "return": -0.005276931095110958,
+          "R": -0.24155152893066195,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "ATLAS_A",
+          "signal_date": "2024-10-23",
+          "entry_date": "2024-10-24",
+          "exit_date": "2024-10-30",
+          "return": -0.011197290705798111,
+          "R": -0.39005752718437947,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "ATLAS_A",
+          "signal_date": "2024-11-21",
+          "entry_date": "2024-11-22",
+          "exit_date": "2024-11-28",
+          "return": -0.005758276426445328,
+          "R": -0.41495684294851215,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "ATLAS_A",
+          "signal_date": "2025-02-28",
+          "entry_date": "2025-03-03",
+          "exit_date": "2025-03-04",
+          "return": -0.026274917075252865,
+          "R": -1.4762461594801661,
+          "reason": "gap_stop"
+        },
+        {
+          "symbol": "ATLAS_A",
+          "signal_date": "2025-03-13",
+          "entry_date": "2025-03-14",
+          "exit_date": "2025-03-18",
+          "return": -0.011273877022779929,
+          "R": -1.3625869700190438,
+          "reason": "stop"
+        },
+        {
+          "symbol": "ATLAS_A",
+          "signal_date": "2025-03-19",
+          "entry_date": "2025-03-20",
+          "exit_date": "2025-03-20",
+          "return": -0.013066148625603177,
+          "R": -1.2980285818917454,
+          "reason": "stop"
+        },
+        {
+          "symbol": "ATLAS_A",
+          "signal_date": "2025-03-25",
+          "entry_date": "2025-03-26",
+          "exit_date": "2025-03-27",
+          "return": -0.03471802582369676,
+          "R": -1.3587897938137095,
+          "reason": "gap_stop"
+        },
+        {
+          "symbol": "ATLAS_A",
+          "signal_date": "2025-03-27",
+          "entry_date": "2025-03-28",
+          "exit_date": "2025-03-28",
+          "return": -0.008160843111573831,
+          "R": -1.581300368010058,
+          "reason": "stop"
+        },
+        {
+          "symbol": "ATLAS_A",
+          "signal_date": "2025-06-19",
+          "entry_date": "2025-06-23",
+          "exit_date": "2025-06-23",
+          "return": -0.01533738501085213,
+          "R": -1.2431633605793437,
+          "reason": "stop"
+        },
+        {
+          "symbol": "ATLAS_A",
+          "signal_date": "2025-11-05",
+          "entry_date": "2025-11-06",
+          "exit_date": "2025-11-07",
+          "return": -0.017589203184358856,
+          "R": -1.2056315181912243,
+          "reason": "stop"
+        },
+        {
+          "symbol": "ATLAS_A",
+          "signal_date": "2025-11-21",
+          "entry_date": "2025-11-24",
+          "exit_date": "2025-11-28",
+          "return": 0.04096868868793302,
+          "R": 1.5163317952017676,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "ATLAS_A",
+          "signal_date": "2026-03-23",
+          "entry_date": "2026-03-24",
+          "exit_date": "2026-03-30",
+          "return": -0.00786417869285305,
+          "R": -0.1490054378378579,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "ATLAS_A",
+          "signal_date": "2026-07-16",
+          "entry_date": "2026-07-17",
+          "exit_date": "2026-07-23",
+          "return": 0.016043217543877164,
+          "R": 0.19852228071960218,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "ATLAS_A",
+          "signal_date": "2026-09-02",
+          "entry_date": "2026-09-03",
+          "exit_date": "2026-09-07",
+          "return": 0.01890879263594181,
+          "R": 2.5892060256558755,
+          "reason": "target"
+        },
+        {
+          "symbol": "ABB",
+          "signal_date": "2023-10-23",
+          "entry_date": "2023-10-24",
+          "exit_date": "2023-10-30",
+          "return": 0.004787944835353388,
+          "R": 0.289083128214364,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "ABB",
+          "signal_date": "2024-12-20",
+          "entry_date": "2024-12-23",
+          "exit_date": "2025-01-02",
+          "return": -0.025568828637461457,
+          "R": -1.1329267038263713,
+          "reason": "stop"
+        },
+        {
+          "symbol": "ABB",
+          "signal_date": "2025-02-03",
+          "entry_date": "2025-02-04",
+          "exit_date": "2025-02-10",
+          "return": 0.005731051404936906,
+          "R": 0.4486824394866552,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "ABB",
+          "signal_date": "2025-03-06",
+          "entry_date": "2025-03-07",
+          "exit_date": "2025-03-13",
+          "return": -0.007016101275057361,
+          "R": -0.3996319077246911,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "ABB",
+          "signal_date": "2025-11-14",
+          "entry_date": "2025-11-17",
+          "exit_date": "2025-11-18",
+          "return": -0.031110030107818095,
+          "R": -2.123103436034451,
+          "reason": "gap_stop"
+        },
+        {
+          "symbol": "ABB",
+          "signal_date": "2025-11-19",
+          "entry_date": "2025-11-20",
+          "exit_date": "2025-11-26",
+          "return": 0.01838327179992061,
+          "R": 0.6497386847277886,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "ABB",
+          "signal_date": "2026-03-23",
+          "entry_date": "2026-03-24",
+          "exit_date": "2026-03-30",
+          "return": -0.037492259603707945,
+          "R": -0.749845666343044,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "ABB",
+          "signal_date": "2026-07-17",
+          "entry_date": "2026-07-20",
+          "exit_date": "2026-07-24",
+          "return": 0.0015903108913015735,
+          "R": 0.047063262939455945,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "ABB",
+          "signal_date": "2026-07-30",
+          "entry_date": "2026-07-31",
+          "exit_date": "2026-08-06",
+          "return": 0.02417018679355043,
+          "R": 0.5333330658864838,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "NVIDIA",
+          "signal_date": "2023-10-23",
+          "entry_date": "2023-10-24",
+          "exit_date": "2023-10-26",
+          "return": -0.05249276844016104,
+          "R": -1.060614915967515,
+          "reason": "stop"
+        },
+        {
+          "symbol": "NVIDIA",
+          "signal_date": "2023-10-31",
+          "entry_date": "2023-11-01",
+          "exit_date": "2023-11-06",
+          "return": 0.11836772632037607,
+          "R": 2.925845195647458,
+          "reason": "target"
+        },
+        {
+          "symbol": "NVIDIA",
+          "signal_date": "2024-11-27",
+          "entry_date": "2024-11-29",
+          "exit_date": "2024-12-05",
+          "return": 0.058535157575612784,
+          "R": 1.607720010172532,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "NVIDIA",
+          "signal_date": "2025-01-28",
+          "entry_date": "2025-01-29",
+          "exit_date": "2025-02-03",
+          "return": -0.09588537549407117,
+          "R": -1.1833658536585367,
+          "reason": "gap_stop"
+        },
+        {
+          "symbol": "NVIDIA",
+          "signal_date": "2025-02-03",
+          "entry_date": "2025-02-04",
+          "exit_date": "2025-02-07",
+          "return": 0.10182218050784908,
+          "R": 3.014969959477257,
+          "reason": "gap_target"
+        },
+        {
+          "symbol": "NVIDIA",
+          "signal_date": "2025-03-04",
+          "entry_date": "2025-03-05",
+          "exit_date": "2025-03-07",
+          "return": -0.06653122218382368,
+          "R": -1.0472208765529447,
+          "reason": "stop"
+        },
+        {
+          "symbol": "NVIDIA",
+          "signal_date": "2025-03-07",
+          "entry_date": "2025-03-10",
+          "exit_date": "2025-03-10",
+          "return": -0.02429211951588683,
+          "R": -1.140897198973621,
+          "reason": "stop"
+        },
+        {
+          "symbol": "NVIDIA",
+          "signal_date": "2025-03-11",
+          "entry_date": "2025-03-12",
+          "exit_date": "2025-03-18",
+          "return": 0.009479123090303078,
+          "R": 0.1156959194597566,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "NVIDIA",
+          "signal_date": "2025-03-31",
+          "entry_date": "2025-04-01",
+          "exit_date": "2025-04-03",
+          "return": -0.049166556043254706,
+          "R": -1.0955975043865147,
+          "reason": "gap_stop"
+        },
+        {
+          "symbol": "NVIDIA",
+          "signal_date": "2025-09-02",
+          "entry_date": "2025-09-03",
+          "exit_date": "2025-09-05",
+          "return": -0.025448242679152907,
+          "R": -1.1336407505424007,
+          "reason": "stop"
+        },
+        {
+          "symbol": "NVIDIA",
+          "signal_date": "2025-11-25",
+          "entry_date": "2025-11-26",
+          "exit_date": "2025-12-03",
+          "return": -0.013231671475415594,
+          "R": -0.19894604225218726,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "NVIDIA",
+          "signal_date": "2026-06-29",
+          "entry_date": "2026-06-30",
+          "exit_date": "2026-07-07",
+          "return": -0.0035717542524280593,
+          "R": -0.09468986521407444,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "MICROSOFT",
+          "signal_date": "2024-04-22",
+          "entry_date": "2024-04-23",
+          "exit_date": "2024-04-25",
+          "return": -0.028257252379108918,
+          "R": -1.3454328109273914,
+          "reason": "gap_stop"
+        },
+        {
+          "symbol": "MICROSOFT",
+          "signal_date": "2024-04-25",
+          "entry_date": "2024-04-26",
+          "exit_date": "2024-05-02",
+          "return": -0.03676724803600062,
+          "R": -0.6277691765062829,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "MICROSOFT",
+          "signal_date": "2024-07-17",
+          "entry_date": "2024-07-18",
+          "exit_date": "2024-07-18",
+          "return": -0.01461273732870438,
+          "R": -1.2583370238285367,
+          "reason": "stop"
+        },
+        {
+          "symbol": "MICROSOFT",
+          "signal_date": "2024-07-19",
+          "entry_date": "2024-07-22",
+          "exit_date": "2024-07-24",
+          "return": -0.025159868615332034,
+          "R": -1.1353798640270085,
+          "reason": "stop"
+        },
+        {
+          "symbol": "MICROSOFT",
+          "signal_date": "2024-07-26",
+          "entry_date": "2024-07-29",
+          "exit_date": "2024-07-31",
+          "return": -0.036157231576579685,
+          "R": -1.090478000042653,
+          "reason": "stop"
+        },
+        {
+          "symbol": "MICROSOFT",
+          "signal_date": "2025-01-13",
+          "entry_date": "2025-01-14",
+          "exit_date": "2025-01-14",
+          "return": -0.016211720748491084,
+          "R": -1.2270711027814187,
+          "reason": "stop"
+        },
+        {
+          "symbol": "MICROSOFT",
+          "signal_date": "2025-02-12",
+          "entry_date": "2025-02-13",
+          "exit_date": "2025-02-19",
+          "return": 0.016385785376996313,
+          "R": 2.535742306799721,
+          "reason": "target"
+        },
+        {
+          "symbol": "MICROSOFT",
+          "signal_date": "2025-02-26",
+          "entry_date": "2025-02-27",
+          "exit_date": "2025-02-27",
+          "return": -0.020494428205127254,
+          "R": -1.1714831696597428,
+          "reason": "stop"
+        },
+        {
+          "symbol": "MICROSOFT",
+          "signal_date": "2025-02-28",
+          "entry_date": "2025-03-03",
+          "exit_date": "2025-03-03",
+          "return": -0.033715610488521564,
+          "R": -1.0976702058753205,
+          "reason": "stop"
+        },
+        {
+          "symbol": "MICROSOFT",
+          "signal_date": "2025-03-04",
+          "entry_date": "2025-03-05",
+          "exit_date": "2025-03-10",
+          "return": -0.02442085687660178,
+          "R": -1.140050419891321,
+          "reason": "stop"
+        },
+        {
+          "symbol": "MICROSOFT",
+          "signal_date": "2025-03-11",
+          "entry_date": "2025-03-12",
+          "exit_date": "2025-03-18",
+          "return": -0.0005116156457189974,
+          "R": -0.032437572946501916,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "MICROSOFT",
+          "signal_date": "2025-08-22",
+          "entry_date": "2025-08-25",
+          "exit_date": "2025-08-26",
+          "return": -0.011329552493992586,
+          "R": -1.3601634063971146,
+          "reason": "stop"
+        },
+        {
+          "symbol": "MICROSOFT",
+          "signal_date": "2025-09-02",
+          "entry_date": "2025-09-03",
+          "exit_date": "2025-09-05",
+          "return": -0.016855000829588126,
+          "R": -1.2165283161581106,
+          "reason": "stop"
+        },
+        {
+          "symbol": "MICROSOFT",
+          "signal_date": "2025-11-25",
+          "entry_date": "2025-11-26",
+          "exit_date": "2025-12-03",
+          "return": -0.019643039656473182,
+          "R": -0.44596704896778794,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "MICROSOFT",
+          "signal_date": "2026-02-24",
+          "entry_date": "2026-02-25",
+          "exit_date": "2026-03-03",
+          "return": 0.03231232924069727,
+          "R": 1.4307169410478342,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "MICROSOFT",
+          "signal_date": "2026-06-18",
+          "entry_date": "2026-06-22",
+          "exit_date": "2026-06-22",
+          "return": -0.009547057856534421,
+          "R": -1.4582210919376275,
+          "reason": "stop"
+        },
+        {
+          "symbol": "APPLE",
+          "signal_date": "2024-02-02",
+          "entry_date": "2024-02-05",
+          "exit_date": "2024-02-09",
+          "return": 0.0017205008224256985,
+          "R": 0.036372184408594084,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "APPLE",
+          "signal_date": "2024-11-01",
+          "entry_date": "2024-11-04",
+          "exit_date": "2024-11-04",
+          "return": -0.006258071418643427,
+          "R": -1.920790128427933,
+          "reason": "stop"
+        },
+        {
+          "symbol": "APPLE",
+          "signal_date": "2024-11-04",
+          "entry_date": "2024-11-05",
+          "exit_date": "2024-11-08",
+          "return": 0.025268660628506526,
+          "R": 2.6816262320216007,
+          "reason": "target"
+        },
+        {
+          "symbol": "APPLE",
+          "signal_date": "2025-01-13",
+          "entry_date": "2025-01-14",
+          "exit_date": "2025-01-16",
+          "return": -0.024427044853234877,
+          "R": -1.1400099743361083,
+          "reason": "stop"
+        },
+        {
+          "symbol": "APPLE",
+          "signal_date": "2026-03-09",
+          "entry_date": "2026-03-10",
+          "exit_date": "2026-03-13",
+          "return": -0.018408505005818695,
+          "R": -1.1946976685192472,
+          "reason": "stop"
+        },
+        {
+          "symbol": "APPLE",
+          "signal_date": "2026-03-20",
+          "entry_date": "2026-03-23",
+          "exit_date": "2026-03-27",
+          "return": -0.02235672773987396,
+          "R": -0.7124137141456801,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "APPLE",
+          "signal_date": "2026-06-10",
+          "entry_date": "2026-06-11",
+          "exit_date": "2026-06-17",
+          "return": 0.005592302114463267,
+          "R": 0.2590807464777164,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "TESLA",
+          "signal_date": "2023-10-23",
+          "entry_date": "2023-10-24",
+          "exit_date": "2023-10-30",
+          "return": -0.06761896301692405,
+          "R": -1.0464260003555652,
+          "reason": "stop"
+        },
+        {
+          "symbol": "TESLA",
+          "signal_date": "2023-10-31",
+          "entry_date": "2023-11-01",
+          "exit_date": "2023-11-07",
+          "return": 0.0869041363778622,
+          "R": 1.7785300271046678,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "TESLA",
+          "signal_date": "2024-01-16",
+          "entry_date": "2024-01-17",
+          "exit_date": "2024-01-17",
+          "return": -0.015473275281379647,
+          "R": -1.2405142139754157,
+          "reason": "stop"
+        },
+        {
+          "symbol": "TESLA",
+          "signal_date": "2024-01-17",
+          "entry_date": "2024-01-18",
+          "exit_date": "2024-01-18",
+          "return": -0.025454861058344155,
+          "R": -1.1336013610685503,
+          "reason": "stop"
+        },
+        {
+          "symbol": "TESLA",
+          "signal_date": "2024-01-19",
+          "entry_date": "2024-01-22",
+          "exit_date": "2024-01-22",
+          "return": -0.0251426414297341,
+          "R": -1.1354851908486185,
+          "reason": "stop"
+        },
+        {
+          "symbol": "TESLA",
+          "signal_date": "2025-02-28",
+          "entry_date": "2025-03-03",
+          "exit_date": "2025-03-04",
+          "return": -0.10092236805191379,
+          "R": -1.1335465490244412,
+          "reason": "gap_stop"
+        },
+        {
+          "symbol": "TESLA",
+          "signal_date": "2025-03-07",
+          "entry_date": "2025-03-10",
+          "exit_date": "2025-03-10",
+          "return": -0.010167171959741813,
+          "R": -1.4185751390996497,
+          "reason": "stop"
+        },
+        {
+          "symbol": "TESLA",
+          "signal_date": "2025-11-14",
+          "entry_date": "2025-11-17",
+          "exit_date": "2025-11-21",
+          "return": -0.021185419280338014,
+          "R": -0.5292906265476298,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "TESLA",
+          "signal_date": "2026-01-08",
+          "entry_date": "2026-01-09",
+          "exit_date": "2026-01-15",
+          "return": 0.004009852147780714,
+          "R": 0.1509579026706756,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "TESLA",
+          "signal_date": "2026-02-02",
+          "entry_date": "2026-02-03",
+          "exit_date": "2026-02-03",
+          "return": -0.026027763609641093,
+          "R": -1.1302775228569717,
+          "reason": "stop"
+        },
+        {
+          "symbol": "TESLA",
+          "signal_date": "2026-03-09",
+          "entry_date": "2026-03-10",
+          "exit_date": "2026-03-16",
+          "return": -0.01855811158544285,
+          "R": -0.35852262433490106,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "TESLA",
+          "signal_date": "2026-04-07",
+          "entry_date": "2026-04-08",
+          "exit_date": "2026-04-14",
+          "return": -0.0008729661274939887,
+          "R": -0.0119614363826751,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "TESLA",
+          "signal_date": "2026-06-26",
+          "entry_date": "2026-06-29",
+          "exit_date": "2026-06-30",
+          "return": 0.10064338101729786,
+          "R": 2.913163774554036,
+          "reason": "target"
+        },
+        {
+          "symbol": "TESLA",
+          "signal_date": "2026-07-28",
+          "entry_date": "2026-07-29",
+          "exit_date": "2026-07-29",
+          "return": -0.024000234093282,
+          "R": -1.1428555504035882,
+          "reason": "stop"
+        },
+        {
+          "symbol": "TESLA",
+          "signal_date": "2026-09-30",
+          "entry_date": "2026-10-01",
+          "exit_date": "2026-10-07",
+          "return": 0.05685485312544092,
+          "R": 1.8560286915684285,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "AMAZON",
+          "signal_date": "2024-04-25",
+          "entry_date": "2024-04-26",
+          "exit_date": "2024-05-02",
+          "return": 0.03692012401670719,
+          "R": 0.5718118994674058,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "AMAZON",
+          "signal_date": "2024-07-19",
+          "entry_date": "2024-07-22",
+          "exit_date": "2024-07-25",
+          "return": -0.029432429133234846,
+          "R": -1.113496946681605,
+          "reason": "stop"
+        },
+        {
+          "symbol": "AMAZON",
+          "signal_date": "2024-08-05",
+          "entry_date": "2024-08-06",
+          "exit_date": "2024-08-12",
+          "return": 0.029476075236932964,
+          "R": 0.47193796475070715,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "AMAZON",
+          "signal_date": "2025-01-13",
+          "entry_date": "2025-01-14",
+          "exit_date": "2025-01-14",
+          "return": -0.021009441012224458,
+          "R": -1.166579295712934,
+          "reason": "stop"
+        },
+        {
+          "symbol": "AMAZON",
+          "signal_date": "2025-02-19",
+          "entry_date": "2025-02-20",
+          "exit_date": "2025-02-20",
+          "return": -0.007760174709673715,
+          "R": -1.6302289690971672,
+          "reason": "stop"
+        },
+        {
+          "symbol": "AMAZON",
+          "signal_date": "2025-02-25",
+          "entry_date": "2025-02-26",
+          "exit_date": "2025-03-03",
+          "return": -0.05315352496906922,
+          "R": -1.0598163339835063,
+          "reason": "stop"
+        },
+        {
+          "symbol": "AMAZON",
+          "signal_date": "2025-03-04",
+          "entry_date": "2025-03-05",
+          "exit_date": "2025-03-07",
+          "return": -0.03898637825270923,
+          "R": -1.0833648770913518,
+          "reason": "stop"
+        },
+        {
+          "symbol": "AMAZON",
+          "signal_date": "2025-03-18",
+          "entry_date": "2025-03-19",
+          "exit_date": "2025-03-25",
+          "return": 0.05905398540181006,
+          "R": 2.854964996337892,
+          "reason": "target"
+        },
+        {
+          "symbol": "AMAZON",
+          "signal_date": "2025-03-31",
+          "entry_date": "2025-04-01",
+          "exit_date": "2025-04-02",
+          "return": 0.052254019524524575,
+          "R": 2.83711592247139,
+          "reason": "target"
+        },
+        {
+          "symbol": "AMAZON",
+          "signal_date": "2025-10-14",
+          "entry_date": "2025-10-15",
+          "exit_date": "2025-10-17",
+          "return": -0.02155779292902826,
+          "R": -1.161657154569679,
+          "reason": "stop"
+        },
+        {
+          "symbol": "AMAZON",
+          "signal_date": "2025-11-21",
+          "entry_date": "2025-11-24",
+          "exit_date": "2025-12-01",
+          "return": 0.048862722180065266,
+          "R": 1.4735609937641638,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "AMAZON",
+          "signal_date": "2026-02-17",
+          "entry_date": "2026-02-18",
+          "exit_date": "2026-02-24",
+          "return": 0.03011753352372515,
+          "R": 1.002610029059534,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "AMAZON",
+          "signal_date": "2026-06-11",
+          "entry_date": "2026-06-12",
+          "exit_date": "2026-06-12",
+          "return": -0.03601679131785529,
+          "R": -1.090862857360025,
+          "reason": "stop"
+        },
+        {
+          "symbol": "AMAZON",
+          "signal_date": "2026-06-23",
+          "entry_date": "2026-06-24",
+          "exit_date": "2026-06-24",
+          "return": 0.02073323996446719,
+          "R": 2.6207850249913283,
+          "reason": "target"
+        },
+        {
+          "symbol": "AMAZON",
+          "signal_date": "2026-09-10",
+          "entry_date": "2026-09-11",
+          "exit_date": "2026-09-15",
+          "return": -0.02074959491454564,
+          "R": -1.169017941786466,
+          "reason": "stop"
+        },
+        {
+          "symbol": "META",
+          "signal_date": "2024-09-11",
+          "entry_date": "2024-09-12",
+          "exit_date": "2024-09-18",
+          "return": 0.0384216708393601,
+          "R": 0.9261511140703959,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "META",
+          "signal_date": "2024-10-24",
+          "entry_date": "2024-10-25",
+          "exit_date": "2024-10-31",
+          "return": -0.01306402464930012,
+          "R": -0.6041782269765139,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "META",
+          "signal_date": "2024-11-06",
+          "entry_date": "2024-11-07",
+          "exit_date": "2024-11-13",
+          "return": 0.0033909502203079995,
+          "R": 0.09006457015520009,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "META",
+          "signal_date": "2025-03-07",
+          "entry_date": "2025-03-10",
+          "exit_date": "2025-03-10",
+          "return": -0.015268360357853724,
+          "R": -1.2445314542851325,
+          "reason": "stop"
+        },
+        {
+          "symbol": "META",
+          "signal_date": "2025-03-31",
+          "entry_date": "2025-04-01",
+          "exit_date": "2025-04-03",
+          "return": -0.04612951964487477,
+          "R": -1.5012837850064045,
+          "reason": "gap_stop"
+        },
+        {
+          "symbol": "META",
+          "signal_date": "2025-04-07",
+          "entry_date": "2025-04-08",
+          "exit_date": "2025-04-14",
+          "return": -0.02366593563046482,
+          "R": -0.20956019970979722,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "META",
+          "signal_date": "2025-09-02",
+          "entry_date": "2025-09-03",
+          "exit_date": "2025-09-09",
+          "return": 0.03835327745520556,
+          "R": 1.97813409751925,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "META",
+          "signal_date": "2025-10-06",
+          "entry_date": "2025-10-07",
+          "exit_date": "2025-10-13",
+          "return": -0.0048144103251228625,
+          "R": -0.1269902020600798,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "META",
+          "signal_date": "2025-11-07",
+          "entry_date": "2025-11-10",
+          "exit_date": "2025-11-14",
+          "return": -0.05036252099778926,
+          "R": -1.0633412229078785,
+          "reason": "stop"
+        },
+        {
+          "symbol": "META",
+          "signal_date": "2025-11-14",
+          "entry_date": "2025-11-17",
+          "exit_date": "2025-11-18",
+          "return": -0.03163523425489034,
+          "R": -1.3921365576792475,
+          "reason": "gap_stop"
+        },
+        {
+          "symbol": "META",
+          "signal_date": "2025-11-18",
+          "entry_date": "2025-11-19",
+          "exit_date": "2025-11-19",
+          "return": -0.0197418006749519,
+          "R": -1.1791921943311885,
+          "reason": "stop"
+        },
+        {
+          "symbol": "META",
+          "signal_date": "2026-01-08",
+          "entry_date": "2026-01-09",
+          "exit_date": "2026-01-13",
+          "return": -0.018059543414592812,
+          "R": -1.1992092268277519,
+          "reason": "stop"
+        },
+        {
+          "symbol": "META",
+          "signal_date": "2026-01-15",
+          "entry_date": "2026-01-16",
+          "exit_date": "2026-01-20",
+          "return": -0.0291142426611477,
+          "R": -1.826382459928475,
+          "reason": "gap_stop"
+        },
+        {
+          "symbol": "META",
+          "signal_date": "2026-03-09",
+          "entry_date": "2026-03-10",
+          "exit_date": "2026-03-13",
+          "return": -0.048397489168538366,
+          "R": -1.1811314559340682,
+          "reason": "gap_stop"
+        },
+        {
+          "symbol": "META",
+          "signal_date": "2026-05-12",
+          "entry_date": "2026-05-13",
+          "exit_date": "2026-05-13",
+          "return": 0.028211068213560456,
+          "R": 2.711640757105199,
+          "reason": "target"
+        }
+      ]
+    }
+  },
+  "limitations": [
+    "Signal-level pooled trades, NOT a cash-constrained portfolio or benchmarkable portfolio return",
+    "Daily OHLC cannot resolve stop-target ordering; assumes stop first",
+    "Selection and survivorship bias; multiple hypotheses explored",
+    "Unadjusted OHLC, dividends/splits require verification",
+    "Stop execution and slippage approximate",
+    "No short interest data; this is a bull-trap reversal proxy, NOT proven short squeeze",
+    "Cross-market signal calendars differ",
+    "High conviction sizing must NOT be inferred from these statistics"
+  ]
+}
