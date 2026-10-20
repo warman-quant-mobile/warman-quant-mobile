@@ -59,10 +59,15 @@ def run(folder):
       pos={'symbol':s,'entry':o,'date':d,'qty':qty,'stop':stop,'cash_before':before,'peak_close':o}
    if pos and d in data[pos['symbol']]:
     o,h,l,c=data[pos['symbol']][d]
+    if pos['date']==d and l<=pos['stop']:
+     px=pos['stop'];cash+=pos['qty']*px*(1-.001)
+     trades.append({'symbol':pos['symbol'],'entry_date':d,'exit_date':d,'entry':pos['entry'],'exit':px,'reason':'entry_day_stop_assumed','net_return':px/pos['entry']*(1-.001)/(1+.001)-1,'pnl':cash-pos['cash_before']})
+     pos=None
+   if pos and d in data[pos['symbol']]:
+    o,h,l,c=data[pos['symbol']][d]
     # Stop is updated after close; never uses current close to stop out earlier today.
     pos['peak_close']=max(pos['peak_close'],c)
     # ATR fixed at entry; stop never loosens.
-    pos['stop']=max(pos['stop'],pos['peak_close']-stop_mult*(pos['entry']-pos['stop'])/stop_mult) if False else pos['stop']
     # trailing via entry ATR, not recalculated lookahead
     if 'atr' not in pos:pos['atr']=(pos['entry']-pos['stop'])/stop_mult
     pos['stop']=max(pos['stop'],pos['peak_close']-stop_mult*pos['atr'])
