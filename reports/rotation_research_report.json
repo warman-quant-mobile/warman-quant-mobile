@@ -1,0 +1,88 @@
+{
+  "generated_at": "2026-10-20T10:40:43.966075+00:00",
+  "validated_edge": false,
+  "research_only": true,
+  "split_date": "2023-10-16",
+  "symbols": [
+    "INVESTOR_B",
+    "VOLVO_B",
+    "ATLAS_A",
+    "ABB"
+  ],
+  "assumptions": "21-session rotation, prior-close signals, close-to-close next-session returns, 10bps per side switch, no leverage",
+  "limitations": [
+    "Close-to-close execution assumes position changes at prior close, but signal at prior close is not executable at that price: requires next-open fills for a valid strategy",
+    "No dividends or total-return adjustment",
+    "Fixed surviving universe",
+    "Model selection on holdout invalidates independence",
+    "No actual instrument costs"
+  ],
+  "variants": {
+    "63_absolute": {
+      "holdout_return": 0.422,
+      "holdout_max_drawdown": 0.3298,
+      "benchmarks_price_only": {
+        "INVESTOR_B": 0.9213,
+        "OMXS30": 0.4915
+      },
+      "switches_total": 59,
+      "days_in_position_total": 2092,
+      "total_days": 2513
+    },
+    "63_relative": {
+      "holdout_return": 0.5466,
+      "holdout_max_drawdown": 0.3298,
+      "benchmarks_price_only": {
+        "INVESTOR_B": 0.9213,
+        "OMXS30": 0.4915
+      },
+      "switches_total": 52,
+      "days_in_position_total": 2407,
+      "total_days": 2513
+    },
+    "63_always": {
+      "holdout_return": 0.5265,
+      "holdout_max_drawdown": 0.3298,
+      "benchmarks_price_only": {
+        "INVESTOR_B": 0.9213,
+        "OMXS30": 0.4915
+      },
+      "switches_total": 51,
+      "days_in_position_total": 2449,
+      "total_days": 2513
+    },
+    "126_absolute": {
+      "holdout_return": 0.1932,
+      "holdout_max_drawdown": 0.3298,
+      "benchmarks_price_only": {
+        "INVESTOR_B": 0.9213,
+        "OMXS30": 0.4915
+      },
+      "switches_total": 45,
+      "days_in_position_total": 2197,
+      "total_days": 2513
+    },
+    "126_relative": {
+      "holdout_return": 0.1974,
+      "holdout_max_drawdown": 0.3298,
+      "benchmarks_price_only": {
+        "INVESTOR_B": 0.9213,
+        "OMXS30": 0.4915
+      },
+      "switches_total": 44,
+      "days_in_position_total": 2344,
+      "total_days": 2513
+    },
+    "126_always": {
+      "holdout_return": 0.2767,
+      "holdout_max_drawdown": 0.3298,
+      "benchmarks_price_only": {
+        "INVESTOR_B": 0.9213,
+        "OMXS30": 0.4915
+      },
+      "switches_total": 42,
+      "days_in_position_total": 2386,
+      "total_days": 2513
+    }
+  }
+}
