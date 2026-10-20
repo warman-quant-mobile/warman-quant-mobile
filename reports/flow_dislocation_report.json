@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-20T00:52:33.685657+00:00",
+  "generated_at": "2026-10-20T01:43:18.123309+00:00",
   "research_only": true,
   "validated_edge": false,
   "roundtrip_cost_bps": 20,
@@ -1804,10 +1804,10 @@
       "family": "breakout",
       "hold_sessions": 5,
       "train": {
-        "n": 70,
-        "mean_net_pct": 0.0824,
-        "profit_factor": 1.051,
-        "win_rate": 0.514
+        "n": 71,
+        "mean_net_pct": 0.1061,
+        "profit_factor": 1.066,
+        "win_rate": 0.521
       },
       "holdout": {
         "n": 28,
