@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-21T12:50:26.984686+00:00",
+  "generated_at": "2026-10-21T13:48:20.143232+00:00",
   "validated_edge": false,
   "research_only": true,
   "split_date": "2023-10-16",
@@ -1886,11 +1886,11 @@
         "mean_R": -0.133
       },
       "holdout": {
-        "n": 205,
-        "mean_net_pct": -0.491,
-        "profit_factor": 0.663,
-        "win_rate": 0.361,
-        "mean_R": -0.271
+        "n": 206,
+        "mean_net_pct": -0.495,
+        "profit_factor": 0.66,
+        "win_rate": 0.359,
+        "mean_R": -0.276
       },
       "holdout_trades": [
         {
@@ -2755,6 +2755,15 @@
           "exit_date": "2026-07-29",
           "return": -0.018879502238604903,
           "R": -1.1889227983926751,
+          "reason": "stop"
+        },
+        {
+          "symbol": "NVIDIA",
+          "signal_date": "2026-10-13",
+          "entry_date": "2026-10-14",
+          "exit_date": "2026-10-14",
+          "return": -0.013951985252836693,
+          "R": -1.2739229400644994,
           "reason": "stop"
         },
         {
