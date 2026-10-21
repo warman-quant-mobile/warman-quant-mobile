@@ -17,30 +17,30 @@
   },
   "results": {
     "top3_20bps": {
-      "final_test_return": 0.122,
-      "benchmark_return": 0.2923,
-      "excess_return": -0.1702,
-      "strategy_maxdd": -0.1154,
-      "benchmark_maxdd": -0.1473,
-      "mean_turnover": 0.2585,
+      "final_test_return": 0.0222,
+      "benchmark_return": 0.4442,
+      "excess_return": -0.422,
+      "strategy_maxdd": -0.1395,
+      "benchmark_maxdd": -0.1414,
+      "mean_turnover": 0.2857,
       "final_test_rebalances": 24,
       "final_test_picks": [
         {
-          "date": "2024-10-31",
+          "date": "2024-11-01",
           "picks": [
             "ABB",
             "INVESTOR_B",
             "SP500"
           ],
           "score": {
-            "ABB": 0.8182,
-            "INVESTOR_B": 0.7273,
-            "SP500": 0.7273
+            "ABB": 0.8636,
+            "INVESTOR_B": 0.7727,
+            "SP500": 0.7727
           },
           "turnover": 0.0
         },
         {
-          "date": "2024-11-29",
+          "date": "2024-12-02",
           "picks": [
             "ABB",
             "INVESTOR_B",
@@ -54,7 +54,7 @@
           "turnover": 0.0
         },
         {
-          "date": "2024-12-31",
+          "date": "2025-01-02",
           "picks": [
             "INVESTOR_B",
             "ABB",
@@ -68,7 +68,7 @@
           "turnover": 0.0
         },
         {
-          "date": "2025-01-30",
+          "date": "2025-01-31",
           "picks": [
             "APPLE",
             "INVESTOR_B",
@@ -82,49 +82,49 @@
           "turnover": 0.333
         },
         {
-          "date": "2025-02-28",
+          "date": "2025-03-03",
           "picks": [
             "APPLE",
             "SP500",
             "INVESTOR_B"
           ],
           "score": {
-            "APPLE": 0.7727,
+            "APPLE": 0.7273,
             "SP500": 0.6818,
             "INVESTOR_B": 0.6818
           },
           "turnover": 0.333
         },
         {
-          "date": "2025-03-31",
+          "date": "2025-04-01",
           "picks": [
             "INVESTOR_B",
-            "APPLE",
+            "ABB",
             "SP500"
           ],
           "score": {
             "INVESTOR_B": 0.7727,
-            "APPLE": 0.6818,
+            "ABB": 0.6818,
             "SP500": 0.6364
-          },
-          "turnover": 0.0
-        },
-        {
-          "date": "2025-04-30",
-          "picks": [
-            "INVESTOR_B",
-            "SP500",
-            "META"
-          ],
-          "score": {
-            "INVESTOR_B": 0.8182,
-            "SP500": 0.6818,
-            "META": 0.5909
           },
           "turnover": 0.333
         },
         {
-          "date": "2025-05-29",
+          "date": "2025-05-01",
+          "picks": [
+            "SP500",
+            "INVESTOR_B",
+            "APPLE"
+          ],
+          "score": {
+            "SP500": 0.7727,
+            "INVESTOR_B": 0.7727,
+            "APPLE": 0.5909
+          },
+          "turnover": 0.333
+        },
+        {
+          "date": "2025-05-30",
           "picks": [
             "SP500",
             "INVESTOR_B",
@@ -138,21 +138,21 @@
           "turnover": 0.333
         },
         {
-          "date": "2025-06-27",
+          "date": "2025-06-30",
           "picks": [
             "SP500",
             "INVESTOR_B",
             "MICROSOFT"
           ],
           "score": {
-            "SP500": 0.8182,
+            "SP500": 0.7727,
             "INVESTOR_B": 0.6818,
             "MICROSOFT": 0.5909
           },
           "turnover": 0.0
         },
         {
-          "date": "2025-07-28",
+          "date": "2025-07-29",
           "picks": [
             "SP500",
             "MICROSOFT",
@@ -161,26 +161,12 @@
           "score": {
             "SP500": 0.7727,
             "MICROSOFT": 0.7273,
-            "AMAZON": 0.6818
+            "AMAZON": 0.6364
           },
           "turnover": 0.333
         },
         {
-          "date": "2025-08-26",
-          "picks": [
-            "SP500",
-            "MICROSOFT",
-            "NVIDIA"
-          ],
-          "score": {
-            "SP500": 0.7727,
-            "MICROSOFT": 0.7727,
-            "NVIDIA": 0.7273
-          },
-          "turnover": 0.333
-        },
-        {
-          "date": "2025-09-24",
+          "date": "2025-08-27",
           "picks": [
             "SP500",
             "NVIDIA",
@@ -189,26 +175,40 @@
           "score": {
             "SP500": 0.7727,
             "NVIDIA": 0.7727,
+            "MICROSOFT": 0.7727
+          },
+          "turnover": 0.333
+        },
+        {
+          "date": "2025-09-25",
+          "picks": [
+            "SP500",
+            "NVIDIA",
+            "MICROSOFT"
+          ],
+          "score": {
+            "SP500": 0.7727,
+            "NVIDIA": 0.7273,
             "MICROSOFT": 0.7273
           },
           "turnover": 0.0
         },
         {
-          "date": "2025-10-23",
+          "date": "2025-10-24",
           "picks": [
             "SP500",
             "MICROSOFT",
-            "NVIDIA"
+            "ABB"
           ],
           "score": {
             "SP500": 0.7727,
             "MICROSOFT": 0.7727,
-            "NVIDIA": 0.6364
+            "ABB": 0.5909
           },
-          "turnover": 0.0
+          "turnover": 0.333
         },
         {
-          "date": "2025-11-21",
+          "date": "2025-11-24",
           "picks": [
             "SP500",
             "MICROSOFT",
@@ -219,66 +219,66 @@
             "MICROSOFT": 0.7727,
             "ABB": 0.6364
           },
-          "turnover": 0.333
+          "turnover": 0.0
         },
         {
-          "date": "2025-12-22",
+          "date": "2025-12-23",
           "picks": [
             "SP500",
             "INVESTOR_B",
-            "MICROSOFT"
+            "ABB"
           ],
           "score": {
-            "SP500": 0.9091,
-            "INVESTOR_B": 0.7727,
-            "MICROSOFT": 0.7727
+            "SP500": 0.9545,
+            "INVESTOR_B": 0.7273,
+            "ABB": 0.7273
           },
           "turnover": 0.333
         },
         {
-          "date": "2026-01-22",
+          "date": "2026-01-23",
           "picks": [
             "SP500",
             "APPLE",
+            "MICROSOFT"
+          ],
+          "score": {
+            "SP500": 0.8182,
+            "APPLE": 0.8182,
+            "MICROSOFT": 0.7273
+          },
+          "turnover": 0.667
+        },
+        {
+          "date": "2026-02-23",
+          "picks": [
+            "SP500",
+            "ABB",
             "INVESTOR_B"
           ],
           "score": {
             "SP500": 0.8636,
-            "APPLE": 0.8636,
-            "INVESTOR_B": 0.6364
+            "ABB": 0.6818,
+            "INVESTOR_B": 0.6818
           },
-          "turnover": 0.333
+          "turnover": 0.667
         },
         {
-          "date": "2026-02-20",
+          "date": "2026-03-24",
           "picks": [
             "SP500",
             "INVESTOR_B",
             "ABB"
           ],
           "score": {
-            "SP500": 0.9091,
-            "INVESTOR_B": 0.6818,
-            "ABB": 0.6364
-          },
-          "turnover": 0.333
-        },
-        {
-          "date": "2026-03-23",
-          "picks": [
-            "SP500",
-            "INVESTOR_B",
-            "ABB"
-          ],
-          "score": {
-            "SP500": 0.8636,
-            "INVESTOR_B": 0.7727,
-            "ABB": 0.7273
+            "SP500": 0.8182,
+            "INVESTOR_B": 0.8182,
+            "ABB": 0.7727
           },
           "turnover": 0.0
         },
         {
-          "date": "2026-04-22",
+          "date": "2026-04-23",
           "picks": [
             "INVESTOR_B",
             "SP500",
@@ -292,21 +292,21 @@
           "turnover": 0.0
         },
         {
-          "date": "2026-05-21",
+          "date": "2026-05-22",
           "picks": [
-            "INVESTOR_B",
             "APPLE",
+            "INVESTOR_B",
             "SP500"
           ],
           "score": {
-            "INVESTOR_B": 0.8182,
-            "APPLE": 0.8182,
+            "APPLE": 0.8636,
+            "INVESTOR_B": 0.7727,
             "SP500": 0.7727
           },
           "turnover": 0.333
         },
         {
-          "date": "2026-06-22",
+          "date": "2026-06-23",
           "picks": [
             "ABB",
             "APPLE",
@@ -320,7 +320,7 @@
           "turnover": 0.333
         },
         {
-          "date": "2026-07-21",
+          "date": "2026-07-22",
           "picks": [
             "INVESTOR_B",
             "APPLE",
@@ -334,7 +334,7 @@
           "turnover": 0.0
         },
         {
-          "date": "2026-08-19",
+          "date": "2026-08-20",
           "picks": [
             "INVESTOR_B",
             "SP500",
@@ -348,32 +348,32 @@
           "turnover": 0.333
         },
         {
-          "date": "2026-09-17",
+          "date": "2026-09-18",
           "picks": [
             "INVESTOR_B",
             "ABB",
-            "ATLAS_A"
+            "VOLVO_B"
           ],
           "score": {
-            "INVESTOR_B": 0.9091,
-            "ABB": 0.8182,
-            "ATLAS_A": 0.7727
+            "INVESTOR_B": 0.9545,
+            "ABB": 0.7727,
+            "VOLVO_B": 0.7273
           },
           "turnover": 0.333
         }
       ]
     },
     "top5_20bps": {
-      "final_test_return": 0.1258,
-      "benchmark_return": 0.2923,
-      "excess_return": -0.1664,
-      "strategy_maxdd": -0.1453,
-      "benchmark_maxdd": -0.1473,
-      "mean_turnover": 0.2122,
+      "final_test_return": 0.1259,
+      "benchmark_return": 0.4442,
+      "excess_return": -0.3183,
+      "strategy_maxdd": -0.1469,
+      "benchmark_maxdd": -0.1414,
+      "mean_turnover": 0.2163,
       "final_test_rebalances": 24,
       "final_test_picks": [
         {
-          "date": "2024-10-31",
+          "date": "2024-11-01",
           "picks": [
             "ABB",
             "INVESTOR_B",
@@ -382,16 +382,16 @@
             "NVIDIA"
           ],
           "score": {
-            "ABB": 0.8182,
-            "INVESTOR_B": 0.7273,
-            "SP500": 0.7273,
+            "ABB": 0.8636,
+            "INVESTOR_B": 0.7727,
+            "SP500": 0.7727,
             "META": 0.6364,
             "NVIDIA": 0.5909
           },
           "turnover": 0.4
         },
         {
-          "date": "2024-11-29",
+          "date": "2024-12-02",
           "picks": [
             "ABB",
             "INVESTOR_B",
@@ -409,7 +409,7 @@
           "turnover": 0.2
         },
         {
-          "date": "2024-12-31",
+          "date": "2025-01-02",
           "picks": [
             "INVESTOR_B",
             "ABB",
@@ -427,7 +427,7 @@
           "turnover": 0.0
         },
         {
-          "date": "2025-01-30",
+          "date": "2025-01-31",
           "picks": [
             "APPLE",
             "INVESTOR_B",
@@ -445,7 +445,7 @@
           "turnover": 0.2
         },
         {
-          "date": "2025-02-28",
+          "date": "2025-03-03",
           "picks": [
             "APPLE",
             "SP500",
@@ -454,52 +454,52 @@
             "ABB"
           ],
           "score": {
-            "APPLE": 0.7727,
+            "APPLE": 0.7273,
             "SP500": 0.6818,
             "INVESTOR_B": 0.6818,
-            "AMAZON": 0.6364,
+            "AMAZON": 0.5455,
             "ABB": 0.5455
           },
           "turnover": 0.2
         },
         {
-          "date": "2025-03-31",
+          "date": "2025-04-01",
           "picks": [
             "INVESTOR_B",
-            "APPLE",
-            "SP500",
             "ABB",
+            "SP500",
+            "APPLE",
             "TESLA"
           ],
           "score": {
             "INVESTOR_B": 0.7727,
-            "APPLE": 0.6818,
+            "ABB": 0.6818,
             "SP500": 0.6364,
-            "ABB": 0.6364,
+            "APPLE": 0.6364,
             "TESLA": 0.5455
           },
           "turnover": 0.2
         },
         {
-          "date": "2025-04-30",
+          "date": "2025-05-01",
           "picks": [
-            "INVESTOR_B",
             "SP500",
+            "INVESTOR_B",
+            "APPLE",
             "META",
-            "VOLVO_B",
             "ABB"
           ],
           "score": {
-            "INVESTOR_B": 0.8182,
-            "SP500": 0.6818,
+            "SP500": 0.7727,
+            "INVESTOR_B": 0.7727,
+            "APPLE": 0.5909,
             "META": 0.5909,
-            "VOLVO_B": 0.5455,
             "ABB": 0.5455
           },
-          "turnover": 0.4
+          "turnover": 0.2
         },
         {
-          "date": "2025-05-29",
+          "date": "2025-05-30",
           "picks": [
             "SP500",
             "INVESTOR_B",
@@ -514,10 +514,10 @@
             "APPLE": 0.5909,
             "META": 0.5909
           },
-          "turnover": 0.4
+          "turnover": 0.2
         },
         {
-          "date": "2025-06-27",
+          "date": "2025-06-30",
           "picks": [
             "SP500",
             "INVESTOR_B",
@@ -526,7 +526,7 @@
             "ABB"
           ],
           "score": {
-            "SP500": 0.8182,
+            "SP500": 0.7727,
             "INVESTOR_B": 0.6818,
             "MICROSOFT": 0.5909,
             "META": 0.5909,
@@ -535,7 +535,7 @@
           "turnover": 0.2
         },
         {
-          "date": "2025-07-28",
+          "date": "2025-07-29",
           "picks": [
             "SP500",
             "MICROSOFT",
@@ -546,32 +546,32 @@
           "score": {
             "SP500": 0.7727,
             "MICROSOFT": 0.7273,
-            "AMAZON": 0.6818,
-            "META": 0.6364,
+            "AMAZON": 0.6364,
+            "META": 0.5909,
             "INVESTOR_B": 0.5909
           },
           "turnover": 0.2
         },
         {
-          "date": "2025-08-26",
+          "date": "2025-08-27",
           "picks": [
             "SP500",
-            "MICROSOFT",
             "NVIDIA",
+            "MICROSOFT",
             "AMAZON",
             "INVESTOR_B"
           ],
           "score": {
             "SP500": 0.7727,
+            "NVIDIA": 0.7727,
             "MICROSOFT": 0.7727,
-            "NVIDIA": 0.7273,
             "AMAZON": 0.5909,
-            "INVESTOR_B": 0.5455
+            "INVESTOR_B": 0.5
           },
           "turnover": 0.2
         },
         {
-          "date": "2025-09-24",
+          "date": "2025-09-25",
           "picks": [
             "SP500",
             "NVIDIA",
@@ -581,7 +581,7 @@
           ],
           "score": {
             "SP500": 0.7727,
-            "NVIDIA": 0.7727,
+            "NVIDIA": 0.7273,
             "MICROSOFT": 0.7273,
             "VOLVO_B": 0.5455,
             "INVESTOR_B": 0.5455
@@ -589,25 +589,25 @@
           "turnover": 0.2
         },
         {
-          "date": "2025-10-23",
+          "date": "2025-10-24",
           "picks": [
             "SP500",
             "MICROSOFT",
-            "NVIDIA",
             "ABB",
+            "NVIDIA",
             "INVESTOR_B"
           ],
           "score": {
             "SP500": 0.7727,
             "MICROSOFT": 0.7727,
-            "NVIDIA": 0.6364,
             "ABB": 0.5909,
+            "NVIDIA": 0.5909,
             "INVESTOR_B": 0.5455
           },
           "turnover": 0.2
         },
         {
-          "date": "2025-11-21",
+          "date": "2025-11-24",
           "picks": [
             "SP500",
             "MICROSOFT",
@@ -625,79 +625,79 @@
           "turnover": 0.2
         },
         {
-          "date": "2025-12-22",
+          "date": "2025-12-23",
           "picks": [
             "SP500",
             "INVESTOR_B",
-            "MICROSOFT",
             "ABB",
-            "APPLE"
+            "APPLE",
+            "MICROSOFT"
           ],
           "score": {
-            "SP500": 0.9091,
-            "INVESTOR_B": 0.7727,
-            "MICROSOFT": 0.7727,
+            "SP500": 0.9545,
+            "INVESTOR_B": 0.7273,
             "ABB": 0.7273,
-            "APPLE": 0.6818
+            "APPLE": 0.7273,
+            "MICROSOFT": 0.7273
           },
           "turnover": 0.4
         },
         {
-          "date": "2026-01-22",
+          "date": "2026-01-23",
           "picks": [
             "SP500",
             "APPLE",
+            "MICROSOFT",
             "INVESTOR_B",
-            "NVIDIA",
-            "MICROSOFT"
+            "NVIDIA"
           ],
           "score": {
-            "SP500": 0.8636,
-            "APPLE": 0.8636,
+            "SP500": 0.8182,
+            "APPLE": 0.8182,
+            "MICROSOFT": 0.7273,
             "INVESTOR_B": 0.6364,
-            "NVIDIA": 0.5909,
-            "MICROSOFT": 0.5909
+            "NVIDIA": 0.5909
           },
           "turnover": 0.2
         },
         {
-          "date": "2026-02-20",
+          "date": "2026-02-23",
           "picks": [
             "SP500",
-            "INVESTOR_B",
             "ABB",
+            "INVESTOR_B",
             "NVIDIA",
             "TESLA"
           ],
           "score": {
-            "SP500": 0.9091,
+            "SP500": 0.8636,
+            "ABB": 0.6818,
             "INVESTOR_B": 0.6818,
-            "ABB": 0.6364,
             "NVIDIA": 0.5909,
             "TESLA": 0.5455
           },
           "turnover": 0.4
         },
         {
-          "date": "2026-03-23",
+          "date": "2026-03-24",
           "picks": [
             "SP500",
             "INVESTOR_B",
             "ABB",
-            "APPLE",
+            "VOLVO_B",
             "NVIDIA"
           ],
           "score": {
-            "SP500": 0.8636,
-            "INVESTOR_B": 0.7727,
-            "ABB": 0.7273,
-            "APPLE": 0.6818,
+            "SP500": 0.8182,
+            "INVESTOR_B": 0.8182,
+            "ABB": 0.7727,
+            "VOLVO_B": 0.5909,
             "NVIDIA": 0.5909
           },
           "turnover": 0.2
         },
         {
-          "date": "2026-04-22",
+          "date": "2026-04-23",
           "picks": [
             "INVESTOR_B",
             "SP500",
@@ -712,20 +712,20 @@
             "APPLE": 0.7273,
             "NVIDIA": 0.6364
           },
-          "turnover": 0.0
+          "turnover": 0.2
         },
         {
-          "date": "2026-05-21",
+          "date": "2026-05-22",
           "picks": [
-            "INVESTOR_B",
             "APPLE",
+            "INVESTOR_B",
             "SP500",
             "ABB",
             "AMAZON"
           ],
           "score": {
-            "INVESTOR_B": 0.8182,
-            "APPLE": 0.8182,
+            "APPLE": 0.8636,
+            "INVESTOR_B": 0.7727,
             "SP500": 0.7727,
             "ABB": 0.7727,
             "AMAZON": 0.6364
@@ -733,25 +733,25 @@
           "turnover": 0.2
         },
         {
-          "date": "2026-06-22",
+          "date": "2026-06-23",
           "picks": [
             "ABB",
             "APPLE",
             "INVESTOR_B",
             "SP500",
-            "VOLVO_B"
+            "NVIDIA"
           ],
           "score": {
             "ABB": 0.8636,
             "APPLE": 0.8636,
             "INVESTOR_B": 0.8182,
-            "SP500": 0.6818,
-            "VOLVO_B": 0.5455
+            "SP500": 0.7727,
+            "NVIDIA": 0.5455
           },
           "turnover": 0.2
         },
         {
-          "date": "2026-07-21",
+          "date": "2026-07-22",
           "picks": [
             "INVESTOR_B",
             "APPLE",
@@ -766,10 +766,10 @@
             "SP500": 0.7273,
             "VOLVO_B": 0.5909
           },
-          "turnover": 0.0
+          "turnover": 0.2
         },
         {
-          "date": "2026-08-19",
+          "date": "2026-08-20",
           "picks": [
             "INVESTOR_B",
             "SP500",
@@ -787,19 +787,19 @@
           "turnover": 0.2
         },
         {
-          "date": "2026-09-17",
+          "date": "2026-09-18",
           "picks": [
             "INVESTOR_B",
             "ABB",
-            "ATLAS_A",
             "VOLVO_B",
+            "ATLAS_A",
             "SP500"
           ],
           "score": {
-            "INVESTOR_B": 0.9091,
-            "ABB": 0.8182,
-            "ATLAS_A": 0.7727,
+            "INVESTOR_B": 0.9545,
+            "ABB": 0.7727,
             "VOLVO_B": 0.7273,
+            "ATLAS_A": 0.7273,
             "SP500": 0.6818
           },
           "turnover": 0.2
@@ -807,30 +807,30 @@
       ]
     },
     "top3_50bps": {
-      "final_test_return": 0.091,
-      "benchmark_return": 0.2923,
-      "excess_return": -0.2013,
-      "strategy_maxdd": -0.1191,
-      "benchmark_maxdd": -0.1473,
-      "mean_turnover": 0.2585,
+      "final_test_return": -0.0127,
+      "benchmark_return": 0.4442,
+      "excess_return": -0.4569,
+      "strategy_maxdd": -0.1622,
+      "benchmark_maxdd": -0.1414,
+      "mean_turnover": 0.2857,
       "final_test_rebalances": 24,
       "final_test_picks": [
         {
-          "date": "2024-10-31",
+          "date": "2024-11-01",
           "picks": [
             "ABB",
             "INVESTOR_B",
             "SP500"
           ],
           "score": {
-            "ABB": 0.8182,
-            "INVESTOR_B": 0.7273,
-            "SP500": 0.7273
+            "ABB": 0.8636,
+            "INVESTOR_B": 0.7727,
+            "SP500": 0.7727
           },
           "turnover": 0.0
         },
         {
-          "date": "2024-11-29",
+          "date": "2024-12-02",
           "picks": [
             "ABB",
             "INVESTOR_B",
@@ -844,7 +844,7 @@
           "turnover": 0.0
         },
         {
-          "date": "2024-12-31",
+          "date": "2025-01-02",
           "picks": [
             "INVESTOR_B",
             "ABB",
@@ -858,7 +858,7 @@
           "turnover": 0.0
         },
         {
-          "date": "2025-01-30",
+          "date": "2025-01-31",
           "picks": [
             "APPLE",
             "INVESTOR_B",
@@ -872,49 +872,49 @@
           "turnover": 0.333
         },
         {
-          "date": "2025-02-28",
+          "date": "2025-03-03",
           "picks": [
             "APPLE",
             "SP500",
             "INVESTOR_B"
           ],
           "score": {
-            "APPLE": 0.7727,
+            "APPLE": 0.7273,
             "SP500": 0.6818,
             "INVESTOR_B": 0.6818
           },
           "turnover": 0.333
         },
         {
-          "date": "2025-03-31",
+          "date": "2025-04-01",
           "picks": [
             "INVESTOR_B",
-            "APPLE",
+            "ABB",
             "SP500"
           ],
           "score": {
             "INVESTOR_B": 0.7727,
-            "APPLE": 0.6818,
+            "ABB": 0.6818,
             "SP500": 0.6364
-          },
-          "turnover": 0.0
-        },
-        {
-          "date": "2025-04-30",
-          "picks": [
-            "INVESTOR_B",
-            "SP500",
-            "META"
-          ],
-          "score": {
-            "INVESTOR_B": 0.8182,
-            "SP500": 0.6818,
-            "META": 0.5909
           },
           "turnover": 0.333
         },
         {
-          "date": "2025-05-29",
+          "date": "2025-05-01",
+          "picks": [
+            "SP500",
+            "INVESTOR_B",
+            "APPLE"
+          ],
+          "score": {
+            "SP500": 0.7727,
+            "INVESTOR_B": 0.7727,
+            "APPLE": 0.5909
+          },
+          "turnover": 0.333
+        },
+        {
+          "date": "2025-05-30",
           "picks": [
             "SP500",
             "INVESTOR_B",
@@ -928,21 +928,21 @@
           "turnover": 0.333
         },
         {
-          "date": "2025-06-27",
+          "date": "2025-06-30",
           "picks": [
             "SP500",
             "INVESTOR_B",
             "MICROSOFT"
           ],
           "score": {
-            "SP500": 0.8182,
+            "SP500": 0.7727,
             "INVESTOR_B": 0.6818,
             "MICROSOFT": 0.5909
           },
           "turnover": 0.0
         },
         {
-          "date": "2025-07-28",
+          "date": "2025-07-29",
           "picks": [
             "SP500",
             "MICROSOFT",
@@ -951,26 +951,12 @@
           "score": {
             "SP500": 0.7727,
             "MICROSOFT": 0.7273,
-            "AMAZON": 0.6818
+            "AMAZON": 0.6364
           },
           "turnover": 0.333
         },
         {
-          "date": "2025-08-26",
-          "picks": [
-            "SP500",
-            "MICROSOFT",
-            "NVIDIA"
-          ],
-          "score": {
-            "SP500": 0.7727,
-            "MICROSOFT": 0.7727,
-            "NVIDIA": 0.7273
-          },
-          "turnover": 0.333
-        },
-        {
-          "date": "2025-09-24",
+          "date": "2025-08-27",
           "picks": [
             "SP500",
             "NVIDIA",
@@ -979,26 +965,40 @@
           "score": {
             "SP500": 0.7727,
             "NVIDIA": 0.7727,
+            "MICROSOFT": 0.7727
+          },
+          "turnover": 0.333
+        },
+        {
+          "date": "2025-09-25",
+          "picks": [
+            "SP500",
+            "NVIDIA",
+            "MICROSOFT"
+          ],
+          "score": {
+            "SP500": 0.7727,
+            "NVIDIA": 0.7273,
             "MICROSOFT": 0.7273
           },
           "turnover": 0.0
         },
         {
-          "date": "2025-10-23",
+          "date": "2025-10-24",
           "picks": [
             "SP500",
             "MICROSOFT",
-            "NVIDIA"
+            "ABB"
           ],
           "score": {
             "SP500": 0.7727,
             "MICROSOFT": 0.7727,
-            "NVIDIA": 0.6364
+            "ABB": 0.5909
           },
-          "turnover": 0.0
+          "turnover": 0.333
         },
         {
-          "date": "2025-11-21",
+          "date": "2025-11-24",
           "picks": [
             "SP500",
             "MICROSOFT",
@@ -1009,66 +1009,66 @@
             "MICROSOFT": 0.7727,
             "ABB": 0.6364
           },
-          "turnover": 0.333
+          "turnover": 0.0
         },
         {
-          "date": "2025-12-22",
+          "date": "2025-12-23",
           "picks": [
             "SP500",
             "INVESTOR_B",
-            "MICROSOFT"
+            "ABB"
           ],
           "score": {
-            "SP500": 0.9091,
-            "INVESTOR_B": 0.7727,
-            "MICROSOFT": 0.7727
+            "SP500": 0.9545,
+            "INVESTOR_B": 0.7273,
+            "ABB": 0.7273
           },
           "turnover": 0.333
         },
         {
-          "date": "2026-01-22",
+          "date": "2026-01-23",
           "picks": [
             "SP500",
             "APPLE",
+            "MICROSOFT"
+          ],
+          "score": {
+            "SP500": 0.8182,
+            "APPLE": 0.8182,
+            "MICROSOFT": 0.7273
+          },
+          "turnover": 0.667
+        },
+        {
+          "date": "2026-02-23",
+          "picks": [
+            "SP500",
+            "ABB",
             "INVESTOR_B"
           ],
           "score": {
             "SP500": 0.8636,
-            "APPLE": 0.8636,
-            "INVESTOR_B": 0.6364
+            "ABB": 0.6818,
+            "INVESTOR_B": 0.6818
           },
-          "turnover": 0.333
+          "turnover": 0.667
         },
         {
-          "date": "2026-02-20",
+          "date": "2026-03-24",
           "picks": [
             "SP500",
             "INVESTOR_B",
             "ABB"
           ],
           "score": {
-            "SP500": 0.9091,
-            "INVESTOR_B": 0.6818,
-            "ABB": 0.6364
-          },
-          "turnover": 0.333
-        },
-        {
-          "date": "2026-03-23",
-          "picks": [
-            "SP500",
-            "INVESTOR_B",
-            "ABB"
-          ],
-          "score": {
-            "SP500": 0.8636,
-            "INVESTOR_B": 0.7727,
-            "ABB": 0.7273
+            "SP500": 0.8182,
+            "INVESTOR_B": 0.8182,
+            "ABB": 0.7727
           },
           "turnover": 0.0
         },
         {
-          "date": "2026-04-22",
+          "date": "2026-04-23",
           "picks": [
             "INVESTOR_B",
             "SP500",
@@ -1082,21 +1082,21 @@
           "turnover": 0.0
         },
         {
-          "date": "2026-05-21",
+          "date": "2026-05-22",
           "picks": [
-            "INVESTOR_B",
             "APPLE",
+            "INVESTOR_B",
             "SP500"
           ],
           "score": {
-            "INVESTOR_B": 0.8182,
-            "APPLE": 0.8182,
+            "APPLE": 0.8636,
+            "INVESTOR_B": 0.7727,
             "SP500": 0.7727
           },
           "turnover": 0.333
         },
         {
-          "date": "2026-06-22",
+          "date": "2026-06-23",
           "picks": [
             "ABB",
             "APPLE",
@@ -1110,7 +1110,7 @@
           "turnover": 0.333
         },
         {
-          "date": "2026-07-21",
+          "date": "2026-07-22",
           "picks": [
             "INVESTOR_B",
             "APPLE",
@@ -1124,7 +1124,7 @@
           "turnover": 0.0
         },
         {
-          "date": "2026-08-19",
+          "date": "2026-08-20",
           "picks": [
             "INVESTOR_B",
             "SP500",
@@ -1138,32 +1138,32 @@
           "turnover": 0.333
         },
         {
-          "date": "2026-09-17",
+          "date": "2026-09-18",
           "picks": [
             "INVESTOR_B",
             "ABB",
-            "ATLAS_A"
+            "VOLVO_B"
           ],
           "score": {
-            "INVESTOR_B": 0.9091,
-            "ABB": 0.8182,
-            "ATLAS_A": 0.7727
+            "INVESTOR_B": 0.9545,
+            "ABB": 0.7727,
+            "VOLVO_B": 0.7273
           },
           "turnover": 0.333
         }
       ]
     },
     "top5_50bps": {
-      "final_test_return": 0.0912,
-      "benchmark_return": 0.2923,
-      "excess_return": -0.201,
-      "strategy_maxdd": -0.1486,
-      "benchmark_maxdd": -0.1473,
-      "mean_turnover": 0.2122,
+      "final_test_return": 0.0913,
+      "benchmark_return": 0.4442,
+      "excess_return": -0.3529,
+      "strategy_maxdd": -0.1501,
+      "benchmark_maxdd": -0.1414,
+      "mean_turnover": 0.2163,
       "final_test_rebalances": 24,
       "final_test_picks": [
         {
-          "date": "2024-10-31",
+          "date": "2024-11-01",
           "picks": [
             "ABB",
             "INVESTOR_B",
@@ -1172,16 +1172,16 @@
             "NVIDIA"
           ],
           "score": {
-            "ABB": 0.8182,
-            "INVESTOR_B": 0.7273,
-            "SP500": 0.7273,
+            "ABB": 0.8636,
+            "INVESTOR_B": 0.7727,
+            "SP500": 0.7727,
             "META": 0.6364,
             "NVIDIA": 0.5909
           },
           "turnover": 0.4
         },
         {
-          "date": "2024-11-29",
+          "date": "2024-12-02",
           "picks": [
             "ABB",
             "INVESTOR_B",
@@ -1199,7 +1199,7 @@
           "turnover": 0.2
         },
         {
-          "date": "2024-12-31",
+          "date": "2025-01-02",
           "picks": [
             "INVESTOR_B",
             "ABB",
@@ -1217,7 +1217,7 @@
           "turnover": 0.0
         },
         {
-          "date": "2025-01-30",
+          "date": "2025-01-31",
           "picks": [
             "APPLE",
             "INVESTOR_B",
@@ -1235,7 +1235,7 @@
           "turnover": 0.2
         },
         {
-          "date": "2025-02-28",
+          "date": "2025-03-03",
           "picks": [
             "APPLE",
             "SP500",
@@ -1244,52 +1244,52 @@
             "ABB"
           ],
           "score": {
-            "APPLE": 0.7727,
+            "APPLE": 0.7273,
             "SP500": 0.6818,
             "INVESTOR_B": 0.6818,
-            "AMAZON": 0.6364,
+            "AMAZON": 0.5455,
             "ABB": 0.5455
           },
           "turnover": 0.2
         },
         {
-          "date": "2025-03-31",
+          "date": "2025-04-01",
           "picks": [
             "INVESTOR_B",
-            "APPLE",
-            "SP500",
             "ABB",
+            "SP500",
+            "APPLE",
             "TESLA"
           ],
           "score": {
             "INVESTOR_B": 0.7727,
-            "APPLE": 0.6818,
+            "ABB": 0.6818,
             "SP500": 0.6364,
-            "ABB": 0.6364,
+            "APPLE": 0.6364,
             "TESLA": 0.5455
           },
           "turnover": 0.2
         },
         {
-          "date": "2025-04-30",
+          "date": "2025-05-01",
           "picks": [
-            "INVESTOR_B",
             "SP500",
+            "INVESTOR_B",
+            "APPLE",
             "META",
-            "VOLVO_B",
             "ABB"
           ],
           "score": {
-            "INVESTOR_B": 0.8182,
-            "SP500": 0.6818,
+            "SP500": 0.7727,
+            "INVESTOR_B": 0.7727,
+            "APPLE": 0.5909,
             "META": 0.5909,
-            "VOLVO_B": 0.5455,
             "ABB": 0.5455
           },
-          "turnover": 0.4
+          "turnover": 0.2
         },
         {
-          "date": "2025-05-29",
+          "date": "2025-05-30",
           "picks": [
             "SP500",
             "INVESTOR_B",
@@ -1304,10 +1304,10 @@
             "APPLE": 0.5909,
             "META": 0.5909
           },
-          "turnover": 0.4
+          "turnover": 0.2
         },
         {
-          "date": "2025-06-27",
+          "date": "2025-06-30",
           "picks": [
             "SP500",
             "INVESTOR_B",
@@ -1316,7 +1316,7 @@
             "ABB"
           ],
           "score": {
-            "SP500": 0.8182,
+            "SP500": 0.7727,
             "INVESTOR_B": 0.6818,
             "MICROSOFT": 0.5909,
             "META": 0.5909,
@@ -1325,7 +1325,7 @@
           "turnover": 0.2
         },
         {
-          "date": "2025-07-28",
+          "date": "2025-07-29",
           "picks": [
             "SP500",
             "MICROSOFT",
@@ -1336,32 +1336,32 @@
           "score": {
             "SP500": 0.7727,
             "MICROSOFT": 0.7273,
-            "AMAZON": 0.6818,
-            "META": 0.6364,
+            "AMAZON": 0.6364,
+            "META": 0.5909,
             "INVESTOR_B": 0.5909
           },
           "turnover": 0.2
         },
         {
-          "date": "2025-08-26",
+          "date": "2025-08-27",
           "picks": [
             "SP500",
-            "MICROSOFT",
             "NVIDIA",
+            "MICROSOFT",
             "AMAZON",
             "INVESTOR_B"
           ],
           "score": {
             "SP500": 0.7727,
+            "NVIDIA": 0.7727,
             "MICROSOFT": 0.7727,
-            "NVIDIA": 0.7273,
             "AMAZON": 0.5909,
-            "INVESTOR_B": 0.5455
+            "INVESTOR_B": 0.5
           },
           "turnover": 0.2
         },
         {
-          "date": "2025-09-24",
+          "date": "2025-09-25",
           "picks": [
             "SP500",
             "NVIDIA",
@@ -1371,7 +1371,7 @@
           ],
           "score": {
             "SP500": 0.7727,
-            "NVIDIA": 0.7727,
+            "NVIDIA": 0.7273,
             "MICROSOFT": 0.7273,
             "VOLVO_B": 0.5455,
             "INVESTOR_B": 0.5455
@@ -1379,25 +1379,25 @@
           "turnover": 0.2
         },
         {
-          "date": "2025-10-23",
+          "date": "2025-10-24",
           "picks": [
             "SP500",
             "MICROSOFT",
-            "NVIDIA",
             "ABB",
+            "NVIDIA",
             "INVESTOR_B"
           ],
           "score": {
             "SP500": 0.7727,
             "MICROSOFT": 0.7727,
-            "NVIDIA": 0.6364,
             "ABB": 0.5909,
+            "NVIDIA": 0.5909,
             "INVESTOR_B": 0.5455
           },
           "turnover": 0.2
         },
         {
-          "date": "2025-11-21",
+          "date": "2025-11-24",
           "picks": [
             "SP500",
             "MICROSOFT",
@@ -1415,79 +1415,79 @@
           "turnover": 0.2
         },
         {
-          "date": "2025-12-22",
+          "date": "2025-12-23",
           "picks": [
             "SP500",
             "INVESTOR_B",
-            "MICROSOFT",
             "ABB",
-            "APPLE"
+            "APPLE",
+            "MICROSOFT"
           ],
           "score": {
-            "SP500": 0.9091,
-            "INVESTOR_B": 0.7727,
-            "MICROSOFT": 0.7727,
+            "SP500": 0.9545,
+            "INVESTOR_B": 0.7273,
             "ABB": 0.7273,
-            "APPLE": 0.6818
+            "APPLE": 0.7273,
+            "MICROSOFT": 0.7273
           },
           "turnover": 0.4
         },
         {
-          "date": "2026-01-22",
+          "date": "2026-01-23",
           "picks": [
             "SP500",
             "APPLE",
+            "MICROSOFT",
             "INVESTOR_B",
-            "NVIDIA",
-            "MICROSOFT"
+            "NVIDIA"
           ],
           "score": {
-            "SP500": 0.8636,
-            "APPLE": 0.8636,
+            "SP500": 0.8182,
+            "APPLE": 0.8182,
+            "MICROSOFT": 0.7273,
             "INVESTOR_B": 0.6364,
-            "NVIDIA": 0.5909,
-            "MICROSOFT": 0.5909
+            "NVIDIA": 0.5909
           },
           "turnover": 0.2
         },
         {
-          "date": "2026-02-20",
+          "date": "2026-02-23",
           "picks": [
             "SP500",
-            "INVESTOR_B",
             "ABB",
+            "INVESTOR_B",
             "NVIDIA",
             "TESLA"
           ],
           "score": {
-            "SP500": 0.9091,
+            "SP500": 0.8636,
+            "ABB": 0.6818,
             "INVESTOR_B": 0.6818,
-            "ABB": 0.6364,
             "NVIDIA": 0.5909,
             "TESLA": 0.5455
           },
           "turnover": 0.4
         },
         {
-          "date": "2026-03-23",
+          "date": "2026-03-24",
           "picks": [
             "SP500",
             "INVESTOR_B",
             "ABB",
-            "APPLE",
+            "VOLVO_B",
             "NVIDIA"
           ],
           "score": {
-            "SP500": 0.8636,
-            "INVESTOR_B": 0.7727,
-            "ABB": 0.7273,
-            "APPLE": 0.6818,
+            "SP500": 0.8182,
+            "INVESTOR_B": 0.8182,
+            "ABB": 0.7727,
+            "VOLVO_B": 0.5909,
             "NVIDIA": 0.5909
           },
           "turnover": 0.2
         },
         {
-          "date": "2026-04-22",
+          "date": "2026-04-23",
           "picks": [
             "INVESTOR_B",
             "SP500",
@@ -1502,20 +1502,20 @@
             "APPLE": 0.7273,
             "NVIDIA": 0.6364
           },
-          "turnover": 0.0
+          "turnover": 0.2
         },
         {
-          "date": "2026-05-21",
+          "date": "2026-05-22",
           "picks": [
-            "INVESTOR_B",
             "APPLE",
+            "INVESTOR_B",
             "SP500",
             "ABB",
             "AMAZON"
           ],
           "score": {
-            "INVESTOR_B": 0.8182,
-            "APPLE": 0.8182,
+            "APPLE": 0.8636,
+            "INVESTOR_B": 0.7727,
             "SP500": 0.7727,
             "ABB": 0.7727,
             "AMAZON": 0.6364
@@ -1523,25 +1523,25 @@
           "turnover": 0.2
         },
         {
-          "date": "2026-06-22",
+          "date": "2026-06-23",
           "picks": [
             "ABB",
             "APPLE",
             "INVESTOR_B",
             "SP500",
-            "VOLVO_B"
+            "NVIDIA"
           ],
           "score": {
             "ABB": 0.8636,
             "APPLE": 0.8636,
             "INVESTOR_B": 0.8182,
-            "SP500": 0.6818,
-            "VOLVO_B": 0.5455
+            "SP500": 0.7727,
+            "NVIDIA": 0.5455
           },
           "turnover": 0.2
         },
         {
-          "date": "2026-07-21",
+          "date": "2026-07-22",
           "picks": [
             "INVESTOR_B",
             "APPLE",
@@ -1556,10 +1556,10 @@
             "SP500": 0.7273,
             "VOLVO_B": 0.5909
           },
-          "turnover": 0.0
+          "turnover": 0.2
         },
         {
-          "date": "2026-08-19",
+          "date": "2026-08-20",
           "picks": [
             "INVESTOR_B",
             "SP500",
@@ -1577,19 +1577,19 @@
           "turnover": 0.2
         },
         {
-          "date": "2026-09-17",
+          "date": "2026-09-18",
           "picks": [
             "INVESTOR_B",
             "ABB",
-            "ATLAS_A",
             "VOLVO_B",
+            "ATLAS_A",
             "SP500"
           ],
           "score": {
-            "INVESTOR_B": 0.9091,
-            "ABB": 0.8182,
-            "ATLAS_A": 0.7727,
+            "INVESTOR_B": 0.9545,
+            "ABB": 0.7727,
             "VOLVO_B": 0.7273,
+            "ATLAS_A": 0.7273,
             "SP500": 0.6818
           },
           "turnover": 0.2
@@ -1607,8 +1607,8 @@
     "schema_version": 1,
     "engine": "stock_picker_price_v1",
     "dataset": {
-      "manifest_sha256": "b19b2816f0b2ba979fd0aa451c0478feff49deb5887098e352d93b1f8d77d438",
-      "manifest_bytes": 27649
+      "manifest_sha256": "79f96fe8c2ee014750893a5896ec97c3b07b5cdffeb7e55b858cfb7810b7e3f0",
+      "manifest_bytes": 27631
     },
     "model_version": "stock-picker-price-v1-frozen-2026-09-30",
     "reproducibility": {

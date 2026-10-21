@@ -6,208 +6,192 @@
       "ticker": "INDU-A.ST",
       "name": "Industriv\u00e4rden, AB ser. A",
       "region": "se",
-      "market_cap": 219404746752,
+      "market_cap": 221132341248,
       "families": {
-        "quality": 0.9116,
-        "value": 0.7256,
+        "quality": 0.917,
+        "value": 0.7296,
         "growth": 0.9518,
-        "momentum": 0.7831
+        "momentum": 0.7711
       },
-      "score": 0.8494645247657295,
-      "region_percentile": 0.9933774834437086,
-      "winner_score": 0.890908,
+      "score": 0.849665327978581,
+      "region_percentile": 0.9933554817275747,
+      "winner_score": 0.890284,
       "breadth": 4
     },
     {
       "ticker": "INDU-C.ST",
       "name": "Industriv\u00e4rden, AB ser. C",
       "region": "se",
-      "market_cap": 218368196608,
+      "market_cap": 220009398272,
       "families": {
-        "quality": 0.9076,
-        "value": 0.7216,
+        "quality": 0.913,
+        "value": 0.7256,
         "growth": 0.9478,
-        "momentum": 0.7711
+        "momentum": 0.7671
       },
-      "score": 0.8438420348058903,
-      "region_percentile": 0.9900662251655629,
-      "winner_score": 0.886108,
+      "score": 0.8456492637215529,
+      "region_percentile": 0.9900332225913622,
+      "winner_score": 0.887084,
       "breadth": 4
     },
     {
       "ticker": "INVE-A.ST",
       "name": "Investor AB ser. A",
       "region": "se",
-      "market_cap": 1238585180160,
+      "market_cap": 1251145678848,
       "families": {
-        "quality": 0.8273,
+        "quality": 0.834,
         "value": 0.6653,
         "growth": 0.9157,
-        "momentum": 0.7992
+        "momentum": 0.7952
       },
-      "score": 0.8032797858099062,
-      "region_percentile": 0.9735099337748344,
-      "winner_score": 0.807996,
+      "score": 0.8044846050870148,
+      "region_percentile": 0.973421926910299,
+      "winner_score": 0.808804,
       "breadth": 3
     },
     {
       "ticker": "LUMI.ST",
       "name": "Lundin Mining Corporation",
       "region": "se",
-      "market_cap": 195642425344,
+      "market_cap": 196068114432,
       "families": {
-        "quality": 0.8514,
-        "value": 0.3186,
-        "growth": 0.8715,
-        "momentum": 0.9237
+        "quality": 0.8581,
+        "value": 0.3253,
+        "growth": 0.8735,
+        "momentum": 0.9317
       },
-      "score": 0.7376840696117803,
-      "region_percentile": 0.9536423841059603,
-      "winner_score": 0.786468,
+      "score": 0.7434738955823293,
+      "region_percentile": 0.9501661129568106,
+      "winner_score": 0.79096,
       "breadth": 3
     },
     {
       "ticker": "IBRX",
       "name": "ImmunityBio, Inc.",
       "region": "us",
-      "market_cap": 8923822080,
+      "market_cap": 9294765056,
       "families": {
-        "quality": 0.7751,
-        "value": 0.6245,
-        "growth": 0.747,
+        "quality": 0.7831,
+        "value": 0.6044,
+        "growth": 0.759,
         "momentum": 0.9116
       },
-      "score": 0.7577309236947791,
-      "region_percentile": 0.8695652173913043,
-      "winner_score": 0.772564,
+      "score": 0.7581325301204819,
+      "region_percentile": 0.8732394366197183,
+      "winner_score": 0.774952,
+      "breadth": 3
+    },
+    {
+      "ticker": "NREST.ST",
+      "name": "Nordrest Holding AB",
+      "region": "se",
+      "market_cap": 3366007552,
+      "families": {
+        "quality": 0.9866,
+        "value": 0.3976,
+        "growth": 0.7219,
+        "momentum": 0.7149
+      },
+      "score": 0.7188253012048194,
+      "region_percentile": 0.9368770764119602,
+      "winner_score": 0.750732,
       "breadth": 3
     },
     {
       "ticker": "ORES.ST",
       "name": "INVESTMENT AB ORESUND",
       "region": "se",
-      "market_cap": 6528834560,
+      "market_cap": 6412886016,
       "families": {
-        "quality": 0.8621,
+        "quality": 0.8688,
         "value": 0.6934,
         "growth": 0.9277,
         "momentum": 0.6747
       },
-      "score": 0.7988621151271753,
-      "region_percentile": 0.9701986754966887,
-      "winner_score": 0.7477,
+      "score": 0.8008701472556894,
+      "region_percentile": 0.9700996677740864,
+      "winner_score": 0.749308,
       "breadth": 2
-    },
-    {
-      "ticker": "NREST.ST",
-      "name": "Nordrest Holding AB",
-      "region": "se",
-      "market_cap": 3378733312,
-      "families": {
-        "quality": 0.9866,
-        "value": 0.3936,
-        "growth": 0.7129,
-        "momentum": 0.7108
-      },
-      "score": 0.7147590361445784,
-      "region_percentile": 0.923841059602649,
-      "winner_score": 0.747272,
-      "breadth": 3
     },
     {
       "ticker": "ZZ-B.ST",
       "name": "Zinzino AB Ser. B",
       "region": "se",
-      "market_cap": 5385890304,
+      "market_cap": 5346490880,
       "families": {
         "quality": 0.9786,
-        "value": 0.5462,
-        "growth": 0.8574,
-        "momentum": 0.6064
+        "value": 0.5502,
+        "growth": 0.8604,
+        "momentum": 0.5944
       },
-      "score": 0.7657630522088354,
-      "region_percentile": 0.9602649006622517,
-      "winner_score": 0.727464,
+      "score": 0.7651104417670682,
+      "region_percentile": 0.9601328903654485,
+      "winner_score": 0.726264,
       "breadth": 2
     },
     {
       "ticker": "MER.ST",
       "name": "Meren Energy Inc.",
       "region": "se",
-      "market_cap": 10060596224,
+      "market_cap": 9952417792,
       "families": {
-        "quality": 0.6145,
-        "value": 0.743,
-        "growth": 0.7296,
-        "momentum": 0.759
+        "quality": 0.6305,
+        "value": 0.7443,
+        "growth": 0.7349,
+        "momentum": 0.7349
       },
-      "score": 0.7042838018741634,
-      "region_percentile": 0.9139072847682119,
-      "winner_score": 0.713544,
+      "score": 0.7059571619812584,
+      "region_percentile": 0.9169435215946844,
+      "winner_score": 0.713992,
       "breadth": 3
-    },
-    {
-      "ticker": "BOL.ST",
-      "name": "Boliden AB",
-      "region": "se",
-      "market_cap": 143912173568,
-      "families": {
-        "quality": 0.7041,
-        "value": 0.5288,
-        "growth": 0.7523,
-        "momentum": 0.7149
-      },
-      "score": 0.6744979919678715,
-      "region_percentile": 0.8774834437086093,
-      "winner_score": 0.705972,
-      "breadth": 3
-    },
-    {
-      "ticker": "TIETOS.ST",
-      "name": "Tieto Corporation",
-      "region": "se",
-      "market_cap": 22819004416,
-      "families": {
-        "quality": 0.7376,
-        "value": 0.5502,
-        "growth": 0.9237,
-        "momentum": 0.5703
-      },
-      "score": 0.7038152610441768,
-      "region_percentile": 0.9105960264900662,
-      "winner_score": 0.678796,
-      "breadth": 2
     },
     {
       "ticker": "STORY-B.ST",
       "name": "Storytel AB ser. B",
       "region": "se",
-      "market_cap": 8499242496,
+      "market_cap": 8377170944,
       "families": {
-        "quality": 0.8701,
-        "value": 0.3936,
-        "growth": 0.5934,
-        "momentum": 0.8514
+        "quality": 0.8755,
+        "value": 0.4116,
+        "growth": 0.6024,
+        "momentum": 0.8675
       },
-      "score": 0.678062248995984,
-      "region_percentile": 0.8874172185430463,
-      "winner_score": 0.668752,
+      "score": 0.6896586345381526,
+      "region_percentile": 0.893687707641196,
+      "winner_score": 0.677588,
+      "breadth": 2
+    },
+    {
+      "ticker": "BOL.ST",
+      "name": "Boliden AB",
+      "region": "se",
+      "market_cap": 144764059648,
+      "families": {
+        "quality": 0.7135,
+        "value": 0.5529,
+        "growth": 0.7577,
+        "momentum": 0.6948
+      },
+      "score": 0.6806559571619812,
+      "region_percentile": 0.8870431893687708,
+      "winner_score": 0.658396,
       "breadth": 2
     },
     {
       "ticker": "RUSTA.ST",
       "name": "Rusta AB",
       "region": "se",
-      "market_cap": 12312606720,
+      "market_cap": 12129064960,
       "families": {
-        "quality": 0.7068,
-        "value": 0.3675,
-        "growth": 0.6305,
-        "momentum": 0.7189
+        "quality": 0.7216,
+        "value": 0.3735,
+        "growth": 0.6406,
+        "momentum": 0.7108
       },
-      "score": 0.6053212851405623,
-      "region_percentile": 0.8211920529801324,
-      "winner_score": 0.608832,
+      "score": 0.61214859437751,
+      "region_percentile": 0.8172757475083057,
+      "winner_score": 0.613908,
       "breadth": 2
     }
   ],
@@ -216,113 +200,113 @@
       "ticker": "INDU-A.ST",
       "name": "Industriv\u00e4rden, AB ser. A",
       "region": "se",
-      "market_cap": 219404746752,
+      "market_cap": 221132341248,
       "families": {
-        "quality": 0.9116,
-        "value": 0.7256,
+        "quality": 0.917,
+        "value": 0.7296,
         "growth": 0.9518,
-        "momentum": 0.7831
+        "momentum": 0.7711
       },
-      "score": 0.8494645247657295,
-      "region_percentile": 0.9933774834437086,
-      "winner_score": 0.890908,
+      "score": 0.849665327978581,
+      "region_percentile": 0.9933554817275747,
+      "winner_score": 0.890284,
       "breadth": 4
     },
     {
       "ticker": "INDU-C.ST",
       "name": "Industriv\u00e4rden, AB ser. C",
       "region": "se",
-      "market_cap": 218368196608,
+      "market_cap": 220009398272,
       "families": {
-        "quality": 0.9076,
-        "value": 0.7216,
+        "quality": 0.913,
+        "value": 0.7256,
         "growth": 0.9478,
-        "momentum": 0.7711
+        "momentum": 0.7671
       },
-      "score": 0.8438420348058903,
-      "region_percentile": 0.9900662251655629,
-      "winner_score": 0.886108,
+      "score": 0.8456492637215529,
+      "region_percentile": 0.9900332225913622,
+      "winner_score": 0.887084,
       "breadth": 4
     },
     {
       "ticker": "INVE-A.ST",
       "name": "Investor AB ser. A",
       "region": "se",
-      "market_cap": 1238585180160,
+      "market_cap": 1251145678848,
       "families": {
-        "quality": 0.8273,
+        "quality": 0.834,
         "value": 0.6653,
         "growth": 0.9157,
-        "momentum": 0.7992
+        "momentum": 0.7952
       },
-      "score": 0.8032797858099062,
-      "region_percentile": 0.9735099337748344,
-      "winner_score": 0.807996,
+      "score": 0.8044846050870148,
+      "region_percentile": 0.973421926910299,
+      "winner_score": 0.808804,
       "breadth": 3
     },
     {
       "ticker": "LUMI.ST",
       "name": "Lundin Mining Corporation",
       "region": "se",
-      "market_cap": 195642425344,
+      "market_cap": 196068114432,
       "families": {
-        "quality": 0.8514,
-        "value": 0.3186,
-        "growth": 0.8715,
-        "momentum": 0.9237
+        "quality": 0.8581,
+        "value": 0.3253,
+        "growth": 0.8735,
+        "momentum": 0.9317
       },
-      "score": 0.7376840696117803,
-      "region_percentile": 0.9536423841059603,
-      "winner_score": 0.786468,
+      "score": 0.7434738955823293,
+      "region_percentile": 0.9501661129568106,
+      "winner_score": 0.79096,
       "breadth": 3
     },
     {
       "ticker": "IBRX",
       "name": "ImmunityBio, Inc.",
       "region": "us",
-      "market_cap": 8923822080,
+      "market_cap": 9294765056,
       "families": {
-        "quality": 0.7751,
-        "value": 0.6245,
-        "growth": 0.747,
+        "quality": 0.7831,
+        "value": 0.6044,
+        "growth": 0.759,
         "momentum": 0.9116
       },
-      "score": 0.7577309236947791,
-      "region_percentile": 0.8695652173913043,
-      "winner_score": 0.772564,
+      "score": 0.7581325301204819,
+      "region_percentile": 0.8732394366197183,
+      "winner_score": 0.774952,
+      "breadth": 3
+    },
+    {
+      "ticker": "NREST.ST",
+      "name": "Nordrest Holding AB",
+      "region": "se",
+      "market_cap": 3366007552,
+      "families": {
+        "quality": 0.9866,
+        "value": 0.3976,
+        "growth": 0.7219,
+        "momentum": 0.7149
+      },
+      "score": 0.7188253012048194,
+      "region_percentile": 0.9368770764119602,
+      "winner_score": 0.750732,
       "breadth": 3
     },
     {
       "ticker": "ORES.ST",
       "name": "INVESTMENT AB ORESUND",
       "region": "se",
-      "market_cap": 6528834560,
+      "market_cap": 6412886016,
       "families": {
-        "quality": 0.8621,
+        "quality": 0.8688,
         "value": 0.6934,
         "growth": 0.9277,
         "momentum": 0.6747
       },
-      "score": 0.7988621151271753,
-      "region_percentile": 0.9701986754966887,
-      "winner_score": 0.7477,
+      "score": 0.8008701472556894,
+      "region_percentile": 0.9700996677740864,
+      "winner_score": 0.749308,
       "breadth": 2
-    },
-    {
-      "ticker": "NREST.ST",
-      "name": "Nordrest Holding AB",
-      "region": "se",
-      "market_cap": 3378733312,
-      "families": {
-        "quality": 0.9866,
-        "value": 0.3936,
-        "growth": 0.7129,
-        "momentum": 0.7108
-      },
-      "score": 0.7147590361445784,
-      "region_percentile": 0.923841059602649,
-      "winner_score": 0.747272,
-      "breadth": 3
     }
   ]
 }
