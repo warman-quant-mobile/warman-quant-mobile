@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at_utc": "2026-10-20T01:16:51.498407+00:00",
+  "generated_at_utc": "2026-10-21T01:17:32.314295+00:00",
   "status": "EXPLORATORY_NOT_VALIDATED",
   "methodology": "Prior completed bar; next open; 2ATR stop; 10R target; 20bps proxy friction; 60 sessions; conservative gaps; nonoverlapping events per strategy.",
   "results": {
@@ -1022,11 +1022,11 @@
         "insufficient_sample": true
       },
       "GAP_FADE": {
-        "events": 31,
+        "events": 32,
         "targets_10r": 2,
         "stops": 18,
-        "timeouts": 11,
-        "mean_realized_r": 1.214,
+        "timeouts": 12,
+        "mean_realized_r": 1.202,
         "insufficient_sample": false
       },
       "SHOCK_CONTINUATION": {
@@ -1056,19 +1056,19 @@
     },
     "AMAZON": {
       "GAP_CONTINUATION": {
-        "events": 26,
+        "events": 27,
         "targets_10r": 0,
-        "stops": 19,
+        "stops": 20,
         "timeouts": 7,
-        "mean_realized_r": -0.255,
+        "mean_realized_r": -0.32,
         "insufficient_sample": true
       },
       "GAP_FADE": {
-        "events": 27,
+        "events": 28,
         "targets_10r": 0,
         "stops": 17,
-        "timeouts": 10,
-        "mean_realized_r": 0.204,
+        "timeouts": 11,
+        "mean_realized_r": 0.232,
         "insufficient_sample": true
       },
       "SHOCK_CONTINUATION": {
@@ -1156,27 +1156,27 @@
         "insufficient_sample": true
       },
       "SHOCK_CONTINUATION": {
-        "events": 44,
+        "events": 45,
         "targets_10r": 8,
         "stops": 16,
-        "timeouts": 20,
-        "mean_realized_r": 2.523,
+        "timeouts": 21,
+        "mean_realized_r": 2.563,
         "insufficient_sample": false
       },
       "SHOCK_FADE": {
-        "events": 45,
+        "events": 46,
         "targets_10r": 0,
-        "stops": 40,
+        "stops": 41,
         "timeouts": 5,
-        "mean_realized_r": -0.541,
+        "mean_realized_r": -0.551,
         "insufficient_sample": false
       },
       "RANGE_CONTINUATION": {
-        "events": 32,
+        "events": 33,
         "targets_10r": 4,
         "stops": 18,
-        "timeouts": 10,
-        "mean_realized_r": 1.588,
+        "timeouts": 11,
+        "mean_realized_r": 1.671,
         "insufficient_sample": false
       }
     },
@@ -1198,27 +1198,27 @@
         "insufficient_sample": true
       },
       "SHOCK_CONTINUATION": {
-        "events": 43,
+        "events": 44,
         "targets_10r": 2,
         "stops": 29,
-        "timeouts": 12,
-        "mean_realized_r": 0.591,
+        "timeouts": 13,
+        "mean_realized_r": 0.605,
         "insufficient_sample": false
       },
       "SHOCK_FADE": {
-        "events": 43,
+        "events": 44,
         "targets_10r": 1,
-        "stops": 25,
+        "stops": 26,
         "timeouts": 17,
-        "mean_realized_r": 0.802,
+        "mean_realized_r": 0.761,
         "insufficient_sample": false
       },
       "RANGE_CONTINUATION": {
-        "events": 22,
+        "events": 23,
         "targets_10r": 2,
         "stops": 11,
-        "timeouts": 9,
-        "mean_realized_r": 1.951,
+        "timeouts": 10,
+        "mean_realized_r": 1.919,
         "insufficient_sample": true
       }
     },
@@ -1240,27 +1240,27 @@
         "insufficient_sample": true
       },
       "SHOCK_CONTINUATION": {
-        "events": 31,
+        "events": 32,
         "targets_10r": 2,
         "stops": 17,
-        "timeouts": 12,
-        "mean_realized_r": 0.93,
+        "timeouts": 13,
+        "mean_realized_r": 1.026,
         "insufficient_sample": false
       },
       "SHOCK_FADE": {
-        "events": 30,
+        "events": 31,
         "targets_10r": 2,
-        "stops": 19,
+        "stops": 20,
         "timeouts": 9,
-        "mean_realized_r": 0.412,
+        "mean_realized_r": 0.367,
         "insufficient_sample": false
       },
       "RANGE_CONTINUATION": {
-        "events": 14,
+        "events": 15,
         "targets_10r": 2,
         "stops": 10,
-        "timeouts": 2,
-        "mean_realized_r": 0.799,
+        "timeouts": 3,
+        "mean_realized_r": 1.012,
         "insufficient_sample": true
       }
     }

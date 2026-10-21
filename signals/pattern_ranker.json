@@ -37,10 +37,10 @@
       "final_test": {
         "n": 62,
         "base_rate": 0.0806,
-        "brier": 0.0874,
+        "brier": 0.0873,
         "top_quartile_n": 15,
         "top_quartile_hit_rate": 0.2,
-        "top_quartile_mean_realized_r": -1.191,
+        "top_quartile_mean_realized_r": -1.274,
         "top_quartile_median_realized_r": -1.0
       },
       "coefficients": {
@@ -105,8 +105,8 @@
     "schema_version": 1,
     "engine": "pattern_ranker",
     "dataset": {
-      "manifest_sha256": "660e96a29265f487d3668f7a3df53d57717772a1a64031e8a05603cfd5171334",
-      "manifest_bytes": 27662
+      "manifest_sha256": "67b8409020414d2707699175d9cddaece1b354a4d68173a206da973764363294",
+      "manifest_bytes": 27660
     },
     "model_version": "logit-v1-frozen-2026-09-30",
     "reproducibility": {
