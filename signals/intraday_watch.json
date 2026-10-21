@@ -1,10 +1,38 @@
 {
   "status": "RESEARCH_WATCH_ONLY",
-  "generated_at_utc": "2026-10-21T08:15:29.372345+00:00",
-  "observations": [],
-  "excluded": {
-    "OVX": "STALE_HOURLY",
-    "GVZ": "STALE_HOURLY"
-  },
+  "generated_at_utc": "2026-10-21T17:10:33.925129+00:00",
+  "observations": [
+    {
+      "symbol": "WTI_FUT",
+      "bar_start_utc": "2026-10-21T16:00:00+00:00",
+      "events": [
+        "FAILED_LOW_20H"
+      ],
+      "gap_pct": 0.01,
+      "hourly_move_pct": -0.33,
+      "status": "INTRADAY_WATCH_NOT_ORDER"
+    },
+    {
+      "symbol": "BITCOIN",
+      "bar_start_utc": "2026-10-21T16:00:00+00:00",
+      "events": [
+        "FAILED_HIGH_20H"
+      ],
+      "gap_pct": 0.01,
+      "hourly_move_pct": 0.03,
+      "status": "INTRADAY_WATCH_NOT_ORDER"
+    },
+    {
+      "symbol": "ETHEREUM",
+      "bar_start_utc": "2026-10-21T16:00:00+00:00",
+      "events": [
+        "FAILED_HIGH_20H"
+      ],
+      "gap_pct": 0.02,
+      "hourly_move_pct": -0.09,
+      "status": "INTRADAY_WATCH_NOT_ORDER"
+    }
+  ],
+  "excluded": {},
   "note": "Hourly data may be delayed; market sessions vary. Events require a separate validated 10R target and executable instrument quote before proposal."
 }
