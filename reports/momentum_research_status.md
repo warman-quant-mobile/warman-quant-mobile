@@ -1,0 +1,1 @@
+Momentum research is exploratory. Historical US index coverage and delisted prices are incomplete. Month-end fills are not executable, and OMXS30 plus Investor benchmark are missing. No validated edge or live trades.
