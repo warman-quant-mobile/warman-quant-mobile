@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-21T07:50:02.914738+00:00",
+  "generated_at": "2026-10-21T08:45:24.454020+00:00",
   "research_only": true,
   "validated_edge": false,
   "capital": 100000,
@@ -22,15 +22,15 @@
         "win_rate": 0.379
       },
       "holdout": {
-        "n": 25,
-        "profit_factor": 1.611,
-        "mean_net_pct": 1.109,
-        "win_rate": 0.36
+        "n": 26,
+        "profit_factor": 1.515,
+        "mean_net_pct": 0.955,
+        "win_rate": 0.346
       },
-      "holdout_portfolio_return": 0.2243,
-      "holdout_max_drawdown": 0.1943,
+      "holdout_portfolio_return": 0.1901,
+      "holdout_max_drawdown": 0.2058,
       "holdout_benchmarks_price_only": {
-        "INVESTOR_B": 0.9367,
+        "INVESTOR_B": 0.9034,
         "OMXS30": 0.4909
       },
       "trades": [
@@ -953,6 +953,16 @@
           "reason": "intraday_stop_assumed",
           "net_return": -0.04552787637894007,
           "pnl": -4561.766723360459
+        },
+        {
+          "symbol": "INVESTOR_B",
+          "entry_date": "2026-10-19",
+          "exit_date": "2026-10-20",
+          "entry": 420.70001220703125,
+          "exit": 409.3400024414062,
+          "reason": "intraday_stop_assumed",
+          "net_return": -0.02894668779418097,
+          "pnl": -2768.329657447379
         }
       ],
       "equity": [
@@ -13518,8 +13528,8 @@
         },
         {
           "date": "2026-10-20",
-          "equity": 95539.92,
-          "drawdown": 0.182896
+          "equity": 92867.13,
+          "drawdown": 0.205755
         }
       ]
     },
@@ -13536,10 +13546,10 @@
         "mean_net_pct": 1.873,
         "win_rate": 0.375
       },
-      "holdout_portfolio_return": 0.2277,
-      "holdout_max_drawdown": 0.2487,
+      "holdout_portfolio_return": 0.2073,
+      "holdout_max_drawdown": 0.2612,
       "holdout_benchmarks_price_only": {
-        "INVESTOR_B": 0.9367,
+        "INVESTOR_B": 0.9034,
         "OMXS30": 0.4909
       },
       "trades": [
@@ -26587,8 +26597,8 @@
         },
         {
           "date": "2026-10-20",
-          "equity": 212752.21,
-          "drawdown": 0.248744
+          "equity": 209212.24,
+          "drawdown": 0.261244
         }
       ]
     }
