@@ -5,3 +5,5 @@ for k,v in r['results'].items():
  rows=v['monthly_returns']
  low=sum(x.get('eligible',0)<500 for x in rows)
  print(k,'months',len(rows),'below_500',low)
+
+print('Coverage warning: strategy CAGR is not independently validated.')
