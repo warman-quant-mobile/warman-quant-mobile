@@ -1,23 +1,10 @@
 {
   "status": "RESEARCH_WARNING_ONLY",
-  "generated_at_utc": "2026-10-21T01:21:30.861068+00:00",
-  "level": "ELEVATED",
-  "stress_score": 4,
+  "generated_at_utc": "2026-10-21T08:15:29.979876+00:00",
+  "level": "NORMAL",
+  "stress_score": 0,
   "cross_asset_tail_count": 0,
-  "events": [
-    {
-      "symbol": "WTI_FUT",
-      "tags": [
-        "GAP_3PCT"
-      ]
-    },
-    {
-      "symbol": "OVX",
-      "tags": [
-        "GAP_3PCT"
-      ]
-    }
-  ],
+  "events": [],
   "metrics": {
     "SP500": {
       "ret1": 0.00284,
@@ -34,53 +21,53 @@
       "tail_rank": 0.1032,
       "rv_rank": 0.2504,
       "prior_rv_rank": 0.2816,
-      "atr_move": 0.09563,
+      "atr_move": 0.09564,
       "dd20": -0.05554
     },
     "GOLD_FUT": {
-      "ret1": -0.00757,
-      "gap": -0.00401,
-      "tail_rank": 0.5864,
-      "rv_rank": 0.6664,
+      "ret1": -0.00421,
+      "gap": 0.00055,
+      "tail_rank": 0.352,
+      "rv_rank": 0.66,
       "prior_rv_rank": 0.6584,
-      "atr_move": 0.40359,
-      "dd20": -0.05662
+      "atr_move": 0.22422,
+      "dd20": -0.05342
     },
     "SILVER_FUT": {
-      "ret1": 0.01134,
-      "gap": 0.02073,
-      "tail_rank": 0.488,
-      "rv_rank": 0.6976,
+      "ret1": 0.01285,
+      "gap": -0.00411,
+      "tail_rank": 0.5376,
+      "rv_rank": 0.7,
       "prior_rv_rank": 0.6816,
-      "atr_move": 0.51643,
-      "dd20": -0.12607
+      "atr_move": 0.58518,
+      "dd20": -0.12476
     },
     "WTI_FUT": {
-      "ret1": -0.04515,
-      "gap": -0.05277,
-      "tail_rank": 0.9288,
-      "rv_rank": 0.6272,
+      "ret1": -0.01804,
+      "gap": -0.00222,
+      "tail_rank": 0.576,
+      "rv_rank": 0.4952,
       "prior_rv_rank": 0.4768,
-      "atr_move": 1.08749,
-      "dd20": -0.04515
+      "atr_move": 0.43453,
+      "dd20": -0.01804
     },
     "BRENT_FUT": {
-      "ret1": 0.00429,
-      "gap": -0.00256,
-      "tail_rank": 0.184,
-      "rv_rank": 0.456,
+      "ret1": -0.00694,
+      "gap": -0.00383,
+      "tail_rank": 0.2768,
+      "rv_rank": 0.464,
       "prior_rv_rank": 0.468,
-      "atr_move": 0.11037,
-      "dd20": 0.00146
+      "atr_move": 0.17847,
+      "dd20": -0.00974
     },
     "US30Y_BOND_FUT": {
-      "ret1": 0.00506,
-      "gap": 0.00715,
-      "tail_rank": 0.5496,
-      "rv_rank": 0.4624,
+      "ret1": 0.00655,
+      "gap": -0.0006,
+      "tail_rank": 0.66,
+      "rv_rank": 0.4776,
       "prior_rv_rank": 0.4496,
-      "atr_move": 0.39906,
-      "dd20": -0.0189
+      "atr_move": 0.51643,
+      "dd20": -0.01744
     },
     "EURUSD": {
       "ret1": -0.00086,
@@ -101,13 +88,13 @@
       "dd20": -0.01226
     },
     "BITCOIN": {
-      "ret1": -0.002,
+      "ret1": 0.01329,
       "gap": 0.0,
-      "tail_rank": 0.1176,
-      "rv_rank": 0.0728,
-      "prior_rv_rank": 0.0744,
-      "atr_move": 0.07886,
-      "dd20": -0.0535
+      "tail_rank": 0.5536,
+      "rv_rank": 0.0928,
+      "prior_rv_rank": 0.0736,
+      "atr_move": 0.52738,
+      "dd20": -0.04093
     },
     "VIX": {
       "ret1": -0.06128,
@@ -119,22 +106,22 @@
       "dd20": -0.13407
     },
     "OVX": {
-      "ret1": -0.01025,
-      "gap": 0.04237,
-      "tail_rank": 0.1768,
-      "rv_rank": 0.0152,
-      "prior_rv_rank": 0.0152,
-      "atr_move": 0.18854,
-      "dd20": -0.10497
+      "ret1": 0.03763,
+      "gap": 0.01633,
+      "tail_rank": 0.6088,
+      "rv_rank": 0.0184,
+      "prior_rv_rank": 0.016,
+      "atr_move": 0.68441,
+      "dd20": -0.07129
     },
     "GVZ": {
-      "ret1": -0.0155,
-      "gap": 0.01506,
-      "tail_rank": 0.3128,
-      "rv_rank": 0.2176,
-      "prior_rv_rank": 0.2144,
-      "atr_move": 0.39084,
-      "dd20": -0.10471
+      "ret1": -0.01799,
+      "gap": 0.00315,
+      "tail_rank": 0.3616,
+      "rv_rank": 0.2192,
+      "prior_rv_rank": 0.2176,
+      "atr_move": 0.45045,
+      "dd20": -0.12082
     },
     "US30Y_YIELD": {
       "ret1": -0.00859,
@@ -151,7 +138,7 @@
       "tail_rank": 0.1696,
       "rv_rank": 0.2024,
       "prior_rv_rank": 0.1984,
-      "atr_move": 0.20949,
+      "atr_move": 0.20948,
       "dd20": -0.03653
     }
   },
