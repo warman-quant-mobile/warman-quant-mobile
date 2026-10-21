@@ -1,0 +1,37 @@
+name: Momentum Leaders Research
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - momentum_leaders.py
+      - .github/workflows/momentum_leaders.yml
+permissions:
+  contents: write
+jobs:
+  backtest:
+    runs-on: ubuntu-latest
+    timeout-minutes: 110
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Dependencies
+        run: pip install pandas numpy yfinance requests
+      - name: Research backtest
+        run: python momentum_leaders.py
+      - name: Publish report
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add reports/momentum_leaders_report.json
+          if ! git diff --cached --quiet; then
+            git commit -m 'Publish momentum leaders diagnostics [skip ci]'
+            git push origin HEAD:main
+          fi
+      - name: Upload output
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: momentum-leaders-report
+          path: reports/momentum_leaders_report.json
