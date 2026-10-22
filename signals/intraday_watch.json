@@ -1,86 +1,15 @@
 {
   "status": "RESEARCH_WATCH_ONLY",
-  "generated_at_utc": "2026-10-22T08:16:55.472929+00:00",
+  "generated_at_utc": "2026-10-22T17:09:29.842937+00:00",
   "observations": [
     {
-      "symbol": "OMXS30",
-      "bar_start_utc": "2026-10-22T07:00:00+00:00",
-      "events": [
-        "HOURLY_SHOCK_2_5ATR"
-      ],
-      "gap_pct": -1.55,
-      "hourly_move_pct": -1.63,
-      "status": "INTRADAY_WATCH_NOT_ORDER"
-    },
-    {
-      "symbol": "DAX",
-      "bar_start_utc": "2026-10-22T07:00:00+00:00",
-      "events": [
-        "HOURLY_SHOCK_2_5ATR"
-      ],
-      "gap_pct": -0.58,
-      "hourly_move_pct": -1.13,
-      "status": "INTRADAY_WATCH_NOT_ORDER"
-    },
-    {
-      "symbol": "US30Y_BOND_FUT",
-      "bar_start_utc": "2026-10-22T07:00:00+00:00",
-      "events": [
-        "FAILED_HIGH_20H"
-      ],
-      "gap_pct": 0.0,
-      "hourly_move_pct": 0.0,
-      "status": "INTRADAY_WATCH_NOT_ORDER"
-    },
-    {
-      "symbol": "VIX",
-      "bar_start_utc": "2026-10-22T07:00:00+00:00",
-      "events": [
-        "GAP_3PCT",
-        "HOURLY_SHOCK_2_5ATR"
-      ],
-      "gap_pct": 9.65,
-      "hourly_move_pct": 10.61,
-      "status": "INTRADAY_WATCH_NOT_ORDER"
-    },
-    {
-      "symbol": "INVESTOR_B",
-      "bar_start_utc": "2026-10-22T07:00:00+00:00",
-      "events": [
-        "HOURLY_SHOCK_2_5ATR"
-      ],
-      "gap_pct": -1.04,
-      "hourly_move_pct": -1.47,
-      "status": "INTRADAY_WATCH_NOT_ORDER"
-    },
-    {
-      "symbol": "ATLAS_A",
-      "bar_start_utc": "2026-10-22T07:00:00+00:00",
-      "events": [
-        "HOURLY_SHOCK_2_5ATR"
-      ],
-      "gap_pct": -2.8,
-      "hourly_move_pct": -2.36,
-      "status": "INTRADAY_WATCH_NOT_ORDER"
-    },
-    {
-      "symbol": "NVIDIA",
-      "bar_start_utc": "2026-10-21T19:30:00+00:00",
-      "events": [
-        "FAILED_HIGH_20H"
-      ],
-      "gap_pct": -0.0,
-      "hourly_move_pct": 0.27,
-      "status": "INTRADAY_WATCH_NOT_ORDER"
-    },
-    {
-      "symbol": "ETHEREUM",
-      "bar_start_utc": "2026-10-22T07:00:00+00:00",
+      "symbol": "SOLANA",
+      "bar_start_utc": "2026-10-22T16:00:00+00:00",
       "events": [
         "FAILED_LOW_20H"
       ],
-      "gap_pct": 0.02,
-      "hourly_move_pct": -0.14,
+      "gap_pct": 0.01,
+      "hourly_move_pct": -0.79,
       "status": "INTRADAY_WATCH_NOT_ORDER"
     }
   ],
