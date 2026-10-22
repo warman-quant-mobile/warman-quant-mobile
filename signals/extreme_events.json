@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at_utc": "2026-10-22T01:15:49.917899+00:00",
+  "generated_at_utc": "2026-10-22T08:16:53.692199+00:00",
   "status": "RESEARCH_ONLY",
   "parameters": {
     "gap_abs_pct": 3,
@@ -14,8 +14,8 @@
         {
           "type": "GAP",
           "direction": "DOWN",
-          "magnitude_pct": -3.94,
-          "subtype": "GAP_FADE_WATCH",
+          "magnitude_pct": -3.54,
+          "subtype": "GAP_CONTINUATION_WATCH",
           "note": "Requires independently verified catalyst and actual bid/ask; never infer earnings from price."
         }
       ]
