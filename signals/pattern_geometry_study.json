@@ -670,7 +670,7 @@
       "summary": {
         "all": {
           "n": 14,
-          "mean_r": -0.168,
+          "mean_r": -0.169,
           "median_r": -1.0,
           "mean_geometric_r": 9.149,
           "target_hits": 1,
@@ -690,8 +690,8 @@
         },
         "oos": {
           "n": 6,
-          "mean_r": 0.971,
-          "median_r": -0.459,
+          "mean_r": 0.969,
+          "median_r": -0.466,
           "mean_geometric_r": 5.635,
           "target_hits": 1,
           "mfe_5r": 2,
@@ -735,8 +735,8 @@
         "DESCENDING": {
           "all": {
             "n": 2,
-            "mean_r": -0.459,
-            "median_r": -0.459,
+            "mean_r": -0.466,
+            "median_r": -0.466,
             "mean_geometric_r": 5.027,
             "target_hits": 0,
             "mfe_5r": 0,
@@ -755,8 +755,8 @@
           },
           "oos": {
             "n": 1,
-            "mean_r": 0.083,
-            "median_r": 0.083,
+            "mean_r": 0.069,
+            "median_r": 0.069,
             "mean_geometric_r": 3.891,
             "target_hits": 0,
             "mfe_5r": 0,
@@ -1251,7 +1251,7 @@
       "summary": {
         "all": {
           "n": 16,
-          "mean_r": 0.427,
+          "mean_r": 0.43,
           "median_r": -1.0,
           "mean_geometric_r": 7.49,
           "target_hits": 3,
@@ -1271,7 +1271,7 @@
         },
         "oos": {
           "n": 7,
-          "mean_r": -0.898,
+          "mean_r": -0.892,
           "median_r": -1.0,
           "mean_geometric_r": 7.927,
           "target_hits": 0,
@@ -1405,8 +1405,8 @@
         "SYMMETRICAL": {
           "all": {
             "n": 2,
-            "mean_r": -0.54,
-            "median_r": -0.54,
+            "mean_r": -0.52,
+            "median_r": -0.52,
             "mean_geometric_r": 11.396,
             "target_hits": 0,
             "mfe_5r": 0,
@@ -1425,13 +1425,13 @@
           },
           "oos": {
             "n": 1,
-            "mean_r": -0.081,
-            "median_r": -0.081,
+            "mean_r": -0.04,
+            "median_r": -0.04,
             "mean_geometric_r": 5.018,
             "target_hits": 0,
             "mfe_5r": 0,
             "mfe_10r": 0,
-            "max_mfe_r": 0.04
+            "max_mfe_r": 0.27
           }
         }
       }
@@ -2328,7 +2328,7 @@
       "summary": {
         "all": {
           "n": 11,
-          "mean_r": 0.432,
+          "mean_r": 0.416,
           "median_r": -1.0,
           "mean_geometric_r": 31.128,
           "target_hits": 1,
@@ -2348,7 +2348,7 @@
         },
         "oos": {
           "n": 5,
-          "mean_r": 0.261,
+          "mean_r": 0.224,
           "median_r": -1.0,
           "mean_geometric_r": 57.707,
           "target_hits": 0,
@@ -2450,7 +2450,7 @@
         "SYMMETRICAL": {
           "all": {
             "n": 4,
-            "mean_r": -0.443,
+            "mean_r": -0.489,
             "median_r": -1.0,
             "mean_geometric_r": 70.301,
             "target_hits": 0,
@@ -2470,8 +2470,8 @@
           },
           "oos": {
             "n": 2,
-            "mean_r": 1.007,
-            "median_r": 1.007,
+            "mean_r": 0.915,
+            "median_r": 0.915,
             "mean_geometric_r": 11.101,
             "target_hits": 0,
             "mfe_5r": 0,
@@ -3181,9 +3181,9 @@
       "summary": {
         "all": {
           "n": 18,
-          "mean_r": 0.423,
+          "mean_r": 0.361,
           "median_r": -1.0,
-          "mean_geometric_r": 7.107,
+          "mean_geometric_r": 6.757,
           "target_hits": 5,
           "mfe_5r": 2,
           "mfe_10r": 0,
@@ -3193,7 +3193,7 @@
           "n": 10,
           "mean_r": 0.424,
           "median_r": -1.0,
-          "mean_geometric_r": 6.623,
+          "mean_geometric_r": 5.994,
           "target_hits": 4,
           "mfe_5r": 1,
           "mfe_10r": 0,
@@ -3201,7 +3201,7 @@
         },
         "oos": {
           "n": 8,
-          "mean_r": 0.421,
+          "mean_r": 0.281,
           "median_r": -1.0,
           "mean_geometric_r": 7.712,
           "target_hits": 1,
@@ -3303,7 +3303,7 @@
         "RISING_WEDGE": {
           "all": {
             "n": 4,
-            "mean_r": -0.236,
+            "mean_r": -0.516,
             "median_r": -1.0,
             "mean_geometric_r": 5.976,
             "target_hits": 0,
@@ -3323,8 +3323,8 @@
           },
           "oos": {
             "n": 2,
-            "mean_r": 0.529,
-            "median_r": 0.529,
+            "mean_r": -0.032,
+            "median_r": -0.032,
             "mean_geometric_r": 7.249,
             "target_hits": 0,
             "mfe_5r": 0,
@@ -3337,21 +3337,21 @@
             "n": 1,
             "mean_r": -1.0,
             "median_r": -1.0,
-            "mean_geometric_r": 13.175,
+            "mean_geometric_r": 6.877,
             "target_hits": 0,
             "mfe_5r": 0,
             "mfe_10r": 0,
-            "max_mfe_r": 0.676
+            "max_mfe_r": 3.448
           },
           "train": {
             "n": 1,
             "mean_r": -1.0,
             "median_r": -1.0,
-            "mean_geometric_r": 13.175,
+            "mean_geometric_r": 6.877,
             "target_hits": 0,
             "mfe_5r": 0,
             "mfe_10r": 0,
-            "max_mfe_r": 0.676
+            "max_mfe_r": 3.448
           },
           "oos": {
             "n": 0
@@ -5220,7 +5220,7 @@
       "type": "DESCENDING",
       "side": "SHORT",
       "geometric_r": 3.891,
-      "realized_r": 0.083,
+      "realized_r": 0.069,
       "mfe_r": 0.319,
       "outcome": "TIMEOUT",
       "compression": 0.127,
@@ -6186,8 +6186,8 @@
       "type": "SYMMETRICAL",
       "side": "LONG",
       "geometric_r": 5.018,
-      "realized_r": -0.081,
-      "mfe_r": 0.04,
+      "realized_r": -0.04,
+      "mfe_r": 0.27,
       "outcome": "TIMEOUT",
       "compression": 0.134,
       "r2_high": 0.997,
@@ -8328,7 +8328,7 @@
       "type": "SYMMETRICAL",
       "side": "LONG",
       "geometric_r": 7.065,
-      "realized_r": 3.014,
+      "realized_r": 2.83,
       "mfe_r": 4.98,
       "outcome": "TIMEOUT",
       "compression": 0.204,
@@ -9332,24 +9332,24 @@
       "symbol": "META"
     },
     {
-      "date": "2017-07-08",
+      "date": "2017-07-10",
       "type": "SYMMETRICAL",
-      "side": "LONG",
-      "geometric_r": 13.175,
+      "side": "SHORT",
+      "geometric_r": 6.877,
       "realized_r": -1.0,
-      "mfe_r": 0.676,
+      "mfe_r": 3.448,
       "outcome": "STOP",
-      "compression": 0.085,
+      "compression": 0.04,
       "r2_high": 0.849,
       "r2_low": 0.997,
-      "slope_high_atr": -0.1197,
-      "slope_low_atr": 0.0793,
+      "slope_high_atr": -0.1226,
+      "slope_low_atr": 0.0812,
       "touches_high": 3,
       "touches_low": 3,
-      "breakout_strength_atr": 0.3654,
-      "trend20_signed": -0.0517,
-      "gap_atr": 0.0098,
-      "atr_pct": 0.05055,
+      "breakout_strength_atr": 0.7794,
+      "trend20_signed": 0.0275,
+      "gap_atr": -0.1007,
+      "atr_pct": 0.05546,
       "symbol": "BITCOIN"
     },
     {
@@ -9693,7 +9693,7 @@
       "type": "RISING_WEDGE",
       "side": "SHORT",
       "geometric_r": 5.823,
-      "realized_r": 2.058,
+      "realized_r": 0.935,
       "mfe_r": 4.409,
       "outcome": "TIMEOUT",
       "compression": 0.561,
@@ -10195,33 +10195,12 @@
   ],
   "recent_patterns": [
     {
-      "date": "2026-10-14",
-      "type": "FALLING_WEDGE",
-      "side": "SHORT",
-      "geometric_r": 381.891,
-      "realized_r": -5.245,
-      "mfe_r": 0.0,
-      "outcome": "STOP",
-      "compression": 0.146,
-      "r2_high": 0.949,
-      "r2_low": 0.958,
-      "slope_high_atr": -0.3045,
-      "slope_low_atr": -0.1539,
-      "touches_high": 5,
-      "touches_low": 3,
-      "breakout_strength_atr": 2.0715,
-      "trend20_signed": 0.0644,
-      "gap_atr": -0.9616,
-      "atr_pct": 0.02355,
-      "symbol": "SILVER_FUT"
-    },
-    {
       "date": "2026-10-16",
       "type": "SYMMETRICAL",
       "side": "LONG",
       "geometric_r": 5.018,
-      "realized_r": -0.081,
-      "mfe_r": 0.04,
+      "realized_r": -0.04,
+      "mfe_r": 0.27,
       "outcome": "TIMEOUT",
       "compression": 0.134,
       "r2_high": 0.997,
@@ -10242,8 +10221,8 @@
     "schema_version": 1,
     "engine": "pattern_geometry_v2",
     "dataset": {
-      "manifest_sha256": "67b8409020414d2707699175d9cddaece1b354a4d68173a206da973764363294",
-      "manifest_bytes": 27660
+      "manifest_sha256": "316b4aefc1714d7876d1b206c87ebaf0e2d27f165e9cdef7fe86d1e9fca0d1d5",
+      "manifest_bytes": 27656
     },
     "model_version": "rules-v2-frozen-2026-09-30",
     "reproducibility": {

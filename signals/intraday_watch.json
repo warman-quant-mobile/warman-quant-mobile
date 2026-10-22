@@ -1,35 +1,15 @@
 {
   "status": "RESEARCH_WATCH_ONLY",
-  "generated_at_utc": "2026-10-21T17:10:33.925129+00:00",
+  "generated_at_utc": "2026-10-22T01:24:57.255964+00:00",
   "observations": [
     {
-      "symbol": "WTI_FUT",
-      "bar_start_utc": "2026-10-21T16:00:00+00:00",
-      "events": [
-        "FAILED_LOW_20H"
-      ],
-      "gap_pct": 0.01,
-      "hourly_move_pct": -0.33,
-      "status": "INTRADAY_WATCH_NOT_ORDER"
-    },
-    {
-      "symbol": "BITCOIN",
-      "bar_start_utc": "2026-10-21T16:00:00+00:00",
+      "symbol": "NVIDIA",
+      "bar_start_utc": "2026-10-21T19:30:00+00:00",
       "events": [
         "FAILED_HIGH_20H"
       ],
-      "gap_pct": 0.01,
-      "hourly_move_pct": 0.03,
-      "status": "INTRADAY_WATCH_NOT_ORDER"
-    },
-    {
-      "symbol": "ETHEREUM",
-      "bar_start_utc": "2026-10-21T16:00:00+00:00",
-      "events": [
-        "FAILED_HIGH_20H"
-      ],
-      "gap_pct": 0.02,
-      "hourly_move_pct": -0.09,
+      "gap_pct": -0.0,
+      "hourly_move_pct": 0.27,
       "status": "INTRADAY_WATCH_NOT_ORDER"
     }
   ],

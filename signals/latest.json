@@ -1,16 +1,25 @@
 {
   "schema_version": 2,
-  "generated_at_utc": "2026-10-21T17:10:31.401077+00:00",
-  "source_manifest_utc": "2026-10-21T17:09:57.905281+00:00",
+  "generated_at_utc": "2026-10-22T01:15:10.843002+00:00",
+  "source_manifest_utc": "2026-10-22T01:14:38.862119+00:00",
   "status": "NO_QUALIFIED_CANDIDATES",
   "candidates": [],
   "rejected": {},
   "screening_funnel": {
     "eligible": 30,
-    "directional_breakouts": 0,
-    "positive_reference_reward": 0,
+    "directional_breakouts": 1,
+    "positive_reference_reward": 1,
     "reference_10r": 0
   },
-  "diagnostic_watchlist": [],
+  "diagnostic_watchlist": [
+    {
+      "symbol": "GVZ",
+      "direction": "SHORT",
+      "session_date": "2026-10-21",
+      "reference_reward_risk_after_proxy_cost": 1.08,
+      "reason": "BELOW_10R_REFERENCE",
+      "note": "Research diagnostics only; historical reference is not a validated target."
+    }
+  ],
   "warning": "Historical reference targets are NOT forecasts. 20bp proxy costs are NOT actual mini future costs. A 10R geometric ratio is not proven expected value. No automatic trading."
 }

@@ -1,91 +1,98 @@
 {
   "status": "RESEARCH_WARNING_ONLY",
-  "generated_at_utc": "2026-10-21T17:10:34.513468+00:00",
-  "level": "NORMAL",
-  "stress_score": 0,
+  "generated_at_utc": "2026-10-22T01:24:57.924772+00:00",
+  "level": "WATCH",
+  "stress_score": 2,
   "cross_asset_tail_count": 0,
-  "events": [],
+  "events": [
+    {
+      "symbol": "WTI_FUT",
+      "tags": [
+        "GAP_3PCT"
+      ]
+    }
+  ],
   "metrics": {
     "SP500": {
-      "ret1": 0.00284,
-      "gap": -0.00152,
-      "tail_rank": 0.2896,
-      "rv_rank": 0.1064,
-      "prior_rv_rank": 0.0992,
-      "atr_move": 0.32812,
-      "dd20": -0.0136
+      "ret1": 0.00578,
+      "gap": 0.00309,
+      "tail_rank": 0.508,
+      "rv_rank": 0.0936,
+      "prior_rv_rank": 0.1072,
+      "atr_move": 0.64373,
+      "dd20": -0.0079
     },
     "NASDAQ100": {
-      "ret1": -0.00132,
-      "gap": -0.00458,
-      "tail_rank": 0.1032,
-      "rv_rank": 0.2504,
-      "prior_rv_rank": 0.2816,
-      "atr_move": 0.09564,
-      "dd20": -0.05554
+      "ret1": 0.01127,
+      "gap": 0.00735,
+      "tail_rank": 0.6208,
+      "rv_rank": 0.2848,
+      "prior_rv_rank": 0.2504,
+      "atr_move": 0.79246,
+      "dd20": -0.0449
     },
     "GOLD_FUT": {
-      "ret1": -0.00421,
-      "gap": 0.00055,
-      "tail_rank": 0.352,
-      "rv_rank": 0.66,
-      "prior_rv_rank": 0.6584,
-      "atr_move": 0.22422,
-      "dd20": -0.05342
+      "ret1": -0.00282,
+      "gap": 0.00396,
+      "tail_rank": 0.2376,
+      "rv_rank": 0.6312,
+      "prior_rv_rank": 0.66,
+      "atr_move": 0.15402,
+      "dd20": -0.04404
     },
     "SILVER_FUT": {
-      "ret1": 0.01285,
-      "gap": -0.00411,
-      "tail_rank": 0.5376,
-      "rv_rank": 0.7,
-      "prior_rv_rank": 0.6816,
-      "atr_move": 0.58518,
-      "dd20": -0.12476
+      "ret1": -0.0079,
+      "gap": 0.00674,
+      "tail_rank": 0.348,
+      "rv_rank": 0.6808,
+      "prior_rv_rank": 0.7,
+      "atr_move": 0.35846,
+      "dd20": -0.11078
     },
     "WTI_FUT": {
-      "ret1": -0.01804,
-      "gap": -0.00222,
-      "tail_rank": 0.576,
-      "rv_rank": 0.4952,
-      "prior_rv_rank": 0.4768,
-      "atr_move": 0.43453,
-      "dd20": -0.01804
+      "ret1": -0.03488,
+      "gap": -0.03939,
+      "tail_rank": 0.8648,
+      "rv_rank": 0.528,
+      "prior_rv_rank": 0.4952,
+      "atr_move": 0.78462,
+      "dd20": -0.05229
     },
     "BRENT_FUT": {
-      "ret1": -0.00694,
-      "gap": -0.00383,
-      "tail_rank": 0.2768,
-      "rv_rank": 0.464,
-      "prior_rv_rank": 0.468,
-      "atr_move": 0.17847,
-      "dd20": -0.00974
+      "ret1": 0.01342,
+      "gap": 0.01039,
+      "tail_rank": 0.4984,
+      "rv_rank": 0.4064,
+      "prior_rv_rank": 0.464,
+      "atr_move": 0.33851,
+      "dd20": 0.00355
     },
     "US30Y_BOND_FUT": {
-      "ret1": 0.00655,
-      "gap": -0.0006,
-      "tail_rank": 0.66,
-      "rv_rank": 0.4776,
-      "prior_rv_rank": 0.4496,
-      "atr_move": 0.51643,
-      "dd20": -0.01744
+      "ret1": 0.00414,
+      "gap": 0.00178,
+      "tail_rank": 0.4504,
+      "rv_rank": 0.2808,
+      "prior_rv_rank": 0.4776,
+      "atr_move": 0.32483,
+      "dd20": 0.00177
     },
     "EURUSD": {
-      "ret1": -0.00086,
-      "gap": -0.001,
-      "tail_rank": 0.184,
-      "rv_rank": 0.132,
-      "prior_rv_rank": 0.132,
-      "atr_move": 0.13826,
-      "dd20": -0.0217
+      "ret1": 0.00098,
+      "gap": 0.0009,
+      "tail_rank": 0.2056,
+      "rv_rank": 0.14,
+      "prior_rv_rank": 0.1328,
+      "atr_move": 0.15588,
+      "dd20": -0.01932
     },
     "USDSEK": {
-      "ret1": 0.00076,
-      "gap": 0.00051,
-      "tail_rank": 0.104,
-      "rv_rank": 0.0288,
-      "prior_rv_rank": 0.0288,
-      "atr_move": 0.09355,
-      "dd20": -0.01226
+      "ret1": -0.0011,
+      "gap": -0.00101,
+      "tail_rank": 0.1536,
+      "rv_rank": 0.0312,
+      "prior_rv_rank": 0.0296,
+      "atr_move": 0.13737,
+      "dd20": -0.01335
     },
     "BITCOIN": {
       "ret1": 0.01329,
@@ -97,49 +104,49 @@
       "dd20": -0.04093
     },
     "VIX": {
-      "ret1": -0.06128,
-      "gap": -0.00108,
-      "tail_rank": 0.6968,
-      "rv_rank": 0.5592,
-      "prior_rv_rank": 0.5424,
-      "atr_move": 0.75763,
-      "dd20": -0.13407
+      "ret1": -0.0364,
+      "gap": -0.00347,
+      "tail_rank": 0.4712,
+      "rv_rank": 0.5472,
+      "prior_rv_rank": 0.5592,
+      "atr_move": 0.40711,
+      "dd20": -0.16558
     },
     "OVX": {
-      "ret1": 0.03763,
-      "gap": 0.01633,
-      "tail_rank": 0.6088,
+      "ret1": 0.02245,
+      "gap": -0.01516,
+      "tail_rank": 0.3928,
       "rv_rank": 0.0184,
-      "prior_rv_rank": 0.016,
-      "atr_move": 0.68441,
-      "dd20": -0.07129
+      "prior_rv_rank": 0.0192,
+      "atr_move": 0.41533,
+      "dd20": -0.05044
     },
     "GVZ": {
-      "ret1": -0.01799,
-      "gap": 0.00315,
-      "tail_rank": 0.3616,
-      "rv_rank": 0.2192,
-      "prior_rv_rank": 0.2176,
-      "atr_move": 0.45045,
-      "dd20": -0.12082
+      "ret1": -0.02153,
+      "gap": 0.00092,
+      "tail_rank": 0.424,
+      "rv_rank": 0.2032,
+      "prior_rv_rank": 0.2192,
+      "atr_move": 0.52839,
+      "dd20": -0.13975
     },
     "US30Y_YIELD": {
-      "ret1": -0.00859,
-      "gap": -0.00804,
-      "tail_rank": 0.5096,
-      "rv_rank": 0.2176,
-      "prior_rv_rank": 0.196,
-      "atr_move": 0.59796,
-      "dd20": -0.04237
+      "ret1": 0.00258,
+      "gap": -0.00332,
+      "tail_rank": 0.1568,
+      "rv_rank": 0.1672,
+      "prior_rv_rank": 0.2184,
+      "atr_move": 0.17588,
+      "dd20": -0.03989
     },
     "US10Y_YIELD": {
-      "ret1": -0.0037,
-      "gap": -0.00662,
-      "tail_rank": 0.1696,
-      "rv_rank": 0.2024,
-      "prior_rv_rank": 0.1984,
-      "atr_move": 0.20948,
-      "dd20": -0.03653
+      "ret1": 0.00567,
+      "gap": -0.0041,
+      "tail_rank": 0.2776,
+      "rv_rank": 0.0392,
+      "prior_rv_rank": 0.2032,
+      "atr_move": 0.31885,
+      "dd20": -0.03107
     }
   },
   "interpretation": "Fragility/tail-state indicator, not a crash forecast and never an automatic trade.",
