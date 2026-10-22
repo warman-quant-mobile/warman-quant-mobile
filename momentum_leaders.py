@@ -17,7 +17,7 @@ import yfinance as yf
 BASE = "https://raw.githubusercontent.com/thuningxu/sp500nq100/main/"
 FILES = {"sp500": "sp500_components_history.csv", "nasdaq100": "nasdaq100_components_history.csv"}
 START = "2015-01-01"
-END = "2026-10-01"  # exclusive; last fully completed month September 2026
+END = "2026-10-15"  # exclusive; allow next-session October opening fills for September 2026
 MIN_COVERAGE = 0.98
 MAX_CLOSE_AGE_DAYS = 5
 MAX_OPEN_DELAY_DAYS = 7
