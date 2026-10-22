@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-21T11:50:28.371131+00:00",
+  "generated_at": "2026-10-22T05:26:30.893256+00:00",
   "research_only": true,
   "validated_edge": false,
   "trading_authorized": false,
@@ -3246,11 +3246,10 @@
   "results": {
     "1m_top5": {
       "total_months": 115,
-      "valid_months": 8,
-      "failed_months": 107,
+      "valid_months": 9,
+      "failed_months": 106,
       "failed_status_counts": {
-        "FAIL_INSUFFICIENT_UNIVERSE_COVERAGE": 106,
-        "FAIL_MISSING_NEXT_OPEN_OR_DELISTED_EXIT": 1
+        "FAIL_INSUFFICIENT_UNIVERSE_COVERAGE": 106
       },
       "full_sample_diagnostic": null,
       "holdout_2023plus_diagnostic": null,
@@ -4121,8 +4120,8 @@
           "status": "DIAGNOSTIC_ONLY",
           "entry_date": "2026-01-02",
           "exit_date": "2026-02-02",
-          "net_return_sek": 0.10241676148149703,
-          "gross_return_sek": 0.10794958472019345,
+          "net_return_sek": 0.10241678724341785,
+          "gross_return_sek": 0.1079496106114084,
           "investor_return_sek": 0.029420647390242305,
           "fx_entry": 9.194740295410156,
           "fx_exit": 8.802579879760742
@@ -4144,8 +4143,8 @@
           "status": "DIAGNOSTIC_ONLY",
           "entry_date": "2026-02-02",
           "exit_date": "2026-03-02",
-          "net_return_sek": 0.087959781469507,
-          "gross_return_sek": 0.09342004783337479,
+          "net_return_sek": 0.08795974427666842,
+          "gross_return_sek": 0.09342001045387231,
           "investor_return_sek": 0.082661590758345,
           "fx_entry": 8.802579879760742,
           "fx_exit": 9.048199653625488
@@ -4167,8 +4166,8 @@
           "status": "DIAGNOSTIC_ONLY",
           "entry_date": "2026-03-02",
           "exit_date": "2026-04-01",
-          "net_return_sek": 0.015579512487642333,
-          "gross_return_sek": 0.02067651583861132,
+          "net_return_sek": 0.015579491543608492,
+          "gross_return_sek": 0.020676494789463363,
           "investor_return_sek": -0.015838638963864615,
           "fx_entry": 9.048199653625488,
           "fx_exit": 9.557049751281738
@@ -4190,8 +4189,8 @@
           "status": "DIAGNOSTIC_ONLY",
           "entry_date": "2026-04-01",
           "exit_date": "2026-05-01",
-          "net_return_sek": -0.051491448717067456,
-          "gross_return_sek": -0.04673106195771888,
+          "net_return_sek": -0.05149146741875266,
+          "gross_return_sek": -0.046731080753264334,
           "investor_return_sek": 0.03232461524168162,
           "fx_entry": 9.557049751281738,
           "fx_exit": 9.304550170898438
@@ -4302,17 +4301,23 @@
             "VEEV",
             "CRM"
           ],
-          "status": "FAIL_MISSING_NEXT_OPEN_OR_DELISTED_EXIT"
+          "status": "DIAGNOSTIC_ONLY",
+          "entry_date": "2026-09-01",
+          "exit_date": "2026-10-01",
+          "net_return_sek": 0.1442167196945121,
+          "gross_return_sek": 0.14995932909417614,
+          "investor_return_sek": -0.018787878787878798,
+          "fx_entry": 9.60634994506836,
+          "fx_exit": 9.991649627685547
         }
       ]
     },
     "1m_top10": {
       "total_months": 115,
-      "valid_months": 8,
-      "failed_months": 107,
+      "valid_months": 9,
+      "failed_months": 106,
       "failed_status_counts": {
-        "FAIL_INSUFFICIENT_UNIVERSE_COVERAGE": 106,
-        "FAIL_MISSING_NEXT_OPEN_OR_DELISTED_EXIT": 1
+        "FAIL_INSUFFICIENT_UNIVERSE_COVERAGE": 106
       },
       "full_sample_diagnostic": null,
       "holdout_2023plus_diagnostic": null,
@@ -5188,8 +5193,8 @@
           "status": "DIAGNOSTIC_ONLY",
           "entry_date": "2026-01-02",
           "exit_date": "2026-02-02",
-          "net_return_sek": 0.05544630984056087,
-          "gross_return_sek": 0.060743397180229496,
+          "net_return_sek": 0.0554463171270696,
+          "gross_return_sek": 0.06074340450330797,
           "investor_return_sek": 0.029420647390242305,
           "fx_entry": 9.194740295410156,
           "fx_exit": 8.802579879760742
@@ -5216,8 +5221,8 @@
           "status": "DIAGNOSTIC_ONLY",
           "entry_date": "2026-02-02",
           "exit_date": "2026-03-02",
-          "net_return_sek": 0.08588287641453851,
-          "gross_return_sek": 0.09133271918094828,
+          "net_return_sek": 0.08588285409232044,
+          "gross_return_sek": 0.0913326967466992,
           "investor_return_sek": 0.082661590758345,
           "fx_entry": 8.802579879760742,
           "fx_exit": 9.048199653625488
@@ -5244,8 +5249,8 @@
           "status": "DIAGNOSTIC_ONLY",
           "entry_date": "2026-03-02",
           "exit_date": "2026-04-01",
-          "net_return_sek": 0.016147829401289115,
-          "gross_return_sek": 0.0212476850283995,
+          "net_return_sek": 0.016147841723277212,
+          "gross_return_sek": 0.021247697412229472,
           "investor_return_sek": -0.015838638963864615,
           "fx_entry": 9.048199653625488,
           "fx_exit": 9.557049751281738
@@ -5272,8 +5277,8 @@
           "status": "DIAGNOSTIC_ONLY",
           "entry_date": "2026-04-01",
           "exit_date": "2026-05-01",
-          "net_return_sek": 0.047407136899268565,
-          "gross_return_sek": 0.05266387713571483,
+          "net_return_sek": 0.04740711637916095,
+          "gross_return_sek": 0.052663856512620746,
           "investor_return_sek": 0.03232461524168162,
           "fx_entry": 9.557049751281738,
           "fx_exit": 9.304550170898438
@@ -5409,18 +5414,24 @@
             "IT",
             "SNDK"
           ],
-          "status": "FAIL_MISSING_NEXT_OPEN_OR_DELISTED_EXIT"
+          "status": "DIAGNOSTIC_ONLY",
+          "entry_date": "2026-09-01",
+          "exit_date": "2026-10-01",
+          "net_return_sek": 0.10596981381910209,
+          "gross_return_sek": 0.11152046916197947,
+          "investor_return_sek": -0.018787878787878798,
+          "fx_entry": 9.60634994506836,
+          "fx_exit": 9.991649627685547
         }
       ]
     },
     "3m_top5": {
       "total_months": 113,
-      "valid_months": 7,
-      "failed_months": 106,
+      "valid_months": 8,
+      "failed_months": 105,
       "failed_status_counts": {
         "FAIL_INSUFFICIENT_LOOKBACK_COVERAGE": 1,
-        "FAIL_INSUFFICIENT_UNIVERSE_COVERAGE": 104,
-        "FAIL_MISSING_NEXT_OPEN_OR_DELISTED_EXIT": 1
+        "FAIL_INSUFFICIENT_UNIVERSE_COVERAGE": 104
       },
       "full_sample_diagnostic": null,
       "holdout_2023plus_diagnostic": null,
@@ -6284,8 +6295,8 @@
           "status": "DIAGNOSTIC_ONLY",
           "entry_date": "2026-02-02",
           "exit_date": "2026-03-02",
-          "net_return_sek": 0.09858204580799868,
-          "gross_return_sek": 0.10409562332698755,
+          "net_return_sek": 0.09858199446983384,
+          "gross_return_sek": 0.1040955717311662,
           "investor_return_sek": 0.082661590758345,
           "fx_entry": 8.802579879760742,
           "fx_exit": 9.048199653625488
@@ -6307,8 +6318,8 @@
           "status": "DIAGNOSTIC_ONLY",
           "entry_date": "2026-03-02",
           "exit_date": "2026-04-01",
-          "net_return_sek": 0.003808833493802233,
-          "gross_return_sek": 0.008846762011597531,
+          "net_return_sek": 0.0038088125497683922,
+          "gross_return_sek": 0.008846740962449574,
           "investor_return_sek": -0.015838638963864615,
           "fx_entry": 9.048199653625488,
           "fx_exit": 9.557049751281738
@@ -6330,8 +6341,8 @@
           "status": "DIAGNOSTIC_ONLY",
           "entry_date": "2026-04-01",
           "exit_date": "2026-05-01",
-          "net_return_sek": 0.1162591789937153,
-          "gross_return_sek": 0.12186147473316385,
+          "net_return_sek": 0.11625916029202998,
+          "gross_return_sek": 0.1218614559376184,
           "investor_return_sek": 0.03232461524168162,
           "fx_entry": 9.557049751281738,
           "fx_exit": 9.304550170898438
@@ -6442,18 +6453,24 @@
             "MPC",
             "VLO"
           ],
-          "status": "FAIL_MISSING_NEXT_OPEN_OR_DELISTED_EXIT"
+          "status": "DIAGNOSTIC_ONLY",
+          "entry_date": "2026-09-01",
+          "exit_date": "2026-10-01",
+          "net_return_sek": 0.132028259308973,
+          "gross_return_sek": 0.1377096971089105,
+          "investor_return_sek": -0.018787878787878798,
+          "fx_entry": 9.60634994506836,
+          "fx_exit": 9.991649627685547
         }
       ]
     },
     "3m_top10": {
       "total_months": 113,
-      "valid_months": 7,
-      "failed_months": 106,
+      "valid_months": 8,
+      "failed_months": 105,
       "failed_status_counts": {
         "FAIL_INSUFFICIENT_LOOKBACK_COVERAGE": 1,
-        "FAIL_INSUFFICIENT_UNIVERSE_COVERAGE": 104,
-        "FAIL_MISSING_NEXT_OPEN_OR_DELISTED_EXIT": 1
+        "FAIL_INSUFFICIENT_UNIVERSE_COVERAGE": 104
       },
       "full_sample_diagnostic": null,
       "holdout_2023plus_diagnostic": null,
@@ -7322,8 +7339,8 @@
           "status": "DIAGNOSTIC_ONLY",
           "entry_date": "2026-02-02",
           "exit_date": "2026-03-02",
-          "net_return_sek": 0.05940635426411345,
-          "gross_return_sek": 0.06472331632501141,
+          "net_return_sek": 0.05940633426407205,
+          "gross_return_sek": 0.06472329622459362,
           "investor_return_sek": 0.082661590758345,
           "fx_entry": 8.802579879760742,
           "fx_exit": 9.048199653625488
@@ -7350,8 +7367,8 @@
           "status": "DIAGNOSTIC_ONLY",
           "entry_date": "2026-03-02",
           "exit_date": "2026-04-01",
-          "net_return_sek": 0.014629304503034124,
-          "gross_return_sek": 0.019721538938106197,
+          "net_return_sek": 0.014629306364308148,
+          "gross_return_sek": 0.019721540808721693,
           "investor_return_sek": -0.015838638963864615,
           "fx_entry": 9.048199653625488,
           "fx_exit": 9.557049751281738
@@ -7378,8 +7395,8 @@
           "status": "DIAGNOSTIC_ONLY",
           "entry_date": "2026-04-01",
           "exit_date": "2026-05-01",
-          "net_return_sek": 0.04988509786010664,
-          "gross_return_sek": 0.055154274518483225,
+          "net_return_sek": 0.049885095015076875,
+          "gross_return_sek": 0.055154271659174824,
           "investor_return_sek": 0.03232461524168162,
           "fx_entry": 9.557049751281738,
           "fx_exit": 9.304550170898438
@@ -7515,18 +7532,24 @@
             "PSX",
             "EXPE"
           ],
-          "status": "FAIL_MISSING_NEXT_OPEN_OR_DELISTED_EXIT"
+          "status": "DIAGNOSTIC_ONLY",
+          "entry_date": "2026-09-01",
+          "exit_date": "2026-10-01",
+          "net_return_sek": 0.05711115416442336,
+          "gross_return_sek": 0.06241659704592142,
+          "investor_return_sek": -0.018787878787878798,
+          "fx_entry": 9.60634994506836,
+          "fx_exit": 9.991649627685547
         }
       ]
     },
     "6m_top5": {
       "total_months": 110,
-      "valid_months": 7,
-      "failed_months": 103,
+      "valid_months": 8,
+      "failed_months": 102,
       "failed_status_counts": {
         "FAIL_INSUFFICIENT_LOOKBACK_COVERAGE": 1,
-        "FAIL_INSUFFICIENT_UNIVERSE_COVERAGE": 101,
-        "FAIL_MISSING_NEXT_OPEN_OR_DELISTED_EXIT": 1
+        "FAIL_INSUFFICIENT_UNIVERSE_COVERAGE": 101
       },
       "full_sample_diagnostic": null,
       "holdout_2023plus_diagnostic": null,
@@ -8366,8 +8389,8 @@
           "status": "DIAGNOSTIC_ONLY",
           "entry_date": "2026-02-02",
           "exit_date": "2026-03-02",
-          "net_return_sek": 0.0518249319556785,
-          "gross_return_sek": 0.05710384427804187,
+          "net_return_sek": 0.05182489476283991,
+          "gross_return_sek": 0.0571038068985394,
           "investor_return_sek": 0.082661590758345,
           "fx_entry": 8.802579879760742,
           "fx_exit": 9.048199653625488
@@ -8389,8 +8412,8 @@
           "status": "DIAGNOSTIC_ONLY",
           "entry_date": "2026-03-02",
           "exit_date": "2026-04-01",
-          "net_return_sek": 0.0655437629815061,
-          "gross_return_sek": 0.0708915275471949,
+          "net_return_sek": 0.06554378764808821,
+          "gross_return_sek": 0.07089155233757385,
           "investor_return_sek": -0.015838638963864615,
           "fx_entry": 9.048199653625488,
           "fx_exit": 9.557049751281738
@@ -8524,18 +8547,24 @@
             "PANW",
             "CRWD"
           ],
-          "status": "FAIL_MISSING_NEXT_OPEN_OR_DELISTED_EXIT"
+          "status": "DIAGNOSTIC_ONLY",
+          "entry_date": "2026-09-01",
+          "exit_date": "2026-10-01",
+          "net_return_sek": 0.24677105624622686,
+          "gross_return_sek": 0.2530283666521962,
+          "investor_return_sek": -0.018787878787878798,
+          "fx_entry": 9.60634994506836,
+          "fx_exit": 9.991649627685547
         }
       ]
     },
     "6m_top10": {
       "total_months": 110,
-      "valid_months": 7,
-      "failed_months": 103,
+      "valid_months": 8,
+      "failed_months": 102,
       "failed_status_counts": {
         "FAIL_INSUFFICIENT_LOOKBACK_COVERAGE": 1,
-        "FAIL_INSUFFICIENT_UNIVERSE_COVERAGE": 101,
-        "FAIL_MISSING_NEXT_OPEN_OR_DELISTED_EXIT": 1
+        "FAIL_INSUFFICIENT_UNIVERSE_COVERAGE": 101
       },
       "full_sample_diagnostic": null,
       "holdout_2023plus_diagnostic": null,
@@ -9380,8 +9409,8 @@
           "status": "DIAGNOSTIC_ONLY",
           "entry_date": "2026-02-02",
           "exit_date": "2026-03-02",
-          "net_return_sek": 0.08236575385446732,
-          "gross_return_sek": 0.08779794484151968,
+          "net_return_sek": 0.08236572728630498,
+          "gross_return_sek": 0.0877979181400165,
           "investor_return_sek": 0.082661590758345,
           "fx_entry": 8.802579879760742,
           "fx_exit": 9.048199653625488
@@ -9408,8 +9437,8 @@
           "status": "DIAGNOSTIC_ONLY",
           "entry_date": "2026-03-02",
           "exit_date": "2026-04-01",
-          "net_return_sek": 0.0347424147574662,
-          "gross_return_sek": 0.039935593125637305,
+          "net_return_sek": 0.03474242054012966,
+          "gross_return_sek": 0.039935598937322826,
           "investor_return_sek": -0.015838638963864615,
           "fx_entry": 9.048199653625488,
           "fx_exit": 9.557049751281738
@@ -9436,8 +9465,8 @@
           "status": "DIAGNOSTIC_ONLY",
           "entry_date": "2026-04-01",
           "exit_date": "2026-05-01",
-          "net_return_sek": 0.2108979443630039,
-          "gross_return_sek": 0.21697521433961228,
+          "net_return_sek": 0.21089793462253548,
+          "gross_return_sek": 0.2169752045502583,
           "investor_return_sek": 0.03232461524168162,
           "fx_entry": 9.557049751281738,
           "fx_exit": 9.304550170898438
@@ -9573,18 +9602,24 @@
             "MU",
             "FTNT"
           ],
-          "status": "FAIL_MISSING_NEXT_OPEN_OR_DELISTED_EXIT"
+          "status": "DIAGNOSTIC_ONLY",
+          "entry_date": "2026-09-01",
+          "exit_date": "2026-10-01",
+          "net_return_sek": 0.23506226483126347,
+          "gross_return_sek": 0.24126081100622584,
+          "investor_return_sek": -0.018787878787878798,
+          "fx_entry": 9.60634994506836,
+          "fx_exit": 9.991649627685547
         }
       ]
     },
     "12m_top5": {
       "total_months": 104,
-      "valid_months": 6,
-      "failed_months": 98,
+      "valid_months": 7,
+      "failed_months": 97,
       "failed_status_counts": {
         "FAIL_INSUFFICIENT_LOOKBACK_COVERAGE": 2,
-        "FAIL_INSUFFICIENT_UNIVERSE_COVERAGE": 95,
-        "FAIL_MISSING_NEXT_OPEN_OR_DELISTED_EXIT": 1
+        "FAIL_INSUFFICIENT_UNIVERSE_COVERAGE": 95
       },
       "full_sample_diagnostic": null,
       "holdout_2023plus_diagnostic": null,
@@ -10385,8 +10420,8 @@
           "status": "DIAGNOSTIC_ONLY",
           "entry_date": "2026-03-02",
           "exit_date": "2026-04-01",
-          "net_return_sek": 0.0732362004923186,
-          "gross_return_sek": 0.0786225719610489,
+          "net_return_sek": 0.07323622515890049,
+          "gross_return_sek": 0.07862259675142784,
           "investor_return_sek": -0.015838638963864615,
           "fx_entry": 9.048199653625488,
           "fx_exit": 9.557049751281738
@@ -10520,18 +10555,24 @@
             "MRNA",
             "WDC"
           ],
-          "status": "FAIL_MISSING_NEXT_OPEN_OR_DELISTED_EXIT"
+          "status": "DIAGNOSTIC_ONLY",
+          "entry_date": "2026-09-01",
+          "exit_date": "2026-10-01",
+          "net_return_sek": 0.17884102704540727,
+          "gross_return_sek": 0.1847574093583905,
+          "investor_return_sek": -0.018787878787878798,
+          "fx_entry": 9.60634994506836,
+          "fx_exit": 9.991649627685547
         }
       ]
     },
     "12m_top10": {
       "total_months": 104,
-      "valid_months": 6,
-      "failed_months": 98,
+      "valid_months": 7,
+      "failed_months": 97,
       "failed_status_counts": {
         "FAIL_INSUFFICIENT_LOOKBACK_COVERAGE": 2,
-        "FAIL_INSUFFICIENT_UNIVERSE_COVERAGE": 95,
-        "FAIL_MISSING_NEXT_OPEN_OR_DELISTED_EXIT": 1
+        "FAIL_INSUFFICIENT_UNIVERSE_COVERAGE": 95
       },
       "full_sample_diagnostic": null,
       "holdout_2023plus_diagnostic": null,
@@ -11337,8 +11378,8 @@
           "status": "DIAGNOSTIC_ONLY",
           "entry_date": "2026-03-02",
           "exit_date": "2026-04-01",
-          "net_return_sek": 0.02660501629417933,
-          "gross_return_sek": 0.03175735458363106,
+          "net_return_sek": 0.026605032827691222,
+          "gross_return_sek": 0.03175737120012175,
           "investor_return_sek": -0.015838638963864615,
           "fx_entry": 9.048199653625488,
           "fx_exit": 9.557049751281738
@@ -11365,8 +11406,8 @@
           "status": "DIAGNOSTIC_ONLY",
           "entry_date": "2026-04-01",
           "exit_date": "2026-05-01",
-          "net_return_sek": 0.3394277149897562,
-          "gross_return_sek": 0.3461500518109873,
+          "net_return_sek": 0.3394277052492878,
+          "gross_return_sek": 0.3461500420216333,
           "investor_return_sek": 0.03232461524168162,
           "fx_entry": 9.557049751281738,
           "fx_exit": 9.304550170898438
@@ -11393,8 +11434,8 @@
           "status": "DIAGNOSTIC_ONLY",
           "entry_date": "2026-05-01",
           "exit_date": "2026-06-01",
-          "net_return_sek": 0.23853518752093072,
-          "gross_return_sek": 0.24475116364437985,
+          "net_return_sek": 0.23853519685778557,
+          "gross_return_sek": 0.24475117302809446,
           "investor_return_sek": 0.024933505768158115,
           "fx_entry": 9.304550170898438,
           "fx_exit": 9.249110221862793
@@ -11502,7 +11543,14 @@
             "INTC",
             "MRVL"
           ],
-          "status": "FAIL_MISSING_NEXT_OPEN_OR_DELISTED_EXIT"
+          "status": "DIAGNOSTIC_ONLY",
+          "entry_date": "2026-09-01",
+          "exit_date": "2026-10-01",
+          "net_return_sek": 0.20154859173554684,
+          "gross_return_sek": 0.20757893906248998,
+          "investor_return_sek": -0.018787878787878798,
+          "fx_entry": 9.60634994506836,
+          "fx_exit": 9.991649627685547
         }
       ]
     }
