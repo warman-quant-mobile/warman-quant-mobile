@@ -27,171 +27,171 @@
     "stop_atr": 1.5,
     "horizon": 120
   },
-  "final_test_start": "2024-08-16",
+  "final_test_start": "2024-08-20",
   "robustness": {
     "20": {
       "trail20": {
-        "n": 3196,
-        "pooled_mean_r": 0.181,
+        "n": 3197,
+        "pooled_mean_r": 0.163,
         "seed_mean_r": [
-          0.288,
-          0.35,
-          0.12,
-          0.031,
-          0.388,
-          0.371,
-          -0.004,
-          -0.111,
-          0.166,
-          0.209
+          0.3,
+          0.445,
+          -0.009,
+          0.087,
+          0.413,
+          0.3,
+          -0.116,
+          -0.032,
+          0.051,
+          0.188
         ],
-        "positive_seeds": 8,
-        "min_seed": -0.111,
-        "max_seed": 0.388
+        "positive_seeds": 7,
+        "min_seed": -0.116,
+        "max_seed": 0.445
       },
       "be2_trail20": {
-        "n": 3196,
-        "pooled_mean_r": 0.182,
+        "n": 3197,
+        "pooled_mean_r": 0.125,
         "seed_mean_r": [
           0.274,
-          0.39,
-          0.125,
-          0.021,
-          0.369,
-          0.366,
-          -0.005,
-          -0.134,
-          0.198,
-          0.217
+          0.457,
+          -0.047,
+          0.086,
+          0.305,
+          0.084,
+          -0.124,
+          -0.054,
+          0.076,
+          0.189
         ],
-        "positive_seeds": 8,
-        "min_seed": -0.134,
-        "max_seed": 0.39
+        "positive_seeds": 7,
+        "min_seed": -0.124,
+        "max_seed": 0.457
       }
     },
     "50": {
       "trail20": {
-        "n": 3196,
-        "pooled_mean_r": 0.082,
+        "n": 3197,
+        "pooled_mean_r": 0.066,
         "seed_mean_r": [
-          0.174,
-          0.23,
-          0.032,
-          -0.054,
-          0.267,
-          0.255,
-          -0.083,
-          -0.182,
-          0.072,
-          0.11
+          0.188,
+          0.317,
+          -0.082,
+          -0.005,
+          0.285,
+          0.188,
+          -0.186,
+          -0.108,
+          -0.032,
+          0.091
         ],
-        "positive_seeds": 7,
-        "min_seed": -0.182,
-        "max_seed": 0.267
+        "positive_seeds": 5,
+        "min_seed": -0.186,
+        "max_seed": 0.317
       },
       "be2_trail20": {
-        "n": 3196,
-        "pooled_mean_r": 0.081,
+        "n": 3197,
+        "pooled_mean_r": 0.032,
         "seed_mean_r": [
-          0.151,
-          0.257,
-          0.042,
-          -0.061,
-          0.268,
-          0.258,
-          -0.098,
-          -0.207,
-          0.082,
-          0.113
+          0.159,
+          0.336,
+          -0.084,
+          -0.012,
+          0.185,
+          0.007,
+          -0.199,
+          -0.136,
+          -0.022,
+          0.085
         ],
-        "positive_seeds": 7,
-        "min_seed": -0.207,
-        "max_seed": 0.268
+        "positive_seeds": 5,
+        "min_seed": -0.199,
+        "max_seed": 0.336
       }
     },
     "100": {
       "trail20": {
-        "n": 3196,
-        "pooled_mean_r": -0.047,
+        "n": 3197,
+        "pooled_mean_r": -0.061,
         "seed_mean_r": [
-          0.027,
-          0.073,
-          -0.083,
-          -0.167,
-          0.11,
-          0.103,
-          -0.186,
-          -0.275,
-          -0.052,
-          -0.02
+          0.043,
+          0.15,
+          -0.181,
+          -0.125,
+          0.12,
+          0.043,
+          -0.277,
+          -0.208,
+          -0.142,
+          -0.036
         ],
         "positive_seeds": 4,
-        "min_seed": -0.275,
-        "max_seed": 0.11
+        "min_seed": -0.277,
+        "max_seed": 0.15
       },
       "be2_trail20": {
-        "n": 3196,
-        "pooled_mean_r": -0.051,
+        "n": 3197,
+        "pooled_mean_r": -0.091,
         "seed_mean_r": [
-          -0.003,
-          0.091,
-          -0.083,
-          -0.163,
-          0.101,
-          0.098,
-          -0.194,
-          -0.307,
-          -0.042,
-          -0.011
+          0.032,
+          0.161,
+          -0.182,
+          -0.127,
+          0.02,
+          -0.117,
+          -0.293,
+          -0.237,
+          -0.133,
+          -0.036
         ],
         "positive_seeds": 3,
-        "min_seed": -0.307,
-        "max_seed": 0.101
+        "min_seed": -0.293,
+        "max_seed": 0.161
       }
     }
   },
   "side_attribution_20bps": {
     "trail20": {
-      "LONG": 0.832,
-      "SHORT": -0.493
+      "LONG": 0.796,
+      "SHORT": -0.491
     },
     "be2_trail20": {
-      "LONG": 0.828,
-      "SHORT": -0.485
+      "LONG": 0.718,
+      "SHORT": -0.488
     }
   },
   "symbol_attribution_20bps": {
     "trail20": {
-      "SP500": -0.049,
-      "GOLD_FUT": 0.93,
-      "SILVER_FUT": 2.821,
-      "WTI_FUT": 0.097,
-      "BRENT_FUT": -0.07,
-      "INVESTOR_B": -0.143,
-      "VOLVO_B": 0.111,
-      "ATLAS_A": -0.27,
-      "ABB": -0.014,
-      "NVIDIA": -0.206,
-      "MICROSOFT": 0.012,
-      "APPLE": -0.449,
-      "TESLA": 0.283,
+      "SP500": -0.053,
+      "GOLD_FUT": 0.949,
+      "SILVER_FUT": 2.967,
+      "WTI_FUT": -0.084,
+      "BRENT_FUT": -0.033,
+      "INVESTOR_B": -0.379,
+      "VOLVO_B": 0.12,
+      "ATLAS_A": -0.372,
+      "ABB": 0.051,
+      "NVIDIA": -0.207,
+      "MICROSOFT": 0.002,
+      "APPLE": -0.437,
+      "TESLA": 0.277,
       "AMAZON": -0.007,
       "META": -0.37
     },
     "be2_trail20": {
-      "SP500": -0.034,
-      "GOLD_FUT": 0.914,
-      "SILVER_FUT": 2.894,
-      "WTI_FUT": 0.099,
-      "BRENT_FUT": -0.101,
-      "INVESTOR_B": -0.136,
-      "VOLVO_B": 0.069,
-      "ATLAS_A": -0.246,
-      "ABB": 0.027,
-      "NVIDIA": -0.179,
-      "MICROSOFT": -0.064,
-      "APPLE": -0.405,
-      "TESLA": 0.247,
+      "SP500": -0.039,
+      "GOLD_FUT": 0.853,
+      "SILVER_FUT": 2.544,
+      "WTI_FUT": -0.08,
+      "BRENT_FUT": -0.148,
+      "INVESTOR_B": -0.357,
+      "VOLVO_B": 0.108,
+      "ATLAS_A": -0.337,
+      "ABB": 0.109,
+      "NVIDIA": -0.19,
+      "MICROSOFT": -0.072,
+      "APPLE": -0.393,
+      "TESLA": 0.241,
       "AMAZON": -0.039,
       "META": -0.347
     }
@@ -201,7 +201,7 @@
     "schema_version": 1,
     "engine": "random_entry_exit_robustness",
     "dataset": {
-      "manifest_sha256": "316b4aefc1714d7876d1b206c87ebaf0e2d27f165e9cdef7fe86d1e9fca0d1d5",
+      "manifest_sha256": "0126c4b39f1c786c42bd04a8883a6637fb815cb1325ae122d0afa638ec7dc273",
       "manifest_bytes": 27656
     },
     "model_version": "robustness-v1-frozen-2026-09-30",

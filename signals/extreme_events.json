@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at_utc": "2026-10-22T17:09:28.088678+00:00",
+  "generated_at_utc": "2026-10-23T01:20:03.291819+00:00",
   "status": "RESEARCH_ONLY",
   "parameters": {
     "gap_abs_pct": 3,
@@ -8,15 +8,69 @@
     "daily_range_atr": 2.5
   },
   "observations": {
-    "WTI_FUT": {
-      "session_date": "2026-10-21",
+    "SILVER_FUT": {
+      "session_date": "2026-10-22",
       "events": [
         {
           "type": "GAP",
           "direction": "DOWN",
-          "magnitude_pct": -3.54,
+          "magnitude_pct": -4.75,
           "subtype": "GAP_CONTINUATION_WATCH",
           "note": "Requires independently verified catalyst and actual bid/ask; never infer earnings from price."
+        },
+        {
+          "type": "EXTREME_DAILY_RETURN",
+          "direction": "DOWN",
+          "magnitude_pct": -5.27,
+          "note": "Magnitude alone is not an entry signal."
+        }
+      ]
+    },
+    "BRENT_FUT": {
+      "session_date": "2026-10-22",
+      "events": [
+        {
+          "type": "GAP",
+          "direction": "UP",
+          "magnitude_pct": 3.62,
+          "subtype": "GAP_CONTINUATION_WATCH",
+          "note": "Requires independently verified catalyst and actual bid/ask; never infer earnings from price."
+        }
+      ]
+    },
+    "VIX": {
+      "session_date": "2026-10-22",
+      "events": [
+        {
+          "type": "GAP",
+          "direction": "UP",
+          "magnitude_pct": 9.65,
+          "subtype": "GAP_CONTINUATION_WATCH",
+          "note": "Requires independently verified catalyst and actual bid/ask; never infer earnings from price."
+        },
+        {
+          "type": "EXTREME_DAILY_RETURN",
+          "direction": "UP",
+          "magnitude_pct": 14.09,
+          "note": "Magnitude alone is not an entry signal."
+        }
+      ]
+    },
+    "GVZ": {
+      "session_date": "2026-10-22",
+      "events": [
+        {
+          "type": "GAP",
+          "direction": "UP",
+          "magnitude_pct": 4.59,
+          "subtype": "GAP_CONTINUATION_WATCH",
+          "note": "Requires independently verified catalyst and actual bid/ask; never infer earnings from price."
+        },
+        {
+          "type": "EXTREME_DAILY_RETURN",
+          "direction": "UP",
+          "magnitude_pct": 13.06,
+          "note": "Magnitude alone is not an entry signal."
         }
       ]
     }
