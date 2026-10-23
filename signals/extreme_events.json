@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at_utc": "2026-10-23T08:14:47.750547+00:00",
+  "generated_at_utc": "2026-10-23T17:12:02.248611+00:00",
   "status": "RESEARCH_ONLY",
   "parameters": {
     "gap_abs_pct": 3,
@@ -40,6 +40,17 @@
           "type": "EXTREME_DAILY_RETURN",
           "direction": "UP",
           "magnitude_pct": 13.06,
+          "note": "Magnitude alone is not an entry signal."
+        }
+      ]
+    },
+    "ATLAS_A": {
+      "session_date": "2026-10-22",
+      "events": [
+        {
+          "type": "EXTREME_DAILY_RETURN",
+          "direction": "DOWN",
+          "magnitude_pct": -7.7,
           "note": "Magnitude alone is not an entry signal."
         }
       ]
