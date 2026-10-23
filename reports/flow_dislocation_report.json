@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-23T00:54:02.637780+00:00",
+  "generated_at": "2026-10-23T01:46:14.447058+00:00",
   "research_only": true,
   "validated_edge": false,
   "roundtrip_cost_bps": 20,
@@ -1050,10 +1050,10 @@
         "win_rate": 0.547
       },
       "holdout": {
-        "n": 23,
-        "mean_net_pct": 2.4285,
-        "profit_factor": 3.646,
-        "win_rate": 0.783
+        "n": 22,
+        "mean_net_pct": 2.5197,
+        "profit_factor": 3.626,
+        "win_rate": 0.773
       },
       "sufficient_sample": true
     },
@@ -1069,10 +1069,10 @@
         "win_rate": 0.531
       },
       "holdout": {
-        "n": 21,
-        "mean_net_pct": 3.5443,
-        "profit_factor": 3.249,
-        "win_rate": 0.571
+        "n": 20,
+        "mean_net_pct": 3.8434,
+        "profit_factor": 3.507,
+        "win_rate": 0.6
       },
       "sufficient_sample": true
     },
@@ -1088,10 +1088,10 @@
         "win_rate": 0.649
       },
       "holdout": {
-        "n": 18,
-        "mean_net_pct": 5.8365,
-        "profit_factor": 8.84,
-        "win_rate": 0.722
+        "n": 17,
+        "mean_net_pct": 6.1205,
+        "profit_factor": 8.764,
+        "win_rate": 0.706
       },
       "sufficient_sample": true
     },
@@ -1120,10 +1120,10 @@
       "family": "breakout",
       "hold_sessions": 5,
       "train": {
-        "n": 74,
-        "mean_net_pct": 1.2228,
-        "profit_factor": 1.71,
-        "win_rate": 0.608
+        "n": 75,
+        "mean_net_pct": 1.0908,
+        "profit_factor": 1.601,
+        "win_rate": 0.6
       },
       "holdout": {
         "n": 33,
@@ -1576,10 +1576,10 @@
       "family": "breakout",
       "hold_sessions": 5,
       "train": {
-        "n": 87,
-        "mean_net_pct": 0.4329,
-        "profit_factor": 1.38,
-        "win_rate": 0.632
+        "n": 88,
+        "mean_net_pct": 0.4002,
+        "profit_factor": 1.347,
+        "win_rate": 0.625
       },
       "holdout": {
         "n": 31,
@@ -2057,10 +2057,10 @@
         "win_rate": 0.672
       },
       "holdout": {
-        "n": 21,
-        "mean_net_pct": 1.0191,
-        "profit_factor": 1.53,
-        "win_rate": 0.524
+        "n": 22,
+        "mean_net_pct": 0.9364,
+        "profit_factor": 1.5,
+        "win_rate": 0.5
       },
       "sufficient_sample": true
     }
