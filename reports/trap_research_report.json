@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-23T12:48:46.303599+00:00",
+  "generated_at": "2026-10-23T13:48:52.964643+00:00",
   "validated_edge": false,
   "research_only": true,
   "split_date": "2023-10-18",
@@ -14,11 +14,11 @@
         "mean_R": -0.262
       },
       "holdout": {
-        "n": 206,
-        "mean_net_pct": -0.302,
-        "profit_factor": 0.701,
-        "win_rate": 0.417,
-        "mean_R": -0.229
+        "n": 207,
+        "mean_net_pct": -0.319,
+        "profit_factor": 0.688,
+        "win_rate": 0.415,
+        "mean_R": -0.233
       },
       "holdout_trades": [
         {
@@ -892,6 +892,15 @@
           "exit_date": "2026-10-14",
           "return": -0.013951985252836693,
           "R": -1.2739229400644994,
+          "reason": "stop"
+        },
+        {
+          "symbol": "NVIDIA",
+          "signal_date": "2026-10-20",
+          "entry_date": "2026-10-21",
+          "exit_date": "2026-10-22",
+          "return": -0.04006554214587765,
+          "R": -1.0809377072698145,
           "reason": "stop"
         },
         {
@@ -3758,11 +3767,11 @@
         "mean_R": -0.207
       },
       "holdout": {
-        "n": 127,
-        "mean_net_pct": -0.111,
-        "profit_factor": 0.889,
-        "win_rate": 0.48,
-        "mean_R": -0.109
+        "n": 128,
+        "mean_net_pct": -0.141,
+        "profit_factor": 0.861,
+        "win_rate": 0.477,
+        "mean_R": -0.117
       },
       "holdout_trades": [
         {
@@ -4295,6 +4304,15 @@
           "return": 0.000447353090468507,
           "R": 0.026112939976474733,
           "reason": "time_exit_close"
+        },
+        {
+          "symbol": "NVIDIA",
+          "signal_date": "2026-10-20",
+          "entry_date": "2026-10-21",
+          "exit_date": "2026-10-22",
+          "return": -0.04006554214587765,
+          "R": -1.0809377072698145,
+          "reason": "stop"
         },
         {
           "symbol": "MICROSOFT",
@@ -4919,11 +4937,11 @@
         "mean_R": -0.141
       },
       "holdout": {
-        "n": 126,
-        "mean_net_pct": -0.393,
-        "profit_factor": 0.747,
-        "win_rate": 0.373,
-        "mean_R": -0.157
+        "n": 127,
+        "mean_net_pct": -0.406,
+        "profit_factor": 0.739,
+        "win_rate": 0.37,
+        "mean_R": -0.165
       },
       "holdout_trades": [
         {
@@ -5447,6 +5465,15 @@
           "return": -0.0035717542524280593,
           "R": -0.09468986521407444,
           "reason": "time_exit_close"
+        },
+        {
+          "symbol": "NVIDIA",
+          "signal_date": "2026-10-15",
+          "entry_date": "2026-10-16",
+          "exit_date": "2026-10-20",
+          "return": -0.020131471633279437,
+          "R": -1.1751163043209996,
+          "reason": "stop"
         },
         {
           "symbol": "MICROSOFT",
