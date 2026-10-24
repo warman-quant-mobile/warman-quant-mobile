@@ -18,6 +18,8 @@ jobs:
           python-version: '3.11'
       - name: Dependencies
         run: pip install pandas numpy yfinance requests
+      - name: Research integrity self-tests
+        run: python momentum_leaders.py --self-test
       - name: Research backtest
         run: python momentum_leaders.py
       - name: Publish report
