@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "status": "RESEARCH_ONLY",
-  "generated_at_utc": "2026-10-23T01:24:52.291940+00:00",
+  "generated_at_utc": "2026-10-24T01:27:05.392572+00:00",
   "rules": [
     "turtle_55",
     "volatility_contraction",
@@ -529,8 +529,8 @@
         "insufficient_sample": true
       },
       "failed_breakout": {
-        "events": 32,
-        "mean_realized_r": -0.111,
+        "events": 33,
+        "mean_realized_r": -0.138,
         "reached_5r_mfe": 0,
         "reached_10r_mfe": 0,
         "reached_15r_mfe": 0,

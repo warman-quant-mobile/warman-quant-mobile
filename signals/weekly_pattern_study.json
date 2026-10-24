@@ -22,24 +22,24 @@
   "splits": {
     "train": {
       "start": 0,
-      "end": 27
+      "end": 28
     },
     "validation": {
-      "start": 27,
-      "end": 36
+      "start": 28,
+      "end": 37
     },
     "final_test": {
-      "start": 36,
-      "end": 46
+      "start": 37,
+      "end": 47
     }
   },
   "summary": {
     "weekly": {
       "train": {
-        "n": 27,
-        "mean_r": -0.201,
+        "n": 28,
+        "mean_r": -0.23,
         "median_r": -1.0,
-        "stops": 23,
+        "stops": 24,
         "measured_target_hits": 3,
         "hit_3r_before_stop": 4,
         "hit_5r_before_stop": 3,
@@ -61,9 +61,9 @@
       },
       "final_test": {
         "n": 10,
-        "mean_r": 0.412,
+        "mean_r": 0.561,
         "median_r": -1.0,
-        "stops": 7,
+        "stops": 6,
         "measured_target_hits": 1,
         "hit_3r_before_stop": 3,
         "hit_5r_before_stop": 2,
@@ -1457,6 +1457,31 @@
         "exit_reason": "STOP",
         "measured_target_r": 5.92
       }
+    },
+    {
+      "symbol": "NASDAQ100",
+      "breakout_week": "2026-10-16",
+      "side": "SHORT",
+      "window": 40,
+      "compression": 0.013,
+      "r2_high": 0.996,
+      "r2_low": 0.765,
+      "weekly": {
+        "risk": 1073.71458,
+        "realized_r": 0.487,
+        "mfe_r": 0.61,
+        "mae_r": 0.417,
+        "fixed_r_before_stop": {
+          "3": false,
+          "5": false,
+          "10": false,
+          "15": false,
+          "20": false
+        },
+        "exit_reason": "TIMEOUT",
+        "measured_target_r": 4.848
+      },
+      "weekly_context_daily_retest": null
     }
   ],
   "note": "Corrected frozen baseline. v1 is invalid and must not be used as evidence: it failed to exit at stops and could credit targets on ambiguous stop bars.",
@@ -1464,8 +1489,8 @@
     "schema_version": 1,
     "engine": "weekly_pattern_mtf_v2",
     "dataset": {
-      "manifest_sha256": "0126c4b39f1c786c42bd04a8883a6637fb815cb1325ae122d0afa638ec7dc273",
-      "manifest_bytes": 27656
+      "manifest_sha256": "4820cca89dada8aeeac6a522ef3da09548c2caf62eb142ed0f7c2a77afb0ebda",
+      "manifest_bytes": 27691
     },
     "model_version": "rules-v2-corrected-2026-09-30",
     "reproducibility": {

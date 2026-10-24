@@ -17,7 +17,7 @@
     "atr_pct"
   ],
   "split": {
-    "train": 186,
+    "train": 185,
     "validation": 62,
     "final_test": 62,
     "rule": "60/20/20 chronological; final test untouched by fitting"
@@ -37,26 +37,26 @@
       "final_test": {
         "n": 62,
         "base_rate": 0.0806,
-        "brier": 0.0874,
+        "brier": 0.0877,
         "top_quartile_n": 15,
         "top_quartile_hit_rate": 0.2,
-        "top_quartile_mean_realized_r": -1.196,
+        "top_quartile_mean_realized_r": -1.167,
         "top_quartile_median_realized_r": -1.0
       },
       "coefficients": {
-        "intercept": -1.9657,
-        "geometric_r": 0.3339,
-        "compression": 0.0003,
-        "r2_high": -0.0335,
-        "r2_low": -0.1241,
-        "slope_high_atr": -0.103,
-        "slope_low_atr": 0.0208,
-        "touches_high": -0.1676,
-        "touches_low": 0.2751,
-        "breakout_strength_atr": -0.3954,
-        "trend20_signed": -0.0798,
-        "gap_atr": -0.3206,
-        "atr_pct": 0.2017
+        "intercept": -1.9612,
+        "geometric_r": 0.3314,
+        "compression": -0.0078,
+        "r2_high": -0.0378,
+        "r2_low": -0.1207,
+        "slope_high_atr": -0.1054,
+        "slope_low_atr": 0.0215,
+        "touches_high": -0.1735,
+        "touches_low": 0.2728,
+        "breakout_strength_atr": -0.3925,
+        "trend20_signed": -0.0764,
+        "gap_atr": -0.3246,
+        "atr_pct": 0.2095
       }
     },
     "10": {
@@ -80,19 +80,19 @@
         "top_quartile_median_realized_r": -1.0
       },
       "coefficients": {
-        "intercept": -2.9562,
-        "geometric_r": 0.1094,
-        "compression": -0.1772,
-        "r2_high": -0.0522,
-        "r2_low": -0.1729,
-        "slope_high_atr": -0.0936,
-        "slope_low_atr": 0.0526,
-        "touches_high": 0.0339,
-        "touches_low": 0.051,
-        "breakout_strength_atr": -0.0982,
-        "trend20_signed": -0.0284,
-        "gap_atr": -0.0594,
-        "atr_pct": -0.0074
+        "intercept": -2.9554,
+        "geometric_r": 0.1092,
+        "compression": -0.1792,
+        "r2_high": -0.053,
+        "r2_low": -0.1726,
+        "slope_high_atr": -0.0942,
+        "slope_low_atr": 0.0527,
+        "touches_high": 0.0329,
+        "touches_low": 0.0504,
+        "breakout_strength_atr": -0.0979,
+        "trend20_signed": -0.028,
+        "gap_atr": -0.0602,
+        "atr_pct": -0.0055
       }
     },
     "15": {
@@ -105,8 +105,8 @@
     "schema_version": 1,
     "engine": "pattern_ranker",
     "dataset": {
-      "manifest_sha256": "0126c4b39f1c786c42bd04a8883a6637fb815cb1325ae122d0afa638ec7dc273",
-      "manifest_bytes": 27656
+      "manifest_sha256": "4820cca89dada8aeeac6a522ef3da09548c2caf62eb142ed0f7c2a77afb0ebda",
+      "manifest_bytes": 27691
     },
     "model_version": "logit-v1-frozen-2026-09-30",
     "reproducibility": {

@@ -1,15 +1,15 @@
 {
   "status": "RESEARCH_WATCH_ONLY",
-  "generated_at_utc": "2026-10-23T17:12:04.051008+00:00",
+  "generated_at_utc": "2026-10-24T01:30:37.255441+00:00",
   "observations": [
     {
-      "symbol": "WTI_FUT",
-      "bar_start_utc": "2026-10-23T16:00:00+00:00",
+      "symbol": "US30Y_BOND_FUT",
+      "bar_start_utc": "2026-10-23T20:00:00+00:00",
       "events": [
-        "FAILED_HIGH_20H"
+        "FAILED_LOW_20H"
       ],
       "gap_pct": 0.0,
-      "hourly_move_pct": -0.12,
+      "hourly_move_pct": 0.06,
       "status": "INTRADAY_WATCH_NOT_ORDER"
     }
   ],
