@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-26T07:57:58.533392+00:00",
+  "generated_at": "2026-10-26T08:52:32.804856+00:00",
   "research_only": true,
   "validated_edge": false,
   "capital": 100000,
@@ -10,7 +10,7 @@
     "ABB",
     "OMXS30"
   ],
-  "split_date": "2023-10-19",
+  "split_date": "2023-10-20",
   "rules": "Prior-close 20-day breakout; next-open entry; one long position; strongest breakout; 2/3 ATR trailing stop after close; full cash allocation; gap-aware stops; 20bp total costs",
   "limitations": "Survivorship, no ETP financing, no intraday stop execution proof, selection bias; benchmark excludes dividends; stop parameter comparison is exploratory",
   "results": {
@@ -30,8 +30,8 @@
       "holdout_portfolio_return": 0.2106,
       "holdout_max_drawdown": 0.2058,
       "holdout_benchmarks_price_only": {
-        "INVESTOR_B": 0.9619,
-        "OMXS30": 0.4967
+        "INVESTOR_B": 1.0602,
+        "OMXS30": 0.5285
       },
       "trades": [
         {
@@ -966,16 +966,6 @@
         }
       ],
       "equity": [
-        {
-          "date": "2016-10-24",
-          "equity": 100000.0,
-          "drawdown": 0.0
-        },
-        {
-          "date": "2016-10-25",
-          "equity": 100000.0,
-          "drawdown": 0.0
-        },
         {
           "date": "2016-10-26",
           "equity": 100000.0,
@@ -13545,10 +13535,10 @@
     },
     "3.0": {
       "train": {
-        "n": 31,
-        "profit_factor": 2.18,
-        "mean_net_pct": 2.508,
-        "win_rate": 0.355
+        "n": 32,
+        "profit_factor": 2.049,
+        "mean_net_pct": 2.297,
+        "win_rate": 0.344
       },
       "holdout": {
         "n": 16,
@@ -13559,8 +13549,8 @@
       "holdout_portfolio_return": 0.2402,
       "holdout_max_drawdown": 0.2695,
       "holdout_benchmarks_price_only": {
-        "INVESTOR_B": 0.9619,
-        "OMXS30": 0.4967
+        "INVESTOR_B": 1.0602,
+        "OMXS30": 0.5285
       },
       "trades": [
         {
@@ -14045,16 +14035,6 @@
         }
       ],
       "equity": [
-        {
-          "date": "2016-10-24",
-          "equity": 100000.0,
-          "drawdown": 0.0
-        },
-        {
-          "date": "2016-10-25",
-          "equity": 100000.0,
-          "drawdown": 0.0
-        },
         {
           "date": "2016-10-26",
           "equity": 100000.0,
