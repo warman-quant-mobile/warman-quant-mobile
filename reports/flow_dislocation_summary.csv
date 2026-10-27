@@ -89,12 +89,12 @@ META,relative_reversal,10,15,1.7347,8,2.8005,2.234,False
 META,relative_momentum,3,10,-0.5691,8,0.8809,2.137,False
 META,relative_momentum,5,10,-1.4285,8,-0.4691,0.718,False
 META,relative_momentum,10,10,-2.4841,7,1.1635,1.404,False
-META,weekly_close_reversal,3,37,0.8627,18,1.2137,2.127,True
+META,weekly_close_reversal,3,37,0.8627,19,0.6923,1.468,True
 META,weekly_close_reversal,5,32,0.8543,17,1.7359,1.944,True
 META,weekly_close_reversal,10,28,2.9589,14,0.8678,1.417,False
 META,breakout,3,83,-0.1336,34,0.5961,1.585,True
 META,breakout,5,71,0.1061,28,0.1554,1.102,True
-META,breakout,10,56,1.6648,23,0.8365,1.378,True
+META,breakout,10,57,1.6153,23,0.8365,1.378,True
 AMAZON,relative_reversal,3,6,0.912,3,-0.0257,0.983,False
 AMAZON,relative_reversal,5,5,-1.9479,3,-1.5026,0.477,False
 AMAZON,relative_reversal,10,5,0.1518,3,1.7248,2.972,False
