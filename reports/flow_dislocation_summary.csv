@@ -36,7 +36,7 @@ ATLAS_A,breakout,3,78,-0.0414,30,-0.1822,0.795,True
 ATLAS_A,breakout,5,69,-0.3654,26,0.2325,1.269,True
 ATLAS_A,breakout,10,52,0.2513,21,0.5358,1.428,True
 ABB,relative_reversal,3,1,0.0472,4,-2.3102,0.26,False
-ABB,relative_reversal,5,1,-0.4119,3,-0.4619,0.644,False
+ABB,relative_reversal,5,1,-0.4119,4,-2.7585,0.185,False
 ABB,relative_reversal,10,1,4.8141,3,-0.7011,0.289,False
 ABB,relative_momentum,3,2,-0.0652,4,-0.1237,0.856,False
 ABB,relative_momentum,5,2,0.333,4,-0.1023,0.753,False
