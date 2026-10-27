@@ -61,7 +61,7 @@
       },
       "final_test": {
         "n": 10,
-        "mean_r": 0.561,
+        "mean_r": 0.433,
         "median_r": -1.0,
         "stops": 6,
         "measured_target_hits": 1,
@@ -1429,7 +1429,7 @@
       "r2_low": 0.881,
       "weekly": {
         "risk": 8.2887,
-        "realized_r": 3.313,
+        "realized_r": 2.034,
         "mfe_r": 3.82,
         "mae_r": 0.934,
         "fixed_r_before_stop": {
@@ -1489,8 +1489,8 @@
     "schema_version": 1,
     "engine": "weekly_pattern_mtf_v2",
     "dataset": {
-      "manifest_sha256": "4820cca89dada8aeeac6a522ef3da09548c2caf62eb142ed0f7c2a77afb0ebda",
-      "manifest_bytes": 27691
+      "manifest_sha256": "3db6f208342143c6e860ae308207c3779d55031741954b365649673b65e0d5f7",
+      "manifest_bytes": 27652
     },
     "model_version": "rules-v2-corrected-2026-09-30",
     "reproducibility": {

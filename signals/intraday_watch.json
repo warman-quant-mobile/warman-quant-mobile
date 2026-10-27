@@ -1,35 +1,15 @@
 {
   "status": "RESEARCH_WATCH_ONLY",
-  "generated_at_utc": "2026-10-26T17:21:23.489059+00:00",
+  "generated_at_utc": "2026-10-27T01:31:05.960807+00:00",
   "observations": [
     {
-      "symbol": "BRENT_FUT",
-      "bar_start_utc": "2026-10-26T16:00:00+00:00",
+      "symbol": "META",
+      "bar_start_utc": "2026-10-26T19:30:00+00:00",
       "events": [
-        "FAILED_HIGH_20H"
+        "FAILED_LOW_20H"
       ],
-      "gap_pct": -0.01,
-      "hourly_move_pct": -0.42,
-      "status": "INTRADAY_WATCH_NOT_ORDER"
-    },
-    {
-      "symbol": "OVX",
-      "bar_start_utc": "2026-10-26T16:30:00+00:00",
-      "events": [
-        "FAILED_HIGH_20H"
-      ],
-      "gap_pct": 0.03,
-      "hourly_move_pct": -0.46,
-      "status": "INTRADAY_WATCH_NOT_ORDER"
-    },
-    {
-      "symbol": "TESLA",
-      "bar_start_utc": "2026-10-26T16:30:00+00:00",
-      "events": [
-        "FAILED_HIGH_20H"
-      ],
-      "gap_pct": 0.0,
-      "hourly_move_pct": 0.45,
+      "gap_pct": -0.02,
+      "hourly_move_pct": -0.04,
       "status": "INTRADAY_WATCH_NOT_ORDER"
     }
   ],
