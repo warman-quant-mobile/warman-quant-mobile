@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-28T10:52:40.109020+00:00",
+  "generated_at": "2026-10-28T17:10:44.390416+00:00",
   "validated_edge": false,
   "research_only": true,
   "split_date": "2023-10-23",
@@ -14,11 +14,11 @@
         "mean_R": -0.259
       },
       "holdout": {
-        "n": 208,
+        "n": 210,
         "mean_net_pct": -0.307,
-        "profit_factor": 0.698,
-        "win_rate": 0.418,
-        "mean_R": -0.224
+        "profit_factor": 0.697,
+        "win_rate": 0.419,
+        "mean_R": -0.227
       },
       "holdout_trades": [
         {
@@ -1147,6 +1147,15 @@
           "reason": "time_exit_close"
         },
         {
+          "symbol": "MICROSOFT",
+          "signal_date": "2026-10-23",
+          "entry_date": "2026-10-26",
+          "exit_date": "2026-10-27",
+          "return": 0.005451635369466469,
+          "R": 0.2457427031764381,
+          "reason": "time_exit_close"
+        },
+        {
           "symbol": "APPLE",
           "signal_date": "2023-10-23",
           "entry_date": "2023-10-24",
@@ -1892,6 +1901,15 @@
           "return": 0.0033935682259653727,
           "R": 0.19174727138596223,
           "reason": "time_exit_close"
+        },
+        {
+          "symbol": "META",
+          "signal_date": "2026-10-23",
+          "entry_date": "2026-10-26",
+          "exit_date": "2026-10-26",
+          "return": -0.010973503880430942,
+          "R": -1.3762461328153148,
+          "reason": "stop"
         }
       ]
     },
@@ -1904,11 +1922,11 @@
         "mean_R": -0.129
       },
       "holdout": {
-        "n": 206,
-        "mean_net_pct": -0.495,
-        "profit_factor": 0.66,
-        "win_rate": 0.359,
-        "mean_R": -0.276
+        "n": 207,
+        "mean_net_pct": -0.512,
+        "profit_factor": 0.652,
+        "win_rate": 0.357,
+        "mean_R": -0.28
       },
       "holdout_trades": [
         {
@@ -2782,6 +2800,15 @@
           "exit_date": "2026-10-14",
           "return": -0.013951985252836693,
           "R": -1.2739229400644994,
+          "reason": "stop"
+        },
+        {
+          "symbol": "NVIDIA",
+          "signal_date": "2026-10-20",
+          "entry_date": "2026-10-21",
+          "exit_date": "2026-10-22",
+          "return": -0.04006554214587765,
+          "R": -1.0809377072698145,
           "reason": "stop"
         },
         {
@@ -3776,11 +3803,11 @@
         "mean_R": -0.207
       },
       "holdout": {
-        "n": 128,
-        "mean_net_pct": -0.141,
-        "profit_factor": 0.861,
-        "win_rate": 0.477,
-        "mean_R": -0.117
+        "n": 129,
+        "mean_net_pct": -0.149,
+        "profit_factor": 0.854,
+        "win_rate": 0.473,
+        "mean_R": -0.127
       },
       "holdout_trades": [
         {
@@ -4934,6 +4961,15 @@
           "return": 0.028211068213560456,
           "R": 2.711640757105199,
           "reason": "target"
+        },
+        {
+          "symbol": "META",
+          "signal_date": "2026-10-23",
+          "entry_date": "2026-10-26",
+          "exit_date": "2026-10-26",
+          "return": -0.010973503880430942,
+          "R": -1.3762461328153148,
+          "reason": "stop"
         }
       ]
     },
@@ -4946,11 +4982,11 @@
         "mean_R": -0.141
       },
       "holdout": {
-        "n": 127,
-        "mean_net_pct": -0.406,
-        "profit_factor": 0.739,
-        "win_rate": 0.37,
-        "mean_R": -0.165
+        "n": 128,
+        "mean_net_pct": -0.434,
+        "profit_factor": 0.725,
+        "win_rate": 0.367,
+        "mean_R": -0.172
       },
       "holdout_trades": [
         {
@@ -5482,6 +5518,15 @@
           "exit_date": "2026-10-20",
           "return": -0.020131471633279437,
           "R": -1.1751163043209996,
+          "reason": "stop"
+        },
+        {
+          "symbol": "NVIDIA",
+          "signal_date": "2026-10-20",
+          "entry_date": "2026-10-21",
+          "exit_date": "2026-10-22",
+          "return": -0.04006554214587765,
+          "R": -1.0809377072698145,
           "reason": "stop"
         },
         {
