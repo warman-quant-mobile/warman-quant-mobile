@@ -1,16 +1,25 @@
 {
   "schema_version": 2,
-  "generated_at_utc": "2026-10-28T08:24:09.100063+00:00",
-  "source_manifest_utc": "2026-10-28T08:23:36.530798+00:00",
+  "generated_at_utc": "2026-10-28T21:18:48.845066+00:00",
+  "source_manifest_utc": "2026-10-28T21:18:09.665851+00:00",
   "status": "NO_QUALIFIED_CANDIDATES",
   "candidates": [],
   "rejected": {},
   "screening_funnel": {
     "eligible": 30,
-    "directional_breakouts": 0,
-    "positive_reference_reward": 0,
+    "directional_breakouts": 1,
+    "positive_reference_reward": 1,
     "reference_10r": 0
   },
-  "diagnostic_watchlist": [],
+  "diagnostic_watchlist": [
+    {
+      "symbol": "INVESTOR_B",
+      "direction": "LONG",
+      "session_date": "2026-10-27",
+      "reference_reward_risk_after_proxy_cost": 0.17,
+      "reason": "BELOW_10R_REFERENCE",
+      "note": "Research diagnostics only; historical reference is not a validated target."
+    }
+  ],
   "warning": "Historical reference targets are NOT forecasts. 20bp proxy costs are NOT actual mini future costs. A 10R geometric ratio is not proven expected value. No automatic trading."
 }

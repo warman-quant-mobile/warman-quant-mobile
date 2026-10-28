@@ -1,65 +1,75 @@
 {
   "status": "RESEARCH_WATCH_ONLY",
-  "generated_at_utc": "2026-10-28T08:24:11.758398+00:00",
+  "generated_at_utc": "2026-10-28T21:18:51.350589+00:00",
   "observations": [
     {
-      "symbol": "SP500",
-      "bar_start_utc": "2026-10-27T19:30:00+00:00",
-      "events": [
-        "FAILED_HIGH_20H"
-      ],
-      "gap_pct": -0.0,
-      "hourly_move_pct": -0.05,
-      "status": "INTRADAY_WATCH_NOT_ORDER"
-    },
-    {
-      "symbol": "NASDAQ100",
-      "bar_start_utc": "2026-10-27T19:30:00+00:00",
-      "events": [
-        "FAILED_HIGH_20H"
-      ],
-      "gap_pct": -0.0,
-      "hourly_move_pct": -0.05,
-      "status": "INTRADAY_WATCH_NOT_ORDER"
-    },
-    {
-      "symbol": "BRENT_FUT",
-      "bar_start_utc": "2026-10-28T07:00:00+00:00",
-      "events": [
-        "FAILED_HIGH_20H"
-      ],
-      "gap_pct": 0.04,
-      "hourly_move_pct": -0.33,
-      "status": "INTRADAY_WATCH_NOT_ORDER"
-    },
-    {
-      "symbol": "EURUSD",
-      "bar_start_utc": "2026-10-28T07:00:00+00:00",
-      "events": [
-        "FAILED_LOW_20H"
-      ],
-      "gap_pct": -0.01,
-      "hourly_move_pct": 0.06,
-      "status": "INTRADAY_WATCH_NOT_ORDER"
-    },
-    {
-      "symbol": "USDSEK",
-      "bar_start_utc": "2026-10-28T07:00:00+00:00",
-      "events": [
-        "FAILED_HIGH_20H"
-      ],
-      "gap_pct": 0.01,
-      "hourly_move_pct": -0.12,
-      "status": "INTRADAY_WATCH_NOT_ORDER"
-    },
-    {
-      "symbol": "TESLA",
-      "bar_start_utc": "2026-10-27T19:30:00+00:00",
+      "symbol": "GOLD_FUT",
+      "bar_start_utc": "2026-10-28T20:00:00+00:00",
       "events": [
         "FAILED_HIGH_20H"
       ],
       "gap_pct": 0.0,
-      "hourly_move_pct": -0.02,
+      "hourly_move_pct": -0.2,
+      "status": "INTRADAY_WATCH_NOT_ORDER"
+    },
+    {
+      "symbol": "SILVER_FUT",
+      "bar_start_utc": "2026-10-28T20:00:00+00:00",
+      "events": [
+        "FAILED_HIGH_20H"
+      ],
+      "gap_pct": 0.02,
+      "hourly_move_pct": -0.64,
+      "status": "INTRADAY_WATCH_NOT_ORDER"
+    },
+    {
+      "symbol": "BRENT_FUT",
+      "bar_start_utc": "2026-10-28T20:00:00+00:00",
+      "events": [
+        "FAILED_LOW_20H"
+      ],
+      "gap_pct": -0.01,
+      "hourly_move_pct": -0.06,
+      "status": "INTRADAY_WATCH_NOT_ORDER"
+    },
+    {
+      "symbol": "VIX",
+      "bar_start_utc": "2026-10-28T20:00:00+00:00",
+      "events": [
+        "FAILED_LOW_20H"
+      ],
+      "gap_pct": -0.3,
+      "hourly_move_pct": 0.36,
+      "status": "INTRADAY_WATCH_NOT_ORDER"
+    },
+    {
+      "symbol": "BITCOIN",
+      "bar_start_utc": "2026-10-28T20:00:00+00:00",
+      "events": [
+        "FAILED_HIGH_20H"
+      ],
+      "gap_pct": 0.02,
+      "hourly_move_pct": -0.3,
+      "status": "INTRADAY_WATCH_NOT_ORDER"
+    },
+    {
+      "symbol": "ETHEREUM",
+      "bar_start_utc": "2026-10-28T20:00:00+00:00",
+      "events": [
+        "FAILED_HIGH_20H"
+      ],
+      "gap_pct": 0.02,
+      "hourly_move_pct": -0.47,
+      "status": "INTRADAY_WATCH_NOT_ORDER"
+    },
+    {
+      "symbol": "SOLANA",
+      "bar_start_utc": "2026-10-28T20:00:00+00:00",
+      "events": [
+        "FAILED_HIGH_20H"
+      ],
+      "gap_pct": 0.01,
+      "hourly_move_pct": -0.5,
       "status": "INTRADAY_WATCH_NOT_ORDER"
     }
   ],

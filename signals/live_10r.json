@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "status": "REVIEW_10R_PAPER_PROPOSALS",
-  "generated_at_utc": "2026-10-28T08:24:12.907909+00:00",
+  "generated_at_utc": "2026-10-28T21:18:52.447764+00:00",
   "minimum_net_r": 10,
   "proposals": [
     {
@@ -47,7 +47,7 @@
     }
   ],
   "raw_signal_counts": {
-    "turtle_55": 1,
+    "turtle_55": 2,
     "volatility_contraction": 0,
     "failed_breakout": 1,
     "momentum_ignition": 0,
