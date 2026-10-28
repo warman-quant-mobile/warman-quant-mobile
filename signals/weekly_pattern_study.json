@@ -1489,7 +1489,7 @@
     "schema_version": 1,
     "engine": "weekly_pattern_mtf_v2",
     "dataset": {
-      "manifest_sha256": "3db6f208342143c6e860ae308207c3779d55031741954b365649673b65e0d5f7",
+      "manifest_sha256": "b1eaeef808f3af54497588037e48cc39d5649c224c90329492a2f09327ebd311",
       "manifest_bytes": 27652
     },
     "model_version": "rules-v2-corrected-2026-09-30",

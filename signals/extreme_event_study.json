@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at_utc": "2026-10-27T01:22:18.546193+00:00",
+  "generated_at_utc": "2026-10-28T01:34:49.967038+00:00",
   "status": "EXPLORATORY_NOT_VALIDATED",
   "methodology": "Prior completed bar; next open; 2ATR stop; 10R target; 20bps proxy friction; 60 sessions; conservative gaps; nonoverlapping events per strategy.",
   "results": {
@@ -930,19 +930,19 @@
     },
     "MICROSOFT": {
       "GAP_CONTINUATION": {
-        "events": 24,
+        "events": 25,
         "targets_10r": 0,
         "stops": 18,
-        "timeouts": 6,
-        "mean_realized_r": -0.263,
+        "timeouts": 7,
+        "mean_realized_r": -0.15,
         "insufficient_sample": true
       },
       "GAP_FADE": {
-        "events": 24,
+        "events": 25,
         "targets_10r": 0,
-        "stops": 17,
+        "stops": 18,
         "timeouts": 7,
-        "mean_realized_r": -0.203,
+        "mean_realized_r": -0.235,
         "insufficient_sample": true
       },
       "SHOCK_CONTINUATION": {
@@ -972,19 +972,19 @@
     },
     "APPLE": {
       "GAP_CONTINUATION": {
-        "events": 21,
+        "events": 22,
         "targets_10r": 0,
-        "stops": 14,
+        "stops": 15,
         "timeouts": 7,
-        "mean_realized_r": 0.192,
+        "mean_realized_r": 0.138,
         "insufficient_sample": true
       },
       "GAP_FADE": {
-        "events": 21,
+        "events": 22,
         "targets_10r": 0,
         "stops": 14,
-        "timeouts": 7,
-        "mean_realized_r": -0.143,
+        "timeouts": 8,
+        "mean_realized_r": -0.054,
         "insufficient_sample": true
       },
       "SHOCK_CONTINUATION": {
@@ -1072,19 +1072,19 @@
         "insufficient_sample": true
       },
       "SHOCK_CONTINUATION": {
-        "events": 20,
+        "events": 21,
         "targets_10r": 0,
-        "stops": 14,
+        "stops": 15,
         "timeouts": 6,
-        "mean_realized_r": 0.18,
+        "mean_realized_r": 0.124,
         "insufficient_sample": true
       },
       "SHOCK_FADE": {
-        "events": 21,
+        "events": 22,
         "targets_10r": 0,
         "stops": 10,
-        "timeouts": 11,
-        "mean_realized_r": 0.757,
+        "timeouts": 12,
+        "mean_realized_r": 0.798,
         "insufficient_sample": true
       },
       "RANGE_CONTINUATION": {
@@ -1106,11 +1106,11 @@
         "insufficient_sample": true
       },
       "GAP_FADE": {
-        "events": 26,
+        "events": 27,
         "targets_10r": 0,
         "stops": 22,
-        "timeouts": 4,
-        "mean_realized_r": -0.51,
+        "timeouts": 5,
+        "mean_realized_r": -0.426,
         "insufficient_sample": true
       },
       "SHOCK_CONTINUATION": {
@@ -1122,11 +1122,11 @@
         "insufficient_sample": true
       },
       "SHOCK_FADE": {
-        "events": 23,
+        "events": 24,
         "targets_10r": 0,
         "stops": 18,
-        "timeouts": 5,
-        "mean_realized_r": -0.185,
+        "timeouts": 6,
+        "mean_realized_r": -0.104,
         "insufficient_sample": true
       },
       "RANGE_CONTINUATION": {
