@@ -53,7 +53,7 @@ NVIDIA,relative_reversal,10,16,0.6689,6,4.8283,9.63,False
 NVIDIA,relative_momentum,3,18,1.5967,3,5.1412,,False
 NVIDIA,relative_momentum,5,17,4.0941,3,6.5195,,False
 NVIDIA,relative_momentum,10,16,3.0752,3,13.2081,,False
-NVIDIA,weekly_close_reversal,3,53,0.2977,22,2.5197,3.626,True
+NVIDIA,weekly_close_reversal,3,54,0.3,22,2.5197,3.626,True
 NVIDIA,weekly_close_reversal,5,49,0.7916,20,3.8434,3.507,True
 NVIDIA,weekly_close_reversal,10,37,1.1692,17,6.1205,8.764,True
 NVIDIA,breakout,3,88,0.2239,39,0.5076,1.35,True
