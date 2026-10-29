@@ -1,91 +1,91 @@
 {
   "status": "RESEARCH_WARNING_ONLY",
-  "generated_at_utc": "2026-10-28T21:18:51.940188+00:00",
+  "generated_at_utc": "2026-10-29T01:46:54.678967+00:00",
   "level": "NORMAL",
   "stress_score": 0,
   "cross_asset_tail_count": 0,
   "events": [],
   "metrics": {
     "SP500": {
-      "ret1": 0.00597,
-      "gap": 0.00296,
-      "tail_rank": 0.5248,
-      "rv_rank": 0.2,
-      "prior_rv_rank": 0.1768,
-      "atr_move": 0.63903,
-      "dd20": -0.01232
+      "ret1": 0.00277,
+      "gap": 0.00168,
+      "tail_rank": 0.276,
+      "rv_rank": 0.1968,
+      "prior_rv_rank": 0.2,
+      "atr_move": 0.29534,
+      "dd20": -0.00959
     },
     "NASDAQ100": {
-      "ret1": 0.01291,
-      "gap": 0.00457,
-      "tail_rank": 0.6848,
-      "rv_rank": 0.5352,
-      "prior_rv_rank": 0.5008,
-      "atr_move": 0.83196,
-      "dd20": -0.05038
+      "ret1": 0.00545,
+      "gap": 0.00272,
+      "tail_rank": 0.3656,
+      "rv_rank": 0.5448,
+      "prior_rv_rank": 0.5352,
+      "atr_move": 0.3463,
+      "dd20": -0.0452
     },
     "GOLD_FUT": {
-      "ret1": 0.00896,
-      "gap": -0.00139,
-      "tail_rank": 0.652,
-      "rv_rank": 0.5136,
-      "prior_rv_rank": 0.4792,
-      "atr_move": 0.51257,
-      "dd20": -0.03361
+      "ret1": 0.00137,
+      "gap": 0.00167,
+      "tail_rank": 0.1304,
+      "rv_rank": 0.512,
+      "prior_rv_rank": 0.5136,
+      "atr_move": 0.07902,
+      "dd20": -0.03228
     },
     "SILVER_FUT": {
-      "ret1": 0.00342,
-      "gap": -0.00689,
-      "tail_rank": 0.16,
-      "rv_rank": 0.6736,
-      "prior_rv_rank": 0.6728,
-      "atr_move": 0.15848,
-      "dd20": -0.1124
+      "ret1": 0.00271,
+      "gap": -0.00448,
+      "tail_rank": 0.1368,
+      "rv_rank": 0.6784,
+      "prior_rv_rank": 0.6736,
+      "atr_move": 0.1264,
+      "dd20": -0.10999
     },
     "WTI_FUT": {
-      "ret1": -0.01828,
-      "gap": -0.00462,
-      "tail_rank": 0.5824,
-      "rv_rank": 0.5632,
-      "prior_rv_rank": 0.648,
-      "atr_move": 0.4271,
-      "dd20": -0.03627
+      "ret1": 0.02032,
+      "gap": 0.02062,
+      "tail_rank": 0.6304,
+      "rv_rank": 0.5792,
+      "prior_rv_rank": 0.5632,
+      "atr_move": 0.48036,
+      "dd20": -0.01669
     },
     "BRENT_FUT": {
-      "ret1": -0.01667,
-      "gap": -0.00527,
-      "tail_rank": 0.5976,
-      "rv_rank": 0.408,
-      "prior_rv_rank": 0.4336,
-      "atr_move": 0.47252,
-      "dd20": -0.02433
+      "ret1": -0.02784,
+      "gap": -0.02845,
+      "tail_rank": 0.8088,
+      "rv_rank": 0.4624,
+      "prior_rv_rank": 0.408,
+      "atr_move": 0.79319,
+      "dd20": -0.05149
     },
     "US30Y_BOND_FUT": {
-      "ret1": -0.00029,
-      "gap": -0.00029,
-      "tail_rank": 0.0352,
-      "rv_rank": 0.4816,
-      "prior_rv_rank": 0.5032,
-      "atr_move": 0.02445,
-      "dd20": -0.00261
+      "ret1": -0.00204,
+      "gap": -0.00523,
+      "tail_rank": 0.2168,
+      "rv_rank": 0.4496,
+      "prior_rv_rank": 0.4816,
+      "atr_move": 0.1761,
+      "dd20": -0.00464
     },
     "EURUSD": {
-      "ret1": -0.0039,
-      "gap": -0.00377,
-      "tail_rank": 0.6664,
-      "rv_rank": 0.1168,
-      "prior_rv_rank": 0.0984,
-      "atr_move": 0.64873,
-      "dd20": -0.01749
+      "ret1": -0.00395,
+      "gap": -0.00384,
+      "tail_rank": 0.6744,
+      "rv_rank": 0.1264,
+      "prior_rv_rank": 0.1176,
+      "atr_move": 0.63967,
+      "dd20": -0.01862
     },
     "USDSEK": {
-      "ret1": 0.00303,
-      "gap": 0.0029,
-      "tail_rank": 0.3608,
-      "rv_rank": 0.0056,
-      "prior_rv_rank": 0.0056,
-      "atr_move": 0.40109,
-      "dd20": -0.00891
+      "ret1": -0.00011,
+      "gap": -0.0005,
+      "tail_rank": 0.02,
+      "rv_rank": 0.0024,
+      "prior_rv_rank": 0.0064,
+      "atr_move": 0.01461,
+      "dd20": -0.00901
     },
     "BITCOIN": {
       "ret1": 0.00998,
@@ -97,49 +97,49 @@
       "dd20": -0.03817
     },
     "VIX": {
-      "ret1": -0.04731,
-      "gap": 0.00218,
-      "tail_rank": 0.5808,
-      "rv_rank": 0.6496,
-      "prior_rv_rank": 0.6304,
-      "atr_move": 0.5154,
-      "dd20": -0.12356
+      "ret1": -0.03482,
+      "gap": -0.00285,
+      "tail_rank": 0.4496,
+      "rv_rank": 0.6584,
+      "prior_rv_rank": 0.6496,
+      "atr_move": 0.35704,
+      "dd20": -0.15408
     },
     "OVX": {
-      "ret1": -0.0557,
-      "gap": -0.00732,
-      "tail_rank": 0.7656,
-      "rv_rank": 0.1432,
-      "prior_rv_rank": 0.1296,
-      "atr_move": 1.11757,
-      "dd20": -0.07631
+      "ret1": 0.05682,
+      "gap": 0.00144,
+      "tail_rank": 0.7752,
+      "rv_rank": 0.1608,
+      "prior_rv_rank": 0.144,
+      "atr_move": 1.09053,
+      "dd20": -0.02383
     },
     "GVZ": {
-      "ret1": -0.04119,
-      "gap": -0.01146,
-      "tail_rank": 0.7008,
-      "rv_rank": 0.3792,
-      "prior_rv_rank": 0.3448,
-      "atr_move": 1.00727,
-      "dd20": -0.07345
+      "ret1": 0.01417,
+      "gap": 0.01151,
+      "tail_rank": 0.2896,
+      "rv_rank": 0.3664,
+      "prior_rv_rank": 0.3792,
+      "atr_move": 0.33126,
+      "dd20": -0.05916
     },
     "US30Y_YIELD": {
-      "ret1": 0.00075,
-      "gap": -0.00189,
-      "tail_rank": 0.0448,
-      "rv_rank": 0.2352,
-      "prior_rv_rank": 0.2544,
-      "atr_move": 0.05215,
-      "dd20": -0.06355
+      "ret1": 0.01056,
+      "gap": -0.00094,
+      "tail_rank": 0.6008,
+      "rv_rank": 0.256,
+      "prior_rv_rank": 0.236,
+      "atr_move": 0.75574,
+      "dd20": -0.05366
     },
     "US10Y_YIELD": {
-      "ret1": 0.0014,
-      "gap": -0.00201,
-      "tail_rank": 0.0728,
-      "rv_rank": 0.2592,
-      "prior_rv_rank": 0.2648,
-      "atr_move": 0.07927,
-      "dd20": -0.05988
+      "ret1": 0.01041,
+      "gap": 0.0012,
+      "tail_rank": 0.5088,
+      "rv_rank": 0.2728,
+      "prior_rv_rank": 0.26,
+      "atr_move": 0.6043,
+      "dd20": -0.05008
     }
   },
   "interpretation": "Fragility/tail-state indicator, not a crash forecast and never an automatic trade.",

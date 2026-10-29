@@ -1,16 +1,16 @@
 {
   "schema_version": 1,
-  "generated_at_utc": "2026-10-28T01:34:29.855339+00:00",
+  "generated_at_utc": "2026-10-29T01:36:02.626036+00:00",
   "status": "RESEARCH_ONLY",
   "methodology": "251-session warmup; prior-close 20-day breakout plus MA50/MA200; next open; ATR20 x2; 10R gross-risk target; 20bps roundtrip friction; 60 sessions; stop first if same bar; worse gap fill; disjoint 60-session windows per side.",
   "results": {
     "OMXS30": {
       "LONG": {
-        "events": 18,
+        "events": 19,
         "targets": 0,
-        "stops": 11,
+        "stops": 12,
         "timeouts": 7,
-        "mean_realized_r": 0.256,
+        "mean_realized_r": 0.186,
         "maximum_favorable_excursion_r": 7.105,
         "note": "Exploratory overlapping-market selection bias; not independently validated."
       },
@@ -46,11 +46,11 @@
     },
     "SP500": {
       "LONG": {
-        "events": 25,
+        "events": 26,
         "targets": 1,
         "stops": 15,
-        "timeouts": 9,
-        "mean_realized_r": 0.693,
+        "timeouts": 10,
+        "mean_realized_r": 0.683,
         "maximum_favorable_excursion_r": 10.003,
         "note": "Exploratory overlapping-market selection bias; not independently validated."
       },
@@ -150,7 +150,7 @@
         "targets": 1,
         "stops": 10,
         "timeouts": 4,
-        "mean_realized_r": 0.895,
+        "mean_realized_r": 0.848,
         "maximum_favorable_excursion_r": 12.039,
         "note": "Exploratory overlapping-market selection bias; not independently validated."
       },
@@ -370,7 +370,7 @@
         "targets": 0,
         "stops": 17,
         "timeouts": 2,
-        "mean_realized_r": -0.751,
+        "mean_realized_r": -0.75,
         "maximum_favorable_excursion_r": 5.098,
         "note": "Exploratory overlapping-market selection bias; not independently validated."
       },

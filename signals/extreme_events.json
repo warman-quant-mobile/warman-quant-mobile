@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at_utc": "2026-10-28T21:18:49.705823+00:00",
+  "generated_at_utc": "2026-10-29T01:36:42.086700+00:00",
   "status": "RESEARCH_ONLY",
   "parameters": {
     "gap_abs_pct": 3,
@@ -9,12 +9,12 @@
   },
   "observations": {
     "OVX": {
-      "session_date": "2026-10-27",
+      "session_date": "2026-10-28",
       "events": [
         {
           "type": "EXTREME_DAILY_RETURN",
-          "direction": "DOWN",
-          "magnitude_pct": -5.57,
+          "direction": "UP",
+          "magnitude_pct": 5.68,
           "note": "Magnitude alone is not an entry signal."
         }
       ]

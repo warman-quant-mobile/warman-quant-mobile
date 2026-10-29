@@ -1,21 +1,21 @@
 {
   "schema_version": 1,
   "status": "REVIEW_10R_PAPER_PROPOSALS",
-  "generated_at_utc": "2026-10-28T21:18:52.447764+00:00",
+  "generated_at_utc": "2026-10-29T01:55:32.451706+00:00",
   "minimum_net_r": 10,
   "proposals": [
     {
-      "id": "f50939c272b2b2aff623",
+      "id": "4ba17f550f752d5293c2",
       "symbol": "SILVER_FUT",
       "strategy": "failed_breakout",
       "direction": "LONG",
-      "signal_session": "2026-10-27",
-      "reference_close": 54.292999,
+      "signal_session": "2026-10-28",
+      "reference_close": 54.439999,
       "indicative_entry": "NEXT_AVAILABLE_QUOTE_REQUIRED",
-      "indicative_stop": 51.966999,
+      "indicative_stop": 52.086498,
       "historical_reference_level": 121.300003,
-      "indicative_net_r": 27.48,
-      "risk_per_unit_proxy": 2.434587,
+      "indicative_net_r": 27.11,
+      "risk_per_unit_proxy": 2.46238,
       "status": "BLOCKED_UNTIL_NORDNET_KF_PRODUCT_AND_QUOTE_VERIFIED",
       "execution_ready": false,
       "nordnet_gate": {
@@ -47,11 +47,11 @@
     }
   ],
   "raw_signal_counts": {
-    "turtle_55": 2,
+    "turtle_55": 1,
     "volatility_contraction": 0,
-    "failed_breakout": 1,
+    "failed_breakout": 2,
     "momentum_ignition": 0,
-    "time_series_momentum": 11,
+    "time_series_momentum": 9,
     "rsi2_reversal": 2
   },
   "excluded": {},
