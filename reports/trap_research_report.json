@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-30T07:05:46.071863+00:00",
+  "generated_at": "2026-10-30T14:06:46.748461+00:00",
   "validated_edge": false,
   "research_only": true,
-  "split_date": "2023-10-24",
+  "split_date": "2023-10-25",
   "method": "Failed downside break and same-day reclaim of previous 10/20-session low, enter next open, stop at signal low, 3R target, 2/5 day timeout, adverse same-bar stop precedence, 20-30bp costs",
   "results": {
     "10d_2d": {
@@ -14,11 +14,11 @@
         "mean_R": -0.259
       },
       "holdout": {
-        "n": 210,
-        "mean_net_pct": -0.307,
-        "profit_factor": 0.697,
-        "win_rate": 0.419,
-        "mean_R": -0.227
+        "n": 205,
+        "mean_net_pct": -0.267,
+        "profit_factor": 0.73,
+        "win_rate": 0.424,
+        "mean_R": -0.22
       },
       "holdout_trades": [
         {
@@ -599,15 +599,6 @@
         },
         {
           "symbol": "ABB",
-          "signal_date": "2023-10-23",
-          "entry_date": "2023-10-24",
-          "exit_date": "2023-10-25",
-          "return": 0.0009867122996865003,
-          "R": 0.05957501350783826,
-          "reason": "time_exit_close"
-        },
-        {
-          "symbol": "ABB",
           "signal_date": "2024-01-04",
           "entry_date": "2024-01-05",
           "exit_date": "2024-01-05",
@@ -757,15 +748,6 @@
           "exit_date": "2026-10-13",
           "return": -0.00720833333333337,
           "R": -0.37608645751096503,
-          "reason": "time_exit_close"
-        },
-        {
-          "symbol": "NVIDIA",
-          "signal_date": "2023-10-23",
-          "entry_date": "2023-10-24",
-          "exit_date": "2023-10-25",
-          "return": -0.03213209707752407,
-          "R": -0.6492281214047104,
           "reason": "time_exit_close"
         },
         {
@@ -1157,15 +1139,6 @@
         },
         {
           "symbol": "APPLE",
-          "signal_date": "2023-10-23",
-          "entry_date": "2023-10-24",
-          "exit_date": "2023-10-25",
-          "return": -0.01326840169808585,
-          "R": -0.7359260635878582,
-          "reason": "time_exit_close"
-        },
-        {
-          "symbol": "APPLE",
           "signal_date": "2023-12-27",
           "entry_date": "2023-12-28",
           "exit_date": "2023-12-29",
@@ -1297,15 +1270,6 @@
           "exit_date": "2026-10-05",
           "return": -0.003110229569541543,
           "R": -0.13912932058560887,
-          "reason": "time_exit_close"
-        },
-        {
-          "symbol": "TESLA",
-          "signal_date": "2023-10-23",
-          "entry_date": "2023-10-24",
-          "exit_date": "2023-10-25",
-          "return": -0.020845274046441986,
-          "R": -0.322587566763993,
           "reason": "time_exit_close"
         },
         {
@@ -1487,15 +1451,6 @@
           "return": 0.03661999067734634,
           "R": 1.1954608911250453,
           "reason": "time_exit_close"
-        },
-        {
-          "symbol": "AMAZON",
-          "signal_date": "2023-10-23",
-          "entry_date": "2023-10-24",
-          "exit_date": "2023-10-25",
-          "return": -0.032434746905553036,
-          "R": -1.101920359961854,
-          "reason": "stop"
         },
         {
           "symbol": "AMAZON",
@@ -1922,11 +1877,11 @@
         "mean_R": -0.129
       },
       "holdout": {
-        "n": 207,
-        "mean_net_pct": -0.512,
-        "profit_factor": 0.652,
-        "win_rate": 0.357,
-        "mean_R": -0.28
+        "n": 202,
+        "mean_net_pct": -0.441,
+        "profit_factor": 0.689,
+        "win_rate": 0.361,
+        "mean_R": -0.266
       },
       "holdout_trades": [
         {
@@ -2498,15 +2453,6 @@
         },
         {
           "symbol": "ABB",
-          "signal_date": "2023-10-23",
-          "entry_date": "2023-10-24",
-          "exit_date": "2023-10-30",
-          "return": 0.004787944835353388,
-          "R": 0.289083128214364,
-          "reason": "time_exit_close"
-        },
-        {
-          "symbol": "ABB",
           "signal_date": "2024-01-04",
           "entry_date": "2024-01-05",
           "exit_date": "2024-01-05",
@@ -2657,15 +2603,6 @@
           "return": -0.05987497456868485,
           "R": -3.123907571666454,
           "reason": "gap_stop"
-        },
-        {
-          "symbol": "NVIDIA",
-          "signal_date": "2023-10-23",
-          "entry_date": "2023-10-24",
-          "exit_date": "2023-10-26",
-          "return": -0.05249276844016104,
-          "R": -1.060614915967515,
-          "reason": "stop"
         },
         {
           "symbol": "NVIDIA",
@@ -3047,15 +2984,6 @@
         },
         {
           "symbol": "APPLE",
-          "signal_date": "2023-10-23",
-          "entry_date": "2023-10-24",
-          "exit_date": "2023-10-26",
-          "return": -0.02102953089254433,
-          "R": -1.166393680339212,
-          "reason": "stop"
-        },
-        {
-          "symbol": "APPLE",
           "signal_date": "2023-12-27",
           "entry_date": "2023-12-28",
           "exit_date": "2024-01-02",
@@ -3188,15 +3116,6 @@
           "return": 0.019484736999032304,
           "R": 0.8716071144755512,
           "reason": "time_exit_close"
-        },
-        {
-          "symbol": "TESLA",
-          "signal_date": "2023-10-23",
-          "entry_date": "2023-10-24",
-          "exit_date": "2023-10-30",
-          "return": -0.06761896301692405,
-          "R": -1.0464260003555652,
-          "reason": "stop"
         },
         {
           "symbol": "TESLA",
@@ -3377,15 +3296,6 @@
           "return": 0.05685485312544092,
           "R": 1.8560286915684285,
           "reason": "time_exit_close"
-        },
-        {
-          "symbol": "AMAZON",
-          "signal_date": "2023-10-23",
-          "entry_date": "2023-10-24",
-          "exit_date": "2023-10-25",
-          "return": -0.032434746905553036,
-          "R": -1.101920359961854,
-          "reason": "stop"
         },
         {
           "symbol": "AMAZON",
@@ -3803,11 +3713,11 @@
         "mean_R": -0.207
       },
       "holdout": {
-        "n": 129,
-        "mean_net_pct": -0.149,
-        "profit_factor": 0.854,
-        "win_rate": 0.473,
-        "mean_R": -0.127
+        "n": 126,
+        "mean_net_pct": -0.111,
+        "profit_factor": 0.889,
+        "win_rate": 0.476,
+        "mean_R": -0.122
       },
       "holdout_trades": [
         {
@@ -4145,15 +4055,6 @@
         },
         {
           "symbol": "ABB",
-          "signal_date": "2023-10-23",
-          "entry_date": "2023-10-24",
-          "exit_date": "2023-10-25",
-          "return": 0.0009867122996865003,
-          "R": 0.05957501350783826,
-          "reason": "time_exit_close"
-        },
-        {
-          "symbol": "ABB",
           "signal_date": "2024-12-20",
           "entry_date": "2024-12-23",
           "exit_date": "2024-12-27",
@@ -4222,15 +4123,6 @@
           "exit_date": "2026-08-03",
           "return": -0.000510612325465452,
           "R": -0.011267038990885424,
-          "reason": "time_exit_close"
-        },
-        {
-          "symbol": "NVIDIA",
-          "signal_date": "2023-10-23",
-          "entry_date": "2023-10-24",
-          "exit_date": "2023-10-25",
-          "return": -0.03213209707752407,
-          "R": -0.6492281214047104,
           "reason": "time_exit_close"
         },
         {
@@ -4555,15 +4447,6 @@
           "exit_date": "2026-06-12",
           "return": -0.01081790932563864,
           "R": -0.5011732138301517,
-          "reason": "time_exit_close"
-        },
-        {
-          "symbol": "TESLA",
-          "signal_date": "2023-10-23",
-          "entry_date": "2023-10-24",
-          "exit_date": "2023-10-25",
-          "return": -0.020845274046441986,
-          "R": -0.322587566763993,
           "reason": "time_exit_close"
         },
         {
@@ -4982,11 +4865,11 @@
         "mean_R": -0.141
       },
       "holdout": {
-        "n": 128,
-        "mean_net_pct": -0.434,
-        "profit_factor": 0.725,
-        "win_rate": 0.367,
-        "mean_R": -0.172
+        "n": 125,
+        "mean_net_pct": -0.353,
+        "profit_factor": 0.768,
+        "win_rate": 0.368,
+        "mean_R": -0.161
       },
       "holdout_trades": [
         {
@@ -5324,15 +5207,6 @@
         },
         {
           "symbol": "ABB",
-          "signal_date": "2023-10-23",
-          "entry_date": "2023-10-24",
-          "exit_date": "2023-10-30",
-          "return": 0.004787944835353388,
-          "R": 0.289083128214364,
-          "reason": "time_exit_close"
-        },
-        {
-          "symbol": "ABB",
           "signal_date": "2024-12-20",
           "entry_date": "2024-12-23",
           "exit_date": "2025-01-02",
@@ -5402,15 +5276,6 @@
           "return": 0.02417018679355043,
           "R": 0.5333330658864838,
           "reason": "time_exit_close"
-        },
-        {
-          "symbol": "NVIDIA",
-          "signal_date": "2023-10-23",
-          "entry_date": "2023-10-24",
-          "exit_date": "2023-10-26",
-          "return": -0.05249276844016104,
-          "R": -1.060614915967515,
-          "reason": "stop"
         },
         {
           "symbol": "NVIDIA",
@@ -5735,15 +5600,6 @@
           "return": 0.005592302114463267,
           "R": 0.2590807464777164,
           "reason": "time_exit_close"
-        },
-        {
-          "symbol": "TESLA",
-          "signal_date": "2023-10-23",
-          "entry_date": "2023-10-24",
-          "exit_date": "2023-10-30",
-          "return": -0.06761896301692405,
-          "R": -1.0464260003555652,
-          "reason": "stop"
         },
         {
           "symbol": "TESLA",

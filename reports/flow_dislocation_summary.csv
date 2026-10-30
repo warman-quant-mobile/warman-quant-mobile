@@ -24,7 +24,7 @@ VOLVO_B,breakout,3,77,-0.2319,32,-0.2182,0.808,True
 VOLVO_B,breakout,5,65,0.157,25,0.5674,1.475,True
 VOLVO_B,breakout,10,50,1.0705,20,1.4422,1.925,True
 ATLAS_A,relative_reversal,3,6,-1.115,3,-0.5481,0.531,False
-ATLAS_A,relative_reversal,5,6,0.8068,2,0.6248,3.373,False
+ATLAS_A,relative_reversal,5,6,0.8068,3,0.0477,1.088,False
 ATLAS_A,relative_reversal,10,5,-0.9251,2,-3.2593,0.0,False
 ATLAS_A,relative_momentum,3,3,-1.5529,2,2.0851,,False
 ATLAS_A,relative_momentum,5,3,-1.1616,2,1.6691,,False
@@ -42,7 +42,7 @@ ABB,relative_momentum,3,2,-0.0652,4,-0.1237,0.856,False
 ABB,relative_momentum,5,2,0.333,4,-0.1023,0.753,False
 ABB,relative_momentum,10,2,-3.9318,4,2.9206,11.876,False
 ABB,weekly_close_reversal,3,12,0.6138,8,-0.3239,0.849,False
-ABB,weekly_close_reversal,5,11,0.8704,7,-1.2563,0.651,False
+ABB,weekly_close_reversal,5,12,0.6001,7,-1.2563,0.651,False
 ABB,weekly_close_reversal,10,11,2.9608,5,-0.3625,0.85,False
 ABB,breakout,3,86,-0.0402,43,-0.2126,0.774,True
 ABB,breakout,5,77,-0.0169,40,-0.3252,0.727,True
