@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at_utc": "2026-10-29T01:36:02.626036+00:00",
+  "generated_at_utc": "2026-10-30T06:23:59.732153+00:00",
   "status": "RESEARCH_ONLY",
   "methodology": "251-session warmup; prior-close 20-day breakout plus MA50/MA200; next open; ATR20 x2; 10R gross-risk target; 20bps roundtrip friction; 60 sessions; stop first if same bar; worse gap fill; disjoint 60-session windows per side.",
   "results": {
@@ -130,7 +130,7 @@
         "targets": 1,
         "stops": 13,
         "timeouts": 2,
-        "mean_realized_r": 0.391,
+        "mean_realized_r": 0.362,
         "maximum_favorable_excursion_r": 10.787,
         "note": "Exploratory overlapping-market selection bias; not independently validated."
       },
@@ -150,7 +150,7 @@
         "targets": 1,
         "stops": 10,
         "timeouts": 4,
-        "mean_realized_r": 0.848,
+        "mean_realized_r": 0.856,
         "maximum_favorable_excursion_r": 12.039,
         "note": "Exploratory overlapping-market selection bias; not independently validated."
       },

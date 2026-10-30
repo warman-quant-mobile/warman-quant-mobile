@@ -3,7 +3,7 @@
   "families": {
     "SP500": {
       "SHOCK_TREND_CONTINUATION": {
-        "events": 25,
+        "events": 26,
         "sample_qualified": false,
         "train": {
           "n": 15,
@@ -37,64 +37,64 @@
           }
         },
         "oos": {
-          "n": 10,
-          "mean_r": 0.117,
+          "n": 11,
+          "mean_r": 0.014,
           "median_r": -1.0,
           "hit_5r": 0,
           "hit_10r": 0,
           "hit_15r": 0,
           "hit_20r": 0,
-          "p50_mfe": 0.756,
-          "p75_mfe": 2.733,
-          "p90_mfe": 3.919,
+          "p50_mfe": 0.591,
+          "p75_mfe": 2.46,
+          "p90_mfe": 3.875,
           "max_mfe": 4.314,
           "fixed_target_ev": {
             "5": {
-              "mean_r": 0.117,
+              "mean_r": 0.014,
               "wins": 0
             },
             "10": {
-              "mean_r": 0.117,
+              "mean_r": 0.014,
               "wins": 0
             },
             "15": {
-              "mean_r": 0.117,
+              "mean_r": 0.014,
               "wins": 0
             },
             "20": {
-              "mean_r": 0.117,
+              "mean_r": 0.014,
               "wins": 0
             }
           }
         },
         "oos_positive": false,
         "all": {
-          "n": 25,
-          "mean_r": -0.059,
+          "n": 26,
+          "mean_r": -0.095,
           "median_r": -1.0,
           "hit_5r": 2,
           "hit_10r": 0,
           "hit_15r": 0,
           "hit_20r": 0,
-          "p50_mfe": 0.824,
-          "p75_mfe": 3.444,
-          "p90_mfe": 4.138,
+          "p50_mfe": 0.802,
+          "p75_mfe": 3.335,
+          "p90_mfe": 4.095,
           "max_mfe": 7.899,
           "fixed_target_ev": {
             "5": {
-              "mean_r": 0.226,
+              "mean_r": 0.179,
               "wins": 2
             },
             "10": {
-              "mean_r": -0.059,
+              "mean_r": -0.095,
               "wins": 0
             },
             "15": {
-              "mean_r": -0.059,
+              "mean_r": -0.095,
               "wins": 0
             },
             "20": {
-              "mean_r": -0.059,
+              "mean_r": -0.095,
               "wins": 0
             }
           }

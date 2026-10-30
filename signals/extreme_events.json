@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at_utc": "2026-10-29T21:24:57.622463+00:00",
+  "generated_at_utc": "2026-10-30T06:24:38.399574+00:00",
   "status": "RESEARCH_ONLY",
   "parameters": {
     "gap_abs_pct": 3,
@@ -8,14 +8,15 @@
     "daily_range_atr": 2.5
   },
   "observations": {
-    "OVX": {
-      "session_date": "2026-10-28",
+    "AMAZON": {
+      "session_date": "2026-10-29",
       "events": [
         {
-          "type": "EXTREME_DAILY_RETURN",
-          "direction": "UP",
-          "magnitude_pct": 5.68,
-          "note": "Magnitude alone is not an entry signal."
+          "type": "GAP",
+          "direction": "DOWN",
+          "magnitude_pct": -3.0,
+          "subtype": "GAP_CONTINUATION_WATCH",
+          "note": "Requires independently verified catalyst and actual bid/ask; never infer earnings from price."
         }
       ]
     }
