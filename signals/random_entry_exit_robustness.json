@@ -31,169 +31,169 @@
   "robustness": {
     "20": {
       "trail20": {
-        "n": 3201,
-        "pooled_mean_r": 0.136,
+        "n": 3211,
+        "pooled_mean_r": 0.133,
         "seed_mean_r": [
-          0.035,
-          0.501,
+          0.029,
+          0.496,
           0.129,
-          0.285,
+          0.279,
           0.285,
           -0.084,
-          -0.13,
-          -0.027,
-          0.163,
-          0.202
+          -0.133,
+          -0.033,
+          0.16,
+          0.198
         ],
         "positive_seeds": 7,
-        "min_seed": -0.13,
-        "max_seed": 0.501
+        "min_seed": -0.133,
+        "max_seed": 0.496
       },
       "be2_trail20": {
-        "n": 3201,
-        "pooled_mean_r": 0.113,
+        "n": 3211,
+        "pooled_mean_r": 0.11,
         "seed_mean_r": [
-          0.005,
-          0.461,
+          -0.001,
+          0.456,
           0.077,
-          0.296,
+          0.29,
           0.267,
           -0.071,
-          -0.123,
-          -0.04,
-          0.063,
-          0.196
+          -0.122,
+          -0.046,
+          0.059,
+          0.192
         ],
-        "positive_seeds": 7,
-        "min_seed": -0.123,
-        "max_seed": 0.461
+        "positive_seeds": 6,
+        "min_seed": -0.122,
+        "max_seed": 0.456
       }
     },
     "50": {
       "trail20": {
-        "n": 3201,
-        "pooled_mean_r": 0.043,
+        "n": 3211,
+        "pooled_mean_r": 0.04,
         "seed_mean_r": [
-          -0.046,
-          0.371,
+          -0.052,
+          0.367,
           0.039,
-          0.173,
+          0.168,
           0.174,
           -0.158,
-          -0.191,
-          -0.099,
-          0.067,
-          0.104
+          -0.194,
+          -0.105,
+          0.064,
+          0.1
         ],
         "positive_seeds": 6,
-        "min_seed": -0.191,
-        "max_seed": 0.371
+        "min_seed": -0.194,
+        "max_seed": 0.367
       },
       "be2_trail20": {
-        "n": 3201,
-        "pooled_mean_r": 0.027,
+        "n": 3211,
+        "pooled_mean_r": 0.025,
         "seed_mean_r": [
-          -0.05,
-          0.365,
+          -0.056,
+          0.361,
           0.004,
-          0.183,
+          0.179,
           0.162,
           -0.156,
           -0.186,
-          -0.115,
-          -0.029,
-          0.093
+          -0.121,
+          -0.032,
+          0.09
         ],
         "positive_seeds": 5,
         "min_seed": -0.186,
-        "max_seed": 0.365
+        "max_seed": 0.361
       }
     },
     "100": {
       "trail20": {
-        "n": 3201,
-        "pooled_mean_r": -0.078,
+        "n": 3211,
+        "pooled_mean_r": -0.081,
         "seed_mean_r": [
-          -0.153,
-          0.202,
+          -0.158,
+          0.198,
           -0.079,
-          0.028,
+          0.024,
           0.028,
           -0.255,
-          -0.275,
-          -0.196,
-          -0.06,
-          -0.026
+          -0.277,
+          -0.201,
+          -0.062,
+          -0.029
         ],
         "positive_seeds": 3,
-        "min_seed": -0.275,
-        "max_seed": 0.202
+        "min_seed": -0.277,
+        "max_seed": 0.198
       },
       "be2_trail20": {
-        "n": 3201,
-        "pooled_mean_r": -0.094,
+        "n": 3211,
+        "pooled_mean_r": -0.097,
         "seed_mean_r": [
-          -0.149,
-          0.19,
+          -0.154,
+          0.186,
           -0.117,
-          0.032,
+          0.028,
           0.021,
           -0.249,
-          -0.282,
-          -0.221,
-          -0.143,
-          -0.025
+          -0.285,
+          -0.226,
+          -0.146,
+          -0.028
         ],
         "positive_seeds": 3,
-        "min_seed": -0.282,
-        "max_seed": 0.19
+        "min_seed": -0.285,
+        "max_seed": 0.186
       }
     }
   },
   "side_attribution_20bps": {
     "trail20": {
-      "LONG": 0.76,
-      "SHORT": -0.509
+      "LONG": 0.755,
+      "SHORT": -0.511
     },
     "be2_trail20": {
-      "LONG": 0.711,
-      "SHORT": -0.505
+      "LONG": 0.707,
+      "SHORT": -0.507
     }
   },
   "symbol_attribution_20bps": {
     "trail20": {
-      "SP500": -0.051,
+      "SP500": -0.056,
       "GOLD_FUT": 0.791,
       "SILVER_FUT": 2.412,
       "WTI_FUT": 0.106,
       "BRENT_FUT": 0.43,
-      "INVESTOR_B": -0.363,
+      "INVESTOR_B": -0.367,
       "VOLVO_B": 0.107,
-      "ATLAS_A": -0.544,
-      "ABB": -0.229,
-      "NVIDIA": -0.167,
-      "MICROSOFT": 0.078,
-      "APPLE": -0.183,
+      "ATLAS_A": -0.546,
+      "ABB": -0.233,
+      "NVIDIA": -0.171,
+      "MICROSOFT": 0.068,
+      "APPLE": -0.187,
       "TESLA": 0.234,
       "AMAZON": -0.172,
-      "META": -0.431
+      "META": -0.433
     },
     "be2_trail20": {
-      "SP500": -0.024,
+      "SP500": -0.028,
       "GOLD_FUT": 0.655,
       "SILVER_FUT": 2.248,
       "WTI_FUT": 0.129,
       "BRENT_FUT": 0.438,
-      "INVESTOR_B": -0.355,
+      "INVESTOR_B": -0.358,
       "VOLVO_B": 0.091,
-      "ATLAS_A": -0.498,
-      "ABB": -0.18,
-      "NVIDIA": -0.142,
-      "MICROSOFT": -0.027,
-      "APPLE": -0.139,
+      "ATLAS_A": -0.501,
+      "ABB": -0.184,
+      "NVIDIA": -0.141,
+      "MICROSOFT": -0.036,
+      "APPLE": -0.143,
       "TESLA": 0.089,
       "AMAZON": -0.218,
-      "META": -0.388
+      "META": -0.391
     }
   },
   "note": "Falsification pass only. Parameters frozen before inspection. No execution or candidate promotion.",
@@ -201,7 +201,7 @@
     "schema_version": 1,
     "engine": "random_entry_exit_robustness",
     "dataset": {
-      "manifest_sha256": "e6d1e8cd2c9d8c15ad73a063d996d849c7045093c98fbdd262630fbdce37808e",
+      "manifest_sha256": "00fafb937e0f5258a221dc74bf343464e0b8de4f879bbb90fc13b1254e4db26b",
       "manifest_bytes": 27683
     },
     "model_version": "robustness-v1-frozen-2026-09-30",

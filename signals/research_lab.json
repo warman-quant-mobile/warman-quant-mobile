@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at_utc": "2026-10-30T06:23:59.732153+00:00",
+  "generated_at_utc": "2026-10-31T06:14:53.574103+00:00",
   "status": "RESEARCH_ONLY",
   "methodology": "251-session warmup; prior-close 20-day breakout plus MA50/MA200; next open; ATR20 x2; 10R gross-risk target; 20bps roundtrip friction; 60 sessions; stop first if same bar; worse gap fill; disjoint 60-session windows per side.",
   "results": {
@@ -426,11 +426,11 @@
     },
     "NVIDIA": {
       "LONG": {
-        "events": 25,
+        "events": 26,
         "targets": 2,
         "stops": 15,
-        "timeouts": 8,
-        "mean_realized_r": 1.162,
+        "timeouts": 9,
+        "mean_realized_r": 1.098,
         "maximum_favorable_excursion_r": 11.028,
         "note": "Exploratory overlapping-market selection bias; not independently validated."
       },

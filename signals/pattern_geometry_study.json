@@ -670,7 +670,7 @@
       "summary": {
         "all": {
           "n": 14,
-          "mean_r": -0.109,
+          "mean_r": -0.065,
           "median_r": -1.0,
           "mean_geometric_r": 9.149,
           "target_hits": 1,
@@ -690,8 +690,8 @@
         },
         "oos": {
           "n": 6,
-          "mean_r": 1.109,
-          "median_r": -0.044,
+          "mean_r": 1.212,
+          "median_r": 0.126,
           "mean_geometric_r": 5.635,
           "target_hits": 1,
           "mfe_5r": 2,
@@ -735,13 +735,13 @@
         "DESCENDING": {
           "all": {
             "n": 2,
-            "mean_r": -0.044,
-            "median_r": -0.044,
+            "mean_r": 0.266,
+            "median_r": 0.266,
             "mean_geometric_r": 5.027,
             "target_hits": 0,
             "mfe_5r": 0,
             "mfe_10r": 0,
-            "max_mfe_r": 0.963
+            "max_mfe_r": 1.655
           },
           "train": {
             "n": 1,
@@ -755,13 +755,13 @@
           },
           "oos": {
             "n": 1,
-            "mean_r": 0.911,
-            "median_r": 0.911,
+            "mean_r": 1.532,
+            "median_r": 1.532,
             "mean_geometric_r": 3.891,
             "target_hits": 0,
             "mfe_5r": 0,
             "mfe_10r": 0,
-            "max_mfe_r": 0.963
+            "max_mfe_r": 1.655
           }
         },
         "FALLING_WEDGE": {
@@ -1251,7 +1251,7 @@
       "summary": {
         "all": {
           "n": 16,
-          "mean_r": 0.454,
+          "mean_r": 0.513,
           "median_r": -1.0,
           "mean_geometric_r": 7.49,
           "target_hits": 3,
@@ -1271,13 +1271,13 @@
         },
         "oos": {
           "n": 7,
-          "mean_r": -0.837,
+          "mean_r": -0.702,
           "median_r": -1.0,
           "mean_geometric_r": 7.927,
           "target_hits": 0,
           "mfe_5r": 0,
           "mfe_10r": 0,
-          "max_mfe_r": 1.261
+          "max_mfe_r": 1.357
         }
       },
       "by_type": {
@@ -1405,13 +1405,13 @@
         "SYMMETRICAL": {
           "all": {
             "n": 2,
-            "mean_r": -0.326,
-            "median_r": -0.326,
+            "mean_r": 0.146,
+            "median_r": 0.146,
             "mean_geometric_r": 11.396,
             "target_hits": 0,
             "mfe_5r": 0,
             "mfe_10r": 0,
-            "max_mfe_r": 1.252
+            "max_mfe_r": 1.357
           },
           "train": {
             "n": 1,
@@ -1425,13 +1425,13 @@
           },
           "oos": {
             "n": 1,
-            "mean_r": 0.348,
-            "median_r": 0.348,
+            "mean_r": 1.292,
+            "median_r": 1.292,
             "mean_geometric_r": 5.018,
             "target_hits": 0,
             "mfe_5r": 0,
             "mfe_10r": 0,
-            "max_mfe_r": 1.252
+            "max_mfe_r": 1.357
           }
         }
       }
@@ -2328,7 +2328,7 @@
       "summary": {
         "all": {
           "n": 11,
-          "mean_r": 0.398,
+          "mean_r": 0.315,
           "median_r": -1.0,
           "mean_geometric_r": 31.128,
           "target_hits": 1,
@@ -2348,7 +2348,7 @@
         },
         "oos": {
           "n": 5,
-          "mean_r": 0.186,
+          "mean_r": 0.002,
           "median_r": -1.0,
           "mean_geometric_r": 57.707,
           "target_hits": 0,
@@ -2450,7 +2450,7 @@
         "SYMMETRICAL": {
           "all": {
             "n": 4,
-            "mean_r": -0.537,
+            "mean_r": -0.766,
             "median_r": -1.0,
             "mean_geometric_r": 70.301,
             "target_hits": 0,
@@ -2470,8 +2470,8 @@
           },
           "oos": {
             "n": 2,
-            "mean_r": 0.819,
-            "median_r": 0.819,
+            "mean_r": 0.36,
+            "median_r": 0.36,
             "mean_geometric_r": 11.101,
             "target_hits": 0,
             "mfe_5r": 0,
@@ -3309,7 +3309,7 @@
             "target_hits": 1,
             "mfe_5r": 1,
             "mfe_10r": 0,
-            "max_mfe_r": 7.0
+            "max_mfe_r": 5.97
           },
           "train": {
             "n": 2,
@@ -3329,7 +3329,7 @@
             "target_hits": 1,
             "mfe_5r": 1,
             "mfe_10r": 0,
-            "max_mfe_r": 7.0
+            "max_mfe_r": 5.97
           }
         }
       }
@@ -3501,10 +3501,10 @@
     "SOLANA": {
       "summary": {
         "all": {
-          "n": 10,
-          "mean_r": 0.018,
+          "n": 11,
+          "mean_r": 0.025,
           "median_r": -1.0,
-          "mean_geometric_r": 6.001,
+          "mean_geometric_r": 6.222,
           "target_hits": 2,
           "mfe_5r": 1,
           "mfe_10r": 0,
@@ -3521,10 +3521,10 @@
           "max_mfe_r": 6.394
         },
         "oos": {
-          "n": 4,
-          "mean_r": -1.0,
+          "n": 5,
+          "mean_r": -0.78,
           "median_r": -1.0,
-          "mean_geometric_r": 6.471,
+          "mean_geometric_r": 6.863,
           "target_hits": 0,
           "mfe_5r": 0,
           "mfe_10r": 0,
@@ -3591,20 +3591,20 @@
         },
         "FALLING_WEDGE": {
           "all": {
-            "n": 3,
-            "mean_r": 1.179,
-            "median_r": -1.0,
-            "mean_geometric_r": 4.692,
+            "n": 4,
+            "mean_r": 0.909,
+            "median_r": -0.45,
+            "mean_geometric_r": 5.627,
             "target_hits": 1,
             "mfe_5r": 1,
             "mfe_10r": 0,
             "max_mfe_r": 6.394
           },
           "train": {
-            "n": 1,
-            "mean_r": 5.536,
-            "median_r": 5.536,
-            "mean_geometric_r": 5.536,
+            "n": 2,
+            "mean_r": 2.268,
+            "median_r": 2.268,
+            "mean_geometric_r": 5.45,
             "target_hits": 1,
             "mfe_5r": 1,
             "mfe_10r": 0,
@@ -3612,13 +3612,13 @@
           },
           "oos": {
             "n": 2,
-            "mean_r": -1.0,
-            "median_r": -1.0,
-            "mean_geometric_r": 4.27,
+            "mean_r": -0.45,
+            "median_r": -0.45,
+            "mean_geometric_r": 5.804,
             "target_hits": 0,
             "mfe_5r": 0,
             "mfe_10r": 0,
-            "max_mfe_r": 1.097
+            "max_mfe_r": 0.607
           }
         },
         "RISING_WEDGE": {
@@ -5195,8 +5195,8 @@
       "type": "DESCENDING",
       "side": "SHORT",
       "geometric_r": 3.891,
-      "realized_r": 0.911,
-      "mfe_r": 0.963,
+      "realized_r": 1.532,
+      "mfe_r": 1.655,
       "outcome": "TIMEOUT",
       "compression": 0.127,
       "r2_high": 0.942,
@@ -6161,8 +6161,8 @@
       "type": "SYMMETRICAL",
       "side": "LONG",
       "geometric_r": 5.018,
-      "realized_r": 0.348,
-      "mfe_r": 1.252,
+      "realized_r": 1.292,
+      "mfe_r": 1.357,
       "outcome": "TIMEOUT",
       "compression": 0.134,
       "r2_high": 0.997,
@@ -8303,7 +8303,7 @@
       "type": "SYMMETRICAL",
       "side": "LONG",
       "geometric_r": 7.065,
-      "realized_r": 2.638,
+      "realized_r": 1.72,
       "mfe_r": 4.98,
       "outcome": "TIMEOUT",
       "compression": 0.204,
@@ -9648,7 +9648,7 @@
       "side": "SHORT",
       "geometric_r": 5.823,
       "realized_r": 5.823,
-      "mfe_r": 7.0,
+      "mfe_r": 5.97,
       "outcome": "MEASURED_TARGET",
       "compression": 0.561,
       "r2_high": 0.703,
@@ -10145,15 +10145,58 @@
       "gap_atr": -0.0001,
       "atr_pct": 0.06579,
       "symbol": "SOLANA"
+    },
+    {
+      "date": "2026-10-29",
+      "type": "FALLING_WEDGE",
+      "side": "SHORT",
+      "geometric_r": 8.431,
+      "realized_r": 0.1,
+      "mfe_r": 0.221,
+      "outcome": "TIMEOUT",
+      "compression": 0.331,
+      "r2_high": 0.956,
+      "r2_low": 0.979,
+      "slope_high_atr": -0.2002,
+      "slope_low_atr": -0.1176,
+      "touches_high": 4,
+      "touches_low": 4,
+      "breakout_strength_atr": 0.168,
+      "trend20_signed": 0.0652,
+      "gap_atr": -0.1798,
+      "atr_pct": 0.04191,
+      "symbol": "SOLANA"
     }
   ],
-  "recent_patterns": [],
+  "recent_patterns": [
+    {
+      "date": "2026-10-29",
+      "type": "FALLING_WEDGE",
+      "side": "SHORT",
+      "geometric_r": 8.431,
+      "realized_r": 0.1,
+      "mfe_r": 0.221,
+      "outcome": "TIMEOUT",
+      "compression": 0.331,
+      "r2_high": 0.956,
+      "r2_low": 0.979,
+      "slope_high_atr": -0.2002,
+      "slope_low_atr": -0.1176,
+      "touches_high": 4,
+      "touches_low": 4,
+      "breakout_strength_atr": 0.168,
+      "trend20_signed": 0.0652,
+      "gap_atr": -0.1798,
+      "atr_pct": 0.04191,
+      "symbol": "SOLANA"
+    }
+  ],
   "note": "Frozen first-pass geometry. No parameter optimization. Results must survive OOS/robustness and Nordnet-KF execution checks before promotion.",
   "research_contract": {
     "schema_version": 1,
     "engine": "pattern_geometry_v2",
     "dataset": {
-      "manifest_sha256": "e6d1e8cd2c9d8c15ad73a063d996d849c7045093c98fbdd262630fbdce37808e",
+      "manifest_sha256": "00fafb937e0f5258a221dc74bf343464e0b8de4f879bbb90fc13b1254e4db26b",
       "manifest_bytes": 27683
     },
     "model_version": "rules-v2-frozen-2026-09-30",
