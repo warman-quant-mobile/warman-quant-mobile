@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-11-02T05:58:36.342508+00:00",
+  "generated_at": "2026-11-02T15:45:01.957116+00:00",
   "validated_edge": false,
   "research_only": true,
-  "split_date": "2023-10-25",
+  "split_date": "2023-10-26",
   "method": "Failed downside break and same-day reclaim of previous 10/20-session low, enter next open, stop at signal low, 3R target, 2/5 day timeout, adverse same-bar stop precedence, 20-30bp costs",
   "results": {
     "10d_2d": {
       "train": {
-        "n": 565,
-        "mean_net_pct": -0.195,
-        "profit_factor": 0.827,
-        "win_rate": 0.441,
-        "mean_R": -0.259
+        "n": 570,
+        "mean_net_pct": -0.21,
+        "profit_factor": 0.815,
+        "win_rate": 0.439,
+        "mean_R": -0.262
       },
       "holdout": {
-        "n": 205,
-        "mean_net_pct": -0.267,
-        "profit_factor": 0.73,
-        "win_rate": 0.424,
-        "mean_R": -0.22
+        "n": 203,
+        "mean_net_pct": -0.286,
+        "profit_factor": 0.714,
+        "win_rate": 0.419,
+        "mean_R": -0.231
       },
       "holdout_trades": [
         {
@@ -172,15 +172,6 @@
           "exit_date": "2026-10-27",
           "return": 0.022304686319150502,
           "R": 1.550078801866951,
-          "reason": "time_exit_close"
-        },
-        {
-          "symbol": "VOLVO_B",
-          "signal_date": "2023-10-24",
-          "entry_date": "2023-10-25",
-          "exit_date": "2023-10-26",
-          "return": 0.007921592919020394,
-          "R": 0.5201841133033347,
           "reason": "time_exit_close"
         },
         {
@@ -343,15 +334,6 @@
           "exit_date": "2026-09-07",
           "return": 9.796817585174325e-06,
           "R": 0.0002420026491910611,
-          "reason": "time_exit_close"
-        },
-        {
-          "symbol": "ATLAS_A",
-          "signal_date": "2023-10-24",
-          "entry_date": "2023-10-25",
-          "exit_date": "2023-10-26",
-          "return": 0.026057510046650245,
-          "R": 1.393071305327656,
           "reason": "time_exit_close"
         },
         {
@@ -1870,18 +1852,18 @@
     },
     "10d_5d": {
       "train": {
-        "n": 565,
-        "mean_net_pct": 0.126,
-        "profit_factor": 1.089,
-        "win_rate": 0.414,
-        "mean_R": -0.129
+        "n": 566,
+        "mean_net_pct": 0.12,
+        "profit_factor": 1.085,
+        "win_rate": 0.413,
+        "mean_R": -0.13
       },
       "holdout": {
-        "n": 202,
-        "mean_net_pct": -0.441,
-        "profit_factor": 0.689,
-        "win_rate": 0.361,
-        "mean_R": -0.266
+        "n": 203,
+        "mean_net_pct": -0.468,
+        "profit_factor": 0.673,
+        "win_rate": 0.355,
+        "mean_R": -0.282
       },
       "holdout_trades": [
         {
@@ -2029,12 +2011,12 @@
           "reason": "time_exit_close"
         },
         {
-          "symbol": "VOLVO_B",
-          "signal_date": "2023-10-24",
-          "entry_date": "2023-10-25",
-          "exit_date": "2023-10-31",
-          "return": 0.017381619784910818,
-          "R": 1.1413919609375291,
+          "symbol": "INVESTOR_B",
+          "signal_date": "2026-10-23",
+          "entry_date": "2026-10-26",
+          "exit_date": "2026-10-30",
+          "return": 0.03088997848492281,
+          "R": 2.1467193106631717,
           "reason": "time_exit_close"
         },
         {
@@ -2197,15 +2179,6 @@
           "exit_date": "2026-09-10",
           "return": -0.028126832916648192,
           "R": -0.6947937960469929,
-          "reason": "time_exit_close"
-        },
-        {
-          "symbol": "ATLAS_A",
-          "signal_date": "2023-10-24",
-          "entry_date": "2023-10-25",
-          "exit_date": "2023-10-31",
-          "return": 0.035410049987353975,
-          "R": 1.8930713053276582,
           "reason": "time_exit_close"
         },
         {
@@ -2983,6 +2956,15 @@
           "reason": "time_exit_close"
         },
         {
+          "symbol": "MICROSOFT",
+          "signal_date": "2026-10-23",
+          "entry_date": "2026-10-26",
+          "exit_date": "2026-10-30",
+          "return": -0.025184322460033767,
+          "R": -1.135230634399795,
+          "reason": "stop"
+        },
+        {
           "symbol": "APPLE",
           "signal_date": "2023-12-27",
           "entry_date": "2023-12-28",
@@ -3701,23 +3683,32 @@
           "return": 0.07627595645641916,
           "R": 4.309831289368655,
           "reason": "gap_target"
+        },
+        {
+          "symbol": "META",
+          "signal_date": "2026-10-23",
+          "entry_date": "2026-10-26",
+          "exit_date": "2026-10-26",
+          "return": -0.010973503880430942,
+          "R": -1.3762461328153148,
+          "reason": "stop"
         }
       ]
     },
     "20d_2d": {
       "train": {
-        "n": 332,
-        "mean_net_pct": -0.218,
-        "profit_factor": 0.816,
-        "win_rate": 0.446,
-        "mean_R": -0.207
+        "n": 335,
+        "mean_net_pct": -0.231,
+        "profit_factor": 0.805,
+        "win_rate": 0.445,
+        "mean_R": -0.208
       },
       "holdout": {
-        "n": 126,
-        "mean_net_pct": -0.111,
-        "profit_factor": 0.889,
-        "win_rate": 0.476,
-        "mean_R": -0.122
+        "n": 124,
+        "mean_net_pct": -0.14,
+        "profit_factor": 0.862,
+        "win_rate": 0.468,
+        "mean_R": -0.14
       },
       "holdout_trades": [
         {
@@ -3754,15 +3745,6 @@
           "exit_date": "2026-05-20",
           "return": 0.012307125835542944,
           "R": 0.5045914878236751,
-          "reason": "time_exit_close"
-        },
-        {
-          "symbol": "VOLVO_B",
-          "signal_date": "2023-10-24",
-          "entry_date": "2023-10-25",
-          "exit_date": "2023-10-26",
-          "return": 0.007921592919020394,
-          "R": 0.5201841133033347,
           "reason": "time_exit_close"
         },
         {
@@ -3871,15 +3853,6 @@
           "exit_date": "2026-09-07",
           "return": 9.796817585174325e-06,
           "R": 0.0002420026491910611,
-          "reason": "time_exit_close"
-        },
-        {
-          "symbol": "ATLAS_A",
-          "signal_date": "2023-10-24",
-          "entry_date": "2023-10-25",
-          "exit_date": "2023-10-26",
-          "return": 0.026057510046650245,
-          "R": 1.393071305327656,
           "reason": "time_exit_close"
         },
         {
@@ -4865,11 +4838,11 @@
         "mean_R": -0.141
       },
       "holdout": {
-        "n": 125,
-        "mean_net_pct": -0.353,
-        "profit_factor": 0.768,
-        "win_rate": 0.368,
-        "mean_R": -0.161
+        "n": 124,
+        "mean_net_pct": -0.407,
+        "profit_factor": 0.736,
+        "win_rate": 0.355,
+        "mean_R": -0.198
       },
       "holdout_trades": [
         {
@@ -4906,15 +4879,6 @@
           "exit_date": "2026-05-25",
           "return": 0.05277578666654237,
           "R": 2.1638043740665682,
-          "reason": "time_exit_close"
-        },
-        {
-          "symbol": "VOLVO_B",
-          "signal_date": "2023-10-24",
-          "entry_date": "2023-10-25",
-          "exit_date": "2023-10-31",
-          "return": 0.017381619784910818,
-          "R": 1.1413919609375291,
           "reason": "time_exit_close"
         },
         {
@@ -5023,15 +4987,6 @@
           "exit_date": "2026-09-10",
           "return": -0.028126832916648192,
           "R": -0.6947937960469929,
-          "reason": "time_exit_close"
-        },
-        {
-          "symbol": "ATLAS_A",
-          "signal_date": "2023-10-24",
-          "entry_date": "2023-10-25",
-          "exit_date": "2023-10-31",
-          "return": 0.035410049987353975,
-          "R": 1.8930713053276582,
           "reason": "time_exit_close"
         },
         {
@@ -5996,6 +5951,15 @@
           "return": 0.028211068213560456,
           "R": 2.711640757105199,
           "reason": "target"
+        },
+        {
+          "symbol": "META",
+          "signal_date": "2026-10-23",
+          "entry_date": "2026-10-26",
+          "exit_date": "2026-10-26",
+          "return": -0.010973503880430942,
+          "R": -1.3762461328153148,
+          "reason": "stop"
         }
       ]
     }

@@ -8,9 +8,9 @@ INVESTOR_B,relative_momentum,10,0,,0,,,False
 INVESTOR_B,weekly_close_reversal,3,4,-1.4677,0,,,False
 INVESTOR_B,weekly_close_reversal,5,4,2.6069,0,,,False
 INVESTOR_B,weekly_close_reversal,10,3,0.5493,0,,,False
-INVESTOR_B,breakout,3,92,-0.2482,40,0.0642,1.097,True
-INVESTOR_B,breakout,5,77,-0.0077,34,0.1128,1.12,True
-INVESTOR_B,breakout,10,63,-0.0626,27,0.7043,1.782,True
+INVESTOR_B,breakout,3,92,-0.2451,40,0.0642,1.097,True
+INVESTOR_B,breakout,5,77,-0.0029,34,0.1128,1.12,True
+INVESTOR_B,breakout,10,63,-0.0744,27,0.7043,1.782,True
 VOLVO_B,relative_reversal,3,7,0.5195,3,-1.7847,0.446,False
 VOLVO_B,relative_reversal,5,7,1.0932,3,0.3155,1.208,False
 VOLVO_B,relative_reversal,10,7,2.7348,3,2.6542,7.919,False
@@ -20,9 +20,9 @@ VOLVO_B,relative_momentum,10,5,2.2029,2,-2.9528,0.287,False
 VOLVO_B,weekly_close_reversal,3,14,-0.8951,11,-0.487,0.648,False
 VOLVO_B,weekly_close_reversal,5,14,0.4789,11,-0.5923,0.556,False
 VOLVO_B,weekly_close_reversal,10,12,-0.4805,11,0.1713,1.168,False
-VOLVO_B,breakout,3,77,-0.2319,32,-0.2182,0.808,True
-VOLVO_B,breakout,5,65,0.157,25,0.5674,1.475,True
-VOLVO_B,breakout,10,50,1.0705,20,1.4422,1.925,True
+VOLVO_B,breakout,3,77,-0.2773,32,-0.2182,0.808,True
+VOLVO_B,breakout,5,65,0.1262,25,0.5674,1.475,True
+VOLVO_B,breakout,10,50,1.0048,20,1.4422,1.925,True
 ATLAS_A,relative_reversal,3,6,-1.115,3,-0.5481,0.531,False
 ATLAS_A,relative_reversal,5,6,0.8068,3,0.0477,1.088,False
 ATLAS_A,relative_reversal,10,5,-0.9251,2,-3.2593,0.0,False

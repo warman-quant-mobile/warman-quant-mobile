@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-02T05:58:35.654195+00:00",
+  "generated_at": "2026-11-02T15:45:01.264325+00:00",
   "research_only": true,
   "validated_edge": false,
   "roundtrip_cost_bps": 20,
@@ -190,8 +190,8 @@
       "hold_sessions": 3,
       "train": {
         "n": 92,
-        "mean_net_pct": -0.2482,
-        "profit_factor": 0.695,
+        "mean_net_pct": -0.2451,
+        "profit_factor": 0.699,
         "win_rate": 0.511
       },
       "holdout": {
@@ -209,8 +209,8 @@
       "hold_sessions": 5,
       "train": {
         "n": 77,
-        "mean_net_pct": -0.0077,
-        "profit_factor": 0.991,
+        "mean_net_pct": -0.0029,
+        "profit_factor": 0.996,
         "win_rate": 0.494
       },
       "holdout": {
@@ -228,8 +228,8 @@
       "hold_sessions": 10,
       "train": {
         "n": 63,
-        "mean_net_pct": -0.0626,
-        "profit_factor": 0.949,
+        "mean_net_pct": -0.0744,
+        "profit_factor": 0.939,
         "win_rate": 0.556
       },
       "holdout": {
@@ -418,9 +418,9 @@
       "hold_sessions": 3,
       "train": {
         "n": 77,
-        "mean_net_pct": -0.2319,
-        "profit_factor": 0.763,
-        "win_rate": 0.506
+        "mean_net_pct": -0.2773,
+        "profit_factor": 0.721,
+        "win_rate": 0.494
       },
       "holdout": {
         "n": 32,
@@ -437,9 +437,9 @@
       "hold_sessions": 5,
       "train": {
         "n": 65,
-        "mean_net_pct": 0.157,
-        "profit_factor": 1.142,
-        "win_rate": 0.585
+        "mean_net_pct": 0.1262,
+        "profit_factor": 1.113,
+        "win_rate": 0.569
       },
       "holdout": {
         "n": 25,
@@ -456,9 +456,9 @@
       "hold_sessions": 10,
       "train": {
         "n": 50,
-        "mean_net_pct": 1.0705,
-        "profit_factor": 1.825,
-        "win_rate": 0.62
+        "mean_net_pct": 1.0048,
+        "profit_factor": 1.756,
+        "win_rate": 0.6
       },
       "holdout": {
         "n": 20,
