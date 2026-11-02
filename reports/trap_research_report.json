@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-02T15:45:01.957116+00:00",
+  "generated_at": "2026-11-02T23:29:43.966632+00:00",
   "validated_edge": false,
   "research_only": true,
   "split_date": "2023-10-26",
@@ -1859,11 +1859,11 @@
         "mean_R": -0.13
       },
       "holdout": {
-        "n": 203,
-        "mean_net_pct": -0.468,
-        "profit_factor": 0.673,
-        "win_rate": 0.355,
-        "mean_R": -0.282
+        "n": 202,
+        "mean_net_pct": -0.485,
+        "profit_factor": 0.663,
+        "win_rate": 0.351,
+        "mean_R": -0.294
       },
       "holdout_trades": [
         {
@@ -2008,15 +2008,6 @@
           "exit_date": "2026-08-27",
           "return": 0.008964912443773178,
           "R": 1.599660669267308,
-          "reason": "time_exit_close"
-        },
-        {
-          "symbol": "INVESTOR_B",
-          "signal_date": "2026-10-23",
-          "entry_date": "2026-10-26",
-          "exit_date": "2026-10-30",
-          "return": 0.03088997848492281,
-          "R": 2.1467193106631717,
           "reason": "time_exit_close"
         },
         {
