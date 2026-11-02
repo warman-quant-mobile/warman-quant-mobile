@@ -10,7 +10,7 @@ INVESTOR_B,weekly_close_reversal,5,4,2.6069,0,,,False
 INVESTOR_B,weekly_close_reversal,10,3,0.5493,0,,,False
 INVESTOR_B,breakout,3,92,-0.2482,40,0.0642,1.097,True
 INVESTOR_B,breakout,5,77,-0.0077,34,0.1128,1.12,True
-INVESTOR_B,breakout,10,62,0.0556,27,0.7043,1.782,True
+INVESTOR_B,breakout,10,63,-0.0626,27,0.7043,1.782,True
 VOLVO_B,relative_reversal,3,7,0.5195,3,-1.7847,0.446,False
 VOLVO_B,relative_reversal,5,7,1.0932,3,0.3155,1.208,False
 VOLVO_B,relative_reversal,10,7,2.7348,3,2.6542,7.919,False
@@ -31,10 +31,10 @@ ATLAS_A,relative_momentum,5,3,-1.1616,2,1.6691,,False
 ATLAS_A,relative_momentum,10,3,0.2686,1,6.915,,False
 ATLAS_A,weekly_close_reversal,3,22,-0.3394,13,0.6486,1.424,False
 ATLAS_A,weekly_close_reversal,5,22,0.7181,12,0.6675,1.368,False
-ATLAS_A,weekly_close_reversal,10,20,-0.24,10,-0.4603,0.872,False
+ATLAS_A,weekly_close_reversal,10,20,-0.24,11,-1.1898,0.705,False
 ATLAS_A,breakout,3,78,-0.0414,30,-0.1822,0.795,True
 ATLAS_A,breakout,5,69,-0.3654,26,0.2325,1.269,True
-ATLAS_A,breakout,10,52,0.2513,21,0.5358,1.428,True
+ATLAS_A,breakout,10,53,0.1302,21,0.5358,1.428,True
 ABB,relative_reversal,3,1,0.0472,4,-2.3102,0.26,False
 ABB,relative_reversal,5,1,-0.4119,4,-2.7585,0.185,False
 ABB,relative_reversal,10,1,4.8141,3,-0.7011,0.289,False
@@ -43,7 +43,7 @@ ABB,relative_momentum,5,2,0.333,4,-0.1023,0.753,False
 ABB,relative_momentum,10,2,-3.9318,4,2.9206,11.876,False
 ABB,weekly_close_reversal,3,12,0.6138,8,-0.3239,0.849,False
 ABB,weekly_close_reversal,5,12,0.6001,7,-1.2563,0.651,False
-ABB,weekly_close_reversal,10,11,2.9608,5,-0.3625,0.85,False
+ABB,weekly_close_reversal,10,11,2.9608,6,-1.8396,0.481,False
 ABB,breakout,3,86,-0.0402,43,-0.2126,0.774,True
 ABB,breakout,5,77,-0.0169,40,-0.3252,0.727,True
 ABB,breakout,10,56,0.5042,29,0.9188,1.811,True
@@ -81,10 +81,10 @@ APPLE,weekly_close_reversal,3,16,1.2773,19,1.7456,4.303,False
 APPLE,weekly_close_reversal,5,16,0.7337,18,2.2925,4.691,False
 APPLE,weekly_close_reversal,10,15,0.8599,16,2.4633,2.511,False
 APPLE,breakout,3,105,-0.0088,36,0.1374,1.173,True
-APPLE,breakout,5,88,0.4002,31,-0.0089,0.994,True
+APPLE,breakout,5,88,0.4002,32,-0.0364,0.974,True
 APPLE,breakout,10,66,1.3488,23,0.9677,1.937,True
 META,relative_reversal,3,16,-1.5732,9,-0.1834,0.92,False
-META,relative_reversal,5,15,0.0782,8,1.4527,1.942,False
+META,relative_reversal,5,15,0.0782,9,0.8569,1.475,False
 META,relative_reversal,10,15,1.7347,8,2.8005,2.234,False
 META,relative_momentum,3,10,-0.5691,8,0.8809,2.137,False
 META,relative_momentum,5,10,-1.4285,8,-0.4691,0.718,False

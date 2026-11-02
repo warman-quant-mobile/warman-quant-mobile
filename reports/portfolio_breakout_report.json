@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-30T23:44:59.361661+00:00",
+  "generated_at": "2026-11-02T05:58:35.834435+00:00",
   "research_only": true,
   "validated_edge": false,
   "capital": 100000,
@@ -10,7 +10,7 @@
     "ABB",
     "OMXS30"
   ],
-  "split_date": "2023-10-25",
+  "split_date": "2023-10-26",
   "rules": "Prior-close 20-day breakout; next-open entry; one long position; strongest breakout; 2/3 ATR trailing stop after close; full cash allocation; gap-aware stops; 20bp total costs",
   "limitations": "Survivorship, no ETP financing, no intraday stop execution proof, selection bias; benchmark excludes dividends; stop parameter comparison is exploratory",
   "results": {
@@ -27,11 +27,11 @@
         "mean_net_pct": 0.955,
         "win_rate": 0.346
       },
-      "holdout_portfolio_return": 0.2175,
+      "holdout_portfolio_return": 0.219,
       "holdout_max_drawdown": 0.2058,
       "holdout_benchmarks_price_only": {
-        "INVESTOR_B": 1.1119,
-        "OMXS30": 0.582
+        "INVESTOR_B": 1.0983,
+        "OMXS30": 0.5846
       },
       "trades": [
         {
@@ -13535,6 +13535,11 @@
           "date": "2026-10-29",
           "equity": 109507.63,
           "drawdown": 0.201212
+        },
+        {
+          "date": "2026-10-30",
+          "equity": 109635.98,
+          "drawdown": 0.200275
         }
       ]
     },
@@ -13551,11 +13556,11 @@
         "mean_net_pct": 1.873,
         "win_rate": 0.375
       },
-      "holdout_portfolio_return": 0.2842,
+      "holdout_portfolio_return": 0.2857,
       "holdout_max_drawdown": 0.2695,
       "holdout_benchmarks_price_only": {
-        "INVESTOR_B": 1.1119,
-        "OMXS30": 0.582
+        "INVESTOR_B": 1.0983,
+        "OMXS30": 0.5846
       },
       "trades": [
         {
@@ -26589,6 +26594,11 @@
           "date": "2026-10-29",
           "equity": 267445.07,
           "drawdown": 0.238208
+        },
+        {
+          "date": "2026-10-30",
+          "equity": 267758.53,
+          "drawdown": 0.237315
         }
       ]
     }
