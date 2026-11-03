@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-11-03T06:44:49.798968+00:00",
+  "generated_at": "2026-11-03T15:05:32.575447+00:00",
   "validated_edge": false,
   "research_only": true,
-  "split_date": "2023-10-26",
+  "split_date": "2023-10-27",
   "method": "Failed downside break and same-day reclaim of previous 10/20-session low, enter next open, stop at signal low, 3R target, 2/5 day timeout, adverse same-bar stop precedence, 20-30bp costs",
   "results": {
     "10d_2d": {
       "train": {
-        "n": 570,
-        "mean_net_pct": -0.21,
-        "profit_factor": 0.815,
-        "win_rate": 0.439,
-        "mean_R": -0.262
+        "n": 572,
+        "mean_net_pct": -0.203,
+        "profit_factor": 0.82,
+        "win_rate": 0.441,
+        "mean_R": -0.257
       },
       "holdout": {
         "n": 203,
@@ -1852,18 +1852,18 @@
     },
     "10d_5d": {
       "train": {
-        "n": 566,
-        "mean_net_pct": 0.12,
-        "profit_factor": 1.085,
-        "win_rate": 0.413,
-        "mean_R": -0.13
+        "n": 568,
+        "mean_net_pct": 0.107,
+        "profit_factor": 1.075,
+        "win_rate": 0.412,
+        "mean_R": -0.134
       },
       "holdout": {
-        "n": 202,
-        "mean_net_pct": -0.485,
-        "profit_factor": 0.663,
-        "win_rate": 0.351,
-        "mean_R": -0.294
+        "n": 203,
+        "mean_net_pct": -0.468,
+        "profit_factor": 0.673,
+        "win_rate": 0.355,
+        "mean_R": -0.282
       },
       "holdout_trades": [
         {
@@ -2008,6 +2008,15 @@
           "exit_date": "2026-08-27",
           "return": 0.008964912443773178,
           "R": 1.599660669267308,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "INVESTOR_B",
+          "signal_date": "2026-10-23",
+          "entry_date": "2026-10-26",
+          "exit_date": "2026-10-30",
+          "return": 0.03088997848492281,
+          "R": 2.1467193106631717,
           "reason": "time_exit_close"
         },
         {
@@ -3688,11 +3697,11 @@
     },
     "20d_2d": {
       "train": {
-        "n": 335,
-        "mean_net_pct": -0.231,
-        "profit_factor": 0.805,
-        "win_rate": 0.445,
-        "mean_R": -0.208
+        "n": 337,
+        "mean_net_pct": -0.22,
+        "profit_factor": 0.814,
+        "win_rate": 0.448,
+        "mean_R": -0.201
       },
       "holdout": {
         "n": 124,
@@ -4822,11 +4831,11 @@
     },
     "20d_5d": {
       "train": {
-        "n": 332,
-        "mean_net_pct": 0.006,
-        "profit_factor": 1.004,
-        "win_rate": 0.407,
-        "mean_R": -0.141
+        "n": 333,
+        "mean_net_pct": -0.01,
+        "profit_factor": 0.994,
+        "win_rate": 0.405,
+        "mean_R": -0.144
       },
       "holdout": {
         "n": 124,
