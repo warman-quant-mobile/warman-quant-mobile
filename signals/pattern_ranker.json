@@ -17,9 +17,9 @@
     "atr_pct"
   ],
   "split": {
-    "train": 186,
+    "train": 187,
     "validation": 62,
-    "final_test": 62,
+    "final_test": 63,
     "rule": "60/20/20 chronological; final test untouched by fitting"
   },
   "targets": {
@@ -28,35 +28,35 @@
       "validation": {
         "n": 62,
         "base_rate": 0.1935,
-        "brier": 0.169,
+        "brier": 0.1681,
         "top_quartile_n": 15,
         "top_quartile_hit_rate": 0.1333,
         "top_quartile_mean_realized_r": -1.079,
         "top_quartile_median_realized_r": -1.0
       },
       "final_test": {
-        "n": 62,
-        "base_rate": 0.0806,
-        "brier": 0.0877,
+        "n": 63,
+        "base_rate": 0.0794,
+        "brier": 0.0861,
         "top_quartile_n": 15,
         "top_quartile_hit_rate": 0.2,
-        "top_quartile_mean_realized_r": -0.93,
+        "top_quartile_mean_realized_r": -1.003,
         "top_quartile_median_realized_r": -1.0
       },
       "coefficients": {
-        "intercept": -1.9665,
-        "geometric_r": 0.3303,
-        "compression": -0.0106,
-        "r2_high": -0.0407,
-        "r2_low": -0.123,
-        "slope_high_atr": -0.107,
-        "slope_low_atr": 0.02,
-        "touches_high": -0.1758,
-        "touches_low": 0.2759,
-        "breakout_strength_atr": -0.3907,
-        "trend20_signed": -0.0742,
-        "gap_atr": -0.323,
-        "atr_pct": 0.2108
+        "intercept": -1.9695,
+        "geometric_r": 0.3306,
+        "compression": -0.0033,
+        "r2_high": -0.0474,
+        "r2_low": -0.1148,
+        "slope_high_atr": -0.1101,
+        "slope_low_atr": 0.0113,
+        "touches_high": -0.1905,
+        "touches_low": 0.276,
+        "breakout_strength_atr": -0.3847,
+        "trend20_signed": -0.0609,
+        "gap_atr": -0.3169,
+        "atr_pct": 0.2074
       }
     },
     "10": {
@@ -64,35 +64,35 @@
       "validation": {
         "n": 62,
         "base_rate": 0.0,
-        "brier": 0.003,
+        "brier": 0.0029,
         "top_quartile_n": 15,
         "top_quartile_hit_rate": 0.0,
         "top_quartile_mean_realized_r": -0.6,
         "top_quartile_median_realized_r": -1.0
       },
       "final_test": {
-        "n": 62,
-        "base_rate": 0.0484,
-        "brier": 0.0469,
+        "n": 63,
+        "base_rate": 0.0476,
+        "brier": 0.0461,
         "top_quartile_n": 15,
         "top_quartile_hit_rate": 0.0667,
         "top_quartile_mean_realized_r": -1.458,
         "top_quartile_median_realized_r": -1.0
       },
       "coefficients": {
-        "intercept": -2.9564,
-        "geometric_r": 0.1089,
-        "compression": -0.1785,
-        "r2_high": -0.0528,
-        "r2_low": -0.172,
-        "slope_high_atr": -0.0938,
-        "slope_low_atr": 0.0524,
-        "touches_high": 0.0329,
-        "touches_low": 0.0501,
-        "breakout_strength_atr": -0.0977,
-        "trend20_signed": -0.028,
-        "gap_atr": -0.06,
-        "atr_pct": -0.0056
+        "intercept": -2.9571,
+        "geometric_r": 0.109,
+        "compression": -0.1759,
+        "r2_high": -0.055,
+        "r2_low": -0.1694,
+        "slope_high_atr": -0.0948,
+        "slope_low_atr": 0.0498,
+        "touches_high": 0.0286,
+        "touches_low": 0.0498,
+        "breakout_strength_atr": -0.0958,
+        "trend20_signed": -0.0234,
+        "gap_atr": -0.0578,
+        "atr_pct": -0.0069
       }
     },
     "15": {
@@ -105,8 +105,8 @@
     "schema_version": 1,
     "engine": "pattern_ranker",
     "dataset": {
-      "manifest_sha256": "00fafb937e0f5258a221dc74bf343464e0b8de4f879bbb90fc13b1254e4db26b",
-      "manifest_bytes": 27683
+      "manifest_sha256": "7625ef45e3d438c650570973b07c08dbc6e90ffdc244cbf1e53c7c634fa31178",
+      "manifest_bytes": 27603
     },
     "model_version": "logit-v1-frozen-2026-09-30",
     "reproducibility": {

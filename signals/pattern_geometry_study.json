@@ -669,20 +669,20 @@
     "GOLD_FUT": {
       "summary": {
         "all": {
-          "n": 14,
-          "mean_r": -0.065,
+          "n": 15,
+          "mean_r": -0.094,
           "median_r": -1.0,
-          "mean_geometric_r": 9.149,
+          "mean_geometric_r": 8.678,
           "target_hits": 1,
           "mfe_5r": 2,
           "mfe_10r": 1,
           "max_mfe_r": 10.05
         },
         "train": {
-          "n": 8,
-          "mean_r": -1.023,
+          "n": 9,
+          "mean_r": -1.02,
           "median_r": -1.0,
-          "mean_geometric_r": 11.785,
+          "mean_geometric_r": 11.036,
           "target_hits": 0,
           "mfe_5r": 0,
           "mfe_10r": 0,
@@ -690,9 +690,9 @@
         },
         "oos": {
           "n": 6,
-          "mean_r": 1.212,
-          "median_r": 0.126,
-          "mean_geometric_r": 5.635,
+          "mean_r": 1.296,
+          "median_r": 0.45,
+          "mean_geometric_r": 5.141,
           "target_hits": 1,
           "mfe_5r": 2,
           "mfe_10r": 1,
@@ -735,8 +735,8 @@
         "DESCENDING": {
           "all": {
             "n": 2,
-            "mean_r": 0.266,
-            "median_r": 0.266,
+            "mean_r": 0.194,
+            "median_r": 0.194,
             "mean_geometric_r": 5.027,
             "target_hits": 0,
             "mfe_5r": 0,
@@ -755,8 +755,8 @@
           },
           "oos": {
             "n": 1,
-            "mean_r": 1.532,
-            "median_r": 1.532,
+            "mean_r": 1.388,
+            "median_r": 1.388,
             "mean_geometric_r": 3.891,
             "target_hits": 0,
             "mfe_5r": 0,
@@ -766,20 +766,20 @@
         },
         "FALLING_WEDGE": {
           "all": {
-            "n": 4,
-            "mean_r": -1.045,
+            "n": 5,
+            "mean_r": -0.907,
             "median_r": -1.0,
-            "mean_geometric_r": 8.38,
+            "mean_geometric_r": 7.12,
             "target_hits": 0,
             "mfe_5r": 1,
             "mfe_10r": 0,
             "max_mfe_r": 5.178
           },
           "train": {
-            "n": 2,
-            "mean_r": -1.091,
-            "median_r": -1.091,
-            "mean_geometric_r": 11.067,
+            "n": 3,
+            "mean_r": -1.06,
+            "median_r": -1.0,
+            "mean_geometric_r": 9.06,
             "target_hits": 0,
             "mfe_5r": 0,
             "mfe_10r": 0,
@@ -787,9 +787,9 @@
           },
           "oos": {
             "n": 2,
-            "mean_r": -1.0,
-            "median_r": -1.0,
-            "mean_geometric_r": 5.691,
+            "mean_r": -0.676,
+            "median_r": -0.676,
+            "mean_geometric_r": 4.211,
             "target_hits": 0,
             "mfe_5r": 1,
             "mfe_10r": 0,
@@ -1251,7 +1251,7 @@
       "summary": {
         "all": {
           "n": 16,
-          "mean_r": 0.513,
+          "mean_r": 0.37,
           "median_r": -1.0,
           "mean_geometric_r": 7.49,
           "target_hits": 3,
@@ -1271,7 +1271,7 @@
         },
         "oos": {
           "n": 7,
-          "mean_r": -0.702,
+          "mean_r": -1.029,
           "median_r": -1.0,
           "mean_geometric_r": 7.927,
           "target_hits": 0,
@@ -1405,8 +1405,8 @@
         "SYMMETRICAL": {
           "all": {
             "n": 2,
-            "mean_r": 0.146,
-            "median_r": 0.146,
+            "mean_r": -1.0,
+            "median_r": -1.0,
             "mean_geometric_r": 11.396,
             "target_hits": 0,
             "mfe_5r": 0,
@@ -1425,8 +1425,8 @@
           },
           "oos": {
             "n": 1,
-            "mean_r": 1.292,
-            "median_r": 1.292,
+            "mean_r": -1.0,
+            "median_r": -1.0,
             "mean_geometric_r": 5.018,
             "target_hits": 0,
             "mfe_5r": 0,
@@ -2328,7 +2328,7 @@
       "summary": {
         "all": {
           "n": 11,
-          "mean_r": 0.315,
+          "mean_r": 0.165,
           "median_r": -1.0,
           "mean_geometric_r": 31.128,
           "target_hits": 1,
@@ -2348,7 +2348,7 @@
         },
         "oos": {
           "n": 5,
-          "mean_r": 0.002,
+          "mean_r": -0.328,
           "median_r": -1.0,
           "mean_geometric_r": 57.707,
           "target_hits": 0,
@@ -2450,7 +2450,7 @@
         "SYMMETRICAL": {
           "all": {
             "n": 4,
-            "mean_r": -0.766,
+            "mean_r": -1.179,
             "median_r": -1.0,
             "mean_geometric_r": 70.301,
             "target_hits": 0,
@@ -2470,8 +2470,8 @@
           },
           "oos": {
             "n": 2,
-            "mean_r": 0.36,
-            "median_r": 0.36,
+            "mean_r": -0.465,
+            "median_r": -0.465,
             "mean_geometric_r": 11.101,
             "target_hits": 0,
             "mfe_5r": 0,
@@ -2484,43 +2484,43 @@
     "APPLE": {
       "summary": {
         "all": {
-          "n": 9,
-          "mean_r": -0.061,
+          "n": 10,
+          "mean_r": -0.004,
           "median_r": -1.0,
-          "mean_geometric_r": 5.86,
+          "mean_geometric_r": 5.663,
           "target_hits": 2,
           "mfe_5r": 0,
           "mfe_10r": 0,
           "max_mfe_r": 3.465
         },
         "train": {
-          "n": 5,
-          "mean_r": -0.188,
+          "n": 6,
+          "mean_r": 0.408,
           "median_r": -1.0,
-          "mean_geometric_r": 6.647,
-          "target_hits": 1,
-          "mfe_5r": 0,
-          "mfe_10r": 0,
-          "max_mfe_r": 3.107
-        },
-        "oos": {
-          "n": 4,
-          "mean_r": 0.098,
-          "median_r": -1.0,
-          "mean_geometric_r": 4.877,
-          "target_hits": 1,
+          "mean_geometric_r": 6.104,
+          "target_hits": 2,
           "mfe_5r": 0,
           "mfe_10r": 0,
           "max_mfe_r": 3.465
+        },
+        "oos": {
+          "n": 4,
+          "mean_r": -0.623,
+          "median_r": -1.0,
+          "mean_geometric_r": 5.002,
+          "target_hits": 0,
+          "mfe_5r": 0,
+          "mfe_10r": 0,
+          "max_mfe_r": 1.654
         }
       },
       "by_type": {
         "ASCENDING": {
           "all": {
-            "n": 1,
-            "mean_r": 3.39,
-            "median_r": 3.39,
-            "mean_geometric_r": 3.39,
+            "n": 2,
+            "mean_r": 1.95,
+            "median_r": 1.95,
+            "mean_geometric_r": 3.641,
             "target_hits": 1,
             "mfe_5r": 0,
             "mfe_10r": 0,
@@ -2537,7 +2537,14 @@
             "max_mfe_r": 3.465
           },
           "oos": {
-            "n": 0
+            "n": 1,
+            "mean_r": 0.509,
+            "median_r": 0.509,
+            "mean_geometric_r": 3.891,
+            "target_hits": 0,
+            "mfe_5r": 0,
+            "mfe_10r": 0,
+            "max_mfe_r": 0.856
           }
         },
         "DESCENDING": {
@@ -3502,9 +3509,9 @@
       "summary": {
         "all": {
           "n": 11,
-          "mean_r": 0.025,
+          "mean_r": -0.075,
           "median_r": -1.0,
-          "mean_geometric_r": 6.222,
+          "mean_geometric_r": 6.03,
           "target_hits": 2,
           "mfe_5r": 1,
           "mfe_10r": 0,
@@ -3522,9 +3529,9 @@
         },
         "oos": {
           "n": 5,
-          "mean_r": -0.78,
+          "mean_r": -1.0,
           "median_r": -1.0,
-          "mean_geometric_r": 6.863,
+          "mean_geometric_r": 6.44,
           "target_hits": 0,
           "mfe_5r": 0,
           "mfe_10r": 0,
@@ -3592,9 +3599,9 @@
         "FALLING_WEDGE": {
           "all": {
             "n": 4,
-            "mean_r": 0.909,
-            "median_r": -0.45,
-            "mean_geometric_r": 5.627,
+            "mean_r": 0.634,
+            "median_r": -1.0,
+            "mean_geometric_r": 5.098,
             "target_hits": 1,
             "mfe_5r": 1,
             "mfe_10r": 0,
@@ -3612,13 +3619,13 @@
           },
           "oos": {
             "n": 2,
-            "mean_r": -0.45,
-            "median_r": -0.45,
-            "mean_geometric_r": 5.804,
+            "mean_r": -1.0,
+            "median_r": -1.0,
+            "mean_geometric_r": 4.747,
             "target_hits": 0,
             "mfe_5r": 0,
             "mfe_10r": 0,
-            "max_mfe_r": 0.607
+            "max_mfe_r": 0.886
           }
         },
         "RISING_WEDGE": {
@@ -5195,7 +5202,7 @@
       "type": "DESCENDING",
       "side": "SHORT",
       "geometric_r": 3.891,
-      "realized_r": 1.532,
+      "realized_r": 1.388,
       "mfe_r": 1.655,
       "outcome": "TIMEOUT",
       "compression": 0.127,
@@ -5209,6 +5216,27 @@
       "trend20_signed": 0.0735,
       "gap_atr": 0.1736,
       "atr_pct": 0.02541,
+      "symbol": "GOLD_FUT"
+    },
+    {
+      "date": "2026-10-30",
+      "type": "FALLING_WEDGE",
+      "side": "SHORT",
+      "geometric_r": 2.083,
+      "realized_r": -0.353,
+      "mfe_r": 0.0,
+      "outcome": "TIMEOUT",
+      "compression": 0.352,
+      "r2_high": 0.91,
+      "r2_low": 0.803,
+      "slope_high_atr": -0.1825,
+      "slope_low_atr": -0.1261,
+      "touches_high": 3,
+      "touches_low": 5,
+      "breakout_strength_atr": 0.7928,
+      "trend20_signed": 0.0407,
+      "gap_atr": 0.121,
+      "atr_pct": 0.0189,
       "symbol": "GOLD_FUT"
     },
     {
@@ -6161,9 +6189,9 @@
       "type": "SYMMETRICAL",
       "side": "LONG",
       "geometric_r": 5.018,
-      "realized_r": 1.292,
+      "realized_r": -1.0,
       "mfe_r": 1.357,
-      "outcome": "TIMEOUT",
+      "outcome": "STOP",
       "compression": 0.134,
       "r2_high": 0.997,
       "r2_low": 0.892,
@@ -8303,7 +8331,7 @@
       "type": "SYMMETRICAL",
       "side": "LONG",
       "geometric_r": 7.065,
-      "realized_r": 1.72,
+      "realized_r": 0.071,
       "mfe_r": 4.98,
       "outcome": "TIMEOUT",
       "compression": 0.204,
@@ -8506,6 +8534,27 @@
       "trend20_signed": -0.0683,
       "gap_atr": 0.0533,
       "atr_pct": 0.02139,
+      "symbol": "APPLE"
+    },
+    {
+      "date": "2026-10-30",
+      "type": "ASCENDING",
+      "side": "SHORT",
+      "geometric_r": 3.891,
+      "realized_r": 0.509,
+      "mfe_r": 0.856,
+      "outcome": "TIMEOUT",
+      "compression": 0.277,
+      "r2_high": 1.0,
+      "r2_low": 1.0,
+      "slope_high_atr": 0.0776,
+      "slope_low_atr": 0.1673,
+      "touches_high": 5,
+      "touches_low": 3,
+      "breakout_strength_atr": 0.3128,
+      "trend20_signed": -0.0563,
+      "gap_atr": 0.3031,
+      "atr_pct": 0.01887,
       "symbol": "APPLE"
     },
     {
@@ -10150,10 +10199,10 @@
       "date": "2026-10-29",
       "type": "FALLING_WEDGE",
       "side": "SHORT",
-      "geometric_r": 8.431,
-      "realized_r": 0.1,
-      "mfe_r": 0.221,
-      "outcome": "TIMEOUT",
+      "geometric_r": 6.317,
+      "realized_r": -1.0,
+      "mfe_r": 0.886,
+      "outcome": "STOP",
       "compression": 0.331,
       "r2_high": 0.956,
       "r2_low": 0.979,
@@ -10163,32 +10212,53 @@
       "touches_low": 4,
       "breakout_strength_atr": 0.168,
       "trend20_signed": 0.0652,
-      "gap_atr": -0.1798,
-      "atr_pct": 0.04191,
+      "gap_atr": -0.0,
+      "atr_pct": 0.04223,
       "symbol": "SOLANA"
     }
   ],
   "recent_patterns": [
     {
-      "date": "2026-10-29",
+      "date": "2026-10-30",
       "type": "FALLING_WEDGE",
       "side": "SHORT",
-      "geometric_r": 8.431,
-      "realized_r": 0.1,
-      "mfe_r": 0.221,
+      "geometric_r": 2.083,
+      "realized_r": -0.353,
+      "mfe_r": 0.0,
       "outcome": "TIMEOUT",
-      "compression": 0.331,
-      "r2_high": 0.956,
-      "r2_low": 0.979,
-      "slope_high_atr": -0.2002,
-      "slope_low_atr": -0.1176,
-      "touches_high": 4,
-      "touches_low": 4,
-      "breakout_strength_atr": 0.168,
-      "trend20_signed": 0.0652,
-      "gap_atr": -0.1798,
-      "atr_pct": 0.04191,
-      "symbol": "SOLANA"
+      "compression": 0.352,
+      "r2_high": 0.91,
+      "r2_low": 0.803,
+      "slope_high_atr": -0.1825,
+      "slope_low_atr": -0.1261,
+      "touches_high": 3,
+      "touches_low": 5,
+      "breakout_strength_atr": 0.7928,
+      "trend20_signed": 0.0407,
+      "gap_atr": 0.121,
+      "atr_pct": 0.0189,
+      "symbol": "GOLD_FUT"
+    },
+    {
+      "date": "2026-10-30",
+      "type": "ASCENDING",
+      "side": "SHORT",
+      "geometric_r": 3.891,
+      "realized_r": 0.509,
+      "mfe_r": 0.856,
+      "outcome": "TIMEOUT",
+      "compression": 0.277,
+      "r2_high": 1.0,
+      "r2_low": 1.0,
+      "slope_high_atr": 0.0776,
+      "slope_low_atr": 0.1673,
+      "touches_high": 5,
+      "touches_low": 3,
+      "breakout_strength_atr": 0.3128,
+      "trend20_signed": -0.0563,
+      "gap_atr": 0.3031,
+      "atr_pct": 0.01887,
+      "symbol": "APPLE"
     }
   ],
   "note": "Frozen first-pass geometry. No parameter optimization. Results must survive OOS/robustness and Nordnet-KF execution checks before promotion.",
@@ -10196,8 +10266,8 @@
     "schema_version": 1,
     "engine": "pattern_geometry_v2",
     "dataset": {
-      "manifest_sha256": "00fafb937e0f5258a221dc74bf343464e0b8de4f879bbb90fc13b1254e4db26b",
-      "manifest_bytes": 27683
+      "manifest_sha256": "7625ef45e3d438c650570973b07c08dbc6e90ffdc244cbf1e53c7c634fa31178",
+      "manifest_bytes": 27603
     },
     "model_version": "rules-v2-frozen-2026-09-30",
     "reproducibility": {

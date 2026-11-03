@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at_utc": "2026-11-02T17:26:24.538170+00:00",
+  "generated_at_utc": "2026-11-03T07:13:04.374213+00:00",
   "status": "RESEARCH_ONLY",
   "parameters": {
     "gap_abs_pct": 3,
@@ -8,66 +8,64 @@
     "daily_range_atr": 2.5
   },
   "observations": {
-    "SILVER_FUT": {
-      "session_date": "2026-10-30",
+    "WTI_FUT": {
+      "session_date": "2026-11-02",
       "events": [
         {
           "type": "EXTREME_DAILY_RETURN",
           "direction": "DOWN",
-          "magnitude_pct": -5.93,
+          "magnitude_pct": -7.36,
+          "note": "Magnitude alone is not an entry signal."
+        }
+      ]
+    },
+    "BRENT_FUT": {
+      "session_date": "2026-11-02",
+      "events": [
+        {
+          "type": "GAP",
+          "direction": "DOWN",
+          "magnitude_pct": -4.93,
+          "subtype": "GAP_CONTINUATION_WATCH",
+          "note": "Requires independently verified catalyst and actual bid/ask; never infer earnings from price."
+        },
+        {
+          "type": "EXTREME_DAILY_RETURN",
+          "direction": "DOWN",
+          "magnitude_pct": -10.94,
           "note": "Magnitude alone is not an entry signal."
         }
       ]
     },
     "VIX": {
-      "session_date": "2026-10-30",
+      "session_date": "2026-11-02",
       "events": [
-        {
-          "type": "GAP",
-          "direction": "UP",
-          "magnitude_pct": 7.15,
-          "subtype": "GAP_CONTINUATION_WATCH",
-          "note": "Requires independently verified catalyst and actual bid/ask; never infer earnings from price."
-        },
         {
           "type": "EXTREME_DAILY_RETURN",
           "direction": "UP",
-          "magnitude_pct": 12.91,
+          "magnitude_pct": 8.91,
           "note": "Magnitude alone is not an entry signal."
-        },
+        }
+      ]
+    },
+    "OVX": {
+      "session_date": "2026-11-02",
+      "events": [
         {
-          "type": "EXTREME_RANGE",
-          "range_atr": 3.42,
-          "close_location": 0.236,
-          "note": "Possible exhaustion or acceleration; requires follow-through confirmation."
+          "type": "EXTREME_DAILY_RETURN",
+          "direction": "UP",
+          "magnitude_pct": 7.2,
+          "note": "Magnitude alone is not an entry signal."
         }
       ]
     },
     "GVZ": {
-      "session_date": "2026-10-30",
-      "events": [
-        {
-          "type": "GAP",
-          "direction": "UP",
-          "magnitude_pct": 11.83,
-          "subtype": "GAP_CONTINUATION_WATCH",
-          "note": "Requires independently verified catalyst and actual bid/ask; never infer earnings from price."
-        },
-        {
-          "type": "EXTREME_DAILY_RETURN",
-          "direction": "UP",
-          "magnitude_pct": 15.05,
-          "note": "Magnitude alone is not an entry signal."
-        }
-      ]
-    },
-    "AMAZON": {
-      "session_date": "2026-10-30",
+      "session_date": "2026-11-02",
       "events": [
         {
           "type": "GAP",
           "direction": "DOWN",
-          "magnitude_pct": -4.61,
+          "magnitude_pct": -6.08,
           "subtype": "GAP_FADE_WATCH",
           "note": "Requires independently verified catalyst and actual bid/ask; never infer earnings from price."
         }

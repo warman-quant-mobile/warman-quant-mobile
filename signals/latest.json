@@ -1,41 +1,16 @@
 {
   "schema_version": 2,
-  "generated_at_utc": "2026-11-02T17:26:23.890585+00:00",
-  "source_manifest_utc": "2026-11-02T17:25:40.319535+00:00",
+  "generated_at_utc": "2026-11-03T07:12:42.800321+00:00",
+  "source_manifest_utc": "2026-11-03T07:12:11.873782+00:00",
   "status": "NO_QUALIFIED_CANDIDATES",
   "candidates": [],
   "rejected": {},
   "screening_funnel": {
     "eligible": 30,
-    "directional_breakouts": 3,
-    "positive_reference_reward": 2,
+    "directional_breakouts": 0,
+    "positive_reference_reward": 0,
     "reference_10r": 0
   },
-  "diagnostic_watchlist": [
-    {
-      "symbol": "BRENT_FUT",
-      "direction": "LONG",
-      "session_date": "2026-10-30",
-      "reference_reward_risk_after_proxy_cost": 1.05,
-      "reason": "BELOW_10R_REFERENCE",
-      "note": "Research diagnostics only; historical reference is not a validated target."
-    },
-    {
-      "symbol": "SILVER_FUT",
-      "direction": "SHORT",
-      "session_date": "2026-10-30",
-      "reference_reward_risk_after_proxy_cost": 0.82,
-      "reason": "BELOW_10R_REFERENCE",
-      "note": "Research diagnostics only; historical reference is not a validated target."
-    },
-    {
-      "symbol": "GOLD_FUT",
-      "direction": "SHORT",
-      "session_date": "2026-10-30",
-      "reference_reward_risk_after_proxy_cost": -0.22,
-      "reason": "BELOW_10R_REFERENCE",
-      "note": "Research diagnostics only; historical reference is not a validated target."
-    }
-  ],
+  "diagnostic_watchlist": [],
   "warning": "Historical reference targets are NOT forecasts. 20bp proxy costs are NOT actual mini future costs. A 10R geometric ratio is not proven expected value. No automatic trading."
 }
