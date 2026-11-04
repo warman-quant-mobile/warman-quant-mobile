@@ -670,7 +670,7 @@
       "summary": {
         "all": {
           "n": 15,
-          "mean_r": -0.094,
+          "mean_r": -0.181,
           "median_r": -1.0,
           "mean_geometric_r": 8.678,
           "target_hits": 1,
@@ -690,8 +690,8 @@
         },
         "oos": {
           "n": 6,
-          "mean_r": 1.296,
-          "median_r": 0.45,
+          "mean_r": 1.078,
+          "median_r": -0.137,
           "mean_geometric_r": 5.141,
           "target_hits": 1,
           "mfe_5r": 2,
@@ -735,8 +735,8 @@
         "DESCENDING": {
           "all": {
             "n": 2,
-            "mean_r": 0.194,
-            "median_r": 0.194,
+            "mean_r": -0.137,
+            "median_r": -0.137,
             "mean_geometric_r": 5.027,
             "target_hits": 0,
             "mfe_5r": 0,
@@ -755,8 +755,8 @@
           },
           "oos": {
             "n": 1,
-            "mean_r": 1.388,
-            "median_r": 1.388,
+            "mean_r": 0.727,
+            "median_r": 0.727,
             "mean_geometric_r": 3.891,
             "target_hits": 0,
             "mfe_5r": 0,
@@ -767,7 +767,7 @@
         "FALLING_WEDGE": {
           "all": {
             "n": 5,
-            "mean_r": -0.907,
+            "mean_r": -1.036,
             "median_r": -1.0,
             "mean_geometric_r": 7.12,
             "target_hits": 0,
@@ -787,8 +787,8 @@
           },
           "oos": {
             "n": 2,
-            "mean_r": -0.676,
-            "median_r": -0.676,
+            "mean_r": -1.0,
+            "median_r": -1.0,
             "mean_geometric_r": 4.211,
             "target_hits": 0,
             "mfe_5r": 1,
@@ -2328,7 +2328,7 @@
       "summary": {
         "all": {
           "n": 11,
-          "mean_r": 0.165,
+          "mean_r": 0.305,
           "median_r": -1.0,
           "mean_geometric_r": 31.128,
           "target_hits": 1,
@@ -2348,7 +2348,7 @@
         },
         "oos": {
           "n": 5,
-          "mean_r": -0.328,
+          "mean_r": -0.018,
           "median_r": -1.0,
           "mean_geometric_r": 57.707,
           "target_hits": 0,
@@ -2450,7 +2450,7 @@
         "SYMMETRICAL": {
           "all": {
             "n": 4,
-            "mean_r": -1.179,
+            "mean_r": -0.792,
             "median_r": -1.0,
             "mean_geometric_r": 70.301,
             "target_hits": 0,
@@ -2470,8 +2470,8 @@
           },
           "oos": {
             "n": 2,
-            "mean_r": -0.465,
-            "median_r": -0.465,
+            "mean_r": 0.309,
+            "median_r": 0.309,
             "mean_geometric_r": 11.101,
             "target_hits": 0,
             "mfe_5r": 0,
@@ -2485,7 +2485,7 @@
       "summary": {
         "all": {
           "n": 10,
-          "mean_r": -0.004,
+          "mean_r": 0.085,
           "median_r": -1.0,
           "mean_geometric_r": 5.663,
           "target_hits": 2,
@@ -2505,21 +2505,21 @@
         },
         "oos": {
           "n": 4,
-          "mean_r": -0.623,
+          "mean_r": -0.4,
           "median_r": -1.0,
           "mean_geometric_r": 5.002,
           "target_hits": 0,
           "mfe_5r": 0,
           "mfe_10r": 0,
-          "max_mfe_r": 1.654
+          "max_mfe_r": 2.311
         }
       },
       "by_type": {
         "ASCENDING": {
           "all": {
             "n": 2,
-            "mean_r": 1.95,
-            "median_r": 1.95,
+            "mean_r": 2.395,
+            "median_r": 2.395,
             "mean_geometric_r": 3.641,
             "target_hits": 1,
             "mfe_5r": 0,
@@ -2538,13 +2538,13 @@
           },
           "oos": {
             "n": 1,
-            "mean_r": 0.509,
-            "median_r": 0.509,
+            "mean_r": 1.4,
+            "median_r": 1.4,
             "mean_geometric_r": 3.891,
             "target_hits": 0,
             "mfe_5r": 0,
             "mfe_10r": 0,
-            "max_mfe_r": 0.856
+            "max_mfe_r": 2.311
           }
         },
         "DESCENDING": {
@@ -5202,7 +5202,7 @@
       "type": "DESCENDING",
       "side": "SHORT",
       "geometric_r": 3.891,
-      "realized_r": 1.388,
+      "realized_r": 0.727,
       "mfe_r": 1.655,
       "outcome": "TIMEOUT",
       "compression": 0.127,
@@ -5223,9 +5223,9 @@
       "type": "FALLING_WEDGE",
       "side": "SHORT",
       "geometric_r": 2.083,
-      "realized_r": -0.353,
+      "realized_r": -1.0,
       "mfe_r": 0.0,
-      "outcome": "TIMEOUT",
+      "outcome": "STOP",
       "compression": 0.352,
       "r2_high": 0.91,
       "r2_low": 0.803,
@@ -8331,7 +8331,7 @@
       "type": "SYMMETRICAL",
       "side": "LONG",
       "geometric_r": 7.065,
-      "realized_r": 0.071,
+      "realized_r": 1.618,
       "mfe_r": 4.98,
       "outcome": "TIMEOUT",
       "compression": 0.204,
@@ -8541,8 +8541,8 @@
       "type": "ASCENDING",
       "side": "SHORT",
       "geometric_r": 3.891,
-      "realized_r": 0.509,
-      "mfe_r": 0.856,
+      "realized_r": 1.4,
+      "mfe_r": 2.311,
       "outcome": "TIMEOUT",
       "compression": 0.277,
       "r2_high": 1.0,
@@ -10223,9 +10223,9 @@
       "type": "FALLING_WEDGE",
       "side": "SHORT",
       "geometric_r": 2.083,
-      "realized_r": -0.353,
+      "realized_r": -1.0,
       "mfe_r": 0.0,
-      "outcome": "TIMEOUT",
+      "outcome": "STOP",
       "compression": 0.352,
       "r2_high": 0.91,
       "r2_low": 0.803,
@@ -10244,8 +10244,8 @@
       "type": "ASCENDING",
       "side": "SHORT",
       "geometric_r": 3.891,
-      "realized_r": 0.509,
-      "mfe_r": 0.856,
+      "realized_r": 1.4,
+      "mfe_r": 2.311,
       "outcome": "TIMEOUT",
       "compression": 0.277,
       "r2_high": 1.0,
@@ -10266,8 +10266,8 @@
     "schema_version": 1,
     "engine": "pattern_geometry_v2",
     "dataset": {
-      "manifest_sha256": "7625ef45e3d438c650570973b07c08dbc6e90ffdc244cbf1e53c7c634fa31178",
-      "manifest_bytes": 27603
+      "manifest_sha256": "72bafe561f0064bae82065de5886b530c977597a7f16de3760c6c96637a4c503",
+      "manifest_bytes": 27656
     },
     "model_version": "rules-v2-frozen-2026-09-30",
     "reproducibility": {

@@ -16,198 +16,198 @@
     ]
   },
   "split_dates": {
-    "validation_start": "2022-12-19",
-    "final_test_start": "2024-10-02"
+    "validation_start": "2022-12-21",
+    "final_test_start": "2024-10-03"
   },
   "results": {
     "fixed5": {
       "train": {
-        "n": 962,
-        "mean_r": 0.013,
+        "n": 963,
+        "mean_r": 0.065,
         "median_r": -1.0,
-        "win_rate": 0.184,
-        "loss_rate": 0.816,
-        "hit3_mfe": 0.258,
-        "hit5_mfe": 0.164,
+        "win_rate": 0.196,
+        "loss_rate": 0.804,
+        "hit3_mfe": 0.268,
+        "hit5_mfe": 0.171,
         "hit10_mfe": 0.0,
-        "p10_r": -1.029,
-        "p90_r": 4.934
+        "p10_r": -1.058,
+        "p90_r": 4.939
       },
       "validation": {
-        "n": 333,
-        "mean_r": -0.152,
+        "n": 332,
+        "mean_r": -0.096,
         "median_r": -1.0,
-        "win_rate": 0.162,
-        "loss_rate": 0.838,
-        "hit3_mfe": 0.207,
-        "hit5_mfe": 0.141,
+        "win_rate": 0.175,
+        "loss_rate": 0.825,
+        "hit3_mfe": 0.226,
+        "hit5_mfe": 0.151,
         "hit10_mfe": 0.0,
-        "p10_r": -1.051,
-        "p90_r": 4.919
+        "p10_r": -1.056,
+        "p90_r": 4.926
       },
       "final_test": {
         "n": 304,
-        "mean_r": 0.004,
+        "mean_r": 0.107,
         "median_r": -1.0,
-        "win_rate": 0.191,
-        "loss_rate": 0.809,
-        "hit3_mfe": 0.276,
-        "hit5_mfe": 0.168,
+        "win_rate": 0.207,
+        "loss_rate": 0.793,
+        "hit3_mfe": 0.283,
+        "hit5_mfe": 0.181,
         "hit10_mfe": 0.0,
-        "p10_r": -1.047,
-        "p90_r": 4.935
+        "p10_r": -1.009,
+        "p90_r": 4.936
       }
     },
     "fixed10": {
       "train": {
-        "n": 962,
-        "mean_r": 0.07,
+        "n": 963,
+        "mean_r": 0.068,
         "median_r": -1.0,
-        "win_rate": 0.155,
-        "loss_rate": 0.845,
-        "hit3_mfe": 0.258,
-        "hit5_mfe": 0.164,
-        "hit10_mfe": 0.049,
-        "p10_r": -1.035,
-        "p90_r": 4.486
+        "win_rate": 0.16,
+        "loss_rate": 0.84,
+        "hit3_mfe": 0.268,
+        "hit5_mfe": 0.171,
+        "hit10_mfe": 0.046,
+        "p10_r": -1.077,
+        "p90_r": 4.546
       },
       "validation": {
-        "n": 333,
-        "mean_r": -0.176,
+        "n": 332,
+        "mean_r": 0.012,
         "median_r": -1.0,
-        "win_rate": 0.126,
-        "loss_rate": 0.874,
-        "hit3_mfe": 0.207,
-        "hit5_mfe": 0.141,
-        "hit10_mfe": 0.036,
+        "win_rate": 0.151,
+        "loss_rate": 0.849,
+        "hit3_mfe": 0.226,
+        "hit5_mfe": 0.151,
+        "hit10_mfe": 0.054,
         "p10_r": -1.059,
-        "p90_r": 2.126
+        "p90_r": 3.366
       },
       "final_test": {
         "n": 304,
-        "mean_r": 0.131,
+        "mean_r": 0.312,
         "median_r": -1.0,
-        "win_rate": 0.161,
-        "loss_rate": 0.839,
-        "hit3_mfe": 0.276,
-        "hit5_mfe": 0.168,
-        "hit10_mfe": 0.062,
-        "p10_r": -1.054,
-        "p90_r": 5.579
+        "win_rate": 0.181,
+        "loss_rate": 0.819,
+        "hit3_mfe": 0.283,
+        "hit5_mfe": 0.181,
+        "hit10_mfe": 0.076,
+        "p10_r": -1.03,
+        "p90_r": 5.955
       }
     },
     "trail20": {
       "train": {
-        "n": 962,
-        "mean_r": 0.073,
+        "n": 963,
+        "mean_r": 0.119,
         "median_r": -1.0,
-        "win_rate": 0.255,
-        "loss_rate": 0.745,
-        "hit3_mfe": 0.234,
-        "hit5_mfe": 0.124,
-        "hit10_mfe": 0.034,
+        "win_rate": 0.272,
+        "loss_rate": 0.728,
+        "hit3_mfe": 0.241,
+        "hit5_mfe": 0.128,
+        "hit10_mfe": 0.033,
         "p10_r": -1.0,
-        "p90_r": 2.515
+        "p90_r": 2.629
       },
       "validation": {
-        "n": 333,
-        "mean_r": -0.004,
+        "n": 332,
+        "mean_r": 0.022,
         "median_r": -1.0,
-        "win_rate": 0.231,
-        "loss_rate": 0.769,
-        "hit3_mfe": 0.192,
+        "win_rate": 0.229,
+        "loss_rate": 0.771,
+        "hit3_mfe": 0.205,
         "hit5_mfe": 0.114,
-        "hit10_mfe": 0.024,
-        "p10_r": -1.031,
-        "p90_r": 2.025
+        "hit10_mfe": 0.03,
+        "p10_r": -1.0,
+        "p90_r": 2.331
       },
       "final_test": {
         "n": 304,
-        "mean_r": 0.24,
+        "mean_r": 0.302,
         "median_r": -1.0,
-        "win_rate": 0.27,
-        "loss_rate": 0.73,
-        "hit3_mfe": 0.247,
+        "win_rate": 0.26,
+        "loss_rate": 0.74,
+        "hit3_mfe": 0.26,
         "hit5_mfe": 0.132,
-        "hit10_mfe": 0.036,
+        "hit10_mfe": 0.039,
         "p10_r": -1.0,
-        "p90_r": 2.909
+        "p90_r": 2.994
       }
     },
     "be2_trail20": {
       "train": {
-        "n": 962,
-        "mean_r": 0.033,
+        "n": 963,
+        "mean_r": 0.084,
         "median_r": -1.0,
-        "win_rate": 0.242,
-        "loss_rate": 0.758,
-        "hit3_mfe": 0.229,
-        "hit5_mfe": 0.119,
-        "hit10_mfe": 0.03,
+        "win_rate": 0.259,
+        "loss_rate": 0.741,
+        "hit3_mfe": 0.232,
+        "hit5_mfe": 0.123,
+        "hit10_mfe": 0.031,
         "p10_r": -1.0,
-        "p90_r": 2.429
+        "p90_r": 2.555
       },
       "validation": {
-        "n": 333,
-        "mean_r": 0.011,
+        "n": 332,
+        "mean_r": 0.054,
         "median_r": -1.0,
-        "win_rate": 0.225,
-        "loss_rate": 0.775,
-        "hit3_mfe": 0.186,
-        "hit5_mfe": 0.108,
-        "hit10_mfe": 0.024,
-        "p10_r": -1.029,
-        "p90_r": 1.968
+        "win_rate": 0.223,
+        "loss_rate": 0.777,
+        "hit3_mfe": 0.199,
+        "hit5_mfe": 0.111,
+        "hit10_mfe": 0.03,
+        "p10_r": -1.0,
+        "p90_r": 2.331
       },
       "final_test": {
         "n": 304,
-        "mean_r": 0.268,
+        "mean_r": 0.336,
         "median_r": -1.0,
-        "win_rate": 0.263,
-        "loss_rate": 0.737,
-        "hit3_mfe": 0.243,
-        "hit5_mfe": 0.128,
-        "hit10_mfe": 0.036,
+        "win_rate": 0.26,
+        "loss_rate": 0.74,
+        "hit3_mfe": 0.26,
+        "hit5_mfe": 0.132,
+        "hit10_mfe": 0.039,
         "p10_r": -1.0,
-        "p90_r": 2.65
+        "p90_r": 2.994
       }
     },
     "partial3_trail20": {
       "train": {
-        "n": 962,
-        "mean_r": 0.048,
+        "n": 963,
+        "mean_r": 0.088,
         "median_r": -1.0,
-        "win_rate": 0.275,
-        "loss_rate": 0.725,
-        "hit3_mfe": 0.234,
-        "hit5_mfe": 0.124,
+        "win_rate": 0.292,
+        "loss_rate": 0.708,
+        "hit3_mfe": 0.241,
+        "hit5_mfe": 0.128,
         "hit10_mfe": 0.033,
         "p10_r": -1.0,
-        "p90_r": 2.737
+        "p90_r": 2.814
       },
       "validation": {
-        "n": 333,
-        "mean_r": -0.076,
+        "n": 332,
+        "mean_r": -0.049,
         "median_r": -1.0,
-        "win_rate": 0.24,
-        "loss_rate": 0.76,
-        "hit3_mfe": 0.192,
+        "win_rate": 0.244,
+        "loss_rate": 0.756,
+        "hit3_mfe": 0.205,
         "hit5_mfe": 0.114,
-        "hit10_mfe": 0.024,
-        "p10_r": -1.031,
-        "p90_r": 2.513
+        "hit10_mfe": 0.03,
+        "p10_r": -1.0,
+        "p90_r": 2.666
       },
       "final_test": {
         "n": 304,
-        "mean_r": 0.161,
+        "mean_r": 0.206,
         "median_r": -1.0,
-        "win_rate": 0.296,
-        "loss_rate": 0.704,
-        "hit3_mfe": 0.247,
+        "win_rate": 0.289,
+        "loss_rate": 0.711,
+        "hit3_mfe": 0.26,
         "hit5_mfe": 0.132,
-        "hit10_mfe": 0.036,
+        "hit10_mfe": 0.039,
         "p10_r": -1.0,
-        "p90_r": 2.955
+        "p90_r": 2.997
       }
     }
   },
@@ -216,8 +216,8 @@
     "schema_version": 1,
     "engine": "random_entry_exit_lab",
     "dataset": {
-      "manifest_sha256": "7625ef45e3d438c650570973b07c08dbc6e90ffdc244cbf1e53c7c634fa31178",
-      "manifest_bytes": 27603
+      "manifest_sha256": "72bafe561f0064bae82065de5886b530c977597a7f16de3760c6c96637a4c503",
+      "manifest_bytes": 27656
     },
     "model_version": "exit-v1-frozen-2026-09-30",
     "reproducibility": {

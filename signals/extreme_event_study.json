@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at_utc": "2026-11-03T07:13:04.805529+00:00",
+  "generated_at_utc": "2026-11-04T06:57:41.188343+00:00",
   "status": "EXPLORATORY_NOT_VALIDATED",
   "methodology": "Prior completed bar; next open; 2ATR stop; 10R target; 20bps proxy friction; 60 sessions; conservative gaps; nonoverlapping events per strategy.",
   "results": {
@@ -80,11 +80,11 @@
         "insufficient_sample": true
       },
       "RANGE_CONTINUATION": {
-        "events": 10,
+        "events": 9,
         "targets_10r": 0,
-        "stops": 8,
+        "stops": 7,
         "timeouts": 2,
-        "mean_realized_r": -0.444,
+        "mean_realized_r": -0.382,
         "insufficient_sample": true
       }
     },
@@ -510,11 +510,11 @@
     },
     "VIX": {
       "GAP_CONTINUATION": {
-        "events": 35,
+        "events": 36,
         "targets_10r": 1,
         "stops": 20,
-        "timeouts": 14,
-        "mean_realized_r": 0.031,
+        "timeouts": 15,
+        "mean_realized_r": 0.07,
         "insufficient_sample": false
       },
       "GAP_FADE": {

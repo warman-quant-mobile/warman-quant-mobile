@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at_utc": "2026-11-03T21:57:58.217358+00:00",
+  "generated_at_utc": "2026-11-04T06:57:40.668910+00:00",
   "status": "RESEARCH_ONLY",
   "parameters": {
     "gap_abs_pct": 3,
@@ -8,64 +8,25 @@
     "daily_range_atr": 2.5
   },
   "observations": {
-    "WTI_FUT": {
-      "session_date": "2026-11-02",
-      "events": [
-        {
-          "type": "EXTREME_DAILY_RETURN",
-          "direction": "DOWN",
-          "magnitude_pct": -7.36,
-          "note": "Magnitude alone is not an entry signal."
-        }
-      ]
-    },
-    "BRENT_FUT": {
-      "session_date": "2026-11-02",
+    "SILVER_FUT": {
+      "session_date": "2026-11-03",
       "events": [
         {
           "type": "GAP",
           "direction": "DOWN",
-          "magnitude_pct": -4.93,
-          "subtype": "GAP_CONTINUATION_WATCH",
+          "magnitude_pct": -4.22,
+          "subtype": "GAP_FADE_WATCH",
           "note": "Requires independently verified catalyst and actual bid/ask; never infer earnings from price."
-        },
-        {
-          "type": "EXTREME_DAILY_RETURN",
-          "direction": "DOWN",
-          "magnitude_pct": -10.94,
-          "note": "Magnitude alone is not an entry signal."
         }
       ]
     },
-    "VIX": {
-      "session_date": "2026-11-02",
-      "events": [
-        {
-          "type": "EXTREME_DAILY_RETURN",
-          "direction": "UP",
-          "magnitude_pct": 8.91,
-          "note": "Magnitude alone is not an entry signal."
-        }
-      ]
-    },
-    "OVX": {
-      "session_date": "2026-11-02",
-      "events": [
-        {
-          "type": "EXTREME_DAILY_RETURN",
-          "direction": "UP",
-          "magnitude_pct": 7.2,
-          "note": "Magnitude alone is not an entry signal."
-        }
-      ]
-    },
-    "GVZ": {
-      "session_date": "2026-11-02",
+    "APPLE": {
+      "session_date": "2026-11-03",
       "events": [
         {
           "type": "GAP",
           "direction": "DOWN",
-          "magnitude_pct": -6.08,
+          "magnitude_pct": -3.77,
           "subtype": "GAP_FADE_WATCH",
           "note": "Requires independently verified catalyst and actual bid/ask; never infer earnings from price."
         }

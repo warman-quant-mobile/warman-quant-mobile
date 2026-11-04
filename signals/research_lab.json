@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at_utc": "2026-11-03T07:12:43.421006+00:00",
+  "generated_at_utc": "2026-11-04T06:57:20.939354+00:00",
   "status": "RESEARCH_ONLY",
   "methodology": "251-session warmup; prior-close 20-day breakout plus MA50/MA200; next open; ATR20 x2; 10R gross-risk target; 20bps roundtrip friction; 60 sessions; stop first if same bar; worse gap fill; disjoint 60-session windows per side.",
   "results": {
@@ -346,11 +346,11 @@
     },
     "INVESTOR_B": {
       "LONG": {
-        "events": 22,
+        "events": 21,
         "targets": 0,
-        "stops": 14,
+        "stops": 13,
         "timeouts": 8,
-        "mean_realized_r": -0.0,
+        "mean_realized_r": 0.047,
         "maximum_favorable_excursion_r": 5.267,
         "note": "Exploratory overlapping-market selection bias; not independently validated."
       },
@@ -366,11 +366,11 @@
     },
     "VOLVO_B": {
       "LONG": {
-        "events": 19,
+        "events": 18,
         "targets": 0,
-        "stops": 17,
+        "stops": 16,
         "timeouts": 2,
-        "mean_realized_r": -0.75,
+        "mean_realized_r": -0.737,
         "maximum_favorable_excursion_r": 5.098,
         "note": "Exploratory overlapping-market selection bias; not independently validated."
       },
@@ -526,11 +526,11 @@
     },
     "META": {
       "LONG": {
-        "events": 21,
+        "events": 20,
         "targets": 1,
-        "stops": 15,
+        "stops": 14,
         "timeouts": 5,
-        "mean_realized_r": 0.185,
+        "mean_realized_r": 0.235,
         "maximum_favorable_excursion_r": 10.475,
         "note": "Exploratory overlapping-market selection bias; not independently validated."
       },
