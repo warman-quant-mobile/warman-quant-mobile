@@ -68,9 +68,9 @@ MICROSOFT,relative_momentum,10,2,3.4682,2,7.3032,,False
 MICROSOFT,weekly_close_reversal,3,2,-0.0828,14,-0.8344,0.579,False
 MICROSOFT,weekly_close_reversal,5,2,1.3055,12,-1.436,0.38,False
 MICROSOFT,weekly_close_reversal,10,2,-0.5237,12,-0.0707,0.968,False
-MICROSOFT,breakout,3,100,-0.132,37,0.0296,1.034,True
-MICROSOFT,breakout,5,80,-0.0251,29,-0.0462,0.968,True
-MICROSOFT,breakout,10,62,0.6174,22,0.2753,1.159,True
+MICROSOFT,breakout,3,100,-0.1288,37,0.0296,1.034,True
+MICROSOFT,breakout,5,80,-0.0394,29,-0.0462,0.968,True
+MICROSOFT,breakout,10,62,0.583,22,0.2753,1.159,True
 APPLE,relative_reversal,3,4,0.3434,6,2.3809,28.399,False
 APPLE,relative_reversal,5,4,-1.0145,6,5.1813,29.566,False
 APPLE,relative_reversal,10,4,-3.4082,6,6.9391,33.311,False
@@ -80,9 +80,9 @@ APPLE,relative_momentum,10,4,6.2338,3,1.0252,4.698,False
 APPLE,weekly_close_reversal,3,16,1.2773,19,1.7456,4.303,False
 APPLE,weekly_close_reversal,5,16,0.7337,18,2.2925,4.691,False
 APPLE,weekly_close_reversal,10,15,0.8599,16,2.4633,2.511,False
-APPLE,breakout,3,105,-0.0201,36,0.1374,1.173,True
-APPLE,breakout,5,88,0.3924,32,-0.0364,0.974,True
-APPLE,breakout,10,66,1.3242,23,0.9677,1.937,True
+APPLE,breakout,3,104,-0.0247,36,0.1374,1.173,True
+APPLE,breakout,5,87,0.3817,32,-0.0364,0.974,True
+APPLE,breakout,10,65,1.3288,23,0.9677,1.937,True
 META,relative_reversal,3,16,-1.5732,9,-0.1834,0.92,False
 META,relative_reversal,5,15,0.0782,9,0.8569,1.475,False
 META,relative_reversal,10,15,1.7347,8,2.8005,2.234,False
