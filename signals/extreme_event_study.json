@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at_utc": "2026-11-04T06:57:41.188343+00:00",
+  "generated_at_utc": "2026-11-05T07:21:25.009976+00:00",
   "status": "EXPLORATORY_NOT_VALIDATED",
   "methodology": "Prior completed bar; next open; 2ATR stop; 10R target; 20bps proxy friction; 60 sessions; conservative gaps; nonoverlapping events per strategy.",
   "results": {
@@ -519,10 +519,10 @@
       },
       "GAP_FADE": {
         "events": 30,
-        "targets_10r": 2,
+        "targets_10r": 1,
         "stops": 16,
-        "timeouts": 12,
-        "mean_realized_r": 0.138,
+        "timeouts": 13,
+        "mean_realized_r": -0.211,
         "insufficient_sample": false
       },
       "SHOCK_CONTINUATION": {
@@ -604,9 +604,9 @@
       "GAP_FADE": {
         "events": 30,
         "targets_10r": 0,
-        "stops": 23,
-        "timeouts": 7,
-        "mean_realized_r": -0.511,
+        "stops": 22,
+        "timeouts": 8,
+        "mean_realized_r": -0.474,
         "insufficient_sample": false
       },
       "SHOCK_CONTINUATION": {
@@ -1016,33 +1016,33 @@
       "GAP_CONTINUATION": {
         "events": 29,
         "targets_10r": 2,
-        "stops": 16,
-        "timeouts": 11,
-        "mean_realized_r": 1.232,
+        "stops": 15,
+        "timeouts": 12,
+        "mean_realized_r": 1.305,
         "insufficient_sample": true
       },
       "GAP_FADE": {
         "events": 32,
         "targets_10r": 2,
-        "stops": 18,
-        "timeouts": 12,
-        "mean_realized_r": 1.202,
+        "stops": 19,
+        "timeouts": 11,
+        "mean_realized_r": 1.092,
         "insufficient_sample": false
       },
       "SHOCK_CONTINUATION": {
-        "events": 32,
-        "targets_10r": 2,
-        "stops": 23,
-        "timeouts": 7,
-        "mean_realized_r": 0.554,
+        "events": 31,
+        "targets_10r": 1,
+        "stops": 22,
+        "timeouts": 8,
+        "mean_realized_r": 0.395,
         "insufficient_sample": false
       },
       "SHOCK_FADE": {
-        "events": 32,
+        "events": 31,
         "targets_10r": 0,
-        "stops": 21,
+        "stops": 20,
         "timeouts": 11,
-        "mean_realized_r": 0.295,
+        "mean_realized_r": 0.36,
         "insufficient_sample": false
       },
       "RANGE_CONTINUATION": {

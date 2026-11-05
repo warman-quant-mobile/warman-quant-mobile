@@ -1,6 +1,6 @@
 {
   "status": "RESEARCH_WATCH_ONLY",
-  "generated_at_utc": "2026-11-04T22:10:17.781035+00:00",
+  "generated_at_utc": "2026-11-05T07:30:28.202178+00:00",
   "observations": [
     {
       "symbol": "DAX",
@@ -10,26 +10,6 @@
       ],
       "gap_pct": -0.0,
       "hourly_move_pct": -0.11,
-      "status": "INTRADAY_WATCH_NOT_ORDER"
-    },
-    {
-      "symbol": "US30Y_BOND_FUT",
-      "bar_start_utc": "2026-11-04T21:00:00+00:00",
-      "events": [
-        "FAILED_HIGH_20H"
-      ],
-      "gap_pct": 0.03,
-      "hourly_move_pct": 0.0,
-      "status": "INTRADAY_WATCH_NOT_ORDER"
-    },
-    {
-      "symbol": "USDSEK",
-      "bar_start_utc": "2026-11-04T21:00:00+00:00",
-      "events": [
-        "FAILED_LOW_20H"
-      ],
-      "gap_pct": 0.0,
-      "hourly_move_pct": -0.04,
       "status": "INTRADAY_WATCH_NOT_ORDER"
     },
     {
