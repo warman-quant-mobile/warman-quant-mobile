@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
   "status": "NO_10R_PROPOSALS",
-  "generated_at_utc": "2026-11-05T07:38:59.669199+00:00",
+  "generated_at_utc": "2026-11-05T15:47:52.606102+00:00",
   "minimum_net_r": 10,
   "proposals": [],
   "raw_signal_counts": {
-    "turtle_55": 2,
+    "turtle_55": 3,
     "volatility_contraction": 0,
     "failed_breakout": 2,
     "momentum_ignition": 1,
