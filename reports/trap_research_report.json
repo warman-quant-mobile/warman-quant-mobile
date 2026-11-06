@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-06T02:25:04.673444+00:00",
+  "generated_at": "2026-11-06T10:49:26.367744+00:00",
   "validated_edge": false,
   "research_only": true,
-  "split_date": "2023-10-31",
+  "split_date": "2023-11-01",
   "method": "Failed downside break and same-day reclaim of previous 10/20-session low, enter next open, stop at signal low, 3R target, 2/5 day timeout, adverse same-bar stop precedence, 20-30bp costs",
   "results": {
     "10d_2d": {
@@ -1852,11 +1852,11 @@
     },
     "10d_5d": {
       "train": {
-        "n": 570,
-        "mean_net_pct": 0.095,
-        "profit_factor": 1.066,
-        "win_rate": 0.412,
-        "mean_R": -0.135
+        "n": 572,
+        "mean_net_pct": 0.104,
+        "profit_factor": 1.073,
+        "win_rate": 0.414,
+        "mean_R": -0.129
       },
       "holdout": {
         "n": 203,
@@ -4831,11 +4831,11 @@
     },
     "20d_5d": {
       "train": {
-        "n": 335,
-        "mean_net_pct": -0.029,
-        "profit_factor": 0.982,
-        "win_rate": 0.406,
-        "mean_R": -0.145
+        "n": 337,
+        "mean_net_pct": -0.013,
+        "profit_factor": 0.992,
+        "win_rate": 0.409,
+        "mean_R": -0.135
       },
       "holdout": {
         "n": 124,
