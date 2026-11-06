@@ -1,13 +1,13 @@
 {
   "schema_version": 2,
-  "generated_at_utc": "2026-11-06T07:21:09.776026+00:00",
-  "source_manifest_utc": "2026-11-06T07:20:36.074522+00:00",
+  "generated_at_utc": "2026-11-06T15:22:13.878812+00:00",
+  "source_manifest_utc": "2026-11-06T15:21:31.596268+00:00",
   "status": "NO_QUALIFIED_CANDIDATES",
   "candidates": [],
   "rejected": {},
   "screening_funnel": {
     "eligible": 30,
-    "directional_breakouts": 2,
+    "directional_breakouts": 1,
     "positive_reference_reward": 1,
     "reference_10r": 0
   },
@@ -17,14 +17,6 @@
       "direction": "SHORT",
       "session_date": "2026-11-05",
       "reference_reward_risk_after_proxy_cost": 1.41,
-      "reason": "BELOW_10R_REFERENCE",
-      "note": "Research diagnostics only; historical reference is not a validated target."
-    },
-    {
-      "symbol": "INVESTOR_B",
-      "direction": "LONG",
-      "session_date": "2026-11-04",
-      "reference_reward_risk_after_proxy_cost": -0.59,
       "reason": "BELOW_10R_REFERENCE",
       "note": "Research diagnostics only; historical reference is not a validated target."
     }
