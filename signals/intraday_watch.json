@@ -1,6 +1,6 @@
 {
   "status": "RESEARCH_WATCH_ONLY",
-  "generated_at_utc": "2026-11-05T22:15:46.148100+00:00",
+  "generated_at_utc": "2026-11-06T07:30:56.605634+00:00",
   "observations": [
     {
       "symbol": "NASDAQ100",
@@ -13,13 +13,33 @@
       "status": "INTRADAY_WATCH_NOT_ORDER"
     },
     {
-      "symbol": "USDSEK",
-      "bar_start_utc": "2026-11-05T21:00:00+00:00",
+      "symbol": "SILVER_FUT",
+      "bar_start_utc": "2026-11-06T06:00:00+00:00",
+      "events": [
+        "FAILED_LOW_20H"
+      ],
+      "gap_pct": -0.01,
+      "hourly_move_pct": 0.62,
+      "status": "INTRADAY_WATCH_NOT_ORDER"
+    },
+    {
+      "symbol": "WTI_FUT",
+      "bar_start_utc": "2026-11-06T06:00:00+00:00",
+      "events": [
+        "FAILED_HIGH_20H"
+      ],
+      "gap_pct": 0.01,
+      "hourly_move_pct": -0.35,
+      "status": "INTRADAY_WATCH_NOT_ORDER"
+    },
+    {
+      "symbol": "BRENT_FUT",
+      "bar_start_utc": "2026-11-06T06:00:00+00:00",
       "events": [
         "FAILED_HIGH_20H"
       ],
       "gap_pct": 0.0,
-      "hourly_move_pct": -0.05,
+      "hourly_move_pct": -0.32,
       "status": "INTRADAY_WATCH_NOT_ORDER"
     },
     {

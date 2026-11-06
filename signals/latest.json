@@ -1,38 +1,22 @@
 {
   "schema_version": 2,
-  "generated_at_utc": "2026-11-05T22:15:43.200504+00:00",
-  "source_manifest_utc": "2026-11-05T22:15:03.568220+00:00",
+  "generated_at_utc": "2026-11-06T07:21:09.776026+00:00",
+  "source_manifest_utc": "2026-11-06T07:20:36.074522+00:00",
   "status": "NO_QUALIFIED_CANDIDATES",
   "candidates": [],
   "rejected": {},
   "screening_funnel": {
     "eligible": 30,
-    "directional_breakouts": 5,
-    "positive_reference_reward": 3,
+    "directional_breakouts": 2,
+    "positive_reference_reward": 1,
     "reference_10r": 0
   },
   "diagnostic_watchlist": [
     {
-      "symbol": "AMAZON",
-      "direction": "LONG",
-      "session_date": "2026-11-04",
-      "reference_reward_risk_after_proxy_cost": 1.19,
-      "reason": "BELOW_10R_REFERENCE",
-      "note": "Research diagnostics only; historical reference is not a validated target."
-    },
-    {
-      "symbol": "OMXS30",
-      "direction": "LONG",
-      "session_date": "2026-11-04",
-      "reference_reward_risk_after_proxy_cost": 0.33,
-      "reason": "BELOW_10R_REFERENCE",
-      "note": "Research diagnostics only; historical reference is not a validated target."
-    },
-    {
-      "symbol": "DAX",
-      "direction": "LONG",
-      "session_date": "2026-11-04",
-      "reference_reward_risk_after_proxy_cost": 0.18,
+      "symbol": "TESLA",
+      "direction": "SHORT",
+      "session_date": "2026-11-05",
+      "reference_reward_risk_after_proxy_cost": 1.41,
       "reason": "BELOW_10R_REFERENCE",
       "note": "Research diagnostics only; historical reference is not a validated target."
     },
@@ -41,14 +25,6 @@
       "direction": "LONG",
       "session_date": "2026-11-04",
       "reference_reward_risk_after_proxy_cost": -0.59,
-      "reason": "BELOW_10R_REFERENCE",
-      "note": "Research diagnostics only; historical reference is not a validated target."
-    },
-    {
-      "symbol": "MICROSOFT",
-      "direction": "LONG",
-      "session_date": "2026-11-04",
-      "reference_reward_risk_after_proxy_cost": -0.73,
       "reason": "BELOW_10R_REFERENCE",
       "note": "Research diagnostics only; historical reference is not a validated target."
     }

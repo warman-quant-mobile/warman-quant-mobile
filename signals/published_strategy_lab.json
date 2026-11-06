@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "status": "RESEARCH_ONLY",
-  "generated_at_utc": "2026-11-05T07:26:21.472852+00:00",
+  "generated_at_utc": "2026-11-06T07:26:48.682841+00:00",
   "rules": [
     "turtle_55",
     "volatility_contraction",
@@ -34,7 +34,7 @@
       },
       "failed_breakout": {
         "events": 33,
-        "mean_realized_r": 0.357,
+        "mean_realized_r": 0.273,
         "reached_5r_mfe": 3,
         "reached_10r_mfe": 0,
         "reached_15r_mfe": 0,
@@ -96,7 +96,7 @@
       },
       "failed_breakout": {
         "events": 33,
-        "mean_realized_r": 0.1,
+        "mean_realized_r": 0.091,
         "reached_5r_mfe": 1,
         "reached_10r_mfe": 0,
         "reached_15r_mfe": 0,
@@ -653,13 +653,13 @@
         "insufficient_sample": true
       },
       "failed_breakout": {
-        "events": 32,
-        "mean_realized_r": -0.043,
+        "events": 31,
+        "mean_realized_r": -0.295,
         "reached_5r_mfe": 2,
         "reached_10r_mfe": 1,
         "reached_15r_mfe": 0,
         "realized_10r": 0,
-        "max_mfe_r": 12.231,
+        "max_mfe_r": 12.063,
         "insufficient_sample": true
       },
       "momentum_ignition": {
@@ -736,7 +736,7 @@
       },
       "time_series_momentum": {
         "events": 33,
-        "mean_realized_r": 0.756,
+        "mean_realized_r": 0.739,
         "reached_5r_mfe": 7,
         "reached_10r_mfe": 1,
         "reached_15r_mfe": 0,
@@ -1727,10 +1727,10 @@
         "insufficient_sample": true
       },
       "time_series_momentum": {
-        "events": 50,
-        "mean_realized_r": 1.527,
+        "events": 49,
+        "mean_realized_r": 1.537,
         "reached_5r_mfe": 11,
-        "reached_10r_mfe": 8,
+        "reached_10r_mfe": 7,
         "reached_15r_mfe": 2,
         "realized_10r": 3,
         "max_mfe_r": 19.423,
@@ -1738,9 +1738,9 @@
       },
       "rsi2_reversal": {
         "events": 35,
-        "mean_realized_r": 1.307,
+        "mean_realized_r": 1.319,
         "reached_5r_mfe": 8,
-        "reached_10r_mfe": 4,
+        "reached_10r_mfe": 3,
         "reached_15r_mfe": 0,
         "realized_10r": 0,
         "max_mfe_r": 11.903,
