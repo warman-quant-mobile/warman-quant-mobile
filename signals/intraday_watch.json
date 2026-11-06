@@ -1,69 +1,7 @@
 {
   "status": "RESEARCH_WATCH_ONLY",
-  "generated_at_utc": "2026-11-06T15:22:15.833023+00:00",
-  "observations": [
-    {
-      "symbol": "OMXS30",
-      "bar_start_utc": "2026-11-06T14:00:00+00:00",
-      "events": [
-        "FAILED_LOW_20H"
-      ],
-      "gap_pct": -0.0,
-      "hourly_move_pct": 0.27,
-      "status": "INTRADAY_WATCH_NOT_ORDER"
-    },
-    {
-      "symbol": "DAX",
-      "bar_start_utc": "2026-11-06T14:00:00+00:00",
-      "events": [
-        "FAILED_LOW_20H"
-      ],
-      "gap_pct": -0.0,
-      "hourly_move_pct": 0.18,
-      "status": "INTRADAY_WATCH_NOT_ORDER"
-    },
-    {
-      "symbol": "GVZ",
-      "bar_start_utc": "2026-11-06T14:30:00+00:00",
-      "events": [
-        "FAILED_HIGH_20H"
-      ],
-      "gap_pct": 2.44,
-      "hourly_move_pct": 0.93,
-      "status": "INTRADAY_WATCH_NOT_ORDER"
-    },
-    {
-      "symbol": "EURUSD",
-      "bar_start_utc": "2026-11-06T14:00:00+00:00",
-      "events": [
-        "FAILED_LOW_20H"
-      ],
-      "gap_pct": -0.01,
-      "hourly_move_pct": 0.04,
-      "status": "INTRADAY_WATCH_NOT_ORDER"
-    },
-    {
-      "symbol": "USDSEK",
-      "bar_start_utc": "2026-11-06T14:00:00+00:00",
-      "events": [
-        "FAILED_HIGH_20H"
-      ],
-      "gap_pct": 0.0,
-      "hourly_move_pct": -0.24,
-      "status": "INTRADAY_WATCH_NOT_ORDER"
-    },
-    {
-      "symbol": "NVIDIA",
-      "bar_start_utc": "2026-11-06T14:30:00+00:00",
-      "events": [
-        "GAP_3PCT",
-        "HOURLY_SHOCK_2_5ATR"
-      ],
-      "gap_pct": 5.26,
-      "hourly_move_pct": 5.39,
-      "status": "INTRADAY_WATCH_NOT_ORDER"
-    }
-  ],
+  "generated_at_utc": "2026-11-06T21:45:23.512700+00:00",
+  "observations": [],
   "excluded": {},
   "note": "Hourly data may be delayed; market sessions vary. Events require a separate validated 10R target and executable instrument quote before proposal."
 }
