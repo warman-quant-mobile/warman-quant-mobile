@@ -544,10 +544,10 @@
     "NASDAQ100": {
       "summary": {
         "all": {
-          "n": 10,
-          "mean_r": -0.173,
+          "n": 11,
+          "mean_r": -0.157,
           "median_r": -1.0,
-          "mean_geometric_r": 7.408,
+          "mean_geometric_r": 6.915,
           "target_hits": 1,
           "mfe_5r": 2,
           "mfe_10r": 0,
@@ -564,10 +564,10 @@
           "max_mfe_r": 8.027
         },
         "oos": {
-          "n": 4,
-          "mean_r": -1.012,
+          "n": 5,
+          "mean_r": -0.81,
           "median_r": -1.0,
-          "mean_geometric_r": 5.101,
+          "mean_geometric_r": 4.479,
           "target_hits": 0,
           "mfe_5r": 0,
           "mfe_10r": 0,
@@ -595,6 +595,31 @@
             "mfe_5r": 0,
             "mfe_10r": 0,
             "max_mfe_r": 0.547
+          },
+          "oos": {
+            "n": 0
+          }
+        },
+        "FALLING_WEDGE": {
+          "all": {
+            "n": 1,
+            "mean_r": 0.001,
+            "median_r": 0.001,
+            "mean_geometric_r": 1.988,
+            "target_hits": 0,
+            "mfe_5r": 0,
+            "mfe_10r": 0,
+            "max_mfe_r": 0.095
+          },
+          "train": {
+            "n": 1,
+            "mean_r": 0.001,
+            "median_r": 0.001,
+            "mean_geometric_r": 1.988,
+            "target_hits": 0,
+            "mfe_5r": 0,
+            "mfe_10r": 0,
+            "max_mfe_r": 0.095
           },
           "oos": {
             "n": 0
@@ -670,7 +695,7 @@
       "summary": {
         "all": {
           "n": 15,
-          "mean_r": -0.193,
+          "mean_r": -0.201,
           "median_r": -1.0,
           "mean_geometric_r": 8.678,
           "target_hits": 1,
@@ -690,8 +715,8 @@
         },
         "oos": {
           "n": 6,
-          "mean_r": 1.047,
-          "median_r": -0.229,
+          "mean_r": 1.027,
+          "median_r": -0.289,
           "mean_geometric_r": 5.141,
           "target_hits": 1,
           "mfe_5r": 2,
@@ -735,8 +760,8 @@
         "DESCENDING": {
           "all": {
             "n": 2,
-            "mean_r": -0.229,
-            "median_r": -0.229,
+            "mean_r": -0.289,
+            "median_r": -0.289,
             "mean_geometric_r": 5.027,
             "target_hits": 0,
             "mfe_5r": 0,
@@ -755,8 +780,8 @@
           },
           "oos": {
             "n": 1,
-            "mean_r": 0.542,
-            "median_r": 0.542,
+            "mean_r": 0.422,
+            "median_r": 0.422,
             "mean_geometric_r": 3.891,
             "target_hits": 0,
             "mfe_5r": 0,
@@ -2328,7 +2353,7 @@
       "summary": {
         "all": {
           "n": 11,
-          "mean_r": 0.457,
+          "mean_r": 0.403,
           "median_r": -1.0,
           "mean_geometric_r": 31.128,
           "target_hits": 1,
@@ -2348,7 +2373,7 @@
         },
         "oos": {
           "n": 5,
-          "mean_r": 0.315,
+          "mean_r": 0.196,
           "median_r": -1.0,
           "mean_geometric_r": 57.707,
           "target_hits": 0,
@@ -2450,7 +2475,7 @@
         "SYMMETRICAL": {
           "all": {
             "n": 4,
-            "mean_r": -0.376,
+            "mean_r": -0.524,
             "median_r": -1.0,
             "mean_geometric_r": 70.301,
             "target_hits": 0,
@@ -2470,8 +2495,8 @@
           },
           "oos": {
             "n": 2,
-            "mean_r": 1.141,
-            "median_r": 1.141,
+            "mean_r": 0.845,
+            "median_r": 0.845,
             "mean_geometric_r": 11.101,
             "target_hits": 0,
             "mfe_5r": 1,
@@ -4925,6 +4950,27 @@
       "symbol": "NASDAQ100"
     },
     {
+      "date": "2026-11-05",
+      "type": "FALLING_WEDGE",
+      "side": "SHORT",
+      "geometric_r": 1.988,
+      "realized_r": 0.001,
+      "mfe_r": 0.095,
+      "outcome": "TIMEOUT",
+      "compression": 0.418,
+      "r2_high": 0.932,
+      "r2_low": 0.995,
+      "slope_high_atr": -0.1806,
+      "slope_low_atr": -0.1212,
+      "touches_high": 4,
+      "touches_low": 4,
+      "breakout_strength_atr": 2.5146,
+      "trend20_signed": 0.0874,
+      "gap_atr": -0.6732,
+      "atr_pct": 0.02282,
+      "symbol": "NASDAQ100"
+    },
+    {
       "date": "2018-01-24",
       "type": "RISING_WEDGE",
       "side": "LONG",
@@ -5202,7 +5248,7 @@
       "type": "DESCENDING",
       "side": "SHORT",
       "geometric_r": 3.891,
-      "realized_r": 0.542,
+      "realized_r": 0.422,
       "mfe_r": 1.655,
       "outcome": "TIMEOUT",
       "compression": 0.127,
@@ -8331,7 +8377,7 @@
       "type": "SYMMETRICAL",
       "side": "LONG",
       "geometric_r": 7.065,
-      "realized_r": 3.283,
+      "realized_r": 2.69,
       "mfe_r": 5.872,
       "outcome": "TIMEOUT",
       "compression": 0.204,
@@ -10240,25 +10286,25 @@
   ],
   "recent_patterns": [
     {
-      "date": "2026-10-30",
-      "type": "ASCENDING",
+      "date": "2026-11-05",
+      "type": "FALLING_WEDGE",
       "side": "SHORT",
-      "geometric_r": 3.891,
-      "realized_r": -1.0,
-      "mfe_r": 2.311,
-      "outcome": "STOP",
-      "compression": 0.277,
-      "r2_high": 1.0,
-      "r2_low": 1.0,
-      "slope_high_atr": 0.0776,
-      "slope_low_atr": 0.1673,
-      "touches_high": 5,
-      "touches_low": 3,
-      "breakout_strength_atr": 0.3128,
-      "trend20_signed": -0.0563,
-      "gap_atr": 0.3031,
-      "atr_pct": 0.01887,
-      "symbol": "APPLE"
+      "geometric_r": 1.988,
+      "realized_r": 0.001,
+      "mfe_r": 0.095,
+      "outcome": "TIMEOUT",
+      "compression": 0.418,
+      "r2_high": 0.932,
+      "r2_low": 0.995,
+      "slope_high_atr": -0.1806,
+      "slope_low_atr": -0.1212,
+      "touches_high": 4,
+      "touches_low": 4,
+      "breakout_strength_atr": 2.5146,
+      "trend20_signed": 0.0874,
+      "gap_atr": -0.6732,
+      "atr_pct": 0.02282,
+      "symbol": "NASDAQ100"
     },
     {
       "date": "2026-11-04",
@@ -10287,8 +10333,8 @@
     "schema_version": 1,
     "engine": "pattern_geometry_v2",
     "dataset": {
-      "manifest_sha256": "02823a2fb7bbcf4a0249cd38b48587fa4a91c7619fd1024878d31bdc5c23d823",
-      "manifest_bytes": 27657
+      "manifest_sha256": "0c4440e9c74bda94af622f74e0b05aa1b1ef603ecf33b6d6a41ba2041397b496",
+      "manifest_bytes": 27676
     },
     "model_version": "rules-v2-frozen-2026-09-30",
     "reproducibility": {
