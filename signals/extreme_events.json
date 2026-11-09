@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at_utc": "2026-11-07T06:33:12.993868+00:00",
+  "generated_at_utc": "2026-11-09T17:48:09.137472+00:00",
   "status": "RESEARCH_ONLY",
   "parameters": {
     "gap_abs_pct": 3,
@@ -31,47 +31,13 @@
         }
       ]
     },
-    "BITCOIN": {
-      "session_date": "2026-11-05",
-      "events": [
-        {
-          "type": "EXTREME_DAILY_RETURN",
-          "direction": "DOWN",
-          "magnitude_pct": -5.55,
-          "note": "Magnitude alone is not an entry signal."
-        },
-        {
-          "type": "EXTREME_RANGE",
-          "range_atr": 2.81,
-          "close_location": 0.145,
-          "note": "Possible exhaustion or acceleration; requires follow-through confirmation."
-        }
-      ]
-    },
     "ETHEREUM": {
-      "session_date": "2026-11-05",
+      "session_date": "2026-11-08",
       "events": [
         {
           "type": "EXTREME_DAILY_RETURN",
           "direction": "DOWN",
-          "magnitude_pct": -7.75,
-          "note": "Magnitude alone is not an entry signal."
-        },
-        {
-          "type": "EXTREME_RANGE",
-          "range_atr": 2.7,
-          "close_location": 0.133,
-          "note": "Possible exhaustion or acceleration; requires follow-through confirmation."
-        }
-      ]
-    },
-    "SOLANA": {
-      "session_date": "2026-11-05",
-      "events": [
-        {
-          "type": "EXTREME_DAILY_RETURN",
-          "direction": "DOWN",
-          "magnitude_pct": -6.64,
+          "magnitude_pct": -5.16,
           "note": "Magnitude alone is not an entry signal."
         }
       ]
