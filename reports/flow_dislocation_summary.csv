@@ -8,9 +8,9 @@ INVESTOR_B,relative_momentum,10,0,,0,,,False
 INVESTOR_B,weekly_close_reversal,3,4,-1.4677,0,,,False
 INVESTOR_B,weekly_close_reversal,5,4,2.6069,0,,,False
 INVESTOR_B,weekly_close_reversal,10,3,0.5493,0,,,False
-INVESTOR_B,breakout,3,92,-0.2786,41,0.0678,1.105,True
-INVESTOR_B,breakout,5,76,-0.0219,35,0.1359,1.149,True
-INVESTOR_B,breakout,10,63,-0.1268,27,0.7043,1.782,True
+INVESTOR_B,breakout,3,91,-0.2816,41,0.0678,1.105,True
+INVESTOR_B,breakout,5,76,-0.0487,35,0.1359,1.149,True
+INVESTOR_B,breakout,10,63,-0.1535,27,0.7043,1.782,True
 VOLVO_B,relative_reversal,3,7,0.5195,3,-1.7847,0.446,False
 VOLVO_B,relative_reversal,5,7,1.0932,3,0.3155,1.208,False
 VOLVO_B,relative_reversal,10,7,2.7348,3,2.6542,7.919,False
@@ -56,9 +56,9 @@ NVIDIA,relative_momentum,10,16,3.0752,3,13.2081,,False
 NVIDIA,weekly_close_reversal,3,54,0.3,21,2.1366,3.126,True
 NVIDIA,weekly_close_reversal,5,50,0.727,19,3.3848,3.097,True
 NVIDIA,weekly_close_reversal,10,38,1.165,17,6.1205,8.764,True
-NVIDIA,breakout,3,88,0.2239,39,0.5076,1.35,True
-NVIDIA,breakout,5,75,1.0908,33,0.4085,1.217,True
-NVIDIA,breakout,10,59,1.4167,24,1.6145,1.597,True
+NVIDIA,breakout,3,88,0.2476,39,0.5076,1.35,True
+NVIDIA,breakout,5,74,1.3574,33,0.4085,1.217,True
+NVIDIA,breakout,10,59,1.402,24,1.6145,1.597,True
 MICROSOFT,relative_reversal,3,0,,2,-4.5756,0.0,False
 MICROSOFT,relative_reversal,5,0,,2,-2.9165,0.044,False
 MICROSOFT,relative_reversal,10,0,,2,-1.576,0.575,False
@@ -68,7 +68,7 @@ MICROSOFT,relative_momentum,10,2,3.4682,2,7.3032,,False
 MICROSOFT,weekly_close_reversal,3,2,-0.0828,14,-0.8344,0.579,False
 MICROSOFT,weekly_close_reversal,5,2,1.3055,12,-1.436,0.38,False
 MICROSOFT,weekly_close_reversal,10,2,-0.5237,12,-0.0707,0.968,False
-MICROSOFT,breakout,3,100,-0.1288,37,0.0296,1.034,True
+MICROSOFT,breakout,3,100,-0.1288,36,-0.0598,0.933,True
 MICROSOFT,breakout,5,81,-0.0171,29,-0.0462,0.968,True
 MICROSOFT,breakout,10,62,0.583,22,0.2753,1.159,True
 APPLE,relative_reversal,3,4,0.3434,6,2.3809,28.399,False
