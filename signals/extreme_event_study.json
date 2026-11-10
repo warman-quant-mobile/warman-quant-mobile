@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at_utc": "2026-11-07T06:33:13.574003+00:00",
+  "generated_at_utc": "2026-11-10T07:43:56.793521+00:00",
   "status": "EXPLORATORY_NOT_VALIDATED",
   "methodology": "Prior completed bar; next open; 2ATR stop; 10R target; 20bps proxy friction; 60 sessions; conservative gaps; nonoverlapping events per strategy.",
   "results": {
@@ -512,9 +512,9 @@
       "GAP_CONTINUATION": {
         "events": 36,
         "targets_10r": 1,
-        "stops": 20,
-        "timeouts": 15,
-        "mean_realized_r": 0.07,
+        "stops": 21,
+        "timeouts": 14,
+        "mean_realized_r": -0.075,
         "insufficient_sample": false
       },
       "GAP_FADE": {
@@ -536,9 +536,9 @@
       "SHOCK_FADE": {
         "events": 36,
         "targets_10r": 2,
-        "stops": 16,
-        "timeouts": 18,
-        "mean_realized_r": 0.698,
+        "stops": 15,
+        "timeouts": 19,
+        "mean_realized_r": 0.672,
         "insufficient_sample": false
       },
       "RANGE_CONTINUATION": {
@@ -569,18 +569,18 @@
       },
       "SHOCK_CONTINUATION": {
         "events": 34,
-        "targets_10r": 5,
-        "stops": 17,
-        "timeouts": 12,
-        "mean_realized_r": 1.23,
+        "targets_10r": 3,
+        "stops": 18,
+        "timeouts": 13,
+        "mean_realized_r": 0.609,
         "insufficient_sample": false
       },
       "SHOCK_FADE": {
-        "events": 32,
+        "events": 33,
         "targets_10r": 2,
         "stops": 19,
-        "timeouts": 11,
-        "mean_realized_r": 0.466,
+        "timeouts": 12,
+        "mean_realized_r": 0.472,
         "insufficient_sample": false
       },
       "RANGE_CONTINUATION": {
@@ -878,11 +878,11 @@
         "insufficient_sample": true
       },
       "RANGE_CONTINUATION": {
-        "events": 12,
+        "events": 11,
         "targets_10r": 0,
-        "stops": 8,
+        "stops": 7,
         "timeouts": 4,
-        "mean_realized_r": -0.107,
+        "mean_realized_r": -0.026,
         "insufficient_sample": true
       }
     },
@@ -972,19 +972,19 @@
     },
     "APPLE": {
       "GAP_CONTINUATION": {
-        "events": 22,
+        "events": 21,
         "targets_10r": 0,
-        "stops": 15,
+        "stops": 14,
         "timeouts": 7,
-        "mean_realized_r": 0.138,
+        "mean_realized_r": 0.192,
         "insufficient_sample": true
       },
       "GAP_FADE": {
-        "events": 22,
+        "events": 21,
         "targets_10r": 0,
-        "stops": 14,
+        "stops": 13,
         "timeouts": 8,
-        "mean_realized_r": -0.054,
+        "mean_realized_r": -0.009,
         "insufficient_sample": true
       },
       "SHOCK_CONTINUATION": {
@@ -1158,17 +1158,17 @@
       "SHOCK_CONTINUATION": {
         "events": 45,
         "targets_10r": 8,
-        "stops": 16,
-        "timeouts": 21,
-        "mean_realized_r": 2.563,
+        "stops": 17,
+        "timeouts": 20,
+        "mean_realized_r": 2.437,
         "insufficient_sample": false
       },
       "SHOCK_FADE": {
-        "events": 46,
-        "targets_10r": 2,
-        "stops": 39,
-        "timeouts": 5,
-        "mean_realized_r": -0.073,
+        "events": 45,
+        "targets_10r": 0,
+        "stops": 38,
+        "timeouts": 7,
+        "mean_realized_r": -0.485,
         "insufficient_sample": false
       },
       "RANGE_CONTINUATION": {

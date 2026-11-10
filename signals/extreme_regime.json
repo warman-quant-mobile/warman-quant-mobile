@@ -1,8 +1,8 @@
 {
   "status": "RESEARCH_WARNING_ONLY",
-  "generated_at_utc": "2026-11-09T17:48:11.367561+00:00",
-  "level": "WATCH",
-  "stress_score": 3,
+  "generated_at_utc": "2026-11-10T07:52:31.363714+00:00",
+  "level": "ELEVATED",
+  "stress_score": 5,
   "cross_asset_tail_count": 0,
   "events": [
     {
@@ -16,71 +16,77 @@
       "tags": [
         "VOL_TOP_5PCT"
       ]
+    },
+    {
+      "symbol": "GVZ",
+      "tags": [
+        "GAP_3PCT"
+      ]
     }
   ],
   "metrics": {
     "SP500": {
-      "ret1": 0.00315,
-      "gap": 0.00325,
-      "tail_rank": 0.3128,
-      "rv_rank": 0.8008,
-      "prior_rv_rank": 0.8064,
-      "atr_move": 0.24362,
-      "dd20": -0.05565
+      "ret1": 0.02346,
+      "gap": 0.00615,
+      "tail_rank": 0.9584,
+      "rv_rank": 0.8552,
+      "prior_rv_rank": 0.8008,
+      "atr_move": 1.78975,
+      "dd20": -0.03296
     },
     "NASDAQ100": {
-      "ret1": 0.01353,
-      "gap": 0.0156,
-      "tail_rank": 0.7,
-      "rv_rank": 0.8728,
-      "prior_rv_rank": 0.8624,
-      "atr_move": 0.5836,
-      "dd20": -0.12606
+      "ret1": 0.034,
+      "gap": 0.01013,
+      "tail_rank": 0.9696,
+      "rv_rank": 0.9184,
+      "prior_rv_rank": 0.8728,
+      "atr_move": 1.43283,
+      "dd20": -0.08991
     },
     "GOLD_FUT": {
-      "ret1": -0.00938,
-      "gap": -0.00365,
-      "tail_rank": 0.6616,
-      "rv_rank": 0.856,
-      "prior_rv_rank": 0.8672,
-      "atr_move": 0.48181,
-      "dd20": -0.03354
+      "ret1": 0.00972,
+      "gap": -0.00015,
+      "tail_rank": 0.672,
+      "rv_rank": 0.8616,
+      "prior_rv_rank": 0.856,
+      "atr_move": 0.49321,
+      "dd20": -0.01816
     },
     "SILVER_FUT": {
-      "ret1": -0.00823,
-      "gap": -0.00823,
-      "tail_rank": 0.36,
-      "rv_rank": 0.8272,
-      "prior_rv_rank": 0.8464,
-      "atr_move": 0.29912,
-      "dd20": -0.14615
+      "ret1": 0.01469,
+      "gap": 0.0178,
+      "tail_rank": 0.584,
+      "rv_rank": 0.832,
+      "prior_rv_rank": 0.8272,
+      "atr_move": 0.55365,
+      "dd20": -0.12599
     },
     "WTI_FUT": {
-      "ret1": 0.00342,
-      "gap": 0.00751,
-      "tail_rank": 0.1152,
-      "rv_rank": 0.8704,
-      "prior_rv_rank": 0.8712,
-      "atr_move": 0.06498,
-      "dd20": -0.12764
+      "ret1": -0.04382,
+      "gap": 0.0,
+      "tail_rank": 0.9216,
+      "rv_rank": 0.8808,
+      "prior_rv_rank": 0.8704,
+      "atr_move": 0.82299,
+      "dd20": -0.16587
     },
     "BRENT_FUT": {
-      "ret1": 0.00031,
-      "gap": 0.00967,
-      "tail_rank": 0.0136,
-      "rv_rank": 0.9152,
-      "prior_rv_rank": 0.916,
-      "atr_move": 0.00616,
-      "dd20": -0.16423
+      "ret1": -0.05848,
+      "gap": -0.00264,
+      "tail_rank": 0.9672,
+      "rv_rank": 0.9232,
+      "prior_rv_rank": 0.9152,
+      "atr_move": 1.1615,
+      "dd20": -0.21311
     },
     "US30Y_BOND_FUT": {
-      "ret1": -0.00173,
-      "gap": 0.0,
-      "tail_rank": 0.1808,
-      "rv_rank": 0.4768,
-      "prior_rv_rank": 0.4648,
-      "atr_move": 0.16575,
-      "dd20": -0.00173
+      "ret1": 0.00058,
+      "gap": -0.00058,
+      "tail_rank": 0.0616,
+      "rv_rank": 0.4744,
+      "prior_rv_rank": 0.4768,
+      "atr_move": 0.05391,
+      "dd20": -0.00115
     },
     "EURUSD": {
       "ret1": -0.0006,
@@ -92,67 +98,67 @@
       "dd20": -0.0006
     },
     "USDSEK": {
-      "ret1": 0.00805,
-      "gap": 0.00826,
-      "tail_rank": 0.7848,
-      "rv_rank": 0.056,
-      "prior_rv_rank": 0.0176,
-      "atr_move": 1.00193,
-      "dd20": -0.02263
+      "ret1": 0.00831,
+      "gap": 0.00821,
+      "tail_rank": 0.8,
+      "rv_rank": 0.0752,
+      "prior_rv_rank": 0.0568,
+      "atr_move": 0.96276,
+      "dd20": -0.0145
     },
     "BITCOIN": {
-      "ret1": -0.01535,
+      "ret1": 0.00856,
       "gap": 0.0,
-      "tail_rank": 0.6048,
-      "rv_rank": 0.456,
-      "prior_rv_rank": 0.4472,
-      "atr_move": 0.52908,
-      "dd20": -0.11221
+      "tail_rank": 0.4072,
+      "rv_rank": 0.4456,
+      "prior_rv_rank": 0.4568,
+      "atr_move": 0.28402,
+      "dd20": -0.10461
     },
     "VIX": {
-      "ret1": -0.09013,
-      "gap": -0.01774,
-      "tail_rank": 0.8288,
-      "rv_rank": 0.9592,
-      "prior_rv_rank": 0.9584,
-      "atr_move": 0.88425,
-      "dd20": -0.09013
+      "ret1": -0.22309,
+      "gap": -0.02184,
+      "tail_rank": 0.9832,
+      "rv_rank": 0.98,
+      "prior_rv_rank": 0.9592,
+      "atr_move": 1.85956,
+      "dd20": -0.29312
     },
     "OVX": {
-      "ret1": -0.03317,
-      "gap": -0.00232,
-      "tail_rank": 0.5488,
-      "rv_rank": 0.2624,
-      "prior_rv_rank": 0.2328,
-      "atr_move": 0.60414,
-      "dd20": -0.07019
+      "ret1": -0.0187,
+      "gap": 0.02127,
+      "tail_rank": 0.332,
+      "rv_rank": 0.268,
+      "prior_rv_rank": 0.2624,
+      "atr_move": 0.32537,
+      "dd20": -0.08757
     },
     "GVZ": {
-      "ret1": 0.00542,
-      "gap": 0.02439,
-      "tail_rank": 0.108,
-      "rv_rank": 0.728,
-      "prior_rv_rank": 0.7288,
-      "atr_move": 0.10942,
-      "dd20": -0.00688
+      "ret1": -0.04005,
+      "gap": -0.04351,
+      "tail_rank": 0.6888,
+      "rv_rank": 0.7408,
+      "prior_rv_rank": 0.728,
+      "atr_move": 0.79785,
+      "dd20": -0.04665
     },
     "US30Y_YIELD": {
-      "ret1": 0.00171,
-      "gap": 0.00724,
-      "tail_rank": 0.1032,
+      "ret1": -0.00076,
+      "gap": -0.00361,
+      "tail_rank": 0.0448,
       "rv_rank": 0.2656,
-      "prior_rv_rank": 0.2608,
-      "atr_move": 0.13606,
-      "dd20": -0.06071
+      "prior_rv_rank": 0.2664,
+      "atr_move": 0.05896,
+      "dd20": -0.06109
     },
     "US10Y_YIELD": {
-      "ret1": 0.00455,
-      "gap": 0.00765,
-      "tail_rank": 0.212,
-      "rv_rank": 0.3192,
-      "prior_rv_rank": 0.3168,
-      "atr_move": 0.28333,
-      "dd20": -0.07342
+      "ret1": 0.00103,
+      "gap": -0.00412,
+      "tail_rank": 0.0624,
+      "rv_rank": 0.3224,
+      "prior_rv_rank": 0.32,
+      "atr_move": 0.06277,
+      "dd20": -0.07176
     }
   },
   "interpretation": "Fragility/tail-state indicator, not a crash forecast and never an automatic trade.",

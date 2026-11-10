@@ -545,7 +545,7 @@
       "summary": {
         "all": {
           "n": 11,
-          "mean_r": -0.157,
+          "mean_r": -0.234,
           "median_r": -1.0,
           "mean_geometric_r": 6.915,
           "target_hits": 1,
@@ -565,7 +565,7 @@
         },
         "oos": {
           "n": 5,
-          "mean_r": -0.81,
+          "mean_r": -0.979,
           "median_r": -1.0,
           "mean_geometric_r": 4.479,
           "target_hits": 0,
@@ -603,8 +603,8 @@
         "FALLING_WEDGE": {
           "all": {
             "n": 1,
-            "mean_r": 0.001,
-            "median_r": 0.001,
+            "mean_r": -0.843,
+            "median_r": -0.843,
             "mean_geometric_r": 1.988,
             "target_hits": 0,
             "mfe_5r": 0,
@@ -613,8 +613,8 @@
           },
           "train": {
             "n": 1,
-            "mean_r": 0.001,
-            "median_r": 0.001,
+            "mean_r": -0.843,
+            "median_r": -0.843,
             "mean_geometric_r": 1.988,
             "target_hits": 0,
             "mfe_5r": 0,
@@ -695,7 +695,7 @@
       "summary": {
         "all": {
           "n": 15,
-          "mean_r": -0.201,
+          "mean_r": -0.222,
           "median_r": -1.0,
           "mean_geometric_r": 8.678,
           "target_hits": 1,
@@ -715,8 +715,8 @@
         },
         "oos": {
           "n": 6,
-          "mean_r": 1.027,
-          "median_r": -0.289,
+          "mean_r": 0.975,
+          "median_r": -0.448,
           "mean_geometric_r": 5.141,
           "target_hits": 1,
           "mfe_5r": 2,
@@ -760,8 +760,8 @@
         "DESCENDING": {
           "all": {
             "n": 2,
-            "mean_r": -0.289,
-            "median_r": -0.289,
+            "mean_r": -0.448,
+            "median_r": -0.448,
             "mean_geometric_r": 5.027,
             "target_hits": 0,
             "mfe_5r": 0,
@@ -780,8 +780,8 @@
           },
           "oos": {
             "n": 1,
-            "mean_r": 0.422,
-            "median_r": 0.422,
+            "mean_r": 0.105,
+            "median_r": 0.105,
             "mean_geometric_r": 3.891,
             "target_hits": 0,
             "mfe_5r": 0,
@@ -2353,7 +2353,7 @@
       "summary": {
         "all": {
           "n": 11,
-          "mean_r": 0.403,
+          "mean_r": 0.551,
           "median_r": -1.0,
           "mean_geometric_r": 31.128,
           "target_hits": 1,
@@ -2373,7 +2373,7 @@
         },
         "oos": {
           "n": 5,
-          "mean_r": 0.196,
+          "mean_r": 0.521,
           "median_r": -1.0,
           "mean_geometric_r": 57.707,
           "target_hits": 0,
@@ -2475,7 +2475,7 @@
         "SYMMETRICAL": {
           "all": {
             "n": 4,
-            "mean_r": -0.524,
+            "mean_r": -0.118,
             "median_r": -1.0,
             "mean_geometric_r": 70.301,
             "target_hits": 0,
@@ -2495,8 +2495,8 @@
           },
           "oos": {
             "n": 2,
-            "mean_r": 0.845,
-            "median_r": 0.845,
+            "mean_r": 1.657,
+            "median_r": 1.657,
             "mean_geometric_r": 11.101,
             "target_hits": 0,
             "mfe_5r": 1,
@@ -4954,7 +4954,7 @@
       "type": "FALLING_WEDGE",
       "side": "SHORT",
       "geometric_r": 1.988,
-      "realized_r": 0.001,
+      "realized_r": -0.843,
       "mfe_r": 0.095,
       "outcome": "TIMEOUT",
       "compression": 0.418,
@@ -5248,7 +5248,7 @@
       "type": "DESCENDING",
       "side": "SHORT",
       "geometric_r": 3.891,
-      "realized_r": 0.422,
+      "realized_r": 0.105,
       "mfe_r": 1.655,
       "outcome": "TIMEOUT",
       "compression": 0.127,
@@ -8377,7 +8377,7 @@
       "type": "SYMMETRICAL",
       "side": "LONG",
       "geometric_r": 7.065,
-      "realized_r": 2.69,
+      "realized_r": 4.314,
       "mfe_r": 5.872,
       "outcome": "TIMEOUT",
       "compression": 0.204,
@@ -10290,7 +10290,7 @@
       "type": "FALLING_WEDGE",
       "side": "SHORT",
       "geometric_r": 1.988,
-      "realized_r": 0.001,
+      "realized_r": -0.843,
       "mfe_r": 0.095,
       "outcome": "TIMEOUT",
       "compression": 0.418,
@@ -10305,27 +10305,6 @@
       "gap_atr": -0.6732,
       "atr_pct": 0.02282,
       "symbol": "NASDAQ100"
-    },
-    {
-      "date": "2026-11-04",
-      "type": "FALLING_WEDGE",
-      "side": "LONG",
-      "geometric_r": 1.831,
-      "realized_r": -1.0,
-      "mfe_r": 0.051,
-      "outcome": "STOP",
-      "compression": 0.689,
-      "r2_high": 0.904,
-      "r2_low": 0.867,
-      "slope_high_atr": -0.1415,
-      "slope_low_atr": -0.1154,
-      "touches_high": 4,
-      "touches_low": 6,
-      "breakout_strength_atr": 1.1179,
-      "trend20_signed": -0.0602,
-      "gap_atr": 0.0,
-      "atr_pct": 0.03521,
-      "symbol": "ETHEREUM"
     }
   ],
   "note": "Frozen first-pass geometry. No parameter optimization. Results must survive OOS/robustness and Nordnet-KF execution checks before promotion.",
@@ -10333,8 +10312,8 @@
     "schema_version": 1,
     "engine": "pattern_geometry_v2",
     "dataset": {
-      "manifest_sha256": "0c4440e9c74bda94af622f74e0b05aa1b1ef603ecf33b6d6a41ba2041397b496",
-      "manifest_bytes": 27676
+      "manifest_sha256": "578bf156ef494a35ac5705d246c7f743f91ffa3fdd6b5feda8327790b35493ad",
+      "manifest_bytes": 27661
     },
     "model_version": "rules-v2-frozen-2026-09-30",
     "reproducibility": {
