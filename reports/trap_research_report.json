@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-11T14:21:16.814544+00:00",
+  "generated_at": "2026-11-11T21:56:07.083131+00:00",
   "validated_edge": false,
   "research_only": true,
   "split_date": "2023-11-06",
@@ -4811,11 +4811,11 @@
         "mean_R": -0.135
       },
       "holdout": {
-        "n": 122,
-        "mean_net_pct": -0.582,
-        "profit_factor": 0.629,
-        "win_rate": 0.344,
-        "mean_R": -0.24
+        "n": 123,
+        "mean_net_pct": -0.562,
+        "profit_factor": 0.638,
+        "win_rate": 0.35,
+        "mean_R": -0.235
       },
       "holdout_trades": [
         {
@@ -5518,6 +5518,15 @@
           "exit_date": "2026-06-17",
           "return": 0.005592302114463267,
           "R": 0.2590807464777164,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "APPLE",
+          "signal_date": "2026-11-03",
+          "entry_date": "2026-11-04",
+          "exit_date": "2026-11-10",
+          "return": 0.018317950325242638,
+          "R": 0.38527428765787225,
           "reason": "time_exit_close"
         },
         {

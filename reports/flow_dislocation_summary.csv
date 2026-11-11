@@ -56,9 +56,9 @@ NVIDIA,relative_momentum,10,15,3.0461,3,13.2081,,False
 NVIDIA,weekly_close_reversal,3,55,0.4866,21,2.1366,3.126,True
 NVIDIA,weekly_close_reversal,5,50,0.727,19,3.3848,3.097,True
 NVIDIA,weekly_close_reversal,10,38,1.165,17,6.1205,8.764,True
-NVIDIA,breakout,3,87,0.2478,39,0.5076,1.35,True
-NVIDIA,breakout,5,74,1.1804,33,0.4085,1.217,True
-NVIDIA,breakout,10,59,1.2944,24,1.6145,1.597,True
+NVIDIA,breakout,3,87,0.1619,39,0.5076,1.35,True
+NVIDIA,breakout,5,74,1.1647,33,0.4085,1.217,True
+NVIDIA,breakout,10,59,1.3619,24,1.6145,1.597,True
 MICROSOFT,relative_reversal,3,0,,2,-4.5756,0.0,False
 MICROSOFT,relative_reversal,5,0,,2,-2.9165,0.044,False
 MICROSOFT,relative_reversal,10,0,,2,-1.576,0.575,False
