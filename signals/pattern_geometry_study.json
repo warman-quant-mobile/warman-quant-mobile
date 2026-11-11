@@ -545,7 +545,7 @@
       "summary": {
         "all": {
           "n": 11,
-          "mean_r": -0.234,
+          "mean_r": -0.22,
           "median_r": -1.0,
           "mean_geometric_r": 6.915,
           "target_hits": 1,
@@ -565,7 +565,7 @@
         },
         "oos": {
           "n": 5,
-          "mean_r": -0.979,
+          "mean_r": -0.948,
           "median_r": -1.0,
           "mean_geometric_r": 4.479,
           "target_hits": 0,
@@ -603,8 +603,8 @@
         "FALLING_WEDGE": {
           "all": {
             "n": 1,
-            "mean_r": -0.843,
-            "median_r": -0.843,
+            "mean_r": -0.69,
+            "median_r": -0.69,
             "mean_geometric_r": 1.988,
             "target_hits": 0,
             "mfe_5r": 0,
@@ -613,8 +613,8 @@
           },
           "train": {
             "n": 1,
-            "mean_r": -0.843,
-            "median_r": -0.843,
+            "mean_r": -0.69,
+            "median_r": -0.69,
             "mean_geometric_r": 1.988,
             "target_hits": 0,
             "mfe_5r": 0,
@@ -695,7 +695,7 @@
       "summary": {
         "all": {
           "n": 15,
-          "mean_r": -0.222,
+          "mean_r": -0.197,
           "median_r": -1.0,
           "mean_geometric_r": 8.678,
           "target_hits": 1,
@@ -715,8 +715,8 @@
         },
         "oos": {
           "n": 6,
-          "mean_r": 0.975,
-          "median_r": -0.448,
+          "mean_r": 1.038,
+          "median_r": -0.258,
           "mean_geometric_r": 5.141,
           "target_hits": 1,
           "mfe_5r": 2,
@@ -760,8 +760,8 @@
         "DESCENDING": {
           "all": {
             "n": 2,
-            "mean_r": -0.448,
-            "median_r": -0.448,
+            "mean_r": -0.258,
+            "median_r": -0.258,
             "mean_geometric_r": 5.027,
             "target_hits": 0,
             "mfe_5r": 0,
@@ -780,8 +780,8 @@
           },
           "oos": {
             "n": 1,
-            "mean_r": 0.105,
-            "median_r": 0.105,
+            "mean_r": 0.484,
+            "median_r": 0.484,
             "mean_geometric_r": 3.891,
             "target_hits": 0,
             "mfe_5r": 0,
@@ -2353,7 +2353,7 @@
       "summary": {
         "all": {
           "n": 11,
-          "mean_r": 0.551,
+          "mean_r": 0.429,
           "median_r": -1.0,
           "mean_geometric_r": 31.128,
           "target_hits": 1,
@@ -2373,7 +2373,7 @@
         },
         "oos": {
           "n": 5,
-          "mean_r": 0.521,
+          "mean_r": 0.253,
           "median_r": -1.0,
           "mean_geometric_r": 57.707,
           "target_hits": 0,
@@ -2475,7 +2475,7 @@
         "SYMMETRICAL": {
           "all": {
             "n": 4,
-            "mean_r": -0.118,
+            "mean_r": -0.453,
             "median_r": -1.0,
             "mean_geometric_r": 70.301,
             "target_hits": 0,
@@ -2495,8 +2495,8 @@
           },
           "oos": {
             "n": 2,
-            "mean_r": 1.657,
-            "median_r": 1.657,
+            "mean_r": 0.987,
+            "median_r": 0.987,
             "mean_geometric_r": 11.101,
             "target_hits": 0,
             "mfe_5r": 1,
@@ -4954,7 +4954,7 @@
       "type": "FALLING_WEDGE",
       "side": "SHORT",
       "geometric_r": 1.988,
-      "realized_r": -0.843,
+      "realized_r": -0.69,
       "mfe_r": 0.095,
       "outcome": "TIMEOUT",
       "compression": 0.418,
@@ -5248,7 +5248,7 @@
       "type": "DESCENDING",
       "side": "SHORT",
       "geometric_r": 3.891,
-      "realized_r": 0.105,
+      "realized_r": 0.484,
       "mfe_r": 1.655,
       "outcome": "TIMEOUT",
       "compression": 0.127,
@@ -8377,7 +8377,7 @@
       "type": "SYMMETRICAL",
       "side": "LONG",
       "geometric_r": 7.065,
-      "realized_r": 4.314,
+      "realized_r": 2.974,
       "mfe_r": 5.872,
       "outcome": "TIMEOUT",
       "compression": 0.204,
@@ -10290,7 +10290,7 @@
       "type": "FALLING_WEDGE",
       "side": "SHORT",
       "geometric_r": 1.988,
-      "realized_r": -0.843,
+      "realized_r": -0.69,
       "mfe_r": 0.095,
       "outcome": "TIMEOUT",
       "compression": 0.418,
@@ -10312,8 +10312,8 @@
     "schema_version": 1,
     "engine": "pattern_geometry_v2",
     "dataset": {
-      "manifest_sha256": "578bf156ef494a35ac5705d246c7f743f91ffa3fdd6b5feda8327790b35493ad",
-      "manifest_bytes": 27661
+      "manifest_sha256": "bfa5af95c8d5f972965c1982f682bfb0220ffaf4895f92edd1ab81842a4205f6",
+      "manifest_bytes": 27665
     },
     "model_version": "rules-v2-frozen-2026-09-30",
     "reproducibility": {
