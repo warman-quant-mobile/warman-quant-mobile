@@ -8,7 +8,7 @@ INVESTOR_B,relative_momentum,10,0,,0,,,False
 INVESTOR_B,weekly_close_reversal,3,4,-1.4677,0,,,False
 INVESTOR_B,weekly_close_reversal,5,4,2.6069,0,,,False
 INVESTOR_B,weekly_close_reversal,10,3,0.5493,0,,,False
-INVESTOR_B,breakout,3,91,-0.2944,41,0.0678,1.105,True
+INVESTOR_B,breakout,3,91,-0.2944,42,0.0366,1.055,True
 INVESTOR_B,breakout,5,76,-0.0587,35,0.1359,1.149,True
 INVESTOR_B,breakout,10,63,-0.1506,27,0.7043,1.782,True
 VOLVO_B,relative_reversal,3,7,0.5195,3,-1.7847,0.446,False
@@ -44,9 +44,9 @@ ABB,relative_momentum,10,2,-3.9318,4,2.9206,11.876,False
 ABB,weekly_close_reversal,3,12,0.6138,8,-0.3239,0.849,False
 ABB,weekly_close_reversal,5,12,0.6001,8,-1.1926,0.632,False
 ABB,weekly_close_reversal,10,12,2.7913,6,-1.8396,0.481,False
-ABB,breakout,3,86,-0.0651,43,-0.2126,0.774,True
-ABB,breakout,5,77,-0.0261,40,-0.3252,0.727,True
-ABB,breakout,10,56,0.5171,29,0.9188,1.811,True
+ABB,breakout,3,85,-0.0443,43,-0.2126,0.774,True
+ABB,breakout,5,76,-0.0044,40,-0.3252,0.727,True
+ABB,breakout,10,55,0.5634,29,0.9188,1.811,True
 NVIDIA,relative_reversal,3,18,0.1185,6,-2.46,0.272,False
 NVIDIA,relative_reversal,5,18,1.8738,6,-0.8012,0.727,False
 NVIDIA,relative_reversal,10,16,0.6689,6,4.8283,9.63,False

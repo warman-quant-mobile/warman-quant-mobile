@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-11T06:09:52.294225+00:00",
+  "generated_at": "2026-11-11T14:21:16.814544+00:00",
   "validated_edge": false,
   "research_only": true,
-  "split_date": "2023-11-03",
+  "split_date": "2023-11-06",
   "method": "Failed downside break and same-day reclaim of previous 10/20-session low, enter next open, stop at signal low, 3R target, 2/5 day timeout, adverse same-bar stop precedence, 20-30bp costs",
   "results": {
     "10d_2d": {
@@ -14,11 +14,11 @@
         "mean_R": -0.249
       },
       "holdout": {
-        "n": 201,
-        "mean_net_pct": -0.354,
-        "profit_factor": 0.649,
-        "win_rate": 0.413,
-        "mean_R": -0.248
+        "n": 202,
+        "mean_net_pct": -0.343,
+        "profit_factor": 0.659,
+        "win_rate": 0.416,
+        "mean_R": -0.241
       },
       "holdout_trades": [
         {
@@ -730,6 +730,15 @@
           "exit_date": "2026-10-13",
           "return": -0.00720833333333337,
           "R": -0.37608645751096503,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "ABB",
+          "signal_date": "2026-11-06",
+          "entry_date": "2026-11-09",
+          "exit_date": "2026-11-10",
+          "return": 0.01923982769363608,
+          "R": 1.1984932485727169,
           "reason": "time_exit_close"
         },
         {
@@ -3668,11 +3677,11 @@
         "mean_R": -0.191
       },
       "holdout": {
-        "n": 123,
-        "mean_net_pct": -0.243,
-        "profit_factor": 0.763,
-        "win_rate": 0.463,
-        "mean_R": -0.164
+        "n": 124,
+        "mean_net_pct": -0.226,
+        "profit_factor": 0.778,
+        "win_rate": 0.468,
+        "mean_R": -0.153
       },
       "holdout_trades": [
         {
@@ -4060,6 +4069,15 @@
           "exit_date": "2026-08-03",
           "return": -0.000510612325465452,
           "R": -0.011267038990885424,
+          "reason": "time_exit_close"
+        },
+        {
+          "symbol": "ABB",
+          "signal_date": "2026-11-06",
+          "entry_date": "2026-11-09",
+          "exit_date": "2026-11-10",
+          "return": 0.01923982769363608,
+          "R": 1.1984932485727169,
           "reason": "time_exit_close"
         },
         {
