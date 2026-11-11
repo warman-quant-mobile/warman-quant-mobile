@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-10T23:17:36.310793+00:00",
+  "generated_at": "2026-11-11T06:09:51.606000+00:00",
   "research_only": true,
   "validated_edge": false,
   "roundtrip_cost_bps": 20,
@@ -1221,10 +1221,10 @@
         "win_rate": 0.667
       },
       "holdout": {
-        "n": 2,
-        "mean_net_pct": 5.1943,
-        "profit_factor": null,
-        "win_rate": 1.0
+        "n": 3,
+        "mean_net_pct": 2.6778,
+        "profit_factor": 4.411,
+        "win_rate": 0.667
       },
       "sufficient_sample": false
     },
@@ -1335,10 +1335,10 @@
         "win_rate": 0.525
       },
       "holdout": {
-        "n": 36,
-        "mean_net_pct": -0.0598,
-        "profit_factor": 0.933,
-        "win_rate": 0.528
+        "n": 37,
+        "mean_net_pct": -0.1218,
+        "profit_factor": 0.869,
+        "win_rate": 0.514
       },
       "sufficient_sample": true
     },
@@ -1449,10 +1449,10 @@
         "win_rate": 1.0
       },
       "holdout": {
-        "n": 3,
-        "mean_net_pct": 1.1788,
-        "profit_factor": 42.681,
-        "win_rate": 0.667
+        "n": 4,
+        "mean_net_pct": 0.6546,
+        "profit_factor": 3.612,
+        "win_rate": 0.5
       },
       "sufficient_sample": false
     },
@@ -1905,10 +1905,10 @@
         "win_rate": 0.667
       },
       "holdout": {
-        "n": 4,
-        "mean_net_pct": 0.0149,
-        "profit_factor": 1.011,
-        "win_rate": 0.25
+        "n": 5,
+        "mean_net_pct": -0.4127,
+        "profit_factor": 0.723,
+        "win_rate": 0.2
       },
       "sufficient_sample": false
     },
@@ -2013,16 +2013,16 @@
       "family": "breakout",
       "hold_sessions": 3,
       "train": {
-        "n": 89,
-        "mean_net_pct": -0.2199,
-        "profit_factor": 0.819,
-        "win_rate": 0.528
+        "n": 90,
+        "mean_net_pct": -0.2051,
+        "profit_factor": 0.83,
+        "win_rate": 0.533
       },
       "holdout": {
-        "n": 31,
-        "mean_net_pct": 0.1489,
-        "profit_factor": 1.139,
-        "win_rate": 0.419
+        "n": 32,
+        "mean_net_pct": 0.0779,
+        "profit_factor": 1.07,
+        "win_rate": 0.406
       },
       "sufficient_sample": true
     },
