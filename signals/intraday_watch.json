@@ -1,7 +1,98 @@
 {
   "status": "RESEARCH_WATCH_ONLY",
-  "generated_at_utc": "2026-11-11T07:08:51.664809+00:00",
-  "observations": [],
+  "generated_at_utc": "2026-11-11T15:36:17.006584+00:00",
+  "observations": [
+    {
+      "symbol": "NASDAQ100",
+      "bar_start_utc": "2026-11-11T14:30:00+00:00",
+      "events": [
+        "HOURLY_SHOCK_2_5ATR"
+      ],
+      "gap_pct": 1.84,
+      "hourly_move_pct": 1.94,
+      "status": "INTRADAY_WATCH_NOT_ORDER"
+    },
+    {
+      "symbol": "VIX",
+      "bar_start_utc": "2026-11-11T14:00:00+00:00",
+      "events": [
+        "FAILED_LOW_20H"
+      ],
+      "gap_pct": -0.11,
+      "hourly_move_pct": 0.33,
+      "status": "INTRADAY_WATCH_NOT_ORDER"
+    },
+    {
+      "symbol": "USDSEK",
+      "bar_start_utc": "2026-11-11T14:00:00+00:00",
+      "events": [
+        "HOURLY_SHOCK_2_5ATR"
+      ],
+      "gap_pct": 0.0,
+      "hourly_move_pct": 0.39,
+      "status": "INTRADAY_WATCH_NOT_ORDER"
+    },
+    {
+      "symbol": "INVESTOR_B",
+      "bar_start_utc": "2026-11-11T14:00:00+00:00",
+      "events": [
+        "FAILED_HIGH_20H"
+      ],
+      "gap_pct": 0.01,
+      "hourly_move_pct": -0.07,
+      "status": "INTRADAY_WATCH_NOT_ORDER"
+    },
+    {
+      "symbol": "MICROSOFT",
+      "bar_start_utc": "2026-11-11T14:30:00+00:00",
+      "events": [
+        "HOURLY_SHOCK_2_5ATR"
+      ],
+      "gap_pct": 0.15,
+      "hourly_move_pct": -2.54,
+      "status": "INTRADAY_WATCH_NOT_ORDER"
+    },
+    {
+      "symbol": "APPLE",
+      "bar_start_utc": "2026-11-11T14:30:00+00:00",
+      "events": [
+        "FAILED_HIGH_20H"
+      ],
+      "gap_pct": 0.27,
+      "hourly_move_pct": 1.41,
+      "status": "INTRADAY_WATCH_NOT_ORDER"
+    },
+    {
+      "symbol": "TESLA",
+      "bar_start_utc": "2026-11-11T14:30:00+00:00",
+      "events": [
+        "HOURLY_SHOCK_2_5ATR"
+      ],
+      "gap_pct": 1.79,
+      "hourly_move_pct": 3.67,
+      "status": "INTRADAY_WATCH_NOT_ORDER"
+    },
+    {
+      "symbol": "META",
+      "bar_start_utc": "2026-11-11T14:30:00+00:00",
+      "events": [
+        "FAILED_HIGH_20H"
+      ],
+      "gap_pct": 0.79,
+      "hourly_move_pct": -0.91,
+      "status": "INTRADAY_WATCH_NOT_ORDER"
+    },
+    {
+      "symbol": "SOLANA",
+      "bar_start_utc": "2026-11-11T14:00:00+00:00",
+      "events": [
+        "FAILED_HIGH_20H"
+      ],
+      "gap_pct": 0.07,
+      "hourly_move_pct": -0.62,
+      "status": "INTRADAY_WATCH_NOT_ORDER"
+    }
+  ],
   "excluded": {},
   "note": "Hourly data may be delayed; market sessions vary. Events require a separate validated 10R target and executable instrument quote before proposal."
 }

@@ -1,6 +1,6 @@
 {
   "status": "RESEARCH_WARNING_ONLY",
-  "generated_at_utc": "2026-11-11T07:08:52.118421+00:00",
+  "generated_at_utc": "2026-11-11T15:36:17.566467+00:00",
   "level": "WATCH",
   "stress_score": 3,
   "cross_asset_tail_count": 0,
@@ -101,13 +101,13 @@
       "dd20": -0.02365
     },
     "BITCOIN": {
-      "ret1": 0.00856,
+      "ret1": -0.01998,
       "gap": 0.0,
-      "tail_rank": 0.4072,
-      "rv_rank": 0.4456,
-      "prior_rv_rank": 0.4568,
-      "atr_move": 0.28402,
-      "dd20": -0.10461
+      "tail_rank": 0.7,
+      "rv_rank": 0.4384,
+      "prior_rv_rank": 0.4464,
+      "atr_move": 0.67369,
+      "dd20": -0.1225
     },
     "VIX": {
       "ret1": -0.02309,
