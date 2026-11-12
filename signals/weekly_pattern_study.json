@@ -30,7 +30,7 @@
     },
     "final_test": {
       "start": 36,
-      "end": 46
+      "end": 45
     }
   },
   "summary": {
@@ -41,7 +41,7 @@
         "median_r": -1.0,
         "stops": 24,
         "measured_target_hits": 3,
-        "hit_3r_before_stop": 4,
+        "hit_3r_before_stop": 5,
         "hit_5r_before_stop": 3,
         "hit_10r_before_stop": 1,
         "hit_15r_before_stop": 1,
@@ -53,17 +53,17 @@
         "median_r": -1.0,
         "stops": 8,
         "measured_target_hits": 0,
-        "hit_3r_before_stop": 2,
+        "hit_3r_before_stop": 1,
         "hit_5r_before_stop": 1,
         "hit_10r_before_stop": 0,
         "hit_15r_before_stop": 0,
         "hit_20r_before_stop": 0
       },
       "final_test": {
-        "n": 10,
-        "mean_r": 0.811,
+        "n": 9,
+        "mean_r": 1.012,
         "median_r": -1.0,
-        "stops": 6,
+        "stops": 5,
         "measured_target_hits": 1,
         "hit_3r_before_stop": 3,
         "hit_5r_before_stop": 3,
@@ -112,31 +112,6 @@
     }
   },
   "observations": [
-    {
-      "symbol": "TESLA",
-      "breakout_week": "2018-02-09",
-      "side": "SHORT",
-      "window": 40,
-      "compression": 0.102,
-      "r2_high": 0.889,
-      "r2_low": 1.0,
-      "weekly": {
-        "risk": 0.613455,
-        "realized_r": -1.0,
-        "mfe_r": 1.005,
-        "mae_r": 3.002,
-        "fixed_r_before_stop": {
-          "3": false,
-          "5": false,
-          "10": false,
-          "15": false,
-          "20": false
-        },
-        "exit_reason": "STOP",
-        "measured_target_r": 10.828
-      },
-      "weekly_context_daily_retest": null
-    },
     {
       "symbol": "BITCOIN",
       "breakout_week": "2018-03-23",
@@ -1464,8 +1439,8 @@
     "schema_version": 1,
     "engine": "weekly_pattern_mtf_v2",
     "dataset": {
-      "manifest_sha256": "bfa5af95c8d5f972965c1982f682bfb0220ffaf4895f92edd1ab81842a4205f6",
-      "manifest_bytes": 27665
+      "manifest_sha256": "783174aef8e5b37bf70d44f276d9abd18a3eedf9dd9501c01eb6718a30ce94fa",
+      "manifest_bytes": 27657
     },
     "model_version": "rules-v2-corrected-2026-09-30",
     "reproducibility": {

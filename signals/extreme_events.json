@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at_utc": "2026-11-11T23:00:45.597736+00:00",
+  "generated_at_utc": "2026-11-12T07:41:32.594883+00:00",
   "status": "RESEARCH_ONLY",
   "parameters": {
     "gap_abs_pct": 3,
@@ -8,24 +8,20 @@
     "daily_range_atr": 2.5
   },
   "observations": {
-    "OVX": {
-      "session_date": "2026-11-10",
+    "VIX": {
+      "session_date": "2026-11-11",
       "events": [
+        {
+          "type": "GAP",
+          "direction": "DOWN",
+          "magnitude_pct": -3.34,
+          "subtype": "GAP_CONTINUATION_WATCH",
+          "note": "Requires independently verified catalyst and actual bid/ask; never infer earnings from price."
+        },
         {
           "type": "EXTREME_DAILY_RETURN",
           "direction": "DOWN",
-          "magnitude_pct": -7.17,
-          "note": "Magnitude alone is not an entry signal."
-        }
-      ]
-    },
-    "NVIDIA": {
-      "session_date": "2026-11-10",
-      "events": [
-        {
-          "type": "EXTREME_DAILY_RETURN",
-          "direction": "DOWN",
-          "magnitude_pct": -5.47,
+          "magnitude_pct": -10.12,
           "note": "Magnitude alone is not an entry signal."
         }
       ]
