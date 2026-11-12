@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-11T21:56:07.083131+00:00",
+  "generated_at": "2026-11-12T02:57:56.906358+00:00",
   "validated_edge": false,
   "research_only": true,
   "split_date": "2023-11-06",
@@ -14,11 +14,11 @@
         "mean_R": -0.249
       },
       "holdout": {
-        "n": 202,
-        "mean_net_pct": -0.343,
-        "profit_factor": 0.659,
-        "win_rate": 0.416,
-        "mean_R": -0.241
+        "n": 201,
+        "mean_net_pct": -0.354,
+        "profit_factor": 0.649,
+        "win_rate": 0.413,
+        "mean_R": -0.248
       },
       "holdout_trades": [
         {
@@ -730,15 +730,6 @@
           "exit_date": "2026-10-13",
           "return": -0.00720833333333337,
           "R": -0.37608645751096503,
-          "reason": "time_exit_close"
-        },
-        {
-          "symbol": "ABB",
-          "signal_date": "2026-11-06",
-          "entry_date": "2026-11-09",
-          "exit_date": "2026-11-10",
-          "return": 0.01923982769363608,
-          "R": 1.1984932485727169,
           "reason": "time_exit_close"
         },
         {
@@ -3677,11 +3668,11 @@
         "mean_R": -0.191
       },
       "holdout": {
-        "n": 124,
-        "mean_net_pct": -0.226,
-        "profit_factor": 0.778,
-        "win_rate": 0.468,
-        "mean_R": -0.153
+        "n": 123,
+        "mean_net_pct": -0.243,
+        "profit_factor": 0.763,
+        "win_rate": 0.463,
+        "mean_R": -0.164
       },
       "holdout_trades": [
         {
@@ -4069,15 +4060,6 @@
           "exit_date": "2026-08-03",
           "return": -0.000510612325465452,
           "R": -0.011267038990885424,
-          "reason": "time_exit_close"
-        },
-        {
-          "symbol": "ABB",
-          "signal_date": "2026-11-06",
-          "entry_date": "2026-11-09",
-          "exit_date": "2026-11-10",
-          "return": 0.01923982769363608,
-          "R": 1.1984932485727169,
           "reason": "time_exit_close"
         },
         {

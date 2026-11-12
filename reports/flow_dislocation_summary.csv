@@ -53,8 +53,8 @@ NVIDIA,relative_reversal,10,16,0.6689,6,4.8283,9.63,False
 NVIDIA,relative_momentum,3,17,1.2823,3,5.1412,,False
 NVIDIA,relative_momentum,5,16,3.5876,3,6.5195,,False
 NVIDIA,relative_momentum,10,15,3.0461,3,13.2081,,False
-NVIDIA,weekly_close_reversal,3,55,0.4866,21,2.1366,3.126,True
-NVIDIA,weekly_close_reversal,5,50,0.727,19,3.3848,3.097,True
+NVIDIA,weekly_close_reversal,3,55,0.4866,22,1.5951,2.136,True
+NVIDIA,weekly_close_reversal,5,51,0.959,19,3.3848,3.097,True
 NVIDIA,weekly_close_reversal,10,38,1.165,17,6.1205,8.764,True
 NVIDIA,breakout,3,87,0.1619,39,0.5076,1.35,True
 NVIDIA,breakout,5,74,1.1647,33,0.4085,1.217,True
@@ -68,7 +68,7 @@ MICROSOFT,relative_momentum,10,2,3.4682,2,7.3032,,False
 MICROSOFT,weekly_close_reversal,3,2,-0.0828,14,-0.8344,0.579,False
 MICROSOFT,weekly_close_reversal,5,2,1.3055,12,-1.436,0.38,False
 MICROSOFT,weekly_close_reversal,10,2,-0.5237,12,-0.0707,0.968,False
-MICROSOFT,breakout,3,99,-0.1243,37,-0.1218,0.869,True
+MICROSOFT,breakout,3,100,-0.0906,37,-0.1218,0.869,True
 MICROSOFT,breakout,5,80,-0.0091,28,-0.1899,0.874,True
 MICROSOFT,breakout,10,61,0.6344,22,0.2753,1.159,True
 APPLE,relative_reversal,3,4,0.3434,6,2.3809,28.399,False
