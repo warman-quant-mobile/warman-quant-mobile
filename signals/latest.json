@@ -1,30 +1,22 @@
 {
   "schema_version": 2,
-  "generated_at_utc": "2026-11-12T22:26:51.023654+00:00",
-  "source_manifest_utc": "2026-11-12T22:26:13.877560+00:00",
+  "generated_at_utc": "2026-11-13T07:13:21.449339+00:00",
+  "source_manifest_utc": "2026-11-13T07:12:47.188925+00:00",
   "status": "NO_QUALIFIED_CANDIDATES",
   "candidates": [],
   "rejected": {},
   "screening_funnel": {
     "eligible": 30,
-    "directional_breakouts": 2,
+    "directional_breakouts": 1,
     "positive_reference_reward": 0,
     "reference_10r": 0
   },
   "diagnostic_watchlist": [
     {
-      "symbol": "OMXS30",
+      "symbol": "DAX",
       "direction": "LONG",
-      "session_date": "2026-11-11",
-      "reference_reward_risk_after_proxy_cost": -0.17,
-      "reason": "BELOW_10R_REFERENCE",
-      "note": "Research diagnostics only; historical reference is not a validated target."
-    },
-    {
-      "symbol": "APPLE",
-      "direction": "LONG",
-      "session_date": "2026-11-11",
-      "reference_reward_risk_after_proxy_cost": -0.46,
+      "session_date": "2026-11-12",
+      "reference_reward_risk_after_proxy_cost": -0.25,
       "reason": "BELOW_10R_REFERENCE",
       "note": "Research diagnostics only; historical reference is not a validated target."
     }

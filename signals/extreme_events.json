@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at_utc": "2026-11-12T22:26:51.758978+00:00",
+  "generated_at_utc": "2026-11-13T07:13:57.987541+00:00",
   "status": "RESEARCH_ONLY",
   "parameters": {
     "gap_abs_pct": 3,
@@ -9,20 +9,50 @@
   },
   "observations": {
     "VIX": {
-      "session_date": "2026-11-11",
+      "session_date": "2026-11-12",
       "events": [
         {
           "type": "GAP",
-          "direction": "DOWN",
-          "magnitude_pct": -3.34,
+          "direction": "UP",
+          "magnitude_pct": 4.97,
           "subtype": "GAP_CONTINUATION_WATCH",
           "note": "Requires independently verified catalyst and actual bid/ask; never infer earnings from price."
         },
         {
           "type": "EXTREME_DAILY_RETURN",
-          "direction": "DOWN",
-          "magnitude_pct": -10.12,
+          "direction": "UP",
+          "magnitude_pct": 6.92,
           "note": "Magnitude alone is not an entry signal."
+        }
+      ]
+    },
+    "GVZ": {
+      "session_date": "2026-11-12",
+      "events": [
+        {
+          "type": "GAP",
+          "direction": "UP",
+          "magnitude_pct": 5.29,
+          "subtype": "GAP_CONTINUATION_WATCH",
+          "note": "Requires independently verified catalyst and actual bid/ask; never infer earnings from price."
+        },
+        {
+          "type": "EXTREME_DAILY_RETURN",
+          "direction": "UP",
+          "magnitude_pct": 7.02,
+          "note": "Magnitude alone is not an entry signal."
+        }
+      ]
+    },
+    "NVIDIA": {
+      "session_date": "2026-11-12",
+      "events": [
+        {
+          "type": "GAP",
+          "direction": "DOWN",
+          "magnitude_pct": -13.08,
+          "subtype": "GAP_FADE_WATCH",
+          "note": "Requires independently verified catalyst and actual bid/ask; never infer earnings from price."
         }
       ]
     }

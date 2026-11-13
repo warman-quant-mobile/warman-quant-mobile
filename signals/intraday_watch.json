@@ -1,7 +1,18 @@
 {
   "status": "RESEARCH_WATCH_ONLY",
-  "generated_at_utc": "2026-11-12T22:26:53.129919+00:00",
-  "observations": [],
+  "generated_at_utc": "2026-11-13T07:22:34.604378+00:00",
+  "observations": [
+    {
+      "symbol": "WTI_FUT",
+      "bar_start_utc": "2026-11-13T06:00:00+00:00",
+      "events": [
+        "FAILED_HIGH_20H"
+      ],
+      "gap_pct": 0.0,
+      "hourly_move_pct": 0.59,
+      "status": "INTRADAY_WATCH_NOT_ORDER"
+    }
+  ],
   "excluded": {},
   "note": "Hourly data may be delayed; market sessions vary. Events require a separate validated 10R target and executable instrument quote before proposal."
 }

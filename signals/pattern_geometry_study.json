@@ -695,7 +695,7 @@
       "summary": {
         "all": {
           "n": 15,
-          "mean_r": -0.155,
+          "mean_r": -0.131,
           "median_r": -1.0,
           "mean_geometric_r": 8.678,
           "target_hits": 1,
@@ -715,8 +715,8 @@
         },
         "oos": {
           "n": 6,
-          "mean_r": 1.143,
-          "median_r": 0.058,
+          "mean_r": 1.203,
+          "median_r": 0.126,
           "mean_geometric_r": 5.141,
           "target_hits": 1,
           "mfe_5r": 2,
@@ -760,13 +760,13 @@
         "DESCENDING": {
           "all": {
             "n": 2,
-            "mean_r": 0.058,
-            "median_r": 0.058,
+            "mean_r": 0.239,
+            "median_r": 0.239,
             "mean_geometric_r": 5.027,
             "target_hits": 0,
             "mfe_5r": 0,
             "mfe_10r": 0,
-            "max_mfe_r": 1.655
+            "max_mfe_r": 1.798
           },
           "train": {
             "n": 1,
@@ -780,13 +780,13 @@
           },
           "oos": {
             "n": 1,
-            "mean_r": 1.116,
-            "median_r": 1.116,
+            "mean_r": 1.478,
+            "median_r": 1.478,
             "mean_geometric_r": 3.891,
             "target_hits": 0,
             "mfe_5r": 0,
             "mfe_10r": 0,
-            "max_mfe_r": 1.655
+            "max_mfe_r": 1.798
           }
         },
         "FALLING_WEDGE": {
@@ -2353,7 +2353,7 @@
       "summary": {
         "all": {
           "n": 11,
-          "mean_r": 0.307,
+          "mean_r": 0.326,
           "median_r": -1.0,
           "mean_geometric_r": 31.128,
           "target_hits": 1,
@@ -2373,7 +2373,7 @@
         },
         "oos": {
           "n": 5,
-          "mean_r": -0.015,
+          "mean_r": 0.026,
           "median_r": -1.0,
           "mean_geometric_r": 57.707,
           "target_hits": 0,
@@ -2475,7 +2475,7 @@
         "SYMMETRICAL": {
           "all": {
             "n": 4,
-            "mean_r": -0.788,
+            "mean_r": -0.736,
             "median_r": -1.0,
             "mean_geometric_r": 70.301,
             "target_hits": 0,
@@ -2495,8 +2495,8 @@
           },
           "oos": {
             "n": 2,
-            "mean_r": 0.317,
-            "median_r": 0.317,
+            "mean_r": 0.421,
+            "median_r": 0.421,
             "mean_geometric_r": 11.101,
             "target_hits": 0,
             "mfe_5r": 1,
@@ -5248,8 +5248,8 @@
       "type": "DESCENDING",
       "side": "SHORT",
       "geometric_r": 3.891,
-      "realized_r": 1.116,
-      "mfe_r": 1.655,
+      "realized_r": 1.478,
+      "mfe_r": 1.798,
       "outcome": "TIMEOUT",
       "compression": 0.127,
       "r2_high": 0.942,
@@ -8377,7 +8377,7 @@
       "type": "SYMMETRICAL",
       "side": "LONG",
       "geometric_r": 7.065,
-      "realized_r": 1.633,
+      "realized_r": 1.842,
       "mfe_r": 5.872,
       "outcome": "TIMEOUT",
       "compression": 0.204,
@@ -10284,35 +10284,13 @@
       "symbol": "SOLANA"
     }
   ],
-  "recent_patterns": [
-    {
-      "date": "2026-11-05",
-      "type": "FALLING_WEDGE",
-      "side": "SHORT",
-      "geometric_r": 1.988,
-      "realized_r": -1.174,
-      "mfe_r": 0.095,
-      "outcome": "STOP",
-      "compression": 0.418,
-      "r2_high": 0.932,
-      "r2_low": 0.995,
-      "slope_high_atr": -0.1806,
-      "slope_low_atr": -0.1212,
-      "touches_high": 4,
-      "touches_low": 4,
-      "breakout_strength_atr": 2.5146,
-      "trend20_signed": 0.0874,
-      "gap_atr": -0.6732,
-      "atr_pct": 0.02282,
-      "symbol": "NASDAQ100"
-    }
-  ],
+  "recent_patterns": [],
   "note": "Frozen first-pass geometry. No parameter optimization. Results must survive OOS/robustness and Nordnet-KF execution checks before promotion.",
   "research_contract": {
     "schema_version": 1,
     "engine": "pattern_geometry_v2",
     "dataset": {
-      "manifest_sha256": "783174aef8e5b37bf70d44f276d9abd18a3eedf9dd9501c01eb6718a30ce94fa",
+      "manifest_sha256": "d06460fabacfec733b4848384bd03b0edb871a5e34d3bca667e5fe8b47f73c3a",
       "manifest_bytes": 27657
     },
     "model_version": "rules-v2-frozen-2026-09-30",
