@@ -1,22 +1,38 @@
 {
   "schema_version": 2,
-  "generated_at_utc": "2026-11-13T22:08:58.119884+00:00",
-  "source_manifest_utc": "2026-11-13T22:08:22.646292+00:00",
+  "generated_at_utc": "2026-11-14T06:58:46.195615+00:00",
+  "source_manifest_utc": "2026-11-14T06:58:08.908287+00:00",
   "status": "NO_QUALIFIED_CANDIDATES",
   "candidates": [],
   "rejected": {},
   "screening_funnel": {
     "eligible": 30,
-    "directional_breakouts": 1,
-    "positive_reference_reward": 0,
+    "directional_breakouts": 3,
+    "positive_reference_reward": 2,
     "reference_10r": 0
   },
   "diagnostic_watchlist": [
     {
-      "symbol": "DAX",
+      "symbol": "US10Y_YIELD",
       "direction": "LONG",
-      "session_date": "2026-11-12",
-      "reference_reward_risk_after_proxy_cost": -0.25,
+      "session_date": "2026-11-13",
+      "reference_reward_risk_after_proxy_cost": 1.19,
+      "reason": "BELOW_10R_REFERENCE",
+      "note": "Research diagnostics only; historical reference is not a validated target."
+    },
+    {
+      "symbol": "USDSEK",
+      "direction": "LONG",
+      "session_date": "2026-11-13",
+      "reference_reward_risk_after_proxy_cost": 0.24,
+      "reason": "BELOW_10R_REFERENCE",
+      "note": "Research diagnostics only; historical reference is not a validated target."
+    },
+    {
+      "symbol": "EURUSD",
+      "direction": "SHORT",
+      "session_date": "2026-11-13",
+      "reference_reward_risk_after_proxy_cost": -0.78,
       "reason": "BELOW_10R_REFERENCE",
       "note": "Research diagnostics only; historical reference is not a validated target."
     }

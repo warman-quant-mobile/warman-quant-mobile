@@ -695,7 +695,7 @@
       "summary": {
         "all": {
           "n": 15,
-          "mean_r": -0.131,
+          "mean_r": -0.122,
           "median_r": -1.0,
           "mean_geometric_r": 8.678,
           "target_hits": 1,
@@ -715,7 +715,7 @@
         },
         "oos": {
           "n": 6,
-          "mean_r": 1.203,
+          "mean_r": 1.226,
           "median_r": 0.126,
           "mean_geometric_r": 5.141,
           "target_hits": 1,
@@ -760,8 +760,8 @@
         "DESCENDING": {
           "all": {
             "n": 2,
-            "mean_r": 0.239,
-            "median_r": 0.239,
+            "mean_r": 0.305,
+            "median_r": 0.305,
             "mean_geometric_r": 5.027,
             "target_hits": 0,
             "mfe_5r": 0,
@@ -780,8 +780,8 @@
           },
           "oos": {
             "n": 1,
-            "mean_r": 1.478,
-            "median_r": 1.478,
+            "mean_r": 1.611,
+            "median_r": 1.611,
             "mean_geometric_r": 3.891,
             "target_hits": 0,
             "mfe_5r": 0,
@@ -2353,7 +2353,7 @@
       "summary": {
         "all": {
           "n": 11,
-          "mean_r": 0.326,
+          "mean_r": 0.335,
           "median_r": -1.0,
           "mean_geometric_r": 31.128,
           "target_hits": 1,
@@ -2373,7 +2373,7 @@
         },
         "oos": {
           "n": 5,
-          "mean_r": 0.026,
+          "mean_r": 0.046,
           "median_r": -1.0,
           "mean_geometric_r": 57.707,
           "target_hits": 0,
@@ -2475,7 +2475,7 @@
         "SYMMETRICAL": {
           "all": {
             "n": 4,
-            "mean_r": -0.736,
+            "mean_r": -0.711,
             "median_r": -1.0,
             "mean_geometric_r": 70.301,
             "target_hits": 0,
@@ -2495,8 +2495,8 @@
           },
           "oos": {
             "n": 2,
-            "mean_r": 0.421,
-            "median_r": 0.421,
+            "mean_r": 0.47,
+            "median_r": 0.47,
             "mean_geometric_r": 11.101,
             "target_hits": 0,
             "mfe_5r": 1,
@@ -5248,7 +5248,7 @@
       "type": "DESCENDING",
       "side": "SHORT",
       "geometric_r": 3.891,
-      "realized_r": 1.478,
+      "realized_r": 1.611,
       "mfe_r": 1.798,
       "outcome": "TIMEOUT",
       "compression": 0.127,
@@ -8377,7 +8377,7 @@
       "type": "SYMMETRICAL",
       "side": "LONG",
       "geometric_r": 7.065,
-      "realized_r": 1.842,
+      "realized_r": 1.94,
       "mfe_r": 5.872,
       "outcome": "TIMEOUT",
       "compression": 0.204,
@@ -10290,8 +10290,8 @@
     "schema_version": 1,
     "engine": "pattern_geometry_v2",
     "dataset": {
-      "manifest_sha256": "d06460fabacfec733b4848384bd03b0edb871a5e34d3bca667e5fe8b47f73c3a",
-      "manifest_bytes": 27657
+      "manifest_sha256": "a50d1b460c5e439c241092729711e0f273b92d6c0ee4e7133706e72857cbc212",
+      "manifest_bytes": 27678
     },
     "model_version": "rules-v2-frozen-2026-09-30",
     "reproducibility": {
