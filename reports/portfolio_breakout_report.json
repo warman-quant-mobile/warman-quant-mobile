@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-13T22:36:14.907984+00:00",
+  "generated_at": "2026-11-14T03:12:38.252890+00:00",
   "research_only": true,
   "validated_edge": false,
   "capital": 100000,
@@ -10,7 +10,7 @@
     "ABB",
     "OMXS30"
   ],
-  "split_date": "2023-11-08",
+  "split_date": "2023-11-09",
   "rules": "Prior-close 20-day breakout; next-open entry; one long position; strongest breakout; 2/3 ATR trailing stop after close; full cash allocation; gap-aware stops; 20bp total costs",
   "limitations": "Survivorship, no ETP financing, no intraday stop execution proof, selection bias; benchmark excludes dividends; stop parameter comparison is exploratory",
   "results": {
@@ -27,11 +27,11 @@
         "mean_net_pct": 0.955,
         "win_rate": 0.346
       },
-      "holdout_portfolio_return": 0.2445,
-      "holdout_max_drawdown": 0.2058,
+      "holdout_portfolio_return": 0.2094,
+      "holdout_max_drawdown": 0.2065,
       "holdout_benchmarks_price_only": {
-        "INVESTOR_B": 1.1086,
-        "OMXS30": 0.5889
+        "INVESTOR_B": 1.0864,
+        "OMXS30": 0.5701
       },
       "trades": [
         {
@@ -13535,6 +13535,11 @@
           "date": "2026-11-12",
           "equity": 96058.65,
           "drawdown": 0.183517
+        },
+        {
+          "date": "2026-11-13",
+          "equity": 93349.05,
+          "drawdown": 0.206548
         }
       ]
     },
@@ -13551,11 +13556,11 @@
         "mean_net_pct": 1.873,
         "win_rate": 0.375
       },
-      "holdout_portfolio_return": 0.3126,
+      "holdout_portfolio_return": 0.2664,
       "holdout_max_drawdown": 0.2695,
       "holdout_benchmarks_price_only": {
-        "INVESTOR_B": 1.1086,
-        "OMXS30": 0.5889
+        "INVESTOR_B": 1.0864,
+        "OMXS30": 0.5701
       },
       "trades": [
         {
@@ -26589,6 +26594,11 @@
           "date": "2026-11-12",
           "equity": 223898.7,
           "drawdown": 0.221333
+        },
+        {
+          "date": "2026-11-13",
+          "equity": 216016.94,
+          "drawdown": 0.248744
         }
       ]
     }
