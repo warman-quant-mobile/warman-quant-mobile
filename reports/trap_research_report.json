@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-11-16T06:23:11.280539+00:00",
+  "generated_at": "2026-11-16T16:59:50.795500+00:00",
   "validated_edge": false,
   "research_only": true,
-  "split_date": "2023-11-08",
+  "split_date": "2023-11-09",
   "method": "Failed downside break and same-day reclaim of previous 10/20-session low, enter next open, stop at signal low, 3R target, 2/5 day timeout, adverse same-bar stop precedence, 20-30bp costs",
   "results": {
     "10d_2d": {
       "train": {
-        "n": 573,
-        "mean_net_pct": -0.178,
-        "profit_factor": 0.842,
-        "win_rate": 0.443,
-        "mean_R": -0.249
+        "n": 570,
+        "mean_net_pct": -0.18,
+        "profit_factor": 0.841,
+        "win_rate": 0.442,
+        "mean_R": -0.251
       },
       "holdout": {
         "n": 202,
@@ -1843,18 +1843,18 @@
     },
     "10d_5d": {
       "train": {
-        "n": 573,
-        "mean_net_pct": 0.142,
-        "profit_factor": 1.099,
-        "win_rate": 0.417,
-        "mean_R": -0.118
+        "n": 570,
+        "mean_net_pct": 0.132,
+        "profit_factor": 1.092,
+        "win_rate": 0.414,
+        "mean_R": -0.126
       },
       "holdout": {
-        "n": 201,
-        "mean_net_pct": -0.575,
-        "profit_factor": 0.603,
-        "win_rate": 0.348,
-        "mean_R": -0.308
+        "n": 202,
+        "mean_net_pct": -0.549,
+        "profit_factor": 0.618,
+        "win_rate": 0.351,
+        "mean_R": -0.293
       },
       "holdout_trades": [
         {
@@ -2567,6 +2567,15 @@
           "return": -0.05987497456868485,
           "R": -3.123907571666454,
           "reason": "gap_stop"
+        },
+        {
+          "symbol": "ABB",
+          "signal_date": "2026-11-06",
+          "entry_date": "2026-11-09",
+          "exit_date": "2026-11-11",
+          "return": 0.04516004024190068,
+          "R": 2.8131230797400884,
+          "reason": "target"
         },
         {
           "symbol": "NVIDIA",
@@ -4811,11 +4820,11 @@
         "mean_R": -0.121
       },
       "holdout": {
-        "n": 123,
-        "mean_net_pct": -0.562,
-        "profit_factor": 0.638,
-        "win_rate": 0.35,
-        "mean_R": -0.235
+        "n": 124,
+        "mean_net_pct": -0.521,
+        "profit_factor": 0.662,
+        "win_rate": 0.355,
+        "mean_R": -0.21
       },
       "holdout_trades": [
         {
@@ -5204,6 +5213,15 @@
           "return": 0.02417018679355043,
           "R": 0.5333330658864838,
           "reason": "time_exit_close"
+        },
+        {
+          "symbol": "ABB",
+          "signal_date": "2026-11-06",
+          "entry_date": "2026-11-09",
+          "exit_date": "2026-11-11",
+          "return": 0.04516004024190068,
+          "R": 2.8131230797400884,
+          "reason": "target"
         },
         {
           "symbol": "NVIDIA",
