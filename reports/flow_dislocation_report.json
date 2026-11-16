@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-14T03:12:38.072409+00:00",
+  "generated_at": "2026-11-16T06:23:10.581251+00:00",
   "research_only": true,
   "validated_edge": false,
   "roundtrip_cost_bps": 20,
@@ -727,10 +727,10 @@
         "win_rate": 0.0
       },
       "holdout": {
-        "n": 4,
-        "mean_net_pct": -2.7585,
-        "profit_factor": 0.185,
-        "win_rate": 0.25
+        "n": 5,
+        "mean_net_pct": -1.2856,
+        "profit_factor": 0.525,
+        "win_rate": 0.4
       },
       "sufficient_sample": false
     },
@@ -841,10 +841,10 @@
         "win_rate": 0.583
       },
       "holdout": {
-        "n": 8,
-        "mean_net_pct": -1.1926,
-        "profit_factor": 0.632,
-        "win_rate": 0.375
+        "n": 9,
+        "mean_net_pct": -0.5484,
+        "profit_factor": 0.81,
+        "win_rate": 0.444
       },
       "sufficient_sample": false
     },
