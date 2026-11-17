@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at_utc": "2026-11-14T06:59:02.847276+00:00",
+  "generated_at_utc": "2026-11-17T08:27:24.200266+00:00",
   "status": "EXPLORATORY_NOT_VALIDATED",
   "methodology": "Prior completed bar; next open; 2ATR stop; 10R target; 20bps proxy friction; 60 sessions; conservative gaps; nonoverlapping events per strategy.",
   "results": {
@@ -528,9 +528,9 @@
       "SHOCK_CONTINUATION": {
         "events": 34,
         "targets_10r": 2,
-        "stops": 18,
-        "timeouts": 14,
-        "mean_realized_r": 0.293,
+        "stops": 19,
+        "timeouts": 13,
+        "mean_realized_r": 0.34,
         "insufficient_sample": false
       },
       "SHOCK_FADE": {
@@ -553,10 +553,10 @@
     "OVX": {
       "GAP_CONTINUATION": {
         "events": 34,
-        "targets_10r": 2,
-        "stops": 21,
+        "targets_10r": 1,
+        "stops": 22,
         "timeouts": 11,
-        "mean_realized_r": 0.098,
+        "mean_realized_r": -0.225,
         "insufficient_sample": false
       },
       "GAP_FADE": {
@@ -888,19 +888,19 @@
     },
     "NVIDIA": {
       "GAP_CONTINUATION": {
-        "events": 26,
+        "events": 25,
         "targets_10r": 0,
-        "stops": 17,
+        "stops": 16,
         "timeouts": 9,
-        "mean_realized_r": 0.329,
+        "mean_realized_r": 0.382,
         "insufficient_sample": true
       },
       "GAP_FADE": {
-        "events": 27,
+        "events": 26,
         "targets_10r": 0,
         "stops": 16,
-        "timeouts": 11,
-        "mean_realized_r": 0.43,
+        "timeouts": 10,
+        "mean_realized_r": 0.476,
         "insufficient_sample": true
       },
       "SHOCK_CONTINUATION": {
@@ -908,7 +908,7 @@
         "targets_10r": 1,
         "stops": 17,
         "timeouts": 9,
-        "mean_realized_r": 0.673,
+        "mean_realized_r": 0.671,
         "insufficient_sample": true
       },
       "SHOCK_FADE": {
@@ -916,7 +916,7 @@
         "targets_10r": 1,
         "stops": 19,
         "timeouts": 7,
-        "mean_realized_r": 0.367,
+        "mean_realized_r": 0.459,
         "insufficient_sample": true
       },
       "RANGE_CONTINUATION": {
@@ -1160,7 +1160,7 @@
         "targets_10r": 8,
         "stops": 16,
         "timeouts": 21,
-        "mean_realized_r": 2.558,
+        "mean_realized_r": 2.564,
         "insufficient_sample": false
       },
       "SHOCK_FADE": {
