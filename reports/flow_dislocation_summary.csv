@@ -56,9 +56,9 @@ NVIDIA,relative_momentum,10,15,3.0461,3,13.2081,,False
 NVIDIA,weekly_close_reversal,3,55,0.4866,22,1.5951,2.136,True
 NVIDIA,weekly_close_reversal,5,51,0.959,20,2.6511,2.264,True
 NVIDIA,weekly_close_reversal,10,38,1.165,17,6.1205,8.764,True
-NVIDIA,breakout,3,87,0.1706,39,0.5076,1.35,True
-NVIDIA,breakout,5,74,1.0854,33,0.4085,1.217,True
-NVIDIA,breakout,10,59,1.2475,24,1.6145,1.597,True
+NVIDIA,breakout,3,87,0.0318,38,0.5067,1.34,True
+NVIDIA,breakout,5,74,1.0196,32,0.3634,1.187,True
+NVIDIA,breakout,10,59,1.1213,23,1.7009,1.606,True
 MICROSOFT,relative_reversal,3,0,,2,-4.5756,0.0,False
 MICROSOFT,relative_reversal,5,0,,2,-2.9165,0.044,False
 MICROSOFT,relative_reversal,10,0,,2,-1.576,0.575,False
@@ -68,9 +68,9 @@ MICROSOFT,relative_momentum,10,3,4.3754,2,7.3032,,False
 MICROSOFT,weekly_close_reversal,3,2,-0.0828,14,-0.8344,0.579,False
 MICROSOFT,weekly_close_reversal,5,2,1.3055,12,-1.436,0.38,False
 MICROSOFT,weekly_close_reversal,10,2,-0.5237,12,-0.0707,0.968,False
-MICROSOFT,breakout,3,100,-0.0906,37,-0.1218,0.869,True
-MICROSOFT,breakout,5,80,-0.0091,29,-0.4006,0.761,True
-MICROSOFT,breakout,10,62,0.724,22,0.2753,1.159,True
+MICROSOFT,breakout,3,100,-0.0906,36,-0.1403,0.853,True
+MICROSOFT,breakout,5,81,0.0402,29,-0.4006,0.761,True
+MICROSOFT,breakout,10,62,0.724,21,0.167,1.092,True
 APPLE,relative_reversal,3,4,0.3434,6,2.3809,28.399,False
 APPLE,relative_reversal,5,4,-1.0145,6,5.1813,29.566,False
 APPLE,relative_reversal,10,4,-3.4082,6,6.9391,33.311,False
@@ -92,9 +92,9 @@ META,relative_momentum,10,10,-2.4841,7,1.1635,1.404,False
 META,weekly_close_reversal,3,37,0.8627,20,0.5881,1.399,True
 META,weekly_close_reversal,5,32,0.8543,19,0.8991,1.391,True
 META,weekly_close_reversal,10,28,2.9589,15,0.2572,1.103,False
-META,breakout,3,83,-0.1336,34,0.5961,1.585,True
-META,breakout,5,71,0.1061,28,0.1554,1.102,True
-META,breakout,10,57,1.6153,23,0.8365,1.378,True
+META,breakout,3,83,-0.1336,33,0.5908,1.563,True
+META,breakout,5,71,0.1061,27,0.0699,1.044,True
+META,breakout,10,57,1.6153,22,0.7833,1.339,True
 AMAZON,relative_reversal,3,6,0.912,3,-0.0257,0.983,False
 AMAZON,relative_reversal,5,5,-1.9479,3,-1.5026,0.477,False
 AMAZON,relative_reversal,10,5,0.1518,3,1.7248,2.972,False
@@ -104,6 +104,6 @@ AMAZON,relative_momentum,10,6,0.6257,4,-2.8872,0.244,False
 AMAZON,weekly_close_reversal,3,21,0.7148,16,2.4015,3.239,False
 AMAZON,weekly_close_reversal,5,21,1.0311,14,2.9604,2.775,False
 AMAZON,weekly_close_reversal,10,17,3.0245,13,5.4698,5.428,False
-AMAZON,breakout,3,90,-0.2051,32,0.0779,1.07,True
-AMAZON,breakout,5,77,0.1962,30,-0.1061,0.938,True
+AMAZON,breakout,3,90,-0.2051,31,0.1134,1.102,True
+AMAZON,breakout,5,77,0.1962,29,-0.1769,0.9,True
 AMAZON,breakout,10,61,1.0331,21,0.9157,1.467,True
