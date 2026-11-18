@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at_utc": "2026-11-17T17:03:23.499313+00:00",
+  "generated_at_utc": "2026-11-18T07:55:01.267329+00:00",
   "status": "RESEARCH_ONLY",
   "parameters": {
     "gap_abs_pct": 3,
@@ -9,32 +9,24 @@
   },
   "observations": {
     "VIX": {
-      "session_date": "2026-11-16",
+      "session_date": "2026-11-17",
       "events": [
-        {
-          "type": "GAP",
-          "direction": "UP",
-          "magnitude_pct": 3.63,
-          "subtype": "GAP_CONTINUATION_WATCH",
-          "note": "Requires independently verified catalyst and actual bid/ask; never infer earnings from price."
-        },
         {
           "type": "EXTREME_DAILY_RETURN",
           "direction": "UP",
-          "magnitude_pct": 18.7,
+          "magnitude_pct": 11.13,
           "note": "Magnitude alone is not an entry signal."
         }
       ]
     },
-    "GVZ": {
-      "session_date": "2026-11-16",
+    "SOLANA": {
+      "session_date": "2026-11-17",
       "events": [
         {
-          "type": "GAP",
+          "type": "EXTREME_DAILY_RETURN",
           "direction": "UP",
-          "magnitude_pct": 3.12,
-          "subtype": "GAP_CONTINUATION_WATCH",
-          "note": "Requires independently verified catalyst and actual bid/ask; never infer earnings from price."
+          "magnitude_pct": 5.03,
+          "note": "Magnitude alone is not an entry signal."
         }
       ]
     }

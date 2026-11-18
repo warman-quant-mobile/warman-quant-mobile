@@ -695,7 +695,7 @@
       "summary": {
         "all": {
           "n": 15,
-          "mean_r": -0.113,
+          "mean_r": -0.073,
           "median_r": -1.0,
           "mean_geometric_r": 8.678,
           "target_hits": 1,
@@ -715,7 +715,7 @@
         },
         "oos": {
           "n": 6,
-          "mean_r": 1.247,
+          "mean_r": 1.349,
           "median_r": 0.126,
           "mean_geometric_r": 5.141,
           "target_hits": 1,
@@ -760,13 +760,13 @@
         "DESCENDING": {
           "all": {
             "n": 2,
-            "mean_r": 0.37,
-            "median_r": 0.37,
+            "mean_r": 0.675,
+            "median_r": 0.675,
             "mean_geometric_r": 5.027,
             "target_hits": 0,
             "mfe_5r": 0,
             "mfe_10r": 0,
-            "max_mfe_r": 1.934
+            "max_mfe_r": 2.367
           },
           "train": {
             "n": 1,
@@ -780,13 +780,13 @@
           },
           "oos": {
             "n": 1,
-            "mean_r": 1.74,
-            "median_r": 1.74,
+            "mean_r": 2.35,
+            "median_r": 2.35,
             "mean_geometric_r": 3.891,
             "target_hits": 0,
             "mfe_5r": 0,
             "mfe_10r": 0,
-            "max_mfe_r": 1.934
+            "max_mfe_r": 2.367
           }
         },
         "FALLING_WEDGE": {
@@ -2353,7 +2353,7 @@
       "summary": {
         "all": {
           "n": 11,
-          "mean_r": 0.275,
+          "mean_r": 0.067,
           "median_r": -1.0,
           "mean_geometric_r": 31.128,
           "target_hits": 1,
@@ -2373,7 +2373,7 @@
         },
         "oos": {
           "n": 5,
-          "mean_r": -0.085,
+          "mean_r": -0.542,
           "median_r": -1.0,
           "mean_geometric_r": 57.707,
           "target_hits": 0,
@@ -2475,7 +2475,7 @@
         "SYMMETRICAL": {
           "all": {
             "n": 4,
-            "mean_r": -0.876,
+            "mean_r": -1.446,
             "median_r": -1.0,
             "mean_geometric_r": 70.301,
             "target_hits": 0,
@@ -2495,8 +2495,8 @@
           },
           "oos": {
             "n": 2,
-            "mean_r": 0.141,
-            "median_r": 0.141,
+            "mean_r": -1.0,
+            "median_r": -1.0,
             "mean_geometric_r": 11.101,
             "target_hits": 0,
             "mfe_5r": 1,
@@ -5248,8 +5248,8 @@
       "type": "DESCENDING",
       "side": "SHORT",
       "geometric_r": 3.891,
-      "realized_r": 1.74,
-      "mfe_r": 1.934,
+      "realized_r": 2.35,
+      "mfe_r": 2.367,
       "outcome": "TIMEOUT",
       "compression": 0.127,
       "r2_high": 0.942,
@@ -8377,9 +8377,9 @@
       "type": "SYMMETRICAL",
       "side": "LONG",
       "geometric_r": 7.065,
-      "realized_r": 1.283,
+      "realized_r": -1.0,
       "mfe_r": 5.872,
-      "outcome": "TIMEOUT",
+      "outcome": "STOP",
       "compression": 0.204,
       "r2_high": 0.98,
       "r2_low": 0.994,
@@ -10290,8 +10290,8 @@
     "schema_version": 1,
     "engine": "pattern_geometry_v2",
     "dataset": {
-      "manifest_sha256": "6ca356b8eb416c493004388793af4b72d9612f6d8bbfd648415716d5a4985fe6",
-      "manifest_bytes": 27631
+      "manifest_sha256": "ae4f9259382db02f1bb325406e38d396496eb767032bbd3ce6258342b844aaca",
+      "manifest_bytes": 27599
     },
     "model_version": "rules-v2-frozen-2026-09-30",
     "reproducibility": {
