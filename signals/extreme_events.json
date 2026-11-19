@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at_utc": "2026-11-18T16:42:41.585596+00:00",
+  "generated_at_utc": "2026-11-19T07:53:34.668394+00:00",
   "status": "RESEARCH_ONLY",
   "parameters": {
     "gap_abs_pct": 3,
@@ -8,24 +8,37 @@
     "daily_range_atr": 2.5
   },
   "observations": {
-    "VIX": {
-      "session_date": "2026-11-17",
+    "SILVER_FUT": {
+      "session_date": "2026-11-18",
       "events": [
         {
-          "type": "EXTREME_DAILY_RETURN",
-          "direction": "UP",
-          "magnitude_pct": 11.13,
-          "note": "Magnitude alone is not an entry signal."
+          "type": "GAP",
+          "direction": "DOWN",
+          "magnitude_pct": -3.11,
+          "subtype": "GAP_CONTINUATION_WATCH",
+          "note": "Requires independently verified catalyst and actual bid/ask; never infer earnings from price."
         }
       ]
     },
-    "SOLANA": {
-      "session_date": "2026-11-17",
+    "VIX": {
+      "session_date": "2026-11-18",
+      "events": [
+        {
+          "type": "GAP",
+          "direction": "DOWN",
+          "magnitude_pct": -4.87,
+          "subtype": "GAP_FADE_WATCH",
+          "note": "Requires independently verified catalyst and actual bid/ask; never infer earnings from price."
+        }
+      ]
+    },
+    "GVZ": {
+      "session_date": "2026-11-18",
       "events": [
         {
           "type": "EXTREME_DAILY_RETURN",
           "direction": "UP",
-          "magnitude_pct": 5.03,
+          "magnitude_pct": 5.97,
           "note": "Magnitude alone is not an entry signal."
         }
       ]

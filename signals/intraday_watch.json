@@ -1,35 +1,35 @@
 {
   "status": "RESEARCH_WATCH_ONLY",
-  "generated_at_utc": "2026-11-18T16:42:42.780258+00:00",
+  "generated_at_utc": "2026-11-19T07:57:31.478924+00:00",
   "observations": [
     {
-      "symbol": "SP500",
-      "bar_start_utc": "2026-11-18T15:30:00+00:00",
+      "symbol": "OMXS30",
+      "bar_start_utc": "2026-11-18T16:00:00+00:00",
       "events": [
         "FAILED_LOW_20H"
       ],
-      "gap_pct": 0.01,
-      "hourly_move_pct": -0.43,
+      "gap_pct": -0.0,
+      "hourly_move_pct": -0.11,
       "status": "INTRADAY_WATCH_NOT_ORDER"
     },
     {
-      "symbol": "SILVER_FUT",
-      "bar_start_utc": "2026-11-18T15:00:00+00:00",
+      "symbol": "INVESTOR_B",
+      "bar_start_utc": "2026-11-18T16:00:00+00:00",
       "events": [
         "FAILED_LOW_20H"
       ],
-      "gap_pct": -0.02,
-      "hourly_move_pct": -0.44,
+      "gap_pct": 0.0,
+      "hourly_move_pct": 0.02,
       "status": "INTRADAY_WATCH_NOT_ORDER"
     },
     {
-      "symbol": "BITCOIN",
-      "bar_start_utc": "2026-11-18T15:00:00+00:00",
+      "symbol": "AMAZON",
+      "bar_start_utc": "2026-11-18T20:30:00+00:00",
       "events": [
-        "FAILED_LOW_20H"
+        "FAILED_HIGH_20H"
       ],
-      "gap_pct": 0.01,
-      "hourly_move_pct": -0.83,
+      "gap_pct": -0.0,
+      "hourly_move_pct": 0.55,
       "status": "INTRADAY_WATCH_NOT_ORDER"
     }
   ],
