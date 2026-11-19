@@ -32,9 +32,9 @@ ATLAS_A,relative_momentum,10,3,0.2686,1,6.915,,False
 ATLAS_A,weekly_close_reversal,3,22,-0.3394,13,0.6486,1.424,False
 ATLAS_A,weekly_close_reversal,5,22,0.7181,13,0.622,1.371,False
 ATLAS_A,weekly_close_reversal,10,20,-0.24,11,-1.1898,0.705,False
-ATLAS_A,breakout,3,77,-0.0344,30,-0.1822,0.795,True
-ATLAS_A,breakout,5,68,-0.3704,26,0.2325,1.269,True
-ATLAS_A,breakout,10,52,0.1902,21,0.5358,1.428,True
+ATLAS_A,breakout,3,77,-0.0344,29,-0.2723,0.703,True
+ATLAS_A,breakout,5,68,-0.3704,25,0.1176,1.131,True
+ATLAS_A,breakout,10,52,0.1902,20,0.4362,1.332,True
 ABB,relative_reversal,3,1,0.0472,5,-0.9818,0.607,False
 ABB,relative_reversal,5,1,-0.4119,5,-1.2856,0.525,False
 ABB,relative_reversal,10,1,4.8141,4,-2.0935,0.093,False
@@ -53,7 +53,7 @@ NVIDIA,relative_reversal,10,16,0.6689,6,4.8283,9.63,False
 NVIDIA,relative_momentum,3,17,1.2823,3,5.1412,,False
 NVIDIA,relative_momentum,5,16,3.5876,3,6.5195,,False
 NVIDIA,relative_momentum,10,15,3.0461,3,13.2081,,False
-NVIDIA,weekly_close_reversal,3,55,0.4866,22,1.5951,2.136,True
+NVIDIA,weekly_close_reversal,3,55,0.4866,23,1.2427,1.764,True
 NVIDIA,weekly_close_reversal,5,51,0.959,20,2.6511,2.264,True
 NVIDIA,weekly_close_reversal,10,38,1.165,17,6.1205,8.764,True
 NVIDIA,breakout,3,86,0.1823,38,0.5067,1.34,True
@@ -69,7 +69,7 @@ MICROSOFT,weekly_close_reversal,3,2,-0.0828,14,-0.8344,0.579,False
 MICROSOFT,weekly_close_reversal,5,2,1.3055,12,-1.436,0.38,False
 MICROSOFT,weekly_close_reversal,10,2,-0.5237,12,-0.0707,0.968,False
 MICROSOFT,breakout,3,100,-0.0906,36,-0.1403,0.853,True
-MICROSOFT,breakout,5,81,0.0402,29,-0.4006,0.761,True
+MICROSOFT,breakout,5,81,0.0402,28,-0.4724,0.728,True
 MICROSOFT,breakout,10,62,0.724,21,0.167,1.092,True
 APPLE,relative_reversal,3,4,0.3434,6,2.3809,28.399,False
 APPLE,relative_reversal,5,4,-1.0145,6,5.1813,29.566,False
