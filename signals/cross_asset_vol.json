@@ -6,17 +6,6 @@
       "underlying": "WTI_FUT",
       "observations": [
         {
-          "date": "2026-03-13",
-          "vol": 119.02,
-          "asset": 98.71,
-          "tags": [
-            "VOL_TOP_5PCT",
-            "VOL_1_5X_MA20",
-            "ASSET_5D_MOVE_8PCT",
-            "ASSET_20D_MOVE_15PCT"
-          ]
-        },
-        {
           "date": "2026-03-16",
           "vol": 101.97,
           "asset": 93.5,
@@ -852,6 +841,14 @@
           "tags": [
             "ASSET_20D_MOVE_15PCT"
           ]
+        },
+        {
+          "date": "2026-11-20",
+          "vol": 52.05,
+          "asset": 82.0,
+          "tags": [
+            "ASSET_20D_MOVE_15PCT"
+          ]
         }
       ]
     },
@@ -859,14 +856,6 @@
       "status": "RESEARCH_ONLY",
       "underlying": "GOLD_FUT",
       "observations": [
-        {
-          "date": "2022-03-10",
-          "vol": 26.08,
-          "asset": 2000.4,
-          "tags": [
-            "VOL_TOP_5PCT"
-          ]
-        },
         {
           "date": "2022-03-11",
           "vol": 24.73,
@@ -1680,6 +1669,14 @@
           "asset": 4653.3,
           "tags": [
             "ASSET_20D_MOVE_15PCT"
+          ]
+        },
+        {
+          "date": "2026-11-20",
+          "vol": 33.34,
+          "asset": 3551.2,
+          "tags": [
+            "ASSET_5D_MOVE_8PCT"
           ]
         }
       ]
