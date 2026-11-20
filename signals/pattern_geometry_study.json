@@ -695,10 +695,10 @@
       "summary": {
         "all": {
           "n": 15,
-          "mean_r": -0.061,
+          "mean_r": 0.03,
           "median_r": -1.0,
           "mean_geometric_r": 8.678,
-          "target_hits": 1,
+          "target_hits": 2,
           "mfe_5r": 2,
           "mfe_10r": 1,
           "max_mfe_r": 10.05
@@ -715,10 +715,10 @@
         },
         "oos": {
           "n": 6,
-          "mean_r": 1.377,
+          "mean_r": 1.605,
           "median_r": 0.126,
           "mean_geometric_r": 5.141,
-          "target_hits": 1,
+          "target_hits": 2,
           "mfe_5r": 2,
           "mfe_10r": 1,
           "max_mfe_r": 10.05
@@ -760,13 +760,13 @@
         "DESCENDING": {
           "all": {
             "n": 2,
-            "mean_r": 0.761,
-            "median_r": 0.761,
+            "mean_r": 1.446,
+            "median_r": 1.446,
             "mean_geometric_r": 5.027,
-            "target_hits": 0,
+            "target_hits": 1,
             "mfe_5r": 0,
             "mfe_10r": 0,
-            "max_mfe_r": 2.649
+            "max_mfe_r": 3.953
           },
           "train": {
             "n": 1,
@@ -780,13 +780,13 @@
           },
           "oos": {
             "n": 1,
-            "mean_r": 2.522,
-            "median_r": 2.522,
+            "mean_r": 3.891,
+            "median_r": 3.891,
             "mean_geometric_r": 3.891,
-            "target_hits": 0,
+            "target_hits": 1,
             "mfe_5r": 0,
             "mfe_10r": 0,
-            "max_mfe_r": 2.649
+            "max_mfe_r": 3.953
           }
         },
         "FALLING_WEDGE": {
@@ -5248,9 +5248,9 @@
       "type": "DESCENDING",
       "side": "SHORT",
       "geometric_r": 3.891,
-      "realized_r": 2.522,
-      "mfe_r": 2.649,
-      "outcome": "TIMEOUT",
+      "realized_r": 3.891,
+      "mfe_r": 3.953,
+      "outcome": "MEASURED_TARGET",
       "compression": 0.127,
       "r2_high": 0.942,
       "r2_low": 0.949,
@@ -10290,8 +10290,8 @@
     "schema_version": 1,
     "engine": "pattern_geometry_v2",
     "dataset": {
-      "manifest_sha256": "1ef0071381d8c48b87415318a9823feac4fc1346b367d39139cfd49c1c1d2e6c",
-      "manifest_bytes": 27707
+      "manifest_sha256": "9c2c3f4ed2bdccbfd19f5ed689a6cf1cf740b117a38165796568929b003f2bc8",
+      "manifest_bytes": 27657
     },
     "model_version": "rules-v2-frozen-2026-09-30",
     "reproducibility": {

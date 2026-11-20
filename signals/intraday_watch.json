@@ -1,65 +1,25 @@
 {
   "status": "RESEARCH_WATCH_ONLY",
-  "generated_at_utc": "2026-11-19T16:46:37.876840+00:00",
+  "generated_at_utc": "2026-11-20T07:49:08.538671+00:00",
   "observations": [
     {
-      "symbol": "SP500",
-      "bar_start_utc": "2026-11-19T15:30:00+00:00",
+      "symbol": "US10Y_NOTE_FUT",
+      "bar_start_utc": "2026-11-20T06:00:00+00:00",
       "events": [
-        "FAILED_LOW_20H"
-      ],
-      "gap_pct": -0.01,
-      "hourly_move_pct": -0.19,
-      "status": "INTRADAY_WATCH_NOT_ORDER"
-    },
-    {
-      "symbol": "SILVER_FUT",
-      "bar_start_utc": "2026-11-19T15:00:00+00:00",
-      "events": [
-        "FAILED_LOW_20H"
-      ],
-      "gap_pct": -0.01,
-      "hourly_move_pct": -1.84,
-      "status": "INTRADAY_WATCH_NOT_ORDER"
-    },
-    {
-      "symbol": "US30Y_YIELD",
-      "bar_start_utc": "2026-11-19T15:20:00+00:00",
-      "events": [
-        "FAILED_LOW_20H"
+        "FAILED_HIGH_20H"
       ],
       "gap_pct": 0.0,
-      "hourly_move_pct": -0.18,
+      "hourly_move_pct": 0.0,
       "status": "INTRADAY_WATCH_NOT_ORDER"
     },
     {
       "symbol": "VIX",
-      "bar_start_utc": "2026-11-19T15:00:00+00:00",
+      "bar_start_utc": "2026-11-19T21:00:00+00:00",
       "events": [
         "FAILED_HIGH_20H"
       ],
-      "gap_pct": 0.13,
-      "hourly_move_pct": 10.63,
-      "status": "INTRADAY_WATCH_NOT_ORDER"
-    },
-    {
-      "symbol": "GVZ",
-      "bar_start_utc": "2026-11-19T15:30:00+00:00",
-      "events": [
-        "FAILED_HIGH_20H"
-      ],
-      "gap_pct": 0.0,
-      "hourly_move_pct": -0.52,
-      "status": "INTRADAY_WATCH_NOT_ORDER"
-    },
-    {
-      "symbol": "APPLE",
-      "bar_start_utc": "2026-11-19T15:30:00+00:00",
-      "events": [
-        "FAILED_LOW_20H"
-      ],
-      "gap_pct": 0.0,
-      "hourly_move_pct": 0.36,
+      "gap_pct": 0.35,
+      "hourly_move_pct": -0.32,
       "status": "INTRADAY_WATCH_NOT_ORDER"
     }
   ],
