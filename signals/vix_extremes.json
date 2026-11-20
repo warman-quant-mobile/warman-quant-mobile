@@ -800,10 +800,11 @@
     },
     {
       "date": "2026-11-20",
-      "vix": 30.98,
-      "spx": 7081.67,
+      "vix": 35.89,
+      "spx": 6910.39,
       "tags": [
         "VIX_TOP_5PCT",
+        "VIX_1_5X_MA20",
         "SPX_DRAWDOWN_8PCT_20D",
         "SPX_RSI2_LE_10"
       ]

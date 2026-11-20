@@ -1,95 +1,85 @@
 {
   "status": "RESEARCH_WATCH_ONLY",
-  "generated_at_utc": "2026-11-20T16:21:41.849113+00:00",
+  "generated_at_utc": "2026-11-20T22:48:33.970199+00:00",
   "observations": [
     {
       "symbol": "OMXS30",
-      "bar_start_utc": "2026-11-20T15:00:00+00:00",
+      "bar_start_utc": "2026-11-20T16:00:00+00:00",
       "events": [
         "FAILED_LOW_20H"
       ],
-      "gap_pct": -0.04,
-      "hourly_move_pct": -0.78,
+      "gap_pct": 0.02,
+      "hourly_move_pct": 0.07,
       "status": "INTRADAY_WATCH_NOT_ORDER"
     },
     {
-      "symbol": "US10Y_NOTE_FUT",
-      "bar_start_utc": "2026-11-20T15:00:00+00:00",
+      "symbol": "DAX",
+      "bar_start_utc": "2026-11-20T16:00:00+00:00",
       "events": [
-        "HOURLY_SHOCK_2_5ATR"
+        "FAILED_LOW_20H"
       ],
-      "gap_pct": 0.03,
-      "hourly_move_pct": 0.31,
+      "gap_pct": 0.01,
+      "hourly_move_pct": -0.14,
       "status": "INTRADAY_WATCH_NOT_ORDER"
     },
     {
-      "symbol": "OVX",
-      "bar_start_utc": "2026-11-20T15:30:00+00:00",
+      "symbol": "USDSEK",
+      "bar_start_utc": "2026-11-20T21:00:00+00:00",
       "events": [
         "FAILED_HIGH_20H"
       ],
-      "gap_pct": 0.08,
-      "hourly_move_pct": 0.13,
+      "gap_pct": -0.01,
+      "hourly_move_pct": -0.24,
       "status": "INTRADAY_WATCH_NOT_ORDER"
     },
     {
-      "symbol": "INVESTOR_B",
-      "bar_start_utc": "2026-11-20T15:00:00+00:00",
+      "symbol": "MICROSOFT",
+      "bar_start_utc": "2026-11-20T20:30:00+00:00",
       "events": [
         "FAILED_LOW_20H"
       ],
-      "gap_pct": 0.0,
-      "hourly_move_pct": -0.95,
+      "gap_pct": -0.0,
+      "hourly_move_pct": 0.24,
       "status": "INTRADAY_WATCH_NOT_ORDER"
     },
     {
-      "symbol": "ABB",
-      "bar_start_utc": "2026-11-20T15:00:00+00:00",
-      "events": [
-        "FAILED_LOW_20H"
-      ],
-      "gap_pct": 0.07,
-      "hourly_move_pct": -0.92,
-      "status": "INTRADAY_WATCH_NOT_ORDER"
-    },
-    {
-      "symbol": "META",
-      "bar_start_utc": "2026-11-20T15:30:00+00:00",
+      "symbol": "TESLA",
+      "bar_start_utc": "2026-11-20T20:30:00+00:00",
       "events": [
         "FAILED_LOW_20H"
       ],
       "gap_pct": -0.03,
-      "hourly_move_pct": -0.35,
+      "hourly_move_pct": 0.07,
       "status": "INTRADAY_WATCH_NOT_ORDER"
     },
     {
-      "symbol": "BITCOIN",
-      "bar_start_utc": "2026-11-20T15:00:00+00:00",
+      "symbol": "AMAZON",
+      "bar_start_utc": "2026-11-20T20:30:00+00:00",
       "events": [
-        "HOURLY_SHOCK_2_5ATR"
+        "FAILED_LOW_20H"
       ],
-      "gap_pct": 0.14,
-      "hourly_move_pct": -3.75,
+      "gap_pct": -0.01,
+      "hourly_move_pct": -0.1,
       "status": "INTRADAY_WATCH_NOT_ORDER"
     },
     {
-      "symbol": "ETHEREUM",
-      "bar_start_utc": "2026-11-20T15:00:00+00:00",
+      "symbol": "META",
+      "bar_start_utc": "2026-11-20T20:30:00+00:00",
       "events": [
-        "HOURLY_SHOCK_2_5ATR"
+        "FAILED_LOW_20H"
       ],
-      "gap_pct": 0.13,
-      "hourly_move_pct": -5.1,
+      "gap_pct": -0.0,
+      "hourly_move_pct": 0.11,
       "status": "INTRADAY_WATCH_NOT_ORDER"
     },
     {
       "symbol": "SOLANA",
-      "bar_start_utc": "2026-11-20T15:00:00+00:00",
+      "bar_start_utc": "2026-11-20T21:00:00+00:00",
       "events": [
-        "HOURLY_SHOCK_2_5ATR"
+        "FAILED_LOW_20H"
       ],
-      "gap_pct": 0.18,
-      "hourly_move_pct": -3.78,
+      "gap_pct": -0.18,
+      "hourly_move_pct": 2.27,
       "status": "INTRADAY_WATCH_NOT_ORDER"
     }
   ],
