@@ -27,173 +27,173 @@
     "stop_atr": 1.5,
     "horizon": 120
   },
-  "final_test_start": "2024-09-17",
+  "final_test_start": "2024-09-18",
   "robustness": {
     "20": {
       "trail20": {
-        "n": 3205,
-        "pooled_mean_r": 0.168,
+        "n": 3209,
+        "pooled_mean_r": 0.167,
         "seed_mean_r": [
-          0.172,
-          0.186,
+          0.195,
+          0.129,
           0.383,
-          0.206,
-          0.167,
+          0.21,
+          0.22,
           0.312,
-          -0.02,
-          -0.025,
-          0.13,
-          0.168
+          -0.023,
+          -0.05,
+          0.127,
+          0.164
         ],
         "positive_seeds": 8,
-        "min_seed": -0.025,
+        "min_seed": -0.05,
         "max_seed": 0.383
       },
       "be2_trail20": {
-        "n": 3205,
-        "pooled_mean_r": 0.148,
+        "n": 3209,
+        "pooled_mean_r": 0.157,
         "seed_mean_r": [
-          0.032,
-          0.21,
+          0.149,
+          0.16,
           0.239,
-          0.177,
-          0.166,
+          0.181,
+          0.218,
           0.332,
-          0.015,
-          -0.031,
-          0.152,
-          0.19
+          0.012,
+          -0.051,
+          0.148,
+          0.186
         ],
         "positive_seeds": 9,
-        "min_seed": -0.031,
+        "min_seed": -0.051,
         "max_seed": 0.332
       }
     },
     "50": {
       "trail20": {
-        "n": 3205,
+        "n": 3209,
         "pooled_mean_r": 0.072,
         "seed_mean_r": [
-          0.068,
-          0.087,
+          0.098,
+          0.038,
           0.269,
-          0.108,
-          0.066,
+          0.111,
+          0.114,
           0.213,
-          -0.097,
-          -0.102,
-          0.041,
-          0.071
+          -0.1,
+          -0.126,
+          0.038,
+          0.067
         ],
         "positive_seeds": 8,
-        "min_seed": -0.102,
+        "min_seed": -0.126,
         "max_seed": 0.269
       },
       "be2_trail20": {
-        "n": 3205,
-        "pooled_mean_r": 0.045,
+        "n": 3209,
+        "pooled_mean_r": 0.054,
         "seed_mean_r": [
-          -0.066,
-          0.095,
+          0.048,
+          0.051,
           0.145,
-          0.079,
-          0.062,
+          0.082,
+          0.11,
           0.221,
-          -0.086,
-          -0.116,
-          0.042,
-          0.076
+          -0.089,
+          -0.137,
+          0.039,
+          0.073
         ],
-        "positive_seeds": 7,
-        "min_seed": -0.116,
+        "positive_seeds": 8,
+        "min_seed": -0.137,
         "max_seed": 0.221
       }
     },
     "100": {
       "trail20": {
-        "n": 3205,
-        "pooled_mean_r": -0.053,
+        "n": 3209,
+        "pooled_mean_r": -0.052,
         "seed_mean_r": [
-          -0.067,
-          -0.042,
+          -0.03,
+          -0.082,
           0.118,
-          -0.02,
-          -0.066,
+          -0.017,
+          -0.024,
           0.081,
-          -0.2,
-          -0.204,
-          -0.078,
-          -0.057
+          -0.202,
+          -0.226,
+          -0.081,
+          -0.06
         ],
         "positive_seeds": 2,
-        "min_seed": -0.204,
+        "min_seed": -0.226,
         "max_seed": 0.118
       },
       "be2_trail20": {
-        "n": 3205,
-        "pooled_mean_r": -0.083,
+        "n": 3209,
+        "pooled_mean_r": -0.074,
         "seed_mean_r": [
-          -0.182,
-          -0.047,
-          0.012,
-          -0.047,
-          -0.078,
-          0.076,
-          -0.196,
-          -0.227,
+          -0.073,
           -0.085,
-          -0.053
+          0.012,
+          -0.044,
+          -0.035,
+          0.076,
+          -0.198,
+          -0.249,
+          -0.088,
+          -0.056
         ],
         "positive_seeds": 2,
-        "min_seed": -0.227,
+        "min_seed": -0.249,
         "max_seed": 0.076
       }
     }
   },
   "side_attribution_20bps": {
     "trail20": {
-      "LONG": 0.729,
-      "SHORT": -0.412
+      "LONG": 0.719,
+      "SHORT": -0.404
     },
     "be2_trail20": {
-      "LONG": 0.688,
-      "SHORT": -0.41
+      "LONG": 0.698,
+      "SHORT": -0.402
     }
   },
   "symbol_attribution_20bps": {
     "trail20": {
-      "SP500": 0.022,
-      "GOLD_FUT": 0.7,
-      "SILVER_FUT": 2.735,
-      "WTI_FUT": 0.217,
+      "SP500": 0.017,
+      "GOLD_FUT": 0.64,
+      "SILVER_FUT": 2.793,
+      "WTI_FUT": 0.127,
       "BRENT_FUT": 0.101,
-      "INVESTOR_B": -0.389,
+      "INVESTOR_B": -0.362,
       "VOLVO_B": 0.244,
-      "ATLAS_A": -0.301,
-      "ABB": -0.037,
-      "NVIDIA": -0.179,
-      "MICROSOFT": 0.025,
-      "APPLE": -0.26,
+      "ATLAS_A": -0.304,
+      "ABB": 0.036,
+      "NVIDIA": -0.183,
+      "MICROSOFT": 0.047,
+      "APPLE": -0.267,
       "TESLA": 0.268,
       "AMAZON": -0.214,
-      "META": -0.434
+      "META": -0.437
     },
     "be2_trail20": {
-      "SP500": 0.067,
-      "GOLD_FUT": 0.583,
-      "SILVER_FUT": 2.33,
-      "WTI_FUT": 0.241,
+      "SP500": 0.062,
+      "GOLD_FUT": 0.527,
+      "SILVER_FUT": 2.527,
+      "WTI_FUT": 0.16,
       "BRENT_FUT": 0.114,
-      "INVESTOR_B": -0.361,
+      "INVESTOR_B": -0.333,
       "VOLVO_B": 0.241,
-      "ATLAS_A": -0.284,
-      "ABB": -0.018,
-      "NVIDIA": -0.143,
-      "MICROSOFT": -0.007,
-      "APPLE": -0.218,
+      "ATLAS_A": -0.287,
+      "ABB": 0.056,
+      "NVIDIA": -0.147,
+      "MICROSOFT": 0.016,
+      "APPLE": -0.226,
       "TESLA": 0.257,
       "AMAZON": -0.211,
-      "META": -0.385
+      "META": -0.388
     }
   },
   "note": "Falsification pass only. Parameters frozen before inspection. No execution or candidate promotion.",
@@ -201,8 +201,8 @@
     "schema_version": 1,
     "engine": "random_entry_exit_robustness",
     "dataset": {
-      "manifest_sha256": "9c2c3f4ed2bdccbfd19f5ed689a6cf1cf740b117a38165796568929b003f2bc8",
-      "manifest_bytes": 27657
+      "manifest_sha256": "ba5a546fef1b9bc626706920e0dc2bb52ef5cd203be689ae075dcff1e01e2a0e",
+      "manifest_bytes": 27685
     },
     "model_version": "robustness-v1-frozen-2026-09-30",
     "reproducibility": {

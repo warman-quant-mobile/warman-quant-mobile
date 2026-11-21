@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at_utc": "2026-11-20T22:48:32.184569+00:00",
+  "generated_at_utc": "2026-11-21T07:40:32.478362+00:00",
   "status": "RESEARCH_ONLY",
   "parameters": {
     "gap_abs_pct": 3,
@@ -8,20 +8,154 @@
     "daily_range_atr": 2.5
   },
   "observations": {
-    "VIX": {
-      "session_date": "2026-11-19",
+    "SP500": {
+      "session_date": "2026-11-20",
+      "events": [
+        {
+          "type": "EXTREME_RANGE",
+          "range_atr": 2.56,
+          "close_location": 0.088,
+          "note": "Possible exhaustion or acceleration; requires follow-through confirmation."
+        }
+      ]
+    },
+    "NASDAQ100": {
+      "session_date": "2026-11-20",
+      "events": [
+        {
+          "type": "EXTREME_DAILY_RETURN",
+          "direction": "DOWN",
+          "magnitude_pct": -5.61,
+          "note": "Magnitude alone is not an entry signal."
+        }
+      ]
+    },
+    "SILVER_FUT": {
+      "session_date": "2026-11-20",
       "events": [
         {
           "type": "GAP",
           "direction": "DOWN",
-          "magnitude_pct": -10.18,
-          "subtype": "GAP_FADE_WATCH",
+          "magnitude_pct": -4.72,
+          "subtype": "GAP_CONTINUATION_WATCH",
+          "note": "Requires independently verified catalyst and actual bid/ask; never infer earnings from price."
+        },
+        {
+          "type": "EXTREME_DAILY_RETURN",
+          "direction": "DOWN",
+          "magnitude_pct": -7.41,
+          "note": "Magnitude alone is not an entry signal."
+        }
+      ]
+    },
+    "VIX": {
+      "session_date": "2026-11-20",
+      "events": [
+        {
+          "type": "EXTREME_DAILY_RETURN",
+          "direction": "UP",
+          "magnitude_pct": 26.2,
+          "note": "Magnitude alone is not an entry signal."
+        },
+        {
+          "type": "EXTREME_RANGE",
+          "range_atr": 3.41,
+          "close_location": 0.684,
+          "note": "Possible exhaustion or acceleration; requires follow-through confirmation."
+        }
+      ]
+    },
+    "OVX": {
+      "session_date": "2026-11-20",
+      "events": [
+        {
+          "type": "EXTREME_DAILY_RETURN",
+          "direction": "UP",
+          "magnitude_pct": 6.81,
+          "note": "Magnitude alone is not an entry signal."
+        }
+      ]
+    },
+    "GVZ": {
+      "session_date": "2026-11-20",
+      "events": [
+        {
+          "type": "GAP",
+          "direction": "UP",
+          "magnitude_pct": 12.58,
+          "subtype": "GAP_CONTINUATION_WATCH",
           "note": "Requires independently verified catalyst and actual bid/ask; never infer earnings from price."
         },
         {
           "type": "EXTREME_DAILY_RETURN",
           "direction": "UP",
-          "magnitude_pct": 15.8,
+          "magnitude_pct": 21.25,
+          "note": "Magnitude alone is not an entry signal."
+        }
+      ]
+    },
+    "NVIDIA": {
+      "session_date": "2026-11-20",
+      "events": [
+        {
+          "type": "EXTREME_DAILY_RETURN",
+          "direction": "DOWN",
+          "magnitude_pct": -14.01,
+          "note": "Magnitude alone is not an entry signal."
+        }
+      ]
+    },
+    "TESLA": {
+      "session_date": "2026-11-20",
+      "events": [
+        {
+          "type": "EXTREME_DAILY_RETURN",
+          "direction": "DOWN",
+          "magnitude_pct": -7.64,
+          "note": "Magnitude alone is not an entry signal."
+        }
+      ]
+    },
+    "META": {
+      "session_date": "2026-11-20",
+      "events": [
+        {
+          "type": "EXTREME_DAILY_RETURN",
+          "direction": "DOWN",
+          "magnitude_pct": -5.93,
+          "note": "Magnitude alone is not an entry signal."
+        }
+      ]
+    },
+    "BITCOIN": {
+      "session_date": "2026-11-20",
+      "events": [
+        {
+          "type": "EXTREME_DAILY_RETURN",
+          "direction": "DOWN",
+          "magnitude_pct": -5.01,
+          "note": "Magnitude alone is not an entry signal."
+        }
+      ]
+    },
+    "ETHEREUM": {
+      "session_date": "2026-11-20",
+      "events": [
+        {
+          "type": "EXTREME_DAILY_RETURN",
+          "direction": "DOWN",
+          "magnitude_pct": -7.73,
+          "note": "Magnitude alone is not an entry signal."
+        }
+      ]
+    },
+    "SOLANA": {
+      "session_date": "2026-11-20",
+      "events": [
+        {
+          "type": "EXTREME_DAILY_RETURN",
+          "direction": "DOWN",
+          "magnitude_pct": -5.91,
           "note": "Magnitude alone is not an entry signal."
         }
       ]

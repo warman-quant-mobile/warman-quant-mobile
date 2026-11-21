@@ -845,7 +845,7 @@
         {
           "date": "2026-11-20",
           "vol": 54.12,
-          "asset": 83.62,
+          "asset": 83.98,
           "tags": [
             "ASSET_20D_MOVE_15PCT"
           ]
@@ -1674,7 +1674,7 @@
         {
           "date": "2026-11-20",
           "vol": 34.8,
-          "asset": 3539.0,
+          "asset": 3515.4,
           "tags": [
             "ASSET_5D_MOVE_8PCT"
           ]

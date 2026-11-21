@@ -1,6 +1,6 @@
 {
   "status": "RESEARCH_WATCH_ONLY",
-  "generated_at_utc": "2026-11-20T22:48:33.970199+00:00",
+  "generated_at_utc": "2026-11-21T07:45:46.569749+00:00",
   "observations": [
     {
       "symbol": "OMXS30",
@@ -23,22 +23,12 @@
       "status": "INTRADAY_WATCH_NOT_ORDER"
     },
     {
-      "symbol": "USDSEK",
-      "bar_start_utc": "2026-11-20T21:00:00+00:00",
-      "events": [
-        "FAILED_HIGH_20H"
-      ],
-      "gap_pct": -0.01,
-      "hourly_move_pct": -0.24,
-      "status": "INTRADAY_WATCH_NOT_ORDER"
-    },
-    {
       "symbol": "MICROSOFT",
       "bar_start_utc": "2026-11-20T20:30:00+00:00",
       "events": [
         "FAILED_LOW_20H"
       ],
-      "gap_pct": -0.0,
+      "gap_pct": 0.0,
       "hourly_move_pct": 0.24,
       "status": "INTRADAY_WATCH_NOT_ORDER"
     },
@@ -49,7 +39,7 @@
         "FAILED_LOW_20H"
       ],
       "gap_pct": -0.03,
-      "hourly_move_pct": 0.07,
+      "hourly_move_pct": 0.08,
       "status": "INTRADAY_WATCH_NOT_ORDER"
     },
     {
@@ -73,13 +63,34 @@
       "status": "INTRADAY_WATCH_NOT_ORDER"
     },
     {
+      "symbol": "BITCOIN",
+      "bar_start_utc": "2026-11-21T06:00:00+00:00",
+      "events": [
+        "HOURLY_SHOCK_2_5ATR",
+        "FAILED_LOW_20H"
+      ],
+      "gap_pct": 0.04,
+      "hourly_move_pct": 4.08,
+      "status": "INTRADAY_WATCH_NOT_ORDER"
+    },
+    {
+      "symbol": "ETHEREUM",
+      "bar_start_utc": "2026-11-21T06:00:00+00:00",
+      "events": [
+        "HOURLY_SHOCK_2_5ATR"
+      ],
+      "gap_pct": 0.02,
+      "hourly_move_pct": 5.02,
+      "status": "INTRADAY_WATCH_NOT_ORDER"
+    },
+    {
       "symbol": "SOLANA",
-      "bar_start_utc": "2026-11-20T21:00:00+00:00",
+      "bar_start_utc": "2026-11-21T06:00:00+00:00",
       "events": [
         "FAILED_LOW_20H"
       ],
-      "gap_pct": -0.18,
-      "hourly_move_pct": 2.27,
+      "gap_pct": 0.06,
+      "hourly_move_pct": 4.3,
       "status": "INTRADAY_WATCH_NOT_ORDER"
     }
   ],

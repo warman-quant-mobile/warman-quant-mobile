@@ -766,7 +766,7 @@
             "target_hits": 1,
             "mfe_5r": 0,
             "mfe_10r": 0,
-            "max_mfe_r": 3.953
+            "max_mfe_r": 4.029
           },
           "train": {
             "n": 1,
@@ -786,7 +786,7 @@
             "target_hits": 1,
             "mfe_5r": 0,
             "mfe_10r": 0,
-            "max_mfe_r": 3.953
+            "max_mfe_r": 4.029
           }
         },
         "FALLING_WEDGE": {
@@ -5249,7 +5249,7 @@
       "side": "SHORT",
       "geometric_r": 3.891,
       "realized_r": 3.891,
-      "mfe_r": 3.953,
+      "mfe_r": 4.029,
       "outcome": "MEASURED_TARGET",
       "compression": 0.127,
       "r2_high": 0.942,
@@ -10290,8 +10290,8 @@
     "schema_version": 1,
     "engine": "pattern_geometry_v2",
     "dataset": {
-      "manifest_sha256": "9c2c3f4ed2bdccbfd19f5ed689a6cf1cf740b117a38165796568929b003f2bc8",
-      "manifest_bytes": 27657
+      "manifest_sha256": "ba5a546fef1b9bc626706920e0dc2bb52ef5cd203be689ae075dcff1e01e2a0e",
+      "manifest_bytes": 27685
     },
     "model_version": "rules-v2-frozen-2026-09-30",
     "reproducibility": {
