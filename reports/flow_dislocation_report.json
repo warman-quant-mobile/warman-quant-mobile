@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-21T00:48:32.178348+00:00",
+  "generated_at": "2026-11-23T07:31:33.651570+00:00",
   "research_only": true,
   "validated_edge": false,
   "roundtrip_cost_bps": 20,
@@ -746,10 +746,10 @@
         "win_rate": 1.0
       },
       "holdout": {
-        "n": 4,
-        "mean_net_pct": -2.0935,
-        "profit_factor": 0.093,
-        "win_rate": 0.25
+        "n": 5,
+        "mean_net_pct": -1.7596,
+        "profit_factor": 0.088,
+        "win_rate": 0.2
       },
       "sufficient_sample": false
     },
@@ -860,10 +860,10 @@
         "win_rate": 0.75
       },
       "holdout": {
-        "n": 6,
-        "mean_net_pct": -1.8396,
-        "profit_factor": 0.481,
-        "win_rate": 0.333
+        "n": 7,
+        "mean_net_pct": -1.6374,
+        "profit_factor": 0.472,
+        "win_rate": 0.286
       },
       "sufficient_sample": false
     },
@@ -937,7 +937,7 @@
       },
       "holdout": {
         "n": 8,
-        "mean_net_pct": -3.2487,
+        "mean_net_pct": -3.2527,
         "profit_factor": 0.175,
         "win_rate": 0.375
       },
@@ -1089,8 +1089,8 @@
       },
       "holdout": {
         "n": 18,
-        "mean_net_pct": 4.3876,
-        "profit_factor": 3.053,
+        "mean_net_pct": 4.3862,
+        "profit_factor": 3.051,
         "win_rate": 0.667
       },
       "sufficient_sample": true

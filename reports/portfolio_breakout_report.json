@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-21T00:48:32.322274+00:00",
+  "generated_at": "2026-11-23T07:31:33.828115+00:00",
   "research_only": true,
   "validated_edge": false,
   "capital": 100000,
@@ -10,7 +10,7 @@
     "ABB",
     "OMXS30"
   ],
-  "split_date": "2023-11-15",
+  "split_date": "2023-11-16",
   "rules": "Prior-close 20-day breakout; next-open entry; one long position; strongest breakout; 2/3 ATR trailing stop after close; full cash allocation; gap-aware stops; 20bp total costs",
   "limitations": "Survivorship, no ETP financing, no intraday stop execution proof, selection bias; benchmark excludes dividends; stop parameter comparison is exploratory",
   "results": {
@@ -22,16 +22,16 @@
         "win_rate": 0.379
       },
       "holdout": {
-        "n": 27,
-        "profit_factor": 1.503,
-        "mean_net_pct": 0.905,
-        "win_rate": 0.333
+        "n": 26,
+        "profit_factor": 1.369,
+        "mean_net_pct": 0.69,
+        "win_rate": 0.308
       },
-      "holdout_portfolio_return": 0.186,
+      "holdout_portfolio_return": 0.192,
       "holdout_max_drawdown": 0.2087,
       "holdout_benchmarks_price_only": {
-        "INVESTOR_B": 0.9884,
-        "OMXS30": 0.4851
+        "INVESTOR_B": 0.9459,
+        "OMXS30": 0.4621
       },
       "trades": [
         {
@@ -13535,6 +13535,11 @@
           "date": "2026-11-19",
           "equity": 94861.92,
           "drawdown": 0.208735
+        },
+        {
+          "date": "2026-11-20",
+          "equity": 94861.92,
+          "drawdown": 0.208735
         }
       ]
     },
@@ -13547,15 +13552,15 @@
       },
       "holdout": {
         "n": 16,
-        "profit_factor": 1.745,
-        "mean_net_pct": 1.873,
-        "win_rate": 0.375
+        "profit_factor": 1.578,
+        "mean_net_pct": 1.512,
+        "win_rate": 0.312
       },
-      "holdout_portfolio_return": 0.2443,
+      "holdout_portfolio_return": 0.2328,
       "holdout_max_drawdown": 0.2695,
       "holdout_benchmarks_price_only": {
-        "INVESTOR_B": 0.9884,
-        "OMXS30": 0.4851
+        "INVESTOR_B": 0.9459,
+        "OMXS30": 0.4621
       },
       "trades": [
         {
@@ -14027,6 +14032,16 @@
           "reason": "gap_stop",
           "net_return": -0.07285957727113035,
           "pnl": -16296.219013859896
+        },
+        {
+          "symbol": "INVESTOR_B",
+          "entry_date": "2026-10-19",
+          "exit_date": "2026-11-20",
+          "entry": 420.70001220703125,
+          "exit": 414.79998779296875,
+          "reason": "gap_stop",
+          "net_return": -0.01599428434324046,
+          "pnl": -3316.7331739458314
         }
       ],
       "equity": [
@@ -26599,6 +26614,11 @@
           "date": "2026-11-19",
           "equity": 206990.39,
           "drawdown": 0.249369
+        },
+        {
+          "date": "2026-11-20",
+          "equity": 204053.17,
+          "drawdown": 0.260021
         }
       ]
     }
