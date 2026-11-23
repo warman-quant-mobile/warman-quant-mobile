@@ -1,17 +1,25 @@
 {
   "schema_version": 2,
-  "generated_at_utc": "2026-11-21T07:40:11.490300+00:00",
-  "source_manifest_utc": "2026-11-21T07:39:40.427297+00:00",
+  "generated_at_utc": "2026-11-23T19:28:20.253211+00:00",
+  "source_manifest_utc": "2026-11-23T19:27:46.776237+00:00",
   "status": "NO_QUALIFIED_CANDIDATES",
   "candidates": [],
   "rejected": {},
   "screening_funnel": {
     "eligible": 30,
-    "directional_breakouts": 3,
-    "positive_reference_reward": 0,
+    "directional_breakouts": 4,
+    "positive_reference_reward": 1,
     "reference_10r": 0
   },
   "diagnostic_watchlist": [
+    {
+      "symbol": "ABB",
+      "direction": "SHORT",
+      "session_date": "2026-11-20",
+      "reference_reward_risk_after_proxy_cost": 3.33,
+      "reason": "BELOW_10R_REFERENCE",
+      "note": "Research diagnostics only; historical reference is not a validated target."
+    },
     {
       "symbol": "USDSEK",
       "direction": "LONG",

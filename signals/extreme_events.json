@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at_utc": "2026-11-21T07:40:32.478362+00:00",
+  "generated_at_utc": "2026-11-23T19:28:21.122012+00:00",
   "status": "RESEARCH_ONLY",
   "parameters": {
     "gap_abs_pct": 3,
@@ -94,6 +94,18 @@
         }
       ]
     },
+    "ABB": {
+      "session_date": "2026-11-20",
+      "events": [
+        {
+          "type": "GAP",
+          "direction": "DOWN",
+          "magnitude_pct": -3.03,
+          "subtype": "GAP_CONTINUATION_WATCH",
+          "note": "Requires independently verified catalyst and actual bid/ask; never infer earnings from price."
+        }
+      ]
+    },
     "NVIDIA": {
       "session_date": "2026-11-20",
       "events": [
@@ -123,39 +135,6 @@
           "type": "EXTREME_DAILY_RETURN",
           "direction": "DOWN",
           "magnitude_pct": -5.93,
-          "note": "Magnitude alone is not an entry signal."
-        }
-      ]
-    },
-    "BITCOIN": {
-      "session_date": "2026-11-20",
-      "events": [
-        {
-          "type": "EXTREME_DAILY_RETURN",
-          "direction": "DOWN",
-          "magnitude_pct": -5.01,
-          "note": "Magnitude alone is not an entry signal."
-        }
-      ]
-    },
-    "ETHEREUM": {
-      "session_date": "2026-11-20",
-      "events": [
-        {
-          "type": "EXTREME_DAILY_RETURN",
-          "direction": "DOWN",
-          "magnitude_pct": -7.73,
-          "note": "Magnitude alone is not an entry signal."
-        }
-      ]
-    },
-    "SOLANA": {
-      "session_date": "2026-11-20",
-      "events": [
-        {
-          "type": "EXTREME_DAILY_RETURN",
-          "direction": "DOWN",
-          "magnitude_pct": -5.91,
           "note": "Magnitude alone is not an entry signal."
         }
       ]
