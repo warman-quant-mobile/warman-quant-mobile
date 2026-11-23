@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-23T07:31:33.651570+00:00",
+  "generated_at": "2026-11-23T20:11:06.349397+00:00",
   "research_only": true,
   "validated_edge": false,
   "roundtrip_cost_bps": 20,
@@ -1563,10 +1563,10 @@
         "win_rate": 0.552
       },
       "holdout": {
-        "n": 36,
-        "mean_net_pct": 0.0268,
-        "profit_factor": 1.032,
-        "win_rate": 0.472
+        "n": 35,
+        "mean_net_pct": 0.0146,
+        "profit_factor": 1.017,
+        "win_rate": 0.457
       },
       "sufficient_sample": true
     },
