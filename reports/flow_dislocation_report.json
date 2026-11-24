@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-23T20:11:06.349397+00:00",
+  "generated_at": "2026-11-24T04:48:37.871032+00:00",
   "research_only": true,
   "validated_edge": false,
   "roundtrip_cost_bps": 20,
@@ -930,10 +930,10 @@
       "family": "relative_reversal",
       "hold_sessions": 3,
       "train": {
-        "n": 18,
-        "mean_net_pct": 0.1185,
-        "profit_factor": 1.057,
-        "win_rate": 0.444
+        "n": 17,
+        "mean_net_pct": 0.1315,
+        "profit_factor": 1.06,
+        "win_rate": 0.471
       },
       "holdout": {
         "n": 8,
@@ -949,10 +949,10 @@
       "family": "relative_reversal",
       "hold_sessions": 5,
       "train": {
-        "n": 18,
-        "mean_net_pct": 1.8738,
-        "profit_factor": 2.638,
-        "win_rate": 0.611
+        "n": 17,
+        "mean_net_pct": 1.8479,
+        "profit_factor": 2.525,
+        "win_rate": 0.588
       },
       "holdout": {
         "n": 7,
@@ -968,10 +968,10 @@
       "family": "relative_reversal",
       "hold_sessions": 10,
       "train": {
-        "n": 16,
-        "mean_net_pct": 0.6689,
-        "profit_factor": 1.184,
-        "win_rate": 0.562
+        "n": 15,
+        "mean_net_pct": 0.7481,
+        "profit_factor": 1.194,
+        "win_rate": 0.6
       },
       "holdout": {
         "n": 6,
@@ -1120,10 +1120,10 @@
       "family": "breakout",
       "hold_sessions": 5,
       "train": {
-        "n": 73,
-        "mean_net_pct": 1.2089,
-        "profit_factor": 1.715,
-        "win_rate": 0.603
+        "n": 74,
+        "mean_net_pct": 1.2176,
+        "profit_factor": 1.73,
+        "win_rate": 0.608
       },
       "holdout": {
         "n": 32,
@@ -1804,10 +1804,10 @@
       "family": "breakout",
       "hold_sessions": 5,
       "train": {
-        "n": 71,
-        "mean_net_pct": 0.1061,
-        "profit_factor": 1.066,
-        "win_rate": 0.521
+        "n": 72,
+        "mean_net_pct": 0.1388,
+        "profit_factor": 1.088,
+        "win_rate": 0.528
       },
       "holdout": {
         "n": 27,
@@ -2032,10 +2032,10 @@
       "family": "breakout",
       "hold_sessions": 5,
       "train": {
-        "n": 77,
-        "mean_net_pct": 0.1962,
-        "profit_factor": 1.181,
-        "win_rate": 0.571
+        "n": 78,
+        "mean_net_pct": 0.2187,
+        "profit_factor": 1.204,
+        "win_rate": 0.577
       },
       "holdout": {
         "n": 29,

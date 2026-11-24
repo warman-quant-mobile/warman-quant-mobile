@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-23T20:11:06.460479+00:00",
+  "generated_at": "2026-11-24T04:48:38.045718+00:00",
   "research_only": true,
   "validated_edge": false,
   "capital": 100000,
@@ -31,7 +31,7 @@
       "holdout_max_drawdown": 0.2087,
       "holdout_benchmarks_price_only": {
         "INVESTOR_B": 0.9316,
-        "OMXS30": 0.444
+        "OMXS30": 0.4832
       },
       "trades": [
         {
@@ -13530,6 +13530,11 @@
           "date": "2026-11-20",
           "equity": 94861.92,
           "drawdown": 0.208735
+        },
+        {
+          "date": "2026-11-23",
+          "equity": 94861.92,
+          "drawdown": 0.208735
         }
       ]
     },
@@ -13550,7 +13555,7 @@
       "holdout_max_drawdown": 0.2695,
       "holdout_benchmarks_price_only": {
         "INVESTOR_B": 0.9316,
-        "OMXS30": 0.444
+        "OMXS30": 0.4832
       },
       "trades": [
         {
@@ -26597,6 +26602,11 @@
         },
         {
           "date": "2026-11-20",
+          "equity": 204053.17,
+          "drawdown": 0.260021
+        },
+        {
+          "date": "2026-11-23",
           "equity": 204053.17,
           "drawdown": 0.260021
         }
