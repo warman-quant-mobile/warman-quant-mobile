@@ -10290,8 +10290,8 @@
     "schema_version": 1,
     "engine": "pattern_geometry_v2",
     "dataset": {
-      "manifest_sha256": "ba5a546fef1b9bc626706920e0dc2bb52ef5cd203be689ae075dcff1e01e2a0e",
-      "manifest_bytes": 27685
+      "manifest_sha256": "bbbf7eb3480997ac00dad2ef9f55ca6416f4f522e47b4c34f4432b18facb893a",
+      "manifest_bytes": 27647
     },
     "model_version": "rules-v2-frozen-2026-09-30",
     "reproducibility": {

@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at_utc": "2026-11-21T07:40:12.111607+00:00",
+  "generated_at_utc": "2026-11-24T10:23:25.726246+00:00",
   "status": "RESEARCH_ONLY",
   "methodology": "251-session warmup; prior-close 20-day breakout plus MA50/MA200; next open; ATR20 x2; 10R gross-risk target; 20bps roundtrip friction; 60 sessions; stop first if same bar; worse gap fill; disjoint 60-session windows per side.",
   "results": {
@@ -51,7 +51,7 @@
         "stops": 15,
         "timeouts": 10,
         "mean_realized_r": 0.318,
-        "maximum_favorable_excursion_r": 7.823,
+        "maximum_favorable_excursion_r": 8.282,
         "note": "Exploratory overlapping-market selection bias; not independently validated."
       },
       "SHORT": {
@@ -88,9 +88,9 @@
       "LONG": {
         "events": 23,
         "targets": 0,
-        "stops": 19,
-        "timeouts": 4,
-        "mean_realized_r": -0.233,
+        "stops": 18,
+        "timeouts": 5,
+        "mean_realized_r": -0.154,
         "maximum_favorable_excursion_r": 8.663,
         "note": "Exploratory overlapping-market selection bias; not independently validated."
       },
@@ -546,11 +546,11 @@
     },
     "BITCOIN": {
       "LONG": {
-        "events": 22,
+        "events": 23,
         "targets": 4,
-        "stops": 15,
+        "stops": 16,
         "timeouts": 3,
-        "mean_realized_r": 1.629,
+        "mean_realized_r": 1.515,
         "maximum_favorable_excursion_r": 11.738,
         "note": "Exploratory overlapping-market selection bias; not independently validated."
       },
@@ -566,11 +566,11 @@
     },
     "ETHEREUM": {
       "LONG": {
-        "events": 17,
+        "events": 18,
         "targets": 0,
-        "stops": 7,
+        "stops": 8,
         "timeouts": 10,
-        "mean_realized_r": 1.349,
+        "mean_realized_r": 1.219,
         "maximum_favorable_excursion_r": 9.948,
         "note": "Exploratory overlapping-market selection bias; not independently validated."
       },
