@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-24T04:48:38.175442+00:00",
+  "generated_at": "2026-11-24T15:51:35.987579+00:00",
   "validated_edge": false,
   "research_only": true,
-  "split_date": "2023-11-17",
+  "split_date": "2023-11-20",
   "symbols": [
     "INVESTOR_B",
     "VOLVO_B",
@@ -19,68 +19,68 @@
   ],
   "variants": {
     "63_absolute": {
-      "holdout_return": 0.1286,
+      "holdout_return": 0.2353,
       "holdout_max_drawdown": 0.3298,
       "benchmarks_price_only": {
-        "INVESTOR_B": 0.9316,
-        "OMXS30": 0.444
+        "INVESTOR_B": 0.9681,
+        "OMXS30": 0.4782
       },
-      "switches_total": 58,
-      "days_in_position_total": 2029,
+      "switches_total": 59,
+      "days_in_position_total": 2050,
       "total_days": 2513
     },
     "63_relative": {
-      "holdout_return": 0.1702,
+      "holdout_return": 0.2502,
       "holdout_max_drawdown": 0.3298,
       "benchmarks_price_only": {
-        "INVESTOR_B": 0.9316,
-        "OMXS30": 0.444
+        "INVESTOR_B": 0.9681,
+        "OMXS30": 0.4782
       },
-      "switches_total": 58,
+      "switches_total": 60,
       "days_in_position_total": 2365,
       "total_days": 2513
     },
     "63_always": {
-      "holdout_return": 0.1287,
+      "holdout_return": 0.2252,
       "holdout_max_drawdown": 0.3298,
       "benchmarks_price_only": {
-        "INVESTOR_B": 0.9316,
-        "OMXS30": 0.444
+        "INVESTOR_B": 0.9681,
+        "OMXS30": 0.4782
       },
-      "switches_total": 57,
+      "switches_total": 59,
       "days_in_position_total": 2449,
       "total_days": 2513
     },
     "126_absolute": {
-      "holdout_return": 0.0643,
+      "holdout_return": 0.0021,
       "holdout_max_drawdown": 0.3298,
       "benchmarks_price_only": {
-        "INVESTOR_B": 0.9316,
-        "OMXS30": 0.444
+        "INVESTOR_B": 0.9681,
+        "OMXS30": 0.4782
       },
-      "switches_total": 41,
-      "days_in_position_total": 2155,
+      "switches_total": 44,
+      "days_in_position_total": 2092,
       "total_days": 2513
     },
     "126_relative": {
-      "holdout_return": 0.0348,
+      "holdout_return": -0.0127,
       "holdout_max_drawdown": 0.3298,
       "benchmarks_price_only": {
-        "INVESTOR_B": 0.9316,
-        "OMXS30": 0.444
+        "INVESTOR_B": 0.9681,
+        "OMXS30": 0.4782
       },
-      "switches_total": 42,
-      "days_in_position_total": 2323,
+      "switches_total": 46,
+      "days_in_position_total": 2302,
       "total_days": 2513
     },
     "126_always": {
-      "holdout_return": 0.0834,
+      "holdout_return": 0.0331,
       "holdout_max_drawdown": 0.3298,
       "benchmarks_price_only": {
-        "INVESTOR_B": 0.9316,
-        "OMXS30": 0.444
+        "INVESTOR_B": 0.9681,
+        "OMXS30": 0.4782
       },
-      "switches_total": 40,
+      "switches_total": 44,
       "days_in_position_total": 2386,
       "total_days": 2513
     }

@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-24T04:48:38.555229+00:00",
+  "generated_at": "2026-11-24T15:51:36.361718+00:00",
   "validated_edge": false,
   "research_only": true,
-  "split_date": "2023-11-16",
+  "split_date": "2023-11-17",
   "method": "Failed downside break and same-day reclaim of previous 10/20-session low, enter next open, stop at signal low, 3R target, 2/5 day timeout, adverse same-bar stop precedence, 20-30bp costs",
   "results": {
     "10d_2d": {
