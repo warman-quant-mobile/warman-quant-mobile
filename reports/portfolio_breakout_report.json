@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-25T00:41:19.264607+00:00",
+  "generated_at": "2026-11-25T09:50:53.791521+00:00",
   "research_only": true,
   "validated_edge": false,
   "capital": 100000,
@@ -10,7 +10,7 @@
     "ABB",
     "OMXS30"
   ],
-  "split_date": "2023-11-20",
+  "split_date": "2023-11-21",
   "rules": "Prior-close 20-day breakout; next-open entry; one long position; strongest breakout; 2/3 ATR trailing stop after close; full cash allocation; gap-aware stops; 20bp total costs",
   "limitations": "Survivorship, no ETP financing, no intraday stop execution proof, selection bias; benchmark excludes dividends; stop parameter comparison is exploratory",
   "results": {
@@ -27,11 +27,11 @@
         "mean_net_pct": 0.69,
         "win_rate": 0.308
       },
-      "holdout_portfolio_return": 0.1694,
+      "holdout_portfolio_return": 0.1734,
       "holdout_max_drawdown": 0.2087,
       "holdout_benchmarks_price_only": {
-        "INVESTOR_B": 0.9681,
-        "OMXS30": 0.4782
+        "INVESTOR_B": 0.9521,
+        "OMXS30": 0.4629
       },
       "trades": [
         {
@@ -966,11 +966,6 @@
         }
       ],
       "equity": [
-        {
-          "date": "2016-11-24",
-          "equity": 100000.0,
-          "drawdown": 0.0
-        },
         {
           "date": "2016-11-25",
           "equity": 100000.0,
@@ -13530,6 +13525,11 @@
           "date": "2026-11-23",
           "equity": 94861.92,
           "drawdown": 0.208735
+        },
+        {
+          "date": "2026-11-24",
+          "equity": 94861.92,
+          "drawdown": 0.208735
         }
       ]
     },
@@ -13546,11 +13546,11 @@
         "mean_net_pct": 1.512,
         "win_rate": 0.312
       },
-      "holdout_portfolio_return": 0.2094,
+      "holdout_portfolio_return": 0.2136,
       "holdout_max_drawdown": 0.2695,
       "holdout_benchmarks_price_only": {
-        "INVESTOR_B": 0.9681,
-        "OMXS30": 0.4782
+        "INVESTOR_B": 0.9521,
+        "OMXS30": 0.4629
       },
       "trades": [
         {
@@ -14035,11 +14035,6 @@
         }
       ],
       "equity": [
-        {
-          "date": "2016-11-24",
-          "equity": 100000.0,
-          "drawdown": 0.0
-        },
         {
           "date": "2016-11-25",
           "equity": 100000.0,
@@ -26597,6 +26592,11 @@
         },
         {
           "date": "2026-11-23",
+          "equity": 204053.17,
+          "drawdown": 0.260021
+        },
+        {
+          "date": "2026-11-24",
           "equity": 204053.17,
           "drawdown": 0.260021
         }
