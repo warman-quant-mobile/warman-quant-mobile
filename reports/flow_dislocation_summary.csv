@@ -33,7 +33,7 @@ ATLAS_A,weekly_close_reversal,3,22,-0.3394,13,0.6486,1.424,False
 ATLAS_A,weekly_close_reversal,5,22,0.7181,13,0.622,1.371,False
 ATLAS_A,weekly_close_reversal,10,20,-0.24,11,-1.1898,0.705,False
 ATLAS_A,breakout,3,78,-0.0028,29,-0.2723,0.703,True
-ATLAS_A,breakout,5,68,-0.3704,25,0.1176,1.131,True
+ATLAS_A,breakout,5,69,-0.3201,25,0.1176,1.131,True
 ATLAS_A,breakout,10,52,0.1902,20,0.4362,1.332,True
 ABB,relative_reversal,3,1,0.0472,5,-0.9818,0.607,False
 ABB,relative_reversal,5,1,-0.4119,5,-1.2856,0.525,False

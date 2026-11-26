@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-26T02:50:44.024668+00:00",
+  "generated_at": "2026-11-26T12:25:08.349394+00:00",
   "research_only": true,
   "validated_edge": false,
   "capital": 100000,
@@ -10,7 +10,7 @@
     "ABB",
     "OMXS30"
   ],
-  "split_date": "2023-11-21",
+  "split_date": "2023-11-22",
   "rules": "Prior-close 20-day breakout; next-open entry; one long position; strongest breakout; 2/3 ATR trailing stop after close; full cash allocation; gap-aware stops; 20bp total costs",
   "limitations": "Survivorship, no ETP financing, no intraday stop execution proof, selection bias; benchmark excludes dividends; stop parameter comparison is exploratory",
   "results": {
@@ -27,11 +27,11 @@
         "mean_net_pct": 0.69,
         "win_rate": 0.308
       },
-      "holdout_portfolio_return": 0.1734,
+      "holdout_portfolio_return": 0.1636,
       "holdout_max_drawdown": 0.2087,
       "holdout_benchmarks_price_only": {
-        "INVESTOR_B": 0.9521,
-        "OMXS30": 0.4511
+        "INVESTOR_B": 0.9288,
+        "OMXS30": 0.4405
       },
       "trades": [
         {
@@ -966,11 +966,6 @@
         }
       ],
       "equity": [
-        {
-          "date": "2016-11-25",
-          "equity": 100000.0,
-          "drawdown": 0.0
-        },
         {
           "date": "2016-11-28",
           "equity": 100000.0,
@@ -13551,11 +13546,11 @@
         "mean_net_pct": 1.512,
         "win_rate": 0.312
       },
-      "holdout_portfolio_return": 0.2136,
+      "holdout_portfolio_return": 0.2035,
       "holdout_max_drawdown": 0.2695,
       "holdout_benchmarks_price_only": {
-        "INVESTOR_B": 0.9521,
-        "OMXS30": 0.4511
+        "INVESTOR_B": 0.9288,
+        "OMXS30": 0.4405
       },
       "trades": [
         {
@@ -14040,11 +14035,6 @@
         }
       ],
       "equity": [
-        {
-          "date": "2016-11-25",
-          "equity": 100000.0,
-          "drawdown": 0.0
-        },
         {
           "date": "2016-11-28",
           "equity": 100000.0,
