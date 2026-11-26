@@ -1,6 +1,6 @@
 {
   "status": "RESEARCH_WATCH_ONLY",
-  "generated_at_utc": "2026-11-25T18:10:44.427258+00:00",
+  "generated_at_utc": "2026-11-26T08:58:09.849364+00:00",
   "observations": [
     {
       "symbol": "ATLAS_A",
@@ -13,13 +13,13 @@
       "status": "INTRADAY_WATCH_NOT_ORDER"
     },
     {
-      "symbol": "META",
-      "bar_start_utc": "2026-11-25T17:30:00+00:00",
+      "symbol": "APPLE",
+      "bar_start_utc": "2026-11-25T20:30:00+00:00",
       "events": [
         "FAILED_HIGH_20H"
       ],
-      "gap_pct": 0.01,
-      "hourly_move_pct": 1.41,
+      "gap_pct": 0.0,
+      "hourly_move_pct": 0.31,
       "status": "INTRADAY_WATCH_NOT_ORDER"
     }
   ],

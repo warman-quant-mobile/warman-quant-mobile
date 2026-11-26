@@ -1439,8 +1439,8 @@
     "schema_version": 1,
     "engine": "weekly_pattern_mtf_v2",
     "dataset": {
-      "manifest_sha256": "62ac68b2e52d0011cefb5a08c54ad841bc03d7ed04c6114cd4468ba842f4067a",
-      "manifest_bytes": 27639
+      "manifest_sha256": "b36b90c269ba82d4d77729bd653972c67f7ea0353093fd6638049019a3bf70d1",
+      "manifest_bytes": 27635
     },
     "model_version": "rules-v2-corrected-2026-09-30",
     "reproducibility": {

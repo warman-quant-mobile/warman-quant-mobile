@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at_utc": "2026-11-25T09:04:51.261231+00:00",
+  "generated_at_utc": "2026-11-26T08:52:33.964586+00:00",
   "status": "EXPLORATORY_NOT_VALIDATED",
   "methodology": "Prior completed bar; next open; 2ATR stop; 10R target; 20bps proxy friction; 60 sessions; conservative gaps; nonoverlapping events per strategy.",
   "results": {
@@ -526,11 +526,11 @@
         "insufficient_sample": true
       },
       "SHOCK_CONTINUATION": {
-        "events": 34,
+        "events": 35,
         "targets_10r": 3,
-        "stops": 18,
+        "stops": 19,
         "timeouts": 13,
-        "mean_realized_r": 0.668,
+        "mean_realized_r": 0.62,
         "insufficient_sample": false
       },
       "SHOCK_FADE": {
