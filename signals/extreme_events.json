@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at_utc": "2026-11-26T17:53:34.148435+00:00",
+  "generated_at_utc": "2026-11-27T09:01:06.110388+00:00",
   "status": "RESEARCH_ONLY",
   "parameters": {
     "gap_abs_pct": 3,
@@ -21,19 +21,19 @@
       ]
     },
     "VIX": {
-      "session_date": "2026-11-25",
+      "session_date": "2026-11-26",
       "events": [
         {
           "type": "GAP",
-          "direction": "UP",
-          "magnitude_pct": 6.83,
+          "direction": "DOWN",
+          "magnitude_pct": -3.92,
           "subtype": "GAP_CONTINUATION_WATCH",
           "note": "Requires independently verified catalyst and actual bid/ask; never infer earnings from price."
         },
         {
           "type": "EXTREME_DAILY_RETURN",
-          "direction": "UP",
-          "magnitude_pct": 7.32,
+          "direction": "DOWN",
+          "magnitude_pct": -5.27,
           "note": "Magnitude alone is not an entry signal."
         }
       ]
@@ -53,6 +53,30 @@
           "direction": "UP",
           "magnitude_pct": 6.54,
           "note": "Magnitude alone is not an entry signal."
+        }
+      ]
+    },
+    "ATLAS_A": {
+      "session_date": "2026-11-26",
+      "events": [
+        {
+          "type": "GAP",
+          "direction": "UP",
+          "magnitude_pct": 3.18,
+          "subtype": "GAP_FADE_WATCH",
+          "note": "Requires independently verified catalyst and actual bid/ask; never infer earnings from price."
+        }
+      ]
+    },
+    "ABB": {
+      "session_date": "2026-11-26",
+      "events": [
+        {
+          "type": "GAP",
+          "direction": "UP",
+          "magnitude_pct": 3.49,
+          "subtype": "GAP_FADE_WATCH",
+          "note": "Requires independently verified catalyst and actual bid/ask; never infer earnings from price."
         }
       ]
     },

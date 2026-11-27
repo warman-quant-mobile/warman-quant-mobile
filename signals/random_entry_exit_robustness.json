@@ -27,137 +27,137 @@
     "stop_atr": 1.5,
     "horizon": 120
   },
-  "final_test_start": "2024-09-25",
+  "final_test_start": "2024-09-26",
   "robustness": {
     "20": {
       "trail20": {
-        "n": 3194,
-        "pooled_mean_r": 0.076,
+        "n": 3190,
+        "pooled_mean_r": 0.093,
         "seed_mean_r": [
-          -0.159,
-          0.221,
-          0.211,
-          0.128,
-          0.044,
-          0.11,
-          -0.033,
-          0.009,
-          -0.007,
-          0.235
-        ],
-        "positive_seeds": 7,
-        "min_seed": -0.159,
-        "max_seed": 0.235
-      },
-      "be2_trail20": {
-        "n": 3194,
-        "pooled_mean_r": 0.079,
-        "seed_mean_r": [
-          -0.174,
+          -0.066,
           0.232,
-          0.206,
-          0.137,
-          0.092,
-          0.095,
-          -0.034,
-          0.015,
+          0.233,
+          0.138,
+          0.045,
+          0.106,
+          -0.009,
           0.009,
-          0.215
+          0.009,
+          0.231
         ],
         "positive_seeds": 8,
-        "min_seed": -0.174,
-        "max_seed": 0.232
+        "min_seed": -0.066,
+        "max_seed": 0.233
+      },
+      "be2_trail20": {
+        "n": 3190,
+        "pooled_mean_r": 0.093,
+        "seed_mean_r": [
+          -0.1,
+          0.244,
+          0.227,
+          0.146,
+          0.092,
+          0.091,
+          -0.01,
+          0.015,
+          0.019,
+          0.211
+        ],
+        "positive_seeds": 8,
+        "min_seed": -0.1,
+        "max_seed": 0.244
       }
     },
     "50": {
       "trail20": {
-        "n": 3194,
-        "pooled_mean_r": -0.01,
+        "n": 3190,
+        "pooled_mean_r": 0.006,
         "seed_mean_r": [
-          -0.223,
-          0.119,
-          0.117,
-          0.035,
-          -0.041,
-          0.028,
-          -0.111,
-          -0.065,
+          -0.138,
+          0.129,
+          0.136,
+          0.044,
+          -0.039,
+          0.025,
           -0.089,
-          0.135
+          -0.065,
+          -0.074,
+          0.132
         ],
         "positive_seeds": 5,
-        "min_seed": -0.223,
-        "max_seed": 0.135
+        "min_seed": -0.138,
+        "max_seed": 0.136
       },
       "be2_trail20": {
-        "n": 3194,
-        "pooled_mean_r": -0.009,
+        "n": 3190,
+        "pooled_mean_r": 0.005,
         "seed_mean_r": [
-          -0.215,
-          0.123,
-          0.124,
-          0.032,
+          -0.147,
+          0.134,
+          0.142,
+          0.041,
           -0.016,
-          0.009,
-          -0.112,
+          0.006,
+          -0.09,
           -0.07,
-          -0.088,
-          0.126
+          -0.076,
+          0.123
         ],
         "positive_seeds": 5,
-        "min_seed": -0.215,
-        "max_seed": 0.126
+        "min_seed": -0.147,
+        "max_seed": 0.142
       }
     },
     "100": {
       "trail20": {
-        "n": 3194,
-        "pooled_mean_r": -0.122,
+        "n": 3190,
+        "pooled_mean_r": -0.109,
         "seed_mean_r": [
-          -0.309,
-          -0.013,
-          -0.007,
-          -0.087,
-          -0.153,
-          -0.082,
-          -0.213,
+          -0.234,
+          -0.006,
+          0.007,
+          -0.079,
+          -0.15,
+          -0.085,
+          -0.194,
           -0.164,
-          -0.197,
-          0.005
+          -0.184,
+          0.001
         ],
-        "positive_seeds": 1,
-        "min_seed": -0.309,
-        "max_seed": 0.005
+        "positive_seeds": 2,
+        "min_seed": -0.234,
+        "max_seed": 0.007
       },
       "be2_trail20": {
-        "n": 3194,
-        "pooled_mean_r": -0.119,
+        "n": 3190,
+        "pooled_mean_r": -0.107,
         "seed_mean_r": [
-          -0.306,
-          -0.015,
-          0.0,
-          -0.095,
-          -0.137,
-          -0.089,
-          -0.196,
+          -0.247,
+          -0.006,
+          0.015,
+          -0.087,
+          -0.136,
+          -0.092,
+          -0.176,
           -0.157,
-          -0.192,
-          -0.005
+          -0.18,
+          -0.008
         ],
-        "positive_seeds": 0,
-        "min_seed": -0.306,
-        "max_seed": 0.0
+        "positive_seeds": 1,
+        "min_seed": -0.247,
+        "max_seed": 0.015
       }
     }
   },
   "side_attribution_20bps": {
     "trail20": {
-      "LONG": 0.531,
-      "SHORT": -0.394
+      "LONG": 0.559,
+      "SHORT": -0.387
     },
     "be2_trail20": {
-      "LONG": 0.53,
-      "SHORT": -0.385
+      "LONG": 0.556,
+      "SHORT": -0.382
     }
   },
   "symbol_attribution_20bps": {
@@ -167,14 +167,14 @@
       "SILVER_FUT": 1.674,
       "WTI_FUT": -0.269,
       "BRENT_FUT": 0.042,
-      "INVESTOR_B": -0.288,
-      "VOLVO_B": 0.279,
-      "ATLAS_A": -0.31,
+      "INVESTOR_B": -0.256,
+      "VOLVO_B": 0.273,
+      "ATLAS_A": -0.249,
       "ABB": -0.144,
       "NVIDIA": -0.136,
-      "MICROSOFT": 0.073,
-      "APPLE": -0.247,
-      "TESLA": 0.363,
+      "MICROSOFT": 0.113,
+      "APPLE": -0.147,
+      "TESLA": 0.389,
       "AMAZON": -0.183,
       "META": -0.484
     },
@@ -184,14 +184,14 @@
       "SILVER_FUT": 1.693,
       "WTI_FUT": -0.263,
       "BRENT_FUT": 0.074,
-      "INVESTOR_B": -0.262,
-      "VOLVO_B": 0.256,
-      "ATLAS_A": -0.301,
+      "INVESTOR_B": -0.228,
+      "VOLVO_B": 0.249,
+      "ATLAS_A": -0.25,
       "ABB": -0.109,
       "NVIDIA": -0.098,
-      "MICROSOFT": 0.022,
-      "APPLE": -0.221,
-      "TESLA": 0.314,
+      "MICROSOFT": 0.034,
+      "APPLE": -0.122,
+      "TESLA": 0.338,
       "AMAZON": -0.2,
       "META": -0.44
     }
@@ -201,8 +201,8 @@
     "schema_version": 1,
     "engine": "random_entry_exit_robustness",
     "dataset": {
-      "manifest_sha256": "b36b90c269ba82d4d77729bd653972c67f7ea0353093fd6638049019a3bf70d1",
-      "manifest_bytes": 27635
+      "manifest_sha256": "bb500eddc1e765405cbd1742c67167d1dd18a529fe24a3fbc526112bfb2ee5d0",
+      "manifest_bytes": 27586
     },
     "model_version": "robustness-v1-frozen-2026-09-30",
     "reproducibility": {

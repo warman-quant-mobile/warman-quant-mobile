@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at_utc": "2026-11-26T08:52:33.033349+00:00",
+  "generated_at_utc": "2026-11-27T09:01:05.652041+00:00",
   "status": "RESEARCH_ONLY",
   "crash_threshold_pct": -20,
   "results": {
@@ -46,12 +46,12 @@
     },
     "VIX": {
       "stage": "CRASH_ONLY_NO_ENTRY",
-      "drawdown_pct": -21.18,
+      "drawdown_pct": -25.33,
       "reclaim": false,
-      "proxy_close": 28.290001,
-      "invalidation_reference": 24.517,
+      "proxy_close": 26.799999,
+      "invalidation_reference": 23.58275,
       "former_peak_reference": 35.889999,
-      "recovery_reference_r_after_proxy_cost": 1.97,
+      "recovery_reference_r_after_proxy_cost": 2.76,
       "note": "Historical peak is NOT a forecast; require independent thesis, confirmation and actual product checks."
     },
     "OVX": {
@@ -76,12 +76,12 @@
     },
     "ABB": {
       "stage": "CRASH_ONLY_NO_ENTRY",
-      "drawdown_pct": -25.7,
+      "drawdown_pct": -24.21,
       "reclaim": false,
-      "proxy_close": 784.200012,
-      "invalidation_reference": 770.459987,
+      "proxy_close": 800.0,
+      "invalidation_reference": 782.124986,
       "former_peak_reference": 1055.5,
-      "recovery_reference_r_after_proxy_cost": 17.62,
+      "recovery_reference_r_after_proxy_cost": 13.04,
       "note": "Historical peak is NOT a forecast; require independent thesis, confirmation and actual product checks."
     },
     "NVIDIA": {
@@ -116,32 +116,32 @@
     },
     "BITCOIN": {
       "stage": "CRASH_ONLY_NO_ENTRY",
-      "drawdown_pct": -30.28,
+      "drawdown_pct": -30.15,
       "reclaim": false,
-      "proxy_close": 60378.199219,
-      "invalidation_reference": 55764.525098,
+      "proxy_close": 60494.710938,
+      "invalidation_reference": 58398.197754,
       "former_peak_reference": 86602.914062,
-      "recovery_reference_r_after_proxy_cost": 5.51,
+      "recovery_reference_r_after_proxy_cost": 11.72,
       "note": "Historical peak is NOT a forecast; require independent thesis, confirmation and actual product checks."
     },
     "ETHEREUM": {
       "stage": "CRASH_ONLY_NO_ENTRY",
-      "drawdown_pct": -39.1,
+      "drawdown_pct": -39.21,
       "reclaim": false,
-      "proxy_close": 1690.769043,
-      "invalidation_reference": 1554.759906,
+      "proxy_close": 1687.741821,
+      "invalidation_reference": 1614.404572,
       "former_peak_reference": 2776.468262,
-      "recovery_reference_r_after_proxy_cost": 7.76,
+      "recovery_reference_r_after_proxy_cost": 14.15,
       "note": "Historical peak is NOT a forecast; require independent thesis, confirmation and actual product checks."
     },
     "SOLANA": {
       "stage": "CRASH_ONLY_NO_ENTRY",
-      "drawdown_pct": -42.33,
+      "drawdown_pct": -41.89,
       "reclaim": false,
-      "proxy_close": 70.393242,
-      "invalidation_reference": 63.658089,
+      "proxy_close": 70.932762,
+      "invalidation_reference": 67.697635,
       "former_peak_reference": 122.058701,
-      "recovery_reference_r_after_proxy_cost": 7.49,
+      "recovery_reference_r_after_proxy_cost": 15.1,
       "note": "Historical peak is NOT a forecast; require independent thesis, confirmation and actual product checks."
     }
   },

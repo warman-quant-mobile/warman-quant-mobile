@@ -16,19 +16,19 @@
     ]
   },
   "split_dates": {
-    "validation_start": "2023-03-27",
-    "final_test_start": "2024-11-12"
+    "validation_start": "2023-03-28",
+    "final_test_start": "2024-11-13"
   },
   "results": {
     "fixed5": {
       "train": {
-        "n": 996,
-        "mean_r": -0.01,
+        "n": 997,
+        "mean_r": -0.011,
         "median_r": -1.0,
         "win_rate": 0.186,
         "loss_rate": 0.814,
         "hit3_mfe": 0.257,
-        "hit5_mfe": 0.156,
+        "hit5_mfe": 0.155,
         "hit10_mfe": 0.0,
         "p10_r": -1.052,
         "p90_r": 4.933
@@ -60,16 +60,16 @@
     },
     "fixed10": {
       "train": {
-        "n": 996,
-        "mean_r": 0.066,
+        "n": 997,
+        "mean_r": 0.065,
         "median_r": -1.0,
-        "win_rate": 0.16,
-        "loss_rate": 0.84,
+        "win_rate": 0.159,
+        "loss_rate": 0.841,
         "hit3_mfe": 0.257,
-        "hit5_mfe": 0.156,
+        "hit5_mfe": 0.155,
         "hit10_mfe": 0.049,
         "p10_r": -1.063,
-        "p90_r": 3.914
+        "p90_r": 3.906
       },
       "validation": {
         "n": 312,
@@ -98,8 +98,8 @@
     },
     "trail20": {
       "train": {
-        "n": 996,
-        "mean_r": 0.05,
+        "n": 997,
+        "mean_r": 0.049,
         "median_r": -1.0,
         "win_rate": 0.265,
         "loss_rate": 0.735,
@@ -107,7 +107,7 @@
         "hit5_mfe": 0.112,
         "hit10_mfe": 0.034,
         "p10_r": -1.005,
-        "p90_r": 2.535
+        "p90_r": 2.528
       },
       "validation": {
         "n": 312,
@@ -136,8 +136,8 @@
     },
     "be2_trail20": {
       "train": {
-        "n": 996,
-        "mean_r": 0.073,
+        "n": 997,
+        "mean_r": 0.072,
         "median_r": -1.0,
         "win_rate": 0.261,
         "loss_rate": 0.739,
@@ -145,7 +145,7 @@
         "hit5_mfe": 0.11,
         "hit10_mfe": 0.033,
         "p10_r": -1.001,
-        "p90_r": 2.491
+        "p90_r": 2.49
       },
       "validation": {
         "n": 312,
@@ -174,8 +174,8 @@
     },
     "partial3_trail20": {
       "train": {
-        "n": 996,
-        "mean_r": 0.028,
+        "n": 997,
+        "mean_r": 0.027,
         "median_r": -1.0,
         "win_rate": 0.282,
         "loss_rate": 0.718,
@@ -183,7 +183,7 @@
         "hit5_mfe": 0.112,
         "hit10_mfe": 0.034,
         "p10_r": -1.003,
-        "p90_r": 2.768
+        "p90_r": 2.764
       },
       "validation": {
         "n": 312,
@@ -216,8 +216,8 @@
     "schema_version": 1,
     "engine": "random_entry_exit_lab",
     "dataset": {
-      "manifest_sha256": "b36b90c269ba82d4d77729bd653972c67f7ea0353093fd6638049019a3bf70d1",
-      "manifest_bytes": 27635
+      "manifest_sha256": "bb500eddc1e765405cbd1742c67167d1dd18a529fe24a3fbc526112bfb2ee5d0",
+      "manifest_bytes": 27586
     },
     "model_version": "exit-v1-frozen-2026-09-30",
     "reproducibility": {

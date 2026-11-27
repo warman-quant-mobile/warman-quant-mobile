@@ -1,45 +1,35 @@
 {
   "status": "RESEARCH_WATCH_ONLY",
-  "generated_at_utc": "2026-11-26T17:53:35.866783+00:00",
+  "generated_at_utc": "2026-11-27T09:06:44.176906+00:00",
   "observations": [
     {
       "symbol": "OMXS30",
-      "bar_start_utc": "2026-11-26T16:00:00+00:00",
+      "bar_start_utc": "2026-11-27T08:00:00+00:00",
       "events": [
-        "FAILED_HIGH_20H"
+        "HOURLY_SHOCK_2_5ATR"
       ],
-      "gap_pct": -0.0,
-      "hourly_move_pct": -0.28,
-      "status": "INTRADAY_WATCH_NOT_ORDER"
-    },
-    {
-      "symbol": "DAX",
-      "bar_start_utc": "2026-11-26T16:00:00+00:00",
-      "events": [
-        "FAILED_HIGH_20H"
-      ],
-      "gap_pct": -0.0,
-      "hourly_move_pct": -0.19,
+      "gap_pct": 0.98,
+      "hourly_move_pct": 1.3,
       "status": "INTRADAY_WATCH_NOT_ORDER"
     },
     {
       "symbol": "VIX",
-      "bar_start_utc": "2026-11-26T16:00:00+00:00",
+      "bar_start_utc": "2026-11-27T08:00:00+00:00",
       "events": [
-        "FAILED_LOW_20H"
+        "GAP_3PCT"
       ],
-      "gap_pct": -0.08,
-      "hourly_move_pct": 0.68,
+      "gap_pct": -7.13,
+      "hourly_move_pct": -7.65,
       "status": "INTRADAY_WATCH_NOT_ORDER"
     },
     {
-      "symbol": "VOLVO_B",
-      "bar_start_utc": "2026-11-26T16:00:00+00:00",
+      "symbol": "ATLAS_A",
+      "bar_start_utc": "2026-11-27T08:00:00+00:00",
       "events": [
-        "FAILED_HIGH_20H"
+        "HOURLY_SHOCK_2_5ATR"
       ],
-      "gap_pct": -0.03,
-      "hourly_move_pct": -0.06,
+      "gap_pct": 1.83,
+      "hourly_move_pct": 2.46,
       "status": "INTRADAY_WATCH_NOT_ORDER"
     },
     {
@@ -51,8 +41,31 @@
       "gap_pct": 0.0,
       "hourly_move_pct": 0.31,
       "status": "INTRADAY_WATCH_NOT_ORDER"
+    },
+    {
+      "symbol": "BITCOIN",
+      "bar_start_utc": "2026-11-27T08:00:00+00:00",
+      "events": [
+        "FAILED_HIGH_20H"
+      ],
+      "gap_pct": -0.05,
+      "hourly_move_pct": 0.1,
+      "status": "INTRADAY_WATCH_NOT_ORDER"
+    },
+    {
+      "symbol": "SOLANA",
+      "bar_start_utc": "2026-11-27T08:00:00+00:00",
+      "events": [
+        "FAILED_HIGH_20H"
+      ],
+      "gap_pct": -0.07,
+      "hourly_move_pct": 0.04,
+      "status": "INTRADAY_WATCH_NOT_ORDER"
     }
   ],
-  "excluded": {},
+  "excluded": {
+    "OVX": "STALE_HOURLY",
+    "GVZ": "STALE_HOURLY"
+  },
   "note": "Hourly data may be delayed; market sessions vary. Events require a separate validated 10R target and executable instrument quote before proposal."
 }
