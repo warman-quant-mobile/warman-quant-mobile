@@ -32,7 +32,7 @@ ATLAS_A,relative_momentum,10,3,0.2686,1,6.915,,False
 ATLAS_A,weekly_close_reversal,3,22,-0.3394,13,0.6486,1.424,False
 ATLAS_A,weekly_close_reversal,5,22,0.7181,13,0.622,1.371,False
 ATLAS_A,weekly_close_reversal,10,20,-0.24,11,-1.1898,0.705,False
-ATLAS_A,breakout,3,78,-0.0028,29,-0.2723,0.703,True
+ATLAS_A,breakout,3,78,-0.0028,28,-0.2198,0.753,True
 ATLAS_A,breakout,5,69,-0.3201,25,0.1176,1.131,True
 ATLAS_A,breakout,10,52,0.1902,20,0.4362,1.332,True
 ABB,relative_reversal,3,1,0.0472,5,-0.9818,0.607,False
@@ -45,7 +45,7 @@ ABB,weekly_close_reversal,3,12,0.6138,9,0.1934,1.101,False
 ABB,weekly_close_reversal,5,12,0.6001,9,-0.5484,0.81,False
 ABB,weekly_close_reversal,10,12,2.7913,7,-1.6374,0.472,False
 ABB,breakout,3,86,-0.0517,42,-0.2016,0.787,True
-ABB,breakout,5,76,-0.0044,39,-0.349,0.714,True
+ABB,breakout,5,77,0.0035,39,-0.349,0.714,True
 ABB,breakout,10,55,0.5634,28,0.8764,1.747,True
 NVIDIA,relative_reversal,3,17,0.1315,8,-3.2527,0.175,False
 NVIDIA,relative_reversal,5,17,1.8479,7,-2.117,0.463,False

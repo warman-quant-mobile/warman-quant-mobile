@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-27T05:01:37.103696+00:00",
+  "generated_at": "2026-11-27T15:01:13.222548+00:00",
   "research_only": true,
   "validated_edge": false,
   "capital": 100000,
@@ -30,7 +30,7 @@
       "holdout_portfolio_return": 0.1636,
       "holdout_max_drawdown": 0.2087,
       "holdout_benchmarks_price_only": {
-        "INVESTOR_B": 0.9288,
+        "INVESTOR_B": 0.9544,
         "OMXS30": 0.4691
       },
       "trades": [
@@ -13554,7 +13554,7 @@
       "holdout_portfolio_return": 0.2035,
       "holdout_max_drawdown": 0.2695,
       "holdout_benchmarks_price_only": {
-        "INVESTOR_B": 0.9288,
+        "INVESTOR_B": 0.9544,
         "OMXS30": 0.4691
       },
       "trades": [
