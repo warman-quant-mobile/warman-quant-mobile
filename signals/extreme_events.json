@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at_utc": "2026-11-27T17:39:02.344068+00:00",
+  "generated_at_utc": "2026-11-28T08:24:03.976313+00:00",
   "status": "RESEARCH_ONLY",
   "parameters": {
     "gap_abs_pct": 3,
@@ -8,50 +8,56 @@
     "daily_range_atr": 2.5
   },
   "observations": {
-    "NASDAQ100": {
-      "session_date": "2026-11-25",
+    "SILVER_FUT": {
+      "session_date": "2026-11-27",
       "events": [
         {
           "type": "GAP",
-          "direction": "DOWN",
-          "magnitude_pct": -3.45,
-          "subtype": "GAP_FADE_WATCH",
+          "direction": "UP",
+          "magnitude_pct": 3.05,
+          "subtype": "GAP_CONTINUATION_WATCH",
           "note": "Requires independently verified catalyst and actual bid/ask; never infer earnings from price."
+        },
+        {
+          "type": "EXTREME_DAILY_RETURN",
+          "direction": "UP",
+          "magnitude_pct": 7.78,
+          "note": "Magnitude alone is not an entry signal."
         }
       ]
     },
     "VIX": {
-      "session_date": "2026-11-26",
+      "session_date": "2026-11-27",
       "events": [
         {
           "type": "GAP",
           "direction": "DOWN",
-          "magnitude_pct": -3.92,
+          "magnitude_pct": -7.13,
           "subtype": "GAP_CONTINUATION_WATCH",
           "note": "Requires independently verified catalyst and actual bid/ask; never infer earnings from price."
         },
         {
           "type": "EXTREME_DAILY_RETURN",
           "direction": "DOWN",
-          "magnitude_pct": -5.27,
+          "magnitude_pct": -11.16,
           "note": "Magnitude alone is not an entry signal."
         }
       ]
     },
     "GVZ": {
-      "session_date": "2026-11-25",
+      "session_date": "2026-11-27",
       "events": [
         {
           "type": "GAP",
-          "direction": "UP",
-          "magnitude_pct": 12.87,
-          "subtype": "GAP_FADE_WATCH",
+          "direction": "DOWN",
+          "magnitude_pct": -8.34,
+          "subtype": "GAP_CONTINUATION_WATCH",
           "note": "Requires independently verified catalyst and actual bid/ask; never infer earnings from price."
         },
         {
           "type": "EXTREME_DAILY_RETURN",
-          "direction": "UP",
-          "magnitude_pct": 6.54,
+          "direction": "DOWN",
+          "magnitude_pct": -11.33,
           "note": "Magnitude alone is not an entry signal."
         }
       ]
@@ -80,38 +86,25 @@
         }
       ]
     },
-    "NVIDIA": {
-      "session_date": "2026-11-25",
-      "events": [
-        {
-          "type": "GAP",
-          "direction": "DOWN",
-          "magnitude_pct": -7.29,
-          "subtype": "GAP_FADE_WATCH",
-          "note": "Requires independently verified catalyst and actual bid/ask; never infer earnings from price."
-        }
-      ]
-    },
     "TESLA": {
-      "session_date": "2026-11-25",
+      "session_date": "2026-11-27",
       "events": [
         {
-          "type": "GAP",
-          "direction": "DOWN",
-          "magnitude_pct": -3.68,
-          "subtype": "GAP_FADE_WATCH",
-          "note": "Requires independently verified catalyst and actual bid/ask; never infer earnings from price."
+          "type": "EXTREME_DAILY_RETURN",
+          "direction": "UP",
+          "magnitude_pct": 5.22,
+          "note": "Magnitude alone is not an entry signal."
         }
       ]
     },
-    "AMAZON": {
-      "session_date": "2026-11-25",
+    "META": {
+      "session_date": "2026-11-27",
       "events": [
         {
           "type": "GAP",
-          "direction": "DOWN",
-          "magnitude_pct": -3.63,
-          "subtype": "GAP_FADE_WATCH",
+          "direction": "UP",
+          "magnitude_pct": 3.03,
+          "subtype": "GAP_CONTINUATION_WATCH",
           "note": "Requires independently verified catalyst and actual bid/ask; never infer earnings from price."
         }
       ]

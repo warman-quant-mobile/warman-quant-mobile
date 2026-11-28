@@ -1,22 +1,22 @@
 {
   "schema_version": 2,
-  "generated_at_utc": "2026-11-27T17:39:01.715242+00:00",
-  "source_manifest_utc": "2026-11-27T17:38:30.500698+00:00",
+  "generated_at_utc": "2026-11-28T08:23:44.062379+00:00",
+  "source_manifest_utc": "2026-11-28T08:23:11.729792+00:00",
   "status": "NO_QUALIFIED_CANDIDATES",
   "candidates": [],
   "rejected": {},
   "screening_funnel": {
     "eligible": 30,
     "directional_breakouts": 1,
-    "positive_reference_reward": 0,
+    "positive_reference_reward": 1,
     "reference_10r": 0
   },
   "diagnostic_watchlist": [
     {
-      "symbol": "SILVER_FUT",
+      "symbol": "OVX",
       "direction": "SHORT",
-      "session_date": "2026-11-25",
-      "reference_reward_risk_after_proxy_cost": -2.61,
+      "session_date": "2026-11-27",
+      "reference_reward_risk_after_proxy_cost": 3.15,
       "reason": "BELOW_10R_REFERENCE",
       "note": "Research diagnostics only; historical reference is not a validated target."
     }

@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at_utc": "2026-11-27T09:00:47.226883+00:00",
+  "generated_at_utc": "2026-11-28T08:23:44.762643+00:00",
   "status": "RESEARCH_ONLY",
   "methodology": "251-session warmup; prior-close 20-day breakout plus MA50/MA200; next open; ATR20 x2; 10R gross-risk target; 20bps roundtrip friction; 60 sessions; stop first if same bar; worse gap fill; disjoint 60-session windows per side.",
   "results": {
@@ -466,11 +466,11 @@
     },
     "APPLE": {
       "LONG": {
-        "events": 21,
+        "events": 22,
         "targets": 0,
-        "stops": 12,
+        "stops": 13,
         "timeouts": 9,
-        "mean_realized_r": 1.193,
+        "mean_realized_r": 1.093,
         "maximum_favorable_excursion_r": 7.686,
         "note": "Exploratory overlapping-market selection bias; not independently validated."
       },

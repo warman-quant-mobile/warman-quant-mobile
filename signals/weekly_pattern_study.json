@@ -61,7 +61,7 @@
       },
       "final_test": {
         "n": 9,
-        "mean_r": 1.125,
+        "mean_r": 0.773,
         "median_r": -1.0,
         "stops": 5,
         "measured_target_hits": 1,
@@ -1379,7 +1379,7 @@
       "r2_low": 0.881,
       "weekly": {
         "risk": 8.2887,
-        "realized_r": 3.174,
+        "realized_r": 1.582,
         "mfe_r": 5.364,
         "mae_r": 0.934,
         "fixed_r_before_stop": {
@@ -1418,7 +1418,7 @@
       "r2_low": 0.765,
       "weekly": {
         "risk": 1073.71458,
-        "realized_r": 4.146,
+        "realized_r": 2.565,
         "mfe_r": 4.256,
         "mae_r": 0.417,
         "fixed_r_before_stop": {
@@ -1439,8 +1439,8 @@
     "schema_version": 1,
     "engine": "weekly_pattern_mtf_v2",
     "dataset": {
-      "manifest_sha256": "bb500eddc1e765405cbd1742c67167d1dd18a529fe24a3fbc526112bfb2ee5d0",
-      "manifest_bytes": 27586
+      "manifest_sha256": "440ceaf8fecad01825d99d5428e7ebd8a0a26bf728282e40b7c0bacfdfcedec3",
+      "manifest_bytes": 27688
     },
     "model_version": "rules-v2-corrected-2026-09-30",
     "reproducibility": {
